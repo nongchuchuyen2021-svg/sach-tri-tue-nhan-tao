@@ -35,7 +35,7 @@
   const closeScanModal = document.getElementById("closeScanModal");
 
   // State
-  const ASSET_VER = "20261126-v10";
+  const ASSET_VER = "20261126-v11";
   let books = [];
   let currentBookId = "lop-10";
   let currentBookMeta = null;
