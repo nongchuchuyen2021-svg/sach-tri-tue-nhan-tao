@@ -38,11 +38,11 @@ Chỉ sau vài giây. AI đã tạo ra một bức tranh rất đẹp. Tuy nhiê
 <p class="lesson-p">tranh rất phức tạp. An tự hỏi: "AI học vẽ tranh và thực hiện các yêu cầu khác như thế nào? AI có phải lúc nào cũng đáng tin không?".</p>
 <p class="lesson-p">Em hãy cho biết:
 
-1. Để tạo ra được hình ảnh từ mô tả, Ai cần trài qua quá trình học như thế nào?
+1. Để tạo ra được hình ảnh từ mô tả, Ai cần trải qua quá trình học như thế nào?
 
 Quá trình đó liên quan gì đến Học máy và xử lí ngôn ngữ?
 
-2. Vì sao An lại gặp vấn đề về bản quyền khi dùng AI tạo ành? Việc này gợi ý điều gì về đạo đức và giới hạn của mô hình AI hiện nay?</p>
+2. Vì sao An lại gặp vấn đề về bản quyền khi dùng AI tạo ảnh? Việc này gợi ý điều gì về đạo đức và giới hạn của mô hình AI hiện nay?</p>
 <p class="lesson-p">25 24</p>
 <p class="lesson-p">KHÁM PHẢ</p>
 <h3 class="subheading-h3"><span class="h3-num">1.</span> Kiến trức Transformer và huấn luyện mô hình ngôn ngữ lớn</h3>
@@ -50,7 +50,7 @@ Quá trình đó liên quan gì đến Học máy và xử lí ngôn ngữ?
 <p class="lesson-p">Để có thể hiểu và thực hiện được yêu cầu của người dùng, ví dụ vẽ tranh như trong phần Khởi động, các mô hình ngôn ngữ lớn sử dụng kiến trúc Transformer.
 
 Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. Khác với các</p>
-<p class="lesson-p">mô hình khác, kiến trúc Transformer dựa trên cơ chế tự chú ý (Seli-Attention) cho phép mô hình cân nhắc tầm quan trọng của các từ khác nhau trong câu khi xử lí một từ cụ thể. Cơ chế tự chú ý giúp mô hình nắm bắt ngữ cành và liên hệ giữa</p>
+<p class="lesson-p">mô hình khác, kiến trúc Transformer dựa trên cơ chế tự chú ý (Self-Attention) cho phép mô hình cân nhắc tầm quan trọng của các từ khác nhau trong câu khi xử lí một từ cụ thể. Cơ chế tự chú ý giúp mô hình nắm bắt ngữ cảnh và liên hệ giữa</p>
 <p class="lesson-p">Kiến trúc Transformer dựa trên 6 bước chính:</p>
 <p class="lesson-p">Bước 1. Chia yêu cầu đầu vào thành các từ (token); Yêu câu đầu vào sẽ được chia nhỏ thành các từ.</p>
 <p class="lesson-p">Bước 2. Mã hoá dữ liệu đầu vào (embedding): Chuyển các từ thành dạng mà máy tính có thể hiểu và xử lí được.</p>
@@ -85,12 +85,12 @@ Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. K
 <p class="lesson-p">Kiến trúc Transformer là kiến trúc nền tảng cho hầu hết các LLM hiện nay Kiến trúc Transformer sử dụng cơ chế tự chú ý (Self-Attention) để mô hình</p>
 <p class="lesson-p">hiểu ngữ cảnh và yêu cầu từ người dùng</p>
 <h4 class="subheading-h4"><span class="h4-letter">b)</span> Huấn luyện mô hình ngôn ngữ lớn</h4>
-<p class="lesson-p">Huấn luyện LLM là quá trình giúp LLM học cách hiểu và đáp ứng các yêu cầu bằng ngôn ngữ tự nhiên thông qua việc xử lí một lượng dữ liệu khống lồ. Quá trình này thường được tiền hành qua ba giai đoạn chính:</p>
-<p class="lesson-p">Giai đoạn 1. Tiền huấn luyện (Pre-training): Huấn luyện mô hình trên một lượng dữ liệu văn bản khổng lồ từ Internet, sách vờ,... Mục tiêu là học các mẫu ngôn</p>
+<p class="lesson-p">Huấn luyện LLM là quá trình giúp LLM học cách hiểu và đáp ứng các yêu cầu bằng ngôn ngữ tự nhiên thông qua việc xử lí một lượng dữ liệu khổng lồ. Quá trình này thường được tiến hành qua ba giai đoạn chính:</p>
+<p class="lesson-p">Giai đoạn 1. Tiền huấn luyện (Pre-training): Huấn luyện mô hình trên một lượng dữ liệu văn bản khổng lồ từ Internet, sách vở,... Mục tiêu là học các mẫu ngôn</p>
 <p class="lesson-p">ngữ, kiến thức tổng quát (thường là dự đoán từ tiếp theo - Phương pháp huấn luyện là học tự giám sát (self-supervised learning)). Giai đoạn này tốn chi phí rất lớn cho dữ liệu và quá trình huấn luyện.</p>
-<p class="lesson-p">Giai đoạn 2. Tinh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tôm tắt) hoặc để tuần theo hướng dẫn (Instruction Fine-tuning).</p>
+<p class="lesson-p">Giai đoạn 2. Tinh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tóm tắt) hoặc để tuân theo hướng dẫn (Instruction Fine-tuning).</p>
 <p class="lesson-p">Giai đoạn 3. Học củng cố từ phản hồi người dùng (Reinforcement Learning from Human Feedback - RLHF): Sử dụng phản hồi của con người (đánh giá câu trả lời nào tốt hơn) để huấn luyện mô hình tạo ra các câu trả lời hữu ích, trung thực và an toàn hơn. Giai đoạn 3 thường cho Chat Model.</p>
-<p class="lesson-p">Việc huấn luyện một mô hình ngôn ngữ lớn dùng rất nhiều dữ liệu, lên đến hàng trăm tỉ từ. Máy tinh dùng để huấn luyện cũng phải rất mạnh, gồm hàng nghìn chịp xử lí hiện đại. Điều đó cho thấy việc tạo ra LLM cần rất nhiều tài nguyên và</p>
+<p class="lesson-p">Việc huấn luyện một mô hình ngôn ngữ lớn dùng rất nhiều dữ liệu, lên đến hàng trăm tỉ từ. Máy tính dùng để huấn luyện cũng phải rất mạnh, gồm hàng nghìn chip xử lí hiện đại. Điều đó cho thấy việc tạo ra LLM cần rất nhiều tài nguyên và</p>
 <p class="lesson-p">Quá trình huấn luyện LLM</p>
 <p class="lesson-p">Học củng cố từ phản hồi</p>
 <p class="lesson-p">Tiền huấn luyện Tinh chỉnh</p>
@@ -105,9 +105,9 @@ Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. K
                     
 <p class="lesson-p">Huấn luyện mô hình ngôn ngữ lớn trải qua ba giai đoạn:
 
-tiền huấn luyện, tinh chỉnh và học cùng cố nhờ phản hồi từ người dùng</p>
+tiền huấn luyện, tinh chỉnh và học củng cố nhờ phản hồi từ người dùng</p>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> Học máy, xử lí ngôn ngữ và mô hình ngôn ngữ lớn</h3>
-<p class="lesson-p">Học máy, xử lí ngôn ngữ và mô hình ngôn ngữ lớn là những khái niệm cơ bàn trong lĩnh vực trí tuệ nhân tạo. Cụ thể:</p>
+<p class="lesson-p">Học máy, xử lí ngôn ngữ và mô hình ngôn ngữ lớn là những khái niệm cơ bản trong lĩnh vực trí tuệ nhân tạo. Cụ thể:</p>
 <ul class="lesson-bullet-list">
 <li>Học máy (Machine learning - ML): Là lĩnh vực cho phép máy tính tự học từ dữ</li>
 </ul>
@@ -119,7 +119,7 @@ tiền huấn luyện, tinh chỉnh và học cùng cố nhờ phản hồi từ
 <li>Mô hình ngôn ngữ lớn (Large Language Model - LLM): Là kết quả cao cấp nhất</li>
 </ul>
 <p class="lesson-p">của NLP hiện nay. LLM sử dụng các mô hình Học máy phức tạp, học sâu (Deep learning) và kiến trúc Transformer, giúp máy hiểu và tạo ra ngôn ngữ.</p>
-<p class="lesson-p">Em có thể hiểu Học máy là kĩ thuật chung, NLP là ứng dụng Học máy cho ngôn ngữ và LLM là sản phẩm tiên tiến của NLP. giúp máy hiểu và sử dung ngôn ngữ</p>
+<p class="lesson-p">Em có thể hiểu Học máy là kĩ thuật chung, NLP là ứng dụng Học máy cho ngôn ngữ và LLM là sản phẩm tiên tiến của NLP. giúp máy hiểu và sử dụng ngôn ngữ</p>
 <p class="lesson-p">giống con người.</p>
 <p class="lesson-p">LLM NLP Học máy</p>
 
@@ -149,7 +149,7 @@ tiền huấn luyện, tinh chỉnh và học cùng cố nhờ phản hồi từ
 <li>Chưa thực sự hiểu thế giới: Vì dựa vào mô hình thống kê, LLM khó có thể thực</li>
 </ul>
 <p class="lesson-p">sự hiểu về thế giới loài người.</p>
-<p class="lesson-p">Ví dụ, khi em hỏi: "Tại sao trái cây là tốt?" thì LLM sẽ chỉ liệt kê các lợi ích. Nhưng nếu hỏi: "Tại sao trái cây có hại?" thi LLM lại liệt kê các nhược điểm. Đây là dạng prompt dẫn dắt, khiến mô hình nói theo hướng em hỏi, không phải nó tự suy nghĩ.</p>
+<p class="lesson-p">Ví dụ, khi em hỏi: "Tại sao trái cây là tốt?" thì LLM sẽ chỉ liệt kê các lợi ích. Nhưng nếu hỏi: "Tại sao trái cây có hại?" thì LLM lại liệt kê các nhược điểm. Đây là dạng prompt dẫn dắt, khiến mô hình nói theo hướng em hỏi, không phải nó tự suy nghĩ.</p>
 <p class="lesson-p">2°</p>
 <p class="lesson-p">LLM vẫn còn han chế về tính khách quan, khả năng</p>
 <p class="lesson-p">suy luận logic và dễ bị chi phối bởi cách đặt prompt.</p>

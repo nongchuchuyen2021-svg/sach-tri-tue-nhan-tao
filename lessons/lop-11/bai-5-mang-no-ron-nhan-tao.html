@@ -39,11 +39,11 @@
             
 <p class="lesson-p">1. Mạng nơ-ron nhân tạo là gì?
 
-Giống như con người, các hệ thống AI cô thể ngày càng trở nên thông minh hơn nhờ khả năng học hỏi theo nhiều cách khác nhau. Việc học của hệ thống AI có thể bắt dầu một cách đơn giản bằng việc tuân theo các quy tắc (luật) do con người lập trình sẵn. Bên cạnh đó, các hệ thống AI cũng có khả năng học từ việc quan sại nhiều dữ liệu mẫu, từ đó rút ra quy luật, nhận biết được các đặc điểm và sử dung</p>
+Giống như con người, các hệ thống AI cô thể ngày càng trở nên thông minh hơn nhờ khả năng học hỏi theo nhiều cách khác nhau. Việc học của hệ thống AI có thể bắt dầu một cách đơn giản bằng việc tuân theo các quy tắc (luật) do con người lập trình sẵn. Bên cạnh đó, các hệ thống AI cũng có khả năng học từ việc quan sát nhiều dữ liệu mẫu, từ đó rút ra quy luật, nhận biết được các đặc điểm và sử dụng</p>
 <p class="lesson-p">chùng để thực hiện những nhiệm vụ như phần loại hay nhận dạng. Một trong các phương pháp học tập đặc biệt và mạnh mẽ của các hệ thống AI là sử dụng mạng nơ-ron nhân tạo.</p>
 <h4 class="subheading-h4"><span class="h4-letter">a)</span> Ý tưởng mô phỏng bộ não con người</h4>
-<p class="lesson-p">Ý tưởng về mạng nơ-ron nhân tạo xuất phát từ chính bộ não con người. Bộ não của chùng ta là một mạng lưới khống lồ gồm hàng fỉ tế bào thần kinh đặc biệt gọi</p>
-<p class="lesson-p">là nơ-ron (neuron), được kết nối chẳng chịt với nhau. Mỗi nơ-ron có thể nhận tin hiệu từ rất nhiều nơ-ron khác thông qua các điểm kết nối gọi là khớp thần kinh (synapse). Khi nhận đủ tin hiệu, nơ-ron sinh học sẽ được "kích hoạt" và truyền tin</p>
+<p class="lesson-p">Ý tưởng về mạng nơ-ron nhân tạo xuất phát từ chính bộ não con người. Bộ não của chùng ta là một mạng lưới khổng lồ gồm hàng tỉ tế bào thần kinh đặc biệt gọi</p>
+<p class="lesson-p">là nơ-ron (neuron), được kết nối chằng chịt với nhau. Mỗi nơ-ron có thể nhận tín hiệu từ rất nhiều nơ-ron khác thông qua các điểm kết nối gọi là khớp thần kinh (synapse). Khi nhận đủ tín hiệu, nơ-ron sinh học sẽ được "kích hoạt" và truyền tin</p>
 <p class="lesson-p">hiệu đi tới các nơ-ron khác. Nhờ mạng lưới kết nối như vậy, bộ não của chúng la có thể nhận biết hình ảnh, ghi nhớ âm thanh, hiểu ngôn ngữ và đưa ra quyết định Quá trình học tập và hinh thành kí ức của con người chính là sự thay đổi độ mạnh yếu của hàng nghìn tỉ kết nối khớp thần kinh như vậy. Khi em học một kĩ năng mỏi.
 
 các kết nối liên quan đến kĩ năng đó sẽ trở nên mạnh mẽ hơn:</p>
@@ -61,7 +61,7 @@ các kết nối liên quan đến kĩ năng đó sẽ trở nên mạnh mẽ h�
                         </div>
                     </figure>
                     
-<h4 class="subheading-h4"><span class="h4-letter">b)</span> Cầu trúc của mạng no-ron nhân tạo</h4>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Cấu trúc của mạng no-ron nhân tạo</h4>
 <p class="lesson-p">Mạng nơ-ron nhân tạo (Artificial Neural Network - ANN) được xây dựng báng cách mô phỏng lại cách hoạt động đó của bộ não. Nó được tạo thành từ các đơn vị cơ bản là nơ-ron nhân tạo và được tổ chức thành một kiến trúc nhiều lớp (layer). Một mạng ANN điển hình thường có ba loại lớp là:</p>
 <ul class="lesson-bullet-list">
 <li>Lớp đầu vào (Input Layer): Tiếp nhận các thông tin ban đầu (dữ liệu, giá trị).</li>
@@ -89,12 +89,12 @@ Là một con số được gán cho mỗi kết nối, có ý nghĩa thể hi�
 <p class="lesson-p">Các hàm tính trên các giá trị đầu vào kết hợp với bộ giá trị trọng số tương ứng) và hàm kích hoạt (quyết định xem nơ-ron có nên truyền tín hiệu đi hay không, dựa trên kết quả của hàm tổng hợp).
 
 Là một con số duy nhất thể hiện kết quả xử lí của nơ-ron. Giá trị này sẽ được truyền đến các nơ-ron</p>
-<p class="lesson-p">(xử li tin hiệu)</p>
+<p class="lesson-p">(xử li tín hiệu)</p>
 <p class="lesson-p">Tin hiệu đầu ra</p>
 <p class="lesson-p">ở lớp tiếp theo.</p>
 <p class="lesson-p">C</p>
 <h4 class="subheading-h4"><span class="h4-letter">c)</span> Ví dụ về mạng no-ron nhân tạo đơn giản</h4>
-<p class="lesson-p">Hãy xem xét chương trình giúp robot phân biệt một con vật thật sự là meo hay chi là mèo máy. Nó sẽ đánh giá dựa trên hai yếu tố: hơi thở và nhiệt độ co thể của</p>
+<p class="lesson-p">Hãy xem xét chương trình giúp robot phân biệt một con vật thật sự là meo hay chi là mèo máy. Nó sẽ đánh giá dựa trên hai yếu tố: hơi thở và nhiệt độ cơ thể của</p>
 <p class="lesson-p">con mèo. Nếu một con méo có hơi thở hoặc có thân nhiệt ấm, chương trình sẻ kết luận đó thực sự là mèo. Ngược lại, nếu không có cả hai yếu tố này thì chương</p>
 <p class="lesson-p">trình sẽ kết luận đó là mèo máy.</p>
 <p class="lesson-p">Một mạng nơ-ron nhân tạo đơn giản chỉ với một nút duy nhất có thể giải quyết được vấn đề này. Nút nơ-ron đơn lẻ khi đó nhận hai giá trị đầu vào, tương ứng với nhận biết hơi thở (giá trị 1 nếu có hoặc giá trị 0 nếu ngược lại) và nhận biết thân nhiệt (giá trị 1 nếu có thân nhiệt ấm hoặc giá trị 0 nếu ngược lại) để đưa ra quyết định theo quy tắc như bảng sau:</p>
@@ -126,27 +126,27 @@ Là một con số duy nhất thể hiện kết quả xử lí của nơ-ron. G
 <p class="lesson-p">các mạng nơ-ron phức tạp với nhiều nút hơn, kết quả đầu ra của một nút (chẳng hạn như 0,69) sau đó sẽ được chuyển đến các nút ở lớp tiếp theo cho đến khi xác định được các giá trị đầu ra ở lớp cuối cùng.</p>
 <h4 class="subheading-h4"><span class="h4-letter">d)</span> Các cách học của mạng no-ron nhân tạo</h4>
 <p class="lesson-p">Để một mạng nơ-ron nhân tạo có thể thực hiện các nhiệm vụ phức tạp như nhận dạng hình ảnh hay dịch ngôn ngữ, nó phải trải qua một quá trình "học". Quá trình</p>
-<p class="lesson-p">đó về cơ bàn là việc điều chình các giá trị trọng số của kết nối giữa các nơ-ron và hệ số thiên kiến, sao cho mạng có thể dưa ra kết quả đầu ra chính xác nhất từ dứ liệu đầu vào. Giống như các mô hình AI khác, các mạng nơ-ron có ba phương pháp học chính, gồm: học có giám sát, học không giám sát và học lăng cường.</p>
+<p class="lesson-p">đó về cơ bản là việc điều chỉnh các giá trị trọng số của kết nối giữa các nơ-ron và hệ số thiên kiến, sao cho mạng có thể đưa ra kết quả đầu ra chính xác nhất từ dữ liệu đầu vào. Giống như các mô hình AI khác, các mạng nơ-ron có ba phương pháp học chính, gồm: học có giám sát, học không giám sát và học tăng cường.</p>
 <ul class="lesson-bullet-list">
-<li>Học có giám sát (Supervised Learing) là phương pháp học phố biến nhất.</li>
+<li>Học có giám sát (Supervised Learning) là phương pháp học phố biến nhất.</li>
 </ul>
 <p class="lesson-p">Mạng nơ-ron được huấn luyện bằng bộ dữ liệu đã được gán nhãn từ trước.
 
 Điều này có nghĩa là với mỗi dữ liệu đầu vào (ví dụ: một bức ảnh), chúng đã được cung cấp sẵn câu trả lời đúng, hay còn gọi là "nhãn" (ví dụ: nhãn "mèo" hoặc "chó"). Mạng nơ-ron sẽ đưa ra một dự đoán, sau đó đối chiếu với đáp án đúng. Dựa trên sự khác biệt (sai số) giữa dự đoán và kết quả thực tế, mạng nơ-ron sẽ tự động điều chỉnh các tham số bên trong của nó để lần dự đoán tiếp theo sẽ chính xác hơn. Quá trình này được láp đi lặp lại cất nhiều lần với bộ dữ liệu đa dạng cho đến khi đạt được độ chính xác chấp nhận được.</p>
-<p class="lesson-p">Ví dụ: Hệ thống nhận diện khuôn mặt trên điện thoại thông minh là một ứng dụng đặc trưng cho phương pháp học có giảm sát. Ban đầu, em "dạy" cho hệ thống bằng cách cung cấp nhiều hình ảnh khuôn mặt của mình ở các góc độ hay điều kiện ánh sáng khác nhau (dữ liệu đầu vào) và gán nhãn rằng tất cả đều là em (kết quả đúng). Mạng nơ-ron sẽ học các đặc điểm đặc trưng trên các dữ liệu khuôn mặt nhận được đó. Sau quá trình huấn luyện, khi em đưa điện thoại lên, hệ thống sẽ phân tích hình ảnh từ camera và quyết định xem có khớp với các đặc điểm đã học hay không.</p>
+<p class="lesson-p">Ví dụ: Hệ thống nhận diện khuôn mặt trên điện thoại thông minh là một ứng dụng đặc trưng cho phương pháp học có giám sát. Ban đầu, em "dạy" cho hệ thống bằng cách cung cấp nhiều hình ảnh khuôn mặt của mình ở các góc độ hay điều kiện ánh sáng khác nhau (dữ liệu đầu vào) và gán nhãn rằng tất cả đều là em (kết quả đúng). Mạng nơ-ron sẽ học các đặc điểm đặc trưng trên các dữ liệu khuôn mặt nhận được đó. Sau quá trình huấn luyện, khi em đưa điện thoại lên, hệ thống sẽ phân tích hình ảnh từ camera và quyết định xem có khớp với các đặc điểm đã học hay không.</p>
 <ul class="lesson-bullet-list">
 <li>Học không giám sát (Unsupervised Learning) có cơ chế trái ngược lại, là hoạt</li>
 </ul>
-<p class="lesson-p">động với bộ dữ liệu không được gán nhãn. Thay vì được cho biết trước câu trả lời đúng, mạng nơ-ron phải tự tìm ra các mẫu, các cầu trúc hoặc các mối liên hệ tiềm ẩn trong dữ liệu. Nhiệm vụ của nó là tự sắp xếp, phân loại hoặc ghép nhóm các dữ liệu có đặc điểm tương tự nhau thành các cụm (cluster) mà không cần bất kì sự hướng dẫn nào từ con người.</p>
-<p class="lesson-p">Ví dụ: Hệ thống bên trong các mạng xã hội có thể sử dụng phương pháp học không giám sát để đề xuất những nội dung thu hút sự tương tác của người dùng. Chúng có thể phân tích các hành vi rằng em bấm thích bài viết nào, dừng lại xem video nào lâu hơn, theo dõi trang nào, hay tương tác với những ai. Dựa trên hàng tỉ tương tác đó, thuật toán sẽ lự động xác định các "cụm" người dùng có cùng sở thích (ví dụ: nhóm yêu thích du lịch, nhóm quan tâm đến thời trang, nhóm đam mê công nghệ). Khi em tương tác với một nội dung, hệ thống sẽ nhận dạng em thuộc nhóm nào và đề xuất thêm các bài viết, hình ảnh, hoặc video phổ biến trong chính nhóm đó để hiển thị trên bảng tin, giữ cho em luôn yêu thích tương tác với nền tảng</p>
+<p class="lesson-p">động với bộ dữ liệu không được gán nhãn. Thay vì được cho biết trước câu trả lời đúng, mạng nơ-ron phải tự tìm ra các mẫu, các cấu trúc hoặc các mối liên hệ tiềm ẩn trong dữ liệu. Nhiệm vụ của nó là tự sắp xếp, phân loại hoặc ghép nhóm các dữ liệu có đặc điểm tương tự nhau thành các cụm (cluster) mà không cần bất kì sự hướng dẫn nào từ con người.</p>
+<p class="lesson-p">Ví dụ: Hệ thống bên trong các mạng xã hội có thể sử dụng phương pháp học không giám sát để đề xuất những nội dung thu hút sự tương tác của người dùng. Chúng có thể phân tích các hành vi rằng em bấm thích bài viết nào, dừng lại xem video nào lâu hơn, theo dõi trang nào, hay tương tác với những ai. Dựa trên hàng tỉ tương tác đó, thuật toán sẽ tự động xác định các "cụm" người dùng có cùng sở thích (ví dụ: nhóm yêu thích du lịch, nhóm quan tâm đến thời trang, nhóm đam mê công nghệ). Khi em tương tác với một nội dung, hệ thống sẽ nhận dạng em thuộc nhóm nào và đề xuất thêm các bài viết, hình ảnh, hoặc video phổ biến trong chính nhóm đó để hiển thị trên bảng tin, giữ cho em luôn yêu thích tương tác với nền tảng</p>
 <ul class="lesson-bullet-list">
-<li>Học tăng cường (Reinforcement Leaming) là phương pháp học thông qua thủ</li>
+<li>Học tăng cường (Reinforcement Learning) là phương pháp học thông qua thủ</li>
 </ul>
-<p class="lesson-p">và sai, mỏ phòng cách con người và động vật học hỏi từ môi trường. Theo mơ</p>
+<p class="lesson-p">và sai, mô phỏng cách con người và động vật học hỏi từ môi trường. Theo mơ</p>
 <p class="lesson-p">hình này, chương trình máy tính sẽ tương tác với một "môi trường" nào đó. Sau mỗi hành động, chương trình sẽ nhận được một "phần thưởng" nếu hành động đó tốt hoặc một "hình phạt" nếu ngược lại. Mục tiêu cuối cùng của chương trình là học được một chiến lược - là một chuỗi các hành động để tối đa hoa tổng phần thường nhận được theo thời gian. Mạng nơ-ron nhân tạo không được cho biết hành động nào là đúng hay sai, mà phải tự mình khám phá ra điều đó.</p>
-<p class="lesson-p">Ví dụ: Mạng nơ-ron có thể được huấn luyện để phân loại thư điện từ (email) có phải là "thư rác" hay không. Để làm được điều này, mạng được cung cấp một lượng lớn email đã được con người gán nhãn thủ công là thư rác hoặc không phải thư rác. Khi một email mới được đưa vào, mạng sẽ phân tích các đặc điểm của nó, như sự xuất hiện của các từ khóa nhất định (ví dụ: "miến phí".
+<p class="lesson-p">Ví dụ: Mạng nơ-ron có thể được huấn luyện để phân loại thư điện tử (email) có phải là "thư rác" hay không. Để làm được điều này, mạng được cung cấp một lượng lớn email đã được con người gán nhãn thủ công là thư rác hoặc không phải thư rác. Khi một email mới được đưa vào, mạng sẽ phân tích các đặc điểm của nó, như sự xuất hiện của các từ khóa nhất định (ví dụ: "miễn phí".
 
-"trứng thường"), cấu trúc câu, nguồn gừi,... Ban đầu, mạng có thể phân loại sai Tuy nhiên, mỗi khi nó đưa ra dự đoán sai, hệ thống sẽ tính toán mức độ sai sót và điều chỉnh các tham số bên trong. Chẳng hạn, nếu một thư điện tử chứa từ "miễn phi" nhưng lại được phân loại là thư quan trọng, mạng sẽ tăng cường trọng số của từ "miễn phí" để với lần sau, sự xuất hiện của từ này sẽ có ảnh</p>
+"trúng thưởng"), cấu trúc câu, nguồn gửi,... Ban đầu, mạng có thể phân loại sai Tuy nhiên, mỗi khi nó đưa ra dự đoán sai, hệ thống sẽ tính toán mức độ sai sót và điều chỉnh các tham số bên trong. Chẳng hạn, nếu một thư điện tử chứa từ "miễn phi" nhưng lại được phân loại là thư quan trọng, mạng sẽ tăng cường trọng số của từ "miễn phí" để với lần sau, sự xuất hiện của từ này sẽ có ảnh</p>
 <p class="lesson-p">hưởng lớn hơn đến việc kết luận là thư rác. Quá trình này lặp đi lặp lại rất nhiều lần, giúp mạng nơ-ron dần "học" được các mẫu và đặc điểm chung của thư rác, từ đó tự động lọc chúng ra khỏi hộp thư đến của người dùng một cách hiệu quả</p>
 <ul class="lesson-bullet-list">
 <li>Mạng no-ron nhân tạo (ANN) là một mô hình được xây dựng dựa trên ý tưởng mô phòng cấu trúc và nguyên lí hoạt động của bộ não người, bao gồm các đơn vị xử lí cơ bản gọi là nơ-ron nhân tạo (nút), được liên kết chặt chẽ với nhau và sắp xếp thành các lớp.</li>
@@ -154,7 +154,7 @@ Là một con số duy nhất thể hiện kết quả xử lí của nơ-ron. G
 </ul>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> Ứng dụng của mạng nơ-ron nhân tạo trong đời sống</h3>
 <h4 class="subheading-h4"><span class="h4-letter">a)</span> Thị giác máy tính (Computer vision - CV)</h4>
-<p class="lesson-p">Thị giác máy tính là lĩnh vực giúp máy tính có khả năng nhìn và hiểu được nội dung của hình ảnh và video. Các mạng nơ-ron nhân tạo, đặc biệt là mạng nơ-ron tích chập (Convolutional Neural Network), đã tạo ra những bước tiền</p>
+<p class="lesson-p">Thị giác máy tính là lĩnh vực giúp máy tính có khả năng nhìn và hiểu được nội dung của hình ảnh và video. Các mạng nơ-ron nhân tạo, đặc biệt là mạng nơ-ron tích chập (Convolutional Neural Network), đã tạo ra những bước tiến</p>
 <p class="lesson-p">đột phá trong thị giác máy tinh. Bên cạnh ứng dụng mở khóa bằng nhận diện khuôn mặt, công nghệ này còn xuất hiện trong các sản phẩm như:</p>
 <p class="lesson-p">Chẩn đoán hình ảnh trong y tế: mạng nơ-ron nhân tạo có thể được huấn luyện trên hàng triệu ảnh y khoa (như X-quang, CT, MRI). Chúng có khả năng phát</p>
 <p class="lesson-p">hiện sớm các dấu hiệu rất nhỏ của bệnh tật, chẳng hạn như khối u ung thư hoặc các tổn thương khác, với độ chính xác cao, trở thành một công cụ trợ giúp đắc lực cho các bác sĩ.</p>
@@ -166,21 +166,21 @@ Là một con số duy nhất thể hiện kết quả xử lí của nơ-ron. G
 <p class="lesson-p">màu sắc. Toàn bộ bộ giá trị này sẽ được đưa vào lớp đầu vào của mạng nơ-ron nhân tạo. Sau đó, chúng được xử lí tuần tự qua các lớp ẩn, nơi các đặc trưng của</p>
 <p class="lesson-p">hình ảnh được phân tích theo từng cấp độ. Cuối cùng, lớp đầu ra sẽ tinh toán và đưa ra một giá trị quyết định, xác định xem hình ảnh được phân tích phù hợp nhất với kết quả nào trong các khả năng đã được huấn luyện.</p>
 <h4 class="subheading-h4"><span class="h4-letter">b)</span> Xử lí ngôn ngữ tự nhiên (Natural language processing - NLP)</h4>
-<p class="lesson-p">Xử lí ngôn ngữ tự nhiên là lĩnh vực giúp máy tính có khả năng nghe, đọc và hiểu được để giao tiếp bằng ngôn ngữ của con người. Mạng nơ-ron, đặc biệt là các kiến trúc như mạng nơ-ron hồi quy (Recurrent Neural Network) và các mỏ hình tiên tiền hơn như Transformer đã tạo ra những bước tiến quan trọng cho lĩnh vực này. Công nghệ này được ứng dụng trong nhiều lĩnh vực, ví dụ:</p>
+<p class="lesson-p">Xử lí ngôn ngữ tự nhiên là lĩnh vực giúp máy tính có khả năng nghe, đọc và hiểu được để giao tiếp bằng ngôn ngữ của con người. Mạng nơ-ron, đặc biệt là các kiến trúc như mạng nơ-ron hồi quy (Recurrent Neural Network) và các mô hình tiên tiền hơn như Transformer đã tạo ra những bước tiến quan trọng cho lĩnh vực này. Công nghệ này được ứng dụng trong nhiều lĩnh vực, ví dụ:</p>
 <ul class="lesson-bullet-list">
 <li>Trợ II ảo: Khi em ra lệnh bằng giọng nói, một mạng nơ-ron sẽ phân tích sóng</li>
 </ul>
-<p class="lesson-p">âm trong giọng nói của em để chuyển thành văn bản. Một mạng nơ-ron khác sẽ phân tích câu lệnh đó để hiểu yêu cầu của em (ví dụ: đặt báo thức, hòi thời tiết, hay gọi điện cho ai đó) và thực hiện yêu cầu. Các Chatbot trả lời tự động cũng hoạt động theo nguyên lí tương tự như thế</p>
+<p class="lesson-p">âm trong giọng nói của em để chuyển thành văn bản. Một mạng nơ-ron khác sẽ phân tích câu lệnh đó để hiểu yêu cầu của em (ví dụ: đặt báo thức, hỏi thời tiết, hay gọi điện cho ai đó) và thực hiện yêu cầu. Các Chatbot trả lời tự động cũng hoạt động theo nguyên lí tương tự như thế</p>
 <ul class="lesson-bullet-list">
 <li>Gợi ý và tự động sửa lồi văn bản: Khi em soạn thảo văn bản trên điện thoại</li>
 </ul>
 <p class="lesson-p">hoặc máy tính, hệ thống thường gợi ý từ tiếp theo mà em có thể muốn gõ hoặc tự động sửa các lỗi chính tả, ngữ pháp. Đây là kết quả của một mạng nơ-ron đã được huấn luyện trên một kho dữ liệu văn bản khổng lồ để học các quy luật và cấu trúc của ngôn ngữ.</p>
 <h4 class="subheading-h4"><span class="h4-letter">c)</span> Các hệ thống đề xuất (Recommendation Systems)</h4>
-<p class="lesson-p">Các hệ thống đề xuất là lĩnh vực giúp máy tính có khả năng dự đoán sờ thích của người dùng và gợi ý những sản phẩm, dịch vụ hoặc nội dung phù hợp nhất. Các mạng nơ-ron nhân tạo, đặc biệt là các mô hình như lọc cộng tác (Collaborative Filtering) và các mạng nơ-ron sâu (Deep Neural Networks), là nền tảng cho sự phát triển của lĩnh vực này. Công nghệ này được ứng dụng rộng rãi trong cuộc sống hằng ngày, ví dụ:</p>
+<p class="lesson-p">Các hệ thống đề xuất là lĩnh vực giúp máy tính có khả năng dự đoán sở thích của người dùng và gợi ý những sản phẩm, dịch vụ hoặc nội dung phù hợp nhất. Các mạng nơ-ron nhân tạo, đặc biệt là các mô hình như lọc cộng tác (Collaborative Filtering) và các mạng nơ-ron sâu (Deep Neural Networks), là nền tảng cho sự phát triển của lĩnh vực này. Công nghệ này được ứng dụng rộng rãi trong cuộc sống hằng ngày, ví dụ:</p>
 <ul class="lesson-bullet-list">
 <li>Để xuất phim ành và âm nhạc: Các dịch vụ xem phim và nghe nhạc trực tuyến</li>
 </ul>
-<p class="lesson-p">sử dụng mạng nơ-ron để học sở thích hay "gu" nghệ thuật của em dựa trên những gì em đã xem hoặc nghe trước đỏ. Hệ thống có thể không chỉ dựa trên thể loại em thích mà còn phân tích các yếu tổ phức lạp hơn như đạo diễn, diễn viên, gial điệu và tâm bạng của bài hảt để đưa ra những gợi ý bất ngờ và thú vị</p>
+<p class="lesson-p">sử dụng mạng nơ-ron để học sở thích hay "gu" nghệ thuật của em dựa trên những gì em đã xem hoặc nghe trước đó. Hệ thống có thể không chỉ dựa trên thể loại em thích mà còn phân tích các yếu tố phức tạp hơn như đạo diễn, diễn viên, giai điệu và tâm trạng của bài hát để đưa ra những gợi ý bất ngờ và thú vị</p>
 <ul class="lesson-bullet-list">
 <li>Gọi ý sản phẩm trên trang thương mại điện từ: Khi em mua sắm trực tuyến, hộ</li>
 </ul>

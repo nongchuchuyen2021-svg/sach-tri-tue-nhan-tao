@@ -50,7 +50,7 @@
               "printPage": 3,
               "id": "loi-noi-dau",
               "endPage": 5,
-              "summary": "LỜI NÓI ĐẦU Các em học sinh thân mền! Từ điện thoại thông minh, trợ lí ào đến những bải hát, bức tranh do máy. tạo ra - AI đang thay đổi cách con người học tập, lâm việc và sáng tạo. Nhờ khả năng xử lí vượt trội và tiếp cận kho dữ liệu khổng lồ, AI đang tiến tới giới hạn có thể s..."
+              "summary": "LỜI NÓI ĐẦU Các em học sinh thân mền! Từ điện thoại thông minh, trợ lí ào đến những bài hát, bức tranh do máy. tạo ra - AI đang thay đổi cách con người học tập, lâm việc và sáng tạo. Nhờ khả năng xử lí vượt trội và tiếp cận kho dữ liệu khổng lồ, AI đang tiến tới giới hạn có thể s..."
             },
             {
               "title": "Mục lục",
@@ -270,7 +270,7 @@
               "printPage": 4,
               "id": "muc-luc",
               "endPage": 7,
-              "summary": "MỤC LỤC Trang NỘI DUNG CHỦ ĐẾ 1. MÔ HÌNH NGÔN NGỮ LỚN SÁNG TẠO NỘI DUNG Bài 1 Kì thuật viết prompt co bàn và nâng cao Bài 2 mô hình ngôn ngữ lớn sáng tạo nội dung CHỦ ĐỀ 2. NGUYÊN LÍ HOẠT ĐỘNG CỦA MÔ HÌNH NGÔN NGỮ LỚNỮ LỚN Bài 3 Mô hình ngôn ngữ lớn và hạn chế của nó Bài 4 Giới thiệu ..."
+              "summary": "MỤC LỤC Trang NỘI DUNG CHỦ ĐẾ 1. MÔ HÌNH NGÔN NGỮ LỚN SÁNG TẠO NỘI DUNG Bài 1 Kì thuật viết prompt cơ bản và nâng cao Bài 2 mô hình ngôn ngữ lớn sáng tạo nội dung CHỦ ĐỀ 2. NGUYÊN LÍ HOẠT ĐỘNG CỦA MÔ HÌNH NGÔN NGỮ LỚN Bài 3 Mô hình ngôn ngữ lớn và hạn chế của nó Bài 4 Giới thiệu ..."
             }
           ]
         },
@@ -308,7 +308,7 @@
               "printPage": 25,
               "id": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
               "endPage": 32,
-              "summary": "VÀ HẠN CHẾ CỦA NÓ MỤC TIÊU Sau bài học này, em sẽ: • Trình bày được kiến trúc Transformer (mô hình học sâu) và quá trình huấn luyện mô hình ngôn ngữ lớn (LLM) ở mức khái niệm. • Hiểu được mối liên hệ giữa học máy, xử lí ngôn ngữ và LLM. • Trình bày được hạn chế của LLM kèm vi dụ ..."
+              "summary": "VÀ HẠN CHẾ CỦA NÓ MỤC TIÊU Sau bài học này, em sẽ: • Trình bày được kiến trúc Transformer (mô hình học sâu) và quá trình huấn luyện mô hình ngôn ngữ lớn (LLM) ở mức khái niệm. • Hiểu được mối liên hệ giữa học máy, xử lí ngôn ngữ và LLM. • Trình bày được hạn chế của LLM kèm ví dụ ..."
             },
             {
               "title": "Bài 4. Giới thiệu về RAG",
@@ -386,7 +386,7 @@
               "printPage": 80,
               "id": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
               "endPage": 89,
-              "summary": "BÀI 1L. TẠO VÀ SỬA HÌNH ẢNH BẰNG MÔ HÌNH NGÔN NGỮ LỚN MUC TIÊU Sau bài học này, em sẽ: • Sử dụng được từ khoa và prompt phủ định (negative prompt) để tạo ảnh. • Điều chỉnh được tỉ lệ khung hình và tham số để kiểm soát ảnh tạo ra. • Giải thích được cách tạo ảnh từ ảnh gốc và các k..."
+              "summary": "BÀI 1L. TẠO VÀ SỬA HÌNH ẢNH BẰNG MÔ HÌNH NGÔN NGỮ LỚN MUC TIÊU Sau bài học này, em sẽ: • Sử dụng được từ khóa và prompt phủ định (negative prompt) để tạo ảnh. • Điều chỉnh được tỉ lệ khung hình và tham số để kiểm soát ảnh tạo ra. • Giải thích được cách tạo ảnh từ ảnh gốc và các k..."
             },
             {
               "title": "Bài 12. Tạo video bằng mô hình ngôn ngữ lớn",
@@ -394,7 +394,7 @@
               "printPage": 88,
               "id": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
               "endPage": 94,
-              "summary": "BÀI 12. TẠO VIDEO BẰNG MÔ HÌNH NGÔN NGỮ LỚN MỤC TIÊU Sau bài học này, em sẽ: • Hiếu được text-to-video và image-to-video là gì. • Giải thích được vì sao tạo video AI chưa phổ biến như tạo ánh. • Sử dụng được công cụ tạo video AI. KHỞI ĐỘNG Hải muốn tạo video mó tả dao động của mộ..."
+              "summary": "BÀI 12. TẠO VIDEO BẰNG MÔ HÌNH NGÔN NGỮ LỚN MỤC TIÊU Sau bài học này, em sẽ: • Hiểu được text-to-video và image-to-video là gì. • Giải thích được vì sao tạo video AI chưa phổ biến như tạo ánh. • Sử dụng được công cụ tạo video AI. KHỞI ĐỘNG Hải muốn tạo video mó tả dao động của mộ..."
             },
             {
               "title": "Bài 13. Bài tập dự án",
@@ -415,7 +415,7 @@
               "printPage": 99,
               "id": "bang-giai-thich-thuat-ngu",
               "endPage": 101,
-              "summary": "BẢNG GIẢI THÍCH THUẬT NGỮ Thuật ngừ Giải thich Trang Chuỗi tư duy (Chain-of- Thành phần trong prompt nhàm hướng dẫn mô hình suy nghĩ và trình bày lừng bước một để đi đến câu trả lời, thay vi chi dưa ra kết quả cuối cùng. Thought) JSON Định dạng văn bản dùng để lưu trừ và trao đổi..."
+              "summary": "BẢNG GIẢI THÍCH THUẬT NGỮ Thuật ngừ Giải thich Trang Chuỗi tư duy (Chain-of- Thành phần trong prompt nhàm hướng dẫn mô hình suy nghĩ và trình bày lừng bước một để đi đến câu trả lời, thay vi chi đưa ra kết quả cuối cùng. Thought) JSON Định dạng văn bản dùng để lưu trừ và trao đổi..."
             },
             {
               "title": "Thông tin xuất bản & Bìa sau",
@@ -466,7 +466,7 @@
               "printPage": null,
               "id": "bia-lot",
               "endPage": 2,
-              "summary": "HÀ ĐẶNG CAO TÙNG - HOÀNG THỊ MAI - LÊ ANH VINH. (ĐÓNG CHÚ BIÊN) VŨ TRUNG CHÍNH - NGUYỄN QUANG ĐỨC - NGUYỄN CHÍ THANH NGUYỄN THỊ VÁN ANH - ĐÕ ĐỨC LÀN - LÊ QUANG QUẢN TRÍ TUẾ NHÂN TAO *LOP 12 ADUOO NHÀ XUẤT BẢN GIÁO DỤC VIỆT NAM"
+              "summary": "HÀ ĐẶNG CAO TÙNG - HOÀNG THỊ MAI - LÊ ANH VINH. (ĐÓNG CHÚ BIÊN) VŨ TRUNG CHÍNH - NGUYỄN QUANG ĐỨC - NGUYỄN CHÍ THANH NGUYỄN THỊ VÁN ANH - ĐÕ ĐỨC LÀN - LÊ QUANG QUẢN TRÍ TUẾ NHÂN TAO LỚP 12  NHÀ XUẤT BẢN GIÁO DỤC VIỆT NAM"
             },
             {
               "title": "Hướng dẫn sử dụng sách",
@@ -490,7 +490,7 @@
               "printPage": 4,
               "id": "muc-luc",
               "endPage": 6,
-              "summary": "MỤC LỤC NỘI DUNG Trang CHỦ ĐẾ 1. AI AGENTS - HƯỚNG TỚI AI TỰ HOẠT ĐỘNG Bài 1 Giới thiệu về AI Agents Bài 2 Cầu trúc AI Agent đon giản CHỦ ĐỀ 2. RAG VÀ CÔNG CỤ LÀM VIỆC VỚI LM Bài 3 RAG nâng cao Bài 4 Thu viện nguồn mở LLM Bài 5 Khai thác thư viện nguồn mở LIM CHỦ ĐỀ 3. ĐẠO ĐỨC, T..."
+              "summary": "MỤC LỤC NỘI DUNG Trang CHỦ ĐẾ 1. AI AGENTS - HƯỚNG TỚI AI TỰ HOẠT ĐỘNG Bài 1 Giới thiệu về AI Agents Bài 2 Cấu trúc AI Agent đon giản CHỦ ĐỀ 2. RAG VÀ CÔNG CỤ LÀM VIỆC VỚI LM Bài 3 RAG nâng cao Bài 4 Thu viện nguồn mở LLM Bài 5 Khai thác thư viện nguồn mở LIM CHỦ ĐỀ 3. ĐẠO ĐỨC, T..."
             }
           ]
         },

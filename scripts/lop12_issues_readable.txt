@@ -1,0 +1,1470 @@
+[bia-lot] (UNKNOWN_WORD: LOP)
+  Line: *LOP 12
+
+[bia-lot] (UNKNOWN_WORD: ADUOO)
+  Line: ADUOO
+
+[huong-dan-su-dung-sach] (SUSPICIOUS_WORD: cầu)
+  Line: KHÁM PHÁ Cung cấp nội dung chính của bài học, giúp em bổ sung kiến thức, thực hành, trả lời cầu hỏi,... nhằm đạt được mục tiêu của bài học.
+
+[loi-noi-dau] (SUSPICIOUS_WORD: hằng)
+  Line: Bộ sách được thiết kế hiện đại, sinh động, gần gũi với cuộc sống hằng
+
+[loi-noi-dau] (SUSPICIOUS_WORD: mò)
+  Line: chỉ dễ hiểu mà còn khơi gợi sự tò mò, khám phá và sáng tạo, làm cho việc
+
+[muc-luc] (SUSPICIOUS_WORD: Cầu)
+  Line: Bài 2 Cầu trúc AI Agent đon giản
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: chatbot)
+  Line: Nêu được khái niệm AI Agents (tác nhân thông minh) và phân biệt được AI Agent với LLM/chatbot thông thường.
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: ngoạ)
+  Line: chọn chỗ ăn uống, cho đến chuẩn bị đồ dùng,... Quá nhiều công việc phải làm thủ công, tốn thời gian và dễ sai sót. Tùng ước có một trợ lí ảo đủ thông minh để hỗ trợ mình khi cân. Vi dụ, Tùng chỉ cần nói Hãy lên kế hoạch cho chuyến dã ngoạ
+
+[bai-1-gioi-thieu-ve-ai-agents] (SUSPICIOUS_WORD: cầu, UNKNOWN_WORD: chatbot)
+  Line: cuối tuần thì trợ lí ảo sẽ tự động thực hiện tất cả các công việc cần thiết. Theo em, một trợ lí ảo như vậy cần có những khả năng gì để tự thực hiện một yêu cầu phức tạp như thế (điều này hoàn toàn khác với một chatbot chỉ trả lời từng câu hỏi riêng lẻ như: nên đi đâu?, thời tiết thế nào?, hãy đặt xe,...)?
+
+[bai-1-gioi-thieu-ve-ai-agents] (SUSPICIOUS_WORD: cầu)
+  Line: Một trợ lí ảo có thể hiểu yêu cầu của Tùng và tự động lên kế hoạch, tra cứu thông tin thời tiết, đặt xe và chọn chỗ ăn trưa phù hợp mà không chỉ trả lời từng câu hỏi cụ thế. Trợ lí ảo đó cần có khả năng lập kế hoạch, chọn công cụ phù hợp và thực hiện nhiều bước liên tiếp để hoàn thành nhiệm vụ. Trợ lí ảo mà Tùng đang hình dung chính là một Agent. 6
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Chatbot)
+  Line: Chatbot
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Chatbot)
+  Line: Hệ thống tương tác Hội thoại Chatbot
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: trện)
+  Line: và hiểu văn bản dưa trện do liệu huấn
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: GisO, UNKNOWN_WORD: Thoas, UNKNOWN_WORD: rener)
+  Line: GisO ID ho Thoas Ms rener
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: đöng)
+  Line: Thực Hiện nhiệm vu tư đöng
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Rs)
+  Line: Rs quyệt đinh thông minh
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: thrstng, UNKNOWN_WORD: g8p, CONJOINED: g8)
+  Line: Tes lori eDu Ach thrstng g8p
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: chatbot)
+  Line: 🖼️ Minh họa trong sách Hình 1.1. Hình minh hoạ so sánh LLM, chatbot, AI Agents
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: chatbot, UNKNOWN_WORD: Generative)
+  Line: Khác với LLM hay chatbot thông thường chỉ phản hồi từng câu hỏi đơn lẻ tại một thời điểm, AI Agent là một hệ thống sử dụng công nghệ AI, bao gồm AI tạo sinh (Generative AI) làm "bộ não" có khả năng hiểu mục tiêu, tự lập kế hoạch, sử dụng
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: chatbot)
+  Line: Phân biệt AI Agent với LLM và chatbot thông thường:
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Chatbot)
+  Line: Chatbot thông thường
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: auay)
+  Line: auay lai bước 2 để tiếp tực chu trinh
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Reception)
+  Line: 1) Nhận mục tiêu (Goal Reception): Agent tiếp nhận một mục tiêu hoặc nhiệm vụ từ người dùng.
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Reasoning)
+  Line: 2) Lập luận/Lập kê hoạch (Reasoning/Planning): Sử dụng mô hình AI tạo sinh làm cốt lõi để phân tích, suy nghĩ và đưa ra quyết định. Agent phân tích mục
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Selection)
+  Line: 3) Chọn công cụ (Tool Selection): Dựa trên kế hoạch đã lập, Agent lựa chọn công cụ phù hợp nhất từ bộ công cụ sẵn có để thực hiện bước tiếp theo. Vị dụ: công cụ tìm kiếm web để thu thập thông tin, máy tính để tính toán, API để đặt lịch.
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Execution)
+  Line: 4) Thực thi công cụ (Tool Execution): Agent gọi và thực thi công cụ đã chọn.
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Observation)
+  Line: 5) Quan sát kết quả (Observation): Sau khi công cụ thực thi, Agent thu thập và xử lí kết quả trả về. Vi dụ: kết quả tìm kiêm từ Internet, thông báo thành công/ thất bại của một API.
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Reasoning)
+  Line: Mô-đun Lập luận (Reasoning Module): Đây là "trái tim" của Agent, chịu trách
+
+[bai-1-gioi-thieu-ve-ai-agents] (SUSPICIOUS_WORD: cầu)
+  Line: quản lí lịch trình, sắp xếp thư điện tử, thực hiện các yêu cầu mua sắm trực tuyến, hay thậm chí hỗ trợ học sinh tìm kiếm và tổng hợp kiến thức từ nhiều
+
+[bai-1-gioi-thieu-ve-ai-agents] (SUSPICIOUS_WORD: huân)
+  Line: các tình huống không lường trước được, dữ liệu mơ hồ hoặc các ngoại lệ không được đê cập trong huân luyện.
+
+[bai-1-gioi-thieu-ve-ai-agents] (SUSPICIOUS_WORD: cầu)
+  Line: thường cân truy cập và xử lí lượng lớn dữ liệu cá nhân hoặc nhạy cảm, đặt ra yêu cầu cao về bảo vệ quyền riêng tư và an ninh thông tin.
+
+[bai-1-gioi-thieu-ve-ai-agents] (SUSPICIOUS_WORD: cầu)
+  Line: của AI Agent có thế làm thay đối cấu trúc thị trường lao động và yêu cầu lực lượng lao động phải thích nghi với các kĩ năng mới.
+
+[bai-1-gioi-thieu-ve-ai-agents] (SUSPICIOUS_WORD: LUYÊN)
+  Line: LUYÊN TẬP
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: chatbot)
+  Line: 1. Hãy chọn câu đúng nhất để mô tả sự khác biệt cơ bản giữa một AI Agent và một chatbot thông thường.
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: chatbot)
+  Line: A. AI Agent sử dụng công nghệ mới hơn chatbot.
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: chatbot)
+  Line: tiêu, trong khi chatbot chủ yếu phản hồi trực tiếp các câu hỏi.
+
+[bai-1-gioi-thieu-ve-ai-agents] (UNKNOWN_WORD: Chatbot)
+  Line: C. Chatbot có bộ nhớ lớn hơn AI Agent.
+
+[bai-1-gioi-thieu-ve-ai-agents] (SUSPICIOUS_WORD: cầu)
+  Line: D. AI Agent chỉ có thể làm việc với dữ liệu có cầu trúc.
+
+[bai-1-gioi-thieu-ve-ai-agents] (SUSPICIOUS_WORD: cầu)
+  Line: 2. Trong vòng lặp hoạt động của một AI Agent, thành phần nào chịu trách nhiệm cho việc tim kiếm và trích xuất thông tin từ các nguồn bên ngoài khi được yêu cầu?
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: UBI)
+  Line: Output UBI
+
+[bai-2-cau-truc-ai-agent-don-gian] (SUSPICIOUS_WORD: cầu)
+  Line: Công cụ no-code/low-code trọng AI Agent là những nền tảng cho phép chúng ta xây dựng các ứng dụng AI bằng cách sử dụng giao diện kéo-thả trực quan các khối chức năng có sẵn và kết nối chúng lại với nhau. Thay vì viết mã, chúng ta sẽ vẽ ra luồng hoạt động của Agent. Điều này giúp giảm thiểu đáng kể yêu cầu về kĩ năng lập trình, cho phép nhiều người hơn có thể tạo ra các giải pháp AI
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Dian, UNKNOWN_WORD: Soveu)
+  Line: 800 *) Vi dụ Demo Sách - Dian Soveu:
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Publish)
+  Line: Preview v Publish
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Automations, UNKNOWN_WORD: Settings, UNKNOWN_WORD: Evaluations)
+  Line: M Vi do Demo Sách Automations System Prompt Model Settings Evaluations Profiler
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Explorm, UNKNOWN_WORD: Errors, UNKNOWN_WORD: Detuana, UNKNOWN_WORD: CWn)
+  Line: Explorm Errors Detuana CWn toy
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Ovarview, UNKNOWN_WORD: Heic)
+  Line: Ovarview Quick Heic
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Dsta, UNKNOWN_WORD: Sources)
+  Line: v E Dsta Sources
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Functions)
+  Line: y a Functions
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Usor, UNKNOWN_WORD: Inputs)
+  Line: l Usor Inputs
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Workflows)
+  Line: v S Workflows
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: fow)
+  Line: B Main.fow
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Overview)
+  Line: Start End No Overview
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Generator, UNKNOWN_WORD: Overvien)
+  Line: X Generator Agent Le Edit Overvien
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Workspace)
+  Line: việc chính (Workspace)
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Configuration)
+  Line: cài đặt (Configuration)
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Automations)
+  Line: Luồng xử lí chính thường nằm trong main.flow (thuộc thẻ Automations).
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Workspace)
+  Line: Khu vực làm việc chính (Workspace): Đây là khu vực rộng lớn, nơi em sẽ
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Configuration)
+  Line: + Khu vực cài đặt/chỉnh sửa khối (Configuration): Khi em chọn một khối
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Ở)
+  Line: Ở phía trên cùng của bảng thiết kế, có một số thẻ cài đặt chung cho Agen cúa em:
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Automations, UNKNOWN_WORD: Settings, UNKNOWN_WORD: Evaluations)
+  Line: Automations System Prompt Model Settings Evaluations Profiler
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Settings)
+  Line: Cài đặt mô hình (Model Settings): Chọn mô hình AI mặc định mà Agent sẽ sử
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Denerate, UNKNOWN_WORD: Text, UNKNOWN_WORD: Interact, UNKNOWN_WORD: behalt)
+  Line: Denerate Text Interact with AI on behalt of user
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Chart)
+  Line: Generate Chart
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Asset, UNKNOWN_WORD: Generator, UNKNOWN_WORD: PDFS)
+  Line: Generate Asset Generator HTML, images, or PDFS
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Analyze, UNKNOWN_WORD: Analyze)
+  Line: Analyze Image Analyze an image using A
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: chart)
+  Line: Generate a chart from data
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Podcast, UNKNOWN_WORD: hast, UNKNOWN_WORD: podcast, UNKNOWN_WORD: topic)
+  Line: Create Podcast Two-hast podcast about a topic
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text)
+  Line: Text to Speech
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Transoribe, UNKNOWN_WORD: Text)
+  Line: Transoribe Audio AI Speech-to-Text
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Colleci)
+  Line: User Input Colleci data from the user
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Context)
+  Line: User Context
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Dynamically)
+  Line: Dynamically gather information
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Query)
+  Line: Query Data Source Create variable from a Data Source
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text, UNKNOWN_WORD: text)
+  Line: Extract Text from File Extract text content from a file URL
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Detect)
+  Line: Track Website Changes Detect changes to a website
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Analyze, UNKNOWN_WORD: Analyze)
+  Line: Analyze CSV Analyze CSV with code
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Sourced)
+  Line: Deep Research Sourced information from the web
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: text)
+  Line: OCR Image Extract text from an image
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Dynamically)
+  Line: Logic Dynamically choose the next step
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: text)
+  Line: Display Content Display text or media
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: branching, UNKNOWN_WORD: options)
+  Line: Menu Present branching options D
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Function)
+  Line: Run Function Run JavaScript or Python
+
+[bai-2-cau-truc-ai-agent-don-gian] (SUSPICIOUS_WORD: cầu)
+  Line: Generate (Tạo): Khối này dùng để yêu cầu AI tạo sinh tạo ra kết quả dựa trên
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Gir)
+  Line: Email (Gir thư điện tú). Khối công cụ này cho phép Agent gửi the điện tú tý
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text, UNKNOWN_WORD: Transform)
+  Line: động. Vì dụ. Gửi thư điện tử cảm ơn khách hàng sau khi mua sắm. - Text Transform (Chuyên đói văn bản): Các khối giúp xử lí, chinh sữa văn bản
+
+[bai-2-cau-truc-ai-agent-don-gian] (SUSPICIOUS_WORD: tôm)
+  Line: (ví dụ: tôm tất, trích xuất tháng sn. thay thể tùy Vì dụ: Tóm tắt kết quả tim hiền web trước khi dua cho Lil.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Notion, UNKNOWN_WORD: Notion)
+  Line: muc đich chuyên biệt hon niu. + Social Media: Để tương tác với mạng xã hội. * SMS: Để gửi tín nhắn SMS. + Notion: Để kết nối với cơ sở dữ liệu Notion.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Extemal, UNKNOWN_WORD: Automation)
+  Line: * Extemal Automation. Để kết nối với các hệ thống tự động hoa khán. Bắng cách kéo thả và kết nỗi các khối này trên canvas, em có thể tạo ra các Ai Agent thông minh, linh hoạt để giải quyết nhiều vẫn đề trong cuộc sống mà không
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Carvas)
+  Line: Giao điện: Bảng thiết kể (Carvas) trực quan, kéo-thả. • Các khối chính (Block):
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Generative, UNKNOWN_WORD: Generative)
+  Line: Generative AI Block Tương tác với Generative AI.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: www, UNKNOWN_WORD: vä)
+  Line: (Hướng dẫn sau đây sử dụng phần mềm Mind Studio.) a) Tiếp nhận câu hỏi tử khách hàng Bước 1. Truy cập trang web MindStudio tại địa chi https://www.mindstudio.ai vä đặng nhập vào tài khoản của em, sau đó chọn Build New Agent Bước 2. Nháy chuột vào nút (E (giữa Start và End) rồi chọn User Input đễ thêm User Input (đầu vào) như Hình 2.6.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Configuration)
+  Line: Trong thẻ Configuration tương ứng, nháy chuột vào nút + rồi chọn
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: _khach)
+  Line: + General: Nhập tên biến vào ô Variable, ví dụ cau_hoi _khach _hang. Biến
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text, UNKNOWN_WORD: Text)
+  Line: này sẽ lưu chủ đề nghiên cứu của người dùng. Chọn kiểu dữ liệu của biến trong thẻ Type: Long Text, Short Text,...
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Configuration, UNKNOWN_WORD: Text)
+  Line: + Configuration: Thiết lập văn bản hiển thị Label Text trong Agent, chẳng
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: khach)
+  Line: cau hol khach hang
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: CourtIon)
+  Line: CourtIon
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: ở)
+  Line: Nhập câu hỏi của bạn ở dây
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Hetp, UNKNOWN_WORD: Text, UNKNOWN_WORD: Optianal)
+  Line: Hetp Text (Optianal)
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: _khach_hang)
+  Line: 🖼️ Minh họa trong sách Hình 2.7. Khai báo biến đầu vào cau_hoi _khach_hang
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Optional)
+  Line: Test Value (Optional)
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: values, UNKNOWN_WORD: pre, UNKNOWN_WORD: responses, UNKNOWN_WORD: previewing, UNKNOWN_WORD: drafts)
+  Line: Test values make it easy to pre-fill responses when previewing drafts.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: ở)
+  Line: Bước 1. Thêm Web Search (công cụ tìm kiếm): - Chọn nút ở giữa User Input và End, sau đó chọn View All Blocks Tìm mục Google và chọn Search Google để đưa vào Canvas. Kết quả nh
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Configuration)
+  Line: Bước 2. Cấu hình khối Search Google: Chọn Search Google, chọn t Configuration, trong đó:
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Query, UNKNOWN_WORD: cau_hoi_khach_hang)
+  Line: + Search Query (truy vấn): Nhập {{cau_hoi_khach_hang)} để công cụ ti
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: _khach)
+  Line: kiếm sử dụng giá trị của biến cau_hoi _khach _hang làm từ khóa. + Output Variable: Lưu giá trị trả về vào biến đầu ra (output), chẳng hạ
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: thong_tin_tim_kiem)
+  Line: thong_tin_tim_kiem.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: text)
+  Line: + Format: Định dạng kết quả đầu ra (output) là Plain text (văn bản thuần tu
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Configuration)
+  Line: Configuration Quick Help
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Query, UNKNOWN_WORD: khach)
+  Line: Search Query ((cau hol khach hang))
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: include, UNKNOWN_WORD: variables)
+  Line: You may include ((variables)).
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: kiem)
+  Line: Output Variable : thong_tin_tim kiem
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: text)
+  Line: Format Plain text
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Select, UNKNOWN_WORD: exported)
+  Line: Select the format you want the search 'results to be exported as.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text, UNKNOWN_WORD: ở, UNKNOWN_WORD: Text)
+  Line: c) Tóm tắt nội dung tìm được và trả lời bằng LLM Bước 1. Thêm Generate Text: - Chọn nút ở giữa Search Google và End, rồi chọn Generate Text.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Ganarate)
+  Line: Ganarate
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text)
+  Line: Text
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text)
+  Line: 🖼️ Minh họa trong sách Hình 2.11. Thêm Generate Text 20
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text)
+  Line: Nháy chuột vào Generate Text rồi chọn
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Configuration)
+  Line: Configuration Quick Help
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Configuration, UNKNOWN_WORD: Settings)
+  Line: thé Configuration, trong đó: + Model Settings: Chọn một LLM
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text)
+  Line: Generate Text
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: 4o, CONJOINED: 4o)
+  Line: (Claude 3 Haiku hoặc GPT-4o Mini).
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Prafier)
+  Line: Prompt Opens in Prafier O
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: trd)
+  Line: Bạn là trd lý áo thân thiện và hữu ích của
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: cau_hoi_khach_hang)
+  Line: cửa hàng tạp hóa gia đình An. Dưới đây là thông tin liên quan đến câu hỏi của khách hàng: Câu hỏi: {[cau_hoi_khach_hang 77
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: thong_tin_tim_kiem, SUSPICIOUS_WORD: rờ)
+  Line: Thông tin tim dược: f[thong_tin_tim_kiem]] Hãy trả lời câu hỏi của khách hàng một cách rờ rằng, ngân gọn, thân thiện và hữu ích, chí dựa vào thông tin được cung cắp. Nếu thông tin không đủ để trả lời, hãy nói
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: cau_hoi_khach_hang)
+  Line: cửa hàng tạp hóa gia đình An. Dưới đây là thông tin liên quan đến câu hỏi của khách hàng: Câu hỏi: {{cau_hoi_khach_hang }}.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Describe, UNKNOWN_WORD: include, UNKNOWN_WORD: variables)
+  Line: Describe what you'd like the AI to generate. You may include ((variables)).
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: thong_tin_tim_kiem)
+  Line: Thông tin tìm được: ({thong_tin_tim_kiem}}.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Settings)
+  Line: Settings
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Schema)
+  Line: Output Schema
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text, UNKNOWN_WORD: Default)
+  Line: Text (Default)
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Include, UNKNOWN_WORD: default)
+  Line: Include (default)
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: visible, UNKNOWN_WORD: sessions)
+  Line: Control whether this message is visible in the history of any chat sessions.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: _kiem, UNKNOWN_WORD: Settings)
+  Line: Lưu ý: {{thong_tin_ tim _kiem}} là biến chứa kết quả từ Search Google. + Settings:
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Settings)
+  Line: Model Settings O
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: anthrogic)
+  Line: Claude 3.5 Haiku anthrogic/claude-3-5-haiku-28241922
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Inherited, UNKNOWN_WORD: Settings)
+  Line: 4 Inherited from the Workflow's Model Settings
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Text)
+  Line: Generate Text
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Schema, UNKNOWN_WORD: Text)
+  Line: Output Schema: Định dạng đầu ra (Text, JSON hoặc CSV).
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: MAAMVOI)
+  Line: O MAAMVOI E
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Debugger, UNKNOWN_WORD: ở)
+  Line: chọn Preview → Run in Debugger hoặc chọn Open Draft Agent (ở góc trên bên phải hoặc dưới cùng của cửa số) để kiểm tra hoạt động của Agent. - Nếu Agent hoạt động thì sẽ xuất hiện
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: VD1, CONJOINED: VD1)
+  Line: AL AI Agent VD1
+
+[bai-2-cau-truc-ai-agent-don-gian] (SUSPICIOUS_WORD: lôi, UNKNOWN_WORD: tribu, UNKNOWN_WORD: lasi, UNKNOWN_WORD: tues, UNKNOWN_WORD: orpanic, UNKNOWN_WORD: dusc, UNKNOWN_WORD: dann)
+  Line: Dua trên các nguồn thông tin, lôi kin giai tribu 3 lasi sita tues orpanic dusc dann gia cao nhất hiện nay.
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: sês, UNKNOWN_WORD: orgaric, UNKNOWN_WORD: rudl, UNKNOWN_WORD: ire, UNKNOWN_WORD: neido, UNKNOWN_WORD: Panto, UNKNOWN_WORD: uike, UNKNOWN_WORD: ngues)
+  Line: La sês orgaric đầu tên đạt chung nhận têu chuấn châu du tại Việt Nam • Ser rudl du nhong con do chan ire tu neido • Panto vor uike vi ngues lint
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Sdo, UNKNOWN_WORD: res)
+  Line: 2. Sdo res TH True Mila Organic:
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: Raay, UNKNOWN_WORD: e0, UNKNOWN_WORD: kcal, UNKNOWN_WORD: Crua, UNKNOWN_WORD: canai, UNKNOWN_WORD: cet, UNKNOWN_WORD: reamin, UNKNOWN_WORD: eriét, CONJOINED: e0)
+  Line: Gia đình chuộng • Raay Wong: e0,0 kcal • Crua canai, protein o cet reamin cân eriét
+
+[bai-2-cau-truc-ai-agent-don-gian] (UNKNOWN_WORD: tuer, UNKNOWN_WORD: Orgaric, UNKNOWN_WORD: ONl, UNKNOWN_WORD: Larc)
+  Line: ) Dua tuer Orgaric CS ONl Ha Larc
+
+[bai-2-cau-truc-ai-agent-don-gian] (SUSPICIOUS_WORD: cầu)
+  Line: Quý khách có thể cân nhắc 3 loại sữa này để lựa chọn phù hợp với nhu cầu.
+
+[bai-3-rag-nang-cao] (UNKNOWN_WORD: Language)
+  Line: 1. Các thành phần kĩ thuật trong bước truy xuất Các mô hình ngôn ngữ lớn (Large Language Model, viết tắt là LLM) như ChatGPT không thế ghi nhớ mọi chi tiết từ hàng trăm trang tài liệu. Để trả lời chính xác một câu hỏi cụ thể, LLM cần cơ chế để tra cứu thông tin liên quan. Đây là lúc tạo sinh có hỗ trợ truy xuất (Retrieval - Augmented Generation, viết tắt là RAG) phát huy tác dụng.
+
+[bai-3-rag-nang-cao] (UNKNOWN_WORD: RAC)
+  Line: RAC
+
+[bai-3-rag-nang-cao] (SUSPICIOUS_WORD: bán)
+  Line: bán có ý nghĩa hoàn chỉnh. Hình 3.2. Hinh ảnh một văn bản được chia thành các đoạn nhỏ bằng thuật toán
+
+[bai-3-rag-nang-cao] (SUSPICIOUS_WORD: sô, SUSPICIOUS_WORD: sô)
+  Line: dãy sô (gọi là vector). Dãy sô này giông như "toạ độ" hay "vị trí" của đoạn văn
+
+[bai-3-rag-nang-cao] (SUSPICIOUS_WORD: cầu)
+  Line: của em sẽ được mã hoa thành vector. Hệ thống sẽ nhanh chóng tìm trong kho lưu trữ vector để lầy các sản phẩm (đã được mã hoá thành vector từ trước) có "mã số" gần nhất, tức là các sản phẩm phù hợp nhất với yêu cầu của em.
+
+[bai-3-rag-nang-cao] (UNKNOWN_WORD: Documents)
+  Line: Documents Embedding
+
+[bai-3-rag-nang-cao] (UNKNOWN_WORD: Vectorstore)
+  Line: Model Vectorstore
+
+[bai-3-rag-nang-cao] (UNKNOWN_WORD: Query, UNKNOWN_WORD: Context)
+  Line: Query Context/
+
+[bai-3-rag-nang-cao] (UNKNOWN_WORD: vecto)
+  Line: (Lưu trữ vecto
+
+[bai-3-rag-nang-cao] (UNKNOWN_WORD: Approximate)
+  Line: (ví dụ: các thuật toán tìm kiếm lân cận gần đúng như ANN - Approximate Nearest
+
+[bai-3-rag-nang-cao] (SUSPICIOUS_WORD: lôi)
+  Line: A. Tự động sửa lôi và trả lời đúng.
+
+[bai-3-rag-nang-cao] (SUSPICIOUS_WORD: cầu)
+  Line: D. Yêu cầu người dùng cập nhật nguồn kiến thức.
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: hòi)
+  Line: An đã xây dựng được một trợ lí ảo có các chức năng cơ bản cho cửa hàng tạp hoá. Trợ lí ảo có thể trả lời các câu hòi dựa trên dữ liệu sản phẩm có sẵn. Tuy nhiên, một số khách hàng lại hỏi những câu phức tạp hơn, đòi hỏi trợ lí ảo phải suy luận và thực hiện nhiều bước. Ví dụ:
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ST25, UNKNOWN_WORD: Chinsu)
+  Line: Tính tống giá tiền của 2 kg gạo ST25 và 1 chai nước mắm Chinsu 500 ml (cần
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cầu)
+  Line: Đế giải quyết các yêu cầu phức tạp này, cần một công cụ giúp trợ lí ảo "quản lí" toàn bộ quá trình, từ việc
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ở)
+  Line: LLM rất thông minh và có kiến thức tổng quát rộng lớn. Tuy nhiên, LLM thường gặp giới hạn: chúng không có thông tin cụ thể của riêng từng cá nhân (ví dự: giá sản phẩm ở cửa hàng tạp hoá nhà An) và không thể tự động thực hiện các hành động phức tạp (như gửi thư điện tử, tra cứu trên mạng).
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: framework)
+  Line: LangChain chính là giải pháp cho vấn đề này. LangChain là một bộ khung (framework) mã nguồn mở giúp:
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Templates)
+  Line: Prompt Templates
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Modules)
+  Line: Retrieval Modules
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Callbacks)
+  Line: Memory Callbacks
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Interface)
+  Line: Giao diện LLM (LLM Interface): Cho phép kết nối vá truy vấn các LLM khác
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cầu)
+  Line: nhau (ví dụ: GPT, Bard, PaLM) bằng lệnh đơn giản. Đây là cầu nói giúp ứng dụng của em "nói chuyện" được với bát ki LLM nào.
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Template)
+  Line: Mẫu prompt (Prompt Template): Các cấu trúc sản có giúp định dạng truy vắn
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Modules)
+  Line: Mô-dun truy xuất (Retrieval Modules): Tạo điều kiện xây dựng hệ thống
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Callback)
+  Line: Lệnh gọi lại (Callback Command): Các đoạn mã nhúng vào ứng dụng để ghĩ
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: giái)
+  Line: Quy trinh hoàn chỉnh giái quyét bài toán
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: bải)
+  Line: Phần tích đề bải Tìm kiếm kiến thức liên
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cầu)
+  Line: LangChain giống như ứng dụng học tập thông minh, nơi các chuỗi và liên kết phối hợp nhịp nhàng để thực hiện các yêu cầu của em một cách tự động và thông minh.
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: framework)
+  Line: LangChain là một framework mã nguồn mở giúp xây dựng cac ứng dụng dùng LLM hiệu quả hơn. Mục đich chính của nó là khắc phục giới hạn của LLM bằng cách:
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ST25)
+  Line: Để trợ lí ào của An trả lời được câu hỏi 2 kg gạo ST25 có giá bao nhiêu?, LLM cần có thông tin về giá gạo. Các LLM lớn thường chỉ được huần luyện trên dữ liệu công khai và không có kiên thức cụ thể về giá trong cừa hàng của gia đình An. Đây là lúc chúng ta cần đến LlamaIndex.
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: framework)
+  Line: Tiếp nối LangChain, LlamaIndex cũng là một khung làm việc (framework) mã nguồn mở, nhưng được thiết kế chuyên biệt để giúp các ứng dụng LLM tương tác hiệu quả với dữ liệu riêng tư hoặc bên ngoài. Nó giống như một thủ kho
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: hibu, UNKNOWN_WORD: Vedlor, UNKNOWN_WORD: Stoce, UNKNOWN_WORD: inded)
+  Line: Tổ chức dữ liệu để thy kiểm hibu quả vì dy Vedlor Stoce inded
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Query)
+  Line: Query Engines
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: háp)
+  Line: Giao điện để truy vẫn dữ tiêu, kết háp tm kiếm và:
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ở, SUSPICIOUS_WORD: sô)
+  Line: 1) Thu thập dữ liệu (Data Connectors): An có thể có dữ liệu cửa hàng ở nhiều nơi: tệp Excel, tệp PDF chứa chính sách khuyên mãi, thông tin trên trang web hoặc thậm chí là các ghi chú viết tay mà An đã sô hoá. LlamaIndex cung cấp các
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: xlsx)
+  Line: Data Connectors giúp tải dữ liệu từ vô số nguồn khác nhau một cách dễ dàng. Vị dụ: LlamaIndex có thể đọc trực tiếp từ tệp .xlsx của bảng giá, tệp .pdf của hợp đồng thuê mặt bằng (để biết giờ đóng mở cửa), hoặc tự động thu thập thông tin tử một trang web đơn giản của cửa hàng.
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: thô)
+  Line: 2) Tổ chức và lưu trữ dữ liệu (Data Indexes): Sau khi tải về, dữ liệu thô thường không được tổ chức một cách hiệu quả để tìm kiếm. LlamaIndex sẽ xử lí (chia nhỏ văn bản, biểu diễn vector) và tổ chức dữ liệu này thành các chỉ mục dữ liệu.
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cà, UNKNOWN_WORD: semantic)
+  Line: Vị dụ: Thay vì để LLM đọc cà một tệp PDF dài, LlamaIndex sẽ chia tệp đó thành các đoạn nhỏ hơn, biến mỗi đoạn thành một "mục lục" có thể tìm kiếm được. Khi khách hỏi về giá sữa Vinamilk, LlamaIndex không cần đọc lại cả cuốn số tay sản phẩm mà chỉ cần tìm đến "mục" có thông tin về sữa. Đặc biệt, Vector Store Index là loại chỉ mục phổ biến nhất, giúp tìm kiếm thông tin dựa trên ý nghĩa (semantic
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: tôm)
+  Line: Vị dụ: Khách hàng hỏi: Mì tôm Hảo Hảo còn không?, Retriever sẽ vào Vector
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: tôm, UNKNOWN_WORD: VNĐ)
+  Line: Store Index, tìm kiếm những đoạn văn bản trong cơ sở dữ liệu của An mà có ý nghĩa gân nhất với câu hỏi này (ví dụ: dòng Mì tôm Hảo Hảo gói: 5 000 VNĐ/gói.)
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Query, UNKNOWN_WORD: Query, SUSPICIOUS_WORD: cà, UNKNOWN_WORD: Query, UNKNOWN_WORD: ST25, UNKNOWN_WORD: ST25, UNKNOWN_WORD: VNĐ)
+  Line: 4) Bộ máy truy vấn (Query Engines): Sau khi Retriever tìm được thông tin liên quan, Query Engines của LlamaIndex sẽ kết hợp thông tin đó với câu hỏi gốc của người dùng và chuyến giao cho LLM. LLM sau đó sẽ sử dụng cà câu hỏi và thông tin được truy xuất để tạo ra một câu trả lời chính xác, tự nhiên và phù hợp. Ví dụ: Query Engine sẽ lấy câu hỏi Gạo ST25 giá bao nhiêu? và đoạn văn bản đã truy xuất Gạo ST25 5 kg: 120 000 VNĐ, sau đó đưa cho LLM. LLM sẽ trả lời: Dạ,
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ST25, UNKNOWN_WORD: VNĐ, UNKNOWN_WORD: ạ)
+  Line: gạo ST25 loại 5 kg có giá 120 000 VNĐ ạ. 36
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cầu, SUSPICIOUS_WORD: huân)
+  Line: Như vày. LlamaIndex chinh là cầu nổi vững chắc giữa LLM và kho kiến thức riêng của em, giúp LLM có thể trả lời các câu hỏi cụ thế, chính xác và cập nhật mà bân thân LLM chưa được huân luyện.
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: CANNO)
+  Line: CANNO
+
+[bai-4-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: Cầu)
+  Line: Data Indexes: Cầu trúc dữ liệu để tìm kiếm hiệu quả (vi dụ: Vector Store Index).
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Query)
+  Line: Retrieval: Tìm kiếm thông tin liên quan từ Index. • Query Engines: Giao diện để truy vấn dữ liệu, kết hợp tìm kiếm và LLM.
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Query)
+  Line: C. Retrieval. D. Query Engines.
+
+[bai-4-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: COSSRT)
+  Line: COSSRT VẬN DỤNG
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cầu, SUSPICIOUS_WORD: cầu)
+  Line: Với câu hội thứ nhất: Sữa tươi có đường hết chưa?, trợ lí ảo phải kiểm tra hàng còn hay hết trong kho. Với câu hỏi thứ hai: Tôi cần sữa không đường, ít béo dành cho người ăn kiêng. Cửa hàng có không?, trợ lí ảo phải hiểu nhu cầu chi tiết và gợi ý sản phẩm phù hợp, thậm chí phải tìm thêm thông tin ngoài cửa hàng. Trong tình huống trên, vì sao An chỉ sử dụng một công cụ như LangChain hoặc LlamaIndex là chưa đủ? LangChain và LlamaIndex có thể phối hợp như thế nào để trợ lí ảo vừa hiểu yêu cầu của khách vừa tìm đúng thông tin cần thiết?
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cầu)
+  Line: 1. LangChain và LlamaIndex: Hai chuyên gia, một mục tiêu Trọng tình huống của An, chỉ dùng một công cụ là chưa đủ vị mỗi câu hỏi của khách lại cần xử lí theo một cách khác nhau. Câu hỏi thứ nhất cần truy cập dữ liệu trong kho, còn câu hỏi thứ hai yêu cầu hiểu ý định phức tạp và lọc thông
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cầu)
+  Line: LangChain là công cụ giúp điều phối quá trình xữ lí: nhận yêu cầu, lên kế hoạch
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cầu)
+  Line: Khi kết hợp, LangChain đóng vai trò người tố chức thông minh, còn LlamaIndex giống như kho tra cứu. LangChain sẽ biết lúc nào cần dùng LlamaIndex để tìm dữ liệu, rồi tiếp tục xử lí và tạo ra câu trả lời hợp lí. Nhờ sự phối hợp này, trợ lí ảo của An mới có thể trả lời linh hoạt cả câu hỏi đơn giản lẫn yêu cầu phức tạp.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: apps)
+  Line: Build full LLM apps
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Indera)
+  Line: Agents Indera
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Structured)
+  Line: Prompts Structured data
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: sources)
+  Line: sources
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Deployment)
+  Line: Deployment
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Lamaindex)
+  Line: Lamaindex Lang Chain
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cà)
+  Line: công cụ, quản lí hội thoại. Em có thể kết hợp cà hai trong một dự án để tận dụng tối đa sức mạnh của mỗi thư viện nguồn mở.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: macOS)
+  Line: hướng dẫn cách cài đặt Python trên Windows/macOS/Linux trên Google. Sau khi cài Python, Pip thường sẽ được cài đặt kèm theo.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: PowerShell)
+  Line: Đầu tiên, cần cài đặt thư viện LlamaIndex và một LLM mẫu (chẳng hạn như Ollama để chạy LLM cục bộ). Chạy lệnh sau thông qua Command Prompt/PowerShell (trên Windows):
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: install, UNKNOWN_WORD: huggingface)
+  Line: pip install -U llama-index llama-index-embeddings-huggingface llama-
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: 1lms, UNKNOWN_WORD: pypdf, UNKNOWN_WORD: sentence, UNKNOWN_WORD: bitsandbytes, UNKNOWN_WORD: accelerate, UNKNOWN_WORD: openai, CONJOINED: 1lms)
+  Line: index-1lms-ollama langchain langchain-community pypdf transformers sentence-transformers bitsandbytes accelerate openai
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: PowerShell)
+  Line: Sau đó, cần tải một LLM về máy nếu dùng Ollama thông qua Command Prompt/ PowerShell (trên Windows). Ví dụ:
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: llama2, UNKNOWN_WORD: phi3, CONJOINED: llama2, CONJOINED: phi3)
+  Line: ollama run llama2 # Hoặc ollama run phi3
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Llamalndox)
+  Line: a) Tâi thông tin và tạo chỉ mục Llamalndox Tạo hai tệp văn bản trong cúng thư mục với đoạn mã Python và điên thông tin sản phẩm vào đó.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: VND)
+  Line: Sữa tươi Vinamilk có đường: 29 000 VND/lít. Hạn sử dụng 6 tháng.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: VNĐ, UNKNOWN_WORD: 200g, CONJOINED: 200g)
+  Line: Bánh quy Kinh Dộ Marie: 15 000 VNĐ/gói 200g.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: tôm, UNKNOWN_WORD: VND)
+  Line: Mì tôm Hảo Hảo gói: 3 000 VND/gói.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: VND)
+  Line: Nước ngọt Coca-Cola lon: 10 000 VND/lon.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ST2S, UNKNOWN_WORD: VND, UNKNOWN_WORD: Fllo, UNKNOWN_WORD: khuyon, UNKNOWN_WORD: txt, CONJOINED: ST2, CONJOINED: 3kg)
+  Line: Gạo ST2S: 120 000 VND/3kg. Fllo: khuyon mal.txt
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: tôm)
+  Line: Chương trình khuyến mãi tháng 6: Mua 2 gói mì tôm Háo Háo tặng 1 gói cúng loại.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: VNĐ)
+  Line: Giảm giá 10% cho tất cá các sán phâm sữa khi mua hóa đơn trên 100 000 VNĐ.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: trom, UNKNOWN_WORD: _Indox, UNKNOWN_WORD: enbeddingo, UNKNOWN_WORD: hugglogface, UNKNOWN_WORD: lapore, UNKNOWN_WORD: Huggingtosenbsdasng)
+  Line: trom Ilona _Indox, enbeddingo hugglogface lapore Huggingtosenbsdasng
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: trom, UNKNOWN_WORD: licr, UNKNOWN_WORD: illane, UNKNOWN_WORD: Ollams, UNKNOWN_WORD: lans, UNKNOWN_WORD: uir, UNKNOWN_WORD: 100lo, UNKNOWN_WORD: Quoryengine7ool, UNKNOWN_WORD: roolketadasa, SUSPICIOUS_WORD: trom, UNKNOWN_WORD: orn, UNKNOWN_WORD: agone, UNKNOWN_WORD: ReActhgens, UNKNOWN_WORD: langcholn, UNKNOWN_WORD: agore, UNKNOWN_WORD: loport, UNKNOWN_WORD: igentezecutot, UNKNOWN_WORD: creste_tesct_ayent, CONJOINED: 100lo, CONJOINED: Quoryengine7)
+  Line: trom lama _index. licr. illane import Ollams trum lans Index.:uir.100lo Import Quoryengine7ool, roolketadasa trom lama_index. :orn. agone Import ReActhgens tram langcholn. agore» loport igentezecutot, creste_tesct_ayent
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: trom, UNKNOWN_WORD: langshain_cors, UNKNOWN_WORD: pecspie, UNKNOWN_WORD: Prompttemplate, UNKNOWN_WORD: ensaoyes, UNKNOWN_WORD: AIhersage, UNKNOWN_WORD: Hunaskessage)
+  Line: trom langshain_cors, pecspie import Prompttemplate from langchain_core. ensaoyes Import AIhersage, Hunaskessage
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Logging, UNKNOWN_WORD: 1y, UNKNOWN_WORD: cûs, UNKNOWN_WORD: bllamaindex, UNKNOWN_WORD: logging, UNKNOWN_WORD: basscconfig, UNKNOWN_WORD: oyo, UNKNOWN_WORD: acdout, UNKNOWN_WORD: logging, UNKNOWN_WORD: INkD, UNKNOWN_WORD: 10ggtmg, UNKNOWN_WORD: getlogger1, UNKNOWN_WORD: addlandler, UNKNOWN_WORD: logging, UNKNOWN_WORD: GcreanHandiez, UNKNOWN_WORD: syg, UNKNOWN_WORD: otdool, CONJOINED: 1y, CONJOINED: 10ggtmg, CONJOINED: getlogger1)
+  Line: 1 --- Câu hinh chung -.. • Bat Logging dé xem que trinh xù 1y cûs bllamaindex logging.basscconfig(stream-oyo.acdout,level-logging.INkD) 10ggtmg.getlogger1).addlandler(logging.GcreanHandiez(syg.otdool))
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: chuơng, UNKNOWN_WORD: nếi, UNKNOWN_WORD: cáờ, UNKNOWN_WORD: lifu, UNKNOWN_WORD: tếp, UNKNOWN_WORD: ta1, UNKNOWN_WORD: documento, UNKNOWN_WORD: gimpledirectoxyReader, UNKNOWN_WORD: Jond_doca, UNKNOWN_WORD: tás, UNKNOWN_WORD: Ien, UNKNOWN_WORD: documents, UNKNOWN_WORD: lifu, CONJOINED: ta1)
+  Line: 1 -- a) Tál thông tin sân phẩn và chuơng trính khuyến nếi từ cáờ tập khác nhoa --- print/"Dang tái do lifu tú các tép...") 1 Tái tát có cáo tếp từ thu mc hiện ta1 documento -gimpledirectoxyReader/"./").Jond_doca() print(["Dó tás (Ien(documents)) tái lifu..")
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: bäng, UNKNOWN_WORD: Ilamaindex, UNKNOWN_WORD: 11eu, CONJOINED: 11eu)
+  Line: ( --- b) Tạo một chi muc dã liệu bäng Ilamaindex print/"Dang too chi muc dü 11eu..")
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Hugging, UNKNOWN_WORD: agü, UNKNOWN_WORD: sghle, SUSPICIOUS_WORD: bán, UNKNOWN_WORD: sentence, UNKNOWN_WORD: tranaforner, UNKNOWN_WORD: paraphrose, UNKNOWN_WORD: mult111ngua1, UNKNOWN_WORD: M201141, CONJOINED: mult111, CONJOINED: ngua1, CONJOINED: M201141)
+  Line: 1. Cau hinh ms hinh nhung (Embedding Model) • Sử dụng mô hình nhúng của Hugging face dé tạo vector biểu diễn agü sghle cho vẫn bán. 8 Mo hinh "sentence-tranaforner:/paraphrose-mult111ngua1-M201141-112-72" 65 tro da ngôn ngõ.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: settings, UNKNOWN_WORD: ented_n0del, UNKNOWN_WORD: Huggingfacelmbedd1ng, CONJOINED: n0, CONJOINED: Huggingfacelmbedd1)
+  Line: settings.ented_n0del - Huggingfacelmbedd1ng(
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: model_sane, UNKNOWN_WORD: sentence, UNKNOWN_WORD: tranaforners, UNKNOWN_WORD: poraphrose, UNKNOWN_WORD: mult1i1nqu, UNKNOWN_WORD: Mın, UNKNOWN_WORD: LI2, CONJOINED: mult1, CONJOINED: i1, CONJOINED: LI2)
+  Line: model_sane-"sentence-tranaforners/poraphrose-mult1i1nqu»?-Mın: IM-LI2-
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: bdo, UNKNOWN_WORD: duoc, UNKNOWN_WORD: s01, UNKNOWN_WORD: khöng, SUSPICIOUS_WORD: co, UNKNOWN_WORD: GFU, UNKNOWN_WORD: devicen, CONJOINED: s01)
+  Line: Sủ dung CPU dể dam bdo chay duoc trên s01 say tinh khöng co GFU mash devicen"cpu" )
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: llama2, UNKNOWN_WORD: 1ã, UNKNOWN_WORD: cà1, UNKNOWN_WORD: O11ara, UNKNOWN_WORD: 11ams2, UNKNOWN_WORD: Tåt, UNKNOWN_WORD: Ollana, UNKNOWN_WORD: httpt, UNKNOWN_WORD: ol1ans, UNKNOWN_WORD: lenh, UNKNOWN_WORD: ol1ama, UNKNOWN_WORD: 11ama2, UNKNOWN_WORD: Settingo, UNKNOWN_WORD: I2i, UNKNOWN_WORD: O11an0, UNKNOWN_WORD: Ilana2, UNKNOWN_WORD: reguest_timeout, UNKNOWN_WORD: I62g, UNKNOWN_WORD: 12000u, CONJOINED: llama2, CONJOINED: 1ã, CONJOINED: cà1, CONJOINED: O11, CONJOINED: 11ams, CONJOINED: ol1, CONJOINED: ol1, CONJOINED: 11ama, CONJOINED: I2, CONJOINED: O11, CONJOINED: an0, CONJOINED: Ilana2, CONJOINED: I62, CONJOINED: 12000u)
+  Line: 2. Câu hình mô hình ngôn ngữ lớn (1121) • sử dụng Ollama với mô hình "llama2" chạy cục bộ. • Đảm bảo bon 1ã cà1 dất O11ara và kéo mo hinh 11ams2: • Tåt Ollana tu httpt://ol1ans.com/ • Chay lenh: ol1ama run 11ama2 Settingo. I2i = O11an0 (model-"Ilana2", reguest_timeout-360.0) d I62g 12000u= cho các câu trẻ 101 dài
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: VectorStoreIndex, UNKNOWN_WORD: fzom, UNKNOWN_WORD: documents, UNKNOWN_WORD: docunenca)
+  Line: * 3. Xây dụng chi muc vector • Chỉ mục nảy sẽ giúp chúng ca tin kiên thống cin nhanh chóng và hiệu quả. index - VectorStoreIndex.fzom documents (docunenca) print("Đã tạo chỉ mục dữ liệu thành công")g.") 42
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Query)
+  Line: b) Xây dựng Agent LangChain sử dụng LlamaIndex làm công cụ Chúng ta sẽ tạo một công cụ (tool) từ Query Engine của LlamaIndex và sau đó tích hợp vào một Agent của LangChain. Agent này sẽ biết khi nào cần sử dụng công cụ đó để tìm kiếm thông tin trong kho dữ liệu của cửa hàng. Tiếp tục đưa phần mã dưới đây vào tệp main.py.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: muo)
+  Line: 1 --- c) Xây dựng một Agent LangChain có khả năng sử dụng chỉ muo của LlamaIndex nhu một công cụ --- print ("Dang xáy dựng Agent LangChain...")
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Query, UNKNOWN_WORD: muo, UNKNOWN_WORD: Query)
+  Line: * 1. Ipo Query Engine từ chi muo 7 Query Engine giúp chúng ta hỏi các câu hỏi về chỉ mục.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: guezy_engine, UNKNOWN_WORD: os_query_engine, UNKNOWN_WORD: s1m, UNKNOWN_WORD: larity_, UNKNOWN_WORD: lidy, UNKNOWN_WORD: qud, CONJOINED: s1)
+  Line: tương đồng nhất guezy_engine-index.os_query_engine(s1m/larity_ top kol) o lidy 3 ket qud
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Iool, UNKNOWN_WORD: Query, UNKNOWN_WORD: aản)
+  Line: 2. Đinh nghia công cụ (Iool) cho Agent • Công cụ này cho phép Agent sử dụng Query Engine để tìm kiêm thông tin aản
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: cae, UNKNOWN_WORD: thoc, UNKNOWN_WORD: prh, UNKNOWN_WORD: nyến, UNKNOWN_WORD: htm)
+  Line: cae thoc ei m at a a prh sa cc n ng 2 2 nyến nà, htm
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: G1á, SUSPICIOUS_WORD: cà, UNKNOWN_WORD: v1, UNKNOWN_WORD: nhléu, UNKNOWN_WORD: trết, CONJOINED: G1)
+  Line: G1á cà của sản phẩm (v1 dự: "Giá sữa Vinamilk la bao nhléu?") - Thông tin chi trết về sản phẩm(vi dự: "Bánh quy Rinh Đô Marie có gì đăc biệt?")
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: tôm, CONJOINED: M1)
+  Line: Các chương trình khuyến mãi, ưu đãi (ví dụ: "M1 tôm Hảo lào có khuyến mái gì không?", "Khuyến mãi tháng 6 là gì?").
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ReActagent, UNKNOWN_WORD: systen, UNKNOWN_WORD: prompt_v1, SUSPICIOUS_WORD: cầu)
+  Line: 3. Khỏi tạo Agent 7 Chúng ta sẽ sử dụng ReActagent của LlamaIndex vì nó tích hợp tốt với các công cụ của LlamaIndex 1 và có khả năng suy luận để chọn công cụ phù hạp. systen prompt_v1 = """ tra lý ảo thông minh, thân thiện và hữu Ich, chuyên cụng cấp thông tin rẽ sản phẩn và cức chuong trình khuyên mãi. Nhiệm vụ của bạn là trả lời các cầu hỏi của người dùng một cách chính xác và
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: gản, SUSPICIOUS_WORD: cà, UNKNOWN_WORD: khuyện)
+  Line: đáy dủ, dựa trên các thông tin bạn có. Bạn có khẻ năng sử dụng các CÔNG CỤ (tools) đế tìm kiêm thông Khi người dùng hỏi về gản phẩm, giá cà, hoặc các chương trình khuyện mãi, bạn PHẢI SỬ DỤNG công cụ "thong_ tin _sản pham vo _khuyen mai' để láy dữ liệu.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ReActAgent, UNKNOWN_WORD: Iron_10015)
+  Line: agent = ReActAgent. Iron_10015(
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: toolg, UNKNOWN_WORD: query_engine_tooll, UNKNOWN_WORD: Settings, UNKNOWN_WORD: 11n, UNKNOWN_WORD: verbose, UNKNOWN_WORD: Vięt, CONJOINED: 11m, CONJOINED: 11n)
+  Line: toolg=[query_engine_tooll, 11m=Settings.11n, verbose-True, system _prompt-system _prompt_vi, 4 Thêm system prompt tiêng Vięt
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (SUSPICIOUS_WORD: cầu, SUSPICIOUS_WORD: cà, UNKNOWN_WORD: Gö)
+  Line: * --- Phần tương tác với người dùng --- print ("\n--- Sẵn sàng trẻ lời cầu hỏi của bạn! ---") print ("Bạn có thế hỏi về thông tin sản phẩm, giá cà, hoặc các chương trình khuyên mãi. ") print ("Gö 'thoát" đế thoát. ")
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: nBan)
+  Line: question = input (")nBan hỏi: ") if question. lover() = 'thoát':
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: lờ1, UNKNOWN_WORD: Exception, CONJOINED: lờ1)
+  Line: response = agent.chat (question) print (f"Agent trà lờ1: (response)") except Exception as e:
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: 1ọ1, UNKNOWN_WORD: o11ama, CONJOINED: 1ọ, CONJOINED: o11)
+  Line: print (f"Có lỗi xây rai (e). Vui lông thủ 1ọ1 hoặc kiển tra lại cài đật o11ama. ")
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ở)
+  Line: Chạy tệp main.py bằng Terminal hoặc Command Prompt đã dùng ở trên (Lưu ý truy cập đúng thư mục chứa tệp main.py và các tệp dữ liệu) và thử hỏi trợ lí ảo
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: crả, SUSPICIOUS_WORD: hòi)
+  Line: -- sản sàng crả lời câu hòi của ban! - Bạn có thể hỏi về thống tin sản phẩm, giá cá, hoặc các chương trính khuyến mãi. Gõ "thoát" để thoát.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Bcb88656, UNKNOWN_WORD: Sde9, UNKNOWN_WORD: 482f, UNKNOWN_WORD: a012, UNKNOWN_WORD: 814cb405083d, CONJOINED: Bcb88656, CONJOINED: Sde9, CONJOINED: 482f, CONJOINED: a012, CONJOINED: 814cb, CONJOINED: 405083d)
+  Line: Bạn hỏi: Sữa tươi Vinamilk có đường giả bao nhiêu > Running step Bcb88656-Sde9-482f-a012-814cb405083d. Step input: Sữa tươi VinamiLk có đường giá bao nhiêu
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ở)
+  Line: Em sẽ thấy ở đầu ra có phần Thought cho biết Agent đã suy nghĩ và gọi công cụ như thế nào để tìm kiếm thông tin từ chỉ mục LlamaIndex. Điều này minh họa rõ ràng sự kết hợp giữa khả năng điều phối của LangChain và khả năng truy xuất dữ liệu chuyên biệt của LlamaIndex.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: 8cb88656, UNKNOWN_WORD: 5de9, UNKNOWN_WORD: 482f, UNKNOWN_WORD: a012, UNKNOWN_WORD: 814cb405083d, UNKNOWN_WORD: INFO, UNKNOWN_WORD: localhost, UNKNOWN_WORD: ap1, SUSPICIOUS_WORD: OK, CONJOINED: 8cb, CONJOINED: 5de, CONJOINED: 482f, CONJOINED: a012, CONJOINED: 814cb, CONJOINED: 405083d, CONJOINED: ap1)
+  Line: Bạn hỏi: Sữa tươi Vinamilk có đưỡng giá bao nhiều S Running step 8cb88656-5de9-482f-a012-814cb405083d. Step input: Sữa tươi Vinamilk có đường giả bao nhiêu INFO:httpx:HTTP Request: POST http://localhost:11434/ap1/chat "HTTP/1.1 200 OK"
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: INFO, UNKNOWN_WORD: localhost, UNKNOWN_WORD: ОК, UNKNOWN_WORD: localhost, UNKNOWN_WORD: HПTP, SUSPICIOUS_WORD: OK, UNKNOWN_WORD: Observation, UNKNOWN_WORD: provided, UNKNOWN_WORD: context, UNKNOWN_WORD: mith, UNKNOWN_WORD: liter, UNKNOWN_WORD: 56c10474, UNKNOWN_WORD: 9b6d, UNKNOWN_WORD: 47cf, UNKNOWN_WORD: a889, UNKNOWN_WORD: 1ca052c39d67, UNKNOWN_WORD: INFO, UNKNOWN_WORD: localhost, UNKNOWN_WORD: ОК, UNKNOWN_WORD: ocalhost, UNKNOWN_WORD: ОК, UNKNOWN_WORD: aore, UNKNOWN_WORD: IZ, UNKNOWN_WORD: aser, UNKNOWN_WORD: language, UNKNOWN_WORD: VND, UNKNOWN_WORD: VND, CONJOINED: 56c, CONJOINED: 9b, CONJOINED: 6d, CONJOINED: 47cf, CONJOINED: a889, CONJOINED: 1ca, CONJOINED: 052c, CONJOINED: 39d)
+  Line: Action Input: ('input": Sữa tươi Vinamilk gid bao nhiều?" nun beans': 5) INFO: httpx:HTTP Request: POST http://localhost:11434/api/chat *HTTP/1.1 200 ОК" HTTP Request: POST http://localhost:11434/api/chat "HПTP/1.1 200 OK" Observation: Based on the provided context the price of Vinamilk's fresh mith ts 25,000 WAD per liter > Running step 56c10474-9b6d-47cf-a889-1ca052c39d67. Step Input: None INFO: httpx:HTTP. Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 ОК" HTTP Request: POST http://ocalhost:11434/api/chat "HTTP/1.1 200 ОК™ Thought: I can answer without using any aore tools, I'IZ use the aser's language to answer Answer: Giá sữa tươi Vinamilk Là 25, 000 VND/Lit. Agent trả lời: Giá sữa tươi Vinamilk là 25,000 VND/Lit.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: ở)
+  Line: 1. Trong ví dụ ở phần thực hành, thành phần nào của LangChain giúp LLM quyết định khi nào cần sử dụng công cụ truy xuất thông tin từ LlamaIndex? A. Chains.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Parsers)
+  Line: D. Output Parsers.
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Lamalndez, SUSPICIOUS_WORD: dũ, SUSPICIOUS_WORD: bậu)
+  Line: 2. Việc Lamalndez lố chúc dũ bậu sản phâm thành một chỉ mục (index) so vai ko nao là quan trong nhất trong quá trình BAG!
+
+[bai-5-khai-thac-thu-vien-nguon-mo-llm] (UNKNOWN_WORD: Lamalndey)
+  Line: 3. Hãy giải thích tại sao việc kết hợp LangChain và Lamalndey lại hiệu quả hơn sọ với việc chí sử dụng một trong hai cho một cng dung tra li ào phúc lap nhu của An.
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (SUSPICIOUS_WORD: mỏ)
+  Line: Ứng dụng AI tạo sinh như ChatGPT hay các công cụ tạo ảnh bằng AI đã mỏ ra nhiều hướng đi mới, đồng thời cũng đặt ra không ít thách thức và câu hỏi phức tạp.
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (SUSPICIOUS_WORD: huân)
+  Line: Chẳng hạn, AI có thể sinh ra văn bản chứa số điện thoại hoặc địa chỉ từ dữ liệu huân luyện.
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (SUSPICIOUS_WORD: cầu)
+  Line: Tập trung vào yêu cầu tuân thủ pháp luật, quyền sở hữu trí tuệ, trách nhiệm giai trình và tính minh bạch nhằm mục đích đảm bảo AI có thể kiểm soát được và sử dụng một cách có đạo đức.
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (UNKNOWN_WORD: Ahiển)
+  Line: Ahiển chùng la không rô vì sao chùng lại làm như vậy. Vi dụ, nêu một ứng dụng
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (UNKNOWN_WORD: Arư, UNKNOWN_WORD: khân, UNKNOWN_WORD: lựr)
+  Line: AI tự động chấm điểm bài tập của em, em có thể không hiều vì sao minh lại Arư điểm đo hay vi sao một câu trẻ lời cụ thể bị đành giá là sai. Diều này gây Nho khân trong việc kiểm tra tinh công bằng, phát hiện sai sót và xây dựng niềm In Vào hệ thống AI. c) Nhòm vắn để về tác động đến xã hội và con người Gồm các vấn đề như thiên vị, ảnh hương việc làm, giá mạo (deepfake) ve quyền lựr chủ - thể hiện những ảnh hưởng rộng lớn của AI đến các giá trị xã hội và phảm gia con người. - Về thiên vị và công bằng, các mô hình AI tạo sinh học từ dữ liệu chúng dược
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (SUSPICIOUS_WORD: huân)
+  Line: huân luyện. Nếu dữ liệu này có sẵn những thiên vị (vi du chi chừa ảnh báo sĩ nam và y tá nữ). AI sẽ vô tinh tải tạo lại những thiên vị đó. Vi dụ, AI có thể tạo ra hình ảnh hoặc nội dung mà
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (UNKNOWN_WORD: lưôn)
+  Line: 🖼️ Minh họa trong sách Hình 6.2. Thiên vị dữ liệu trong A/ (mô lá bác sĩ luôn là nam và y tá lưôn là nữ)
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (SUSPICIOUS_WORD: bàn)
+  Line: AI hoặc đề AI đưa ra mọi quyết định thay thể con người có thể làm suy yếu khả năng suy nghĩ độc lập và giá trị bàn thân. Vi dụ, nếu em hoàn toàn dựa vào AI để làm bài tập về nhà, chọn ngành học, hay thậm chí đưa ra lời khuyên về các mỗi quan hệ cá nhân, em có thể dần mất đi khà năng tư duy phân biện và giải quyết vân đề. Hậu quả là chúng ta có thể trờ nên quá phụ thuộc vào công nghệ, làm giảm đi kĩ năng và quyền tự chủ của chinh mình. d) Sự liên kết và tính phức tạp giữa các vấn đề đạo đức
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (UNKNOWN_WORD: transparency)
+  Line: Các vấn đề đạo đức trong AI không tồn tại độc lập mà liên kết chặt chế với nhau, tạo nên một hệ thống phức tạp. Vi dụ, sự thiếu mình bạch (lack of transparency)
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (UNKNOWN_WORD: ràc, SUSPICIOUS_WORD: càn)
+  Line: 1: tạo sinh đặt ra những vân đề đạo đức quan trọng trên ba i hia canh: an toàn thông tin cá nhân (như quyền riêng tư và ràc mật), trách nhiệm pháp lí và minh bạch (như bản quyền và giải trình), cùng với tác động xã hội và con người (như thiên vị hay thay thế việc làm). Việc phát triển và sử dụng Ai tạo sinh càn được định hướng rõ ràng để bào vệ con người và phục vụ en ron chung.
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (SUSPICIOUS_WORD: giài, SUSPICIOUS_WORD: mò)
+  Line: 2. Vản đề môi trường và các giài pháp trong việc huấn luyện, vận hành cac mò hình lớn về AI tạo sinh a) Văn đề môi trường trong AI tạo sinh Việc phát triển và vận hành
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (UNKNOWN_WORD: huản)
+  Line: quả trình huản luyện và duy trì máy chủ, góp phần làm gìa tàng phát thải carbon. Ngoài
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (SUSPICIOUS_WORD: cầu)
+  Line: nước và tạo ra rác thải điện từ. Điều này đặt ra yêu cầu
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (SUSPICIOUS_WORD: giài)
+  Line: b) Một số giài pháp cho vấn đề môi trường trong AI tạo sinh Đề giảm thiểu tác động tiêu cực đến môi trường, cần có các giải pháp đồng bộ từ nhiều phía: - Tối ưu hoá thuật toán: Phát triển các thuật toán hiệu quả hơn để giảm năng
+
+[bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] (SUSPICIOUS_WORD: hòi)
+  Line: Việc huấn luyện và vận hành các mô hình AI tạo sinh lớn tiêu thụ một lượng điện năng khổng lồ, đỏi hòi nhiều nước để làm
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: Ở, UNKNOWN_WORD: tròc, UNKNOWN_WORD: nguồng)
+  Line: Ở vp 9. cứt em đã tìm hiểu vỏ các nhóm nghề trong lĩnh vực Tin học như Khoa học máy tính. Tìn học ứng dụng, cũng như những công việc cụ thể như phát triển phần mềm hay quản trị hệ thống. Giờ đây khi em đùng tròc nguồng aa chun
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: giui, UNKNOWN_WORD: nghitp, UNKNOWN_WORD: chura)
+  Line: 2. Liệu những kĩ nàng em đang có đã đù để thich nghi với thế giui nghe nghitp dó chura?
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: KANd, UNKNOWN_WORD: KN)
+  Line: tác vụ lặp lại và mở ra những cơ hội mỏi, tàng cường khả năng làm việc của con người. đồng thời tạo ra những ngành nghề hoàn toàn mới. Hình 7.1. H sin dt KANd KN
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: Engineer)
+  Line: + Ki sư prompt (Prompt Engineer): Chuyên gia tạo ra các câu lệnh hiệu quả để
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: Ethicist)
+  Line: + Chuyên gia đạo đức AI (AI Ethicist): Đảm bảo AI hoạt động công bằng, không
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: Integration, UNKNOWN_WORD: Specialist)
+  Line: + Chuyên gia tích hợp AI (AI Integration Specialist): Phân tích và tìm cách tích
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: Powered)
+  Line: + Nhà phát triển nội dung đa phương tiện sử dụng AI (Al-Powered Content
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: Creator)
+  Line: Creator): Sáng tạo nội dung số (hình ảnh, video, âm nhạc) bằng cách tận dụng sức mạnh của AI.
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (SUSPICIOUS_WORD: co)
+  Line: + Phát triển khả năng sáng tạo: Với sự hỗ try dua AI, em co thé lu Gong hoa
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (SUSPICIOUS_WORD: giái)
+  Line: các lác vụ lập lại vá tập trung vào việc đưa ra các ý tưởng đột phá, sáng sạo. giái quyết những vẫn để phức lập hơn. - Thách thức:
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (SUSPICIOUS_WORD: cầu, UNKNOWN_WORD: ngánh, UNKNOWN_WORD: sả)
+  Line: + Yêu cầu kì năng mới: Nhiêu ngánh nghê sả đôi hói kì nóng AI và cùng ngồ!
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: shản, UNKNOWN_WORD: càp)
+  Line: + Ap lưc học hói liên tuc: AI thay đổi rất nhanh, soi hỏi sm shản kon càp rinh
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: Cohei)
+  Line: Thách thức Cohei
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (SUSPICIOUS_WORD: co)
+  Line: 🖼️ Minh họa trong sách Hình 7.2. AI sẽ đồng thời là thách thức và co hội đối với học sinh
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (SUSPICIOUS_WORD: co, UNKNOWN_WORD: veroe, UNKNOWN_WORD: gua, UNKNOWN_WORD: kieh, UNKNOWN_WORD: thur)
+  Line: Để tên u co ht vit veroe gua thách thưc của thời đại AI, em cần chủ động chen di cho minh kieh thur: vit ki nàng về AI
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: Camscaner)
+  Line: Camscaner 56
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (UNKNOWN_WORD: giùp)
+  Line: + Kĩ năng prompt (giao tiếp với AI): Đây là kĩ năng cục kì quan trọng. Nó giùp
+
+[bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] (SUSPICIOUS_WORD: cầu, SUSPICIOUS_WORD: hòi)
+  Line: + Tư duy phản biện: Em cần có khả năng đánh giá thông tin, đặt cầu hòi cho
+
+[bai-8-quyen-con-nguoi-trong-ki-nguyen-ai] (UNKNOWN_WORD: ở)
+  Line: Một công ty công nghệ phát hành mẫu vòng tay thông minh miễn phí để phát tặng cho các học sinh ở kí túc xá. Mẫu vòng này có thể đo nhịp tim, chất lượng giấc
+
+[bai-8-quyen-con-nguoi-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: bán, SUSPICIOUS_WORD: bán)
+  Line: động) và từ chối bán bảo hiểm hoặc chào bán gói bảo hiểm sức khỏe với mức phí cao hơn cho nhóm này.
+
+[bai-8-quyen-con-nguoi-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: cà, SUSPICIOUS_WORD: bán)
+  Line: Vi dụ: Khi em sử dụng bản đồ trên điện thoại, ứng dụng không chỉ ghi lại điểm đến mà còn cả các địa điểm em thường xuyên lui tới (nhà riêng, trường học, quán cà phê yêu thích). AI có thể phân tích dữ liệu này để suy luận ra thói quen sinh hoạt, tình trạng sức khoẻ, thậm chí cả các môi quan hệ của em. Những thông tin này có thể bị tin tặc tấn công hoặc bị bán cho các công ty quảng cáo để họ nhắm đúng đối tượng và giới thiệu sản phẩm hoặc dịch vụ đến em một cách chính xác.
+
+[bai-8-quyen-con-nguoi-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: cầu)
+  Line: truy cập vào danh bạ và vị trí của minh không? Hãy mạnh dạn từ chối những yêu cầu không cần thiết.
+
+[bai-8-quyen-con-nguoi-trong-ki-nguyen-ai] (UNKNOWN_WORD: rúi)
+  Line: có thể thực hiện các dự án thiết thực như xày dụng một bộ quy tắc úng xử trên mạng xã hội cho cả lớp hoặc thiết kế ấn phẩm truyền thông để giải thích về rúi ro. những mặt trái của AI và cách phòng tránh.
+
+[bai-8-quyen-con-nguoi-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: cầu)
+  Line: Gửi phản hồi có trọng lượng để yêu cầu Quyền được đối xử công bằng:
+
+[bai-8-quyen-con-nguoi-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: cầu)
+  Line: Lên tiếng để yêu cầu Quyền được hiểu biết thông tin đầy đủ, minh bạch: Các em
+
+[bai-8-quyen-con-nguoi-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: bàn, SUSPICIOUS_WORD: bàn)
+  Line: 2. Một công ty sử dụng AI để chấm điểm và xếp hạng nhân viên dựa trên hiệu suất làm việc được camera ghi lại. AI cho rằng những nhân viên thường xuyên rời khỏi bàn làm việc có hiệu suất thấp. Tuy nhiên, AI không phân biệt được một nhân viên rời bàn để đi nghỉ ngơi, tán gẫu với một nhân viên khác hay đề gặp gỡ, trao đối công việc với các bộ phận khác.
+
+[bai-9-phat-trien-ai-co-trach-nhiem] (SUSPICIOUS_WORD: giái)
+  Line: Các nguyên tắc phát triển AI có trách nhiệm bao gồm nhóm các nguyên tắc liên quan đến kĩ thuật và hệ thống (an toàn và bảo mật; bảo vệ quyền riêng tư; đáng tin cậy và mạnh mẽ; minh bạch và giải trình được) và nhóm các nguyên tắc liên quan đến đạo đức và xã hội (công bằng; trách nhiệm giái trình; giám sát của con người). Đây là những yếu tố then chốt để AI phục vụ con người một cách tích cực và an toàn.
+
+[bai-9-phat-trien-ai-co-trach-nhiem] (SUSPICIOUS_WORD: giái)
+  Line: C. Minh bạch và giái trình được.
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: HKI, UNKNOWN_WORD: HKII)
+  Line: + Điểm trung binh học ki (HKI, HKII của lớp 10, 11, 12). + Điểm các bài thi thứ hoặc bài kiểm tra quan trọng.
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: HKI)
+  Line: Dự đoán cho dữ liệu mới. Khi Minh An nhập điểm trung bình HKI của mình vào
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: HKI)
+  Line: ứng dụng, máy tính sẽ sử dụng "công thức" mà nó đã học được từ dữ liệu lịch sử để dự đoán điểm thi của bạn ấy. Chẳng hạn, nếu Minh An có điểm trung bình HKI là 8,5, ứng dụng có thể dự đoán điểm thì của bạn ấy là khoảng 8,0 dựa trên xu hướng từ dữ liệu cũ.
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: HKI, UNKNOWN_WORD: HKI)
+  Line: Vi dụ: Già sử dữ liệu cho thấy học sinh có điểm trung bình HKI lớp 12 là 7,0 thì điểm thi trung bình đạt 6,5. Khi Minh An nhập điểm trung bình HKI là 7,0 thì ứng dụng sẽ dự đoàn điểm thi trung bình của bạn ấy là khoảng 6,5. Tuy nhiên, trong thực tế, mô hình Học máy có thể phức tạp hơn, xem xét nhiều yếu tố khác (nhũ
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: HKII)
+  Line: điểm HKII, điểm thi thử) để dự đoán chính xác hơn.
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: Trediecte, UNKNOWN_WORD: Exam, UNKNOWN_WORD: scort)
+  Line: Trediecte Exam scort
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: Regression)
+  Line: 2. Hai dạng bài toán Học máy cơ bản - a) Hồi quy (Regression)
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: continuous)
+  Line: Là bài toán dự đoán giá trị số liên tục (continuous value).
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: ở)
+  Line: Kết quả đầu ra luôn ở dạng số (số nguyên hoặc số thực).
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: tũ)
+  Line: Từ lượng mưa, địa hình sông Hông Dự đoán mực nước tũ tại Hà Nội.
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: tlice)
+  Line: Du liệu tlice
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: Б)
+  Line: Б 80
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: Classification)
+  Line: b) Phân loại (Classification): Gán nhãn cho dữ liệu
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: labeling)
+  Line: Là bài toán gán nhãn (labeling) cho dữ liệu mới.
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: discrete, UNKNOWN_WORD: categories)
+  Line: Kết quả đầu ra thuộc nhóm rời rạc (discrete categories).
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: Trot)
+  Line: 100 Trot Đó
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (SUSPICIOUS_WORD: mỏ)
+  Line: Chất lượng dữ liệu là yếu tố then chốt ảnh hưởng đến hiệu quả của mỏ hinh AI.
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: HKII)
+  Line: Bước 1. Thu thập dữ liệu: Điểm HK//HKII, kết quả thi, thông tin cá nhân (khu
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: nhạ)
+  Line: Gom nhạ! và lổng hợp da
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: halldation)
+  Line: Phan chia train halldation/test theo d
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: Motnc)
+  Line: fl Motnc sai
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: nuội)
+  Line: Giá tr nuội
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: Outliers)
+  Line: C] Outliers
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: I2, UNKNOWN_WORD: leakage, CONJOINED: I2)
+  Line: I2 Data leakage
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: 4P, UNKNOWN_WORD: 7T0, UNKNOWN_WORD: з0l, CONJOINED: 4P, CONJOINED: 7T, CONJOINED: з0)
+  Line: 4P 7T0 з0l
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: E3, CONJOINED: E3)
+  Line: E3 Thiếu random
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: kóm)
+  Line: G Chất lượng kóm
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: ở)
+  Line: A. Ước tính lượng mưa (milimet) ngày mai ở Hà Nội.
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (SUSPICIOUS_WORD: cà)
+  Line: B. Dự đoán giá cà phê (nghìn đồng/kg) tuần tới.
+
+[bai-10-nguyen-li-co-ban-cua-hoc-may] (UNKNOWN_WORD: ở, UNKNOWN_WORD: ở)
+  Line: 4. Vì sao dữ liệu chỉ thu thập từ một trường chuyên ở thành phố không đủ để xây. dựng ứng dụng dự đoán điểm cho học sinh ở nông thôn?
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: Function)
+  Line: áo này chinh là Hàm mất mát (Loss Function).
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: yre)
+  Line: AI dự đoàn (gọi là y.a) và điều thực sự xảy ra (gọi là yre). - Đầu vào: Hàm mất mát nhận vào hai giá trị:
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: Yre)
+  Line: + Yre: Giá trị thực tế (vi dụ: Bạn Nam thực sự nặng 59 kg).
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: Squared)
+  Line: Mean Squared Error (MSE): Thường dùng khi AI cần dự đoán một số liên tục.
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: _pred)
+  Line: + Vi dụ 2: Giả sử ta cần dự đoán điểm thi (y _pred và y lần lượt là kí hiệu điềm
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: _pred)
+  Line: dự đoán và điểm thực) dựa trên số giờ ôn tập (hay giờ học) X theo công thức Y _pred = w * X + b với w và b là hệ số phương trình đường thẳng. Khi
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: y_pred)
+  Line: y_pred = w*X +b # AI đưa ra dự đoàn điểm thi
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: Y_pred, UNKNOWN_WORD: màt)
+  Line: error = Y_pred -y #Tinh sự sai lệch giữa dự đoán và thực tê loss = (error * 2). mean() # Tinh hàm mất màt (MSE)
+
+[bai-11-toi-uu-hoa-mo-hinh] (CONJOINED: S1)
+  Line: S1
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: Risk)
+  Line: Khi chúng ta có rất nhiều dữ liệu (ví dụ: cân nặng của cả lớp), chúng ta không chỉ lính hàm mất mát cho một lần dự đoán. Thay vào đó, chúng ta tính mất mát trung binh (hay nguy cơ thực nghiệm - Empirical Risk) để đánh giá tổng thể AI của chúng ta hoạt động như thế nào trên tất cả dữ liệu.
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: dồc)
+  Line: D) Xay dựng AI dự đoán: Sử dụng thuật toán giảm dân độ dồc đề tìm ra "đường
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: CSV_txt, UNKNOWN_WORD: csv_txt)
+  Line: CSV_txt = "'"'hours, score 2,4 3,5 4,6 5,7 6,8 7,9 8,10" •. open("study_data. csv", "w") .write(csv_txt) # Tạo và ghi nội dung vào file study_data.csv
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: pyplot, UNKNOWN_WORD: matplotlíb)
+  Line: import matplotlib. pyplot as plt # Nhập thư viện matplotlíb dé vẽ biểu đò
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: study_dato, UNKNOWN_WORD: sv, UNKNOWN_WORD: Dataframe, UNKNOWN_WORD: values, UNKNOWN_WORD: rột, UNKNOWN_WORD: lours)
+  Line: data • pd. read_csv("study_dato. (sv") # Dọc dừ liệu từ file CSV vào Dataframe X = data["hours"] values " lãy rột "lours" (số giở lọc) làm dừ liện đàu vào X (dạng mang
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: питру, UNKNOWN_WORD: datal, UNKNOWN_WORD: scoro, UNKNOWN_WORD: values)
+  Line: питру) y = datal"scoro") values 1 Lãy cột "score" (điếm thí) làm dữ liệu đầu ra y (dạng máng numpy)
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: scatter, UNKNOWN_WORD: scatter)
+  Line: plt.scatter(X, y, s-60) " Vẽ biểu đồ phân tán (scatter plot) với X (trục hoành) và y (trục
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: lhor, UNKNOWN_WORD: xlabel)
+  Line: (ung), 3.60 là kich lhor điểm plt-xlabel("Số giờ học") 4 Dặt tên cho trục hoành
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: ylabel)
+  Line: plt, ylabel("Điềm thi") 4 Đật tên cho trục tung plt-title( "Phân bố dữ liệu" ) # Hiển thị biểu đồ
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: scatter)
+  Line: 🖼️ Minh họa trong sách Hình 11.1. Biều đồ phân tán (scatter plot),
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: ở, UNKNOWN_WORD: Squared)
+  Line: Chạy đoạn mã sau. Đây là nơi AI "học" bằng cách điều chinh w và b từng chút một để giảm hàm mất mát (ở đây là MSE - Mean Squared Error).
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: det, UNKNOWN_WORD: epochs, UNKNOWN_WORD: 1_000, UNKNOWN_WORD: verbose)
+  Line: det gradient_descent(X, y, Ir=0.01, epochs=1_000, verbose=False):
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: dêu, UNKNOWN_WORD: _hist)
+  Line: '"Trá vè (w, D, history_loss). X, y dêu là 1-D numpy array.".. v, b = 0.0, 0.0 = Khởi tạo ban Sau cho v và b n = len (X) loss _hist = [] = lu lại giá trị mát mát sau nôi làn học
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: epochs)
+  Line: for epoch in range (epochs):
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: y_pred)
+  Line: y_pred= W * X + b $ AI dua ra dự doán điểm thi
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: loss_hist, UNKNOWN_WORD: append)
+  Line: loss = (error ** 2). mean () loss_hist.append(loss)
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: PSE)
+  Line: # Tính hăn mất mát (PSE)
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: grad, UNKNOWN_WORD: grad)
+  Line: # Tính toán hướng cần điều chinh (Gradient) để giảm mất mát » grad = (2 / n) * np.dot(X, error) b_ grad= (2 / n) * error-sum()
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: grad)
+  Line: # Cập nhật tham số w và b để giám hàm mát mát w -= Ir * w grad
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: b_grad)
+  Line: b -= Ir = b_grad
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: verbose)
+  Line: if verbose and epoch % 100 = 0: # In ra để xem tiến trình học của AI
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: 4f, UNKNOWN_WORD: loss_hist, CONJOINED: 4f)
+  Line: print (f"epoch {epoch: >4}: loss = {loss: 4f}") return w, b, loss_hist
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: loss_hist, UNKNOWN_WORD: epochs, UNKNOWN_WORD: 1_000, UNKNOWN_WORD: verbose, UNKNOWN_WORD: 2f, UNKNOWN_WORD: 2f, CONJOINED: 2f, CONJOINED: 2f)
+  Line: w, b, loss_hist = gradient_descent(X, y, Ir=0.01, epochs=1_000, verbose=True) print (f"Đường hồi quy tối ưu: y = {w:.2f}*x + {b:.2f}")
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: scatter)
+  Line: Python | plt. scatter (X, y, 9-60, label- "Dữ liệu thực" )
+
+[bai-11-toi-uu-hoa-mo-hinh] (SUSPICIOUS_WORD: hòi)
+  Line: plt.plot(X, w " X +b, color="red", label» "Dường hòi quy" ) " Vẽ đường dụ đoán của AI
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: xlabel, UNKNOWN_WORD: ylabel, UNKNOWN_WORD: Dlém)
+  Line: plt. xlabel( "Số giờ học" ) plt.ylabel( "Dlém thi" ) plt. title( "Dy đoán điền thi theo số giờ học" ) plt.legend() plt.show()
+
+[bai-11-toi-uu-hoa-mo-hinh] (UNKNOWN_WORD: chatbot, UNKNOWN_WORD: chatbot)
+  Line: 2. Trường em tổ chức cuộc thi AI để tối ưu chatbot trả lời lịch học. Làm sao để dùng hàm mất mát và kĩ thuật giảm dần độ dốc cải thiện chatbot?
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (SUSPICIOUS_WORD: cầu)
+  Line: Em đã biết về quá trình xây dựng trợ lí ảo cho cửa hàng tạp hóa của gia đình An: Từ việc xác định nhu cầu trả lời khách hàng nhanh chóng, đến việc tìm hiếu các công cụ AI để biến ý tưởng thành hiện thực. Đó là một ví dụ điển hình về việc ứng dụng AI để giải quyết vấn đề thực tế.
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (SUSPICIOUS_WORD: hằng, UNKNOWN_WORD: ở)
+  Line: 1. Trong cuộc sống hằng ngày, hay ở trường học, em có nhận thấy vấn đề nào mả một ứng dụng AI có thể giải quyết hiệu quả không?
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (SUSPICIOUS_WORD: hằng)
+  Line: Trong cuộc sống hằng ngày, xung quanh em luôn tồn tại những khó khăn, bất tiện hoặc tình huống chưa được giải quyết hiệu quả. Đó có thể là việc phải làm thủ
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (UNKNOWN_WORD: ở, UNKNOWN_WORD: ở)
+  Line: Việc nhận ra những điều đó chính là bước đầu để xác định một vấn đề thực tiền má em có thể cải thiện bằng công nghệ. Trong dự án cuối khóa này, em sẽ bắt đầu từ việc quan sát thực tế ở nhà, ở trường hoặc trong cộng đồng để lựa chọn một
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (SUSPICIOUS_WORD: cầu, UNKNOWN_WORD: ở)
+  Line: Việc quan sát thực tiễn giúp em nhận ra những khó khăn, bất tiện hay nhu cầu chưa được đáp ứng trong cuộc sống. Đây là cơ sở đầu tiên để xác định vấn đề cần giải quyết. • Phân tích nguyên nhân giúp em hiểu rõ vì sao vấn đề tồn tại và AI có thể hỗ trợ ở điểm nào. Từ đó, em có thể tìm ra ý tưởng sản phẩm phù hợp.
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (SUSPICIOUS_WORD: cầu)
+  Line: Đánh giá đúng điều kiện thực tế giúp em xác định phạm vi và mức độ yêu cầu hợp lí. Điều này đảm bảo sản phẩm AI khả thi và hiệu quả trong thời gian cho phép.
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (UNKNOWN_WORD: Exported)
+  Line: Exported
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (UNKNOWN_WORD: Oulput)
+  Line: Oulput
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (SUSPICIOUS_WORD: bán)
+  Line: Nếu là trợ lí bán hàng: Kiểm tra tồn kho, gợi ý sản phẩm phù hợp.
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (UNKNOWN_WORD: ở)
+  Line: thức cụ thể (ví dụ: dữ liệu của cửa hàng, tài liệu học tập), em cần RAG để truy xuất thông tin chính xác (như đã học ở Bài 3).
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (UNKNOWN_WORD: ở)
+  Line: dụng công cụ để thực hiện nhiều bước phức tạp (vi dụ: tìm kiếm web, gửi thư điện tử), một AI Agent sẽ là lựa chọn phù hợp (như đã học ở Bài 6 và Bài 8).
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (UNKNOWN_WORD: UX)
+  Line: c) Thiết kế giao diện và trải nghiệm người dùng (UX/UI cơ bản)
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (UNKNOWN_WORD: chatbox)
+  Line: Cách người dùng tương tác: Bằng văn bản (chatbox), giọng nói, hay nút lệnh?
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (SUSPICIOUS_WORD: bàn)
+  Line: Hãy chia nhỏ dự án thành các giai đoạn và đặt ra thời hạn cho mỗi giai đoạn. Ví dụ: - Tuần 1: Hoàn thành thu thập dữ liệu và xử lí sơ bộ. - Tuần 2: Xây dựng module AI cốt lõi (ví dụ: chức năng trả lời câu hỏi cơ bàn). - Tuần 3: Kiểm thử các chức năng, gỡ lỗi và tối ưu hóa. - Tuần cuối: Chuẩn bị bài trình bày và demo.
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (UNKNOWN_WORD: DOCX)
+  Line: Xác định những gì nhóm em cần để thực hiện dự án: - Dữ liệu: Các tệp văn bản (PDF, DOCX), bảng tính, hình ảnh cần thiết. - Tài khoản: Tài khoản trên nền tảng MindStudio hoặc các công cụ cần thiết khác.
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (UNKNOWN_WORD: ở)
+  Line: d) Lập kế hoạch kiểm thử và gỡ lỗi Dù chi tiết sẽ được học ở Bài 13, hãy nghĩ sơ bộ về cách nhóm em sẽ kiểm tra sản phẩm: - AI có trả lời đúng câu hỏi không?
+
+[bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] (UNKNOWN_WORD: ở)
+  Line: Từ thực tế cuộc sống (ở nhà, trường, cộng đồng), chọn một vấn đề cụ thể mà em tin rằng AI có thể giải quyết.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Ở)
+  Line: Ở' Bài 12, em đã hoàn thành việc xác định vấn đề, thiết kế giải pháp và lập kế
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: ở)
+  Line: Nếu nhóm em chọn hướng phát triển bằng mã nguồn (vi dụ: Python với thư viện LangChain, LlamaIndex), các em sẽ cần (xem lại hướng dẫn cài đặt ở Bài 5):
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: ở)
+  Line: Dựa vào kế hoạch chi tiết mà nhóm đã lập ở Bài 12, các em sẽ bắt tay vào xây dựng sản phẩm.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: rds, UNKNOWN_WORD: thuda, UNKNOWN_WORD: Netseval, UNKNOWN_WORD: ngưồn)
+  Line: Ap dung cho rds sin phám AI sir dung ki thuda RAG (Netseval-Augmented Generation) d6 truy nut thông tin từ ngưồn kiến thức riêng
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: nhd)
+  Line: Cát nhd var bin (chunking), tạo embedding d6 chuấn bị cho qua trình truy xuất thông tin hiệu quả.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Framework)
+  Line: Tích hợp thư viện điều phối (Framework)
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: OpenAI)
+  Line: OpenAI GPT, Google Gemini,...
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: OpenAI)
+  Line: + Sử dụng API của các LLM lớn như OpenAI GPT hay Google Gemini.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Framework)
+  Line: Tích hợp thư viện điều phối (Framework)
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: framework)
+  Line: framework.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Text)
+  Line: Em không tải trực tiếp CSV vào một Knowledge Base như các nền tảng khác mà sẽ dùng nó để Generate Text thông minh.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: www)
+  Line: b) Xây dựng phần cốt lõi. Tạo Agent mới trên MindStudio Bước 1. Đăng nhập vào MindStudio: Truy cập trang web MindStudio tại địa chỉ https://www.mindstudio.ai và đăng nhập tài khoản của em.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Metadata)
+  Line: Agent Name Metadata
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Uner)
+  Line: Start Uner Input
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Nsr, UNKNOWN_WORD: tco)
+  Line: 1 : Nsr: tco % Use vor
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Tiree)
+  Line: Tiree
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Ters)
+  Line: Long Ters
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Variatie)
+  Line: Variatie
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: irput)
+  Line: User irput.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: ở)
+  Line: áp câu hỏi ở đây.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: contigeetno)
+  Line: contigeetno
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Latal, UNKNOWN_WORD: Tent)
+  Line: Latal Tent
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Text)
+  Line: Khối 2: Generate Text (Tạo văn bản - Xử lí thông minh)
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Text)
+  Line: * Thêm khối Generate Text vào không gian làm việc giữa khối User Input và End.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Text)
+  Line: Text End
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Text, UNKNOWN_WORD: Text, UNKNOWN_WORD: ở)
+  Line: + Cấu hình khối Generate Text: Chọn khối Generate Text và cấu hình ở thẻ
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Configuration)
+  Line: Configuration như sau:
+
+[bai-13-xay-dung-san-pham] (SUSPICIOUS_WORD: cầu)
+  Line: Prompt: Đây là nơi em gợi ý cho AI cách xử lí thông tin. Em sẽ sao chép nội dung của tệp CSV vào đây, sau đó yêu cầu AI trả lời dựa trên nội dung đó.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Notepad, UNKNOWN_WORD: Text)
+  Line: Cách làm: Mở tệp CSV của em bằng một trình soạn thảo văn bản (Notepad, VS Code,...) và sao chép toàn bộ nội dung (bao gồm cả dòng tiêu đề cột). Dán nội dung CSV vào phần Prompt của khối Generate Text theo hướng dân sau:
+
+[bai-13-xay-dung-san-pham] (SUSPICIOUS_WORD: hòi)
+  Line: tin chi tiết nhất có thể về bài văn đó và tác giả của nó. Nếu câu hòi là về một tác giá, hãy liệt kê các tác phẩm các dc của nhóm của họ có trong danh sách và thông tin về tác giả.
+
+[bai-13-xay-dung-san-pham] (SUSPICIOUS_WORD: cầu, UNKNOWN_WORD: sính)
+  Line: Nếu không tìm thấy thông tin, hãy nói "Tôi xin lỗi, tôi không tim thấy thông tin em yêu cầu trong cơ sở dữ liệu của tôi." Câu hỏi của học sính: {{User input}}
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: placeho1der, CONJOINED: placeho1)
+  Line: (| User input)): Đây là một biến (placeho1der) tự động lấy nội dung từ khối User Input trước đó.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Text)
+  Line: Khối 3: Đầu ra khối Generate Text được kết nối mặc định với đầu vào của
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: ở)
+  Line: Bước 1. Chạy Agent: Nháy chuột vào nút Preview ở góc trên bên phải đề kiểm thử AI Agent của nhóm em và chọn Open Draft Agent (Hình 13.6).
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Publish)
+  Line: Preview V Publish
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Debugger)
+  Line: Run in Debugger
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: 33R, CONJOINED: 33R)
+  Line: 33R
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Selection)
+  Line: Start from Selection
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Published)
+  Line: C Open Published Agent
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: ở)
+  Line: Mây nhập câu hoi ở lây
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: ở)
+  Line: 🖼️ Minh họa trong sách Hình 13.7. Hình ảnh giao diện của Agent ở môi trường kiếm thử
+
+[bai-13-xay-dung-san-pham] (SUSPICIOUS_WORD: Bải)
+  Line: 2. Bải "Đất nước" của Nguyễn Khoa Điểm:
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: ở)
+  Line: Cả hai bài thơ đều mang ý nghĩa sâu sắc về đất nước, nhưng được viết ở những giai đoạn và với góc nhìn Khác nhau
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: ở)
+  Line: và cung cấp ở mục a
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Text)
+  Line: Generate Text. Cụ thể hơn về cách AI cần hiếu và xuất thông tin.
+
+[bai-13-xay-dung-san-pham] (SUSPICIOUS_WORD: cầu)
+  Line: Vi dụ: Nếu hỏi về Tên bài, hãy trả lời theo cầu trúc sau: Tên bài: (Tên bài], Tác giả: [Tên lác giả), Hoàn cảnh sáng tác: (Hoàn cảnh sáng lác], Giá trị nội dung: (Giá trị nội dung chính). Giá trị nghệ thuật: (Giá trị nghệ thuật chính].
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Branching, SUSPICIOUS_WORD: cầu)
+  Line: Thêm các luồng nhánh (Branching): Đối với các yêu cầu phức tạp hơn, em có
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Text)
+  Line: Generate Text chi để chào hỏi, thay vì cố gắng tìm kiếm thông tin văn học. Điều này giúp Agent linh hoạt hơn.
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Text)
+  Line: sau đó nối tới các khối Generate Text khác nhau với prompt riêng biệt. - Giải thích cho học sinh:
+
+[bai-13-xay-dung-san-pham] (UNKNOWN_WORD: Text)
+  Line: + Generate Text hoạt động như một bộ não phân tích câu hỏi và tổng hợp câu
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: Ở)
+  Line: Ở Bài 13, em đã hoàn thành việc xây dựng sản phẩm AI, tạo ra phiên bản đầu tiên của trợ lí môn học hoặc trọ lí cửa hàng tạp hoá. Việc cần làm tiếp theo là đánh giá mức độ hoàn thiện của sản phẩm, cụ thể là xác định độ chính xác trong phản hồi của Agent và hiệu suất của các chức năng.
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: testing, SUSPICIOUS_WORD: lôi, UNKNOWN_WORD: debugging, UNKNOWN_WORD: khắi)
+  Line: nó chạy an toàn, sản phẩm AI của chúng ta cũng cần được kiểm thử (testing) Ki càng. Mục tiêu của kiêm thử là tìm ra lôi, vấn đề và đảm bảo sản phẩm hoạ động đúng như thiết kế. Khi phát hiện lỗi, chúng ta cần gỡ lỗi (debugging) để khắi phục chúng.
+
+[bai-14-hoan-chinh-san-pham] (SUSPICIOUS_WORD: cầu)
+  Line: phẩm có hoạt động đúng theo yêu cầu không. Vi dụ: Với trợ lí cửa hàng tạp hoa
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: Testing)
+  Line: Kiểm thừ phản hồi (LLM Response Testing): Đặc biệt quan trọng với các
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: glá)
+  Line: ứng dụng dùng LLM. Chúng ta sẽ đánh glá chât lượng câu trả lời:
+
+[bai-14-hoan-chinh-san-pham] (SUSPICIOUS_WORD: hòi)
+  Line: quá dài, quá ngăn, hoặc không liên quan để xem hệ thống phản ứng thế nào. Ví dụ, hòi trợ lí môn học về một chủ đề không có trong dữ liệu xem hệ thống phản
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: inông)
+  Line: Tát từng phân của hý inông độ tim ra nguồn
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: gór)
+  Line: gór ván de
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: huỗng)
+  Line: Kiếm thử là bước quan trọng để phát hiện lỗi và đảm bảo sản phẩm AI hoạt động đúng. • Cần phải kiểm tra chức năng, phản hồi của LLM và các tình huỗng đặc biệt.
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: ToollAgent)
+  Line: Tối va boa ToollAgent
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: Vill)
+  Line: Vill ctu soi es rang a tl va oo
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: ctr, UNKNOWN_WORD: ckcy)
+  Line: yo ctr dl d too cra ckcy arn cia tar
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: Chíên, UNKNOWN_WORD: coia)
+  Line: Chíên bị da liêu sach, có chu trú và coia nhó hap 5 lố Ai có tri tin
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: coirh, UNKNOWN_WORD: aas)
+  Line: Thy coirh aas shang ed ad sinh of
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: Thuốt, UNKNOWN_WORD: kố)
+  Line: Thuốt kố qua tánh cứ 5 thông mích
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: kac)
+  Line: Niêm nây th cont kac.
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: dese, UNKNOWN_WORD: lés, UNKNOWN_WORD: lop, UNKNOWN_WORD: dict)
+  Line: on dese lés ad pon lop vos rud dict ao cung
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: niều, UNKNOWN_WORD: mut)
+  Line: công cụ niều mut
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: prompting)
+  Line: đưa ra ví dụ về đầu vào và đầu ra mong muốn (few-shot prompting).
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: debug)
+  Line: / Kiên nhản - debug mất thời gian
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: checklist)
+  Line: / Tao checklist đé không bỏ sót
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: tiét)
+  Line: 1 Ghi chép kết quả chi tiét
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: kién)
+  Line: v Hói ý kién đồng đội khi căn
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: mỏn)
+  Line: Già sử nhóm em đang xây dựng một trợ lí môn học cho mỏn Ngữ văn lớp 12, sử dụng dữ liệu là các bài học, tác phẩm, câu hỏi ôn tập có trong môn Ngữ văn lóp 12.
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: ở)
+  Line: Trợ lị này là một AI Agent tích hợp ngôn ngữ tự nhiên, có thể tiếp nhận câu hỏi bằng tiếng Việt và trả lời dựa trên nội dung tài liệu đã học, chuẩn bị ở các
+
+[bai-14-hoan-chinh-san-pham] (SUSPICIOUS_WORD: cầu)
+  Line: Bươc 1. Dựa trên các chức năng chính của trợ lí môn học, hãy liệt kê 05 câu hỏi/ yêu cầu cụ thể mà người dùng có thể nhập vào để kiểm tra:
+
+[bai-14-hoan-chinh-san-pham] (SUSPICIOUS_WORD: cành)
+  Line: Trường hợp 3 (Tìm kiếm theo đặc điểm): Hoàn cành sáng tác bài Việt Bắc là
+
+[bai-14-hoan-chinh-san-pham] (SUSPICIOUS_WORD: cầu)
+  Line: (Kì vọng: Tôi xin lỗi, tôi không tìm thấy thông tin bạn yêu cầu trong cơ sở dữ liệu
+
+[bai-14-hoan-chinh-san-pham] (SUSPICIOUS_WORD: hòi, SUSPICIOUS_WORD: cầu)
+  Line: Bước 2. Chạy sản phầm AI của nhóm với từng câu hòi/yêu cầu đã liệt kê.
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: ở)
+  Line: Bước 1. Từ các kết quả kiểm thử ở phần a, hãy tìm một trường hợp mà trợ lí môn học trả lời sai, không liên quan, hoặc xuất hiện lỗi kĩ thuật. Vi dụ: Trợ lí trả lời sai năm sinh của tác giả Vũ Trọng Phụng hoặc không tìm thấy thông tin về tác phẩm
+
+[bai-14-hoan-chinh-san-pham] (SUSPICIOUS_WORD: bải)
+  Line: với bải tập quan trọng.
+
+[bai-14-hoan-chinh-san-pham] (UNKNOWN_WORD: ở)
+  Line: 1. Khi trợ lí cửa hàng tạp hoá nhà An thỉnh thoảng trả lời bằng thông tin không có trong danh sách sản phẩm (bị bịa đặt), em nên ưu tiên kiểm thử và gỡ lỗi ở bước nào đầu tiên?
+
+[bai-15-trinh-bay-ket-qua-du-an] (UNKNOWN_WORD: Slides, UNKNOWN_WORD: bàyy)
+  Line: Dù em sử dụng PowerPoint, Google Slides, hay bất kì công cụ trình bày nào, một bài trình bàyy vê dự án nên bao gôm các phân chính sau:
+
+[bai-15-trinh-bay-ket-qua-du-an] (SUSPICIOUS_WORD: Cầu)
+  Line: 🖼️ Minh họa trong sách Hình 15.1. Cầu trúc bài trình bày dự án
+
+[bai-15-trinh-bay-ket-qua-du-an] (UNKNOWN_WORD: dịụ)
+  Line: Sản phẩm AI của nhóm em giải quyết được vấn đề gì một cách cụ thể? (vĩ dịụ:
+
+[bai-15-trinh-bay-ket-qua-du-an] (UNKNOWN_WORD: ở)
+  Line: Hãy mở rộng tàm nhìn, không chỉ dừng lại ở lợi ích cá nhân mà sản phẩm mang lại.
+
+[bai-15-trinh-bay-ket-qua-du-an] (SUSPICIOUS_WORD: hằng)
+  Line: Sản phẩm góp phần cải thiện điều gì trong cuộc sống hằng ngày hoặc trong
+
+[bai-15-trinh-bay-ket-qua-du-an] (SUSPICIOUS_WORD: cầu)
+  Line: Hoàn thiện bộ slide trình bày theo cầu trúc đã hướng dẫn, đảm bảo tính trực
+
+[bang-giai-thich-thuat-ngu] (UNKNOWN_WORD: Generative)
+  Line: AI tạo sinh (Generative AI)
+
+[bang-giai-thich-thuat-ngu] (SUSPICIOUS_WORD: cầu)
+  Line: Bộ quy tắc cho phép các lập trình viên có thế sử dụng để gửi yêu cầu và nhận lại dữ liệu từ một hệ thống khác. API thường xuất hiện dưới dạng URL, mã hàm hoặc thư viện,...
+
+[bang-giai-thich-thuat-ngu] (UNKNOWN_WORD: Programming, UNKNOWN_WORD: Interface)
+  Line: API (Application Programming Interface)
+
+[bang-giai-thich-thuat-ngu] (UNKNOWN_WORD: Context)
+  Line: Cửa số ngữ cảnh (Context Window)
+
+[bang-giai-thich-thuat-ngu] (UNKNOWN_WORD: Object, UNKNOWN_WORD: Notation)
+  Line: Object Notation)
+
+[bang-giai-thich-thuat-ngu] (UNKNOWN_WORD: Framework)
+  Line: Framework
+
+[bang-giai-thich-thuat-ngu] (SUSPICIOUS_WORD: cầu)
+  Line: Một công việc cụ thể, có mục tiêu rõ ràng mà một hệ thống, chương trình, hoặc mô hình AI được thiết kế để thực hiện. Một tác vụ thường bao gồm các yêu cầu đầu vào nhất định và mong đợi một kết quả đầu ra cụ thể.
+
+[bang-giai-thich-thuat-ngu] (SUSPICIOUS_WORD: cầu)
+  Line: Top_k (trong cầu hình LLM)
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: TZT40P6, CONJOINED: TZT40)
+  Line: TRÍ TUỆ NHÂN TẠO LỚP 12 Mã số: TZT40P6-SED
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: QĐ, UNKNOWN_WORD: STK)
+  Line: In 20.000 bản, (QĐ in số: 01-STK) khổ 19 x 26,5 cm.
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: ĐKXB, UNKNOWN_WORD: CXBIPH, UNKNOWN_WORD: GD)
+  Line: Cơ sở in: 643 Tỉnh lộ 2, ấp Lào Táo Thượng, xã Thái Mỹ, TP.Hồ Chí Minh Số ĐKXB: 416-2026/CXBIPH/38-168/GD
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: GD)
+  Line: Số QĐXB: 120/QĐXB-GD, ngày 11 tháng 02 năm 2026
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: DENDANTAO)
+  Line: VAI DENDANTAO
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: TaRUE, UNKNOWN_WORD: HANDO)
+  Line: TaRUE HANDO
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: SEDIDCO)
+  Line: SEDIDCO
+

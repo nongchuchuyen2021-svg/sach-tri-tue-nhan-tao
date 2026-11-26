@@ -139,7 +139,7 @@ Hướng dẫn:</p>
                         <pre><code class="language-python">pip install -U llama-index llama-index-embeddings-huggingface llama-</code></pre>
                     </div>
                     
-<p class="lesson-p">index-1lms-ollama langchain langchain-community pypdf transformers sentence-transformers bitsandbytes accelerate openai</p>
+<p class="lesson-p">index-LLMs-ollama langchain langchain-community pypdf transformers sentence-transformers bitsandbytes accelerate openai</p>
 <p class="lesson-p">Sau đó, cần tải một LLM về máy nếu dùng Ollama thông qua Command Prompt/ PowerShell (trên Windows). Ví dụ:</p>
 <p class="lesson-p">ollama run llama2 # Hoặc ollama run phi3</p>
 <p class="lesson-p">a) Tâi thông tin và tạo chỉ mục Llamalndox Tạo hai tệp văn bản trong cúng thư mục với đoạn mã Python và điên thông tin sản phẩm vào đó.</p>
@@ -154,20 +154,20 @@ Fllo: khuyon mal.txt</p>
 <p class="lesson-p">Chương trình khuyến mãi tháng 6: Mua 2 gói mì tôm Háo Háo tặng 1 gói cúng loại.</p>
 <p class="lesson-p">Giảm giá 10% cho tất cá các sán phâm sữa khi mua hóa đơn trên 100 000 VNĐ.</p>
 <p class="lesson-p">Dùng LlamaIndex để tải và tạo một chỉ mục từ các tệp trên. Tạo một tệp main py có nội dung như sau:</p>
-<p class="lesson-p">trom Ilona _Indox, enbeddingo hugglogface lapore Huggingtosenbsdasng</p>
+<p class="lesson-p">trong Ilona _Indox, enbeddingo hugglogface lapore Huggingtosenbsdasng</p>
 
                     <div class="code-block-wrapper">
                         <div class="code-header"><span>Python / Code</span><button class="btn-copy-code" onclick="copyCode(this)">Sao chép</button></div>
-                        <pre><code class="language-python">trom lama _index. licr. illane import Ollams
+                        <pre><code class="language-python">trong lama _index. licr. illane import Ollams
 trum lans Index.:uir.100% Import QueryEngineTool, ToolMetadata
-trom lama_index. :orn. agone Import ReActhgens
+trong lama_index. :orn. agone Import ReActhgens
 tram langcholn. agore» loport igentezecutot, creste_tesct_ayent</code></pre>
                     </div>
                     
 
                     <div class="code-block-wrapper">
                         <div class="code-header"><span>Python / Code</span><button class="btn-copy-code" onclick="copyCode(this)">Sao chép</button></div>
-                        <pre><code class="language-python">trom langshain_cors, pecspie import Prompttemplate
+                        <pre><code class="language-python">trong langshain_cors, pecspie import Prompttemplate
 from langchain_core. ensaoyes Import AIhersage, Hunaskessage</code></pre>
                     </div>
                     
@@ -226,7 +226,7 @@ print ("Dang xáy dựng Agent LangChain...")</p>
 
 systen prompt_v1 = """ tra lý ảo thông minh, thân thiện và hữu Ich, chuyên cụng cấp thông tin rẽ sản phẩn và cức chuong trình khuyên mãi.
 
-Nhiệm vụ của bạn là trả lời các cầu hỏi của người dùng một cách chính xác và</p>
+Nhiệm vụ của bạn là trả lời các câu hỏi của người dùng một cách chính xác và</p>
 <p class="lesson-p">đáy dủ, dựa trên các thông tin bạn có.
 
 Bạn có khẻ năng sử dụng các CÔNG CỤ (tools) đế tìm kiêm thông Khi người dùng hỏi về gản phẩm, giá cà, hoặc các chương trình khuyện mãi, bạn PHẢI SỬ DỤNG công cụ "thong_ tin _sản pham vo _khuyen mai' để láy dữ liệu.</p>
@@ -236,7 +236,7 @@ Bạn có khẻ năng sử dụng các CÔNG CỤ (tools) đế tìm kiêm thôn
 <p class="lesson-p">print ("Đã xây dụng Agent LangChain thành công. ")</p>
 <p class="lesson-p">* --- Phần tương tác với người dùng ---
 
-print ("\n--- Sẵn sàng trẻ lời cầu hỏi của bạn! ---") print ("Bạn có thế hỏi về thông tin sản phẩm, giá cà, hoặc các chương trình khuyên mãi. ") print ("Gö 'thoát" đế thoát. ")</p>
+print ("\n--- Sẵn sàng trẻ lời câu hỏi của bạn! ---") print ("Bạn có thế hỏi về thông tin sản phẩm, giá cà, hoặc các chương trình khuyên mãi. ") print ("Gö 'thoát" đế thoát. ")</p>
 <p class="lesson-p">while True:</p>
 <p class="lesson-p">question = input (")nBan hỏi: ") if question. lover() = 'thoát':</p>
 
@@ -303,7 +303,7 @@ A. Chains.</p>
 <p class="lesson-p">B. Memory.</p>
 <p class="lesson-p">C. Agents.</p>
 <p class="lesson-p">D. Output Parsers.</p>
-<p class="lesson-p">2. Việc Lamalndez lố chúc dũ bậu sản phâm thành một chỉ mục (index) so vai ko nao là quan trong nhất trong quá trình BAG!</p>
+<p class="lesson-p">2. Việc Lamalndez lố chúc dữ liệu sản phâm thành một chỉ mục (index) so với cái nào là quan trong nhất trong quá trình BAG!</p>
 <p class="lesson-p">A. Giúp LLM ghi nhỏ lịch sử hội thoái.</p>
 <p class="lesson-p">B. Giúp LLM ra quyết định các bước hành động tiếp theo.</p>
 <p class="lesson-p">C. Đám bảo thông tin được truy xuất nhanh chóng và chính vác; khi cần.</p>

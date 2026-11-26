@@ -1,0 +1,561 @@
+[huong-dan-su-dung-sach] (SUSPICIOUS_WORD: bải)
+  Line: Gồm những câu hỏi, bải tập, thực hành nâng cao hoặc mở rộng kiến thức, kĩ năng đã học để giải quyết tình huống thực tiền.
+
+[loi-noi-dau] (SUSPICIOUS_WORD: bải)
+  Line: Từ điện thoại thông minh, trợ lí ào đến những bải hát, bức tranh do máy.
+
+[loi-noi-dau] (SUSPICIOUS_WORD: giài)
+  Line: Trong thế giới ấy, AI có thể viết văn, giài toán, vẽ tranh, nhưng cũng có lúc
+
+[loi-noi-dau] (SUSPICIOUS_WORD: mò)
+  Line: chỉ dễ hiểu mà còn khơi gợi sự tò mò, khám phá và sáng tạo, làm cho việc
+
+[bai-1-tri-tue-nhan-tao] (UNKNOWN_WORD: ở, SUSPICIOUS_WORD: cầu)
+  Line: Nhận thấy môi trường học tập ở cấp Trung học phổ thông yêu cầu tốc độ tiếp thu nhanh và tư duy độc lập cao hơn so với cấp Trung học cơ sở, bạn Minh đã chủ động điều chỉnh phương pháp học. Minh chuẩn bị bài trước bằng cách đọc sách giáo khoa và ghi tóm tắt nội dung, nhờ đó theo kịp bài giảng, nhanh chóng thích nghi, học tập hiệu quả và tự tin hơn.
+
+[bai-1-tri-tue-nhan-tao] (UNKNOWN_WORD: ở)
+  Line: Trong tình huống Khởi động, Minh đã nhận ra những khó khăn cụ thể khi học trên lớp ở trường Trung học phổ thông, Minh đã suy nghĩ tìm ra giải pháp. Minh cũng đã cố gắng thay đổi cách học. Kết quả là Minh đã vượt qua khó khăn, thích nghi và tự tin trong môi trường học tập mới.
+
+[bai-1-tri-tue-nhan-tao] (UNKNOWN_WORD: ở)
+  Line: Trí thông minh không chỉ thể hiện qua khả năng giải quyết các vấn đề quen thuộc, những nhiệm vụ rõ ràng, có hướng dẫn cụ thể, mà còn ở năng lực tự học để có thể thích ứng linh hoạt với môi trường mới, những tình huống mới, chưa từng gặp phải và xử lí chúng một cách sáng tạo và hiệu quả.
+
+[bai-1-tri-tue-nhan-tao] (UNKNOWN_WORD: Collaborative, UNKNOWN_WORD: Filtering)
+  Line: Hệ thống gợi ý trên YouTube, Netflix hay Shopee sử dụng kĩ thuật lọc cộng tác (Collaborative Filtering) và học sâu (Deep Learning) để đề xuất nội dung phù hợp, giúp tăng thời gian sử dụng và doanh thu.
+
+[bai-1-tri-tue-nhan-tao] (UNKNOWN_WORD: AGI)
+  Line: b) AI tổng quát (Artificial General Intelligence – AGI)
+
+[bai-1-tri-tue-nhan-tao] (UNKNOWN_WORD: AGI, UNKNOWN_WORD: AGI)
+  Line: AI tổng quát (AGI) là một hệ thống AI có khả năng hiểu, học và thực hiện bất kì nhiệm vụ trí tuệ nào mà con người có thể làm được. Mặc dù AGI vẫn chưa tồn tại trong thực tế, nhưng chúng ta có thể nêu những ví dụ giả định để minh hoạ cho khái niệm này.
+
+[bai-1-tri-tue-nhan-tao] (UNKNOWN_WORD: AGI)
+  Line: Minh họa sự phát triển từ AI hẹp (ANI) hiện nay hướng tới tương lai của AI tổng quát (AGI)
+
+[bai-1-tri-tue-nhan-tao] (UNKNOWN_WORD: AGI, UNKNOWN_WORD: AGI)
+  Line: Trợ lí AGI toàn năng: Một trợ lí AGI có thể giao tiếp như con người, điều khiển thiết bị trong nhà, ô tô, xử lí các vấn đề tài chính,... và tự học những kĩ năng mới qua quan sát. Nó có khả năng thích nghi và giải quyết sáng tạo nhiều vấn đề trong môi trường thay đổi.
+
+[bai-1-tri-tue-nhan-tao] (UNKNOWN_WORD: AGI, UNKNOWN_WORD: AGI)
+  Line: Robot AGI chăm sóc người già: Robot AGI có thể nấu ăn, trò chuyện, hỗ trợ y tế và tự học những thói quen của người già để chăm sóc họ tốt hơn. Khi xảy ra sự cố, nó tự đánh giá tình huống và ứng phó linh hoạt như con người.
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Bạn Lan muốn làm một tấm thiệp sinh nhật có hình ảnh dễ thương và lời chúc ý nghĩa dành tặng bạn thân. Còn bạn Nam muốn có một đoạn nhạc vui nhộn để lồng vào video chúc mừng Ngày của Mẹ. Hai bạn đã sử dụng một công cụ AI để tạo ra sản phẩm theo ý tưởng riêng của mình bằng cách nhập yêu cầu vào máy tính.
+
+[bai-2-ai-tao-sinh] (UNKNOWN_WORD: ở)
+  Line: Trong tình huống ở phần Khởi động, Lan đã tạo tấm thiệp sinh nhật có hình ảnh dễ thương, còn Nam tạo một đoạn nhạc vui nhộn. Cả hai bạn đều chỉ cần nhập mô tả
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: cho thấy công cụ AI có thể hiểu yêu cầu bằng mô tả (văn bản hay lời nói) và tạo ra nội dung mới dựa trên dữ liệu đã học.
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu, SUSPICIOUS_WORD: cầu)
+  Line: Những công cụ AI mà Lan và Nam sử dụng là ví dụ của AI tạo sinh - một loại AI có thể tạo ra văn bản, hình ảnh/tranh, âm thanh hoặc video theo yêu cầu. Người dùng nhập yêu cầu mô tả, hệ thống sẽ xử lí và tạo ra kết quả tương ứng
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Một số công cụ AI tạo sinh có thể tạo văn bản theo yêu cầu như ChatGPT,
+
+[bai-2-ai-tao-sinh] (UNKNOWN_WORD: Text)
+  Line: Gemini, Microsoft Copilot,.. - Một số ứng dụng tạo nhạc như Suno AI, MusicGen, Voicemod Text-to-Song,...
+
+[bai-2-ai-tao-sinh] (UNKNOWN_WORD: Generative)
+  Line: AI tạo sinh (Generative AI, còn gọi là GenAI) là AI có khả năng tạo ra nội dung mới như văn bản, hình ảnh, âm thanh,... dựa trên dữ liệu đã học và mô tả do người dùng cung cấp.
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Trong Bài 1, em đã được làm quen với một số hệ thống AI thế hệ trước như trợ lí ảo, công cụ lọc thư rác hoặc nhận dạng khuôn mặt. Những hộ thống này thường được thiết kế để thực hiện một nhiệm vụ nhất định, chẳng hạn phân loại thông tin, trả lời câu hỏi hoặc kích hoạt tính năng dựa trên dữ liệu đầu vào. Khi nhập cùng một yêu cầu, kết quả trả về thường không thay đổi.
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Trong phần Khởi động, công cụ AI má Lan và Nam sử dụng có thể tạo ra hình ảnh hoặc âm thanh mới từ yêu cầu mô tả bằng lời. Kết quả tạo ra có thể khác nhau
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu, SUSPICIOUS_WORD: cầu)
+  Line: giữa các lần, dù yêu cầu khá giống nhau. Điều này cho thấy công cụ không chỉ làm theo mẫu có sẵn mà còn có thể tạo ra nội dung mới theo yêu cầu.
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: sẽ sử dụng các dữ liệu đã học để tạo ra nội dung đáp ứng các yêu cầu khác nhau, mang tính đa dạng và linh hoạt.
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: AI thế hệ trước thường thực hiện nhiệm vụ theo quy trình cố định. Kết quả trả về giống nhau nếu đầu vào không đổi. • AI tạo sinh có thể cho nhiều kết quả khác nhau với cùng một yêu cầu, vì hệ thống tạo ra nội dung mới dựa trên dữ liệu người dùng nhập vào.
+
+[bai-2-ai-tao-sinh] (UNKNOWN_WORD: openai)
+  Line: Mở trình duyệt để truy cập: https://chat.openai.com.
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Hình 2.5. Giao diện nhập yêu cầu cho ChatGPT
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Bước 2. Nhập yêu cầu viết đoạn văn.
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Em nhập vào ô trò chuyện yêu cầu cụ thể. Vi dụ:
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: bải)
+  Line: "Viết đoạn mở đầu cho bải thuyết trình giới thiệu về lớp học".
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: ChatGPT sẽ tạo ra một đoạn văn theo yêu cầu. Em đọc kĩ nội dung, lựa chọn đoạn phù hợp với mục đích sử dụng.
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Em có thể sao chép đoạn văn, lưu lại để sử dụng, hoặc nhờ ChatGPT điều chỉnh bằng cách thêm yêu cầu, vi dụ: "Viết lại ngắn hơn", "Thêm câu cảm ơn",...
+
+[bai-2-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: A. Luôn trả về cùng một kết quả nếu nhập yêu cầu giống nhau.
+
+[bai-2-ai-tao-sinh] (UNKNOWN_WORD: ở)
+  Line: 2. Vẽ một bảng gồm hai cột để so sánh sự khác nhau giữa AI ở thế hệ trước và AI tạo sinh. Mỗi cột nêu các đặc điểm như: nhiệm vụ thực hiện, cách tạo ra kết
+
+[bai-2-ai-tao-sinh] (UNKNOWN_WORD: Creator)
+  Line: quả, khả năng thay đổi nội dung,.... 3. Sử dụng công cụ khác của AI tạo sinh để tạo nội dung mới. Em hãy chọn một công cụ AI tạo sinh khác với bài học (ví dụ: Bing Image Creator, Gemini,
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: mỏ)
+  Line: Trong giờ học về Trí tuệ nhân tạo, thầy giáo giới thiệu về mỏ hình ngôn ngữ lớn - một loại AI có khả năng hiểu và tạo văn bản bằng cách học từ hàng triệu tài liệu như sách, báo, hội thoại,... Thầy giáo đã chia sẻ một số mô hình phố biến hiện nay như ChatGPT, Gemini, Claude,...
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: mò)
+  Line: Khi biết mô hình ngôn ngữ lớn có thể tạo hình ảnh từ văn bản, bạn Minh tò mò hồi:
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: Thưa thầy, làm sao AI có thể vẽ tranh chỉ bằng một yêu cầu như "Vẽ một lớp
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: AI - cụ thể là mô hình ngôn ngữ lớn đã được huấn luyện từ rất nhiều dữ liệu. Không chỉ vậy, AI còn chía nhỏ câu văn thành các phần nhỏ và dựa vào cách các phần đó liên kết với nhau để hiểu ý nghĩa. Nhờ đó, AI mới có thể tạo ra nội dung phù hợp với yêu cầu.
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: bán)
+  Line: 3. Hãy lấy ví dự về việc chia một câu thành các token và giải thích vì sao việc dự đoán token tiếp theo lại giúp mô hình tạo ra văn bán.
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: Nhờ quá trình học này, mô hình ngôn ngữ lớn có thể trả lời câu hỏi, hỗ trợ viết văn Hình 3.1. Mô hình ngôn ngữ lớn bản, dịch thuật, tóm tắt nội dung hoặc đưa ra gợi ý phù hợp với yêu cầu của người dùng. Đày là lí do mô hình ngôn ngữ lớn
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: hằng)
+  Line: được sử dựng rộng rãi trong học tập, công việc và đời sống hằng ngày.
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: Gemini, Claude. Các mô hình này đều có thể trò chuyện, hỗ trợ viết bài hoặc tạo nội dung theo yêu cầu bằng tiếng Việt và nhiều ngôn ngữ khác.
+
+[bai-3-mo-hinh-ngon-ngu-lon] (UNKNOWN_WORD: Language)
+  Line: Mô hình ngôn ngữ lớn (Large Language Model - LLM) là một loại AI được huấn luyện trên lượng lớn dữ liệu văn bản và đôi khi kết hợp với dữ liệu từ các dạng khác như hình ảnh, âm thanh. LLM có khả năng hiểu và tạo ra ngôn ngữ, hỗ trợ con người trong
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: Quá trình này dựa trên việc mô hình phân tích nội dung yêu cầu và sử dụng kiến thức đã được học từ dữ liệu huấn luyện để tạo ra hình ảnh phù hợp.
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: Bước 3. Nhập yêu cầu.
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: Yêu cầu 1: "Tạo một bức tranh về mùa xuân."
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: Hình 3.4. Giao diện cho phép nhập yêu cầu (prompt) và kết quả của Gemini
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu, SUSPICIOUS_WORD: cành)
+  Line: Yêu cầu 2: "Tạo một bức tranh về mùa xuân có nắng nhẹ, hoa đào nở và cành
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: bải)
+  Line: Minh Gang học bải hình cần chía nhỏ nội dung đầu vào thành các phần gọi là token. Đây là bước đầu tiên trong quá trình xử lí ngôn ngữ của mô hình AI.
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cành)
+  Line: Để làm được việc dự đoán này, mô hình được cung cấp một lượng lớn văn bản để học cách phát hiện các mối liên hệ giữa các phần trong câu. Khi người dùng nhập vào một đoạn văn bản, mô hình sẽ phân tích các token đã có để dự đoán token tiếp theo sao cho phù hợp với ngữ cành. Token mới sẽ được thêm vào
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: Bạn Nam sử dụng một công cụ AI để viết đoạn văn, dịch tiếng Anh và tạo hình ảnh theo mô tả. Công cụ đó phản hồi nhanh, đúng nội dung và phù hợp với yêu cầu.
+
+[bai-3-mo-hinh-ngon-ngu-lon] (UNKNOWN_WORD: 10A)
+  Line: Lớp 10A đang chuẩn bị bài thuyết trình với chủ đề "Mùa hè đáng nhớ". Bạn An sử dụng một công cụ AI để viết nội dung bài thuyết trình, trong khi Bình thử tạo hình ảnh minh họa cho phần trình bày. Kết quả mà hai bạn nhận được có sự khác biệt
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: 1. Em hãy giải thích vì sao mô hình AI có thể viết được đoạn văn theo yêu cầu của An. Mô hình này cần được huấn luyện như thế nào để thực hiện nhiệm vụ đó?
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: 3. a) Em hãy nhập hai yêu cầu sau vào một công cụ AI tạo vàn bản:
+
+[bai-3-mo-hinh-ngon-ngu-lon] (SUSPICIOUS_WORD: cầu)
+  Line: b) Em hãy so sánh hai kết quả và nêu nhận xét về mối liên hệ giữa nội dung yêu cầu và kết quả mà AI tạo ra.
+
+[bai-4-du-lieu-huan-luyen] (SUSPICIOUS_WORD: Giái)
+  Line: Giái thich được chất lượng của dữ liệu và số lượng dữ liệu ành hưởng lớn đến kết quả của Ai.
+
+[bai-4-du-lieu-huan-luyen] (UNKNOWN_WORD: chatbot, UNKNOWN_WORD: chatbot)
+  Line: Trường Trung học phổ thông An Phú lổ chức cuộc thi sáng tạo khoa học. Một nhóm học sinh lớp 10 phát triển chatbot AI để hỗ trợ học tập. Dữ liệu huấn luyện ban đầu của chatbot chỉ tập trung vào món Vật lí lớp 10. Khi thử nghiệm,
+
+[bai-4-du-lieu-huan-luyen] (UNKNOWN_WORD: chatbot, UNKNOWN_WORD: chatbot)
+  Line: chatbot trả lời khá tốt các câu hỏi liên quan đến Vật lí, nhưng thường xuyên không hiểu hoặc trả lời sai khi được hỏi về các môn khác như Toán, Hóa học hay Sinh học. Nhóm nghi ngờ rằng chatbot hoạt động chưa hiệu quả do dữ liệu huấn luyện còn hạn chế, mới chỉ bao phủ một môn học duy nhất.
+
+[bai-4-du-lieu-huan-luyen] (UNKNOWN_WORD: chatbot)
+  Line: 1. Theo em, tại sao dữ liệu lại quan trọng trong quá trịnh huấn luyện AI như chatbot trên?
+
+[bai-4-du-lieu-huan-luyen] (UNKNOWN_WORD: chatbot, UNKNOWN_WORD: chatbot)
+  Line: Trong tịnh huống Khởi động, chatbot mà nhóm học sinh phát triển chỉ hoạt động tốt với các câu hỏi liên quan đến môn Vật lí lớp 10 - là lình vưc duy nhất có trong dữ liệu huấn luyện ban đầu. Khi nhận câu hỏi thuộc các món học khác như Toán. Hóa học hay Sinh học, chatbot thường không đưa ra được câu trả lời phù hợp. Tình huống này cho thấy, phạm vi dữ liệu huấn luyện có ảnh hưởng trực tiếp đến khả năng phản hồi của mô hình AI. Mô hình có xu hướng phản hồi chính xác hơn trong những lĩnh vực mà nó đã được cung cấp dữ liệu đầy đủ và gặp khó khăn với những nội dung nằm ngoài phạm vi dữ liệu đã học.
+
+[bai-4-du-lieu-huan-luyen] (SUSPICIOUS_WORD: cầu)
+  Line: được. Nếu không có dữ liệu, mô hình sẽ không có cơ sở để tạo ra nội dung theo yêu cầu.
+
+[bai-4-du-lieu-huan-luyen] (SUSPICIOUS_WORD: cầu)
+  Line: Để mô hình AI tạo ra được nội dung phù hợp với yêu cầu của người dùng, trước hết mô hình cần được huấn luyện từ những dừ liệu liên quan. Tuỳ theo mục địch sử dụng, AI có thể học từ nhiều loại dữ liệu khác nhau như văn bản, hình ảnh,
+
+[bai-4-du-lieu-huan-luyen] (SUSPICIOUS_WORD: mò)
+  Line: 3. Chất lượng và số lượng dữ liệu ảnh hưởng đến kết quả của mò hình AI
+
+[bai-4-du-lieu-huan-luyen] (SUSPICIOUS_WORD: cầu)
+  Line: cần dữ liệu có chất lượng đù tốt và số lượng đủ nhiều. Chất lượng của dữ liệu và số lượng dữ liệu đóng vai trò quan trọng trong việc giúp mô hình học đúng và tạo ra nội dung phù hợp với yêu cầu. Cả hai yếu tố này đều rất quan trọng trong việc
+
+[bai-4-du-lieu-huan-luyen] (SUSPICIOUS_WORD: huân)
+  Line: Trong huấn luyện mô hình AI tạo sinh, chất lượng của dữ liêu đóng vai trò quan trọng hơn số lượng dữ liệu. Một mô hình AI được huấn luyện từ ít dữ liệu nhưng rõ ràng, chính xác và phù hợp vẫn có thể cho kết quả đúng. Trong khi đó, nếu dữ liệu huân luyện quá nhiều nhưng không chỉnh xác hoặc không phù hợp, mô hình
+
+[bai-4-du-lieu-huan-luyen] (UNKNOWN_WORD: ở)
+  Line: các món ăn theo góc nhìn từ trên xuống, trong khi ành của món bún bò Huế dũng để nhận dạng được chụp ở góc nghiêng và thiếu dữ liệu huấn luyện về món này.
+
+[bai-4-du-lieu-huan-luyen] (UNKNOWN_WORD: ở)
+  Line: B. Vì AI chưa được huấn luyện đủ ảnh về món bún bò Huế ở góc nhìn khác.
+
+[bai-4-du-lieu-huan-luyen] (UNKNOWN_WORD: ở)
+  Line: A. Giảm độ phân giải ảnh. B. Chụp thêm nhiều ảnh cáo món ăn ở nhiều góc độ và điều kiện ánh sáng
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu, SUSPICIOUS_WORD: cầu)
+  Line: Nhóm bạn Minh chuẩn bị bài thuyết trình về truyện cổ tích Việt Nam và muốn có hình minh hoa phù hợp. Thay vì dùng hình ảnh có sẵn, nhóm bạn Minh dùng công cụ AI tạo sinh để tạo hình ảnh theo ý tưởng. Lúc đầu, nhóm bạn Minh nhập yêu cầu: "Tạo ành công chúa" nhưng kết quả nhận được không mang nét văn hóa Việt Nam. Sau đó, nhóm bạn Minh đã viết lại yêu cầu chi tiết hơn: "Tạo hình ảnh công chúa Việt Nam mặc áo dài truyền thống, đứng trong khu vườn cung đình xưa, phong cách minh hoa sách thiếu nhi, màu sắc tươi sáng.". Hình ảnh nhận được đúng ý tưởng của nhóm bạn Minh và giúp bài trình bày sinh động hơn.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: 2. Minh đã thay đổi nội dung yêu cầu nhập cho AI tạo sinh như thế nào?
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: 3. Em hãy viết yêu cầu cho AI trong các tình huống khác như soạn email mời thầy cô hoặc tạo hình minh hoạ.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Prompt (yêu cầu) là nội dung mà người dùng nhập vào để hướng dẫn công cụ AI tạo ra kết quả theo mục tiêu đặt ra. Một prompt rõ ràng giúp hệ thống dễ hiểu và phản hồi chính xác hơn. Ngược lại, nếu prompt
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu, SUSPICIOUS_WORD: cầu)
+  Line: Prompt là yêu cầu của người dùng nhập vào để công cụ AI tạo ra kết quả theo yêu cầu đó. Prompt càng rõ ràng. kết quả càng phù hợp với mục tiêu sử dụng.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: Ở)
+  Line: Ở prompt thứ hai trong phần Khởi động, chỉ thị Tạo hình ảnh" thể hiện hành động mà nhóm bạn Minh muốn AI thực hiện. Dữ liệu đầu vào là "công chúa Việt Nam
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Một prompt rõ ràng trong AI tạo sinh thường gồm ba phần chính: chí thị (nêu việc cần làm), dữ liệu đầu vào (nội dung cụ thể mà AI cần xừ II) và thông tin bổ sung (các yêu cầu thêm về bối cảnh, cách thế hiện hoặc định dạng).
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Bước 1. Phân tích yêu cầu.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: có cầu trúc gồm lời chào, nội dung chính và lời kết.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: 14h00)
+  Line: + Buổi sinh hoạt diễn ra lúc 14h00, thứ Sáu ngày 24/10/2025, tại phòng học
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: 10A2)
+  Line: lớp 10A2. Giọng văn trang trọng, gần gũi. Kết thư có lời mời cô xác nhận
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: 14h00, UNKNOWN_WORD: 10A2)
+  Line: qua từng lời nói.". Buổi sinh hoạt diễn ra lúc 14h00, thứ Sáu ngày 24/10/2025, tại phòng học lớp 10A2. Giọng văn trang trọng, ấm áp. Kết thư có lời mời cô xác
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: ở)
+  Line: Nhập prompt hoàn chỉnh ở Bước 3.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu, SUSPICIOUS_WORD: cầu, UNKNOWN_WORD: ở)
+  Line: Sau khi nhập prompt vào công cụ AI, em cần đọc kĩ lại nội dung kết quả nhận được để kiểm tra xem email được AI gợi ý có đáp ứng được yêu cầu hay không. Em có thể điều chỉnh lại prompt hoặc tạo prompt bổ sung để yêu cầu AI chỉnh sửa kết quả. Vi dụ, nếu muốn điều chỉnh lại kỉ niệm của cô với lớp, em có thể chỉnh sửa lại nội dung về kỉ niệm đó trên prompt đã soạn ở Bước 3.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Bước 1. Phân tích yêu cầu.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: + Em cần yêu cầu AI tạo ra một hình ảnh minh hoa sinh động, có thể sử dụng
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: bàn, UNKNOWN_WORD: ở)
+  Line: Ví dụ: Tạo hình ảnh minh hoạ cho một áp phích truyền thông học sinh Trung học phổ thông với chủ đề "Cân bằng giữa học tập và đam mê cá nhân". Trong ảnh có hai học sinh Trung học phổ thông - một bạn cầm sách, một bạn cầm đàn guitar - đang thảo luận hoặc trò chuyện trong lớp học. Bối cảnh có bàn học, bảng đen và biểu tượng micro. Phong cách minh hoa hiện đại, màu sắc nồi bật, ánh sáng tươi sáng. Bố cục mở rộng ở phần trên để dễ chèn tiêu đề, thể hiện tinh thần sáng tạo, năng động và truyền cảm hứng.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: creator, UNKNOWN_WORD: www)
+  Line: image-creator hoặc https://www.bing.com/images/create,...
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: ở)
+  Line: Nhập prompt đã viết đầy đủ ở Bước 3. Lưu lại hình ảnh do hệ thống tạo ra.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: cầu)
+  Line: Nếu hình ảnh chưa đạt yêu cầu, em có thể chỉnh sửa prompt bằng cách thay
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: ở)
+  Line: Em hãy thực hành viết các prompt khác nhau đề quan sát sự thay đổi kết quả mà công cụ AI tạo ra với chủ đề: "Mô tả buổi sáng ở nông thôn Việt Nam.". Hướng dẫn:
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: ở)
+  Line: Vi dụ prompt: Mô tả một buổi sáng ở nông thôn Việt Nam
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: ở)
+  Line: Ví dụ prompt: Hãy viết một đoạn văn ngắn mô tả một buổi sáng yên binh ở vùng
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: ở)
+  Line: Vi dụ prompt: Bạn là hướng dẫn viên du lịch. Hãy viết một đoạn giới thiệu ngắn về buổi sảng ở nông thôn Việt Nam để thu hút du khách nước ngoài.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: ở)
+  Line: Ví dụ prompt: Viết một đoạn thơ gồm bồn câu để miêu tả vè đẹp thanh bình của buổi sáng ở một làng qué Việt Nam.
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (SUSPICIOUS_WORD: LUYÊN)
+  Line: LUYÊN TẬP
+
+[bai-5-prompt-giao-tiep-voi-ai-tao-sinh] (UNKNOWN_WORD: ở, UNKNOWN_WORD: ở)
+  Line: 2. Ghép mỗi thành phần của prompt ở cột bên trái với một nội dung tương ứng ở cột bên phải.
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: bải)
+  Line: Để chuẩn bị bải thuyết trình môn Lịch sử về chủ đề "Chiến thắng Điện Biên Phủ", nhóm bạn Minh và nhóm bạn Long cùng sử dụng AI tạo sinh để tim thêm tư liệu và hình ảnh minh hoạ. Nhóm bạn Minh kiểm tra, chọn lọc thông tin từ kết quả của AI tạo sinh, diễn đạt nội dung theo văn phong của mình và luyện tập trình bày rõ ràng. Trong khi đó, nhóm bạn Long sao chép toàn bộ nội dung được tạo ra từ AI
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: cầu)
+  Line: Khi thuyết trình, phần trình bảy của nhóm bạn Minh được giáo viên khen rõ ràng, mạch lạc. Trong khi đó, nhóm bạn Long lúng túng vì không hiếu hết nội dung và có chỗ chưa phù hợp với yêu cầu được giao.
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: bải)
+  Line: Trong tỉnh huống Khởi động, nhóm bạn Minh đã sử dụng Ai tạo sinh để tim them tư liệu và hình ảnh minh hoa cho bài thuyết trình môn Lịch sử. Nhờ biết cách kiêm tra, chọn lọc và trình bày lại nội dung, các bạn đã làm bải tốt và được giáo viên khen ngợi. Điều này cho thấy, nếu sử dung đúng cách thì Ai tạo sinh có thế giúp em học tập hiệu quả
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (UNKNOWN_WORD: ở, SUSPICIOUS_WORD: cầu)
+  Line: Ai tạo sinh có thế hỗ try em ở nhiều môn học khác nhau. Khi học Ngữ văn, em có thể dùng Ai để gọi ý cách lập dàn ý hoặc luyện viết đoạn vẫn. Trong môn Toán, em có thể nhờ AI gọi ý các bước giải bài tập dạng mẫu để tham khảo. Với môn Tiếng Anh, em có thể luyện viết câu, sửa lỏi ngữ pháp hoặc mở rộng tử vựng. Khi học Lịch sử hay Địa lí, ern có thế yêu cầu AI tóm tắt nội dung bài học, giải thích sự kiện
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: giái)
+  Line: Ví dụ: Bạn Hoa dùng Ai để tóm tắt bài Sinh học và giái thích các khái niệm khó. Trước giờ học, Hoa ghi chép lại theo cách hiếu của mình. Trong giờ học, Hoa đã chủ động hỏi giáo viên những nội dung chưa hiểu để được giải đáp
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: Cà)
+  Line: VI dụ: Trong bài tập nhóm, bạn Minh sử dụng AI để gợi ý một phần nội dung trình bày. Cà nhóm đã ghi rõ trong slide: "Có sử dụng ý tưởng hỗ trợ từ AI tạo sinh.".
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: cầu)
+  Line: Vị dụ: Bạn Trang thử nghiệm dùng AI để tạo ảnh minh hoạ cho bài thuyết trình Trang chọn lọc nội dung phù hợp, yêu cầu AI không tạo ra hình ảnh gây tranh cãi hay phản cảm.
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: cầu)
+  Line: Bước 1. Yêu cầu AI tạo bộ câu hỏi luyện tập và đánh giá mức độ phù hợp.
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: cầu)
+  Line: Xem kết quả. Nếu thấy dễ, yêu cầu AI tăng độ khó (ví dụ: thêm bài đọc hiểu ngắn).
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: cầu)
+  Line: Nếu thấy khó, yêu cầu AI điều chỉnh.
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (UNKNOWN_WORD: homework)
+  Line: (finish) my homework already.
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (UNKNOWN_WORD: visited, UNKNOWN_WORD: grandparents)
+  Line: I last visited my grandparents two years ago.
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (UNKNOWN_WORD: Ihaven)
+  Line: → Ihaven't...
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (UNKNOWN_WORD: Ở)
+  Line: Ví dụ ghi chú: "Em làm đúng 2/3 câu trắc nghiệm. Ở câu viết lại, AI cho đáp án
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (UNKNOWN_WORD: visited, UNKNOWN_WORD: grandparents)
+  Line: I haven't visited my grandparents for two years, em hỏi lại tại sao không dùng since two years ago và AI giải thích thêm về cách dùng since/for. Nhờ vậy em hiểu rõ hơn.".
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: bải)
+  Line: A. Làm bải tập thay học sinh.
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: cầu)
+  Line: A. Đặt yêu cầu căng ngắn càng tốt để AI xử lí nhanh.
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (SUSPICIOUS_WORD: cầu)
+  Line: D. Viết yêu cầu rõ ràng, đọc kĩ kết quả và tự điều chỉnh cho phù hợp.
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (UNKNOWN_WORD: ở)
+  Line: D. Vị AI không hỗ trợ các môn học ở trường
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (UNKNOWN_WORD: Vese, UNKNOWN_WORD: VGC)
+  Line: HM Vese I VGC
+
+[bai-6-ai-tao-sinh-ho-tro-hoc-tap] (UNKNOWN_WORD: Heinesicy)
+  Line: AI Heinesicy
+
+[bai-7-phan-biet-that-gia-trong-ai-tao-sinh] (SUSPICIOUS_WORD: bàn)
+  Line: Đối với video hoặc hình ảnh, em có thể quan sát kĩ các chỉ tiết như: bàn tay bị vẽ lệch, ánh sáng không đồng đều, chữ viết bị méo, khuôn mặt hơi cứng hoặc
+
+[bai-7-phan-biet-that-gia-trong-ai-tao-sinh] (SUSPICIOUS_WORD: bải)
+  Line: Nếu đoạn văn bản chứa thông tin không thể tìm thấy trong sách giáo khoa, bải
+
+[bai-7-phan-biet-that-gia-trong-ai-tao-sinh] (UNKNOWN_WORD: ở, UNKNOWN_WORD: ở)
+  Line: 2. Ghép mỗi hiện tượng ở cột bên trái với một khái niệm tương ứng ở cột bên phải.
+
+[bai-8-hieu-dung-ve-ai-tao-sinh-thien-vi-hieu-lam-va-tac-hai-voi-con-nguoi] (SUSPICIOUS_WORD: luyên)
+  Line: Trong tình huống Khởi động, hệ thống AI đề xuất hồ sơ ứng viên chủ yếu là nam giới cho các vi trí kĩ thuật, dủ có những nữ ứng viên có trình độ tương đương. Đây không phải lỗi kĩ thuật mà là do dữ liêu huấn luyên hê thống AI đó bi mất cân bằng.
+
+[bai-8-hieu-dung-ve-ai-tao-sinh-thien-vi-hieu-lam-va-tac-hai-voi-con-nguoi] (UNKNOWN_WORD: ở)
+  Line: dung chưa chính xác hoặc mang định kiến. Trên thực tế, nhiều ứng dụng AI như ChatGPT cũng thường hiển thị cảnh báo ở phần kết quả, khuyến nghị người dùng nên kiểm tra lại thông tin trước khi sử dụng. Do đó, khi sử dụng AI, con người cần
+
+[bai-8-hieu-dung-ve-ai-tao-sinh-thien-vi-hieu-lam-va-tac-hai-voi-con-nguoi] (UNKNOWN_WORD: Ở)
+  Line: 2. Ở nhà, em muốn tim hiểu thêm kiến thức và rèn kĩ năng viết đoạn văn nghị luận. Em dự định dùng AI tạo sinh để thạm khảo ý tường và luyện tập thêm. Em sẽ sử dụng AI như thế nào để đảm bảo đúng cách và công băng?
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: cầu, UNKNOWN_WORD: ở)
+  Line: Chiều Chủ nhật, trong lúc chơi cầu lông ở nhà văn hóa, bạn Minh bắt gặp mọi người trong khu phố truyền tay nhau xem một đoạn video trên mạng xã hội. Video xuất hiện hình ảnh của một bác sĩ nổi tiếng cùng với logo của đài truyền hình quốc
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (UNKNOWN_WORD: ờ)
+  Line: gia, với nội dung nói rằng Bộ Y tế vừa thử nghiệm thành công một loại thuốc mới hỗ trợ tăng cường sức đề kháng và có khả năng giúp ngủ ngon hơn. Nhân vật trong video kêu gọi mọi người chia sẻ rộng rãi, đồng thời chỉ cần bấm theo dõi và để lại thông tin cá nhân ờ phản bình luận thì sẽ được gửi tặng thuốc miễn phí. Một
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: cành)
+  Line: Sự phát triển mạnh mẽ của công nghệ, đặc biệt là AI, không chỉ đem lại nhiều cơ hội mới mà còn đặt ra những thách thức chưa từng có cho xã hội. Trước bối cành đó,
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: cầu)
+  Line: Nhiệm vụ 1: Em hãy thảo luận cùng các bạn trong lớp để tìm hiểu một số năng lực (hay những yêu cầu thiết yếu) đối với mỗi công dân số trong kỉ nguyên AI. Hướng dẫn:
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: GIÁI)
+  Line: GIÁI QUYẾT
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: cầu)
+  Line: vai trò chủ động của con người, đánh giá lợi ích và rủi ro của AI, đồng thời thúc đẩy sự hiểu biết sâu sắc về sự phù hợp của các công cụ AI với nhu cầu của con người và sự phát triển bền vững của xã hội.
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: bán)
+  Line: số để bảo vệ bán thân và dữ liệu. Quan trọng hơn, công dân số cần có tư duy lấy con người làm trung tâm, ý thức về đạo đức và năng lực ứng dụng AI để làm chủ công nghệ vì một tương lai phát triển bền vững
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: Thào)
+  Line: a) Thào luận để trả lời cho câu hỏi: Công dân số cần có trách nhiệm gi khi
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: thào, SUSPICIOUS_WORD: bàn)
+  Line: Nhiệm vụ 2: Em hãy thào luận cùng các bạn trong lớp để trình bày một số nội dung cơ bàn về trách nhiệm, nghĩa vụ của công dân số khi sử dụng AI và những thôi quen hành động nên có để thực hiện được điều đó.
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: đòng)
+  Line: Cần cân nhắc khi sử dụng và chia sẻ sàn phẩm do Ai tạo. tránh phát tán tháng tri sai lệch, gáy ảnh hưởng đến cộng đòng
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: gáp)
+  Line: Khi tương tác và phản hồi với AI, cần đưa ra thông tin rõ ràng. chính xác, gáp phần giúp hệ thống hoạt động hiệu quả và đáng tin cậy hơn.
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: cầu)
+  Line: cần trọng với yêu cầu truy cập dữ liệu và đọc kĩ chính sách bào mặt trước khi sử dụng công cụ AI.
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: thào)
+  Line: Nhiệm vụ 3: Em hãy thào luận cùng các bạn trong lớp đề trình bày một số nội dung cơ bản về trách nhiệm xã hội của công dân số trong kỉ nguyên AI và những hành động thiết thực có thể thực hiện để cùng xây dựng một xã hội an toàn, lành mạnh và phát triển bền vững.
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: đòng)
+  Line: Tham gia các hoạt động cộng đòng, xã hội:
+
+[bai-9-cong-dan-so-trong-ki-nguyen-ai] (SUSPICIOUS_WORD: sô)
+  Line: Công dân sô trong thời đại AI cân nhận thức và hành động vì lợi ích chung của toàn xã hội, thể hiện qua một số khía cạnh cơ bản như:
+
+[bai-10-ai-va-nghe-nghiep] (UNKNOWN_WORD: ạ)
+  Line: Đức: Thưa thầy, nếu AI làm được nhiều việc như vậy, thì con người sẽ làm gì? Có nghề nào sẽ bị thay thế không ạ?
+
+[bai-10-ai-va-nghe-nghiep] (SUSPICIOUS_WORD: co)
+  Line: Giáo viên: AI có thể làm thay đổi nhiều công việc, nhưng đồng thời cũng tạo ra những co hội mới. Điều quan trọng là chúng ta cần chú trọng trang bị những kiến thức và kĩ năng phù hợp để thích nghi với sự thay đổi đó.
+
+[bai-10-ai-va-nghe-nghiep] (UNKNOWN_WORD: ở, UNKNOWN_WORD: chatbot)
+  Line: Trong hình huống Khởi động, bạn Đức thắc mắc về vai trò của con người khi AI có thể làm được nhiều việc. Trong thực tế, AI đang góp mặt trong nhiều lĩnh vực và đảm nhận một số công việc vốn do con người thực hiện. Ví dụ, ở siêu thị, máy tự động thanh toán giúp khách hàng không cần chờ xếp hàng lâu; trong trung tâm chăm sóc khách hàng, chatbot có thể trả lời Hình 10.1. Tác động của AI đền việc làm các câu hỏi thường gặp; trong nhà máy, robot giúp phân loại và đóng gói sản phẩm nhanh chóng: trong ngành truyền thông, AI có thể tạo bản tin ngắn hoặc hình ánh minh hoạ dựa trên nội dung
+
+[bai-10-ai-va-nghe-nghiep] (SUSPICIOUS_WORD: hòi)
+  Line: giao tiếp và khả năng thích nghi. Vi dụ, trong ngành chăm sóc khách hàng, AI có thể hỗ trợ trả lời các câu hòi phố biến như kiểm tra đơn hàng. Tuy nhiên, khi gặp
+
+[bai-10-ai-va-nghe-nghiep] (SUSPICIOUS_WORD: cầu)
+  Line: AI đang làm thay đổi cách các ngành nghề vận hành, từ quy trình làm việc cho đến yêu cầu về kĩ năng. Cùng với đó, nhiều nghề nghiệp mới xuất hiện như thiết kế dữ liệu, huấn luyện mô hình, đánh giá nội dung do AI tạo ra hoặc phát triển ứng dụng thông minh.
+
+[bai-10-ai-va-nghe-nghiep] (SUSPICIOUS_WORD: cầu)
+  Line: con người tiết kiệm thời gian và công sức. Tuy nhiên, điều này cũng đặt ra yêu cầu mới cho con người là cần biết thích ứng và làm việc hiệu quả cùng AI.
+
+[bai-10-ai-va-nghe-nghiep] (SUSPICIOUS_WORD: cầu)
+  Line: Muốn thực hiện được yêu cầu đó, mỗi người cần không ngừng học hỏi và rèn luyện các kĩ năng phù hợp. Đó có thể là kĩ năng sử dụng công cụ số, khả năng tư duy phản biện, giải quyết vấn đề, làm việc nhóm hoặc sáng tạo. Những kĩ năng
+
+[bai-10-ai-va-nghe-nghiep] (SUSPICIOUS_WORD: cầu)
+  Line: Sự phát triển của AI đặt ra yêu cầu con người cần biết cách làm việc hiệu quả cùng AI. Để đồng hành với AI, mỗi người
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (UNKNOWN_WORD: ở)
+  Line: các địa điểm du lịch nổi tiếng. Một bạn trong nhóm nhận xét: "Hình ảnh trong video rất đẹp, nhưng giọng đọc lại nghe giống nhau ở nhiều video mình đã xem.". Bạn An
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (SUSPICIOUS_WORD: mò)
+  Line: Chia sẻ của bạn An khiến cả nhóm bắt đầu tò mò. Theo em:
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (UNKNOWN_WORD: Colaboratory)
+  Line: Google Colab (viết tất của Colaboratory) là một nền tầng lập trình trực tuyến
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (UNKNOWN_WORD: Text)
+  Line: (3) và (4): Nút Code, Text dùng để chèn thêm ô viết mã hoặc ghi chú;
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (UNKNOWN_WORD: ở)
+  Line: (6): Nút chỉ chạy mã ở một ô;
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (UNKNOWN_WORD: ở)
+  Line: Bước 3. Viết và chạy các lệnh ở các ô mã
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (UNKNOWN_WORD: environmet, UNKNOWN_WORD: coes, UNKNOWN_WORD: aary, UNKNOWN_WORD: helpfal, UNKNOWN_WORD: analytian, UNKNOWN_WORD: Libraries, UNKNOWN_WORD: Laralle)
+  Line: This Python 3 environmet coes with aary helpfal analytian Libraries Laralle
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (UNKNOWN_WORD: eruple, UNKNOWN_WORD: reeleg, UNKNOWN_WORD: thie, UNKNOWN_WORD: eltching, UNKNOWN_WORD: airtiester, UNKNOWN_WORD: Pales)
+  Line: For eruple, reeleg thie (by eltching run of pressing airtiester) all list all Pales und
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (UNKNOWN_WORD: notebookff3d2d4339, CONJOINED: notebookff3, CONJOINED: d4339)
+  Line: (1): Thanh tiêu đề trên cùng và menu: - notebookff3d2d4339: Tên mặc định của số tay bạn đang làm việc (có thể
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (UNKNOWN_WORD: Session)
+  Line: Hiển thị trạng thái của phiên làm việc (Session chưa được kích hoạt nếu chưa
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (SUSPICIOUS_WORD: cầu)
+  Line: buổi sinh hoạt đầu tuần với nhiệm vụ và yêu cầu cụ thể như sau:
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (SUSPICIOUS_WORD: cầu)
+  Line: Google) đề thực hiện đoạn giới thiệu bằng giọng nói cho hoạt động "Ngày hội học sinh sáng tạo". Yêu cầu:
+
+[bai-11-moi-truong-phat-trien-san-pham-ai] (SUSPICIOUS_WORD: bàn)
+  Line: hoàn thiện sản phẩm bàn giao cho Nhà trường.
+
+[bai-12-bai-tap-du-an] (SUSPICIOUS_WORD: cầu)
+  Line: Bước này giúp em tiết kiệm thời gian và nhận được kết quả phù hợp hơn. Việc đưa ra prompt rõ ràng, cụ thể sẽ giúp AI hiểu đúng yêu cầu và hỗ trợ em hiệu quả trong sáng tạo
+
+[bai-12-bai-tap-du-an] (SUSPICIOUS_WORD: cầu)
+  Line: giảm khả năng sáng tạo của học sinh?". Nhóm tiếp tục yêu cầu gợi ý poster, tiêu đề, mô tả ngắn hấp dẫn. Các phàn hồi được đánh giá và lựa chọn theo tiêu
+
+[bai-12-bai-tap-du-an] (SUSPICIOUS_WORD: bán, UNKNOWN_WORD: realistic)
+  Line: Phong cách: bán hiện thực (semi-realistic), màu sắc tươi sáng, cảm xúc rõ nét.
+
+[bai-12-bai-tap-du-an] (SUSPICIOUS_WORD: mỏ)
+  Line: Nếu AI tạo ra hình ảnh bạn Linh với tóc thả, em cần bổ sung mỏ tả chi tiết vào prompt để đảm bảo hình ảnh đúng với nhân vật. - Tạo lại hình ảnh (nếu cần):
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: ở)
+  Line: Em sử dụng công cụ tạo ảnh bằng AI để tạo hình ảnh dựa trên prompt đã được điều chình ở bước trước.
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: ở, UNKNOWN_WORD: ở)
+  Line: Trong bước này, em thực hiện lại các bước nhỏ như đã làm ở bước 3 để tạo nội dung cho trang 3. Đồng thời, cần quan sát kĩ để đảm bảo hình ảnh ở trang 3 được thể hiện nhất quán với hai trang trước. Một số yếu tố cần lưu ý bao gồm:
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: ở)
+  Line: biểu cảm và tư thế giống với hình ảnh ở các trang 1 và 2, chiều cao của hai nhân vật cần phù hợp.
+
+[bai-12-bai-tap-du-an] (SUSPICIOUS_WORD: cà)
+  Line: AI không làm thay tát cà. nhưng nếu em hiểu và làm chủ nó.
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: ở)
+  Line: Em tiếp tục thực hiện các bước như đã làm ở trang 3 để tạo hình ảnh cho trang 4. Trong bước này, cần lưu ý một số điểm sau:
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: rrfi)
+  Line: hanh. động hoặc tương lắc giữa các nhận. rà nhằm truyền lải nội dung rrfi.
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: j4, UNKNOWN_WORD: hig, UNKNOWN_WORD: ién, UNKNOWN_WORD: ở, UNKNOWN_WORD: rg, CONJOINED: j4)
+  Line: Trang 5 là trang rét "i'n? :j4 tanh, thường mang tính tổng kết, truyền thông điệp hoặc thể hig 1!... 2. ién si, truyện. Em tiếp túc thực hiện các bước tương tự như ở những tá !,: 1'r. "rg tren chú ý các điềm sau:
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: einin)
+  Line: Duy tri su th !; "%i vh, 1, einin, bài cánh và phong cách hình ảnh với toàn bộ
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: thuyện)
+  Line: thuyện tranh.
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: kới)
+  Line: Nếu có kới tạc a rệt ". 12.1134, thông điệp, cần bổ sung vào prompt để Ai tạo ra
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: irr)
+  Line: hình ảnh phi irr
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: kến, UNKNOWN_WORD: ríx, UNKNOWN_WORD: k7, UNKNOWN_WORD: T4n, UNKNOWN_WORD: uon, CONJOINED: k7, CONJOINED: T4)
+  Line: Hình ánh kến ríx, "k7 T4n :uon rở cầm xúc tích cục (vui về, tự tin, gắn kết,...)
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: turris, UNKNOWN_WORD: sín, UNKNOWN_WORD: vem)
+  Line: đh gay an turris in sín, ig ri vem hiếu rõ thông điệp của truyện.
+
+[bai-12-bai-tap-du-an] (SUSPICIOUS_WORD: cầu)
+  Line: Hình 12.6. Hình ảnh trang 5 trong cầu chuyện của ban Linh
+
+[bai-12-bai-tap-du-an] (UNKNOWN_WORD: luổi)
+  Line: Sử dụng ngôn ngữ trong sáng, đễ hiều, phú hợp với lửa luổi học sinh. Tránh
+
+[bai-12-bai-tap-du-an] (SUSPICIOUS_WORD: cầu)
+  Line: Em hãy sử dụng công cụ AI tạo sinh (chẳng hạn như ChatGPT, công cụ tạo ảnh bằng văn bản) để tạo một truyện tranh ngắn (từ 3 đến 5 trang) kể về câu chuyện em tự sáng tác. Yêu cầu:
+
+[bang-giai-thich-thuat-ngu] (UNKNOWN_WORD: Generative)
+  Line: AI tạo sinh (Generative AI)
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: nùy)
+  Line: trong cuốn sách nùy.
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: TXT87P6, CONJOINED: TXT87)
+  Line: Mã số: TXT87P6-SED
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: QĐ, UNKNOWN_WORD: STK)
+  Line: In 20.000 bản, (QĐ in số 01-STK) khó 19 x 26,5 cm
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: Đéc, UNKNOWN_WORD: ĐKXB, UNKNOWN_WORD: CXBIPH, UNKNOWN_WORD: GD)
+  Line: Đơn vị in : Công ty Có phần In & Bao bì Đồng Tháp Địa chỉ : 212 Lê Lợi, Phường Sa Đéc, Tinh Đồng Tháp Số ĐKXB : 416-2026/CXBIPH/34-168/GD
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: GD)
+  Line: Số QĐXB : 118/QĐXB-GD ngày 11 tháng 02 năm 2026 In xong và nộp lưu chiều tháng 03 năm 2026
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: TAPIANKO, UNKNOWN_WORD: MANAO)
+  Line: TAPIANKO GA CE MANAO
+
+[thong-tin-xuat-ban-bia-sau] (UNKNOWN_WORD: SEDIDCO, UNKNOWN_WORD: 000đ, CONJOINED: 000đ)
+  Line: VÀ PHÁT TRIỂN GIÁO DỤC PHƯƠNG NAM SEDIDCO 9 786040 466303 Giá: 40.000đ
+

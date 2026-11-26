@@ -125,7 +125,7 @@
 <p class="lesson-p">thành một nhiệm vụ. Mỗi hành động nhỏ trong một chuối được gọi là một liên kết (Link). Ví dụ dưới đây làm rõ hai khái niệm chuỗi và liên kết.</p>
 <p class="lesson-p">Chuỗi hành động (Chain)</p>
 <p class="lesson-p">Quy trinh hoàn chỉnh giái quyét bài toán</p>
-<p class="lesson-p">Phần tích đề bải Tìm kiếm kiến thức liên</p>
+<p class="lesson-p">Phần tích đề bài Tìm kiếm kiến thức liên</p>
 <p class="lesson-p">Lập luận và giải Trình bày lời giải</p>
 <p class="lesson-p">quan</p>
 <p class="lesson-p">Liên kết (Link)</p>
@@ -142,7 +142,7 @@
 <ul class="lesson-bullet-list">
 <li>Kết nối LLM với dữ liệu riêng: Đưa thông tin cụ thể của em (ví dụ: dữ liệu cửa hàng, môn học) vào đề LLM xử lí.
 
-• Hồ trợ hành động phức tạp: Giúp LLM thực hiện nhiều bước logic, kết nối với các công cụ bên ngoài (như tìm kiếm web, gửi thư điện từ) để hoàn thành nhiệm vụ phức tạp.</li>
+• Hồ trợ hành động phức tạp: Giúp LLM thực hiện nhiều bước logic, kết nối với các công cụ bên ngoài (như tìm kiếm web, gửi thư điện tử) để hoàn thành nhiệm vụ phức tạp.</li>
 <li>Tăng cường khả năng ứng dụng thực tế: Giúp LLM hoạt động hiệu quả hơn trong các tình huống đời thực, thông qua việc tố chức các quy trình làm việc (chuỗi) và tích hợp các công cụ (liên kết).</li>
 </ul>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> LlamaIndex - Thù kho chuyên nghiệp cho dữ liệu</h3>
@@ -178,12 +178,12 @@
 <p class="lesson-p">1) Thu thập dữ liệu (Data Connectors): An có thể có dữ liệu cửa hàng ở nhiều nơi: tệp Excel, tệp PDF chứa chính sách khuyên mãi, thông tin trên trang web hoặc thậm chí là các ghi chú viết tay mà An đã sô hoá. LlamaIndex cung cấp các</p>
 <p class="lesson-p">Data Connectors giúp tải dữ liệu từ vô số nguồn khác nhau một cách dễ dàng.
 
-Vị dụ: LlamaIndex có thể đọc trực tiếp từ tệp .xlsx của bảng giá, tệp .pdf của hợp đồng thuê mặt bằng (để biết giờ đóng mở cửa), hoặc tự động thu thập thông tin tử một trang web đơn giản của cửa hàng.</p>
+Ví dụ: LlamaIndex có thể đọc trực tiếp từ tệp .xlsx của bảng giá, tệp .pdf của hợp đồng thuê mặt bằng (để biết giờ đóng mở cửa), hoặc tự động thu thập thông tin tử một trang web đơn giản của cửa hàng.</p>
 <p class="lesson-p">2) Tổ chức và lưu trữ dữ liệu (Data Indexes): Sau khi tải về, dữ liệu thô thường không được tổ chức một cách hiệu quả để tìm kiếm. LlamaIndex sẽ xử lí (chia nhỏ văn bản, biểu diễn vector) và tổ chức dữ liệu này thành các chỉ mục dữ liệu.</p>
-<p class="lesson-p">Vị dụ: Thay vì để LLM đọc cà một tệp PDF dài, LlamaIndex sẽ chia tệp đó thành các đoạn nhỏ hơn, biến mỗi đoạn thành một "mục lục" có thể tìm kiếm được. Khi khách hỏi về giá sữa Vinamilk, LlamaIndex không cần đọc lại cả cuốn số tay sản phẩm mà chỉ cần tìm đến "mục" có thông tin về sữa. Đặc biệt, Vector Store Index là loại chỉ mục phổ biến nhất, giúp tìm kiếm thông tin dựa trên ý nghĩa (semantic</p>
+<p class="lesson-p">Ví dụ: Thay vì để LLM đọc cà một tệp PDF dài, LlamaIndex sẽ chia tệp đó thành các đoạn nhỏ hơn, biến mỗi đoạn thành một "mục lục" có thể tìm kiếm được. Khi khách hỏi về giá sữa Vinamilk, LlamaIndex không cần đọc lại cả cuốn số tay sản phẩm mà chỉ cần tìm đến "mục" có thông tin về sữa. Đặc biệt, Vector Store Index là loại chỉ mục phổ biến nhất, giúp tìm kiếm thông tin dựa trên ý nghĩa (semantic</p>
 <p class="lesson-p">search) chứ không chỉ dựa trên từ khóa đơn thuần.</p>
 <p class="lesson-p">3) Truy xuất thông tin (Retrieval): Khi có một câu hỏi từ khách hàng, Retriever của LlamaIndex sẽ làm nhiệm vụ tìm kiếm thông tin liên quan nhất từ các Data Indexes đã được tổ chức. Đây là trái tim của quá trình truy xuất trong RAG.</p>
-<p class="lesson-p">Vị dụ: Khách hàng hỏi: Mì tôm Hảo Hảo còn không?, Retriever sẽ vào Vector</p>
+<p class="lesson-p">Ví dụ: Khách hàng hỏi: Mì tôm Hảo Hảo còn không?, Retriever sẽ vào Vector</p>
 <p class="lesson-p">Store Index, tìm kiếm những đoạn văn bản trong cơ sở dữ liệu của An mà có ý nghĩa gân nhất với câu hỏi này (ví dụ: dòng Mì tôm Hảo Hảo gói: 5 000 VNĐ/gói.)</p>
 <p class="lesson-p">4) Bộ máy truy vấn (Query Engines): Sau khi Retriever tìm được thông tin liên quan, Query Engines của LlamaIndex sẽ kết hợp thông tin đó với câu hỏi gốc của người dùng và chuyến giao cho LLM. LLM sau đó sẽ sử dụng cà câu hỏi và thông tin được truy xuất để tạo ra một câu trả lời chính xác, tự nhiên và phù hợp.
 
@@ -197,7 +197,7 @@ Ví dụ: Query Engine sẽ lấy câu hỏi Gạo ST25 giá bao nhiêu? và đo
 • Data Connectors: Tài dữ liệu từ nhiều nguồn.</p>
 <p class="lesson-p">CANNO</p>
 <ul class="lesson-bullet-list">
-<li>Data Indexes: Cầu trúc dữ liệu để tìm kiếm hiệu quả (ví dụ:
+<li>Data Indexes: Cấu trúc dữ liệu để tìm kiếm hiệu quả (ví dụ:
 
 Vector Store Index).</li>
 <li>Retrieval: Tìm kiếm thông tin liên quan từ Index.
