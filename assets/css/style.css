@@ -1366,26 +1366,53 @@ input {
 
 /* Hình minh hoạ sách */
 .lesson-figure-box {
-  margin: 22px 0;
-  padding: 14px 18px;
-  background: var(--bg-subtle);
-  border: 1px dashed var(--border);
-  border-radius: 12px;
+  margin: 26px auto;
+  padding: 18px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  align-items: center;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  max-width: 680px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.fig-badge {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--accent);
+.lesson-figure-box:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.lesson-figure-box.figure-highlight {
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+  background: color-mix(in srgb, var(--bg-elevated) 96%, var(--accent));
+}
+
+.lesson-img {
+  max-width: 100%;
+  max-height: 480px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  margin-bottom: 12px;
+  display: block;
 }
 
 .figure-caption {
   font-size: 14px;
-  font-weight: 600;
+  line-height: 1.55;
   color: var(--text-muted);
+  font-weight: 500;
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+.figure-caption strong {
+  color: var(--accent);
+  font-weight: 700;
 }
 
 /* Footer chuyển bài học */
