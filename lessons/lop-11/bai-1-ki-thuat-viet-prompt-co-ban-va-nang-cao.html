@@ -19,7 +19,7 @@
             
 <p class="lesson-p">Sau bài học này, em sẽ:</p>
 <ul class="lesson-bullet-list">
-<li>Sử dụng được các kiểu prompt không vl dụ, prompt có ví dụ có ngữ cảnh.</li>
+<li>Sử dụng được các kiểu prompt không ví dụ, prompt có ví dụ có ngữ cảnh.</li>
 <li>Trình bày được cách yêu cầu LLM trả lời theo định dạng và độ dài mong muốn.</li>
 <li>Sử dụng được kĩ thuật chuỗi tư duy (Chain-of-Thought) để suy luận từng bước.</li>
 </ul>
@@ -33,7 +33,7 @@
                 <div class="section-body">
             
 <p class="lesson-p">Bình sử dụng AI để giải bài toán "Từ 0 giờ đến 12 giờ trưa, chuông của một chiếc đồng hồ quả lắc sẽ đánh bao nhiêu tiếng chuông? Biết rằng đồng hồ chỉ đánh chuông báo giờ và số tiếng chuông bằng số giờ". Ngoài đề bài, Bình đã cung cấp</p>
-<p class="lesson-p">thêm các thông tin như một vài vi dụ về cách giải và người dùng là học sinh lớp 11.</p>
+<p class="lesson-p">thêm các thông tin như một vài ví dụ về cách giải và người dùng là học sinh lớp 11.</p>
 <p class="lesson-p">Bên cạnh đó, Bình cũng yêu cầu LLM suy luận theo từng bước và trình bày lời giải không quá 200 chữ.</p>
 <p class="lesson-p">Em hãy cho biết:</p>
 <h3 class="subheading-h3"><span class="h3-num">1.</span> Làm thế nào để Binh thu được cách giải phù hợp với học sinh lớp 11?</h3>
@@ -54,7 +54,7 @@ Tuy nhiên, trong tình huống phức tạp, chỉ sử dụng prompt cơ bản
 <p class="lesson-p">Trong đó:</p>
 <p class="lesson-p">Chi thị: Mô tả hành động chính mà mô hình cần thực hiện.</p>
 <p class="lesson-p">Dữ liệu đầu vào: Dữ liệu chính mà mô hình cần xử II.</p>
-<p class="lesson-p">Vi dụ: Khi sử dụng prompt cơ bán cho tình huống ở phần Khởi động, chỉ thị là yêu</p>
+<p class="lesson-p">Ví dụ: Khi sử dụng prompt cơ bán cho tình huống ở phần Khởi động, chỉ thị là yêu</p>
 <p class="lesson-p">cầu giài bài toán và dữ liệu đầu vào là đề bài. Kết quả thu được có dạng:</p>
 <p class="lesson-p">Kết quả (ví dụ rút gọn):</p>
 <p class="lesson-p">Đầu tiên, chúngta cần liệt kê số tiếng chuông đòng hò đánh vào mỗi giờ từ 1 giờ đến 12 giờ.</p>
@@ -70,22 +70,22 @@ Tuy nhiên, trong tình huống phức tạp, chỉ sử dụng prompt cơ bản
 • Prompt cơ bản thường chỉ dùng cho những tình huống khái quát, đơn giản.</li>
 </ul>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> Prompt nâng cao</h3>
-<p class="lesson-p">Trong những tình huống phức tạp, prompt co bản thường không cho kết quả mong muốn. Vì dụ, khi dùng prompt cơ bản, kết quả trà về không chia bước rõ ràng và quá dài do có nhiều bước trung gian hoặc nội dung chưa phù hợp với người đọc. Để cải thiện kết quà do LLM tạo ra, em có thể thêm vào prompt một số</p>
+<p class="lesson-p">Trong những tình huống phức tạp, prompt co bản thường không cho kết quả mong muốn. Ví dụ, khi dùng prompt cơ bản, kết quả trà về không chỉa bước rõ ràng và quá dài do có nhiều bước trung gian hoặc nội dung chưa phù hợp với người đọc. Để cải thiện kết quả do LLM tạo ra, em có thể thêm vào prompt một số</p>
 <p class="lesson-p">thành phần được trình bày sau đây.</p>
-<h4 class="subheading-h4"><span class="h4-letter">a)</span> Vi dụ minh hoạ</h4>
-<p class="lesson-p">Một hoặc một vải ví dụ (one-shot, few-shot) có thể được đưa vào prompt để định hướng câu trà lời cho mô hình. Nếu không sử dụng vi dụ, mô hình sẽ dựa vào</p>
-<p class="lesson-p">hiều biết sẵn có. Khi sử dụng vi dụ, mỏ hình kết hợp thêm kinh nghiệm qua vi dụ nhằm cải thiện kết quả.</p>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Ví dụ minh hoạ</h4>
+<p class="lesson-p">Một hoặc một vải ví dụ (one-shot, few-shot) có thể được đưa vào prompt để định hướng câu trả lời cho mô hình. Nếu không sử dụng ví dụ, mô hình sẽ dựa vào</p>
+<p class="lesson-p">hiều biết sẵn có. Khi sử dụng ví dụ, mỏ hình kết hợp thêm kinh nghiệm qua ví dụ nhằm cải thiện kết quả.</p>
 <ul class="lesson-bullet-list">
 <li>Prompt không ví dự: "Hãy phân loại cảm xúc của câu sau: "Trời mưa nên em không được đi chơi. " cho kết quả có thể là Buốn. Thất vọng hoặc Không vui.
 
-Như vậy. prompt không vi dụ cho kết quà thiếu tinh xác định, mơ hồ.</li>
-<li>Prompt có vi dụ: "Hãy phân loại cảm xúc của cầu sau: "Trời mưa nên em không được đi chơi.". Vì dụ cầu "Hôm nay em được 10 điểm." -> Cảm xúc Vui, câu "Hôm nay em bị ổm." -> cảm xúc Buồn."' luôn cho kết quả là Buồn.</li>
+Như vậy. prompt không ví dụ cho kết quả thiếu tính xác định, mơ hồ.</li>
+<li>Prompt có ví dụ: "Hãy phân loại cảm xúc của cầu sau: "Trời mưa nên em không được đi chơi.". Ví dụ cầu "Hôm nay em được 10 điểm." -> Cảm xúc Vui, câu "Hôm nay em bị ốm." -> cảm xúc Buồn."' luôn cho kết quả là Buồn.</li>
 </ul>
 <p class="lesson-p">Như vậy, prompt có ví dụ cho kết quả rõ ràng, xác định.</p>
 <h4 class="subheading-h4"><span class="h4-letter">b)</span> Ngữ cảnh</h4>
 <p class="lesson-p">Ngữ cảnh trong prompt là thông tin thém giúp LLM hiểu rõ tình huống, đối tượng hoặc mục tiêu của câu hỏi. Việc đưa thêm ngữ cành giúp LLM hiểu rõ yêu cầu,</p>
 <p class="lesson-p">nhờ vậy trả lời chính xác hơn.</p>
-<p class="lesson-p">Vi dụ: Yêu cầu LLM mô tả về một vật dao động điều hoà.</p>
+<p class="lesson-p">Ví dụ: Yêu cầu LLM mô tả về một vật dao động điều hoà.</p>
 <ul class="lesson-bullet-list">
 <li>Nếu không cung cấp ngữ cành, LLM có thể biểu diễn dưới dạng số phức:</li>
 </ul>
@@ -102,9 +102,9 @@ Cách này giúp câu trả lời rõ ràng, dễ đọc và sử dụng. Nhờ 
 <ul class="lesson-bullet-list">
 <li>Liệt kệ: Sử dụng các cụm từ như "Hãy liệt kè...", "Đưa ra danh sách...", "Gạch</li>
 </ul>
-<p class="lesson-p">đầu dòng...". VI dụ: "Hay liệt kê 5 lợi ích của việc đọc sách".</p>
+<p class="lesson-p">đầu dòng...". Ví dụ: "Hay liệt kê 5 lợi ích của việc đọc sách".</p>
 <ul class="lesson-bullet-list">
-<li>Bảng: Yêu cầu tạo bảng với các tiêu đề cột cụ thể. Vì dụ: "Hãy tạo một bảng</li>
+<li>Bảng: Yêu cầu tạo bảng với các tiêu đề cột cụ thể. Ví dụ: "Hãy tạo một bảng</li>
 </ul>
 <p class="lesson-p">so sánh giữa xe máy điện và xe máy xăng với các cột: Tiều chí, Xe máy điện, Xe máy xăng".</p>
 <ul class="lesson-bullet-list">
@@ -114,16 +114,16 @@ Cách này giúp câu trả lời rõ ràng, dễ đọc và sử dụng. Nhờ 
 <ul class="lesson-bullet-list">
 <li>Theo bước: Sử dụng các cụm từ như "Hấy giải thích theo từng bước ...", "Các</li>
 </ul>
-<p class="lesson-p">bước thực hiện là...".". Vi dụ: "Hãy giải thích theo từng bước quy trình đăng kí tài khoản ngân hàng trực tuyển".</p>
+<p class="lesson-p">bước thực hiện là...".". Ví dụ: "Hãy giải thích theo từng bước quy trình đăng kí tài khoản ngân hàng trực tuyển".</p>
 <p class="lesson-p">Cách yêu cầu về độ dài văn bản:</p>
 <ul class="lesson-bullet-list">
-<li>Số từ/câu cụ thể: Yêu cầu số từ hoặc số câu chính xác. Vi dụ: "Hãy tóm tắt</li>
+<li>Số từ/câu cụ thể: Yêu cầu số từ hoặc số câu chính xác. Ví dụ: "Hãy tóm tắt</li>
 </ul>
 <p class="lesson-p">trong khoảng 100 từ", "Đưa ra 3 câu trả lời ngắn gọn".</p>
 <ul class="lesson-bullet-list">
 <li>Số từ hoặc số câu trong một khoảng: Yêu cầu số từ hoặc số câu trong một</li>
 </ul>
-<p class="lesson-p">khoảng. Vi dụ: "Hây giài thịch từ 120 đến 150 chữ", "Trà lời trong 2 đến 3 câu".</p>
+<p class="lesson-p">khoảng. Ví dụ: "Hây giài thịch từ 120 đến 150 chữ", "Trả lời trong 2 đến 3 câu".</p>
 <ul class="lesson-bullet-list">
 <li>Mức độ chi tiết: Yêu cầu tóm tắt ngắn gọn, giải thích chỉ tiết hoặc nêu những</li>
 </ul>
@@ -134,7 +134,7 @@ Cách này giúp câu trả lời rõ ràng, dễ đọc và sử dụng. Nhờ 
 <p class="lesson-p">Yêu cầu đầu vào Yêu cầu đầu vào</p>
 <p class="lesson-p">Bước 1 Không sử dụng chuỗi</p>
 <p class="lesson-p">Sử dụng chuỗi tư duy Bước 2</p>
-<p class="lesson-p">tu duy</p>
+<p class="lesson-p">tư duy</p>
 <p class="lesson-p">Kết quả Kết quả</p>
 
                     <figure class="lesson-figure-box">
@@ -144,8 +144,8 @@ Cách này giúp câu trả lời rõ ràng, dễ đọc và sử dụng. Nhờ 
                         </div>
                     </figure>
                     
-<p class="lesson-p">Vi dụ: Yêu cầu LLM xác định phần từ tiếp theo trong dãy số 2, 4, 8, 16.</p>
-<p class="lesson-p">Khi không sử dụng kĩ thuật chuỗi 1ư duy:</p>
+<p class="lesson-p">Ví dụ: Yêu cầu LLM xác định phần từ tiếp theo trong dãy số 2, 4, 8, 16.</p>
+<p class="lesson-p">Khi không sử dụng kĩ thuật chuỗi tư duy:</p>
 <p class="lesson-p">Số tiếp theo trong dãy 2, 4, 8, 16 là 32.</p>
 <p class="lesson-p">Khi sử dụng kĩ thuật chuỗi tư duy:</p>
 <ul class="lesson-bullet-list">
@@ -160,20 +160,20 @@ Cách này giúp câu trả lời rõ ràng, dễ đọc và sử dụng. Nhờ 
 </ul>
 <p class="lesson-p">16 x 2 = 32.</p>
 <ul class="lesson-bullet-list">
-<li>Prompt nâng cao ngoài chỉ thị và dữ liệu đâu vào còn có thêm các thành phần: vi dụ, ngữ cánh, định dạng đầu ra và chuỗi tư duy.</li>
+<li>Prompt nâng cao ngoài chỉ thị và dữ liệu đâu vào còn có thêm các thành phần: ví dụ, ngữ cảnh, định dạng đầu ra và chuỗi tư duy.</li>
 <li>Prompt nâng cao có thêm các mô tả kĩ hơn yêu cầu, dùng cho tình huống phức lạp, càn độ chính xác cao và chỉ tiết.</li>
 </ul>
 <h3 class="subheading-h3"><span class="h3-num">3.</span> Cầu trúc tổng quát của một prompt</h3>
 <p class="lesson-p">Cầu trúc của một prompt cơ bản có dạng:</p>
 <p class="lesson-p">Prompt cơ bản = <Chi thị> + [Dữ liệu đầu vào].</p>
 <p class="lesson-p">Cầu trúc của một prompt nâng cao có dạng:</p>
-<p class="lesson-p">Prompt nâng cao = <Chi thị > + [Vi dụ]* + [Ngữ cành]* + [Dữ liệu đầu vào]</p>
+<p class="lesson-p">Prompt nâng cao = <Chi thị > + [Ví dụ]* + [Ngữ cành]* + [Dữ liệu đầu vào]</p>
 <p class="lesson-p">+ [Định dạng đầu ra] + [Chuỗi tư duy)*.
 
 (*: tuy chọn)</p>
 <p class="lesson-p">Trong đó:</p>
 <p class="lesson-p">Chỉ thị (directive): Mô tả hành động chính mà mô hình cần thực hiện.</p>
-<p class="lesson-p">Ví dụ (examples): (tuỳ chọn) Một danh sách các ví dụ minh hoa (nếu dùng prompt có vi dụ).</p>
+<p class="lesson-p">Ví dụ (examples): (tuỳ chọn) Một danh sách các ví dụ minh hoa (nếu dùng prompt có ví dụ).</p>
 <p class="lesson-p">Ngữ cảnh (contexl): (tuy chọn) Mô tả tình huống, bối cảnh sử dụng hoặc vai trò của mô hình.</p>
 <p class="lesson-p">Dữ liệu đầu vào (input): Dữ liệu chính mà mô hình cần xử lí.</p>
 <p class="lesson-p">Định dạng đầu ra (output format): (tuy chọn) Yêu cầu cụ thể về hình thức đàu ra mong muốn (dạng danh sách, đoạn văn, bảng,...).</p>
@@ -181,17 +181,17 @@ Cách này giúp câu trả lời rõ ràng, dễ đọc và sử dụng. Nhờ 
 <p class="lesson-p">Sự khác biệt giữa prompt cơ bản và prompt nâng cao được tổng hợp trong bảng sau:</p>
 <p class="lesson-p">Prompt cơ bán</p>
 <p class="lesson-p">Prompt nãng cao</p>
-<p class="lesson-p">Chỉ thị, dữ liệu đầu vào vi dụ, ngữ cành, định dạng đầu ra và chuối tư duy.</p>
+<p class="lesson-p">Chỉ thị, dữ liệu đầu vào ví dụ, ngữ cành, định dạng đầu ra và chuối tư duy.</p>
 <p class="lesson-p">Thanh phần Chỉ thị và dữ liệu đầu vào.</p>
 <p class="lesson-p">Cao với những yêu cầu đơn giản, khái quát, kém. Cao và ổn định hơn prompt với những yêu cầu phức cơ bản.
 
 tạp, chi tiết.</p>
 <p class="lesson-p">Chất lượng đầu ra</p>
 <p class="lesson-p">Dữ liệu</p>
-<p class="lesson-p">Không yêu cầu dữ liệu Yêu cầu một số ít dữ liệu (vi dụ).
+<p class="lesson-p">Không yêu cầu dữ liệu Yêu cầu một số ít dữ liệu (ví dụ).
 
-(vi dụ)-</p>
-<p class="lesson-p">Dùng cho những vấn đề yêu càu độ chinh xác</p>
+(ví dụ)-</p>
+<p class="lesson-p">Dùng cho những vấn đề yêu cầu độ chính xác</p>
 <p class="lesson-p">Ứng dụng</p>
 <p class="lesson-p">Dùng cho những vân đề chung, đơn giản.</p>
 <p class="lesson-p">cao, chi tiết.</p>
@@ -199,7 +199,7 @@ tạp, chi tiết.</p>
 <p class="lesson-p">Nhanh.
 
 Chậm.</p>
-<p class="lesson-p">Trong tinh huồng ở phần Khời động, prompt nâng cao có thể có dạng: "Hãy giải</p>
+<p class="lesson-p">Trong tình huống ở phần Khởi động, prompt nâng cao có thể có dạng: "Hãy giải</p>
 <p class="lesson-p">bài toán sau cho học sinh lớp 11: "Từ 0 giờ ... bằng số giờ", ví dụ sử dụng công thức cấp số cộng, phương pháp bắt cặp. Hấy suy luận theo từng bước. Lời giải</p>
 <p class="lesson-p">không quá 200 chữ.".</p>
 <p class="lesson-p">CẦU TRÚC CỦA MỘT PROMPT NĂNG CAO</p>
@@ -225,7 +225,7 @@ Chậm.</p>
                     
 <ul class="lesson-bullet-list">
 <li>Prompt cơ bàn = <Chi thị> + [Dữ liệu đầu vào].</li>
-<li>Prompt nàng cao = <Chi thị> + (Vi dụ]* + [Ngữ cảnh]* + [Dữ liệu đảu vào]</li>
+<li>Prompt nàng cao = <Chi thị> + (Ví dụ]* + [Ngữ cảnh]* + [Dữ liệu đảu vào]</li>
 </ul>
 <p class="lesson-p">+ [Định dạng đầu ra] + [Chuỗi tư duy]*.</p>
 <p class="lesson-p">(*: tưy chọn)</p>
@@ -236,7 +236,7 @@ Chậm.</p>
 <p class="lesson-p">Bước 1. Khởi động trình duyệt và truy cập trang Gemini:</p>
 <p class="lesson-p">https://gemini.google.com/,</p>
 <p class="lesson-p">Bước 2. Nhập prompt "Giải bài toán sau: Giá sử một người gửi tiết kiệm với lãi suất</p>
-<p class="lesson-p">không đổi (danh nghĩa) 6% một năm, theo hình thức tinh lãi kép hãng quý. Gia sử sau 5 năm người đó nhận được số tiền 100 triệu đồng cả vốn lẫn lãi. Tinh giá trị hiện tại của số tiền 100 triệu đồng đó".</p>
+<p class="lesson-p">không đổi (danh nghĩa) 6% một năm, theo hình thức tính lãi kép hàng quý. Giả sử sau 5 năm người đó nhận được số tiền 100 triệu đồng cả vốn lẫn lãi. Tính giá trị hiện tại của số tiền 100 triệu đồng đó".</p>
 <p class="lesson-p">Bước 3. Chép câu trả lời từ Gemini về phần mềm soạn thảo văn bản.</p>
 <p class="lesson-p">Nhiệm vụ 2: Sử dụng prompt nâng cao tính số tiền thu được khi gửi</p>
 <p class="lesson-p">ngân hàng.</p>
@@ -250,9 +250,9 @@ Chậm.</p>
 <li>Chuỗi tư duy. Suy luận theo từng bước;</li>
 <li>Định dạng đầu ra: Lời giải trình bày theo ba bước, không quá 150 chữ.</li>
 </ul>
-<p class="lesson-p">Bước 3. Nhập prompt "Giải bài toán sau: "Gia sử một người gửi tiết kiệm với lãi</p>
+<p class="lesson-p">Bước 3. Nhập prompt "Giải bài toán sau: "Giả sử một người gửi tiết kiệm với lãi</p>
 <p class="lesson-p">suất không đổi (danh nghĩa) 6% một năm, theo hình thức tính lãi kép hằng quý.</p>
-<p class="lesson-p">Giả sử sau 5 năm người đó nhận được số tiền 100 triệu đồng cà vốn lẫn lãi. Tinh giá trị hiện tại của số tiền 100 triệu đồng đó" cho học sinh lớp 11, vi dụ sử dụng kiến thức cấp số nhân. Suy luận theo từng bước. Lời giài trình bày theo ba bước, không quá 150 chữ.".</p>
+<p class="lesson-p">Giả sử sau 5 năm người đó nhận được số tiền 100 triệu đồng cà vốn lẫn lãi. Tính giá trị hiện tại của số tiền 100 triệu đồng đó" cho học sinh lớp 11, ví dụ sử dụng kiến thức cấp số nhân. Suy luận theo từng bước. Lời giài trình bày theo ba bước, không quá 150 chữ.".</p>
 <p class="lesson-p">Bước 4. Chép câu trả lời từ Gemini về phần mềm soạn thào văn bản.</p>
 <p class="lesson-p">Em có nhận xét gì về các kết quả nhận được từ prompt cơ bản và prompt nâng cao?</p>
 </div></section>
@@ -266,7 +266,7 @@ Chậm.</p>
             
 <h3 class="subheading-h3"><span class="h3-num">1.</span> Trong các yêu cầu sau, yêu cầu nào là một prompt có ví dụ?</h3>
 <p class="lesson-p">A. Hãy tạo một cấp số cộng bắt đầu bằng số 1.</p>
-<p class="lesson-p">B. Hãy tạo một cấp số cộng bắt đầu bằng số 1; vi dụ 1, 4, 7, 10, 13,...</p>
+<p class="lesson-p">B. Hãy tạo một cấp số cộng bắt đầu bằng số 1; ví dụ 1, 4, 7, 10, 13,...</p>
 <p class="lesson-p">C. Nêu định nghĩa cấp số cộng.</p>
 <p class="lesson-p">D. Ứng dụng của cấp số cộng trong đời sống là gì?</p>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> Với yêu cầu nào thì AI trả lời với định dạng rõ ràng?</h3>
@@ -283,7 +283,7 @@ Chậm.</p>
 <p class="lesson-p">B. Hà Nội đẹp lắm, hãy viết một bài thơ thể hiện tình cảm của em với Hà Nội.</p>
 <p class="lesson-p">C. Viết một đoan thơ về Hà Nội, độ dài tối đa 30 từ.</p>
 <p class="lesson-p">D, Viết một bài thơ về Hà Nội theo thể thơ lục bát.</p>
-<p class="lesson-p">4. Giả sử em yêu cầu LLM viết dàn ý bải nghị luận về nghệ thuật tự sự của Nam Cao trong truyện ngắn Đời thừa. Em hãy viết một prompt có vi dụ, có ngữ cảnh để LLM phản hồi đúng mục đich bải kiểm tra của học sinh lớp 11.</p>
+<p class="lesson-p">4. Giả sử em yêu cầu LLM viết dàn ý bải nghị luận về nghệ thuật tự sự của Nam Cao trong truyện ngắn Đời thừa. Em hãy viết một prompt có ví dụ, có ngữ cảnh để LLM phản hồi đúng mục đich bải kiểm tra của học sinh lớp 11.</p>
 </div></section>
 
             <section class="lesson-card apply-section" id="sec-vận-dụng">

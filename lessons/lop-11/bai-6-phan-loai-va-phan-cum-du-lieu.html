@@ -45,7 +45,7 @@
 
                     <div class="callout-box knowledge-callout">
                         <div class="callout-title">📘 Hộp kiến thức cốt lõi</div>
-                        <p>Bài toán phân loại yêu cầu gán (sắp xếp) một đối tượng mới vào một trong các nhóm đã được định nghĩa trước, dựa trên việc học từ các vi dụ đã có. Chẳng hạn, một hệ thống AI của ngân hàng được huấn luyện với hàng nghìn hồ sơ giao dịch trong quá khứ, bao gồm cả giao dịch hợp lệ và giao dịch gian lận. Khi một giao</p>
+                        <p>Bài toán phân loại yêu cầu gán (sắp xếp) một đối tượng mới vào một trong các nhóm đã được định nghĩa trước, dựa trên việc học từ các ví dụ đã có. Chẳng hạn, một hệ thống AI của ngân hàng được huấn luyện với hàng nghìn hồ sơ giao dịch trong quá khứ, bao gồm cả giao dịch hợp lệ và giao dịch gian lận. Khi một giao</p>
                     </div>
                     
 <p class="lesson-p">dịch mới phát sinh, nhiệm vụ của AI là đánh giá (phân loại) ngay lập tức giao dịch này là "bình thường" hay "đáng ngờ" để có thể đưa ra cảnh bảo hoặc khoa thé</p>
@@ -72,8 +72,8 @@ các cụm từ dữ liệu.
 
 Dữ liệu đã được gán nhãn Dữ liệu không có nhãn (chưa Dữ liệu đầu vào (biết trước đối tượng thuộc biết đối tượng thuộc nhóm nhóm nào).
 
-Học có giám sát (dữ liệu Học không giảm sát (dữ liệu Loại hinh học máy</p>
-<p class="lesson-p">dùng để huấn luyện đã đượcdùng đểhuẩn luyện không gán nhãn).
+Học có giám sát (dữ liệu Học không giảm sát (dữ liệu Loại hinh Học máy</p>
+<p class="lesson-p">dùng để huấn luyện đã được dùng để huấn luyện không gán nhãn).
 
 được gản nhãn).
 
@@ -84,7 +84,7 @@ thành những cụm nào?
 Một mô hình có khả năng Một tập hợp các cụm, trong đó Kết quả dự đoán nhãn cho dữ liệu các đối tượng trong cùng một mới.
 
 cụm có tinh tương đồng cao.</p>
-<p class="lesson-p">Câu hỏi cần trà lời</p>
+<p class="lesson-p">Câu hỏi cần trả lời</p>
 <ul class="lesson-bullet-list">
 <li>Phân loại (Classification) là quả trình sắp xếp đối tượng vào càc nhóm đã được định nghĩa trước dựa trên dừ liệu có nhãn (học có giảm sát).</li>
 <li>Phần cụm (Clustering) là quá trinh tự động khám phá và gom các đối tượng tương đồng thành những nhóm</li>
@@ -92,7 +92,7 @@ cụm có tinh tương đồng cao.</p>
 <p class="lesson-p">chưa từng được biết đến từ dữ liệu không nhãn (học không giảm sát).</p>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> Thuật toán KNN giải quyết bải toán phân loại</h3>
 <p class="lesson-p">Để giải quyết bài toán phân loại, có rất nhiều thuật toán hiệu quả như: Cây quyết</p>
-<p class="lesson-p">định (Decision Tree) - dựa trên ý tường mô phỏng quá trình ra quyết định của con người bằng một chuỗi các càu hỏi đùng/sai; Naive Bayes - dựa trên việc áp dụng lí thuyết xác suất để tính toán khả năng một đối tượng thuộc về một nhóm nào đổ hay Máy vector hỗ trợ (Support Vector Machine - SVM) - dựa trên việc tìm ra một "ranh giới" rõ ràng nhất để phân tách các nhóm dữ liệu.</p>
+<p class="lesson-p">định (Decision Tree) - dựa trên ý tường mô phỏng quá trình ra quyết định của con người bằng một chuỗi các câu hỏi đùng/sai; Naive Bayes - dựa trên việc áp dụng lí thuyết xác suất để tính toán khả năng một đối tượng thuộc về một nhóm nào đó hay Máy vector hỗ trợ (Support Vector Machine - SVM) - dựa trên việc tìm ra một "ranh giới" rõ ràng nhất để phân tách các nhóm dữ liệu.</p>
 <p class="lesson-p">Một trong những thuật toán đơn giàn có thể giúp giải bài toán phân loại một các đơn giản là K - láng giềng gần nhất (K-Nearest Neighbors hay KNN), hoạt động</p>
 <p class="lesson-p">dựa trên quan điểm cho rằng những đối tượng giống nhau thì "ở gần nhau"</p>
 <h4 class="subheading-h4"><span class="h4-letter">a)</span> Thuật toán tổng quát</h4>
@@ -108,8 +108,8 @@ cụm có tinh tương đồng cao.</p>
 <p class="lesson-p">Trong số K láng giềng đã tìm được, đếm số lượng đối tượng thuộc về mỗi nhóm.
 
 Thông thường, đối tượng mới sẽ được gán cho nhóm có số lượng láng giêng đông nhất. Trong trường hợp đặc biệt (có hai hoặc nhiều nhóm cùng chiếm số lượng nhiều nhất), hệ thống cần một co chế để phá vỡ thế cân bằng. Chẳng hạn, một phương pháp đơn giản là "bỏ phiếu có trọng số": thay vì các "phiếu" có giá trị</p>
-<p class="lesson-p">bằng nhau, phiếu của láng giềng ở càng gần sẽ tương ứng có trọng số cảng cao (vi dự: trọng số = 1/khoăng cách). Nhóm nào có tổng trọng số phiếu bầu lớn nhất sẽ chiến thắng.</p>
-<h4 class="subheading-h4"><span class="h4-letter">b)</span> Vi dụ minh hoa</h4>
+<p class="lesson-p">bằng nhau, phiếu của láng giềng ở càng gần sẽ tương ứng có trọng số cảng cao (ví dụ: trọng số = 1/khoăng cách). Nhóm nào có tổng trọng số phiếu bầu lớn nhất sẽ chiến thắng.</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Ví dụ minh hoa</h4>
 <p class="lesson-p">Già sử thư viện của một trường học phân loại sách thành bốn nhóm chính:</p>
 <p class="lesson-p">(A) Khoa học và Khám phá, (B) Văn học và Càm xúc, (C) Giài tri và Sáng tạo, (D) Kĩ năng và Hướng nghiệp. Để tự động sắp xếp các đầu sách mới, thư viện sử</p>
 <p class="lesson-p">dụng một hệ thống AI với nhiệm vụ phân loại chúng vào các nhóm phù hợp.</p>
@@ -143,7 +143,7 @@ trên nguyên tắc đa số, AI đưa ra quyết định phân loại cuốn s�
 <p class="lesson-p">Nếu K quá nhỏ, quyết định rất dễ bị ảnh hưởng bởi một vài điểm nhiễu, giống nhu việc em chỉ nghe lời khuyên của một người mà không có phân tích tổng thế. Đồng thời, nếu K quả lớn, quyết định có thể bị "loãng" bởi sự ảnh hưởng của những láng</p>
 <p class="lesson-p">giềng ở quá xa, không thực sự liên quan.</p>
 <ul class="lesson-bullet-list">
-<li>Trong vi dụ trên, chúng ta chỉ dùng hai tiêu chí để dễ dàng minh hoạ và có thế biểu diễn trên mặt phầng toạ độ hai chiều. Trên thực tế, trong bài toán có thể có hang chục, thậm chí hàng trăm tiêu chí. Khi đó, mỗi đôi tượng sẽ được biêu điẻn</li>
+<li>Trong ví dụ trên, chúng ta chỉ dùng hai tiêu chí để dễ dàng minh hoạ và có thế biểu diễn trên mặt phầng toạ độ hai chiều. Trên thực tế, trong bài toán có thể có hang chục, thậm chí hàng trăm tiêu chí. Khi đó, mỗi đối tượng sẽ được biểu diễn</li>
 </ul>
 <p class="lesson-p">băng một vector nhiều chiều và thuật toán vẫn sẽ tính khoảng cach giữa các vector này trong một không gian đa chiều phức tạp.</p>
 <ul class="lesson-bullet-list">
@@ -152,7 +152,7 @@ trên nguyên tắc đa số, AI đưa ra quyết định phân loại cuốn s�
 <p class="lesson-p">cạnh cách đơn giản nhất là tinh khoảng cách bằng độ dài đoạn nối hai điểm (khoảng cách Euclid), chương trình có thể tính toán theo các quy tác khác, tuy thuộc vào loại dữ liệu đang xử li (dữ liệu số, văn bản, hình ánh,...) va mục tiêu cụ thể của bài toán, để đạt hiệu quả tốt hơn. Việc lựa chọn đúng công thức tinh</p>
 <p class="lesson-p">khoảng cách sẽ giúp mô hình đánh giá sự tương đồng giữa các đối tượng một cách chính xác nhất.</p>
 <ul class="lesson-bullet-list">
-<li>Thuật toán KNN rất nhạy cảm với thang đo của dữ liệu. Nếu một tiêu chí có thang đo lớn (vi dụ: doanh thu tính bằng triệu đồng) và một tiêu chi khác có thang đo nhỏ (ví dụ: đánh giá trên thang điểm 10), tiêu chí có thang đo lớn có thể "lắn át" và ảnh hưởng đến kết quả nhiều hơn. Do đó, một bước quan trọng trước khi áp dụng KNN là chuẩn hóa dữ liệu để đưa tât cả các tiêu chi tương đông vệ</li>
+<li>Thuật toán KNN rất nhạy cảm với thang đo của dữ liệu. Nếu một tiêu chí có thang đo lớn (ví dụ: doanh thu tính bằng triệu đồng) và một tiêu chi khác có thang đo nhỏ (ví dụ: đánh giá trên thang điểm 10), tiêu chí có thang đo lớn có thể "lắn át" và ảnh hưởng đến kết quả nhiều hơn. Do đó, một bước quan trọng trước khi áp dụng KNN là chuẩn hóa dữ liệu để đưa tât cả các tiêu chi tương đông vệ</li>
 </ul>
 <p class="lesson-p">thang đo, đảm bảo sự công bảng.</p>
 <ul class="lesson-bullet-list">
@@ -172,7 +172,7 @@ trên nguyên tắc đa số, AI đưa ra quyết định phân loại cuốn s�
 <p class="lesson-p">Trong số rất nhiều phương pháp đó, K-means là một trong những thuật toán có ý tưởng đơn giản, trực quan và được sử dụng rộng rãi. Ý tường tiếp cận của thuật toán này rất đơn giản: mỗi nhóm được hinh thành xung quanh một "tâm" đại diện.</p>
 <p class="lesson-p">Do vậy, nhiệm vụ chính của thuật toán là tìm ra các tâm đó</p>
 <h4 class="subheading-h4"><span class="h4-letter">a)</span> Thuật toán tổng quát</h4>
-<p class="lesson-p">Thuật toán K-means được dùng đề phân chia một tập hợp các đối tượng cho trước thành K cụm riêng biệt. Nguyên tắc cốt lõi của nó là có gắng làm giảm (tối thiểu hóa) tổng khoảng cách từ mỗi đối tượng đến tâm của cụm mà nó thuộc về</p>
+<p class="lesson-p">Thuật toán K-means được dùng đề phân chia một tập hợp các đối tượng cho trước thành K cụm riêng biệt. Nguyên tắc cốt lõi của nó là có gắng làm gìảm (tối thiểu hóa) tổng khoảng cách từ mỗi đối tượng đến tâm của cụm mà nó thuộc về</p>
 <p class="lesson-p">Quy trình của thuật toán có thể được mô tả gồm các bước chính sau:</p>
 <p class="lesson-p">Bước 0. Biều diễn dữ liệu.</p>
 <p class="lesson-p">Tương tự như bài toán phân loại, mỗi đối tượng trong tập dữ liệu được chuyến đổi thành một vector đặc trưng. Điều này đặt mỗi đối tượng như một điểm trong một không gian đa chiều.</p>
@@ -184,9 +184,9 @@ trên nguyên tắc đa số, AI đưa ra quyết định phân loại cuốn s�
 <p class="lesson-p">Sau khi đã gán tất cả các điểm vào các cụm, tính toán lại vị trí mới cho mỗi tâm cụm. Vị trí mới của một tâm cụm chính là trung binh cộng toạ độ của tất cà các điểm dữ liệu thuộc về cụm đó.</p>
 <p class="lesson-p">Bước 4. Lặp lại cho đến khi hội tụ.</p>
 <p class="lesson-p">Chương trình sẽ liên tục thực hiện lặp lại Bước 2 và Bước 3, cho đến khi việc phân cụm được ổn định - nghĩa là các tâm cụm không còn thay đổi vị trí một cách đáng kể hoặc các điểm dữ liệu không còn bị di chuyển sang cụm khác. Tại thời điểm đó, nhiệm vụ xác định ra K cụm cuối cùng đã hoàn tắt.</p>
-<h4 class="subheading-h4"><span class="h4-letter">b)</span> Vi dụ minh hoa</h4>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Ví dụ minh hoa</h4>
 <p class="lesson-p">Một mạng xã hội muốn cải thiện trải nghiệm người dùng bằng cách cá nhân hoá Bảng tin của họ. Thay vi hiển thị nội dung một cách chung chung, nhà phát triển muốn hiểu rõ sở thích của mỗi người dùng để ưu tiên hiển thị những thứ mà họ</p>
-<p class="lesson-p">thực sự quan tâm. Hệ thống không có sản các nhãn như "người dùng này thích đọc tin tức" hay "người dùng này thích đọc truyện cười", mà muốn AI tự khám phá ra các nhóm người dùng đó.</p>
+<p class="lesson-p">thực sự quan tâm. Hệ thống không có sẵn các nhãn như "người dùng này thích đọc tin tức" hay "người dùng này thích đọc truyện cười", mà muốn AI tự khám phá ra các nhóm người dùng đó.</p>
 <p class="lesson-p">Để có thể phân tích, hệ thống AI đánh giá mỗi người dùng dựa trên hai tiêu chi về hành vi tương tác của họ trên nền tảng: ti lệ tương tác với các nội dung giả</p>
 <p class="lesson-p">trị (bao gồm lượt thích, bình luận, chia sẻ các video hài hước, ca nhạc, nội dung về trò chơi,...) và tỉ lệ tương tác với các nội dung tin tức - kiến thức (bao gồm tương tác với các bài báo, bải phân tích, nội dung khoa học, bài viết hướng dẫn kì năng,...). Theo cách đó, hệ thống có thể biểu diễn mỗi người dùng thành một điểm trên bản đồ "khẩu vị nội dung".</p>
 <p class="lesson-p">Giả sử rằng hệ thống AI được yêu cầu phân loại người dùng thành bốn nhóm.
@@ -281,7 +281,7 @@ C. Một đối tượng mới sẽ được gán nhãn theo nhóm đa số củ
 <p class="lesson-p">C. (1) Tỉnh khoảng cách và (2) Bỏ phiếu theo phe đa số.</p>
 <p class="lesson-p">D. (1) Khởi tạo ngẫu nhiên và (2) Diễn giải ý nghĩa của các cụm.</p>
 <p class="lesson-p">4. Tại sao việc chuẩn hóa dữ liệu (đưa các tiêu chí về chung một thang đo) lại là một bước xử lí quan trọng đối với cả hai thuật toán KNN và K-means?</p>
-<p class="lesson-p">A. VI nếu không chuẩn hóa, thuật toán sẽ chạy rất chậm.
+<p class="lesson-p">A. Vì nếu không chuẩn hóa, thuật toán sẽ chạy rất chậm.
 
 B. Vì nếu không chuẩn hóa, tiêu chị có thang đo lớn hơn có thể lắn át các</p>
 <p class="lesson-p">tiêu chí khác và ảnh hưởng đến kết quả tính khoảng cách.</p>

@@ -46,7 +46,7 @@
                 <div class="section-body">
             
 <h3 class="subheading-h3"><span class="h3-num">1.</span> Sử dụng mô hình ngôn ngữ lớn để tạo ảnh</h3>
-<h4 class="subheading-h4"><span class="h4-letter">a)</span> Các tham số và từ khoá khi tạo ảnh</h4>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Các tham số và từ khóa khi tạo ảnh</h4>
 <p class="lesson-p">Khi tạo ảnh Thảo đã đưa ra các yêu cầu về tỉ lệ khung hình, phong cách, ánh sáng, góc nhìn. Các yếu tố này ảnh hưởng trực tiếp đến ảnh được tạo ra bởi LLM.</p>
 <p class="lesson-p">Ti lệ khung hình: là tỉ lệ giữa chiều rộng và chiều cao của khung hinh. Tỉ lệ khung hình quyết định hình dạng khung ảnh, ngang, vuông, dọc. Lựa chọn tỉ lệ khung hinh phụ thuộc vào mục đích, khung ngang giúp chứa nhiều chi tiết, tái tạo cảnh quan; khung vuông/dọc giúp lập trung vào chủ thế.</p>
 <p class="lesson-p">Phong cách: là cách thức thể hiện bức ảnh. Một số phong cách hình ảnh phổ biến như tranh sơn dầu (oil painting), màu nước (watercolor), phác thảo chì (pencil sketch),</p>
@@ -59,7 +59,7 @@ Anh sáng: cách bố trí và điều chỉnh ánh sáng trong ảnh gồm ngu�
                     <figure class="lesson-figure-box">
                         <div class="figure-placeholder">
                             <span class="fig-badge">🖼️ Minh họa trong sách</span>
-                            <figcaption class="figure-caption">Vi dụ 1. Hình ảnh với các tỉ lệ khung hình khác nhau.</figcaption>
+                            <figcaption class="figure-caption">Ví dụ 1. Hình ảnh với các tỉ lệ khung hình khác nhau.</figcaption>
                         </div>
                     </figure>
                     
@@ -90,7 +90,7 @@ Anh sáng: cách bố trí và điều chỉnh ánh sáng trong ảnh gồm ngu�
                     <figure class="lesson-figure-box">
                         <div class="figure-placeholder">
                             <span class="fig-badge">🖼️ Minh họa trong sách</span>
-                            <figcaption class="figure-caption">Vi dụ 2. Hình ảnh với các phong cách khác nhau:</figcaption>
+                            <figcaption class="figure-caption">Ví dụ 2. Hình ảnh với các phong cách khác nhau:</figcaption>
                         </div>
                     </figure>
                     
@@ -110,8 +110,8 @@ b) Phong cách phác thảo chi</p>
 <p class="lesson-p">mô hình không được đưa một số yếu tố như mờ nền, tay chân thừa, logo vào ảnh.
 
 Các yêu cầu này ngăn mô hình ngôn ngữ lớn tạo ra các yếu tổ không mong muốn trong ảnh.</p>
-<p class="lesson-p">Prompt phù định (negative prompt) là một chuỗi từ khoa thể hiện những gì em muốn tránh xuất hiện trong ảnh theo cú pháp "không + <yếu tố>". Vi dụ: không nhoè, không người, không chữ,.... Prompt phủ định giúp giảm khuyết điểm, tăng độ chính xác theo yêu cầu, kiểm soát tốt hơn yếu tố thẩm mĩ (thừa tay, kí tự bất thường, nhoè,...).</p>
-<p class="lesson-p">Vi dụ, yêu cầu ảnh phong cảnh không có người.</p>
+<p class="lesson-p">Prompt phù định (negative prompt) là một chuỗi từ khoa thể hiện những gì em muốn tránh xuất hiện trong ảnh theo cú pháp "không + <yếu tố>". Ví dụ: không nhoè, không người, không chữ,.... Prompt phủ định giúp giảm khuyết điểm, tăng độ chính xác theo yêu cầu, kiểm soát tốt hơn yếu tố thẩm mĩ (thừa tay, kí tự bất thường, nhoè,...).</p>
+<p class="lesson-p">Ví dụ, yêu cầu ảnh phong cảnh không có người.</p>
 <h4 class="subheading-h4"><span class="h4-letter">a)</span> Ảnh phong cảnh không sử dụng</h4>
 <p class="lesson-p">b) Ảnh phong cảnh có sử dụng prompt phủ định "không người"</p>
 <p class="lesson-p">prompt phủ định "không người"</p>
@@ -127,7 +127,7 @@ Các yêu cầu này ngăn mô hình ngôn ngữ lớn tạo ra các yếu tổ 
 <p class="lesson-p">ảnh này được gọi là tạo ảnh từ prompt (text-to-image). Tuy nhiên, để có thể thu</p>
 <p class="lesson-p">được bức ảnh đúng như mong muốn, em cần cung cấp đầy đủ các thống tin về nội dung bức ảnh, tham số và từ khoa cùng với prompt phủ định.</p>
 <p class="lesson-p">Khi sử dụng LLM để tạo ảnh, câu trúc prompt thường có dạng:</p>
-<p class="lesson-p">Prompt - Tạo hình ảnh + <nội dung bức ảnh› + < các tham số, từ khoá> + <Prompt phú định></p>
+<p class="lesson-p">Prompt - Tạo hình ảnh + <nội dung bức ảnh› + < các tham số, từ khóa> + <Prompt phú định></p>
 <p class="lesson-p">Cầu trúc của một prompt để tạo ảnh</p>
 <p class="lesson-p">Chỉ thị</p>
 <p class="lesson-p">Tạo hình ảnh về.</p>
@@ -145,15 +145,15 @@ Các yêu cầu này ngăn mô hình ngôn ngữ lớn tạo ra các yếu tổ 
                         </div>
                     </figure>
                     
-<p class="lesson-p">Prompt phủ định (negative prompt) là chuỗi các từ khoá liệt kê các yếu tố không muốn có trong ảnh. Prompt phủ định có dạng: không + <yếu tố›</p>
+<p class="lesson-p">Prompt phủ định (negative prompt) là chuỗi các từ khóa liệt kê các yếu tố không muốn có trong ảnh. Prompt phủ định có dạng: không + <yếu tố›</p>
 <p class="lesson-p">Prompt để tạo ảnh bằng LLM có cấu trúc:</p>
 <p class="lesson-p">Tạo hình ảnh + <nội dung bức ảnh></p>
-<p class="lesson-p">+ <các tham số, từ khoá> + <prompt phủ định>.</p>
+<p class="lesson-p">+ <các tham số, từ khóa> + <prompt phủ định>.</p>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> Sử dụng mô hỉnh ngôn ngữ lớn đề chỉnh sửa ảnh</h3>
 <p class="lesson-p">Khi sử dụng LLM để tạo ảnh, bức ảnh Thảo thu được có những điểm chưa như mong muốn, hình ảnh có nhiều hành tinh hơn thực tế. Thảo đã sử dụng LLM để chỉnh sửa bức ảnh ban đầu. Việc chỉnh sừa này không yêu cầu dùng phần mềm chuyên dụng mà được thực hiện bằng chinh LLM với prompt đơn giản.</p>
 <p class="lesson-p">Việc tạo một ảnh mới từ một ảnh gốc (chỉnh sửa) theo prompt mô tả được gọi là tạo ảnh từ ảnh (image-to-image). Để LLM có thể chỉnh sửa ảnh, em cần cung cấp</p>
 <p class="lesson-p">ảnh gốc và các yêu cầu chỉnh sửa trong prompt. LLM sẽ tạo ra ảnh mới dựa trên hai thông tin này.</p>
-<p class="lesson-p">Khi cần chỉnh sửa nội dung bên trong bức ảnh (inpainting), LLM sẽ phân tích nội dung ảnh, xác định vùng cần thay đổi và thực hiện các thay đổi theo yêu cầu. Cuối cùng, LLM kết hợp vùng đã chỉnh sửa trở lại ảnh gốc. Vị dụ, Hình 11.5b sử dụng kĩ thuật inpainting để xoa bót bốn hành tinh trong ảnh gốc ở Hình 11.5a.</p>
+<p class="lesson-p">Khi cần chỉnh sửa nội dung bên trong bức ảnh (inpainting), LLM sẽ phân tích nội dung ảnh, xác định vùng cần thay đổi và thực hiện các thay đổi theo yêu cầu. Cuối cùng, LLM kết hợp vùng đã chỉnh sửa trở lại ảnh gốc. Vị dụ, Hình 11.5b sử dụng kĩ thuật inpainting để xóa bớt bốn hành tinh trong ảnh gốc ở Hình 11.5a.</p>
 <p class="lesson-p">Khi cần mở rộng ảnh gốc và vẽ thêm các nội dung mong muốn (outpainting), LLM sẽ đặt ảnh gốc vào một khung vẽ lớn hơn, phân tích chi tiết ảnh gốc. Sau đó, LLM vẽ vào vùng mới với nội dung theo yêu cầu và phù hợp với ành gốc về kết cấu, phong cách, ánh sáng. Ví dụ, Hinh 11.5c sử dụng kĩ thuật outpainting mở rộng ảnh, thêm không gian xung quanh, thêm các ngôi sao và sao chỗi vào phần rìa ảnh gốc ở Hinh 11.5a.</p>
 
                     <figure class="lesson-figure-box">
@@ -249,7 +249,7 @@ A. Độ sáng và tôi của ảnh.</p>
 <p class="lesson-p">B. Tĩ lệ giữa điểm sáng nhất và điểm tối nhất trong ảnh.</p>
 <p class="lesson-p">C. TT lệ giữa chiều rộng và chiều cao của ảnh.</p>
 <p class="lesson-p">D. Tỉ lệ giữa khả năng sáng tạo và khả năng mô tả đúng prompt của mô hình.</p>
-<h3 class="subheading-h3"><span class="h3-num">2.</span> Prompt phủ định dùng đề làm gi?</h3>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Prompt phủ định dùng đề làm gì?</h3>
 <p class="lesson-p">A. Xác định đối tượng cần có trong ảnh.</p>
 <p class="lesson-p">B. Xác định đối tượng không muốn có trong ảnh</p>
 <p class="lesson-p">C. Tăng độ phần giải ảnh.</p>
@@ -261,7 +261,7 @@ A. Độ sáng và tôi của ảnh.</p>
 <p class="lesson-p">prompt và ảnh gốc.</p>
 <p class="lesson-p">D. Text-to-image và image-to-image đều tạo ành sử dụng cả prompt và ảnh gốc.</p>
 <p class="lesson-p">VẠN DỤNG</p>
-<p class="lesson-p">1. Sử dụng công cụ Imagen trong Google AI Studio tạo một bức ảnh gia đình bón người giữa khung cảnh thiên nhiên.</p>
+<p class="lesson-p">1. Sử dụng công cụ Imagen trong Google AI Studio tạo một bức ảnh gia đình bốn người giữa khung cảnh thiên nhiên.</p>
 <p class="lesson-p">2. Hãy thêm hai người vào ảnh thu được từ Vận dụng 1 bằng công cụ Gemini image generation.</p>
 <p class="lesson-p">A</p>
 </div></section>

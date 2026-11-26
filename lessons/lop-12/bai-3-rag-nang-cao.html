@@ -47,10 +47,10 @@
                 <div class="section-body">
             
 <p class="lesson-p">1. Các thành phần kĩ thuật trong bước truy xuất Các mô hình ngôn ngữ lớn (Large Language Model, viết tắt là LLM) như ChatGPT không thế ghi nhớ mọi chi tiết từ hàng trăm trang tài liệu. Để trả lời chính xác một câu hỏi cụ thể, LLM cần cơ chế để tra cứu thông tin liên quan. Đây là lúc tạo sinh có hỗ trợ truy xuất (Retrieval - Augmented Generation, viết tắt là RAG) phát huy tác dụng.</p>
-<p class="lesson-p">RAG kết hợp một mô hình tìm kiếm và một mô hình tạo văn bản (thường là LLM). Nó giúp AI truy xuất kiến thức bên ngoài mà LLM chưa được học hoặc không ghi nhớ sẵn. Cụ thế, khi có câu hỏi, RAG tìm thông tin liên quan nhất từ kho dữ liệu, đưa vào cửa số ngữ cảnh của LLM, sau đó LLM tổng hợp và tạo câu trà lời chính xác hơn.</p>
-<p class="lesson-p">Trong mô hình tim kiếm, tài liệu lớn cần được xử lí qua ba kĩ thuật nối tiếp nhau:
+<p class="lesson-p">RAG kết hợp một mô hình tìm kiếm và một mô hình tạo văn bản (thường là LLM). Nó giúp AI truy xuất kiến thức bên ngoài mà LLM chưa được học hoặc không ghi nhớ sẵn. Cụ thế, khi có câu hỏi, RAG tìm thông tin liên quan nhất từ kho dữ liệu, đưa vào cửa số ngữ cảnh của LLM, sau đó LLM tổng hợp và tạo câu trả lời chính xác hơn.</p>
+<p class="lesson-p">Trong mô hình tìm kiếm, tài liệu lớn cần được xử lí qua ba kĩ thuật nối tiếp nhau:
 
-- Chia nhỏ văn bản thành các đoạn hợp lí (chunking), vi dụ theo từng cập</p>
+- Chia nhỏ văn bản thành các đoạn hợp lí (chunking), ví dụ theo từng cập</p>
 <p class="lesson-p">câu thơ.</p>
 <ul class="lesson-bullet-list">
 <li>Mã hoá mỗi cặp câu thơ thành dãy số (vector) gắn với nội dung (embedding),</li>
@@ -81,7 +81,7 @@ bên cạnh là mô phỏng máy tính đang dùng RAG đề truy xuất dữ li
 <ul class="lesson-bullet-list">
 <li>Nguyên lí hoạt động: Có nhiều cách</li>
 </ul>
-<p class="lesson-p">để chia nhỏ, vi dụ: kích thước cố định, theo câu, theo đoạn văn, hoặc theo cấu trúc của tài liệu (như tiêu đẻ, mỤc lục).
+<p class="lesson-p">để chia nhỏ, ví dụ: kích thước cố định, theo câu, theo đoạn văn, hoặc theo cấu trúc của tài liệu (như tiêu đẻ, mỤc lục).
 
 - Ví dụ: Một bài báo khoa học dài 10</p>
 <p class="lesson-p">trang có thế được chia thành các</p>
@@ -115,13 +115,13 @@ Việc này giúp gắn vị trí cho thông tin, để các đoạn có nội d
 <li>Khái niệm: Sau khi các đoạn văn bản được má hóa thành vector, chúng được</li>
 </ul>
 <p class="lesson-p">lưu trữ tại kho lưu trữ vector. Đây giống như một "thư viện lớn".", nơi các "loạ độ"</p>
-<p class="lesson-p">thông lin được sắp xếp khoa học để tim kiếm nhanh chóng.
+<p class="lesson-p">thông lin được sắp xếp khoa học để tìm kiếm nhanh chóng.
 
 - Nguyên lí hoạt động: Kho lưu trữ vector sử dụng các thuật toán tìm kiếm hiệu</p>
 <p class="lesson-p">luả đề nhanh chóng tìm ra các vector " dùng. Điều này đảm bảo hệ thống có thể truy xuất thông tin liên quan một cách</p>
 <p class="lesson-p">siêu nhanh.
 
-- Vi dụ: Khi em tìm ào ấm mùa đông trên một trang thương mại điện tử, câu hỏi</p>
+- Ví dụ: Khi em tìm ào ấm mùa đông trên một trang thương mại điện tử, câu hỏi</p>
 <p class="lesson-p">của em sẽ được mã hoa thành vector. Hệ thống sẽ nhanh chóng tìm trong kho lưu trữ vector để lầy các sản phẩm (đã được mã hoá thành vector từ trước) có "mã số" gần nhất, tức là các sản phẩm phù hợp nhất với yêu cầu của em.</p>
 <p class="lesson-p">Lưu trữ vector (vector store) là việc trở các đoạn văn bản đã được mã hoá thành vector. Nó sử dụng các thuật toán để truy xuất nhanh chóng cáo thông tin liên quan dựa trên sự "gần gũi" về ý nghĩa của các vector.</p>
 <p class="lesson-p">Documents Embedding</p>
@@ -177,7 +177,7 @@ a) Hậu quả khi truy xuất kém chất lượng Nếu bước truy xuất kh
 <p class="lesson-p">bảo mỗi đoạn văn bản đủ gọn để LLM có thế xử lí hiệu quả, nhưng đồng thời phải giữ được ngữ nghĩa và bối cảnh đầy đủ của thông tin. Nếu đoạn văn bản quá nhỏ sẽ mất ngữ cảnh, quá lớn sẽ vượt quá khả năng xử lí hoặc chứa nhiều thông tin nhiều.
 
 - Biểu diễn vector chuẩn: Việc biểu diễn vector cần mã hoá văn bản thành vector</p>
-<p class="lesson-p">một cách chính xác, sao cho những đoạn văn bản có ý nghĩa tương đồng thực sự có các vector gần nhau trong không gian đa chiều. Biểu diễn vector không chuấn sẽ làm giảm khả năng nhận diện mối liên hệ ngữ nghĩa, dẫn đến việc truy xuất nhầm thông tin.
+<p class="lesson-p">một cách chính xác, sao cho những đoạn văn bản có ý nghĩa tương đồng thực sự có các vector gần nhau trong không gian đa chiều. Biểu diễn vector không chuấn sẽ làm gìảm khả năng nhận diện mối liên hệ ngữ nghĩa, dẫn đến việc truy xuất nhầm thông tin.
 
 - Thuật toán tìm kiếm hiệu quả: Việc sử dụng các thuật toán tìm kiếm tiên tiến</p>
 <p class="lesson-p">(ví dụ: các thuật toán tìm kiếm lân cận gần đúng như ANN - Approximate Nearest</p>
@@ -235,7 +235,7 @@ D. Không đo được.</p>
 <p class="lesson-p">2. Nếu LLM sau này đọc được 1 triệu từ, có cần cắt nhỏ văn bản nữa không?
 
 Vì sao?</p>
-<p class="lesson-p">3. Hãy giải thích tại sao việc quản lí và cập nhật nguồn kiến thức trong RAG là quan trọng. Đưa ra một vi dụ cụ thể về hậu quả nếu nguồn kiến thức không được cập nhật thường xuyên.</p>
+<p class="lesson-p">3. Hãy giải thích tại sao việc quản lí và cập nhật nguồn kiến thức trong RAG là quan trọng. Đưa ra một ví dụ cụ thể về hậu quả nếu nguồn kiến thức không được cập nhật thường xuyên.</p>
 <p class="lesson-p">AF</p>
 <p class="lesson-p">D</p>
 </div></section>

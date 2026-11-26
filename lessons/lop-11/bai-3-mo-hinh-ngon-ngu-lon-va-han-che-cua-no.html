@@ -20,8 +20,8 @@
 <p class="lesson-p">Sau bài học này, em sẽ:</p>
 <ul class="lesson-bullet-list">
 <li>Trình bày được kiến trúc Transformer (mô hình học sâu) và quá trình huấn luyện mô hình ngôn ngữ lớn (LLM) ở mức khái niệm.</li>
-<li>Hiểu được mối liên hệ giữa học máy, xử lí ngôn ngữ và LLM.</li>
-<li>Trình bày được hạn chế của LLM kèm vi dụ minh hoạ</li>
+<li>Hiểu được mối liên hệ giữa Học máy, xử lí ngôn ngữ và LLM.</li>
+<li>Trình bày được hạn chế của LLM kèm ví dụ minh hoạ</li>
 </ul>
 </div></section>
 
@@ -40,7 +40,7 @@ Chỉ sau vài giây. AI đã tạo ra một bức tranh rất đẹp. Tuy nhiê
 
 1. Để tạo ra được hình ảnh từ mô tả, Ai cần trài qua quá trình học như thế nào?
 
-Quá trình đó liên quan gì đến học máy và xử lí ngôn ngữ?
+Quá trình đó liên quan gì đến Học máy và xử lí ngôn ngữ?
 
 2. Vì sao An lại gặp vấn đề về bản quyền khi dùng AI tạo ành? Việc này gợi ý điều gì về đạo đức và giới hạn của mô hình AI hiện nay?</p>
 <p class="lesson-p">25 24</p>
@@ -64,9 +64,9 @@ Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. K
 <p class="lesson-p">Bước 2. Mã hoa các từ bằng các vector đại số mang thông tin về ngữ nghĩa, mối quan hệ giữa các từ. Phương pháp và kết quả mã hóa phụ thuộc vào từng mô</p>
 <p class="lesson-p">n cu thê, vi dac "Hày - (025,-0.0 . 057, 26 - F0.03, 0. .., 0.2..</p>
 <p class="lesson-p">Bước 3. Cơ chế tự chú ý giúp mô hình xác định từ nào trong câu quan trọng hơn trong từng ngữ cảnh. Trong prompt trên, từ "kế" sẽ được chú ý vi nó là hành động chính; mô hình học cách hiểu rằng "câu chuyện cổ tích" là một cụm có nghĩa và "Việt Nam" là tính từ mô tả "câu chuyện".</p>
-<p class="lesson-p">Bước 4. Sau khi hiểu ngữ cảnh và yêu cầu, mô hình sẽ tim kiếm một truyện cổ tích Việt Nam đã được huấn luyện và viết lại kết quả ở dạng mã hoa.</p>
+<p class="lesson-p">Bước 4. Sau khi hiểu ngữ cảnh và yêu cầu, mô hình sẽ tìm kiếm một truyện cổ tích Việt Nam đã được huấn luyện và viết lại kết quả ở dạng mã hoa.</p>
 <p class="lesson-p">Bước 5. Kết quả viết lại được giải mã về ngôn ngữ tự nhiên.</p>
-<p class="lesson-p">Bước 6. Mô hình trả về câu trà lời hoàn chỉnh: "Sau đây là một câu chuyện cổ tích Việt Nam: "Ngày xừa ngày xưa...". Nếu có yêu cầu gì thêm, hãy vui lòng cho tôi biết"</p>
+<p class="lesson-p">Bước 6. Mô hình trả về câu trả lời hoàn chỉnh: "Sau đây là một câu chuyện cổ tích Việt Nam: "Ngày xừa ngày xưa...". Nếu có yêu cầu gì thêm, hãy vui lòng cho tôi biết"</p>
 <p class="lesson-p">Kiến trúc Tranformer</p>
 <p class="lesson-p">Chia yêu cầu đầu vào thành các từ</p>
 <p class="lesson-p">Mã hóa dữ liệu</p>
@@ -89,7 +89,7 @@ Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. K
 <p class="lesson-p">Giai đoạn 1. Tiền huấn luyện (Pre-training): Huấn luyện mô hình trên một lượng dữ liệu văn bản khổng lồ từ Internet, sách vờ,... Mục tiêu là học các mẫu ngôn</p>
 <p class="lesson-p">ngữ, kiến thức tổng quát (thường là dự đoán từ tiếp theo - Phương pháp huấn luyện là học tự giám sát (self-supervised learning)). Giai đoạn này tốn chi phí rất lớn cho dữ liệu và quá trình huấn luyện.</p>
 <p class="lesson-p">Giai đoạn 2. Tỉnh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tôm tắt) hoặc để tuần theo hướng dẫn (Instruction Fine-tuning).</p>
-<p class="lesson-p">Giai đoạn 3. Học củng cố từ phản hồi người dùng (Reinforcement Learning from Human Feedback - RLHF): Sử dụng phản hồi của con người (đánh giá câu trà lời nào tốt hơn) để huấn luyện mô hình tạo ra các câu trả lời hữu ích, trung thực và an toàn hơn. Giai đoạn 3 thường cho Chat Model.</p>
+<p class="lesson-p">Giai đoạn 3. Học củng cố từ phản hồi người dùng (Reinforcement Learning from Human Feedback - RLHF): Sử dụng phản hồi của con người (đánh giá câu trả lời nào tốt hơn) để huấn luyện mô hình tạo ra các câu trả lời hữu ích, trung thực và an toàn hơn. Giai đoạn 3 thường cho Chat Model.</p>
 <p class="lesson-p">Việc huấn luyện một mô hình ngôn ngữ lớn dùng rất nhiều dữ liệu, lên đến hàng trăm tỉ từ. Máy tinh dùng để huấn luyện cũng phải rất mạnh, gồm hàng nghin chịp xử lí hiện đại. Điều đó cho thấy việc tạo ra LLM cần rất nhiều tài nguyên và</p>
 <p class="lesson-p">Quá trình huấn luyện LLM</p>
 <p class="lesson-p">Học củng cố từ phản hồi</p>
@@ -114,23 +114,23 @@ tiền huấn luyện, tinh chỉnh và học cùng cố nhờ phản hồi từ
 <p class="lesson-p">liêu để đưa ra dự đoán hoặc quyết định, mà không cần lập trình từng bước.
 
 - Xử lí ngôn ngữ tự nhiên (Natural Language Processing - NLP): Là một ứng</p>
-<p class="lesson-p">dụng của học máy vào phân tích, hiểu và tạo ra ngôn ngữ con người (văn bản, lời nói).</p>
+<p class="lesson-p">dụng của Học máy vào phân tích, hiểu và tạo ra ngôn ngữ con người (văn bản, lời nói).</p>
 <ul class="lesson-bullet-list">
 <li>Mô hình ngôn ngữ lớn (Large Language Model - LLM): Là kết quả cao cấp nhất</li>
 </ul>
-<p class="lesson-p">của NLP hiện nay. LLM sử dụng các mô hình học máy phức tạp, học sâu (Deep learning) và kiến trúc Transformer, giúp máy hiểu và tạo ra ngôn ngữ.</p>
-<p class="lesson-p">Em có thể hiểu học máy là kĩ thuật chung, NLP là ứng dụng học máy cho ngôn ngữ và LLM là sản phẩm tiên tiến của NLP. giúp máy hiểu và sử dung ngôn ngữ</p>
+<p class="lesson-p">của NLP hiện nay. LLM sử dụng các mô hình Học máy phức tạp, học sâu (Deep learning) và kiến trúc Transformer, giúp máy hiểu và tạo ra ngôn ngữ.</p>
+<p class="lesson-p">Em có thể hiểu Học máy là kĩ thuật chung, NLP là ứng dụng Học máy cho ngôn ngữ và LLM là sản phẩm tiên tiến của NLP. giúp máy hiểu và sử dung ngôn ngữ</p>
 <p class="lesson-p">giống con người.</p>
 <p class="lesson-p">LLM NLP Học máy</p>
 
                     <figure class="lesson-figure-box">
                         <div class="figure-placeholder">
                             <span class="fig-badge">🖼️ Minh họa trong sách</span>
-                            <figcaption class="figure-caption">Hình 3.3. Mối liên hệ giữa học máy, NLP và LLM</figcaption>
+                            <figcaption class="figure-caption">Hình 3.3. Mối liên hệ giữa Học máy, NLP và LLM</figcaption>
                         </div>
                     </figure>
                     
-<p class="lesson-p">Học máy là kĩ thuật chung giúp máy tự học từ dữ liệu; NLP là ứng dụng học máy để máy hiểu và xử lí ngôn ngữ; còn LLM là kĩ thuật NLP tiên tiến, giúp máy hiểu và tạo ra văn bản giống con người.</p>
+<p class="lesson-p">Học máy là kĩ thuật chung giúp máy tự học từ dữ liệu; NLP là ứng dụng Học máy để máy hiểu và xử lí ngôn ngữ; còn LLM là kĩ thuật NLP tiên tiến, giúp máy hiểu và tạo ra văn bản giống con người.</p>
 <h3 class="subheading-h3"><span class="h3-num">3.</span> Hạn chế của mô hình ngôn ngữ lớn</h3>
 <p class="lesson-p">Như đã học ở các bài học trước, em có thể sử dụng LLM trong nhiều lĩnh vực như tìm kiếm thông tin, sáng tạo nội dung, hỗ trợ trong học tập. Tuy nhiên, mô hình ngôn ngữ lớn vẫn có những hạn chế chưa thể khắc phục hoàn toàn.</p>
 <ul class="lesson-bullet-list">
@@ -149,7 +149,7 @@ tiền huấn luyện, tinh chỉnh và học cùng cố nhờ phản hồi từ
 <li>Chưa thực sự hiểu thế giới: Vì dựa vào mô hình thống kê, LLM khó có thể thực</li>
 </ul>
 <p class="lesson-p">sự hiểu về thế giới loài người.</p>
-<p class="lesson-p">Vi dụ, khi em hỏi: "Tại sao trái cây là tốt?" thì LLM sẽ chỉ liệt kê các lợi ích. Nhưng nếu hỏi: "Tại sao trái cây có hại?" thi LLM lại liệt kê các nhược điểm. Đây là dạng prompt dẫn dắt, khiến mô hình nói theo hướng em hỏi, không phải nó tự suy nghĩ.</p>
+<p class="lesson-p">Ví dụ, khi em hỏi: "Tại sao trái cây là tốt?" thì LLM sẽ chỉ liệt kê các lợi ích. Nhưng nếu hỏi: "Tại sao trái cây có hại?" thi LLM lại liệt kê các nhược điểm. Đây là dạng prompt dẫn dắt, khiến mô hình nói theo hướng em hỏi, không phải nó tự suy nghĩ.</p>
 <p class="lesson-p">2°</p>
 <p class="lesson-p">LLM vẫn còn han chế về tính khách quan, khả năng</p>
 <p class="lesson-p">suy luận logic và dễ bị chi phối bởi cách đặt prompt.</p>
@@ -167,7 +167,7 @@ tiền huấn luyện, tinh chỉnh và học cùng cố nhờ phản hồi từ
 <p class="lesson-p">B. Sử dụng các dữ liệu bên ngoài như Internet và cơ sở dữ liệu nội bộ để tạo</p>
 <p class="lesson-p">C. Sử dụng các mạng nơ-ron phức tạp để thực hiện yêu cầu của người dùng</p>
 <p class="lesson-p">D. Dùng trên cơ chế tự chú ý để hiểu được ngữ cảnh và yêu cầu người dùng.</p>
-<h3 class="subheading-h3"><span class="h3-num">2.</span> Phương án nào sau đây thể hiện mối liên hệ giữa học máy (ML), xử lí ngôn ngữ</h3>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Phương án nào sau đây thể hiện mối liên hệ giữa Học máy (ML), xử lí ngôn ngữ</h3>
 <p class="lesson-p">tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM)?</p>
 <p class="lesson-p">A. ML là một nhánh của NLP, NLP là một nhánh của LLM.</p>
 <p class="lesson-p">B. NLP và LLM là hai nhánh riêng biệt trong ML.</p>
@@ -188,5 +188,5 @@ tiền huấn luyện, tinh chỉnh và học cùng cố nhờ phản hồi từ
                 </div>
                 <div class="section-body">
             
-<p class="lesson-p">Lan cần tạo ảnh tuyên truyền bào vệ môi trường. Lan chọn một hình ảnh từ Internet và dùng AI để chỉnh sửa lại cho phù hợp. Theo em, trong trường hợp này Lan có thể vi phạm lỗi gi khi sử dụng AI? Để không bị vi phạm, Lan nên làm gì?</p>
+<p class="lesson-p">Lan cần tạo ảnh tuyên truyền bào vệ môi trường. Lan chọn một hình ảnh từ Internet và dùng AI để chỉnh sửa lại cho phù hợp. Theo em, trong trường hợp này Lan có thể vi phạm lỗi gì khi sử dụng AI? Để không bị vi phạm, Lan nên làm gì?</p>
 </div></section>

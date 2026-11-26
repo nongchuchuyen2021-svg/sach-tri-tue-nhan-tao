@@ -8,7 +8,7 @@
         </div>
     </header>
     
-<p class="lesson-p">BÁI 4. GIỚI THIÊU VỀ RAG</p>
+<p class="lesson-p">BÀI 4. GIỚI THIỆU VỀ RAG</p>
 
             <section class="lesson-card target-section" id="sec-mục-tiêu">
                 <div class="section-badge-header">
@@ -21,7 +21,7 @@
 <ul class="lesson-bullet-list">
 <li>Trình bày được RAG (Retrieval-Augmented Generation) là gì và lí do cần bổ sung RAG vào mô hình ngôn ngữ lớn (LLM).</li>
 <li>Trình bày được ba bước hoạt động của RAG: truy xuất, tăng cường, sinh câu trả lời.</li>
-<li>Phân biệt được LLM thường và LLM dùng RAG qua vi dụ đơn giản.</li>
+<li>Phân biệt được LLM thường và LLM dùng RAG qua ví dụ đơn giản.</li>
 </ul>
 </div></section>
 
@@ -35,7 +35,7 @@
 <p class="lesson-p">Lan cần viết báo cáo về kinh tế và xã hội Nhật Bản năm 2025. Khi dùng một mô hình ngôn ngữ lớn (LLM), Lan nhận được bài viết trôi chảy nhưng nhiều thông tin sai hoặc cũ (từ năm 2021). Sau đó, Lan chọn chế độ Search the web: mô hình</p>
 <p class="lesson-p">truy xuất nguồn mới, bổ sung vào ngữ cảnh và tạo báo cáo kèm liên kết đáng tin cậy.</p>
 <p class="lesson-p">Em hãy cho biết:</p>
-<h3 class="subheading-h3"><span class="h3-num">1.</span> Vì sao LLM ban đầu trà lời sai hoặc lỗi thời?</h3>
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Vì sao LLM ban đầu trả lời sai hoặc lỗi thời?</h3>
 <p class="lesson-p">2. Khi dùng Search the web, mô hình đã thực hiện những bước nào để cho kết quả chính xác và đáng tin hơn? (Gợi ý: truy xuất - tăng cường - sinh câu</p>
 <p class="lesson-p">3. So sánh câu trả lời của LLM thường và LLM có truy xuất khác nhau thế nào về tính cập nhật, độ tin cậy và nguồn tham khảo?</p>
 </div></section>
@@ -48,13 +48,13 @@
                 <div class="section-body">
             
 <h3 class="subheading-h3"><span class="h3-num">1.</span> Giới thiệu về RAG</h3>
-<p class="lesson-p">Trong tinh huóng ở phần Khởi động, khi Lan dùng chế độ mặc định, mô hình chỉ sử dụng dữ liệu huấn luyện cũ. Vì vậy, kết quả trả về có thông tin sai hoặc lỗi thời.</p>
+<p class="lesson-p">Trong tình huống ở phần Khởi động, khi Lan dùng chế độ mặc định, mô hình chỉ sử dụng dữ liệu huấn luyện cũ. Vì vậy, kết quả trả về có thông tin sai hoặc lỗi thời.</p>
 <p class="lesson-p">Do mô hinh không cung cấp nguồn, việc kiểm chứng nội dung cũng khó khăn.</p>
 <p class="lesson-p">Trong Bài 3, tạ biết rằng một trong những hạn chế lớn nhất của LLM là kết quả</p>
 <p class="lesson-p">phụ thuộc nhiều vào dữ liệu huần luyện. Khi dữ liệu huấn luyện bị cũ, sai hoặc thiếu, LLM có thể đưa ra câu trả lời có thông tin cũ, sai hoặc bịa đặt. Nhằm nâng cao độ chính xác và độ tin cậy cho mô hình, kĩ thuật RAG (Retrieval-Augmented</p>
 <p class="lesson-p">Generation) được ra đời. Với kĩ thuật RAG, mô hình sử dụng thêm dữ liệu bên ngoài (dứ liệu riêng, dữ liệu kiểm chứng được nguồn,...) để tạo ra câu trả lời mà không cần huấn luyện lại.</p>
-<p class="lesson-p">Khi sử dụng kĩ thuật RAG, do sử dụng thêm dữ liệu bên ngoài, nội dung tạo ra chính xác và cập nhật hơn, giảm tinh trạng bịa đặt (hallucination). Việc cho phép sử dụng dữ liệu riêng của tổ chức và kiểm chứng được nguồn giúp kết quả đáng tin cây và phù hợp hơn với nhu cầu thực tế.</p>
-<p class="lesson-p">Vi dụ: ChatGPT-4, chế độ Search the web, ngoài dữ liệu huấn luyện còn sử dụng</p>
+<p class="lesson-p">Khi sử dụng kĩ thuật RAG, do sử dụng thêm dữ liệu bên ngoài, nội dung tạo ra chính xác và cập nhật hơn, giảm tình trạng bịa đặt (hallucination). Việc cho phép sử dụng dữ liệu riêng của tổ chức và kiểm chứng được nguồn giúp kết quả đáng tin cây và phù hợp hơn với nhu cầu thực tế.</p>
+<p class="lesson-p">Ví dụ: ChatGPT-4, chế độ Search the web, ngoài dữ liệu huấn luyện còn sử dụng</p>
 <p class="lesson-p">dữ liệu mới hơn tìm được trên Internet.</p>
 <p class="lesson-p">Tài liệu nội bộ Internet</p>
 <p class="lesson-p">Dữ liệu bên ngoài</p>
@@ -69,7 +69,7 @@
                     
 <ul class="lesson-bullet-list">
 <li>Kĩ thuật RAG (Retrieval-Augmented Generation) là cách để LLM kết hợp dữ liệu bên ngoài với dữ liệu huấn luyện, giúp bố sung thông tin mới.</li>
-<li>Nhờ sử dụng thêm dữ liệu có nguồn tin cậy và cập nhật, RAG cho càu trả lời chính xác hơn và giảm sai lệch mà không cần huấn luyện lai.</li>
+<li>Nhờ sử dụng thêm dữ liệu có nguồn tin cậy và cập nhật, RAG cho câu trả lời chính xác hơn và giảm sai lệch mà không cần huấn luyện lai.</li>
 </ul>
 <p class="lesson-p">2. Nguyên lí hoạt động của RAG Khi Lan sử dụng tuỳ chọn Search the web của ChatGPT, ChatGPT sẽ tìm kiếm những thông tin liên quan trên Internet. ChatGPT bổ sung những thông tin này vào</p>
 <p class="lesson-p">prompt ban đầu trước khi tạo ra câu trả lời. Vì vậy, kết quả thu được có những thông tin mới nhất. Tìm kiếm, bổ sung thông tin tìm được vào prompt và tạo ra câu trả lời là ba bước chính khi LLM sử dụng RAG.</p>
@@ -85,7 +85,7 @@
 <ul class="lesson-bullet-list">
 <li>Sinh câu trả lời: Mô hinh dựa trên cả câu hỏi và thông tin tìm được để tạo ra câu</li>
 </ul>
-<p class="lesson-p">trà lời chinh xác và đáng tin cậy hơn</p>
+<p class="lesson-p">trả lời chính xác và đáng tin cậy hơn</p>
 <p class="lesson-p">Dữ liệu bên ngoài (dữ liệu riêng, Internet,...)</p>
 <p class="lesson-p">Truy xuất Các thông tin</p>
 <p class="lesson-p">liên quan</p>
@@ -109,14 +109,14 @@
 truy xuất - tìm thông tin, tăng cường - kết hợp thông tin và câu hỏi, sinh câu trả lời - dựa trên câu hỏi và thông tin tìm được.</p>
 <p class="lesson-p">O7</p>
 <h3 class="subheading-h3"><span class="h3-num">3.</span> Mô hình LLM thường và LLM có kết hợp RAG</h3>
-<p class="lesson-p">Trong phần Khởi động, ở lần thừ đầu tiên, nội dùng trả lời có những thông tin sai hoặc lỗi thời. Đậy là một nhược điểm của mô hình ngôn ngữ lớn vì dữ liệu để huấn luyện các mô hình này thường không được cập nhật (chỉ bao gồm thông tin trước</p>
+<p class="lesson-p">Trong phần Khởi động, ở lần thừ đầu tiên, nội dùng trả lời có những thông tin sai hoặc lỗi thời. Đây là một nhược điểm của mô hình ngôn ngữ lớn vì dữ liệu để huấn luyện các mô hình này thường không được cập nhật (chỉ bao gồm thông tin trước</p>
 <p class="lesson-p">một mốc thời gian cụ thể).</p>
 <p class="lesson-p">nhật những thông tin mới nhất từ Internet nên hạn chế được nhược điểm nêu trên.
 
 Ngoài phần nội dung, ChatGPT còn cung cấp liên kết tới nguồn của những thông tin trong nội dung.</p>
 <p class="lesson-p">Ở lần thử thứ hai, khi sử dụng tính nắng Search the web, ChatGPT đã được cập</p>
 <p class="lesson-p">Nhờ bước truy xuất thông tin liên quan từ dữ liệu bên ngoài trước khi tạo câu</p>
-<p class="lesson-p">trà lời, RAG giúp mô hình có thông tin mới, chính xác. Các thông tin do RAG cung</p>
+<p class="lesson-p">trả lời, RAG giúp mô hình có thông tin mới, chính xác. Các thông tin do RAG cung</p>
 <p class="lesson-p">cấp có nguồn cụ thể, có thể kiểm chứng được nên câu trả lời đáng tin cậy hơn.</p>
 <p class="lesson-p">Vi du:</p>
 <p class="lesson-p">Câu hòi: Việt Nam có bao nhiêu tinh, thành phố?</p>
@@ -166,7 +166,7 @@ Ngoài phần nội dung, ChatGPT còn cung cấp liên kết tới nguồn củ
 <li>Có thể tạo ra sự thiếu khách quan mới: Quá trình truy xuất có thể ưu tiên một</li>
 </ul>
 <p class="lesson-p">số nguồn hoặc loại thông tin nhất định trong dữ liệu ngoài.</p>
-<p class="lesson-p">Vi dụ, em hỏi "Triệu chứng cảm cúm?" nhưng hệ thống truy xuất nhằm tài liệu về</p>
+<p class="lesson-p">Ví dụ, em hỏi "Triệu chứng cảm cúm?" nhưng hệ thống truy xuất nhằm tài liệu về</p>
 <p class="lesson-p">"iều lượng thuốc cảm" không chừa phần triệu chứng. Khi đó, câu trả lời không đúng, không liên quan. Nếu dữ liệu ngoài chỉ chứa sách của một tác giả, câu trả lời RAG cũng chỉ dựa theo quan điểm của tác giả đó. Câu trả lời có thể bị thiếu</p>
 <p class="lesson-p">chiều sâu hoặc thiên lệch về góc nhìn.</p>
 <ul class="lesson-bullet-list">
@@ -227,7 +227,7 @@ A. Tăng khả năng tưởng tượng của mô hình.</p>
 <p class="lesson-p">D. Khi cần xử lI ảnh.</p>
 <h3 class="subheading-h3"><span class="h3-num">4.</span> Phương án nào sau đây là các bước trong quy trình hoạt động của RAG?</h3>
 <p class="lesson-p">A. Truy xuất, cung cấp ví dụ và sinh câu trả lời.</p>
-<p class="lesson-p">B. Truy xuất, suy luận theo từng bước, tăng cường và sinh câu trà lời.</p>
+<p class="lesson-p">B. Truy xuất, suy luận theo từng bước, tăng cường và sinh câu trả lời.</p>
 <p class="lesson-p">C. Gọi hàm, tăng cường và sinh câu trả lời.</p>
 <p class="lesson-p">D. Truy xuất, tăng cường và sinh câu trả lời.</p>
 <p class="lesson-p">5. Phương án nào sau đây là điểm khác nhau giữa LLM có sử dụng RAG và LLM thường?</p>
