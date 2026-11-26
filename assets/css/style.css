@@ -1366,8 +1366,8 @@ input {
 
 /* Hình minh hoạ sách */
 .lesson-figure-box {
-  margin: 26px auto;
-  padding: 18px;
+  margin: 28px auto;
+  padding: 16px;
   background: var(--bg-elevated);
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -1376,7 +1376,7 @@ input {
   align-items: center;
   text-align: center;
   box-shadow: var(--shadow-sm);
-  max-width: 680px;
+  max-width: 760px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -1391,14 +1391,22 @@ input {
 
 .lesson-img {
   max-width: 100%;
-  max-height: 480px;
+  max-height: 540px;
   height: auto;
   object-fit: contain;
-  border-radius: 10px;
-  background: #ffffff;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
-  margin-bottom: 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  margin-bottom: 14px;
   display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  cursor: zoom-in;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lesson-img:hover {
+  transform: scale(1.015);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 .figure-caption {
