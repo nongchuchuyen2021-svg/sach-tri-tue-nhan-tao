@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đọc sách — Trí tuệ nhân tạo</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="reader-body">
+  <header class="reader-toolbar">
+    <div class="toolbar-group">
+      <a href="index.html" class="icon-btn" title="Về Tủ sách">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+        <span class="hide-sm">Tủ sách</span>
+      </a>
+
+      <button id="toggleSidebarBtn" class="icon-btn active" title="Mục lục & Tìm kiếm (T)">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+
+      <div id="bookSwitcher" class="book-switcher" role="navigation" aria-label="Chọn lớp"></div>
+    </div>
+
+    <div class="toolbar-group">
+      <span id="lessonIndicator" class="lesson-indicator">Đang tải...</span>
+      <div class="page-jump-wrap" title="Nhập số trang và nhấn Enter">
+        <input id="pageJumpInput" class="page-jump-input" type="number" min="1" value="1" aria-label="Số trang hiện tại" />
+        <span id="pageTotalLabel">/ 1</span>
+      </div>
+    </div>
+
+    <div class="toolbar-group">
+      <div class="book-switcher hide-sm" role="group" aria-label="Chế độ xem">
+        <button id="modeTwoBtn" class="book-tab" title="Xem 2 trang mở">2 trang</button>
+        <button id="modeOneBtn" class="book-tab" title="Xem 1 trang">1 trang</button>
+        <button id="modeScrollBtn" class="book-tab" title="Cuộn dọc liên tục">Cuộn</button>
+      </div>
+
+      <button id="zoomOutBtn" class="icon-btn hide-md" title="Thu nhỏ (-)">−</button>
+      <button id="zoomResetBtn" class="icon-btn hide-md" title="Vừa màn hình (0)"><span id="zoomLabel">100%</span></button>
+      <button id="zoomInBtn" class="icon-btn hide-md" title="Phóng to (+)">+</button>
+
+      <button id="bookmarkBtn" class="icon-btn" title="Đánh dấu trang này (B)">☆</button>
+      <button id="gridBtn" class="icon-btn" title="Xem lưới tất cả trang">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      </button>
+      <button id="themeCycleBtn" class="icon-btn" title="Chuyển chế độ Sáng / Giấy ấm / Tối">☀️</button>
+      <button id="fullscreenBtn" class="icon-btn hide-sm" title="Toàn màn hình (F)">⛶</button>
+    </div>
+  </header>
+
+  <div class="reader-workspace">
+    <aside id="readerSidebar" class="reader-sidebar">
+      <div class="sidebar-tabs">
+        <button class="sidebar-tab active" data-tab="toc">Mục lục</button>
+        <button class="sidebar-tab" data-tab="search">Tìm kiếm</button>
+        <button class="sidebar-tab" data-tab="bookmarks">Đánh dấu</button>
+      </div>
+
+      <div id="tabToc" class="sidebar-panel active"></div>
+
+      <div id="tabSearch" class="sidebar-panel">
+        <input id="sidebarSearchInput" class="sidebar-search-input" type="search" placeholder="Tìm từ khoá trong sách..." />
+        <div id="sidebarSearchResults"></div>
+      </div>
+
+      <div id="tabBookmarks" class="sidebar-panel"></div>
+    </aside>
+
+    <div class="reader-stage-wrap">
+      <button id="prevBtn" class="stage-nav-btn stage-nav-prev" title="Trang trước (←)" aria-label="Trang trước">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg>
+      </button>
+
+      <main id="readerStage" class="reader-stage" tabindex="0">
+        <div id="spreadContainer" class="spread-container"></div>
+      </main>
+
+      <button id="nextBtn" class="stage-nav-btn stage-nav-next" title="Trang sau (→)" aria-label="Trang sau">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg>
+      </button>
+
+      <footer class="reader-bottombar">
+        <button id="bottomPrevBtn" class="icon-btn" title="Trang trước">‹</button>
+        <input id="pageScrubber" class="scrubber" type="range" min="1" max="1" value="1" aria-label="Thanh trượt chọn trang" />
+        <button id="bottomNextBtn" class="icon-btn" title="Trang sau">›</button>
+        <span id="bottomInfo" class="bottom-label">Trang 1</span>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal Lưới Trang -->
+  <div id="gridModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="gridModalTitle">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3 id="gridModalTitle">Xem nhanh tất cả trang</h3>
+        <button id="closeGridModal" class="icon-btn" aria-label="Đóng">✕</button>
+      </div>
+      <div class="modal-body">
+        <div id="thumbsGrid" class="thumbs-grid"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/reader.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="55%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g1)"/>
+  <path d="M16 18.5C16 16.567 17.567 15 19.5 15H30.5V47.5H19.5C17.567 47.5 16 45.933 16 44V18.5Z" fill="rgba(255,255,255,0.92)"/>
+  <path d="M48 18.5C48 16.567 46.433 15 44.5 15H33.5V47.5H44.5C46.433 47.5 48 45.933 48 44V18.5Z" fill="rgba(255,255,255,0.82)"/>
+  <path d="M32 15V49" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M39.5 23L41 26.5L44.5 28L41 29.5L39.5 33L38 29.5L34.5 28L38 26.5L39.5 23Z" fill="#2563eb"/>
+  <rect x="19.5" y="22" width="7.5" height="2.4" rx="1.2" fill="#2563eb" opacity="0.7"/>
+  <rect x="19.5" y="27.5" width="7.5" height="2.4" rx="1.2" fill="#2563eb" opacity="0.5"/>
+  <rect x="19.5" y="33" width="5.5" height="2.4" rx="1.2" fill="#2563eb" opacity="0.4"/>
+</svg>

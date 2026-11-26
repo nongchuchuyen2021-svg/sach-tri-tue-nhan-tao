@@ -1,0 +1,487 @@
+{
+  "books": [
+    {
+      "id": "lop-10",
+      "grade": 10,
+      "title": "Trí tuệ nhân tạo 10",
+      "subtitle": "Tài liệu giáo dục phổ thông · Lớp 10",
+      "authors": "Hà Đặng Cao Tùng – Hoàng Thị Mai – Lê Anh Vinh (Đồng Chủ biên)",
+      "coauthors": "Vũ Trung Chính, Nguyễn Quang Đức, Nguyễn Chí Thanh, Nguyễn Thị Vân Anh, Phạm Tuấn Anh, Vũ Văn Luận",
+      "publisher": "Nhà xuất bản Giáo dục Việt Nam",
+      "isbn": "978-604-0-46630-3",
+      "accent": "#2563eb",
+      "accentSoft": "rgba(37, 99, 235, 0.12)",
+      "pages": 91,
+      "pageOffset": 2,
+      "firstSpreadStart": 2,
+      "cover": "books/lop-10/cover.webp",
+      "thumb": "books/lop-10/thumbs/page-001.webp",
+      "toc": [
+        {
+          "group": "Mở đầu",
+          "items": [
+            {
+              "title": "Bìa sách",
+              "page": 1,
+              "printPage": null
+            },
+            {
+              "title": "Công văn thẩm định & Bìa lót",
+              "page": 2,
+              "printPage": null
+            },
+            {
+              "title": "Hướng dẫn sử dụng sách",
+              "page": 4,
+              "printPage": 2
+            },
+            {
+              "title": "Lời nói đầu",
+              "page": 5,
+              "printPage": 3
+            },
+            {
+              "title": "Mục lục",
+              "page": 6,
+              "printPage": 4
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 1. Giới thiệu về AI và AI tạo sinh",
+          "page": 7,
+          "printPage": 5,
+          "items": [
+            {
+              "title": "Bài 1. Trí tuệ nhân tạo",
+              "page": 8,
+              "printPage": 6
+            },
+            {
+              "title": "Bài 2. AI tạo sinh",
+              "page": 13,
+              "printPage": 11
+            },
+            {
+              "title": "Bài 3. Mô hình ngôn ngữ lớn",
+              "page": 21,
+              "printPage": 19
+            },
+            {
+              "title": "Bài 4. Dữ liệu huấn luyện",
+              "page": 28,
+              "printPage": 26
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 2. Khám phá công cụ và ứng dụng AI",
+          "page": 33,
+          "printPage": 31,
+          "items": [
+            {
+              "title": "Bài 5. Prompt – Giao tiếp với AI tạo sinh",
+              "page": 34,
+              "printPage": 32
+            },
+            {
+              "title": "Bài 6. AI tạo sinh hỗ trợ học tập",
+              "page": 41,
+              "printPage": 39
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 3. Đạo đức và trách nhiệm khi sử dụng AI",
+          "page": 48,
+          "printPage": 46,
+          "items": [
+            {
+              "title": "Bài 7. Phân biệt thật – giả trong AI tạo sinh",
+              "page": 49,
+              "printPage": 47
+            },
+            {
+              "title": "Bài 8. Hiểu đúng về AI tạo sinh: thiên vị, hiểu lầm và tác hại với con người",
+              "page": 53,
+              "printPage": 51
+            },
+            {
+              "title": "Bài 9. Công dân số trong kỉ nguyên AI",
+              "page": 58,
+              "printPage": 56
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 4. Phát triển sản phẩm và ứng dụng AI",
+          "page": 67,
+          "printPage": 65,
+          "items": [
+            {
+              "title": "Bài 10. AI và nghề nghiệp",
+              "page": 68,
+              "printPage": 66
+            },
+            {
+              "title": "Bài 11. Môi trường phát triển sản phẩm AI",
+              "page": 72,
+              "printPage": 70
+            },
+            {
+              "title": "Bài 12. Bài tập dự án",
+              "page": 79,
+              "printPage": 77
+            }
+          ]
+        },
+        {
+          "group": "Phụ lục",
+          "items": [
+            {
+              "title": "Bảng giải thích thuật ngữ",
+              "page": 89,
+              "printPage": 87
+            },
+            {
+              "title": "Thông tin xuất bản & Bìa sau",
+              "page": 90,
+              "printPage": 88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lop-11",
+      "grade": 11,
+      "title": "Trí tuệ nhân tạo 11",
+      "subtitle": "Tài liệu giáo dục phổ thông · Lớp 11",
+      "authors": "Hà Đặng Cao Tùng – Hoàng Thị Mai – Lê Anh Vinh (Đồng Chủ biên)",
+      "coauthors": "Vũ Trung Chính, Nguyễn Quang Đức, Nguyễn Chí Thanh, Nguyễn Thị Vân Anh, Đỗ Đức Lân, Nguyễn Minh Hải",
+      "publisher": "Nhà xuất bản Giáo dục Việt Nam",
+      "isbn": "978-604-0-46632-7",
+      "accent": "#0891b2",
+      "accentSoft": "rgba(8, 145, 178, 0.12)",
+      "pages": 103,
+      "pageOffset": 2,
+      "firstSpreadStart": 2,
+      "cover": "books/lop-11/cover.webp",
+      "thumb": "books/lop-11/thumbs/page-001.webp",
+      "toc": [
+        {
+          "group": "Mở đầu",
+          "items": [
+            {
+              "title": "Bìa sách",
+              "page": 1,
+              "printPage": null
+            },
+            {
+              "title": "Công văn thẩm định & Bìa lót",
+              "page": 2,
+              "printPage": null
+            },
+            {
+              "title": "Hướng dẫn sử dụng sách",
+              "page": 4,
+              "printPage": 2
+            },
+            {
+              "title": "Lời nói đầu",
+              "page": 5,
+              "printPage": 3
+            },
+            {
+              "title": "Mục lục",
+              "page": 6,
+              "printPage": 4
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 1. Mô hình ngôn ngữ lớn sáng tạo nội dung",
+          "page": 7,
+          "printPage": 5,
+          "items": [
+            {
+              "title": "Bài 1. Kĩ thuật viết prompt cơ bản và nâng cao",
+              "page": 8,
+              "printPage": 6
+            },
+            {
+              "title": "Bài 2. Mô hình ngôn ngữ lớn sáng tạo nội dung",
+              "page": 18,
+              "printPage": 16
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 2. Nguyên lí hoạt động của mô hình ngôn ngữ lớn",
+          "page": 26,
+          "printPage": 24,
+          "items": [
+            {
+              "title": "Bài 3. Mô hình ngôn ngữ lớn và hạn chế của nó",
+              "page": 27,
+              "printPage": 25
+            },
+            {
+              "title": "Bài 4. Giới thiệu về RAG",
+              "page": 33,
+              "printPage": 31
+            },
+            {
+              "title": "Bài 5. Mạng nơ-ron nhân tạo",
+              "page": 41,
+              "printPage": 39
+            },
+            {
+              "title": "Bài 6. Phân loại và phân cụm dữ liệu",
+              "page": 50,
+              "printPage": 48
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 3. Đạo đức và trách nhiệm khi sử dụng AI",
+          "page": 60,
+          "printPage": 58,
+          "items": [
+            {
+              "title": "Bài 7. Đạo đức, pháp luật và văn hoá trong sử dụng mô hình ngôn ngữ lớn",
+              "page": 61,
+              "printPage": 59
+            },
+            {
+              "title": "Bài 8. Giá trị con người trong kỉ nguyên AI",
+              "page": 66,
+              "printPage": 64
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập",
+          "page": 71,
+          "printPage": 69,
+          "items": [
+            {
+              "title": "Bài 9. Mô hình ngôn ngữ lớn hỗ trợ học tập",
+              "page": 72,
+              "printPage": 70
+            },
+            {
+              "title": "Bài 10. Mô hình ngôn ngữ lớn hỗ trợ học lập trình",
+              "page": 77,
+              "printPage": 75
+            },
+            {
+              "title": "Bài 11. Tạo và sửa hình ảnh bằng mô hình ngôn ngữ lớn",
+              "page": 82,
+              "printPage": 80
+            },
+            {
+              "title": "Bài 12. Tạo video bằng mô hình ngôn ngữ lớn",
+              "page": 90,
+              "printPage": 88
+            },
+            {
+              "title": "Bài 13. Bài tập dự án",
+              "page": 95,
+              "printPage": 93
+            }
+          ]
+        },
+        {
+          "group": "Phụ lục",
+          "items": [
+            {
+              "title": "Bảng giải thích thuật ngữ",
+              "page": 101,
+              "printPage": 99
+            },
+            {
+              "title": "Thông tin xuất bản & Bìa sau",
+              "page": 102,
+              "printPage": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lop-12",
+      "grade": 12,
+      "title": "Trí tuệ nhân tạo 12",
+      "subtitle": "Tài liệu giáo dục phổ thông · Lớp 12",
+      "authors": "Hà Đặng Cao Tùng – Hoàng Thị Mai – Lê Anh Vinh (Đồng Chủ biên)",
+      "coauthors": "Vũ Trung Chính, Nguyễn Quang Đức, Nguyễn Chí Thanh, Nguyễn Thị Vân Anh, Đỗ Đức Lân, Lê Quang Quân",
+      "publisher": "Nhà xuất bản Giáo dục Việt Nam",
+      "isbn": "978-604-0-46634-1",
+      "accent": "#7c3aed",
+      "accentSoft": "rgba(124, 58, 237, 0.12)",
+      "pages": 122,
+      "pageOffset": 1,
+      "firstSpreadStart": 3,
+      "cover": "books/lop-12/cover.webp",
+      "thumb": "books/lop-12/thumbs/page-001.webp",
+      "toc": [
+        {
+          "group": "Mở đầu",
+          "items": [
+            {
+              "title": "Bìa sách",
+              "page": 1,
+              "printPage": null
+            },
+            {
+              "title": "Bìa lót",
+              "page": 2,
+              "printPage": null
+            },
+            {
+              "title": "Hướng dẫn sử dụng sách",
+              "page": 3,
+              "printPage": 2
+            },
+            {
+              "title": "Lời nói đầu",
+              "page": 4,
+              "printPage": 3
+            },
+            {
+              "title": "Mục lục",
+              "page": 5,
+              "printPage": 4
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 1. AI Agents – Hướng tới AI tự hoạt động",
+          "page": 6,
+          "printPage": 5,
+          "items": [
+            {
+              "title": "Bài 1. Giới thiệu về AI Agents",
+              "page": 7,
+              "printPage": 6
+            },
+            {
+              "title": "Bài 2. Cấu trúc AI Agent đơn giản",
+              "page": 14,
+              "printPage": 13
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 2. RAG và công cụ làm việc với LLM",
+          "page": 25,
+          "printPage": 24,
+          "items": [
+            {
+              "title": "Bài 3. RAG nâng cao",
+              "page": 26,
+              "printPage": 25
+            },
+            {
+              "title": "Bài 4. Thư viện nguồn mở LLM",
+              "page": 33,
+              "printPage": 32
+            },
+            {
+              "title": "Bài 5. Khai thác thư viện nguồn mở LLM",
+              "page": 39,
+              "printPage": 38
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 3. Đạo đức, trách nhiệm và tác động xã hội trong AI tạo sinh",
+          "page": 47,
+          "printPage": 46,
+          "items": [
+            {
+              "title": "Bài 6. Tác động của AI đến đời sống con người",
+              "page": 48,
+              "printPage": 47
+            },
+            {
+              "title": "Bài 7. AI mở ra cơ hội và thách thức cho các ngành nghề",
+              "page": 54,
+              "printPage": 53
+            },
+            {
+              "title": "Bài 8. Quyền con người trong kỉ nguyên AI",
+              "page": 60,
+              "printPage": 59
+            },
+            {
+              "title": "Bài 9. Phát triển AI có trách nhiệm",
+              "page": 66,
+              "printPage": 65
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 4. Nguyên lí Học máy",
+          "page": 73,
+          "printPage": 72,
+          "items": [
+            {
+              "title": "Bài 10. Nguyên lí cơ bản của Học máy",
+              "page": 74,
+              "printPage": 73
+            },
+            {
+              "title": "Bài 11. Tối ưu hoá mô hình",
+              "page": 81,
+              "printPage": 80
+            }
+          ]
+        },
+        {
+          "group": "Chủ đề 5. Dự án AI Agent",
+          "page": 89,
+          "printPage": 88,
+          "items": [
+            {
+              "title": "Bài 12. Hình thành ý tưởng và lập kế hoạch",
+              "page": 90,
+              "printPage": 89
+            },
+            {
+              "title": "Bài 13. Xây dựng sản phẩm",
+              "page": 96,
+              "printPage": 95
+            },
+            {
+              "title": "Bài 14. Hoàn chỉnh sản phẩm",
+              "page": 105,
+              "printPage": 104
+            },
+            {
+              "title": "Bài 15. Trình bày kết quả dự án",
+              "page": 113,
+              "printPage": 112
+            }
+          ]
+        },
+        {
+          "group": "Phụ lục",
+          "items": [
+            {
+              "title": "Bảng giải thích thuật ngữ",
+              "page": 119,
+              "printPage": 118
+            },
+            {
+              "title": "Thông tin xuất bản & Bìa sau",
+              "page": 121,
+              "printPage": 120
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

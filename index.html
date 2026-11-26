@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tủ Sách Trí Tuệ Nhân Tạo THPT (Lớp 10 – 11 – 12)</title>
+  <meta name="description" content="Bộ sách giáo khoa điện tử Trí tuệ nhân tạo Lớp 10, Lớp 11, Lớp 12 — Nhà xuất bản Giáo dục Việt Nam. Giao diện đọc lật trang, mục lục bài học và tìm kiếm toàn văn." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="lib-header">
+    <div class="lib-header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/favicon.svg" alt="Tủ sách AI" class="brand-icon" />
+        <div>
+          <div class="brand-title">Tủ Sách Trí Tuệ Nhân Tạo</div>
+          <div class="brand-sub">Giáo dục phổ thông · Lớp 10 – 11 – 12</div>
+        </div>
+      </a>
+
+      <div class="global-search-wrap">
+        <div class="global-search-box">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+          </svg>
+          <input id="globalSearchInput" type="search" placeholder="Tìm nội dung, thuật ngữ trong cả 3 cuốn sách..." autocomplete="off" />
+          <span class="kbd-hint">Ctrl+K</span>
+        </div>
+        <div id="globalSearchResults" class="global-search-results" aria-live="polite"></div>
+      </div>
+
+      <button id="themeToggleBtn" class="icon-btn" title="Chuyển giao diện Sáng / Tối" aria-label="Chuyển giao diện">
+        <span id="themeIcon">🌙</span>
+        <span class="hide-sm">Giao diện</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="lib-main">
+    <section class="hero">
+      <div>
+        <div class="hero-badge">📚 Sách điện tử HTML · NXB Giáo dục Việt Nam</div>
+        <h1>Bộ sách Trí Tuệ Nhân Tạo THPT</h1>
+        <p>Đọc trực tuyến bộ sách Trí tuệ nhân tạo Lớp 10, 11, 12 với giao diện lật trang chuẩn bản in, mục lục từng bài học, phóng to sắc nét, đánh dấu trang và tìm kiếm nhanh tiếng Việt.</p>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-pill"><strong>3</strong><span>Cuốn sách</span></div>
+        <div class="stat-pill"><strong id="statLessons">40</strong><span>Bài học</span></div>
+        <div class="stat-pill"><strong id="statPages">316</strong><span>Trang sách</span></div>
+      </div>
+    </section>
+
+    <section id="booksGrid" class="books-grid" aria-label="Danh sách sách">
+      <!-- Rendered by assets/js/library.js -->
+    </section>
+  </main>
+
+  <footer class="lib-footer">
+    Tài liệu giảng dạy và học tập bộ môn Trí tuệ nhân tạo cấp THPT (Lớp 10, 11, 12). Dùng phím <kbd>←</kbd> <kbd>→</kbd> để lật trang khi đọc.
+  </footer>
+
+  <!-- Modal xem nhanh Mục lục -->
+  <div id="tocModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="tocModalTitle">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3 id="tocModalTitle">Mục lục sách</h3>
+        <button id="closeTocModal" class="icon-btn" aria-label="Đóng">✕</button>
+      </div>
+      <div id="tocModalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/library.js"></script>
+</body>
+</html>
