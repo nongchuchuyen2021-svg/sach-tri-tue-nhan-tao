@@ -209,7 +209,8 @@
         }
       ],
       "totalLessons": 12,
-      "totalUnits": 19
+      "totalUnits": 19,
+      "description": ""
     },
     {
       "id": "lop-11",
@@ -428,7 +429,8 @@
         }
       ],
       "totalLessons": 13,
-      "totalUnits": 20
+      "totalUnits": 20,
+      "description": ""
     },
     {
       "id": "lop-12",
@@ -670,7 +672,8 @@
         }
       ],
       "totalLessons": 15,
-      "totalUnits": 22
+      "totalUnits": 22,
+      "description": ""
     }
   ]
 }

@@ -48,7 +48,7 @@ Không chỉ vậy, AI còn chía nhỏ câu văn thành các phần nhỏ và d
 <p class="lesson-p">C'S</p>
 <p class="lesson-p">Qua tình huống trên:</p>
 <p class="lesson-p">1. Em có biết mô hình ngôn ngữ lớn được dùng để làm gi? Kẻ tên một số mô hình mà em biết.</p>
-<h3 class="subheading-h3"><span class="h3-num">2.</span> Hãy mô tả cách em tưởng tượng mô hình tạo ra hình ành từ văn bản.</h3>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Hãy mô tả cách em tưởng tượng mô hình tạo ra hình ảnh từ văn bản.</h3>
 <p class="lesson-p">3. Hãy lấy ví dự về việc chia một câu thành các token và giải thích vì sao việc dự đoán token tiếp theo lại giúp mô hinh tạo ra văn bán.</p>
 <p class="lesson-p">KHÁM PHẨ</p>
 <p class="lesson-p">1. Khái niệm mô hình ngôn ngữ lớn Trong phần Khởi động, thầy giáo đã giới thiệu mô hình ngôn ngữ lớn là một loại AI</p>
@@ -67,7 +67,7 @@ Không chỉ vậy, AI còn chía nhỏ câu văn thành các phần nhỏ và d
 LLM) là một loại AI được huấn luyện trên lượng lớn dữ liệu văn bản và đôi khi kết hợp với dữ liệu từ các dạng khác như hình ảnh, âm thanh. LLM có khả năng hiểu và tạo ra ngôn ngữ, hỗ trợ con người trong</p>
 <p class="lesson-p">các hoạt động như viết nội dung, trả lời câu hỏi, dịch thuật hoặc tạo hình ảnh, âm thanh từ mô tả</p>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> Sử dụng được LLM để tạo hình ánh từ văn bản</h3>
-<p class="lesson-p">Trở lại câu hỏi của bạn Minh trong phần Khởi động. Câu hỏi này liên quan đến một trong những khả năng của LLM khi được kết hợp với hệ thống lạo sinh hình ảnh.</p>
+<p class="lesson-p">Trở lại câu hỏi của bạn Minh trong phần Khởi động. Câu hỏi này liên quan đến một trong những khả năng của LLM khi được kết hợp với hệ thống tạo sinh hình ảnh.</p>
 <p class="lesson-p">Khi người dùng nhập một đoạn mô tả bằng lời, LLM sẽ tiếp nhận và phân tích nội dung ngôn ngữ trong đoạn văn. Từ đó, hệ thống sẽ xác định các tử khóa và chí tiết như "lớp học", "tán cây"."học bài", rồi chuyển những thông tn này sang dạng dữ liệu phù hợp để mô hình tạo ảnh xử li. Kết quà là một bức tranh được tạo ra dựa</p>
 <p class="lesson-p">trên mô tả ngôn ngữ ban đầu.</p>
 <p class="lesson-p">Vẽ một lớp học</p>
@@ -81,7 +81,7 @@ LLM) là một loại AI được huấn luyện trên lượng lớn dữ liệ
 <p class="lesson-p">Để làm được điều này, hệ thống cần được huấn luyện từ trước với một lượng lớn dữ liệu gồm các cặp văn bản - hình ảnh. Quá trinh huấn luyện này giúp mô hình học được cách liên kết giữa ngôn ngữ mô tả và các đặc điểm hình ảnh tương ứng.
 
 Khả năng chuyển đổi từ văn bản thành hình ănh giúp mô hinh không chỉ hiểu ngôn ngữ mà còn hỗ trợ con người thế hiện ý tưởng một cách sinh động và trực</p>
-<p class="lesson-p">Một số LLM có thể kết hợp với hệ thống tạo sinh hình ănh đề biến văn bản mô tà thành hình ảnh.</p>
+<p class="lesson-p">Một số LLM có thể kết hợp với hệ thống tạo sinh hình ănh đề biến văn bản mô tả thành hình ảnh.</p>
 <p class="lesson-p">Quá trình này dựa trên việc mô hình phân tích nội dung yêu cầu và sử dụng kiến thức đã được học từ dữ liệu huấn luyện để tạo ra hình ảnh phù hợp.</p>
 <p class="lesson-p">Sử dụng Gemini đề tạo hình ảnh từ văn bản</p>
 <p class="lesson-p">Hướng dẫn:</p>
@@ -127,9 +127,9 @@ Việc chia văn bản thành các token giúp</p>
 <p class="lesson-p">Việc chia như vậy giúp mô hình nhận dạng và xử lí từng phần của văn bản một cách chi tiết hơn, đặc biệt là khi gặp những từ phức hoặc ít xuất hiện trong</p>
 <p class="lesson-p">Sau khi chía văn bản thành token, mô hình sẽ dự đoán token tiếp theo dựa trên những gì đã có. Chăng hạn, nếu người dùng nhập "Hà Nội là thủ đô của ..</p>
 <p class="lesson-p">hình có thể dự đoán tiếp là "Việt Nam". Quá trình này lặp lại liên tục cho đến khi tạo thành một câu hoặc đoạn văn hoàn chỉnh.</p>
-<p class="lesson-p">Để làm được việc dự đoán này, mô hình được cung cấp một lượng lớn văn bàn để học cách phát hiện các mối liên hệ giữa các phần trong câu. Khi người dùng nhập vào một đoạn văn bản, mô hình sẽ phân tích các token đã có để dự đoán token tiếp theo sao cho phù hợp với ngữ cành. Token mới sẽ được thêm vào</p>
+<p class="lesson-p">Để làm được việc dự đoán này, mô hình được cung cấp một lượng lớn văn bản để học cách phát hiện các mối liên hệ giữa các phần trong câu. Khi người dùng nhập vào một đoạn văn bản, mô hình sẽ phân tích các token đã có để dự đoán token tiếp theo sao cho phù hợp với ngữ cành. Token mới sẽ được thêm vào</p>
 <p class="lesson-p">chuỗi và mô hình tiếp tục dự đoán token kế tiếp cho đến khi hoàn thành câu hoặc</p>
-<p class="lesson-p">Việc dự đoán từng phần như vậy giúp mô hình tạo ra văn bàn có tính liền mạch và đáp ứng đúng nội dung đầu vào của người dùng.</p>
+<p class="lesson-p">Việc dự đoán từng phần như vậy giúp mô hình tạo ra văn bản có tính liền mạch và đáp ứng đúng nội dung đầu vào của người dùng.</p>
 <p class="lesson-p">Token là những đơn vị nhỏ của văn bản mà mô hình AI cần tách ra để xử lí. Mô hình ngôn ngữ lớn học bằng cách dự đoán token tiếp theo trong chuỗi văn bản. Quá trình dự đoán lặp lại giúp hình thành</p>
 <p class="lesson-p">câu hoặc đoạn văn phù hợp với nội dung đầu vào.</p>
 </div></section>
@@ -141,16 +141,16 @@ Việc chia văn bản thành các token giúp</p>
                 </div>
                 <div class="section-body">
             
-<p class="lesson-p">Bạn Nam sử dụng một công cụ AI để viết đoạn văn, dịch tiếng Anh và lạo hinh ánh theo mô tà. Công cụ đó phản hồi nhanh, đúng nội dung và phù hợp với yêu cầu.</p>
+<p class="lesson-p">Bạn Nam sử dụng một công cụ AI để viết đoạn văn, dịch tiếng Anh và tạo hình ảnh theo mô tả. Công cụ đó phản hồi nhanh, đúng nội dung và phù hợp với yêu cầu.</p>
 <p class="lesson-p">1. Công cụ Ai mà bạn Nam sữ dụng thuộc loại mô hình nào và nó hỗ trợ Nam thực hiện những nhiệm vụ gì?</p>
 <p class="lesson-p">A. Mô hình nhận dạng hình ảnh giúp Nam vẽ tranh theo mẫu.</p>
 <p class="lesson-p">B. Mô hình AI truyền thống hỗ trợ Nam làm phép tính.</p>
-<p class="lesson-p">C. Mô hình ngôn ngữ lớn giúp Nam viết văn, dịch ngôn ngữ và tạo hinh ảnh từ</p>
+<p class="lesson-p">C. Mô hình ngôn ngữ lớn giúp Nam viết văn, dịch ngôn ngữ và tạo hình ảnh từ</p>
 <p class="lesson-p">D. Mô hình tim kiếm giúp Nam tra từ điển và thông tin trên mạng.</p>
-<p class="lesson-p">2. Khi nhập một đoạn văn để công cụ xử Ií, AI cần thực hiện thao tác nào với đoạn văn đầu vào?</p>
+<p class="lesson-p">2. Khi nhập một đoạn văn để công cụ xử lí, AI cần thực hiện thao tác nào với đoạn văn đầu vào?</p>
 <p class="lesson-p">A. Phân loại cảm xúc trong đoạn văn.</p>
 <p class="lesson-p">B. Tìm kiểm đoạn văn tương tự trên Internet.</p>
-<p class="lesson-p">C. Chia văn bản thành các token để phân tích và xử Ií.</p>
+<p class="lesson-p">C. Chia văn bản thành các token để phân tích và xử lí.</p>
 <p class="lesson-p">D. Tạo hình ảnh minh hoạ từ đoạn văn.</p>
 <h3 class="subheading-h3"><span class="h3-num">3.</span> Mô hình AI tạo văn bản bằng cách nào trong quá trình tạo nội dung?</h3>
 <p class="lesson-p">A. Sao chép một đoạn văn đã có sẵn từ nguồn dữ liệu.</p>
@@ -167,8 +167,8 @@ Việc chia văn bản thành các token giúp</p>
                 <div class="section-body">
             
 <p class="lesson-p">Lớp 10A đang chuẩn bị bài thuyết trình với chủ đề "Mùa hè đáng nhớ". Bạn An sử dụng một công cụ AI để viết nội dung bài thuyết trình, trong khi Bình thử tạo hình ảnh minh họạ cho phần trình bày. Kết quả mà hai bạn nhận được có sự khác biệt</p>
-<p class="lesson-p">1. Em hãy giải thích vì sao mô hinh AI có thể viết được đoạn văn theo yêu cầu của An. Mô hình này cần được huấn luyện như thế nào để thực hiện nhiêm vu đó?</p>
-<p class="lesson-p">2. Nếu muốn AI tao được hình ảnh đúng với chủ đề bài thuyết trình, em cần cung cấp loại dữ liệu nào trong quá trình huấn luyện? Nguồn dữ liệu đó có thể đến</p>
+<p class="lesson-p">1. Em hãy giải thích vì sao mô hinh AI có thể viết được đoạn văn theo yêu cầu của An. Mô hình này cần được huấn luyện như thế nào để thực hiện nhiệm vụ đó?</p>
+<p class="lesson-p">2. Nếu muốn AI tạo được hình ảnh đúng với chủ đề bài thuyết trình, em cần cung cấp loại dữ liệu nào trong quá trình huấn luyện? Nguồn dữ liệu đó có thể đến</p>
 <p class="lesson-p">3. a) Em hãy nhập hai yêu cầu sau vào một công cụ AI tạo vàn bản:</p>
 <ul class="lesson-bullet-list">
 <li>Viết một đoạn văn nói về mùa hè.</li>

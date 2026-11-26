@@ -34,7 +34,7 @@
 <p class="lesson-p">An đã tạo được một trợ lí ảo cho cửa hàng tạp hoá. Trợ lí ảo có thể trả lời các câu hỏi về sản phẩm dựa trên tệp dữ liệu có sẵn. Xét tình huống trợ lí ảo phải trả lời hai câu hỏi khác nhau:</p>
 <p class="lesson-p">Với câu hội thứ nhất: Sữa tươi có đường hết chưa?, trợ lí ảo phải kiểm tra hàng còn hay hết trong kho. Với câu hỏi thứ hai: Tôi cần sữa không đường, ít béo dành cho người ăn kiêng. Cửa hàng có không?, trợ lí ảo phải hiểu nhu cầu chi tiết và gợi ý sản phẩm phù hợp, thậm chí phải tìm thêm thông tin ngoài cửa hàng.
 
-Trong tình huống trên, vì sao An chỉ sử dụng một công cụ nhự LangChain hoặc Lamalndex là chưa đủ? LangChain và Llamalndex có thể phối hợp như thế nào để trợ lí ảo vừa hiểu yêu cầu của khách vừa tìm đúng thông tin cần thiết?</p>
+Trong tình huống trên, vì sao An chỉ sử dụng một công cụ nhự LangChain hoặc Lamalndex là chưa đủ? LangChain và LlamaIndex có thể phối hợp như thế nào để trợ lí ảo vừa hiểu yêu cầu của khách vừa tìm đúng thông tin cần thiết?</p>
 </div></section>
 
             <section class="lesson-card discovery-section" id="sec-khám-phá">
@@ -44,13 +44,13 @@ Trong tình huống trên, vì sao An chỉ sử dụng một công cụ nhự L
                 </div>
                 <div class="section-body">
             
-<p class="lesson-p">1. LangChain và Llamalndex: Hai chuyên gia, một mục tiêu Trọng tình huống của An, chỉ dùng một công cụ là chưa đủ vị mỗi câu hỏi của khách lại cần xử lí theo một cách khác nhau. Câu hỏi thứ nhất cần truy cập dữ liệu trong kho, còn câu hỏi thứ hai yêu cầu hiểu ý định phức tạp và lọc thông</p>
+<p class="lesson-p">1. LangChain và LlamaIndex: Hai chuyên gia, một mục tiêu Trọng tình huống của An, chỉ dùng một công cụ là chưa đủ vị mỗi câu hỏi của khách lại cần xử lí theo một cách khác nhau. Câu hỏi thứ nhất cần truy cập dữ liệu trong kho, còn câu hỏi thứ hai yêu cầu hiểu ý định phức tạp và lọc thông</p>
 <p class="lesson-p">tin phù hợp. Trợ lí ảo phải vừa hiều ngôn ngữ tự nhiên vừa tìm đúng dữ liệu tù nhiêu nguồn.</p>
 <p class="lesson-p">LangChain là công cụ giúp điều phối quá trình xữ lí: nhận yêu cầu, lên kế hoạch</p>
-<p class="lesson-p">các bước và gọi các công cụ cần thiết. Trong khi đó, Llamalndex chuyên dùng để tim kiếm thông tin từ dữ liệu văn bàn như tệp sản phẩm, hóa đơn, hoặc tài liệu</p>
-<p class="lesson-p">khác. LangChain điều khiến dòng xử lí, Llamalndex tập trung tim thông tín trong dữ liệu.</p>
-<p class="lesson-p">Vi dụ: Khi An muốn trợ lí ảo có thế trả lời câu hỏi, đặt hàng hoặc liên hệ nhà cung cấp, LangChain sẽ thiết kế "bộ não" điều phối các tác vụ đó. LangChain giống như kiến trúc sư thiết kế toàn bộ ngôi nhà. Hay để trả lời Sữa lươi có đường còn bao nhiêu hộp?, Llamalndex sẽ giúp An thu thập thông tin tôn kho, sắp xép chúng và tìm kiêm chính xác số lượng cần. Llamalndex giống như thủ kho sắp xêp hàng hoa trong kho, giúp em tìm đúng sản phẩm cần thiết.</p>
-<p class="lesson-p">Khi kết hợp, LangChain đóng vai trò người tố chức thông minh, còn Llamalndex giống như kho tra cứu. LangChain sẽ biết lúc nào cần dùng Llamalndex để tìm đữ liệu, rồi tiếp tục xử lí và tạo ra câu trả lời hợp lí. Nhờ sự phối hợp này, trợ lí ảo của An mới có thể trả lời linh hoạt cả câu hỏi đơn giản lẫn yêu cầu phức tạp.</p>
+<p class="lesson-p">các bước và gọi các công cụ cần thiết. Trong khi đó, LlamaIndex chuyên dùng để tim kiếm thông tin từ dữ liệu văn bản như tệp sản phẩm, hóa đơn, hoặc tài liệu</p>
+<p class="lesson-p">khác. LangChain điều khiến dòng xử lí, LlamaIndex tập trung tim thông tín trong dữ liệu.</p>
+<p class="lesson-p">Vi dụ: Khi An muốn trợ lí ảo có thế trả lời câu hỏi, đặt hàng hoặc liên hệ nhà cung cấp, LangChain sẽ thiết kế "bộ não" điều phối các tác vụ đó. LangChain giống như kiến trúc sư thiết kế toàn bộ ngôi nhà. Hay để trả lời Sữa lươi có đường còn bao nhiêu hộp?, LlamaIndex sẽ giúp An thu thập thông tin tôn kho, sắp xép chúng và tìm kiêm chính xác số lượng cần. LlamaIndex giống như thủ kho sắp xêp hàng hoa trong kho, giúp em tìm đúng sản phẩm cần thiết.</p>
+<p class="lesson-p">Khi kết hợp, LangChain đóng vai trò người tố chức thông minh, còn LlamaIndex giống như kho tra cứu. LangChain sẽ biết lúc nào cần dùng LlamaIndex để tìm đữ liệu, rồi tiếp tục xử lí và tạo ra câu trả lời hợp lí. Nhờ sự phối hợp này, trợ lí ảo của An mới có thể trả lời linh hoạt cả câu hỏi đơn giản lẫn yêu cầu phức tạp.</p>
 <p class="lesson-p">LangChain logic Lamalndex data</p>
 <p class="lesson-p">Lang Chain</p>
 <p class="lesson-p">Chain</p>
@@ -63,7 +63,7 @@ Trong tình huống trên, vì sao An chỉ sử dụng một công cụ nhự L
                     <figure class="lesson-figure-box">
                         <div class="figure-placeholder">
                             <span class="fig-badge">🖼️ Minh họa trong sách</span>
-                            <figcaption class="figure-caption">Hình 5.1. Mối quan hệ giữa LangChain và Llamalndex</figcaption>
+                            <figcaption class="figure-caption">Hình 5.1. Mối quan hệ giữa LangChain và LlamaIndex</figcaption>
                         </div>
                     </figure>
                     
@@ -72,28 +72,28 @@ Trong tình huống trên, vì sao An chỉ sử dụng một công cụ nhự L
 <li>Lamalndex: Tập trung vào quản lí và truy xuất dữ liệu cho LLM, đặc biệt cho RAG. Giống như thủ kho chuyên nghiệp của kho dữ liệu.</li>
 </ul>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> Khả năng bố trợ nhau trong xây dựng ứng dụng LLM</h3>
-<p class="lesson-p">LangChain và Llamalndex là hai công cụ bố trợ đắc lực cho nhau. Chúng ta có thể</p>
+<p class="lesson-p">LangChain và LlamaIndex là hai công cụ bố trợ đắc lực cho nhau. Chúng ta có thể</p>
 <p class="lesson-p">kết hợp chúng trong cùng một ứng dụng để tạo ra giải pháp mạnh mẽ hơn.</p>
-<p class="lesson-p">Đề trợ lí ảo của An hoạt động trơn tru và thông minh, hai thư viện Llamalndex và LangChain phối hợp nhịp nhàng qua 6 bước sau:</p>
+<p class="lesson-p">Đề trợ lí ảo của An hoạt động trơn tru và thông minh, hai thư viện LlamaIndex và LangChain phối hợp nhịp nhàng qua 6 bước sau:</p>
 <ul class="lesson-bullet-list">
-<li>Bước 1. Nạp dữ liệu (Load): Llamalndex bắt đầu vai trò "thủ kho" bằng cách</li>
+<li>Bước 1. Nạp dữ liệu (Load): LlamaIndex bắt đầu vai trò "thủ kho" bằng cách</li>
 </ul>
 <p class="lesson-p">thu thập tất cả dữ liệu gốc của cửa hàng (từ Excel, PDF,...).</p>
 <ul class="lesson-bullet-list">
-<li>Bước 2. Chia nhỏ nội dung (Chunking): Llamalndex tiếp tục chia nhỏ các tài</li>
+<li>Bước 2. Chia nhỏ nội dung (Chunking): LlamaIndex tiếp tục chia nhỏ các tài</li>
 </ul>
 <p class="lesson-p">liệu lớn thành từng đoạn văn bản ngắn gọn, dễ quản lí hơn.
 
 - Bước 3. Biểu diễn vector (Embedding): Mỗi đoạn văn bản nhỏ sẽ được</p>
-<p class="lesson-p">Llamalndex chuyển hoá thành "mã số" đặc biệt mà máy tính có thể hiểu và so sánh.</p>
+<p class="lesson-p">LlamaIndex chuyển hoá thành "mã số" đặc biệt mà máy tính có thể hiểu và so sánh.</p>
 <ul class="lesson-bullet-list">
 <li>Bước 4. Tác nhân quyết định (Agent Decide): Đây là bước cốt lõi do Agent</li>
 </ul>
 <p class="lesson-p">(được điều khiến bởi LangChain) thực hiện. Khi khách hàng đặt câu hỏi,</p>
-<p class="lesson-p">LangChain (người quản lí) sẽ nhận câu hỏi và "ra lệnh": cần truy vấn thông tin trong kho của Llamalndex hay cần tìm kiếm từ các nguồn bên ngoài.
+<p class="lesson-p">LangChain (người quản lí) sẽ nhận câu hỏi và "ra lệnh": cần truy vấn thông tin trong kho của LlamaIndex hay cần tìm kiếm từ các nguồn bên ngoài.
 
 - Bước 5. Lập luận (Reason): Nếu cần thông tin nội bộ, LangChain sẽ nhận các</p>
-<p class="lesson-p">đoạn văn bản liên quan từ Llamalndex và đưa chúng cùng câu hỏi cho LLM để lập luận và tổng hợp câu trả lời nháp.</p>
+<p class="lesson-p">đoạn văn bản liên quan từ LlamaIndex và đưa chúng cùng câu hỏi cho LLM để lập luận và tổng hợp câu trả lời nháp.</p>
 <ul class="lesson-bullet-list">
 <li>Bước 6. Trả lời (Answer): Cuối cùng, LangChain sẽ điều phối để LLM tạo ra</li>
 </ul>
@@ -114,29 +114,29 @@ Trong tình huống trên, vì sao An chỉ sử dụng một công cụ nhự L
                         </div>
                     </figure>
                     
-<p class="lesson-p">Tóm lại, Llamalndex chuyên về việc hiểu và cung cấp dữ liệu, còn LangChain chuyên về việc lập luận và điều phối các hành động của trợ lí ảo dựa trên dữ liệu đó. Cả hai cùng làm việc để tạo ra một trợ lí thông minh và hiệu quả giúp An xử lí công việc.</p>
-<p class="lesson-p">LangChain và Llamalndex bố trợ lẫn nhau. Llamalndex chuyên về dữ liệu: tài, lập chỉ mục, truy xuất thông tin cho LLM.
+<p class="lesson-p">Tóm lại, LlamaIndex chuyên về việc hiểu và cung cấp dữ liệu, còn LangChain chuyên về việc lập luận và điều phối các hành động của trợ lí ảo dựa trên dữ liệu đó. Cả hai cùng làm việc để tạo ra một trợ lí thông minh và hiệu quả giúp An xử lí công việc.</p>
+<p class="lesson-p">LangChain và LlamaIndex bố trợ lẫn nhau. LlamaIndex chuyên về dữ liệu: tài, lập chỉ mục, truy xuất thông tin cho LLM.
 
 LangChain chuyên về logic ứng dụng: điều phối LLM, sử dụng</p>
 <p class="lesson-p">công cụ, quản lí hội thoại. Em có thể kết hợp cà hai trong một dự án để tận dụng tối đa sức mạnh của mỗi thư viện nguồn mở.</p>
-<h3 class="subheading-h3"><span class="h3-num">3.</span> Thực hành: Xây dựng cơ sở dữ liệu sản phẩm đơn giản với Llamalndex</h3>
+<h3 class="subheading-h3"><span class="h3-num">3.</span> Thực hành: Xây dựng cơ sở dữ liệu sản phẩm đơn giản với LlamaIndex</h3>
 <p class="lesson-p">Nhiệm vụ:</p>
 <h4 class="subheading-h4"><span class="h4-letter">a)</span> Tải thông tin sản phẩm và chương trình khuyến mãi từ các tệp khác nhau. Tạo</h4>
-<p class="lesson-p">một chỉ mục dữ liệu bằng Llamalndex.</p>
-<h4 class="subheading-h4"><span class="h4-letter">b)</span> Xây dựng một Agent LangChain có khả năng sử dụng chỉ mục của Llamalndex</h4>
+<p class="lesson-p">một chỉ mục dữ liệu bằng LlamaIndex.</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Xây dựng một Agent LangChain có khả năng sử dụng chỉ mục của LlamaIndex</h4>
 <p class="lesson-p">như một công cụ để trả lời câu hỏi về sản phẩm.
 
 Hướng dẫn:</p>
 <p class="lesson-p">(Hướng dân sau đây sử dụng ngôn ngữ lập trình Python 3.9+ và thư viện LangChain</p>
-<p class="lesson-p">cùng Llamalndex (phiên bản mới nhất cài đặt mặc định trong bước chuẩn bị môi trường). Các em cần có kiến thức cơ bản về Python và cách cài đặt thư viện.)</p>
+<p class="lesson-p">cùng LlamaIndex (phiên bản mới nhất cài đặt mặc định trong bước chuẩn bị môi trường). Các em cần có kiến thức cơ bản về Python và cách cài đặt thư viện.)</p>
 <p class="lesson-p">Chuẩn bị môi trường Trước khi cài đặt thư viện, em cần chắc chắn rằng Python và Pip (công cụ quản lí các gói thư viện của Python) đã có trên máy. Nếu em thấy thông báo lỗi như</p>
 <p class="lesson-p">command not found hoặc tương tự, em cần cài đặt Python trước. Hãy tìm kiêm</p>
 <p class="lesson-p">hướng dẫn cách cài đặt Python trên Windows/macOS/Linux trên Google. Sau khi cài Python, Pip thường sẽ được cài đặt kèm theo.</p>
-<p class="lesson-p">Đầu tiên, cần cài đặt thư viện Llamalndex và một LLM mẫu (chẳng hạn như Ollama để chạy LLM cục bộ). Chạy lệnh sau thông qua Command Prompt/PowerShell (trên Windows):</p>
+<p class="lesson-p">Đầu tiên, cần cài đặt thư viện LlamaIndex và một LLM mẫu (chẳng hạn như Ollama để chạy LLM cục bộ). Chạy lệnh sau thông qua Command Prompt/PowerShell (trên Windows):</p>
 
                     <div class="code-block-wrapper">
                         <div class="code-header"><span>Python / Code</span><button class="btn-copy-code" onclick="copyCode(this)">Sao chép</button></div>
-                        <pre><code class="language-python">pip install -U Ilama-index Ilama-index-embeddings-huggingface Ilama-</code></pre>
+                        <pre><code class="language-python">pip install -U llama-index llama-index-embeddings-huggingface llama-</code></pre>
                     </div>
                     
 <p class="lesson-p">index-1lms-ollama langchain langchain-community pypdf transformers sentence-transformers bitsandbytes accelerate openai</p>
@@ -152,8 +152,8 @@ Hướng dẫn:</p>
 
 Fllo: khuyon mal.txt</p>
 <p class="lesson-p">Chương trình khuyến mãi tháng 6: Mua 2 gói mì tôm Háo Háo tặng 1 gói cúng loại.</p>
-<p class="lesson-p">Giảm giá 10% cho tất cá các sán phâm sữa khi mua hóá đơn trên 100 000 VNĐ.</p>
-<p class="lesson-p">Dùng Llamalndex để tải và tạo một chỉ mục từ các tệp trên. Tạo một tệp main py có nội dung như sau:</p>
+<p class="lesson-p">Giảm giá 10% cho tất cá các sán phâm sữa khi mua hóa đơn trên 100 000 VNĐ.</p>
+<p class="lesson-p">Dùng LlamaIndex để tải và tạo một chỉ mục từ các tệp trên. Tạo một tệp main py có nội dung như sau:</p>
 <p class="lesson-p">trom Ilona _Indox, enbeddingo hugglogface lapore Huggingtosenbsdasng</p>
 
                     <div class="code-block-wrapper">
@@ -185,9 +185,9 @@ documento -gimpledirectoxyReader/"./").Jond_doca()
 print(["Dó tás (Ien(documents)) tái lifu..")</code></pre>
                     </div>
                     
-<p class="lesson-p">( --- b) Tao một chi muc dã liệu bäng Ilamaindex print/"Dang too chi muc dü 11eu..")</p>
+<p class="lesson-p">( --- b) Tạo một chi muc dã liệu bäng Ilamaindex print/"Dang too chi muc dü 11eu..")</p>
 <ul class="lesson-bullet-list">
-<li>1. Cau hinh ms hinh nhung (Embedding Model) • Sử dụng mô hinh nhúng của Hugging face dé tao vector biéu diễn agü sghle cho vẫn bán.
+<li>1. Cau hinh ms hinh nhung (Embedding Model) • Sử dụng mô hinh nhúng của Hugging face dé tạo vector biéu diễn agü sghle cho vẫn bán.
 
 8 Mo hinh "sentence-tranaforner:/paraphrose-mult111ngua1-M201141-112-72" 65 tro da ngôn ngõ.</li>
 </ul>
@@ -203,8 +203,8 @@ print(["Dó tás (Ien(documents)) tái lifu..")</code></pre>
 </ul>
 <p class="lesson-p">* 3. Xây dụng chi muc vector • Chỉ mục nảy sẽ giúp chúng ca tin kiên thống cin nhanh chóng và hiệu quả.
 
-index - VectorStoreIndex.fzom documents (docunenca) print ("Đđ tạo chỉ sực dũ liệu thành công.") 42</p>
-<p class="lesson-p">b) Xây dựng Agent LangChain sử dụng Llamalndex làm công cụ Chúng ta sẽ tạo một công cụ (tool) từ Query Engine của Llamalndex và sau đó tích hợp vào một Agent của LangChain. Agent này sẽ biết khi nào cần sử dụng công cụ đó để tìm kiếm thông tin trong kho dữ liệu của cửa hàng.
+index - VectorStoreIndex.fzom documents (docunenca) print ("Đđ tạo chỉ sực dữ liệu thành công.") 42</p>
+<p class="lesson-p">b) Xây dựng Agent LangChain sử dụng LlamaIndex làm công cụ Chúng ta sẽ tạo một công cụ (tool) từ Query Engine của LlamaIndex và sau đó tích hợp vào một Agent của LangChain. Agent này sẽ biết khi nào cần sử dụng công cụ đó để tìm kiếm thông tin trong kho dữ liệu của cửa hàng.
 
 Tiếp tục đưa phần mã dưới đây vào tệp main.py.</p>
 <p class="lesson-p">1 --- c) Xây dựng một Agent LangChain có khả năng sử dụng chỉ muo của LlamaIndex nhu một công cụ ---
@@ -251,9 +251,9 @@ break</code></pre>
 <p class="lesson-p">Chạy tệp main.py bằng Terminal hoặc Command Prompt đã dùng ở trên (Lưu ý truy cập đúng thư mục chứa tệp main.py và các tệp dữ liệu) và thử hỏi trợ lí ảo</p>
 <p class="lesson-p">các câu hỏi sau:</p>
 <ul class="lesson-bullet-list">
-<li>Sữa tươi Vinamilk có đường giá bao nhiêu? (Agent sẽ dùng Llamalndex Tool).
+<li>Sữa tươi Vinamilk có đường giá bao nhiêu? (Agent sẽ dùng LlamaIndex Tool).
 
-- Cửa hàng có khuyến mãi gì không? (Agent sẽ dùng Llamalndex Tool).
+- Cửa hàng có khuyến mãi gì không? (Agent sẽ dùng LlamaIndex Tool).
 
 - Hôm nay là thứ mây? (Agent sẽ tự trả lời mà không cần dùng Tool vì đây là kiến</li>
 </ul>
@@ -275,9 +275,9 @@ Gõ "thoat" để thoát.</li>
                         </div>
                     </figure>
                     
-<p class="lesson-p">Em sẽ thấy ở đầu ra có phần Thought cho biết Agent đã suy nghĩ và gọi công cụ như thế nào để tìm kiếm thông tin từ chỉ mục Llamalndex. Điều này minh họạ rõ ràng sự kết hợp giữa khả năng điều phối của LangChain và khả năng truy xuất dữ liệu chuyên biệt của Llamalndex.</p>
-<p class="lesson-p">Bạn hỏi: Sữa tươi Vinamilk có đưỡng giá bao nhiều S Running step 8cb88656-5de9-482f-a012-814cb405083d. Step input: Sữa tươi Vinamilk có đường giả bao nhiêu INFO:httpx:HTTP Request: POST http://Localhost:11434/ap1/chat "HTTP/1.1 200 OK"</p>
-<p class="lesson-p">Action Input: ('input": Sữa tươi Vinarilk gid bao nhiều?" nun beans': 5) INFO: httpx:HTTP Request: POST http://Localhost:11434/api/chat *HTTP/1.1 200 ОК" HTTP Request: POST http://Localhost:11434/api/chat "HПTP/1.1 200 OK" Observation: Based on the provided context the price of Vinamilk's fresh mith ts 25,000 WAD per liter > Running step 56c10474-9b6d-47cf-a889-1ca052c39d67. Step Input: None INFO: httpx:HTTP. Request: POST http://LocaLhost:11434/api/chat "HTTP/1.1 200 ОК" HTTP Request: POST http://ocalhost:11434/api/chat "HTTP/1.1 200 ОК™ Thaught: I car ansver vithout using any aore tools, I'IZ use the aser's language to answer Answer: Giá sữa tươi Vinamilh Là 25, 000 VND/Lit.
+<p class="lesson-p">Em sẽ thấy ở đầu ra có phần Thought cho biết Agent đã suy nghĩ và gọi công cụ như thế nào để tìm kiếm thông tin từ chỉ mục LlamaIndex. Điều này minh họạ rõ ràng sự kết hợp giữa khả năng điều phối của LangChain và khả năng truy xuất dữ liệu chuyên biệt của LlamaIndex.</p>
+<p class="lesson-p">Bạn hỏi: Sữa tươi Vinamilk có đưỡng giá bao nhiều S Running step 8cb88656-5de9-482f-a012-814cb405083d. Step input: Sữa tươi Vinamilk có đường giả bao nhiêu INFO:httpx:HTTP Request: POST http://localhost:11434/ap1/chat "HTTP/1.1 200 OK"</p>
+<p class="lesson-p">Action Input: ('input": Sữa tươi Vinarilk gid bao nhiều?" nun beans': 5) INFO: httpx:HTTP Request: POST http://localhost:11434/api/chat *HTTP/1.1 200 ОК" HTTP Request: POST http://localhost:11434/api/chat "HПTP/1.1 200 OK" Observation: Based on the provided context the price of Vinamilk's fresh mith ts 25,000 WAD per liter > Running step 56c10474-9b6d-47cf-a889-1ca052c39d67. Step Input: None INFO: httpx:HTTP. Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 ОК" HTTP Request: POST http://ocalhost:11434/api/chat "HTTP/1.1 200 ОК™ Thaught: I car ansver vithout using any aore tools, I'IZ use the aser's language to answer Answer: Giá sữa tươi Vinamilh Là 25, 000 VND/Lit.
 
 Agent trà Lời: Giá sữa tươi Vinamilk là 25,000 VND/Lit.</p>
 
@@ -297,7 +297,7 @@ Agent trà Lời: Giá sữa tươi Vinamilk là 25,000 VND/Lit.</p>
                 </div>
                 <div class="section-body">
             
-<p class="lesson-p">1. Trong ví dụ ở phần thực hành, thành phần nào của LangChain giúp LLM quyết định khi nào cần sử dụng công cụ truy xuất thông tin từ Llamalndex?
+<p class="lesson-p">1. Trong ví dụ ở phần thực hành, thành phần nào của LangChain giúp LLM quyết định khi nào cần sử dụng công cụ truy xuất thông tin từ LlamaIndex?
 
 A. Chains.</p>
 <p class="lesson-p">B. Memory.</p>
@@ -306,7 +306,7 @@ A. Chains.</p>
 <p class="lesson-p">2. Việc Lamalndez lố chúc dũ bậu sản phâm thành mộn chi mus (oner) so vai ko nao là quan trong nhất trong quá trình BAG!</p>
 <p class="lesson-p">A. Giúp LLM ghi nhỏ lịch sử hội thoái.</p>
 <p class="lesson-p">B. Giúp LLM ra quyết định các buợc hành động tiêp theo.</p>
-<p class="lesson-p">C. Đám bảo thông tin được truy xuất nhanh chóng và chính vác; khi cần.</p>
+<p class="lesson-p">C. Đám bảo thông tin được truy xuất nhanh chóng và chính vác; khi cần.</p>
 <p class="lesson-p">D. Định dạng lại dâu ra của LLM thành JSON.</p>
 <p class="lesson-p">3. Hãy giải thích tại sao việc kết hợp LangChain và Lamalndey lại hiệu quả hơn sọ với việc chí sử dụng một trong hai cho một cng dung tra li ào phúc lap nhu của An.</p>
 </div></section>

@@ -43,7 +43,7 @@
 <p class="lesson-p">có thế làm tại nhà với các nguyên liệu có sản trong cửa hàng (cần</p>
 <p class="lesson-p">tra cứu công thức và kiếm tra</p>
 <p class="lesson-p">nguyen liệu có trong kho).</p>
-<p class="lesson-p">Đế giải quyết các yêu cầu phức tạp này, cần một công cụ giúp trợ lí áo "quản lí" toàn bộ quá trình, từ việc</p>
+<p class="lesson-p">Đế giải quyết các yêu cầu phức tạp này, cần một công cụ giúp trợ lí ảo "quản lí" toàn bộ quá trình, từ việc</p>
 <p class="lesson-p">hiêu ý định, chọn công cụ phù hợp (tra cứu giá, tính toán, tìm công thức)</p>
 <p class="lesson-p">cho đên khi đưa ra câu trả lời cuối cùng. Theo em, những công cụ nào có thể giúp An thực hiện điêu này?</p>
 
@@ -64,8 +64,8 @@
                 </div>
                 <div class="section-body">
             
-<p class="lesson-p">Thư viện nguồn mở là bộ công cụ công khai, giúp nhà phát triển xây dựng ứng dụng nhanh chóng, không cần viết lại từ đầu. LangChain và Llamalndex là hai thư viện nguồn mở tiêu biểu, chuyên biệt cho ứng dụng LLM.</p>
-<p class="lesson-p">LangChain đóng vai trò quản lí luồng chính, kết nối LLM với dữ liệu bên ngoài và cho phép thực hiện các chuỗi hành động phức tạp. Llamalndex tập trung vào truy xuất và xử lí dữ liệu cho hệ thống RAG, giúp LLM truy cập và hiếu thông tin từ dữ liệu riêng của em một cách hiệu quả. Cả hai đều đơn giản hóá việc xây dựng ứng dụng LLM tiên tiến.</p>
+<p class="lesson-p">Thư viện nguồn mở là bộ công cụ công khai, giúp nhà phát triển xây dựng ứng dụng nhanh chóng, không cần viết lại từ đầu. LangChain và LlamaIndex là hai thư viện nguồn mở tiêu biểu, chuyên biệt cho ứng dụng LLM.</p>
+<p class="lesson-p">LangChain đóng vai trò quản lí luồng chính, kết nối LLM với dữ liệu bên ngoài và cho phép thực hiện các chuỗi hành động phức tạp. LlamaIndex tập trung vào truy xuất và xử lí dữ liệu cho hệ thống RAG, giúp LLM truy cập và hiếu thông tin từ dữ liệu riêng của em một cách hiệu quả. Cả hai đều đơn giản hóa việc xây dựng ứng dụng LLM tiên tiến.</p>
 <h3 class="subheading-h3"><span class="h3-num">1.</span> LangChain - Bộ khung kết dính các thành phần LLM</h3>
 <p class="lesson-p">LLM rất thông minh và có kiến thức tổng quát rộng lớn. Tuy nhiên, LLM thường gặp giới hạn: chúng không có thông tin cụ thể của riêng từng cá nhân (ví dự: giá sản phẩm ở cửa hàng tạp hoá nhà An) và không thể tự động thực hiện các hành động phức tạp (như gửi thư điện tử, tra cứu trên mạng).</p>
 <p class="lesson-p">LangChain chính là giải pháp cho vấn đề này. LangChain là một bộ khung (framework) mã nguồn mở giúp:</p>
@@ -108,7 +108,7 @@
 </ul>
 <p class="lesson-p">nhất để trả lời truy vấn, sử dụng các công cụ có sẵn. Vi dụ: Là bộ não điều khiến giúp LLM lự lên kế hoạch và thực hiện các bước như "tìm thông tin khuyến mãi" rồi "trả lời khách".</p>
 <ul class="lesson-bullet-list">
-<li>Mô-dun truy xuất (Retrieval Modules): Tạo điều kiện xây dựng hệ thông</li>
+<li>Mô-dun truy xuất (Retrieval Modules): Tạo điều kiện xây dựng hệ thống</li>
 </ul>
 <p class="lesson-p">RAG, cung cấp công cụ để chuyển đổi, lưu trữ, tìm kiếm và truy xuất thông tin từ dữ liệu riêng của em. Vi dụ: Kho dữ liệu nội bộ giúp LLM tìm kiếm thông tin</p>
 <p class="lesson-p">cụ thể (ví dụ: giá sản phẩm) từ các tài liệu riêng của cửa hàng gia đình An.</p>
@@ -124,7 +124,7 @@
 <p class="lesson-p">LangChain, ngôi nhà thông minh làm việc dựa vào quy trình làm việc hay còn</p>
 <p class="lesson-p">ghành một nhiệm vụ. Mỗi hành động nhỏ trong một chuối được gọi là một liên kết (Link). Vi dụ dưới đây làm rõ hai khái niệm chuỗi và liên kết.</p>
 <p class="lesson-p">Chuỗi hành động (Chain)</p>
-<p class="lesson-p">Quy trinh hoàn chính giái quyét bài taàn</p>
+<p class="lesson-p">Quy trinh hoàn chỉnh giái quyét bài taàn</p>
 <p class="lesson-p">Phần tích đề bải Tìm kiém kiến thức liên</p>
 <p class="lesson-p">Lập luận và giải Trình bày lời giải</p>
 <p class="lesson-p">quan</p>
@@ -145,16 +145,16 @@
 • Hồ trợ hành động phức tạp: Giúp LLM thực hiện nhiều bước logic, kết nối với các công cụ bên ngoài (như tim kiếm web, gửi thư điện từ) để hoàn thành nhiệm vụ phức tạp.</li>
 <li>Tăng cường khả năng ứng dụng thực tế: Giúp LLM hoạt động hiệu quả hơn trong các tình huống đời thực, thông qua việc tố chức các quy trình làm việc (chuỗi) và tích hợp các công cụ (liên kết).</li>
 </ul>
-<h3 class="subheading-h3"><span class="h3-num">2.</span> Llamalndex - Thù kho chuyên nghiệp cho dữ liệu</h3>
-<p class="lesson-p">Để trợ lí ào của An trả lời được câu hỏi 2 kg gạo ST25 có giá bao nhiêu?, LLM cần có thông tin về giá gạo. Các LLM lớn thường chỉ được huần luyện trên dữ liệu công khai và không có kiên thức cụ thể về giá trong cừa hàng của gia đình An. Đây là lúc chúng ta cần đến Llamalndex.</p>
-<p class="lesson-p">Tiếp nối LangChain, Llamalndex cũng là một khung làm việc (framework) mã nguồn mở, nhưng được thiết kế chuyên biệt để giúp các ứng dụng LLM tương tác hiệu quả với dữ liệu riêng tư hoặc bên ngoài. Nó giống như một thủ kho</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> LlamaIndex - Thù kho chuyên nghiệp cho dữ liệu</h3>
+<p class="lesson-p">Để trợ lí ào của An trả lời được câu hỏi 2 kg gạo ST25 có giá bao nhiêu?, LLM cần có thông tin về giá gạo. Các LLM lớn thường chỉ được huần luyện trên dữ liệu công khai và không có kiên thức cụ thể về giá trong cừa hàng của gia đình An. Đây là lúc chúng ta cần đến LlamaIndex.</p>
+<p class="lesson-p">Tiếp nối LangChain, LlamaIndex cũng là một khung làm việc (framework) mã nguồn mở, nhưng được thiết kế chuyên biệt để giúp các ứng dụng LLM tương tác hiệu quả với dữ liệu riêng tư hoặc bên ngoài. Nó giống như một thủ kho</p>
 <p class="lesson-p">chuyên nghiệp, giúp LLM dễ dàng tìm kiếm và sử dụng thông tin từ kho hàng riêng của em.</p>
-<p class="lesson-p">Llamalndex được tối ưu hóá cho các tác vụ RAG - quá trình AI truy xuất thông tin liên quan từ một kho dữ liệu rồi dùng chúng để tạo ra câu trả lời chính xác và</p>
+<p class="lesson-p">LlamaIndex được tối ưu hóa cho các tác vụ RAG - quá trình AI truy xuất thông tin liên quan từ một kho dữ liệu rồi dùng chúng để tạo ra câu trả lời chính xác và</p>
 <p class="lesson-p">đáng tin cậy hơn.</p>
-<p class="lesson-p">Llamalndex là một khung làm việc chuyên biệt đề kết nối LLM với dữ liệu bên ngoài/riêng tư với nhiệm vụ trọng tâm là tối ưu hóa cho tác vụ RAG, đặc biệt là phần truy xuất dữ liệu.</p>
-<p class="lesson-p">Vai trò của Llamalndex trong truy xuất và xử lí dữ liệu cho RAG Llamalndex tập trung sâu vào phần truy xuất trong RAG. Nó giúp giải quyết bài toán lớn khi LLM thiếu kiến thức về dữ liệu chuyên biệt của bạn. Dưới đây là cách</p>
+<p class="lesson-p">LlamaIndex là một khung làm việc chuyên biệt đề kết nối LLM với dữ liệu bên ngoài/riêng tư với nhiệm vụ trọng tâm là tối ưu hóa cho tác vụ RAG, đặc biệt là phần truy xuất dữ liệu.</p>
+<p class="lesson-p">Vai trò của LlamaIndex trong truy xuất và xử lí dữ liệu cho RAG LlamaIndex tập trung sâu vào phần truy xuất trong RAG. Nó giúp giải quyết bài toán lớn khi LLM thiếu kiến thức về dữ liệu chuyên biệt của bạn. Dưới đây là cách</p>
 <p class="lesson-p">Lamalndex đơn giản hóa các bước phức tạp của RAG liên quan đến dữ liệu:</p>
-<p class="lesson-p">E Thành phán Llamalndex gòm có:</p>
+<p class="lesson-p">E Thành phán LlamaIndex gòm có:</p>
 <ul class="lesson-bullet-list">
 <li>Data Connectors</li>
 </ul>
@@ -171,28 +171,28 @@
                     <figure class="lesson-figure-box">
                         <div class="figure-placeholder">
                             <span class="fig-badge">🖼️ Minh họa trong sách</span>
-                            <figcaption class="figure-caption">Hình 4.4. Các thành phần của Llamalndex</figcaption>
+                            <figcaption class="figure-caption">Hình 4.4. Các thành phần của LlamaIndex</figcaption>
                         </div>
                     </figure>
                     
-<p class="lesson-p">1) Thu thập dữ liệu (Data Connectors): An có thể có dữ liệu cửa hàng ở nhiều nơi: tệp Excel, lệp PDF chứa chính sách khuyên mãi, thông tin trên trang web hoặc thậm chí là các ghi chú viết tay mà An đã sô hoá. Llamalndex cung cấp các</p>
+<p class="lesson-p">1) Thu thập dữ liệu (Data Connectors): An có thể có dữ liệu cửa hàng ở nhiều nơi: tệp Excel, lệp PDF chứa chính sách khuyên mãi, thông tin trên trang web hoặc thậm chí là các ghi chú viết tay mà An đã sô hoá. LlamaIndex cung cấp các</p>
 <p class="lesson-p">Data Connectors giúp tải dữ liệu từ vô số nguồn khác nhau một cách dễ dàng.
 
-Vị dụ: Llamalndex có thể đọc trực tiếp từ tệp .xlsx của bảng giá, tệp .pdf của hợp đồng thuê mặt bằng (để biết giờ đóng mở cửa), hoặc tự động thu thập thông tin tử một trang web đơn giản của cửa hàng.</p>
-<p class="lesson-p">2) Tổ chức và lưu trữ dữ liệu (Data Indexes): Sau khi tải về, dữ liệu thô thường không được tổ chức một cách hiệu quả để tìm kiếm. Llamalndex sẽ xử lí (chia nhỏ văn bản, biểu diễn vector) và tổ chức dữ liệu này thành các chỉ mục dữ liệu.</p>
-<p class="lesson-p">Vị dụ: Thay vì để LLM đọc cà một tệp PDF dài, Llamalndex sẽ chia tệp đó thành các đoạn nhỏ hơn, biến mỗi đoạn thành một "mục lục" có thể tìm kiếm được. Khi khách hỏi về giá sữa Vinamilk, Llamalndex không cần đọc lại cả cuốn số tay sản phẩm mà chỉ cần tìm đến "mục" có thông tin về sữa. Đặc biệt, Vector Store Index là loại chỉ mục phổ biến nhất, giúp tìm kiếm thông tin dựa trên ý nghĩa (semantic</p>
+Vị dụ: LlamaIndex có thể đọc trực tiếp từ tệp .xlsx của bảng giá, tệp .pdf của hợp đồng thuê mặt bằng (để biết giờ đóng mở cửa), hoặc tự động thu thập thông tin tử một trang web đơn giản của cửa hàng.</p>
+<p class="lesson-p">2) Tổ chức và lưu trữ dữ liệu (Data Indexes): Sau khi tải về, dữ liệu thô thường không được tổ chức một cách hiệu quả để tìm kiếm. LlamaIndex sẽ xử lí (chia nhỏ văn bản, biểu diễn vector) và tổ chức dữ liệu này thành các chỉ mục dữ liệu.</p>
+<p class="lesson-p">Vị dụ: Thay vì để LLM đọc cà một tệp PDF dài, LlamaIndex sẽ chia tệp đó thành các đoạn nhỏ hơn, biến mỗi đoạn thành một "mục lục" có thể tìm kiếm được. Khi khách hỏi về giá sữa Vinamilk, LlamaIndex không cần đọc lại cả cuốn số tay sản phẩm mà chỉ cần tìm đến "mục" có thông tin về sữa. Đặc biệt, Vector Store Index là loại chỉ mục phổ biến nhất, giúp tìm kiếm thông tin dựa trên ý nghĩa (semantic</p>
 <p class="lesson-p">search) chứ không chỉ dựa trên từ khoá đơn thuần.</p>
-<p class="lesson-p">3) Truy xuất thông tin (Retrieval): Khi có một câu hỏi từ khách hàng, Retriever của Llamalndex sẽ làm nhiệm vụ tim kiếm thông tin liên quan nhất từ các Data Indexes đã được tổ chức. Đây là trái tim của quá trình truy xuất trong RAG.</p>
+<p class="lesson-p">3) Truy xuất thông tin (Retrieval): Khi có một câu hỏi từ khách hàng, Retriever của LlamaIndex sẽ làm nhiệm vụ tim kiếm thông tin liên quan nhất từ các Data Indexes đã được tổ chức. Đây là trái tim của quá trình truy xuất trong RAG.</p>
 <p class="lesson-p">Vị dụ: Khách hàng hỏi: Mì tôm Hảo Hảo còn không?, Retriever sẽ vào Vector</p>
 <p class="lesson-p">Store Index, tìm kiếm những đoạn văn bản trong cơ sở dữ liệu của An mà có ý nghĩa gân nhất với câu hỏi này (ví dụ: dòng Mì tôm Hảo Hảo gói: 5 000 VNĐ/gói.)</p>
-<p class="lesson-p">4) Bộ máy truy vấn (Query Engines): Sau khi Retriever tìm được thông tin liên quan, Query Engines của Llamalndex sẽ kết hợp thông tin đó với câu hỏi gốc của người dùng và chuyến giao cho LLM. LLM sau đó sẽ sử dụng cà câu hỏi và thông tin được truy xuất để tạo ra một câu trả lời chính xác, tự nhiên và phù hợp.
+<p class="lesson-p">4) Bộ máy truy vấn (Query Engines): Sau khi Retriever tìm được thông tin liên quan, Query Engines của LlamaIndex sẽ kết hợp thông tin đó với câu hỏi gốc của người dùng và chuyến giao cho LLM. LLM sau đó sẽ sử dụng cà câu hỏi và thông tin được truy xuất để tạo ra một câu trả lời chính xác, tự nhiên và phù hợp.
 
 Ví dụ: Query Engine sẽ lấy câu hỏi Gạo ST25 giá bao nhiêu? và đoạn văn bản đã truy xuất Gạo ST25 5 kg: 120 000 VNĐ, sau đó đưa cho LLM. LLM sẽ trả lời: Dạ,</p>
 <p class="lesson-p">gạo ST25 loại 5 kg có giá 120 000 VNĐ ạ.
 
 36</p>
-<p class="lesson-p">Như vày. Llamalndex chinh là cầu nổi vững chắc giữa LLM và kho kiến thức riêng của em, giúp LLM có thể trả lời các câu hỏi cụ thế, chính xác và cập nhật mà bân thân LLM chưa được huân luyện.</p>
-<p class="lesson-p">Thành phần Llamalndex gồm có:
+<p class="lesson-p">Như vày. LlamaIndex chinh là cầu nổi vững chắc giữa LLM và kho kiến thức riêng của em, giúp LLM có thể trả lời các câu hỏi cụ thế, chính xác và cập nhật mà bân thân LLM chưa được huân luyện.</p>
+<p class="lesson-p">Thành phần LlamaIndex gồm có:
 
 • Data Connectors: Tài dữ liệu từ nhiều nguồn.</p>
 <p class="lesson-p">CANNO</p>
@@ -221,7 +221,7 @@ B. Cung câp một khung làm việc để xây dựng các ứng dụng phức 
 <p class="lesson-p">C. Chuyên dùng để phân tích dữ liệu số lớn.</p>
 <p class="lesson-p">D. Là một công cụ chinh sửa video bằng AI.
 
-2. Để xây dựng một ứng dụng RAG, phần nào trong Llamalndex sẽ chịu trách nhiệm chính trong việc "tài" dữ liệu từ các tệp PDF, trang web hay cơ số dữ liệu?</p>
+2. Để xây dựng một ứng dụng RAG, phần nào trong LlamaIndex sẽ chịu trách nhiệm chính trong việc "tài" dữ liệu từ các tệp PDF, trang web hay cơ số dữ liệu?</p>
 <p class="lesson-p">A. Data Indexes.
 
 B. Data Connectors.</p>
