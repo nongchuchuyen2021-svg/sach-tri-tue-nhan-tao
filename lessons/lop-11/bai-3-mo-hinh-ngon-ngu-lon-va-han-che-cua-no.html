@@ -66,7 +66,7 @@ Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. K
 <p class="lesson-p">Bước 3. Cơ chế tự chú ý giúp mô hình xác định từ nào trong câu quan trọng hơn trong từng ngữ cảnh. Trong prompt trên, từ "kế" sẽ được chú ý vi nó là hành động chính; mô hình học cách hiểu rằng "câu chuyện cổ tích" là một cụm có nghĩa và "Việt Nam" là tính từ mô tả "câu chuyện".</p>
 <p class="lesson-p">Bước 4. Sau khi hiểu ngữ cảnh và yêu cầu, mô hình sẽ tìm kiếm một truyện cổ tích Việt Nam đã được huấn luyện và viết lại kết quả ở dạng mã hoa.</p>
 <p class="lesson-p">Bước 5. Kết quả viết lại được giải mã về ngôn ngữ tự nhiên.</p>
-<p class="lesson-p">Bước 6. Mô hình trả về câu trả lời hoàn chỉnh: "Sau đây là một câu chuyện cổ tích Việt Nam: "Ngày xừa ngày xưa...". Nếu có yêu cầu gì thêm, hãy vui lòng cho tôi biết"</p>
+<p class="lesson-p">Bước 6. Mô hình trả về câu trả lời hoàn chỉnh: "Sau đây là một câu chuyện cổ tích Việt Nam: "Ngày xửa ngày xưa...". Nếu có yêu cầu gì thêm, hãy vui lòng cho tôi biết"</p>
 <p class="lesson-p">Kiến trúc Tranformer</p>
 <p class="lesson-p">Chia yêu cầu đầu vào thành các từ</p>
 <p class="lesson-p">Mã hóa dữ liệu</p>
@@ -82,15 +82,15 @@ Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. K
                         </div>
                     </figure>
                     
-<p class="lesson-p">Kiến trúc Transformer là kiến trúc nền tảng cho hầu hết các LLM hiện nay Kiến trúc Transformer sử dụng cơ chế tự chú ý (Self-Attention) để mô hinh</p>
+<p class="lesson-p">Kiến trúc Transformer là kiến trúc nền tảng cho hầu hết các LLM hiện nay Kiến trúc Transformer sử dụng cơ chế tự chú ý (Self-Attention) để mô hình</p>
 <p class="lesson-p">hiểu ngữ cảnh và yêu cầu từ người dùng</p>
 <h4 class="subheading-h4"><span class="h4-letter">b)</span> Huấn luyện mô hình ngôn ngữ lớn</h4>
 <p class="lesson-p">Huấn luyện LLM là quá trình giúp LLM học cách hiểu và đáp ứng các yêu cầu bằng ngôn ngữ tự nhiên thông qua việc xử lí một lượng dữ liệu khống lồ. Quá trình này thường được tiền hành qua ba giai đoạn chính:</p>
 <p class="lesson-p">Giai đoạn 1. Tiền huấn luyện (Pre-training): Huấn luyện mô hình trên một lượng dữ liệu văn bản khổng lồ từ Internet, sách vờ,... Mục tiêu là học các mẫu ngôn</p>
 <p class="lesson-p">ngữ, kiến thức tổng quát (thường là dự đoán từ tiếp theo - Phương pháp huấn luyện là học tự giám sát (self-supervised learning)). Giai đoạn này tốn chi phí rất lớn cho dữ liệu và quá trình huấn luyện.</p>
-<p class="lesson-p">Giai đoạn 2. Tỉnh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tôm tắt) hoặc để tuần theo hướng dẫn (Instruction Fine-tuning).</p>
+<p class="lesson-p">Giai đoạn 2. Tinh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tôm tắt) hoặc để tuần theo hướng dẫn (Instruction Fine-tuning).</p>
 <p class="lesson-p">Giai đoạn 3. Học củng cố từ phản hồi người dùng (Reinforcement Learning from Human Feedback - RLHF): Sử dụng phản hồi của con người (đánh giá câu trả lời nào tốt hơn) để huấn luyện mô hình tạo ra các câu trả lời hữu ích, trung thực và an toàn hơn. Giai đoạn 3 thường cho Chat Model.</p>
-<p class="lesson-p">Việc huấn luyện một mô hình ngôn ngữ lớn dùng rất nhiều dữ liệu, lên đến hàng trăm tỉ từ. Máy tinh dùng để huấn luyện cũng phải rất mạnh, gồm hàng nghin chịp xử lí hiện đại. Điều đó cho thấy việc tạo ra LLM cần rất nhiều tài nguyên và</p>
+<p class="lesson-p">Việc huấn luyện một mô hình ngôn ngữ lớn dùng rất nhiều dữ liệu, lên đến hàng trăm tỉ từ. Máy tinh dùng để huấn luyện cũng phải rất mạnh, gồm hàng nghìn chịp xử lí hiện đại. Điều đó cho thấy việc tạo ra LLM cần rất nhiều tài nguyên và</p>
 <p class="lesson-p">Quá trình huấn luyện LLM</p>
 <p class="lesson-p">Học củng cố từ phản hồi</p>
 <p class="lesson-p">Tiền huấn luyện Tinh chỉnh</p>
@@ -140,7 +140,7 @@ tiền huấn luyện, tinh chỉnh và học cùng cố nhờ phản hồi từ
 <ul class="lesson-bullet-list">
 <li>Thiếu khả năng suy luận mối quan hệ thực sự giữa nguyên nhân và kết quả:</li>
 </ul>
-<p class="lesson-p">LLM chủ yếu dự đoán dựa trên thống kê, không phải dựa trèn hiểu biết thật về nguyên nhân và hệ quả.</p>
+<p class="lesson-p">LLM chủ yếu dự đoán dựa trên thống kê, không phải dựa trên hiểu biết thật về nguyên nhân và hệ quả.</p>
 <ul class="lesson-bullet-list">
 <li>Dễ bị ảnh hưởng bởi prompt: Kết quả từ LLM thường bị ảnh hưởng nhiều bởi</li>
 </ul>

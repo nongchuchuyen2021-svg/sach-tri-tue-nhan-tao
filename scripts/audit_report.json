@@ -1,0 +1,5255 @@
+[
+  {
+    "book": "lop-10",
+    "lesson": "cong-van-tham-dinh-bia-lot",
+    "line": "theo chi đạo tại Công văn số 1362/BGDĐT-GDPT ngày 31/12/2025",
+    "suspicious": [
+      "1362/BGDĐT-GDPT",
+      "31/12/2025"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-1-tri-tue-nhan-tao",
+    "line": "Trợ lí ảo  như Siri hay Google Assistant dùng công nghệ xử lí ngôn ngữ tự nhiên (NLP) và nhận dạng giọng nói để hỗ trợ người dùng hỏi/đáp, đặt báo thức và điều khiển thiết bị thông minh.",
+    "suspicious": [
+      "hỏi/đáp"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-1-tri-tue-nhan-tao",
+    "line": "Hệ thống gợi ý  trên YouTube, Netflix hay Shopee sử dụng kĩ thuật lọc cộng tác (Collaborative Filtering) và học sâu (Deep Learning) để đề xuất nội dung phù hợp, giúp tăng thời gian sử dụng và doanh thu.",
+    "suspicious": [
+      "Shopee",
+      "Collaborative",
+      "Filtering"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-1-tri-tue-nhan-tao",
+    "line": "Công nghệ nhận dạng khuôn mặt  như FaceID dùng thị giác máy tính và mạng nơ-ron tích chập (CNN) để mở khoá thiết bị, kiểm soát ra/vào và giám sát an ninh.",
+    "suspicious": [
+      "ra/vào"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-1-tri-tue-nhan-tao",
+    "line": "Ô tô tự lái  như Tesla Autopilot sử dụng camera, radar, LiDAR (cảm biến đo khoảng cách bằng laser) và học sâu để hỗ trợ giữ làn, đi cao tốc và đỗ xe tự động.",
+    "suspicious": [
+      "Autopilot",
+      "LiDAR"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-2-ai-tao-sinh",
+    "line": "Những công cụ AI mà Lan và Nam sử dụng là ví dụ của AI tạo sinh - một loại AI có thể tạo ra văn bản, hình ảnh/tranh, âm thanh hoặc video theo yêu cầu. Người dùng nhập yêu cầu mô tả, hệ thống sẽ xử lí và tạo ra kết quả tương ứng",
+    "suspicious": [
+      "ảnh/tranh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-2-ai-tao-sinh",
+    "line": "Một số công cụ AI tạo sinh có thể tạo hình ảnh/tranh như ChatGPT, Craiyon,...",
+    "suspicious": [
+      "ảnh/tranh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-2-ai-tao-sinh",
+    "line": "quả, khả năng thay đổi nội dung,....\n\n3. Sử dụng công cụ khác của AI tạo sinh để tạo nội dung mới. Em hãy chọn một công cụ AI tạo sinh khác với bài học (ví dụ: Bing Image Creator, Gemini,",
+    "suspicious": [
+      "Creator"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon",
+    "line": "Sử dụng được mô hình ngôn ngữ lớn để tạo ảnhh tử văn bản.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon",
+    "line": "Khi người dùng nhập một đoạn mô tả bằng lời, LLM sẽ tiếp nhận và phân tích nội dung ngôn ngữ trong đoạn văn. Từ đó, hệ thống sẽ xác định các tử khóa và chí tiết như \"lớp học\", \"tán cây\".\"học bài\", rồi chuyển những thông tn này sang dạng dữ liệu phù hợp để mô hình tạo ảnhh xử li. Kết quả là một bức tranh được tạo ra dựa",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon",
+    "line": "Hình 3.2.  LLM có thể tạo ảnhh từ ván bản",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon",
+    "line": "Lớp 10A đang chuẩn bị bài thuyết trình với chủ đề \"Mùa hè đáng nhớ\". Bạn An sử dụng một công cụ AI để viết nội dung bài thuyết trình, trong khi Bình thử tạo hình ảnh minh họa cho phần trình bày. Kết quả mà hai bạn nhận được có sự khác biệt",
+    "suspicious": [
+      "10A"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-4-du-lieu-huan-luyen",
+    "line": "Ví dụ, trong lĩnh vực giao thông đường bộ, một ô lõ tự lái sẽ vận hành tốt nếu được huấn luyện với rất nhiều hình ảnh và tình huống giao thông khác nhau như gặp các đèn tin hiệu giao thông, gặp người đi bộ băng qua đường, các loại hình thời tiết, tình bạng giao thông... Nếu chỉ được huấn luyện với một số ít dữ liệu như vào ban ngày và điều kiện lí tường thì ô tô tự lái có thể gặp khó khăn khi phải",
+    "suspicious": [
+      "bạng"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-5-prompt-giao-tiep-voi-ai-tao-sinh",
+    "line": "Viết được prompt đơn giản cho các tác vụ văn bản và tạo ảnhh trong AI tạo sinh.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-5-prompt-giao-tiep-voi-ai-tao-sinh",
+    "line": "Một prompt được coi là rõ ràng nếu nó giúp AI hiểu đúng việc cần làm, chủ đề llên",
+    "suspicious": [
+      "llên"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-5-prompt-giao-tiep-voi-ai-tao-sinh",
+    "line": "muốn email thể hiện sự trân trọng, nhắc lại một ấn tượng đàng nhớ trong giờ học và thông báo thời gian, địa điểm của buổi sinh hoặt.",
+    "suspicious": [
+      "hoặt"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-5-prompt-giao-tiep-voi-ai-tao-sinh",
+    "line": "+ Buổi sinh hoạt diễn ra lúc 14h00, thứ Sáu ngày 24/10/2025, tại phòng học",
+    "suspicious": [
+      "14h00",
+      "24/10/2025"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-5-prompt-giao-tiep-voi-ai-tao-sinh",
+    "line": "lớp 10A2. Giọng văn trang trọng, gần gũi. Kết thư có lời mời cô xác nhận",
+    "suspicious": [
+      "10A2"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-5-prompt-giao-tiep-voi-ai-tao-sinh",
+    "line": "qua từng lời nói.\". Buổi sinh hoạt diễn ra lúc 14h00, thứ Sáu ngày 24/10/2025, tại phòng học lớp 10A2. Giọng văn trang trọng, ấm áp. Kết thư có lời mời cô xác",
+    "suspicious": [
+      "14h00",
+      "24/10/2025",
+      "10A2"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-5-prompt-giao-tiep-voi-ai-tao-sinh",
+    "line": "image-creator hoặc https://www.bing.com/images/create,...",
+    "suspicious": [
+      "image-creator",
+      "www",
+      "com/images/create"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "Trong tỉnh huống Khới động, nhóm bạn Minh đã sử dụng Ai tạo sinh để tim them tư liệu và hình ảnh minh hoa cho bài thuyết trình môn Lịch sử. Nhờ biết cách kiêm tra, chọn lọc và trình bày lại nội dung, các bạn đã làm bải tốt và được giáo viên khen ngọi. Điều này cho thấy, nếu sử dung đúng cách thì Ai tạo sinh có thế giúp em học tập hiệu quả",
+    "suspicious": [
+      "Khới",
+      "ngọi"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "hoặc mô tả hiện lưyng. Tuy nhiên, với bất kì môn học nào, em chỉ nên sử dụng Ai tạo sinh với vải tro hồ trọ. Chính em là người cần hiểu, ghi nhớ và trình bày lại",
+    "suspicious": [
+      "lưyng"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "Ngoài việc tim thông tin, AI còn có thể hỏ ty em trong việc lập kể hoạch học tập chuẩn bị bài, luyện lập theo chú đề hoậc mù rông kì ráng khi cần thiết",
+    "suspicious": [
+      "hoậc"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "Vị dụ: Bạn Trang thử nghiệm dùng AI để tạo ảnhh minh hoạ cho bài thuyết trình Trang chọn lọc nội dung phù hợp, yêu cầu AI không tạo ra hình ảnh gây tranh cãi hay phản cảm.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "(never/see) a lion before.",
+    "suspicious": [
+      "never/see"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "(finish) my homework already.",
+    "suspicious": [
+      "homework"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "I last visited my grandparents two years ago.",
+    "suspicious": [
+      "visited",
+      "grandparents"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "→ Ihaven't...",
+    "suspicious": [
+      "Ihaven"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "Ví dụ ghi chú: \"Em làm đúng 2/3 câu trắc nghiệm. Ở câu viết lại, AI cho đáp án",
+    "suspicious": [
+      "2/3"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "I haven't visited my grandparents for two years, em hỏi lại tại sao không dùng since two years ago và AI giải thích thêm về cách dùng since/for. Nhờ vậy em hiểu rõ hơn.\".",
+    "suspicious": [
+      "visited",
+      "grandparents",
+      "since/for"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "HM Vese I VGC",
+    "suspicious": [
+      "Vese",
+      "VGC"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-6-ai-tao-sinh-ho-tro-hoc-tap",
+    "line": "AI Heinesicy",
+    "suspicious": [
+      "Heinesicy"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-7-phan-biet-that-gia-trong-ai-tao-sinh",
+    "line": "A. Một đoạn văn trỏi chảy nhưng chứa thông tín",
+    "suspicious": [
+      "trỏi"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-8-hieu-dung-ve-ai-tao-sinh-thien-vi-hieu-lam-va-tac-hai-voi-con-nguoi",
+    "line": "Sau bảl học này, em sẻ:",
+    "suspicious": [
+      "bảl"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-8-hieu-dung-ve-ai-tao-sinh-thien-vi-hieu-lam-va-tac-hai-voi-con-nguoi",
+    "line": "Sử dụng Ai công bằng nghĩa là tôn trọng sự đa dạng và đàm bảo không để AI gây bất lợi cho bất kì câ nhân hay nhóm người nào. Khi phát hiện kết quả có dấu hiệu thiên vị, loại trừ hoặc chưa phù hợp, con người cần can thiệp để điều chỉnh. Điều này đặc biệt quan trọng trong các lĩnh vực như tuyển dụng, giáo dục, truyền thông - nơi mỗi quyết định đều ảnh hưởng trực tiếp đến con người.",
+    "suspicious": [
+      "câ"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-9-cong-dan-so-trong-ki-nguyen-ai",
+    "line": "gia, với nội dung nói rằng Bộ Y tế vừa thử nghiệm thành công một loại thuốc mới hỗ trợ tăng cường sức đề kháng và có khả năng giúp ngủ ngon hơn. Nhân vật trong video kêu gọi mọi người chia sẻ rộng rãi, đồng thời chỉ cần bấm theo dõi và để lại thông tin cá nhân ờ phản bình luận thì sẽ được gửi tặng thuốc miễn phí. Một",
+    "suspicious": [
+      "ờ"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-9-cong-dan-so-trong-ki-nguyen-ai",
+    "line": "Bộ Giáo dục và Đào tạo đã ban hành Thông tư số 02/2025/TT-BGDĐT ngày 24/01/2025 quy định khung năng lực số cho người học, bao gồm sáu miền năng lực: Khai thác dữ liệu và thông tin; Giao tiếp và hợp tác trong môi trường số; Sáng tạo nội dung số; An toàn; Giải quyết vấn đề; Ứng dụng trí tuệ nhân tạo.",
+    "suspicious": [
+      "02/2025/TT-BGDĐT",
+      "24/01/2025"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-9-cong-dan-so-trong-ki-nguyen-ai",
+    "line": "Trong kà nguyên AI, oông dân số cần hình thành những năng lự°c cốt lỗi để sử dụng công nghệ an toàn, hiệu quả, có trách nhiệm, với mục tiêu phát triển bản thân và đóng góp tích cục cho cộng đồng, xã hội.",
+    "suspicious": [
+      "oông"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-9-cong-dan-so-trong-ki-nguyen-ai",
+    "line": "Đánh giá mức độ cần thiết hay việc nên/khỏng nên sử dung AI: Tuy thuộc vào",
+    "suspicious": [
+      "nên/khỏng"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-10-ai-va-nghe-nghiep",
+    "line": "Đức: Thưa thầy, nếu AI làm được nhiều việc như vậy, thì con người sẽ làm gì? Có nghề nào sẽ bị thay thế không ạ?",
+    "suspicious": [
+      "ạ"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-11-moi-truong-phat-trien-san-pham-ai",
+    "line": "Trong tình huống Khởi động, bạn An có đề cập đến việc sử dụng một công cụ giúp tạo ra sản phẩm AI ngay trên trình duyệt. Đây là những nền tảng lập trình trực tuyến như Google Colab hoặc Kaggle, cho phép viết mã, chạy thử và chia sẻ kết quả mà không cần cài đặt phần mềm. Ngoài ra, cũng có các công cụ cần cài đặt như Jupyter Notebook hoặc Visual Studio Code, phù hợp với người đã có kinh nghiệm lập trình. Bài học này giúp các em làm quen với hai công cụ giúp tạo các sản phẩm AI trực tuyến, đó là Google Colab và Kaggle cùng thuộc sở hữu",
+    "suspicious": [
+      "Jupyter"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-11-moi-truong-phat-trien-san-pham-ai",
+    "line": "Google Colab (viết tất của Colaboratory) là một nền tầng lập trình trực tuyến",
+    "suspicious": [
+      "Colaboratory"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-11-moi-truong-phat-trien-san-pham-ai",
+    "line": "This Python 3 environmet coes with aary helpfal analytian Libraries Laralle",
+    "suspicious": [
+      "environmet",
+      "coes",
+      "aary",
+      "helpfal",
+      "analytian",
+      "Libraries",
+      "Laralle"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-11-moi-truong-phat-trien-san-pham-ai",
+    "line": "For eruple, reeleg thie (by eltching run of pressing airtiester) all list all Pales und",
+    "suspicious": [
+      "eruple",
+      "reeleg",
+      "thie",
+      "eltching",
+      "airtiester",
+      "Pales"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-11-moi-truong-phat-trien-san-pham-ai",
+    "line": "(1): Thanh tiêu đề trên cùng và menu:\n\n- notebookff3d2d4339: Tên mặc định của số tay bạn đang làm việc (có thể",
+    "suspicious": [
+      "notebookff3d2d4339"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-11-moi-truong-phat-trien-san-pham-ai",
+    "line": "+ View: Hiển thị/ẩn một số thành phần trên giao diện,",
+    "suspicious": [
+      "thị/ẩn"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-11-moi-truong-phat-trien-san-pham-ai",
+    "line": "Hiển thị bạng thái của phiên làm việc (Session chưa được kích hoạt nếu chưa",
+    "suspicious": [
+      "bạng",
+      "Session"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-11-moi-truong-phat-trien-san-pham-ai",
+    "line": "+ Duyệt qua thư mục /kaggle/input để liệt kê các tệp dữ liệu đầu vào.",
+    "suspicious": [
+      "kaggle/input"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Thực hiện được một sản phẩm sáng tạo kết hợp LLM và công cụ Ai tạo ảnhh.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Sắp tới, trường tổ chức cuộc thi tranh biện với chủ đề \"Trí tuệ nhân tạo có làm giảm khả năng sáng tạo của học sinh?\". Nhóm bạn An được giao xây dựng một dự án truyền thông nhỏ để giới thiệu về cuộc thi đến toàn khối. Để triển khai ý tưởng, các bạn đã sử dụng một công cụ AI tạo sinh để đặt các câu hỏi xây dựng dự án.\n\nDựa trên các gợi ý nhận được, nhóm kiểm tra lại nội dung, viết lại theo cách diễn đạt riêng và sử dụng một công cụ tạo ănh để thiết kế hình minh hoạ cho áp phích.",
+    "suspicious": [
+      "ănh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "đây cũng là cơ hội để em thể hiện quan điểm và phong cách rèng của mình trong sản phẩm.",
+    "suspicious": [
+      "rèng"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Khi sử dụng AI hỗ trợ sáng tạo, em cần có lrách nhiệm với nội dung mình tạo ra. Việc trích dẫn nguồn, chỉnh sửa kết quả AI và không sao chép nguyên văn giúp em phát triển kĩ nắng tư duy, đồng thời tránh vi phạm đạo đức học tập.",
+    "suspicious": [
+      "lrách"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "thoại, mô tả từng cảnh và tạo prompt phù hợp cho công cụ AI tạo ảnhh.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Bước 2. Tương tác có định hướng với AI và kiểm tra, hiệu chỉnh kết quả tạo ảnhh trang 1.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Tạo hình anh từ prompt đã hoàn chỉnh: Em sử dụng công cụ tạo ảnhh bằng AI",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Bước 3. Tương tác có định hướng với AI và kiếm tra, hiệu chỉnh kết quả tạo ảnhh trang 2.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Em sử dụng công cụ tạo ảnhh bằng AI để tạo hình ảnh dựa trên prompt đã được điều chình ở bước trước.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Sau khi tạo ảnhh, em cần quan sát kĩ và đối chiếu với hình ảnh trang 1 để đảm bảo sự thống nhất về nội dung và nhân vật. Cụ thể, em cần lưu ý:",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "ngày hồm qua!",
+    "suspicious": [
+      "hồm"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Bước 5. Tương tác có định hướng với AI và kiểm tra, hiệu chỉnh kết quả tạo ảnhh trang 4.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "hanh. động hoặc tương lắc giữa các nhận. rà nhằm truyền lải nội dung rrfi.",
+    "suspicious": [
+      "rrfi"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Lựa chọn bố cục hình ảnh phú hợp cề trế hiện được mach truyện met cárt,",
+    "suspicious": [
+      "cề",
+      "trế",
+      "cárt"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "cửa niển. có thể kết hợp thêm lòi thoai roir. tiểu cảm nhân vật để tâng tirin tre yet phuc.",
+    "suspicious": [
+      "niển",
+      "roir",
+      "tirin"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "1%., ....4?. Mang 4 trong dàu chuyện của bạn Linh",
+    "suspicious": [
+      "dàu"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Bước 6. Tương tác với AI và kiểm tra, hiệu chỉnh kết quả tạo ảnhh",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Trang 5 là trang rét \"i'n? :j4 tanh, thường mang tính tổng kết, truyền thông điệp hoặc thể hig 1!... 2. ién si, truyện. Em tiếp túc thực hiện các bước tương tự như ở những tá !,: 1'r. \"rg tren chú ý các điềm sau:",
+    "suspicious": [
+      "j4",
+      "hig",
+      "ién",
+      "rg"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Duy tri su th !; \"%i vh, 1, einin, bài cánh và phong cách hình ảnh với toàn bộ",
+    "suspicious": [
+      "einin"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "thuyện tranh.",
+    "suspicious": [
+      "thuyện"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Nếu có kới tạc a rệt \". 12.1134, thông điệp, cần bổ sung vào prompt để Ai tạo ra",
+    "suspicious": [
+      "kới"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "hình ảnh phi irr",
+    "suspicious": [
+      "irr"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Hình ánh kến ríx, \"k7 T4n :uon rở cầm xúc tích cục (vui về, tự tin, gắn kết,...)",
+    "suspicious": [
+      "kến",
+      "ríx",
+      "k7",
+      "T4n",
+      "uon"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "đh gay an turris in sín, ig ri vem hiếu rõ thông điệp của truyện.",
+    "suspicious": [
+      "turris",
+      "sín",
+      "vem"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Sử dụng ngôn ngữ trong sáng, đễ hiều, phú hợp với lửa luổi học sinh. Tránh",
+    "suspicious": [
+      "luổi"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bai-12-bai-tap-du-an",
+    "line": "Em hãy sử dụng công cụ AI tạo sinh (chẳng hạn như ChatGPT, công cụ tạo ảnhh bằng văn bản) để tạo một truyện tranh ngắn (từ 3 đến 5 trang) kể về câu chuyện em tự sáng tác.\n\nYêu cầu:",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "bang-giai-thich-thuat-ngu",
+    "line": "Trí tuê nhân tạo (AI - Artificial Intelligence)",
+    "suspicious": [
+      "tuê"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "trong cuốn sách nùy.",
+    "suspicious": [
+      "nùy"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "Mã số: TXT87P6-SED",
+    "suspicious": [
+      "TXT87P6-SED"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "In 20.000 bản, (QĐ in số 01-STK) khó 19 x 26,5 cm",
+    "suspicious": [
+      "01-STK"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "Đơn vị in : Công ty Có phần In & Bao bì Đồng Tháp Địa chỉ : 212 Lê Lợi, Phường Sa Đéc, Tinh Đồng Tháp Số ĐKXB : 416-2026/CXBIPH/34-168/GD",
+    "suspicious": [
+      "416-2026/CXBIPH/34-168/GD"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "Số QĐXB : 118/QĐXB-GD ngày 11 tháng 02 năm 2026 In xong và nộp lưu chiều tháng 03 năm 2026",
+    "suspicious": [
+      "118/QĐXB-GD"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "Mã số ISBN : 978-604-0-46630-3",
+    "suspicious": [
+      "978-604-0-46630-3"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "TAPIANKO GA CE MANAO",
+    "suspicious": [
+      "TAPIANKO",
+      "MANAO"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "ISBN 978-604-0-46630-3",
+    "suspicious": [
+      "978-604-0-46630-3"
+    ]
+  },
+  {
+    "book": "lop-10",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "VÀ PHÁT TRIỂN GIÁO DỤC PHƯƠNG NAM SEDIDCO 9 786040 466303 Giá: 40.000đ",
+    "suspicious": [
+      "SEDIDCO",
+      "000đ"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "cong-van-tham-dinh-bia-lot",
+    "line": "theo chỉ đạo tại Công văn số 1362/BGDĐT-GDPT ngày 31/12/2025",
+    "suspicious": [
+      "1362/BGDĐT-GDPT",
+      "31/12/2025"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "cong-van-tham-dinh-bia-lot",
+    "line": "NHÀ XUÁT BẢN GIÁO DỤC VIỆT NAM",
+    "suspicious": [
+      "XUÁT"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "loi-noi-dau",
+    "line": "nghệ hiện đại như RAG, gọi hàm, tạo ảnhh và video bằng AI. Qua đó, các",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "muc-luc",
+    "line": "CHỦ ĐỀ 2. NGUYÊN LÍ HOẠT ĐỘNG CỦA MÔ HÌNH NGÔN NGỮ LỚNỮ LỚN",
+    "suspicious": [
+      "LỚNỮ"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "Ngữ cảnh trong prompt là thông tin thém giúp LLM hiểu rõ tình huống, đối tượng hoặc mục tiêu của câu hỏi. Việc đưa thêm ngữ cành giúp LLM hiểu rõ yêu cầu,",
+    "suspicious": [
+      "thém"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "Nếu cung cấp ngữ cảnh người đọc là học sinh lớp 11, LLM sẽ biểu diễn dưới dạng hàm số côsin:",
+    "suspicious": [
+      "côsin"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "Số từ/câu cụ thể: Yêu cầu số từ hoặc số câu chính xác. Vi dụ: \"Hãy tóm tắt",
+    "suspicious": [
+      "từ/câu"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "Chỉ thị (directive): Mô tả hành động chính mà mô hình cần thực hiện.",
+    "suspicious": [
+      "directive"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "Ví dụ (examples): (tuỳ chọn) Một danh sách các ví dụ minh hoa (nếu dùng prompt có vi dụ).",
+    "suspicious": [
+      "examples"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "Ngữ cảnh (contexl): (tuy chọn) Mô tả tình huống, bối cảnh sử dụng hoặc vai trò của mô hình.",
+    "suspicious": [
+      "contexl"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "(*: tưy chọn)",
+    "suspicious": [
+      "tưy"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "A. Giải phương trình x2 + 4x + 3 = 0.",
+    "suspicious": [
+      "4x"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "B. Giải phương trình bằng cách sử dụng công thức nghiệm x2 + 4x + 3 = 0, biện luận số nghiệm của phương trình theo A:",
+    "suspicious": [
+      "4x"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "C. Giải phương trình x? + 4x + 3 = 0, trình bày trong bốn bước:",
+    "suspicious": [
+      "4x"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "D. Hãy giải nhanh phương trình x2 + 4x + 3 = 0 bằng phương pháp phân tích đa thức thành nhân tử.",
+    "suspicious": [
+      "4x"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao",
+    "line": "Giải phương trinh: sinx + cos2x = 0.",
+    "suspicious": [
+      "sinx",
+      "cos2x"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung",
+    "line": "bản nghị luàn",
+    "suspicious": [
+      "luàn"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung",
+    "line": "DANT O",
+    "suspicious": [
+      "DANT"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung",
+    "line": "Gọi hàm (function calling) là một tính năng cho phép mô hình ngôn ngữ lớn kết nối và tương tác với các hàm bên ngoài. Nhờ đỏ, thay vì chỉ dựa vào kiến thức đã",
+    "suspicious": [
+      "function"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung",
+    "line": "Để lưu nội dung đoạn văn và các thông tin liên quan, Lan có thể sử dụng định dạng JSON. JSON (JavaScript Object Notation) là một định dạng văn bản dùng để lưu trữ và trao đổi dữ liệu dưới dạng các cặp (khoa : giá trị). Dữ liệu ở dạng JSON có",
+    "suspicious": [
+      "Object",
+      "Notation"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung",
+    "line": "gọi hàm này tương tự như trong Python, khi ta dùng cú pháp ten _ham (tham_so) để thực hiện một chức năng cụ thể. Tuy nhiên, thay vì viết mã trực tiếp, LLM sử",
+    "suspicious": [
+      "tham_so"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung",
+    "line": "\"function_call\": { \"name\": \"edit_content\", \"arguments\" : {",
+    "suspicious": [
+      "function_call",
+      "edit_content",
+      "arguments"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung",
+    "line": "Khi gặp mã JSON này, ChatGPT gọi hàm edit_content với tham số text chứa đoạn văn gốc và criteria là danh sách sáu tiêu chí. Mô hình sẽ tự động đưa văn bản vào hàm, kiểm tra từng tiêu chi và trả về kết quả đã chỉnh sửa.",
+    "suspicious": [
+      "edit_content"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung",
+    "line": "D. việc sử dụng từ ngữ chuyên mỗn.",
+    "suspicious": [
+      "mỗn"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "mô hình khác, kiến trúc Transformer dựa trên cơ chế tự chú ý (Seli-Attention) cho phép mô hình cân nhắc tầm quan trọng của các từ khác nhau trong câu khi xử lí một từ cụ thể. Cơ chế tự chú ý giúp mô hình nắm bắt ngữ cành và liên hệ giữa",
+    "suspicious": [
+      "Seli-Attention"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "Bước 3. Tự chú ý (self-altention): Mô hình cân nhắc tầm quan trọng của các từ trong yêu cầu. Qua đó giúp mô hình hiểu rõ yêu cầu hơn nhờ hiểu ngữ cảnh và liên hệ giữa các từ",
+    "suspicious": [
+      "self-altention"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "Bước 5. Giải mã dữ liệu (decoding): Kết quả được giải mã từ ngôn ngữ máy tính sang ngôn ngữ tự nhiên.",
+    "suspicious": [
+      "decoding"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "n cu thê, vi dac \"Hày - (025,-0.0 . 057, 26 - F0.03, 0. .., 0.2..",
+    "suspicious": [
+      "F0"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "Kiến trúc Tranformer",
+    "suspicious": [
+      "Tranformer"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "Giai đoạn 1. Tiền huấn luyện (Pre-training): Huấn luyện mô hình trên một lượng dữ liệu văn bản khổng lồ từ Internet, sách vờ,... Mục tiêu là học các mẫu ngôn",
+    "suspicious": [
+      "Pre-training"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "Giai đoạn 2. Tinh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tôm tắt) hoặc để tuần theo hướng dẫn (Instruction Fine-tuning).",
+    "suspicious": [
+      "Instruction"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "Giai đoạn 3. Học củng cố từ phản hồi người dùng (Reinforcement Learning from Human Feedback - RLHF): Sử dụng phản hồi của con người (đánh giá câu trả lời nào tốt hơn) để huấn luyện mô hình tạo ra các câu trả lời hữu ích, trung thực và an toàn hơn. Giai đoạn 3 thường cho Chat Model.",
+    "suspicious": [
+      "Feedback",
+      "RLHF"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "Việc huấn luyện một mô hình ngôn ngữ lớn dùng rất nhiều dữ liệu, lên đến hàng trăm tỉ từ. Máy tinh dùng để huấn luyện cũng phải rất mạnh, gồm hàng nghìn chịp xử lí hiện đại. Điều đó cho thấy việc tạo ra LLM cần rất nhiều tài nguyên và",
+    "suspicious": [
+      "chịp"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "D. LLM không thể tạo ảnhh và video.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no",
+    "line": "Lan cần tạo ảnhh tuyên truyền bào vệ môi trường. Lan chọn một hình ảnh từ Internet và dùng AI để chỉnh sửa lại cho phù hợp. Theo em, trong trường hợp này Lan có thể vi phạm lỗi gì khi sử dụng AI? Để không bị vi phạm, Lan nên làm gì?",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-4-gioi-thieu-ve-rag",
+    "line": "Khi sử dụng kĩ thuật RAG, do sử dụng thêm dữ liệu bên ngoài, nội dung tạo ra chính xác và cập nhật hơn, giảm tình bạng bịa đặt (hallucination). Việc cho phép sử dụng dữ liệu riêng của tổ chức và kiểm chứng được nguồn giúp kết quả đáng tin cây và phù hợp hơn với nhu cầu thực tế.",
+    "suspicious": [
+      "bạng"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-4-gioi-thieu-ve-rag",
+    "line": "Vi dụ: ChatGPT-4, chế độ Search the web, ngoài dữ liệu huấn luyện còn sử dụng",
+    "suspicious": [
+      "ChatGPT-4"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-4-gioi-thieu-ve-rag",
+    "line": "LLM có RAG: Hiện tại (tính đến sau khi Quốc hội thông qua vào ngày 12/6/2025), Viêt Nam có 34 đơn vị hành chính cấp tỉnh, bao gồm 28 tỉnh và 6 thành phố trực thuộc trung ương",
+    "suspicious": [
+      "12/6/2025"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-4-gioi-thieu-ve-rag",
+    "line": "\"iều lượng thuốc cảm\" không chừa phần triệu chứng. Khi đó, câu trả lời không đúng, không liên quan. Nếu dữ liệu ngoài chỉ chứa sách của một tác giả, câu trả lời RAG cũng chỉ dựa theo quan điểm của tác giả đó. Câu trả lời có thể bị thiếu",
+    "suspicious": [
+      "iều"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-4-gioi-thieu-ve-rag",
+    "line": "Ask enything",
+    "suspicious": [
+      "enything"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-4-gioi-thieu-ve-rag",
+    "line": "& Greate an image",
+    "suspicious": [
+      "Greate"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-4-gioi-thieu-ve-rag",
+    "line": "O Wnite or code",
+    "suspicious": [
+      "Wnite"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "1. Mạng nơ-ron nhân tạo là gì?\n\nGiống như con người, các hệ thống AI cô thể ngày càng trở nên thông minh hơn nhờ khả năng học hỏi theo nhiều cách khác nhau. Việc học của hệ thống AI có thể bắt dầu một cách đơn giản bằng việc tuân theo các quy tắc (luật) do con người lập trình sẵn. Bên cạnh đó, các hệ thống AI cũng có khả năng học từ việc quan sại nhiều dữ liệu mẫu, từ đó rút ra quy luật, nhận biết được các đặc điểm và sử dung",
+    "suspicious": [
+      "sại"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "Ý tưởng về mạng nơ-ron nhân tạo xuất phát từ chính bộ não con người. Bộ não của chùng ta là một mạng lưới khống lồ gồm hàng fỉ tế bào thần kinh đặc biệt gọi",
+    "suspicious": [
+      "fỉ"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "là nơ-ron (neuron), được kết nối chẳng chịt với nhau. Mỗi nơ-ron có thể nhận tin hiệu từ rất nhiều nơ-ron khác thông qua các điểm kết nối gọi là khớp thần kinh (synapse). Khi nhận đủ tin hiệu, nơ-ron sinh học sẽ được \"kích hoạt\" và truyền tin",
+    "suspicious": [
+      "synapse"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "Để mính họạ rõ hơn ý tưởng xây dựng ANN, bảng dưới đày mô tả các so sánh tương đối về đặc trưng giữa cấu tạo của nó với mang nơ-ron sinh học.",
+    "suspicious": [
+      "họạ"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "Các tế bào thầnCác nút nơ-ron Là một đơn vị tính toán cơ bản, mô phỏng chức năng của nơ-ron sinh học: tiêp nhận, xử li và",
+    "suspicious": [
+      "thầnCác"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "Học có giám sát (Supervised Learing) là phương pháp học phố biến nhất.",
+    "suspicious": [
+      "Learing"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "động với bộ dữ liệu không được gán nhãn. Thay vì được cho biết trước câu trả lời đúng, mạng nơ-ron phải tự tìm ra các mẫu, các cầu trúc hoặc các mối liên hệ tiềm ẩn trong dữ liệu. Nhiệm vụ của nó là tự sắp xếp, phân loại hoặc ghép nhóm các dữ liệu có đặc điểm tương tự nhau thành các cụm (cluster) mà không cần bất kì sự hướng dẫn nào từ con người.",
+    "suspicious": [
+      "cluster"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "Học tăng cường (Reinforcement Leaming) là phương pháp học thông qua thủ",
+    "suspicious": [
+      "Leaming"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "Vi dụ: Mạng nơ-ron có thể được huấn luyện để phân loại thư điện từ (email) có phải là \"thư rác\" hay không. Để làm được điều này, mạng được cung cấp một lượng lớn email đã được con người gán nhãn thủ công là thư rác hoặc không phải thư rác. Khi một email mới được đưa vào, mạng sẽ phân tích các đặc điểm của nó, như sự xuất hiện của các từ khóa nhất định (ví dụ: \"miến phí\".\n\n\"trứng thường\"), cấu trúc câu, nguồn gừi,... Ban đầu, mạng có thể phân loại sai Tuy nhiên, mỗi khi nó đưa ra dự đoán sai, hệ thống sẽ tính toán mức độ sai sót và điều chỉnh các tham số bên trong. Chẳng hạn, nếu một thư điện tử chứa từ \"miễn phi\" nhưng lại được phân loại là thư quan trọng, mạng sẽ tăng cường trọng số của từ \"miễn phí\" để với lần sau, sự xuất hiện của từ này sẽ có ảnh",
+    "suspicious": [
+      "gừi"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "Thị giác máy tính là lĩnh vực giúp máy tính có khả năng nhìn và hiểu được nội dung của hình ảnh và video. Các mạng nơ-ron nhân tạo, đặc biệt là mạng nơ-ron tích chập (Convolutional Neural Network), đã tạo ra những bước tiền",
+    "suspicious": [
+      "Convolutional"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "Xử lí ngôn ngữ tự nhiên là lĩnh vực giúp máy tính có khả năng nghe, đọc và hiểu được để giao tiếp bằng ngôn ngữ của con người. Mạng nơ-ron, đặc biệt là các kiến trúc như mạng nơ-ron hồi quy (Recurrent Neural Network) và các mỏ hình tiên tiền hơn như Transformer đã tạo ra những bước tiến quan trọng cho lĩnh vực này. Công nghệ này được ứng dụng trong nhiều lĩnh vực, ví dụ:",
+    "suspicious": [
+      "Recurrent"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "c)  Các hệ thống đề xuất (Recommendation Systems)",
+    "suspicious": [
+      "Recommendation"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "Các hệ thống đề xuất là lĩnh vực giúp máy tính có khả năng dự đoán sờ thích của người dùng và gợi ý những sản phẩm, dịch vụ hoặc nội dung phù hợp nhật. Các mạng nơ-ron nhân tạo, đặc biệt là các mô hình như lọc cộng tác (Collaborative Filtering) và các mạng nơ-ron sâu (Deep Neural Networks), là nền tảng cho sự phát triển của lĩnh vực này. Công nghệ này được ứng dụng rộng rãi trong cuộc sống hằng ngày, ví dụ:",
+    "suspicious": [
+      "Collaborative",
+      "Filtering"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-5-mang-no-ron-nhan-tao",
+    "line": "sử dụng mạng nơ-ron để học sở thích hay \"gu\" nghệ thuật của em dựa trên những gì em đã xem hoặc nghe trước đỏ. Hệ thống có thể không chỉ dựa trên thể loại em thích mà còn phân tích các yếu tổ phức lạp hơn như đạo diễn, diễn viên, gial điệu và tâm bạng của bài hảt để đưa ra những gợi ý bất ngờ và thú vị",
+    "suspicious": [
+      "gial",
+      "bạng",
+      "hảt"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "kíp thời nhằm bảo vệ tài khoản cho khách hàng. Cách thứ nhất ờ phần Khởi động chính là một ví dụ của dạng bài toán phân loại này.",
+    "suspicious": [
+      "ờ"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "Gán đối tượng vào các nhỏmTự động khám phá và tạo ra đã biết trước.\n\ncác cụm từ dữ liệu.\n\nDữ liệu đã được gán nhãn Dữ liệu không có nhãn (chưa Dữ liệu đầu vào (biết trước đối tượng thuộc biết đối tượng thuộc nhóm nhóm nào).\n\nHọc có giám sát (dữ liệu Học không giảm sát (dữ liệu Loại hinh học máy",
+    "suspicious": [
+      "nhỏmTự"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "Phân loại (Classification) là quả trình sắp xếp đối tượng vào càc nhóm đã được định nghĩa trước dựa trên dừ liệu có nhãn (học có giảm sát).",
+    "suspicious": [
+      "càc"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "định (Decision Tree) - dựa trên ý tường mô phỏng quá trình ra quyết định của con người bằng một chuỗi các câu hỏi đúng/sai; Naive Bayes - dựa trên việc áp dụng lí thuyết xác suất để tính toán khả năng một đối tượng thuộc về một nhóm nào đó hay Máy vector hỗ trợ (Support Vector Machine - SVM) - dựa trên việc tìm ra một \"ranh giới\" rõ ràng nhất để phân tách các nhóm dữ liệu.",
+    "suspicious": [
+      "đúng/sai",
+      "Naive",
+      "Bayes"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "bằng nhau, phiếu của láng giềng ở càng gần sẽ tương ứng có trọng số cảng cao (vi dự: trọng số = 1/khoảng cách). Nhóm nào có tổng trọng số phiếu bầu lớn nhất sẽ chiến thắng.",
+    "suspicious": [
+      "1/khoảng"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "Mre di tur col",
+    "suspicious": [
+      "Mre",
+      "tur"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "Trong vi dụ trên, chúng ta chỉ dùng hai tiêu chí để dễ dàng minh hoạ và có thế biểu diễn trên mặt phầng toạ độ hai chiều. Trên thực tế, trong bài toán có thể có hang chục, thậm chí hàng trăm tiêu chí. Khi đó, mỗi đối tượng sẽ được biểu diễn",
+    "suspicious": [
+      "phầng"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "trước?. Mỗi thuật toán đưa ra một câu trả lời riêng, dựa trên những cách tiếp cận khác nhau: Thuật toán phân cụm phân cấp (Hierarchical Clustering) xem các nhóm như những nhánh trên một cây gia phá lớn, cho phép chúng ta tháy được mối quan hệ phân cấp từ tổng thể đến chi tiết: thuật toán phân cụm dựa trên mật độ (DBSCAN) định nghĩa một nhóm là một khu vực có \"mật độ\" cao, giúp nó có khả năng tim ra các cụm có hinh dạng phức tạp và lự động loại bỏ các điểm nhiều; thuật toán mô hình hỗn hợp Gaussian (GMM) thi cho rằng mỗi cụm lá một phân phối xác suất hình chuỗng, cho phép một điểm có thể thuộc về nhiều cụm với các mức độ chắc chắn khác nhau,...",
+    "suspicious": [
+      "Hierarchical",
+      "DBSCAN",
+      "Gaussian",
+      "GMM",
+      "chuỗng"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "Tì lệ tương lác nói dung \"Tìn sức - loần thọc\"",
+    "suspicious": [
+      "loần"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "T lộ tương tác nội dung \"Tin tức - Kiến thừc",
+    "suspicious": [
+      "thừc"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "T7 lĐ tưoơng lác nộ",
+    "suspicious": [
+      "T7",
+      "lĐ",
+      "tưoơng"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "ti cong ue st ding cs ir",
+    "suspicious": [
+      "ue"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-6-phan-loai-va-phan-cum-du-lieu",
+    "line": "B. Xây dựng một cây gồm nhiều câu hỏi đúng/sai.\n\nC. Một đối tượng mới sẽ được gán nhãn theo nhóm đa số của các láng giềng",
+    "suspicious": [
+      "đúng/sai"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon",
+    "line": "• Giải thích được vấn đề đạo đức và bản quyền khi dùng AI tạo ảnhh, video.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon",
+    "line": "Trong tình huống ở phần Khởí động, kết quả mà LLM tạo ra chứa thông tin không chính xác và Hà đã phải sửa lại để tránh lan truyền thông tin sai sự thật. Hùng cũng nhắc nhở Hà ghi rõ đã sử dụng AI khi viết. Đây là những vấn để liên quan đến đạo đức khi sử dụng LLM.",
+    "suspicious": [
+      "Khởí"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon",
+    "line": "Khi sử dụng LLM. em cần chú ý một số nguyên tắc cần tuân thủ về đạo dúr.\n\npháp luật và vẫn hóa như sau:",
+    "suspicious": [
+      "dúr"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon",
+    "line": "mô hình hoạt động, dữ liệu huấn luyện, hạn chế (ờ mức độ phù hợp).",
+    "suspicious": [
+      "ờ"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon",
+    "line": "pháp luật, điều khoảnsử dụng, quy định của tổ chức.",
+    "suspicious": [
+      "khoảnsử"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon",
+    "line": "3. Vấn đề đạo đức và bản quyền khi dùng AI tạo ảnhh, video Mặc dù AI có thể tạo, chính sửa ảnh và tạo video nhưng em cần chú ý vấn đề đạo đức và bản quyền khi sử dụng những tinh năng này. Vấn đề bản quyền có thể liên quan đến ảnh, video được sử dụng trong quá trình huấn luyện hoặc sản phẩm có",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon",
+    "line": "AI tạo ra. Khả năng tạo ảnhh và video của LLM cũng có thể bị lợi dụng vào những hành động vi phạm pháp luật và đạo đức.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon",
+    "line": "c)  Đạo đức và pháp luật khi sử dụng AI tạo ảnhh và video",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon",
+    "line": "Vấn đề: AI có thể được sử dụng để tạo ảnhh, video giả mạo.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon",
+    "line": "C. Sử dụng ảnh ở định dạng PNG và JPEG để huấn luyện.",
+    "suspicious": [
+      "PNG"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai",
+    "line": "Việc AI ngày càng chứng tỏ khả năng vượt trội trong nhiều lĩnh vực khiến chúng ta phải đặt ra câu hỏi quan trọng: \"Đâu là giá trị khác biệt và không thể thay thế của con người?\". Rõ rảng, câu trả lời không phải là việc cạnh tranh về tốc độ hay hiệu suất. Thay vào đó, sự khác biệt nằm ở chinh những phẩm chất và năng lực",
+    "suspicious": [
+      "rảng"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai",
+    "line": "đến câu hỏi quan trọng hơn là \"Em sẽ sử dụng AI để làm g1?\". Chinh những lựa chọn và hành động của em sẽ định hình tác động của Ai lên thế giới.",
+    "suspicious": [
+      "g1"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai",
+    "line": "AI không có khả năng lự nhận thức về ranh giới đạo đức. Chính con người phải thiết lập các quy tắc và giới hạn an toàn cho nó. Khi một chiếc xe tự lái gặp tình huống nguy cấp.\n\nngười lập trình phải quyết định nó sẽ ưu tiên bảo vệ ai. Khi một hệ thống AI được dùng trong y tế, các bác sĩ và nhà quản lí phải đảm bảo nó tuân thù các quy tắc về quyền riêng tư của bệnh nhán. Con người không chỉ tạo ra AI, mà còn phải chịu trách nhiệm giám sát và kiểm soát nó",
+    "suspicious": [
+      "nhán"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai",
+    "line": "ENGUSH",
+    "suspicious": [
+      "ENGUSH"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap",
+    "line": "Giải và giải thích bài toán sau: Giải phương trình cos2x - cosx = 0.",
+    "suspicious": [
+      "cos2x",
+      "cosx"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap",
+    "line": "Việc sử dụng LLM trong học ngoại ngữ mang lại nhiều tiện ích như: hỗ trợ học từ, sửa lỗi, luyện ngữ pháp và hội thoại. Em có thể yêu cầu LLM giải nghĩa tử vựng mới và đưa thêm các ví dụ để hiểu rõ hơn cách sử dụng. LLM cũng có thể hỗ trợ sửa các lỗi ngữ pháp, lỗi chính tả trong bải viết (vi dụ: IELTS writing).... khi được yêu cầu.\n\nNgoài ra, em cũng có thể giao tiếp với LLM để cài thiện khả năng hội thoại.",
+    "suspicious": [
+      "IELTS"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap",
+    "line": "Bước 2. Nhập prompt: \"Hãy giải thích nghĩa của các từ \"emission\", \"balance\", \"Carbon\" và \"Methane\" và cho ba ví dụ minh hoạ cho mỗi từ kèm theo giải thích chi tiết\".",
+    "suspicious": [
+      "emission"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh",
+    "line": "Minh yêu cầu ChatGPT: \"Viết chương trình Python nhập từ bàn phím ba số thực a, b, c và tìm nghiệm của phương trình bc hai: ax' + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh.\" Khi chạy thử, chương trình gặp lỗi, Minh lại yêu cầu ChatGPT tìm và sửa lỗi trong chương trình. Kết quả là Minh đã sao chép thiếu dầu \":\" cho một câu lệnh điều kiện. ChatGPT đã phát hiện và sửa được lỗi này.\n\nEm hãy cho biết:",
+    "suspicious": [
+      "bx"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh",
+    "line": "Hiện nay, có nhiều LLM hỗ trợ lập trình như ChatGPT, Gemini hay Github Copilot,... (Hình 10.1). Khi sử dụng LLM trong lập trình, em cần xác định rõ ngôn ngữ lập trình, bài toán cần thực hiện với các bước cụ thể. Viết prompt chi tiết giúp LLM hiểu đúng yêu cầu, tiết kiệm thời gian và nâng cao hiệu quả mã.",
+    "suspicious": [
+      "Github"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh",
+    "line": "Chat GPT Gemini Llama Claude Github Copilot",
+    "suspicious": [
+      "Github"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh",
+    "line": "hợp thêm với các nguồn tài liệu chính thống như W3Schools, MDN, Python Docs,..\n\n76",
+    "suspicious": [
+      "W3Schools",
+      "MDN",
+      "Docs"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh",
+    "line": "W3Schools, MDN, Python",
+    "suspicious": [
+      "W3Schools",
+      "MDN"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh",
+    "line": "Docs,....",
+    "suspicious": [
+      "Docs"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh",
+    "line": "Bước 2. Nhập prompt \"Viết chương trình Python nhập từ bàn phim ba số thực a, b, c và tìm nghiệm của phương trình bậc hai: ax? + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh.\".",
+    "suspicious": [
+      "bx"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh",
+    "line": "Bước 3. Đọc, hiểu chương trình thu được. Chạy thử chương trình trong một phần mềm lập trình (Visual Studio Code, PyCharm, Jupyter Notebook,...).",
+    "suspicious": [
+      "PyCharm",
+      "Jupyter"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh",
+    "line": "Bước 4. Kiểm tra hai dấu \":\"' có được thêm lại vào chương trình hay không. Chạy thử chương trình thu được trong một phần mềm lập trình (Visual Studio Code, PyCharm, Jupyter Notebook,...).",
+    "suspicious": [
+      "PyCharm",
+      "Jupyter"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh",
+    "line": "A. Dung lượng ổ cứng.",
+    "suspicious": [
+      "ổ"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Sử dụng được từ khoa và prompt phủ định (negative prompt) để tạo ảnhh.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Giải thích được cách tạo ảnhh từ ảnh gốc và các kĩ thuật inpainting, outpainting.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "1.  Sử dụng mô hình ngôn ngữ lớn để tạo ảnhh",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "a)  Các tham số và từ khóa khi tạo ảnhh",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Khi tạo ảnhh Thảo đã đưa ra các yêu cầu về tỉ lệ khung hình, phong cách, ánh sáng, góc nhìn. Các yếu tố này ảnh hưởng trực tiếp đến ảnh được tạo ra bởi LLM.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Ti lệ khung hình: là tỉ lệ giữa chiều rộng và chiều cao của khung hình. Tỉ lệ khung hình quyết định hình dạng khung ảnh, ngang, vuông, dọc. Lựa chọn tỉ lệ khung hình phụ thuộc vào mục đích, khung ngang giúp chứa nhiều chi tiết, tái tạo cảnh quan; khung vuông/dọc giúp tập trung vào chủ thể.",
+    "suspicious": [
+      "vuông/dọc"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Ngoài ra, còn có các tham số khác ảnh hưởng tới ảnh được tạo ra như mức độ nghệ thuật hoá (stylize), mức độ đa dạng/lạ (chaos),....",
+    "suspicious": [
+      "stylize",
+      "dạng/lạ"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "khung hình 9:16 Hình 11.1c. Hình ảnh hệ Mặt Trời",
+    "suspicious": [
+      "1c"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Khi sử dụng LLM đề tạo ảnhh, ngoài nội dung ảnh, em cần ghi rõ các yếu tố tỉ lệ khung hình, phong cách, ánh sáng, góc nhìn để có được ảnh như mong muốn.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Mô hình ngôn ngữ lớn như ChatGPT, Gemini, Google AI Sludio,... có khả năng tạo ra ảnh chi tiết theo yêu cầu của người dùng thông qua prompt mô tá. Việc tạo",
+    "suspicious": [
+      "Sludio"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "ảnh này được gọi là tạo ảnhh từ prompt (text-to-image). Tuy nhiên, để có thể thu",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Khi sử dụng LLM để tạo ảnhh, câu trúc prompt thường có dạng:",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Cầu trúc của một prompt để tạo ảnhh",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "🖼️ Minh họa trong sách \n                             Hình 11.4. Cấu trúc một prompt tạo ảnhh bằng LLM",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Prompt để tạo ảnhh bằng LLM có cấu trúc:",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Khi sử dụng LLM để tạo ảnhh, bức ảnh Thảo thu được có những điểm chưa như mong muốn, hình ảnh có nhiều hành tinh hơn thực tế. Thảo đã sử dụng LLM để chỉnh sửa bức ảnh ban đầu. Việc chỉnh sửa này không yêu cầu dùng phần mềm chuyên dụng mà được thực hiện bằng chinh LLM với prompt đơn giản.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Việc tạo một ảnh mới từ một ảnh gốc (chỉnh sửa) theo prompt mô tả được gọi là tạo ảnhh từ ảnh (image-to-image). Để LLM có thể chỉnh sửa ảnh, em cần cung cấp",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Khi cần chỉnh sửa nội dung bên trong bức ảnh (inpainting), LLM sẽ phân tích nội dung ảnh, xác định vùng cần thay đổi và thực hiện các thay đổi theo yêu cầu. Cuối cùng, LLM kết hợp vùng đã chỉnh sửa trở lại ảnh gốc. Vị dụ, Hình 11.5b sử dụng kĩ thuật inpainting để xóa bớt bốn hành tinh trong ảnh gốc ở Hình 11.5a.",
+    "suspicious": [
+      "5a"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Khi cần mở rộng ảnh gốc và vẽ thêm các nội dung mong muốn (outpainting), LLM sẽ đặt ảnh gốc vào một khung vẽ lớn hơn, phân tích chi tiết ảnh gốc. Sau đó, LLM vẽ vào vùng mới với nội dung theo yêu cầu và phù hợp với ành gốc về kết cấu, phong cách, ánh sáng. Ví dụ, Hình 11.5c sử dụng kĩ thuật outpainting mở rộng ảnh, thêm không gian xung quanh, thêm các ngôi sao và sao chỗi vào phần rìa ảnh gốc ở Hình 11.5a.",
+    "suspicious": [
+      "5c",
+      "5a"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Nhiệm vụ 1: Sử dụng LLM để tạo ảnhh có các tỉ lệ và phong cách khác nhau.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Bước 1. Mở trình duyệt web và truy cập vào trang web: https://aistudio.google.com/.",
+    "suspicious": [
+      "aistudio"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Vieicure to ài Studio",
+    "suspicious": [
+      "Vieicure"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Bước 2. Nhảy chuột chọn nút lệnh Generate Media, tiếp theo chọn Imagen.",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Bước 4. Nhập prompt \"Tạo hình ảnh về Hệ Mặt Trời, Mặt Trời ở trung tâm bức ảnh, xung quanh là các hành tinh cùng với đường biểu diễn quỳ đạo, phong cách hiện thực, ánh sáng dịu nhẹ, góc nhìn rộng. Không chữ^ và nhấn tổ hợp phim Ctrl + Enter.",
+    "suspicious": [
+      "Ctrl"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Generate images with Imager",
+    "suspicious": [
+      "Generate",
+      "Imager"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Bước 1. Mở trình duyệt web và truy cập vào trang web: https://aistudio.google.com/.",
+    "suspicious": [
+      "aistudio"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Bước 2. Nháy chuột chọn nút lệnh Generate Media, tiếp theo chọn Gemini image generation.",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Bước 4. Nhập prompt \"Hãy xoa bớt bốn hành tinh trong ảnh\" và nhân tổ hợp phím Ctrl + Enter.",
+    "suspicious": [
+      "Ctrl"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "A. Text-to-image và image-to-image đều tạo ảnhh chỉ sử dụng prompt.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "B. Text-to-Image và image-lo-image đều tạo ảnhh chi sử dụng ành gốc.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon",
+    "line": "C. Text-to-image tạo ảnhh chỉ sử dụng prompt, image-to-image tạo ảnhh sử dụng",
+    "suspicious": [
+      "ảnhh",
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
+    "line": "🖼️ Minh họa trong sách \n                             Hình 12.1, Video con lác dom Gry, las bäng LUV",
+    "suspicious": [
+      "Gry"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
+    "line": "LLM có thể tạo video theo yêu cầu cia rgyh sung bằng prompt mô tả. Tạo video bằng LLM giúp sảt kiêm",
+    "suspicious": [
+      "rgyh",
+      "sảt"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Ngoài việc tạo video bắng prompt mô tá, nguei dung con có the iso video từ möt hoặc nhiều ảnh tĩnh (image-to-video). Khi đó. LUM sẽ trêm sự chuyển đặng vào",
+    "suspicious": [
+      "nguei"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
+    "line": "các ảnh được cung cấp để tạo video. Việc sử dụng ảnh tinin khi tạo video giúp em dễ kiểm soát nội dung, phong cách và khung cảnh như ảnh gốc. Thời gian tạo video cũng ngắn hơn do yêu cầu tính toán it hơn so với chi dùng prompt mô tả (chỉ thêm chuyến động vào ảnh). Ngoài ra, em cùng có thể cung cấp thêm promct mô tả để làm rõ hơn yêu cầu.",
+    "suspicious": [
+      "tinin",
+      "promct"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Trong phần Khởi động, video được tạo bằng LLM có thời lượng chỉ là 8 giây, thời gian chờ lâu hơn so với tạo ảnhh và số lượng video được tạo bị giới hạn. Đồ thị li độ của con lắc cũng không chính xác. Tạo video bằng LLM bị giới hạn về thời lượng và số video được tạo do yêu cầu tài nguyên tính toán lớn. Ngoài ra, tạo",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Welcame b RiSudo",
+    "suspicious": [
+      "Welcame",
+      "RiSudo"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
+    "line": "https://aistudio.google.com/.",
+    "suspicious": [
+      "aistudio"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Bước 2. Nháy chuột chọn nú! Generate Media, liếp theo chon Veo (Hình 124).",
+    "suspicious": [
+      "nú",
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Bước 4. Nhập prompt \"Tạo một video mô tả hoạt động của con lắc đơn, bên dười là đồ thị thể hiện lì độ của con lắc đơn theo thời gian. Phong cách hiện thực, ánh sáng vàng\". và điền nội dung \"Không nhạc nền. Không tiếng ổn\" vào ở Prompt phủ định và nhấn tổ hợp phim Ctrl + Enter.",
+    "suspicious": [
+      "Ctrl"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon",
+    "line": "Viết prompt Generate videos with Veo Tải ảnh",
+    "suspicious": [
+      "Generate",
+      "videos"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-13-bai-tap-du-an",
+    "line": "phân tích sâu thông tin, kiêm chứng và bố sung các sô liệu, dẫn chứng thực tế để nội dung logic và thuyết phục. Việc tự mình hoàn thiện sẽ giúp em hiểu sàu vẫn đề và tạo dầu ấn cá nhân, thay vì sao chép máy móc. Ở bước này, AI có thể hỗ trợ bằng cách gợi ý ví dụ minh họa, đề xuất dẫn chứng liên quan và giúp kiểm tra lại cách diễn đạt.",
+    "suspicious": [
+      "sàu"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-13-bai-tap-du-an",
+    "line": "Khi đã hoàn thiện nội dung, em hãy làm cho báo cáo sinh động và hấp dẫn hơn bằng cách tạo các sản phẩm minh họa như poster, infographic, bài trình chiếu hoặc video. Các công cụ AI có thể hỗ trợ em tạo ra những sàn phẩm này một cách",
+    "suspicious": [
+      "infographic"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-13-bai-tap-du-an",
+    "line": "Để khám phá vấn đề xã hội với sự hỗ trợ của AI, em cần xác định vấn để cụ thể, thu thập thông tin đa dạng, tin cậy và tổng hợp để xây dựng báo cáo hoàn chỉnh. Cuối cùng, em nên tạo ra các sản phẩm minh•\n\nhọạ để làm sinh động, tăng sức hút cho nội dung và",
+    "suspicious": [
+      "họạ"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-13-bai-tap-du-an",
+    "line": "Hà Nội\", \"thực bạng, nguyên nhân, giải pháp của việc ô nhiễm không khi\", \"chỉ số AQI Hà Nội\"....",
+    "suspicious": [
+      "bạng",
+      "AQI"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-13-bai-tap-du-an",
+    "line": "Sau khi sàng lọc, hãy thu thập các bài báo, sô liệu và báo cáo đáng tin cậy về vẫn đề này từ các nguồn uy tin như Cống thông tin điện tử Chính phủ, Báo Nhân Dân, Báo Lao Động, cùng các nghiên cứu của World Bank và các tạp chí khoa học quốc tế như Environmental Research và Science of The Total Environment (Elsevier). Ghi chú đầy đù thông tin trích dẫn (tác giả, năm, tiêu đề, nguồn/link, ngày truy cập).",
+    "suspicious": [
+      "Environmental",
+      "Elsevier",
+      "nguồn/link"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-13-bai-tap-du-an",
+    "line": "đề ô nhiễm không khí ở Hà Nội, bao gồm các mục chinh: Thực bạng, Nguyên nhân, Hậu quả và Giải pháp\", sau đó đặt câu hỏi để hỗ trợ lổng hợp thông tin theo từng phần nội dung.",
+    "suspicious": [
+      "bạng"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-13-bai-tap-du-an",
+    "line": "trình bày rõ thực bạng và nguyên nhân ô nhiễm không khí.",
+    "suspicious": [
+      "bạng"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bai-13-bai-tap-du-an",
+    "line": "và theo dõi chỉ số AQI hằng ngày.",
+    "suspicious": [
+      "AQI"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bang-giai-thich-thuat-ngu",
+    "line": "(JavaScript Object Notation)",
+    "suspicious": [
+      "Object",
+      "Notation"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bang-giai-thich-thuat-ngu",
+    "line": "lớp 10°, \"Bạn là trợ lí học tàp\", Trong giờ học môn Sinh học\"....",
+    "suspicious": [
+      "tàp"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bang-giai-thich-thuat-ngu",
+    "line": "Dạng lệnh mà người dung khóng càn cung cấp mẫu đầu vào để AI hiểu yêu cầu.",
+    "suspicious": [
+      "khóng"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "bang-giai-thich-thuat-ngu",
+    "line": "Dạng yêu cầu mà người dùng đưa ra cho AI, kèm theo một vài vi dụ mảu để hướng dẫn cách xử lí.",
+    "suspicious": [
+      "mảu"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "tưr liệu được sử dụng, trích dẫn",
+    "suspicious": [
+      "tưr"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "Mã số: TYT21P6-SED",
+    "suspicious": [
+      "TYT21P6-SED"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "In 20.000 bản, (QĐ in số: 01-STK) khố 19 x 26,5 cm.\n\nĐơn vị in: Công ty TNHH Sản xuất dịch vụ thương mại Bao Bì Kiến Á 26 Nguyễn Nghiêm. Phường Tân Phú, TP.Hồ Chí Minh, Việt Nam.\n\nCơ sở in: 643 Tỉnh lộ 2, áp Lào Táo Thượng, xã Thái Mỹ, TP.Hồ Chí Minh Số ĐKXB: 416-2026/CXBIPH/36-168/GD",
+    "suspicious": [
+      "01-STK",
+      "416-2026/CXBIPH/36-168/GD"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "Số QĐXB: 119/QĐXB-GD, ngày 11 tháng 02 năm 2026",
+    "suspicious": [
+      "119/QĐXB-GD"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "In xong và nộp lưu chiều tháng 03 năm 2026 Mã số ISBN: 978-604-0-46632-7",
+    "suspicious": [
+      "978-604-0-46632-7"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "HANNo",
+    "suspicious": [
+      "HANNo"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "ISBN 978-604-0-46632-7",
+    "suspicious": [
+      "978-604-0-46632-7"
+    ]
+  },
+  {
+    "book": "lop-11",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "PHƯƠNG NAM SEDIDCO 9 786040 466327 Giá: 45.000đ",
+    "suspicious": [
+      "SEDIDCO",
+      "000đ"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bia-lot",
+    "line": "*LOP 12",
+    "suspicious": [
+      "LOP"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bia-lot",
+    "line": "ADUOO",
+    "suspicious": [
+      "ADUOO"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "Nêu được khái niệm AI Agents (tác nhân thông minh) và phân biệt được AI Agent với LLM/chatbot thông thường.",
+    "suspicious": [
+      "LLM/chatbot"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "chọn chỗ ăn uống, cho đến chuẩn bị đồ dùng,... Quá nhiều công việc phải làm thủ công, tốn thời gian và dễ sai sót. Tùng ước có một trợ lí ảo đủ thông minh để hỗ trợ mình khi cân. Vi dụ, Tùng chỉ cần nói Hãy lên kế hoạch cho chuyến dã ngoạ",
+    "suspicious": [
+      "ngoạ"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "Hệ thưng tường tht Mội thoai Buot thệt",
+    "suspicious": [
+      "thưng",
+      "Buot"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "và hiểu văn bản dưa trện do liệu huấn",
+    "suspicious": [
+      "trện"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "GisO ID ho Thoas Ms rener",
+    "suspicious": [
+      "GisO",
+      "Thoas",
+      "rener"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "Rs quyệt đinh thông minh",
+    "suspicious": [
+      "Rs"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "Tes lori eDu Ach thrstng g8p",
+    "suspicious": [
+      "thrstng",
+      "g8p"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "Sinh/hiểu",
+    "suspicious": [
+      "Sinh/hiểu"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "động, tương tác với môi trường/công cụ.",
+    "suspicious": [
+      "trường/công"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "LLM - Mô-đun Lập luận/Lập kế hoạch",
+    "suspicious": [
+      "luận/Lập"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "auay lai bước 2 để tiếp tực chu trinh",
+    "suspicious": [
+      "auay"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "1) Nhận mục tiêu (Goal Reception): Agent tiếp nhận một mục tiêu hoặc nhiệm vụ từ người dùng.",
+    "suspicious": [
+      "Reception"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "2) Lập luận/Lập kê hoạch (Reasoning/Planning): Sử dụng mô hình AI tạo sinh làm cốt lõi để phân tích, suy nghĩ và đưa ra quyết định. Agent phân tích mục",
+    "suspicious": [
+      "luận/Lập",
+      "Reasoning/Planning"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "4) Thực thi công cụ (Tool Execution): Agent gọi và thực thi công cụ đã chọn.",
+    "suspicious": [
+      "Execution"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "5) Quan sát kết quả (Observation): Sau khi công cụ thực thi, Agent thu thập và xử lí kết quả trả về. Vi dụ: kết quả tìm kiêm từ Internet, thông báo thành công/ thất bại của một API.",
+    "suspicious": [
+      "Observation"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "Mô-đun Lập luận (Reasoning Module): Đây là \"trái tim\" của Agent, chịu trách",
+    "suspicious": [
+      "Reasoning"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-1-gioi-thieu-ve-ai-agents",
+    "line": "Vòng lặp hoạt động của AI Agent bao gồm: Nhận mục tiêu → Lập luận/Lập kế hoạch → Chọn công cụ → Thực thi công cụ → Quan sát kết quả → Cập nhật bộ nhớ và tiếp tục lập lại.",
+    "suspicious": [
+      "luận/Lập"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "1. Xây dựng AI Agent sử dụng công cụ no-code/low-code Việc xây dựng AI Agent hay các ứng dụng LLM phức tạp bằng LangChain đời, Kĩ năng lập trình Python. Điều này có thể gây khó khăn cho những ai chưa thà thạo viết mã. Sự ra đời của các công cụ no-code/low-code (không mã lệnh/ít lệnh) trong lĩnh vực AI sẽ giúp họ dễ dàng hiểu các khái niệm, thử nghiệm và trì",
+    "suspicious": [
+      "no-code/low-code",
+      "no-code/low-code",
+      "lệnh/ít"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Output UBI",
+    "suspicious": [
+      "UBI"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Công cụ no-code/low-code trọng AI Agent là những nền tảng cho phép chúng ta xây dựng các ứng dụng AI bằng cách sử dụng giao diện kéo-thả trực quan các khối chức năng có sẵn và kết nối chúng lại với nhau. Thay vì viết mã, chúng ta sẽ vẽ ra luồng hoạt động của Agent. Điều này giúp giảm thiểu đáng kể yêu cầu về kĩ năng lập trình, cho phép nhiều người hơn có thể tạo ra các giải pháp AI",
+    "suspicious": [
+      "no-code/low-code"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Công cụ No-code/Low-code AI: Nền tảng giúp xây dựng ứng dụng AI Agent bằng giao diện kéo-thả trực quan, không cần",
+    "suspicious": [
+      "No-code/Low-code"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "2. MindStudio: Nền tảng trực quan cho AI Agent Hãy cùng khám phá cách một nền tảng no-code/low-code như MindStudio (một nền tảng tiêu biểu cho phép xây dựng ứng dụng AI tuy chỉnh mà không cần viết mã) hoạt động để tạo ra một AI Agent đơn giản.",
+    "suspicious": [
+      "no-code/low-code"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "800 *) Vi dụ Demo Sách - Dian Soveu:",
+    "suspicious": [
+      "Dian",
+      "Soveu"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Preview v Publish",
+    "suspicious": [
+      "Publish"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "M Vi do Demo Sách Automations System Prompt Model Settings Evaluations Profiler",
+    "suspicious": [
+      "Automations",
+      "Settings",
+      "Evaluations"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Explorm Errors Detuana CWn toy",
+    "suspicious": [
+      "Explorm",
+      "Detuana",
+      "CWn"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Ovarview Quick Heic",
+    "suspicious": [
+      "Ovarview",
+      "Heic"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "v E Dsta Sources",
+    "suspicious": [
+      "Dsta",
+      "Sources"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "y a Functions",
+    "suspicious": [
+      "Functions"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "l Usor Inputs",
+    "suspicious": [
+      "Usor",
+      "Inputs"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "v S Workflows",
+    "suspicious": [
+      "Workflows"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "B Main.fow",
+    "suspicious": [
+      "fow"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Start End No Overview",
+    "suspicious": [
+      "Overview"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "X Generato Agent Le Edit Overvien",
+    "suspicious": [
+      "Generato",
+      "Overvien"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "việc chính (Workspace)",
+    "suspicious": [
+      "Workspace"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "án như dữ liệu, các chức năng tự tạo, phần nhập liệu của người dùng và các luồng xử lí (workflow). Em sẽ dùng Explorer để di chuyển giữa các thẻ này.",
+    "suspicious": [
+      "workflow"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Luồng xử lí chính thường nằm trong main.flow (thuộc thẻ Automations).",
+    "suspicious": [
+      "Automations"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Khu vực làm việc chính (Workspace): Đây là khu vực rộng lớn, nơi em sẽ",
+    "suspicious": [
+      "Workspace"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "+ Khu vực cài đặt/chỉnh sửa khối (Configuration): Khi em chọn một khối",
+    "suspicious": [
+      "đặt/chỉnh"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Automations System Prompt Model Settings Evaluations Profiler",
+    "suspicious": [
+      "Automations",
+      "Settings",
+      "Evaluations"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Cài đặt mô hình (Model Settings): Chọn mô hình AI mặc định mà Agent sẽ sử",
+    "suspicious": [
+      "Settings"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "dụng (ví dụ: GPT-3.5, Gemini). Đây là mô hình sẽ được dùng nếu một khối cụ thể không chỉ định mô hình riêng.",
+    "suspicious": [
+      "GPT-3"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Generate",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Denerate Text Interact with AI on behalt of user",
+    "suspicious": [
+      "Denerate",
+      "Interact",
+      "behalt"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Generate Image Generate an image using AI",
+    "suspicious": [
+      "Generate",
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Generate Video Generate a video using AI",
+    "suspicious": [
+      "Generate",
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Generate Chart",
+    "suspicious": [
+      "Generate",
+      "Chart"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Ganerate Asset Generato HTML, images, or PDFS",
+    "suspicious": [
+      "Ganerate",
+      "Asset",
+      "Generato",
+      "PDFS"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Analyze Image Analyze an image using A",
+    "suspicious": [
+      "Analyze",
+      "Analyze"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Generate a chart from data",
+    "suspicious": [
+      "Generate",
+      "chart"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Create Podcast Two-hast podcast about a topic",
+    "suspicious": [
+      "Podcast",
+      "Two-hast",
+      "podcast",
+      "topic"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Generate speech using AI",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Transoribe Audio AI Speech-to-Text",
+    "suspicious": [
+      "Transoribe"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Scrape URL Scrape a web page",
+    "suspicious": [
+      "Scrape",
+      "Scrape"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "User Input Colleci data from the user",
+    "suspicious": [
+      "Colleci"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Dynamically gather information",
+    "suspicious": [
+      "Dynamically"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Track Website Changes Detect changes to a website",
+    "suspicious": [
+      "Detect"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Analyze CSV Analyze CSV with code",
+    "suspicious": [
+      "Analyze",
+      "Analyze"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Deep Research Sourced information from the web",
+    "suspicious": [
+      "Sourced"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Extract from URL Scrape and extract from a site",
+    "suspicious": [
+      "Scrape"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Logic Dynamically choose the next step",
+    "suspicious": [
+      "Dynamically"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Menu Present branching options D",
+    "suspicious": [
+      "branching",
+      "options"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Run Workflow Run another workflow",
+    "suspicious": [
+      "Workflow",
+      "workflow"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Run Function Run JavaScript or Python",
+    "suspicious": [
+      "Function"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Generate (Tạo): Khối này dùng để yêu cầu AI tạo sinh tạo ra kết quả dựa trên",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Flow (Luồng): Các khối giúp điều khiển luồng xử lí, ví dụ như khối If/Else (Nếu/",
+    "suspicious": [
+      "If/Else"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Thì/Ngược lại) để rẽ nhánh xử lí dựa trên điều kiện hoặc các khối đề lặp lại một hành động. Ví dụ: Nếu khách hàng hỏi về giá, chuyển đến khối Get Data. Nếu không, chuyến đến khối Generate để trả lời chung.",
+    "suspicious": [
+      "Thì/Ngược",
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Email (Gir thư điện tú). Khối công cụ này cho phép Agent gửi the điện tú tý",
+    "suspicious": [
+      "Gir"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "động. Vì dụ. Gửi thư điện tử cảm ơn khách hàng sau khi mua sắm.\n\n- Text Transform (Chuyên đói văn bản): Các khối giúp xử lí, chinh sữa văn bản",
+    "suspicious": [
+      "Transform"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "muc đich chuyên biệt hon niu.\n\n+ Social Media: Để tương tác với mạng xã hội.\n\n* SMS: Để gửi tín nhắn SMS.\n\n+ Notion: Để kết nối với cơ sở dữ liệu Notion.",
+    "suspicious": [
+      "Notion",
+      "Notion"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "* Extemal Automation. Để kết nối với các hệ thống tự động hoa khán.\n\nBắng cách kéo thả và kết nỗi các khối này trên canvas, em có thể tạo ra các Ai Agent thông minh, linh hoạt để giải quyết nhiều vẫn đề trong cuộc sống mà không",
+    "suspicious": [
+      "Extemal",
+      "Automation"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Giao điện: Bảng thiết kể (Carvas) trực quan, kéo-thả.\n\n• Các khối chính (Block):",
+    "suspicious": [
+      "Carvas"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Generative AI Block Tương tác với Generative AIl.",
+    "suspicious": [
+      "AIl"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "toàn, thu điện tử).\n\n- Logic Block: Ra quyết định (if/else).\n\n- Input/Output Blocks: Giao tiếp với người dùng.\n\n• Kết nối: Kéo thả và nối mũi tên giữa các khối để tạo luồng xử lí (workflow).",
+    "suspicious": [
+      "if/else",
+      "Input/Output",
+      "workflow"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "(Hướng dẫn sau đây sử dụng phần mềm Mind Studio.) a) Tiếp nhận câu hỏi tử khách hàng Bước 1. Truy cập trang web MindStudio tại địa chi https://www.mindstudio.ai vä đặng nhập vào tài khoản của em, sau đó chọn Build New Agent Bước 2. Nháy chuột vào nút (E (giữa Start và End) rồi chọn User Input đễ thêm User Input (đầu vào) như Hình 2.6.",
+    "suspicious": [
+      "www"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "+ General: Nhập tên biến vào ô Variable, ví dụ cau_hoi _khach _hang. Biến",
+    "suspicious": [
+      "cau_hoi",
+      "_khach"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "+ Configuration: Thiết lập văn bản hiển thị Label Text trong Agent, chẳng",
+    "suspicious": [
+      "Label"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "cau hol khach hang",
+    "suspicious": [
+      "khach"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "CourtIon",
+    "suspicious": [
+      "CourtIon"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Hetp Text (Optianal)",
+    "suspicious": [
+      "Hetp",
+      "Optianal"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "🖼️ Minh họa trong sách \n                             Hình 2.7. Khai báo biến đầu vào cau_hoi _khach_hang",
+    "suspicious": [
+      "cau_hoi",
+      "_khach_hang"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Test Value (Optional)",
+    "suspicious": [
+      "Optional"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Test values make it easy to pre-fill responses when previewing drafts.",
+    "suspicious": [
+      "pre-fill",
+      "responses",
+      "previewing",
+      "drafts"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Bước 1. Thêm Web Search (công cụ tìm kiếm):\n\n- Chọn nút ở giữa User Input và End, sau đó chọn View AIl Blocks Tìm mục Google và chọn Search Google để đưa vào Canvas. Kết quả nh",
+    "suspicious": [
+      "AIl"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "+ Search Query (truy vấn): Nhập {{cau_hoi_khach_hang)} để công cụ ti",
+    "suspicious": [
+      "cau_hoi_khach_hang"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "kiếm sử dụng giá trị của biến cau_hoi _khach _hang làm từ khóa.\n\n+ Output Variable: Lưu giá trị trả về vào biến đầu ra (output), chẳng hạ",
+    "suspicious": [
+      "cau_hoi",
+      "_khach"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "thong_tin_tim_kiem.",
+    "suspicious": [
+      "thong_tin_tim_kiem"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Search Query ((cau hol khach hang))",
+    "suspicious": [
+      "khach"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "You may include ((variables)).",
+    "suspicious": [
+      "include",
+      "variables"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Output Variable : thong_tin_tim kiem",
+    "suspicious": [
+      "thong_tin_tim",
+      "kiem"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Select the format you want the search 'results to be exported as.",
+    "suspicious": [
+      "Select",
+      "exported"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "c) Tóm tắt nội dung tìm được và trả lời bằng LLM Bước 1. Thêm Generate Text:\n\n- Chọn nút ở giữa Search Google và End, rồi chọn Generate Text.",
+    "suspicious": [
+      "Generate",
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Ganarate",
+    "suspicious": [
+      "Ganarate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "🖼️ Minh họa trong sách \n                             Hình 2.11. Thêm Generate Text\n20",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Nháy chuột vào Generate Text rồi chọn",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "thé Configuration, trong đó:\n\n+ Model Settings: Chọn một LLM",
+    "suspicious": [
+      "Settings"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Generate Text",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "(Claude 3 Haiku hoặc GPT-4o Mini).",
+    "suspicious": [
+      "GPT-4o"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Prompt Opens in Prafier O",
+    "suspicious": [
+      "Prafier"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Bạn là trd lý áo thân thiện và hữu ích của",
+    "suspicious": [
+      "trd"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "cửa hàng tạp hóa gia đình An.\n\nDưới đây là thông tin liên quan đến câu hỏi của khách hàng: Câu hỏi:\n\n{[cau_hoi_khach_hang 77",
+    "suspicious": [
+      "cau_hoi_khach_hang"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Thông tin tim dược: f[thong_tin_tim_kiem]] Hãy trả lời câu hỏi của khách hàng một cách rờ rằng, ngân gọn, thân thiện và hữu ích, chí dựa vào thông tin được cung cắp.\n\nNếu thông tin không đủ để trả lời, hãy nói",
+    "suspicious": [
+      "thong_tin_tim_kiem"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "cửa hàng tạp hóa gia đình An.\n\nDưới đây là thông tin liên quan đến câu hỏi của khách hàng: Câu hỏi:\n\n{{cau_hoi_khach_hang }}.",
+    "suspicious": [
+      "cau_hoi_khach_hang"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Describe what you'd like the AI to generate. You may include ((variables)).",
+    "suspicious": [
+      "Describe",
+      "generate",
+      "include",
+      "variables"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Thông tin tìm được: ({thong_tin_tim_kiem}}.",
+    "suspicious": [
+      "thong_tin_tim_kiem"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Settings",
+    "suspicious": [
+      "Settings"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Output Schema",
+    "suspicious": [
+      "Schema"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Text (Default)",
+    "suspicious": [
+      "Default"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Include (default)",
+    "suspicious": [
+      "Include",
+      "default"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Control whether this message is visible in the history of any chat sessions.",
+    "suspicious": [
+      "visible",
+      "sessions"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Lưu ý: {{thong_tin_ tim _kiem}} là biến chứa kết quả từ Search Google.\n\n+ Settings:",
+    "suspicious": [
+      "thong_tin_",
+      "_kiem",
+      "Settings"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Model Settings O",
+    "suspicious": [
+      "Settings"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Claude 3.5 Haiku anthrogic/claude-3-5-haiku-28241922",
+    "suspicious": [
+      "anthrogic/claude-3-5-haiku-28241922"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "4 Inherited from the Workflow's Model Settings",
+    "suspicious": [
+      "Inherited",
+      "Workflow",
+      "Settings"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Generate Text",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Output Schema: Định dạng đầu ra (Text, JSON hoặc CSV).",
+    "suspicious": [
+      "Schema"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "O MAAMVOI E",
+    "suspicious": [
+      "MAAMVOI"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "AL AI Agent VD1",
+    "suspicious": [
+      "VD1"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Dua trên các nguồn thông tin, lôi kin giai tribu 3 lasi sita tues orpanic dusc dann gia cao nhất hiện nay.",
+    "suspicious": [
+      "tribu",
+      "lasi",
+      "tues",
+      "orpanic",
+      "dusc",
+      "dann"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "La sês orgaric đầu tên đạt chung nhận têu chuấn châu du tại Việt Nam • Ser rudl du nhong con do chan ire tu neido • Panto vor uike vi ngues lint",
+    "suspicious": [
+      "sês",
+      "orgaric",
+      "rudl",
+      "ire",
+      "neido",
+      "Panto",
+      "uike",
+      "ngues"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "2.  Sdo res TH True Mila Organic:",
+    "suspicious": [
+      "Sdo",
+      "res"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": "Giu đinh cuông • Raay Wong: e0,0 kcal • Crua canai, protein o cet reamin cân eriét",
+    "suspicious": [
+      "Giu",
+      "cuông",
+      "Raay",
+      "e0",
+      "kcal",
+      "Crua",
+      "canai",
+      "cet",
+      "reamin",
+      "eriét"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-2-cau-truc-ai-agent-don-gian",
+    "line": ") Dua tuer Orgaric CS ONl Ha Larc",
+    "suspicious": [
+      "tuer",
+      "Orgaric",
+      "ONl",
+      "Larc"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-3-rag-nang-cao",
+    "line": "RAC",
+    "suspicious": [
+      "RAC"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-3-rag-nang-cao",
+    "line": "liệu dài được chia nhỏ thành các đoạn ngắn, gọi là chunk. Mỗi chunk đủ nhỏ để",
+    "suspicious": [
+      "chunk",
+      "chunk"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-3-rag-nang-cao",
+    "line": "Chia nhỏ nội dung (chunking) là phân đoạn tài liệu lớn thành các đơn vị nhỏ (chunk) để phù hợp với giới hạn xử lí của LLM giúp tăng tốc độ và độ chính xác tìm kiếm, giảm nhiều.",
+    "suspicious": [
+      "chunk"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-3-rag-nang-cao",
+    "line": "Documents Embedding",
+    "suspicious": [
+      "Documents"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-3-rag-nang-cao",
+    "line": "Model Vectorstore",
+    "suspicious": [
+      "Vectorstore"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-3-rag-nang-cao",
+    "line": "(Lưu trữ vecto",
+    "suspicious": [
+      "vecto"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-3-rag-nang-cao",
+    "line": "(ví dụ: các thuật toán tìm kiếm lân cận gần đúng như ANN - Approximate Nearest",
+    "suspicious": [
+      "Approximate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-3-rag-nang-cao",
+    "line": "Chất lượng truy xuất phụ thuộc vào việc chia nhỏ hợp lí, mã hoá chính xác và thuật toán tim kiêm hiệu quả. Nếu các bước này kém, LLM nhận thông tin không đầy đủ/sai, dẫn đến câu trả lời thiêu chính xác.",
+    "suspicious": [
+      "đủ/sai"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Tính tống giá tiền của 2 kg gạo ST25 và 1 chai nước mắm Chinsu 500 ml (cần",
+    "suspicious": [
+      "Chinsu"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Prompt Templates",
+    "suspicious": [
+      "Templates"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Retrieval Modules",
+    "suspicious": [
+      "Modules"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Memory Callbacks",
+    "suspicious": [
+      "Callbacks"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Giao diện LLM (LLM Interface): Cho phép kết nối vá truy vấn các LLM khác",
+    "suspicious": [
+      "Interface"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Mẫu prompt (Prompt Template): Các cấu trúc sản có giúp định dạng truy vắn",
+    "suspicious": [
+      "Template"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Mô-dun truy xuất (Retrieval Modules): Tạo điều kiện xây dựng hệ thống",
+    "suspicious": [
+      "Modules"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Lệnh gọi lại (Callback Command): Các đoạn mã nhúng vào ứng dụng để ghĩ",
+    "suspicious": [
+      "Callback"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "LlamaIndex là một khung làm việc chuyên biệt đề kết nối LLM với dữ liệu bên ngoài/riêng tư với nhiệm vụ trọng tâm là tối ưu hóa cho tác vụ RAG, đặc biệt là phần truy xuất dữ liệu.",
+    "suspicious": [
+      "ngoài/riêng"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Tổ chức dữ liệu để thy kiểm hibu quả vì dy Vedlor Stoce inded",
+    "suspicious": [
+      "hibu",
+      "Vedlor",
+      "Stoce",
+      "inded"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Tin kiêm thông tin sên quan tự trớc miội caa đính xác và nhanh chống",
+    "suspicious": [
+      "trớc",
+      "miội",
+      "caa"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Giao điện để truy vẫn dữ tiêu, kết háp tm kiếm và:",
+    "suspicious": [
+      "háp"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Data Connectors giúp tải dữ liệu từ vô số nguồn khác nhau một cách dễ dàng.\n\nVị dụ: LlamaIndex có thể đọc trực tiếp từ tệp .xlsx của bảng giá, tệp .pdf của hợp đồng thuê mặt bằng (để biết giờ đóng mở cửa), hoặc tự động thu thập thông tin tử một trang web đơn giản của cửa hàng.",
+    "suspicious": [
+      "xlsx"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Vị dụ: Thay vì để LLM đọc cà một tệp PDF dài, LlamaIndex sẽ chia tệp đó thành các đoạn nhỏ hơn, biến mỗi đoạn thành một \"mục lục\" có thể tìm kiếm được. Khi khách hỏi về giá sữa Vinamilk, LlamaIndex không cần đọc lại cả cuốn số tay sản phẩm mà chỉ cần tìm đến \"mục\" có thông tin về sữa. Đặc biệt, Vector Store Index là loại chỉ mục phổ biến nhất, giúp tìm kiếm thông tin dựa trên ý nghĩa (semantic",
+    "suspicious": [
+      "semantic"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "Store Index, tìm kiếm những đoạn văn bản trong cơ sở dữ liệu của An mà có ý nghĩa gân nhất với câu hỏi này (ví dụ: dòng Mì tôm Hảo Hảo gói: 5 000 VNĐ/gói.)",
+    "suspicious": [
+      "VNĐ/gói"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "gạo ST25 loại 5 kg có giá 120 000 VNĐ ạ.\n\n36",
+    "suspicious": [
+      "ạ"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "CANNO",
+    "suspicious": [
+      "CANNO"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-4-thu-vien-nguon-mo-llm",
+    "line": "COSSRT VẬN DỤNG",
+    "suspicious": [
+      "COSSRT"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Agents Indera",
+    "suspicious": [
+      "Indera"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Prompts Structured data",
+    "suspicious": [
+      "Structured"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "sources",
+    "suspicious": [
+      "sources"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Deployment",
+    "suspicious": [
+      "Deployment"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Lamaindex Lang Chain",
+    "suspicious": [
+      "Lamaindex"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "hướng dẫn cách cài đặt Python trên Windows/macOS/Linux trên Google. Sau khi cài Python, Pip thường sẽ được cài đặt kèm theo.",
+    "suspicious": [
+      "Windows/macOS/Linux"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Đầu tiên, cần cài đặt thư viện LlamaIndex và một LLM mẫu (chẳng hạn như Ollama để chạy LLM cục bộ). Chạy lệnh sau thông qua Command Prompt/PowerShell (trên Windows):",
+    "suspicious": [
+      "Prompt/PowerShell"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "pip install -U llama-index llama-index-embeddings-huggingface llama-",
+    "suspicious": [
+      "install",
+      "llama-index-embeddings-huggingface"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "index-1lms-ollama langchain langchain-community pypdf transformers sentence-transformers bitsandbytes accelerate openai",
+    "suspicious": [
+      "index-1lms-ollama",
+      "pypdf",
+      "sentence-transformers",
+      "bitsandbytes",
+      "accelerate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Sau đó, cần tải một LLM về máy nếu dùng Ollama thông qua Command Prompt/ PowerShell (trên Windows). Ví dụ:",
+    "suspicious": [
+      "PowerShell"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "ollama run llama2 # Hoặc ollama run phi3",
+    "suspicious": [
+      "llama2",
+      "phi3"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "a) Tâi thông tin và tạo chỉ mục Llamalndox Tạo hai tệp văn bản trong cúng thư mục với đoạn mã Python và điên thông tin sản phẩm vào đó.",
+    "suspicious": [
+      "Llamalndox"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Sữa tươi Vinamilk có đường: 29 000 VND/lít. Hạn sử dụng 6 tháng.",
+    "suspicious": [
+      "VND/lít"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Bánh quy Kinh Dộ Marie: 15 000 VNĐ/gói 200g.",
+    "suspicious": [
+      "VNĐ/gói",
+      "200g"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Mì tôm Hảo Hảo gói: 3 000 VND/gói.",
+    "suspicious": [
+      "VND/gói"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Gạo ST2S: 120 000 VND/3kg.\n\nFllo: khuyon mal.txt",
+    "suspicious": [
+      "ST2S",
+      "VND/3kg",
+      "Fllo",
+      "khuyon",
+      "txt"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "trom Ilona _Indox, enbeddingo hugglogface lapore Huggingtosenbsdasng",
+    "suspicious": [
+      "trom",
+      "_Indox",
+      "enbeddingo",
+      "hugglogface",
+      "lapore",
+      "Huggingtosenbsdasng"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "trom lama _index. licr. illane import Ollams\ntrum lans Index.:uir.100lo Import Quoryengine7ool, roolketadasa\ntrom lama_index. :orn. agone Import ReActhgens\ntram langcholn. agore» loport igentezecutot, creste_tesct_ayent",
+    "suspicious": [
+      "trom",
+      "licr",
+      "illane",
+      "Ollams",
+      "lans",
+      "uir",
+      "100lo",
+      "Quoryengine7ool",
+      "roolketadasa",
+      "trom",
+      "lama_index",
+      "orn",
+      "agone",
+      "ReActhgens",
+      "langcholn",
+      "agore",
+      "loport",
+      "igentezecutot",
+      "creste_tesct_ayent"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "trom langshain_cors, pecspie import Prompttemplate\nfrom langchain_core. ensaoyes Import AIhersage, Hunaskessage",
+    "suspicious": [
+      "trom",
+      "langshain_cors",
+      "pecspie",
+      "Prompttemplate",
+      "langchain_core",
+      "ensaoyes",
+      "AIhersage",
+      "Hunaskessage"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "1 --- Câu hinh chung -..\n\n• Bat Logging dé xem que trinh xù 1y cûs bllamaindex logging.basscconfig(stream-oyo.acdout,level-logging.INkD) 10ggtmg.getlogger1).addlandler(logging.GcreanHandiez(syg.otdool))",
+    "suspicious": [
+      "Logging",
+      "1y",
+      "bllamaindex",
+      "logging",
+      "basscconfig",
+      "stream-oyo",
+      "acdout",
+      "level-logging",
+      "INkD",
+      "10ggtmg",
+      "getlogger1",
+      "addlandler",
+      "logging",
+      "GcreanHandiez",
+      "syg",
+      "otdool"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "1 -- a) Tál thông tin sân phẩn và chuơng trính khuyến nếi từ cáờ tập khác\nnhoa ---\nprint/\"Dang tái do lifu tú các tép...\")\n1 Tái tát có cáo tếp từ thu mc hiện ta1\ndocumento -gimpledirectoxyReader/\"./\").Jond_doca()\nprint([\"Dó tás (Ien(documents)) tái lifu..\")",
+    "suspicious": [
+      "chuơng",
+      "nếi",
+      "cáờ",
+      "lifu",
+      "tếp",
+      "ta1",
+      "documento",
+      "gimpledirectoxyReader",
+      "Jond_doca",
+      "tás",
+      "Ien",
+      "documents",
+      "lifu"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "( --- b) Tạo một chi muc dã liệu bäng Ilamaindex print/\"Dang too chi muc dü 11eu..\")",
+    "suspicious": [
+      "Ilamaindex",
+      "11eu"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "1. Cau hinh ms hinh nhung (Embedding Model) • Sử dụng mô hình nhúng của Hugging face dé tạo vector biểu diễn agü sghle cho vẫn bán.\n\n8 Mo hinh \"sentence-tranaforner:/paraphrose-mult111ngua1-M201141-112-72\" 65 tro da ngôn ngõ.",
+    "suspicious": [
+      "Hugging",
+      "sghle",
+      "sentence-tranaforner",
+      "paraphrose-mult111ngua1-M201141-112-72"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "settings.ented_n0del - Huggingfacelmbedd1ng(",
+    "suspicious": [
+      "settings",
+      "ented_n0del",
+      "Huggingfacelmbedd1ng"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "model_sane-\"sentence-tranaforners/poraphrose-mult1i1nqu»?-Mın: IM-LI2-",
+    "suspicious": [
+      "model_sane",
+      "sentence-tranaforners/poraphrose-mult1i1nqu",
+      "IM-LI2"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Sủ dung CPU dể dam bdo chay duoc trên s01 say tinh khöng co GFU mash devicen\"cpu\" )",
+    "suspicious": [
+      "bdo",
+      "duoc",
+      "s01",
+      "GFU",
+      "devicen"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "2. Câu hình mô hình ngôn ngữ lớn (1121) • sử dụng Ollama với mô hình \"llama2\" chạy cục bộ.\n\n• Đảm bảo bon 1ã cà1 dất O11ara và kéo mo hinh 11ams2:\n\n• Tåt Ollana tu httpt://ol1ans.com/ • Chay lenh: ol1ama run 11ama2 Settingo. I2i = O11an0 (model-\"Ilana2\", reguest_timeout-360.0) d I62g 12000u= cho các câu trẻ 101 dài",
+    "suspicious": [
+      "llama2",
+      "1ã",
+      "cà1",
+      "O11ara",
+      "11ams2",
+      "Ollana",
+      "httpt",
+      "ol1ans",
+      "lenh",
+      "ol1ama",
+      "11ama2",
+      "Settingo",
+      "I2i",
+      "O11an0",
+      "Ilana2",
+      "reguest_timeout-360",
+      "I62g",
+      "12000u"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "* 3. Xây dụng chi muc vector • Chỉ mục nảy sẽ giúp chúng ca tin kiên thống cin nhanh chóng và hiệu quả.\n\nindex - VectorStoreIndex.fzom documents (docunenca) print(\"Đã tạo chỉ mục dữ liệu thành công\")g.\") 42",
+    "suspicious": [
+      "VectorStoreIndex",
+      "fzom",
+      "documents",
+      "docunenca"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "1 --- c) Xây dựng một Agent LangChain có khả năng sử dụng chỉ muo của LlamaIndex nhu một công cụ ---\n\nprint (\"Dang xáy dựng Agent LangChain...\")",
+    "suspicious": [
+      "muo"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "* 1. Ipo Query Engine từ chi muo 7 Query Engine giúp chúng ta hỏi các câu hỏi về chỉ mục.",
+    "suspicious": [
+      "muo"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "tương đồng nhất guezy_engine-index.os_query_engine(s1m/larity_ top kol) o lidy 3 ket qud",
+    "suspicious": [
+      "guezy_engine-index",
+      "os_query_engine",
+      "s1m/larity_",
+      "lidy",
+      "qud"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "2. Đinh nghia công cụ (Iool) cho Agent • Công cụ này cho phép Agent sử dụng Query Engine để tìm kiêm thông tin aản",
+    "suspicious": [
+      "Iool",
+      "aản"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "cae thoc ei m at a a prh sa cc n ng 2 2 nyến nà, htm",
+    "suspicious": [
+      "cae",
+      "thoc",
+      "prh",
+      "nyến",
+      "htm"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "G1á cà của sản phẩm (v1 dự: \"Giá sữa Vinamilk la bao nhléu?\") - Thông tin chi trết về sản phẩm(vi dự: \"Bánh quy Rinh Đô Marie có gì đăc biệt?\")",
+    "suspicious": [
+      "G1á",
+      "v1",
+      "nhléu",
+      "trết"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "3. Khỏi tạo Agent 7 Chúng ta sẽ sử dụng ReActagent của LlamaIndex vì nó tích hợp tốt với các công cụ của LlamaIndex 1 và có khả năng suy luận để chọn công cụ phù hạp.\n\nsysten prompt_v1 = \"\"\" tra lý ảo thông minh, thân thiện và hữu Ich, chuyên cụng cấp thông tin rẽ sản phẩn và cức chuong trình khuyên mãi.\n\nNhiệm vụ của bạn là trả lời các cầu hỏi của người dùng một cách chính xác và",
+    "suspicious": [
+      "ReActagent",
+      "systen",
+      "prompt_v1"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "đáy dủ, dựa trên các thông tin bạn có.\n\nBạn có khẻ năng sử dụng các CÔNG CỤ (tools) đế tìm kiêm thông Khi người dùng hỏi về gản phẩm, giá cà, hoặc các chương trình khuyện mãi, bạn PHẢI SỬ DỤNG công cụ \"thong_ tin _sản pham vo _khuyen mai' để láy dữ liệu.",
+    "suspicious": [
+      "gản",
+      "khuyện"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "agent = ReActAgent. Iron_10015(",
+    "suspicious": [
+      "ReActAgent",
+      "Iron_10015"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "toolg=[query_engine_tooll, 11m=Settings.11n, verbose-True, system _prompt-system _prompt_vi, 4 Thêm system prompt tiêng Vięt",
+    "suspicious": [
+      "toolg",
+      "query_engine_tooll",
+      "Settings",
+      "11n",
+      "_prompt_vi"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "question = input (\")nBan hỏi: \") if question. lover() = 'thoát':",
+    "suspicious": [
+      "nBan"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "response = agent.chat (question) print (f\"Agent trà lờ1: (response)\") except Exception as e:",
+    "suspicious": [
+      "lờ1",
+      "Exception"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "print (f\"Có lỗi xây rai (e). Vui lông thủ 1ọ1 hoặc kiển tra lại cài đật o11ama. \")",
+    "suspicious": [
+      "1ọ1",
+      "o11ama"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "-- sản sàng crả lời câu hòi của ban! -\n\nBạn có thể hỏi về thống tin sản phẩm, giá cá, hoặc các chương trính khuyến mãi.\n\nGõ \"thoát\" để thoát.",
+    "suspicious": [
+      "crả"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Bạn hỏi: Sữa tươi Vinamilk có đường giả bao nhiêu > Running step Bcb88656-Sde9-482f-a012-814cb405083d. Step input: Sữa tươi VinamiLk có đường giá bao nhiêu",
+    "suspicious": [
+      "Bcb88656-Sde9-482f-a012-814cb405083d"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Bạn hỏi: Sữa tươi Vinamilk có đưỡng giá bao nhiều S Running step 8cb88656-5de9-482f-a012-814cb405083d. Step input: Sữa tươi Vinamilk có đường giả bao nhiêu INFO:httpx:HTTP Request: POST http://localhost:11434/ap1/chat \"HTTP/1.1 200 OK\"",
+    "suspicious": [
+      "8cb88656-5de9-482f-a012-814cb405083d",
+      "httpx",
+      "localhost",
+      "11434/ap1/chat",
+      "HTTP/1"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "Action Input: ('input\": Sữa tươi Vinamilk gid bao nhiều?\" nun beans': 5) INFO: httpx:HTTP Request: POST http://localhost:11434/api/chat *HTTP/1.1 200 ОК\" HTTP Request: POST http://localhost:11434/api/chat \"HПTP/1.1 200 OK\" Observation: Based on the provided context the price of Vinamilk's fresh mith ts 25,000 WAD per liter > Running step 56c10474-9b6d-47cf-a889-1ca052c39d67. Step Input: None INFO: httpx:HTTP. Request: POST http://localhost:11434/api/chat \"HTTP/1.1 200 ОК\" HTTP Request: POST http://ocalhost:11434/api/chat \"HTTP/1.1 200 ОК™ Thought: I can answer without using any aore tools, I'IZ use the aser's language to answer Answer: Giá sữa tươi Vinamilk Là 25, 000 VND/Lit.\n\nAgent trả lời: Giá sữa tươi Vinamilk là 25,000 VND/Lit.",
+    "suspicious": [
+      "httpx",
+      "localhost",
+      "11434/api/chat",
+      "HTTP/1",
+      "localhost",
+      "11434/api/chat",
+      "Observation",
+      "provided",
+      "mith",
+      "liter",
+      "56c10474-9b6d-47cf-a889-1ca052c39d67",
+      "httpx",
+      "localhost",
+      "11434/api/chat",
+      "HTTP/1",
+      "ocalhost",
+      "11434/api/chat",
+      "HTTP/1",
+      "aore",
+      "IZ",
+      "aser"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "D. Output Parsers.",
+    "suspicious": [
+      "Parsers"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "2. Việc Lamalndez lố chúc dũ bậu sản phâm thành mộn chi mus (oner) so vai ko nao là quan trong nhất trong quá trình BAG!",
+    "suspicious": [
+      "Lamalndez",
+      "mộn",
+      "oner"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
+    "line": "3. Hãy giải thích tại sao việc kết hợp LangChain và Lamalndey lại hiệu quả hơn sọ với việc chí sử dụng một trong hai cho một cng dung tra li ào phúc lap nhu của An.",
+    "suspicious": [
+      "Lamalndey"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi",
+    "line": "Ứng dụng AI tạo sinh như ChatGPT hay các công cụ tạo ảnhh bằng AI đã mỏ ra nhiều hướng đi mới, đồng thời cũng đặt ra không ít thách thức và câu hỏi phức tạp.",
+    "suspicious": [
+      "ảnhh"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi",
+    "line": "Ahiển chùng la không rô vì sao chùng lại làm như vậy. Vi dụ, nêu một ứng dụng",
+    "suspicious": [
+      "Ahiển"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi",
+    "line": "AI tự động chấm điểm bài tập của em, em có thể không hiều vì sao minh lại Arư điểm đo hay vi sao một câu trẻ lời cụ thể bị đành giá là sai. Diều này gây Nho khân trong việc kiểm tra tinh công bằng, phát hiện sai sót và xây dựng niềm In Vào hệ thống AI.\n\nc) Nhòm vắn để về tác động đến xã hội và con người Gồm các vấn đề như thiên vị, ảnh hương việc làm, giá mạo (deepfake) ve quyền lựr chủ - thể hiện những ảnh hưởng rộng lớn của AI đến các giá trị xã hội và phảm gia con người.\n\n- Về thiên vị và công bằng, các mô hình AI tạo sinh học từ dữ liệu chúng dược",
+    "suspicious": [
+      "Arư",
+      "khân",
+      "lựr"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi",
+    "line": "bác sĩ luôn là nam giới da trắng, trong khi y tá luôn là nữ giới, hoặc gợi y việc làm thiên về một giới tinh/chùng tộc nhật định. Điều này dẫn đến việc",
+    "suspicious": [
+      "tinh/chùng"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi",
+    "line": "🖼️ Minh họa trong sách \n                             Hình 6.2. Thiên vị dữ liệu trong A/\n(mô lá bác sĩ luôn là nam và y tá lưôn là nữ)",
+    "suspicious": [
+      "lưôn"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi",
+    "line": "Các vấn đề đạo đức trong AI không tồn tại độc lập mà liên kết chặt chế với nhau, tạo nên một hệ thống phức tạp. Vi dụ, sự thiếu mình bạch (lack of transparency)",
+    "suspicious": [
+      "transparency"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi",
+    "line": "1: tạo sinh đặt ra những vân đề đạo đức quan trọng trên ba i hia canh: an toàn thông tin cá nhân (như quyền riêng tư và ràc mật), trách nhiệm pháp lí và minh bạch (như bản quyền và giải trình), cùng với tác động xã hội và con người (như thiên vị hay thay thế việc làm). Việc phát triển và sử dụng Ai tạo sinh càn được định hướng rõ ràng để bào vệ con người và phục vụ en ron chung.",
+    "suspicious": [
+      "ràc"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi",
+    "line": "quả trình huản luyện và duy trì máy chủ, góp phần làm gìa tàng phát thải carbon. Ngoài",
+    "suspicious": [
+      "huản"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "Ở vp 9. cứt em đã tìm hiểu vỏ các nhóm nghề trong lĩnh vực Tin học như Khoa học máy tính. Tìn học ứng dụng, cũng như những công việc cụ thể như phát triển phần mềm hay quản trị hệ thống. Giờ đây khi em đùng tròc nguồng aa chun",
+    "suspicious": [
+      "tròc",
+      "nguồng"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "2. Liệu những kĩ nàng em đang có đã đù để thich nghi với thế giui nghe nghitp dó chura?",
+    "suspicious": [
+      "giui",
+      "nghitp",
+      "chura"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "tác vụ lặp lại và mở ra những cơ hội mỏi, tàng cường khả năng làm việc của con người.\n\nđồng thời tạo ra những ngành nghề hoàn toàn mới.\n\nHình 7.1. H sin dt KANd KN",
+    "suspicious": [
+      "KANd",
+      "KN"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "+ Ki sư prompt (Prompt Engineer): Chuyên gia tạo ra các câu lệnh hiệu quả để",
+    "suspicious": [
+      "Engineer"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "+ Chuyên gia đạo đức AI (AI Ethicist): Đảm bảo AI hoạt động công bằng, không",
+    "suspicious": [
+      "Ethicist"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "+ Chuyên gia tích hợp AI (AI Integration Specialist): Phân tích và tìm cách tích",
+    "suspicious": [
+      "Integration",
+      "Specialist"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "+ Nhà phát triển nội dung đa phương tiện sử dụng AI (Al-Powered Content",
+    "suspicious": [
+      "Al-Powered"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "Creator): Sáng tạo nội dung số (hình ảnh, video, âm nhạc) bằng cách tận dụng sức mạnh của AI.",
+    "suspicious": [
+      "Creator"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "+ Yêu cầu kì năng mới: Nhiêu ngánh nghê sả đôi hói kì nóng AI và cùng ngồ!",
+    "suspicious": [
+      "ngánh",
+      "sả"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "+ Ap lưc học hói liên tuc: AI thay đổi rất nhanh, soi hỏi sm shản kon càp rinh",
+    "suspicious": [
+      "shản",
+      "càp"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "Thách thức Cohei",
+    "suspicious": [
+      "Cohei"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "Để tên u co ht vit veroe gua thách thưc của thời đại AI, em cần chủ động chen di cho minh kieh thur: vit ki nàng về AI",
+    "suspicious": [
+      "veroe",
+      "gua",
+      "kieh",
+      "thur"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "Camscaner 56",
+    "suspicious": [
+      "Camscaner"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
+    "line": "+ Kĩ năng prompt (giao tiếp với AI): Đây là kĩ năng cục kì quan trọng. Nó giùp",
+    "suspicious": [
+      "giùp"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-8-quyen-con-nguoi-trong-ki-nguyen-ai",
+    "line": "Vi dụ: Khi em sử dụng bản đồ trên điện thoại, ứng dụng không chỉ ghi lại điểm đến mà còn cả các địa điểm em thường xuyên lui tới (nhà riêng, trường học, quán cà phê yêu thích). AI có thể phân tích dữ liệu này để suy luận ra thói quen sinh hoạt, tình bạng sức khoẻ, thậm chí cả các môi quan hệ của em. Những thông tin này có thể bị tin tặc tấn công hoặc bị bán cho các công ty quảng cáo để họ nhắm đúng đối tượng và giới thiệu sản phẩm hoặc dịch vụ đến em một cách chính xác.",
+    "suspicious": [
+      "bạng"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-8-quyen-con-nguoi-trong-ki-nguyen-ai",
+    "line": "có thể thực hiện các dự án thiết thực như xày dụng một bộ quy tắc úng xử trên mạng xã hội cho cả lớp hoặc thiết kế ấn phẩm truyền thông để giải thích về rúi ro.\n\nnhững mặt trái của AI và cách phòng tránh.",
+    "suspicious": [
+      "rúi"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-9-phat-trien-ai-co-trach-nhiem",
+    "line": "Học lập liên tục là cần thiết vì công nghệ AI không ngừng phát triên, các thách thức đạo đức ngày càng phức tạp và đế xây",
+    "suspicious": [
+      "triên"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-9-phat-trien-ai-co-trach-nhiem",
+    "line": "trong phát triên AI có trách nhiệm là một thách thức.",
+    "suspicious": [
+      "triên"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "2.  Việc dự đoán điểm số khác gì với dự đoán đỗ/trượt?",
+    "suspicious": [
+      "đỗ/trượt"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Trediecte Exam scort",
+    "suspicious": [
+      "Trediecte",
+      "Exam",
+      "scort"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Là bài toán dự đoán giá trị số liên tục (continuous value).",
+    "suspicious": [
+      "continuous"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Từ lượng mưa, địa hình sông Hông Dự đoán mực nước tũ tại Hà Nội.",
+    "suspicious": [
+      "tũ"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Du liệu tlice",
+    "suspicious": [
+      "tlice"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Là bài toán gán nhãn (labeling) cho dữ liệu mới.",
+    "suspicious": [
+      "labeling"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Kết quả đầu ra thuộc nhóm rời rạc (discrete categories).",
+    "suspicious": [
+      "discrete",
+      "categories"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Kiểm tra tiêu đề/nội dung → \"Spam\" hoặc \"Không spam\".",
+    "suspicious": [
+      "đề/nội"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "100 Trot Đó",
+    "suspicious": [
+      "Trot"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Bước 1. Thu thập dữ liệu: Điểm HK//HKII, kết quả thi, thông tin cá nhân (khu",
+    "suspicious": [
+      "HK//HKII"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Gom nhạ! và lổng hợp da",
+    "suspicious": [
+      "nhạ"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Phan chia train halldation/test theo d",
+    "suspicious": [
+      "halldation/test"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "lệu đã chuẩn bì",
+    "suspicious": [
+      "lệu"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "fl Motnc sai",
+    "suspicious": [
+      "Motnc"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "Giá tr nuội",
+    "suspicious": [
+      "nuội"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "I2 Data leakage",
+    "suspicious": [
+      "I2",
+      "leakage"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "4P 7T0 з0l",
+    "suspicious": [
+      "4P",
+      "7T0"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "E3 Thiếu random",
+    "suspicious": [
+      "E3"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "G Chất lượng kóm",
+    "suspicious": [
+      "kóm"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-10-nguyen-li-co-ban-cua-hoc-may",
+    "line": "B. Dự đoán giá cà phê (nghìn đồng/kg) tuần tới.",
+    "suspicious": [
+      "đồng/kg"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "áo này chinh là Hàm mất mát (Loss Function).",
+    "suspicious": [
+      "Function"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "AI dự đoàn (gọi là y.a) và điều thực sự xảy ra (gọi là yre).\n\n- Đầu vào: Hàm mất mát nhận vào hai giá trị:",
+    "suspicious": [
+      "yre"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "+ Yre: Giá trị thực tế (vi dụ: Bạn Nam thực sự nặng 59 kg).",
+    "suspicious": [
+      "Yre"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "Mean Squared Error (MSE): Thường dùng khi AI cần dự đoán một số liên tục.",
+    "suspicious": [
+      "Squared"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "+ Vi dụ 2: Giả sử ta cần dự đoán điểm thi (y _pred và y lần lượt là kí hiệu điềm",
+    "suspicious": [
+      "_pred"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "dự đoán và điểm thực) dựa trên số giờ ôn tập (hay giờ học) X theo công thức Y _pred = w * X + b với w và b là hệ số phương trình đường thẳng. Khi",
+    "suspicious": [
+      "_pred"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "y_pred = w*X +b # AI đưa ra dự đoàn điểm thi",
+    "suspicious": [
+      "y_pred"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "error = Y_pred -y #Tinh sự sai lệch giữa dự đoán và thực tê loss = (error * 2). mean() # Tinh hàm mất màt (MSE)",
+    "suspicious": [
+      "Y_pred",
+      "màt"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "Khi chúng ta có rất nhiều dữ liệu (ví dụ: cân nặng của cả lớp), chúng ta không chỉ lính hàm mất mát cho một lần dự đoán. Thay vào đó, chúng ta tính mất mát trung binh (hay nguy cơ thực nghiệm - Empirical Risk) để đánh giá tổng thể AI của chúng ta hoạt động như thế nào trên tất cả dữ liệu.",
+    "suspicious": [
+      "Risk"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "D) Xay dựng AI dự đoán: Sử dụng thuật toán giảm dân độ dồc đề tìm ra \"đường",
+    "suspicious": [
+      "dồc"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "CSV_txt = \"'\"'hours, score 2,4 3,5 4,6 5,7 6,8 7,9 8,10\" •.\n\nopen(\"study_data. csv\", \"w\") .write(csv_txt) # Tạo và ghi nội dung vào file study_data.csv",
+    "suspicious": [
+      "CSV_txt",
+      "study_data",
+      "csv_txt",
+      "study_data"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "import matplotlib. pyplot as plt # Nhập thư viện matplotlíb dé vẽ biểu đò",
+    "suspicious": [
+      "pyplot",
+      "matplotlíb"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "data • pd. read_csv(\"study_dato. (sv\") # Dọc dừ liệu từ file CSV vào Dataframe X = data[\"hours\"] values \" lãy rột \"lours\" (số giở lọc) làm dừ liện đàu vào X (dạng mang",
+    "suspicious": [
+      "read_csv",
+      "study_dato",
+      "sv",
+      "Dataframe",
+      "rột",
+      "lours"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "питру) y = datal\"scoro\") values 1 Lãy cột \"score\" (điếm thí) làm dữ liệu đầu ra y (dạng máng numpy)",
+    "suspicious": [
+      "datal",
+      "scoro"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "plt.scatter(X, y, s-60) \" Vẽ biểu đồ phân tán (scatter plot) với X (trục hoành) và y (trục",
+    "suspicious": [
+      "s-60"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "(ung), 3.60 là kich lhor điểm plt-xlabel(\"Số giờ học\") 4 Dặt tên cho trục hoành",
+    "suspicious": [
+      "lhor"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "điểm_dự_đoán = w* số_giờ_học + b.",
+    "suspicious": [
+      "điểm_dự_đoán",
+      "số_giờ_học"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "Chạy đoạn mã sau. Đây là nơi AI \"học\" bằng cách điều chinh w và b từng chút một để giảm hàm mất mát (ở đây là MSE - Mean Squared Error).",
+    "suspicious": [
+      "Squared"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "import numpy as np",
+    "suspicious": [
+      "np"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "det gradient_descent(X, y, Ir=0.01, epochs=1_000, verbose=False):",
+    "suspicious": [
+      "det",
+      "gradient_descent",
+      "1_000"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "'\"Trá vè (w, D, history_loss). X, y dêu là 1-D numpy array.\"..\n\nv, b = 0.0, 0.0 = Khởi tạo ban Sau cho v và b n = len (X) loss _hist = [] = lu lại giá trị mát mát sau nôi làn học",
+    "suspicious": [
+      "history_loss",
+      "dêu",
+      "1-D",
+      "_hist"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "y_pred= W * X + b $ AI dua ra dự doán điểm thi",
+    "suspicious": [
+      "y_pred"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "# Tính hăn mất mát (PSE)",
+    "suspicious": [
+      "PSE"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "# Tính toán hướng cần điều chinh (Gradient) để giảm mất mát » grad = (2 / n) * np.dot(X, error) b_ grad= (2 / n) * error-sum()",
+    "suspicious": [
+      "np"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "b -= Ir = b_grad",
+    "suspicious": [
+      "b_grad"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "print (f\"epoch {epoch: >4}: loss = {loss: 4f}\") return w, b, loss_hist",
+    "suspicious": [
+      "4f"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "w, b, loss_hist = gradient_descent(X, y, Ir=0.01, epochs=1_000, verbose=True) print (f\"Đường hồi quy tối ưu: y = {w:.2f}*x + {b:.2f}\")",
+    "suspicious": [
+      "gradient_descent",
+      "1_000",
+      "2f",
+      "2f"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "Python | plt. scatter (X, y, 9-60, label- \"Dữ liệu thực\" )",
+    "suspicious": [
+      "9-60",
+      "label"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "plt.plot(X, w \" X +b, color=\"red\", label» \"Dường hòi quy\" ) \" Vẽ đường dụ đoán của AI",
+    "suspicious": [
+      "label"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "plt. xlabel( \"Số giờ học\" ) plt.ylabel( \"Dlém thi\" ) plt. title( \"Dy đoán điền thi theo số giờ học\" ) plt.legend() plt.show()",
+    "suspicious": [
+      "Dlém"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-11-toi-uu-hoa-mo-hinh",
+    "line": "Quay lại phần b và thử thay đổi giá trị tốc độ học Ir trong hàm gradient_descent.",
+    "suspicious": [
+      "gradient_descent"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach",
+    "line": "Công cụ/API",
+    "suspicious": [
+      "cụ/API"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach",
+    "line": "Exported",
+    "suspicious": [
+      "Exported"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach",
+    "line": "Oulput",
+    "suspicious": [
+      "Oulput"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach",
+    "line": "b)  Lựa chọn công nghệ/công cụ phù hợp",
+    "suspicious": [
+      "nghệ/công"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach",
+    "line": "c)  Thiết kế giao diện và trải nghiệm người dùng (UX/UI cơ bản)",
+    "suspicious": [
+      "UX/UI"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach",
+    "line": "Cách người dùng tương tác: Bằng văn bản (chatbox), giọng nói, hay nút lệnh?",
+    "suspicious": [
+      "chatbox"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach",
+    "line": "Ai sẽ tập trung vào việc xây dựng logic của Agent/LLM?\n\n- Ai sẽ thiết kế giao diện (nếu có) hoặc chuẩn bị các trường hợp demo? Phân",
+    "suspicious": [
+      "Agent/LLM"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach",
+    "line": "Xác định những gì nhóm em cần để thực hiện dự án:\n\n- Dữ liệu: Các tệp văn bản (PDF, DOCX), bảng tính, hình ảnh cần thiết.\n\n- Tài khoản: Tài khoản trên nền tảng MindStudio hoặc các công cụ cần thiết khác.",
+    "suspicious": [
+      "DOCX"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach",
+    "line": "Lựa chọn công nghệ/công cụ AI phù hợp (LLM, RAG, Agent, nền tảng",
+    "suspicious": [
+      "nghệ/công"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Ap dung cho rds sin phám AI sir dung ki thuda RAG (Netseval-Augmented Generation) d6 truy nut thông tín từ ngưồn kiến thức riêng",
+    "suspicious": [
+      "rds",
+      "thuda",
+      "Netseval-Augmented",
+      "ngưồn"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Cát nhd var bin (chunking), tạo embedding d6 chuấn bị cho qua trình truy xuất thông tin hiệu quả.",
+    "suspicious": [
+      "nhd"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Lập trình/Cấu hình các thành phần AI",
+    "suspicious": [
+      "trình/Cấu"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Phương pháp Cấu hình/Lập trình",
+    "suspicious": [
+      "hình/Lập"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "b)  Bước 2. Lập trình/Cấu hình các thành phần AI",
+    "suspicious": [
+      "trình/Cấu"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Phương pháp cấu hình/lập trình",
+    "suspicious": [
+      "hình/lập"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Xây dựng sản phẩm bao gồm thu thập/tiền xử lí dữ liệu, lập trình/cấu hình các thành phần AI (LLM, LangChain/LlamaIndex.",
+    "suspicious": [
+      "thập/tiền",
+      "trình/cấu",
+      "LangChain/LlamaIndex"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Em không tải trực tiếp CSV vào một Knowledge Base như các nền tảng khác mà sẽ dùng nó để Generate Text thông minh.",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "b) Xây dựng phần cốt lõi. Tạo Agent mới trên MindStudio Bước 1. Đăng nhập vào MindStudio: Truy cập trang web MindStudio tại địa chỉ https://www.mindstudio.ai và đăng nhập tài khoản của em.",
+    "suspicious": [
+      "www"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Agent Name Metadata",
+    "suspicious": [
+      "Metadata"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Start Uner Input",
+    "suspicious": [
+      "Uner"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "1 : Nsr: tco % Use vor",
+    "suspicious": [
+      "Nsr",
+      "tco"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Tiree",
+    "suspicious": [
+      "Tiree"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Long Ters",
+    "suspicious": [
+      "Ters"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Variatie",
+    "suspicious": [
+      "Variatie"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "User irput.",
+    "suspicious": [
+      "irput"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "contigeetno",
+    "suspicious": [
+      "contigeetno"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Latal Tent",
+    "suspicious": [
+      "Latal",
+      "Tent"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Khối 2: Generate Text (Tạo văn bản - Xử lí thông minh)",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "* Thêm khối Generate Text vào không gian làm việc giữa khối User Input và End.",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Generate",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "+ Cấu hình khối Generate Text: Chọn khối Generate Text và cấu hình ở thẻ",
+    "suspicious": [
+      "Generate",
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Cách làm: Mở tệp CSV của em bằng một trình soạn thảo văn bản (Notepad, VS Code,...) và sao chép toàn bộ nội dung (bao gồm cả dòng tiêu đề cột). Dán nội dung CSV vào phần Prompt của khối Generate Text theo hướng dân sau:",
+    "suspicious": [
+      "Notepad",
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "tin chi tiết nhất có thể về bài văn đó và tác giả của nó.\n\nNếu câu hòi là về một tác giá, hãy liệt kê các tác phẩm các dc của nhồm của họ có trong danh sách và thông tín về tác giả.",
+    "suspicious": [
+      "nhồm"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Nếu không tìm thấy thông tin, hãy nói \"Tôi xin lỗi, tôi không tim thấy thông tin em yêu cầu trong cơ sở dữ liệu của tôi.\" Câu hỏi của học sính: {{User input}}",
+    "suspicious": [
+      "sính"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "(| User input)): Đây là một biến (placeho1der) tự động lấy nội dung từ khối User Input trước đó.",
+    "suspicious": [
+      "placeho1der"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "(| (User input)|) và tìm kiếm/tống hợp thông tin từ dữ liệu CSV mà em đã cung cấp trong prompt, sau đó tạo ra câu trả lời.",
+    "suspicious": [
+      "kiếm/tống"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Khối 3: Đầu ra khối Generate Text được kết nối mặc định với đầu vào của",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Preview V Publish",
+    "suspicious": [
+      "Publish"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "33R",
+    "suspicious": [
+      "33R"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "C Open Published Agent",
+    "suspicious": [
+      "Published"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Thuộc chương: Văn học Việt Nam sau Cách mạng tháng Tám (1945-1975) • Sáng tác từ năm 19-48-1955, trong thời ki khăng chiến chống Pháp • Nội dung: Thể hiện sự gần bó sâu sắc giữa đất nước và nhân dán, sự chuyến minh của đất nước trong chiến tranh, niềm tự hào dân tộc • Phong cách: Thơ trữ tình chỉnh trị, hào hùng, suy tư • Giá trị: Góp phần định hình nến thơ ca cách mạng Việt Nam",
+    "suspicious": [
+      "1945-1975",
+      "19-48-1955"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Thuộc chương: Văn học Việt Nam sau Cách mạng tháng Tâm (1945-1975) • Trích từ trường ca \"Mặt đường khát vọng\", sảng tác năm 1971, trong thời ki kháng chiến chống Mỹ • Nội dung: Định nghĩa về đất nước từ nhiều góc độ: lịch sử, văn hóa, đời sống hàng ngày, khẳng định đất nước là của nhân dân",
+    "suspicious": [
+      "1945-1975"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Generate Text. Cụ thể hơn về cách AI cần hiếu và xuất thông tin.",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Thêm các luồng nhánh (Branching): Đối với các yêu cầu phức tạp hơn, em có",
+    "suspicious": [
+      "Branching"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "thể sử dụng các khối Logic (If/Else) để tạo các nhánh luồng khác nhau.",
+    "suspicious": [
+      "If/Else"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "Generate Text chi để chào hỏi, thay vì cố gắng tìm kiếm thông tin văn học.\n\nĐiều này giúp Agent linh hoạt hơn.",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "sau đó nối tới các khối Generate Text khác nhau với prompt riêng biệt.\n\n- Giải thích cho học sinh:",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-13-xay-dung-san-pham",
+    "line": "+ Generate Text hoạt động như một bộ não phân tích câu hỏi và tổng hợp câu",
+    "suspicious": [
+      "Generate"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "nó chạy an toàn, sản phẩm AI của chúng ta cũng cần được kiểm thử (testing) Ki càng. Mục tiêu của kiêm thử là tìm ra lôi, vấn đề và đảm bảo sản phẩm hoạ động đúng như thiết kế. Khi phát hiện lỗi, chúng ta cần gỡ lỗi (debugging) để khắi phục chúng.",
+    "suspicious": [
+      "testing",
+      "debugging",
+      "khắi"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Kiểm thừ phản hồi (LLM Response Testing): Đặc biệt quan trọng với các",
+    "suspicious": [
+      "Testing"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "ứng dụng dùng LLM. Chúng ta sẽ đánh glá chât lượng câu trả lời:",
+    "suspicious": [
+      "glá"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Tát từng phân của hý inông độ tim ra nguồn",
+    "suspicious": [
+      "inông"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "gór ván de",
+    "suspicious": [
+      "gór"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Kiếm thử là bước quan trọng để phát hiện lỗi và đảm bảo sản phẩm AI hoạt động đúng.\n\n• Cần phải kiểm tra chức năng, phản hồi của LLM và các tình huỗng đặc biệt.",
+    "suspicious": [
+      "huỗng"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Tối va boa ToollAgent",
+    "suspicious": [
+      "ToollAgent"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Vill ctu soi es rang a tl va oo",
+    "suspicious": [
+      "Vill"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "yo ctr dl d too cra ckcy arn cia tar",
+    "suspicious": [
+      "ctr",
+      "ckcy"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Chíên bị da liêu sach, có chu trú và coia nhó hap 5 lố Ai có tri tin",
+    "suspicious": [
+      "Chíên",
+      "coia"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Thy coirh aas shang ed ad sinh of",
+    "suspicious": [
+      "coirh",
+      "aas"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Thuốt kố qua tánh cứ 5 thông mích",
+    "suspicious": [
+      "Thuốt",
+      "kố"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Niêm nây th cont kac.",
+    "suspicious": [
+      "kac"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "on dese lés ad pon lop vos rud dict ao cung",
+    "suspicious": [
+      "dese",
+      "lés",
+      "lop"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "công cụ niều mut",
+    "suspicious": [
+      "niều",
+      "mut"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "hơn (ví dụ: 0.7-1.0) sẽ cho phản hồi đa dạng, sáng tạo hơn nhưng có thể",
+    "suspicious": [
+      "7-1"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "kém chính xác. Giá trị thấp hơn (ví dụ: 0.0-0.5) sẽ cho phản hồi ổn định, ít bịa đặt nhưng có thế đơn điệu.",
+    "suspicious": [
+      "0-0"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "+ Độ dài phản hồi (Max_tokens): Giới hạn độ dài của câu trả lời, giúp phản hồi",
+    "suspicious": [
+      "Max_tokens"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Tối ưu hoá công cụ/Agent (nếu có):",
+    "suspicious": [
+      "cụ/Agent"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "quan), điều chỉnh tham số mô hình (temperature, max_tokens) và tối ưu hóa hoạt động của công cụ/Agent.",
+    "suspicious": [
+      "max_tokens",
+      "cụ/Agent"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "b)  Gỡ lỗi: Xác định và khắc phục ít nhất 01 lỗi/vấn đề về độ chính xác mà nhóm",
+    "suspicious": [
+      "lỗi/vấn"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "/ Tao checklist đé không bỏ sót",
+    "suspicious": [
+      "checklist"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "1 Ghi chép kết quả chi tiét",
+    "suspicious": [
+      "tiét"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "v Hói ý kién đồng đội khi căn",
+    "suspicious": [
+      "kién"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Già sử nhóm em đang xây dựng một trợ lí môn học cho mỏn Ngữ văn lớp 12, sử dụng dữ liệu là các bài học, tác phẩm, câu hỏi ôn tập có trong môn Ngữ văn lóp 12.",
+    "suspicious": [
+      "mỏn"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Bước 2. Chạy sản phầm AI của nhóm với từng câu hòi/yêu cầu đã liệt kê.",
+    "suspicious": [
+      "hòi/yêu"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Bước 2. Dựa vào các phương pháp gỡ lối đã học (đọc thông báo lỗi, dùng print/log để theo dõi dữ liệu, kiểm tra từng thành phần), hãy phân tích nguyên nhân gây ra vấn đề:",
+    "suspicious": [
+      "print/log"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "Kiểm tra/Tối ưu dữ liệu RAG: Nếu thấy LLM đôi khi bỏ sót các",
+    "suspicious": [
+      "tra/Tối"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-14-hoan-chinh-san-pham",
+    "line": "A. max_tokens tang lên.\n\nB. temperature giảm xuống.",
+    "suspicious": [
+      "max_tokens"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-15-trinh-bay-ket-qua-du-an",
+    "line": "Dù em sử dụng PowerPoint, Google Slides, hay bất kì công cụ trình bày nào, một bài trình bàyy vê dự án nên bao gôm các phân chính sau:",
+    "suspicious": [
+      "bàyy"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bai-15-trinh-bay-ket-qua-du-an",
+    "line": "Sản phẩm AI của nhóm em giải quyết được vấn đề gì một cách cụ thể? (vĩ dịụ:",
+    "suspicious": [
+      "dịụ"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bang-giai-thich-thuat-ngu",
+    "line": "API (Application Programming Interface)",
+    "suspicious": [
+      "Programming",
+      "Interface"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bang-giai-thich-thuat-ngu",
+    "line": "Object Notation)",
+    "suspicious": [
+      "Object",
+      "Notation"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bang-giai-thich-thuat-ngu",
+    "line": "Top_k (trong cầu hình LLM)",
+    "suspicious": [
+      "Top_k"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "bang-giai-thich-thuat-ngu",
+    "line": "Số lượng từ/token có xác suất cao nhất mà mô hình LLM sẽ xem xét khi chọn từ tiếp theo để tạo ra câu trả lời.",
+    "suspicious": [
+      "từ/token"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "TRÍ TUỆ NHÂN TẠO LỚP 12 Mã số: TZT40P6-SED",
+    "suspicious": [
+      "TZT40P6-SED"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "In 20.000 bản, (QĐ in số: 01-STK) khổ 19 x 26,5 cm.",
+    "suspicious": [
+      "01-STK"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "Cơ sở in: 643 Tỉnh lộ 2, ấp Lào Táo Thượng, xã Thái Mỹ, TP.Hồ Chí Minh Số ĐKXB: 416-2026/CXBIPH/38-168/GD",
+    "suspicious": [
+      "416-2026/CXBIPH/38-168/GD"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "Số QĐXB: 120/QĐXB-GD, ngày 11 tháng 02 năm 2026",
+    "suspicious": [
+      "120/QĐXB-GD"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "Mã số ISBN: 978-604-0-46634-1",
+    "suspicious": [
+      "978-604-0-46634-1"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "VAI DENDANTAO",
+    "suspicious": [
+      "DENDANTAO"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "TaRUE HANDO",
+    "suspicious": [
+      "TaRUE",
+      "HANDO"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "ISBN 978-604-0-46634-1",
+    "suspicious": [
+      "978-604-0-46634-1"
+    ]
+  },
+  {
+    "book": "lop-12",
+    "lesson": "thong-tin-xuat-ban-bia-sau",
+    "line": "SEDIDCO",
+    "suspicious": [
+      "SEDIDCO"
+    ]
+  }
+]

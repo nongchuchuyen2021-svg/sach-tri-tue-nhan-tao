@@ -32,7 +32,7 @@
                 </div>
                 <div class="section-body">
             
-<p class="lesson-p">Thảo muốn tạo một hình ảnh có tỉ lệ khung hinh 1:1 mô tả hệ Mặt Trời theo phong cách hiện thực với ánh sáng dịu nhẹ và góc nhìn rộng, không có chữ. Tuy nhiên, hình ảnh được tạo ra có nhiều hành tinh hơn thực tế. Thảo tải ảnh về và tiếp tục yêu cầu mô hình bỏ bớt một số hành tinh trong ảnh.</p>
+<p class="lesson-p">Thảo muốn tạo một hình ảnh có tỉ lệ khung hình 1:1 mô tả hệ Mặt Trời theo phong cách hiện thực với ánh sáng dịu nhẹ và góc nhìn rộng, không có chữ. Tuy nhiên, hình ảnh được tạo ra có nhiều hành tinh hơn thực tế. Thảo tải ảnh về và tiếp tục yêu cầu mô hình bỏ bớt một số hành tinh trong ảnh.</p>
 <p class="lesson-p">Em hãy cho biết:</p>
 <h3 class="subheading-h3"><span class="h3-num">1.</span> Thảo đã đưa ra những yêu cầu nào khi tạo hình ảnh?</h3>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> Khi ảnh chưa được như mong muốn, Thảo đã làm gì?</h3>
@@ -48,7 +48,7 @@
 <h3 class="subheading-h3"><span class="h3-num">1.</span> Sử dụng mô hình ngôn ngữ lớn để tạo ảnh</h3>
 <h4 class="subheading-h4"><span class="h4-letter">a)</span> Các tham số và từ khóa khi tạo ảnh</h4>
 <p class="lesson-p">Khi tạo ảnh Thảo đã đưa ra các yêu cầu về tỉ lệ khung hình, phong cách, ánh sáng, góc nhìn. Các yếu tố này ảnh hưởng trực tiếp đến ảnh được tạo ra bởi LLM.</p>
-<p class="lesson-p">Ti lệ khung hình: là tỉ lệ giữa chiều rộng và chiều cao của khung hinh. Tỉ lệ khung hình quyết định hình dạng khung ảnh, ngang, vuông, dọc. Lựa chọn tỉ lệ khung hinh phụ thuộc vào mục đích, khung ngang giúp chứa nhiều chi tiết, tái tạo cảnh quan; khung vuông/dọc giúp lập trung vào chủ thế.</p>
+<p class="lesson-p">Ti lệ khung hình: là tỉ lệ giữa chiều rộng và chiều cao của khung hình. Tỉ lệ khung hình quyết định hình dạng khung ảnh, ngang, vuông, dọc. Lựa chọn tỉ lệ khung hình phụ thuộc vào mục đích, khung ngang giúp chứa nhiều chi tiết, tái tạo cảnh quan; khung vuông/dọc giúp tập trung vào chủ thể.</p>
 <p class="lesson-p">Phong cách: là cách thức thể hiện bức ảnh. Một số phong cách hình ảnh phổ biến như tranh sơn dầu (oil painting), màu nước (watercolor), phác thảo chì (pencil sketch),</p>
 <p class="lesson-p">hoạt hình (anime style), hiện thực (photorealistic), Van Gogh (Van Gogh style).....
 
@@ -150,11 +150,11 @@ Các yêu cầu này ngăn mô hình ngôn ngữ lớn tạo ra các yếu tổ 
 <p class="lesson-p">Tạo hình ảnh + <nội dung bức ảnh></p>
 <p class="lesson-p">+ <các tham số, từ khóa> + <prompt phủ định>.</p>
 <h3 class="subheading-h3"><span class="h3-num">2.</span> Sử dụng mô hỉnh ngôn ngữ lớn đề chỉnh sửa ảnh</h3>
-<p class="lesson-p">Khi sử dụng LLM để tạo ảnh, bức ảnh Thảo thu được có những điểm chưa như mong muốn, hình ảnh có nhiều hành tinh hơn thực tế. Thảo đã sử dụng LLM để chỉnh sửa bức ảnh ban đầu. Việc chỉnh sừa này không yêu cầu dùng phần mềm chuyên dụng mà được thực hiện bằng chinh LLM với prompt đơn giản.</p>
+<p class="lesson-p">Khi sử dụng LLM để tạo ảnh, bức ảnh Thảo thu được có những điểm chưa như mong muốn, hình ảnh có nhiều hành tinh hơn thực tế. Thảo đã sử dụng LLM để chỉnh sửa bức ảnh ban đầu. Việc chỉnh sửa này không yêu cầu dùng phần mềm chuyên dụng mà được thực hiện bằng chinh LLM với prompt đơn giản.</p>
 <p class="lesson-p">Việc tạo một ảnh mới từ một ảnh gốc (chỉnh sửa) theo prompt mô tả được gọi là tạo ảnh từ ảnh (image-to-image). Để LLM có thể chỉnh sửa ảnh, em cần cung cấp</p>
 <p class="lesson-p">ảnh gốc và các yêu cầu chỉnh sửa trong prompt. LLM sẽ tạo ra ảnh mới dựa trên hai thông tin này.</p>
 <p class="lesson-p">Khi cần chỉnh sửa nội dung bên trong bức ảnh (inpainting), LLM sẽ phân tích nội dung ảnh, xác định vùng cần thay đổi và thực hiện các thay đổi theo yêu cầu. Cuối cùng, LLM kết hợp vùng đã chỉnh sửa trở lại ảnh gốc. Vị dụ, Hình 11.5b sử dụng kĩ thuật inpainting để xóa bớt bốn hành tinh trong ảnh gốc ở Hình 11.5a.</p>
-<p class="lesson-p">Khi cần mở rộng ảnh gốc và vẽ thêm các nội dung mong muốn (outpainting), LLM sẽ đặt ảnh gốc vào một khung vẽ lớn hơn, phân tích chi tiết ảnh gốc. Sau đó, LLM vẽ vào vùng mới với nội dung theo yêu cầu và phù hợp với ành gốc về kết cấu, phong cách, ánh sáng. Ví dụ, Hinh 11.5c sử dụng kĩ thuật outpainting mở rộng ảnh, thêm không gian xung quanh, thêm các ngôi sao và sao chỗi vào phần rìa ảnh gốc ở Hinh 11.5a.</p>
+<p class="lesson-p">Khi cần mở rộng ảnh gốc và vẽ thêm các nội dung mong muốn (outpainting), LLM sẽ đặt ảnh gốc vào một khung vẽ lớn hơn, phân tích chi tiết ảnh gốc. Sau đó, LLM vẽ vào vùng mới với nội dung theo yêu cầu và phù hợp với ành gốc về kết cấu, phong cách, ánh sáng. Ví dụ, Hình 11.5c sử dụng kĩ thuật outpainting mở rộng ảnh, thêm không gian xung quanh, thêm các ngôi sao và sao chỗi vào phần rìa ảnh gốc ở Hình 11.5a.</p>
 
                     <figure class="lesson-figure-box">
                         <div class="figure-placeholder">
@@ -219,7 +219,7 @@ b) Hình ảnh được chỉnh sửa</figcaption>
 <p class="lesson-p">Bước 1. Mở trình duyệt web và truy cập vào trang web: https://aistudio.google.com/.</p>
 <p class="lesson-p">Bước 2. Nháy chuột chọn nút lệnh Generate Media, tiếp theo chọn Gemini image generation.</p>
 <p class="lesson-p">Create Generative Media</p>
-<p class="lesson-p">Hinh 11.9. Chọn công cụ Gemini image generation</p>
+<p class="lesson-p">Hình 11.9. Chọn công cụ Gemini image generation</p>
 <p class="lesson-p">Bước 3. Tải ảnh thu được ở Nhiệm vụ 1 lên mô hình.</p>
 <p class="lesson-p">Bước 4. Nhập prompt "Hãy xoa bớt bốn hành tinh trong ảnh" và nhân tổ hợp phím Ctrl + Enter.</p>
 <p class="lesson-p">Viết prompt Tải ảnh Welcome to AI Studio</p>

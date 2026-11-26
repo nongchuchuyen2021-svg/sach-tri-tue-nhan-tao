@@ -65,7 +65,7 @@ Giả sử em dự đoán bạn Nam nặng 55 kg, nhưng khi Nam đứng lên c�
 <li>Đầu ra: Hàm mất mát trả về một giá trị không âm:</li>
 </ul>
 <p class="lesson-p">+ Kết quả là 0: Mô hình dự đoán hoàn toàn chính xác.</p>
-<p class="lesson-p">+ Kết quả lớn hơn 0: Dự đoán có sai lệch, giá trị càng lón thi sai lệch càng nhiều.</p>
+<p class="lesson-p">+ Kết quả lớn hơn 0: Dự đoán có sai lệch, giá trị càng lớn thì sai lệch càng nhiều.</p>
 <ul class="lesson-bullet-list">
 <li>Hàm mất mát là công cụ để đánh giá độ chính xác của mô hình.</li>
 <li>Sai lệch càng lớn, giá trị hàm mât mát cảng cao.</li>
@@ -101,7 +101,7 @@ c) Mất mát trung bình</p>
 <p class="lesson-p">Sau khi đo được mức độ sai lệch của mô hình bằng hàm mất mát, ta phải tìm cách giảm mức độ sai lệch đó. Việc này được thực hiện bằng cách điều chỉnh các tham số bên trong mô hình, giống như chỉnh các nút điều khiển để mô hình dự đoán chính xác hơn. Trong ví dụ 2 (mục 1.b), các tham số cần điều chỉnh là w và b.</p>
 <p class="lesson-p">Công cụ hiệu quả giúp điều chỉnh tham số là sử dụng kĩ thuật giảm dần độ dốc.
 
-Đó là cách cho mô hình tự học từ sai lầm. Sau mỗi lần dự đoán sai, nó sẽ tự điều chỉnh một chút để lần sau bớt sai hơn. Kĩ thuật giảm dần độ dốc là thuật toán tự động điều chỉnh các tham số của mô hinh theo hướng giảm bớt sai lệch.</p>
+Đó là cách cho mô hình tự học từ sai lầm. Sau mỗi lần dự đoán sai, nó sẽ tự điều chỉnh một chút để lần sau bớt sai hơn. Kĩ thuật giảm dần độ dốc là thuật toán tự động điều chỉnh các tham số của mô hình theo hướng giảm bớt sai lệch.</p>
 <p class="lesson-p">Hãy tưởng tượng một thung lũng (hàm MSE có hình parabol hướng lên trên) mà em đang đứng trên sườn thung lũng đó và muốn đi xuống vị trí thấp nhất (hàm</p>
 <p class="lesson-p">MSE đo sai lệch đạt giá trị nhỏ nhất). Khi đó kĩ thuật giảm dần độ dốc là cách tìm đường đi xuống nhanh nhất.</p>
 <h4 class="subheading-h4"><span class="h4-letter">a)</span> Y nghĩa</h4>
@@ -175,8 +175,8 @@ open("study_data. csv", "w") .write(csv_txt) # Tạo và ghi nội dung vào fil
                     
 <p class="lesson-p">data • pd. read_csv("study_dato. (sv") # Dọc dừ liệu từ file CSV vào Dataframe X = data["hours"] values " lãy rột "lours" (số giở lọc) làm dừ liện đàu vào X (dạng mang</p>
 <p class="lesson-p">питру) y = datal"scoro") values 1 Lãy cột "score" (điếm thí) làm dữ liệu đầu ra y (dạng máng numpy)</p>
-<p class="lesson-p">plt.scatter(X, y, s-60) " Vi biéu do phán lin (sealler plot) với X (trục hoành) và y (trục</p>
-<p class="lesson-p">(ung), 3.60 là kich lhor diém plt-xlabel("Số giờ học") 4 Dặt tên cho trục hoành</p>
+<p class="lesson-p">plt.scatter(X, y, s-60) " Vẽ biểu đồ phân tán (scatter plot) với X (trục hoành) và y (trục</p>
+<p class="lesson-p">(ung), 3.60 là kich lhor điểm plt-xlabel("Số giờ học") 4 Dặt tên cho trục hoành</p>
 <p class="lesson-p">plt, ylabel("Điềm thi") 4 Đật tên cho trục tung plt-title( "Phân bố dữ liệu" ) # Hiển thị biểu đồ</p>
 <p class="lesson-p">plt.show()</p>
 <p class="lesson-p">Em sẽ thấy một biểu đồ với các điểm tròn (Hình 11.1). Mỗi điểm là một học sinh,</p>
@@ -224,10 +224,10 @@ open("study_data. csv", "w") .write(csv_txt) # Tạo và ghi nội dung vào fil
 v, b = 0.0, 0.0 = Khởi tạo ban Sau cho v và b n = len (X) loss _hist = [] = lu lại giá trị mát mát sau nôi làn học</li>
 </ul>
 <p class="lesson-p">for epoch in range (epochs):</p>
-<p class="lesson-p">y_pred= W * X + b $ AI dua ra dự doán diém thi</p>
+<p class="lesson-p">y_pred= W * X + b $ AI dua ra dự doán điểm thi</p>
 <p class="lesson-p">loss = (error ** 2). mean () loss_hist.append(loss)</p>
 <p class="lesson-p"># Tính hăn mất mát (PSE)</p>
-<p class="lesson-p"># Tính toán hướng cần điều chinh (Gradient) để giản mát mát » grad = (2 / n) * np.dot(X, error) b_ grad= (2 / n) * error-sum()</p>
+<p class="lesson-p"># Tính toán hướng cần điều chinh (Gradient) để giảm mất mát » grad = (2 / n) * np.dot(X, error) b_ grad= (2 / n) * error-sum()</p>
 <p class="lesson-p"># Cập nhật tham số w và b để giám hàm mát mát w -= Ir * w grad</p>
 <p class="lesson-p">b -= Ir = b_grad</p>
 <p class="lesson-p">if verbose and epoch % 100 = 0: # In ra để xem tiến trình học của AI</p>
@@ -241,7 +241,7 @@ v, b = 0.0, 0.0 = Khởi tạo ban Sau cho v và b n = len (X) loss _hist = [] =
 <p class="lesson-p">Python | plt. scatter (X, y, 9-60, label- "Dữ liệu thực" )</p>
 <p class="lesson-p">plt.plot(X, w " X +b, color="red", label» "Dường hòi quy" ) " Vẽ đường dụ đoán của AI</p>
 <p class="lesson-p">plt. xlabel( "Số giờ học" ) plt.ylabel( "Dlém thi" ) plt. title( "Dy đoán điền thi theo số giờ học" ) plt.legend() plt.show()</p>
-<p class="lesson-p">Các em sã thấy một biểu đề giống như Hinh 11.2 (tã du nó sẽ đi gần qua các điểm Đường hôi quy màu đó chính là đường dự doan cua AI dữ liệu, cho thấy AI đã học được mối quan hệ giữa số giờ học và điểm thi.</p>
+<p class="lesson-p">Các em sã thấy một biểu đề giống như Hình 11.2 (tã du nó sẽ đi gần qua các điểm Đường hôi quy màu đó chính là đường dự doan cua AI dữ liệu, cho thấy AI đã học được mối quan hệ giữa số giờ học và điểm thi.</p>
 <p class="lesson-p">Dự đoán điểm thì theo số giờ học</p>
 <p class="lesson-p">10 Dữ liệu thực</p>
 <p class="lesson-p">Đường hồi quy</p>

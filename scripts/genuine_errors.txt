@@ -1,0 +1,2105 @@
+[lop-10/bia-sach] SUSP: ['LUAN']
+  LINE: NGUYÊN THỊ VAN ANH -PHẠM TUẦN ANH - VŨ VĂN LUAN
+
+[lop-10/cong-van-tham-dinh-bia-lot] SUSP: ['1362/BGDĐT-GDPT', '31/12/2025']
+  LINE: theo chi đạo tại Công văn số 1362/BGDĐT-GDPT ngày 31/12/2025
+
+[lop-10/cong-van-tham-dinh-bia-lot] SUSP: ['THL']
+  LINE: HÀ ĐANG CAO TUNG - HOÀNG THL MAI - LÊ ANI VINH (ĐÔNG CHU BIEN)
+
+[lop-10/cong-van-tham-dinh-bia-lot] SUSP: ['LUAN']
+  LINE: NGUYEN THỊ VAN ANH - PHẠM TUAN ANH - VŨ VĂN LUAN
+
+[lop-10/cong-van-tham-dinh-bia-lot] SUSP: ['LOC']
+  LINE: CAD LOC.
+
+[lop-10/huong-dan-su-dung-sach] SUSP: ['Góm']
+  LINE: THỰC HÀNH Góm những nhiệm vụ học tập có hướng dẫn chi tiết.
+
+[lop-10/loi-noi-dau] SUSP: ['triến']
+  LINE: tất yếu để chúng ta có thể tồn tại và phát triến trong thế giới do chinh mình
+
+[lop-10/muc-luc] SUSP: ['lón']
+  LINE: Bài 3 Mô hình ngôn ngữ lón
+
+[lop-10/bai-1-tri-tue-nhan-tao] SUSP: ['hỏi/đáp']
+  LINE: Trợ lí ảo  như Siri hay Google Assistant dùng công nghệ xử lí ngôn ngữ tự nhiên (NLP) và nhận dạng giọng nói để hỗ trợ người dùng hỏi/đáp, đặt báo thức và điều khiển thiết bị thông minh.
+
+[lop-10/bai-1-tri-tue-nhan-tao] SUSP: ['Shopee', 'Collaborative', 'Filtering']
+  LINE: Hệ thống gợi ý  trên YouTube, Netflix hay Shopee sử dụng kĩ thuật lọc cộng tác (Collaborative Filtering) và học sâu (Deep Learning) để đề xuất nội dung phù hợp, giúp tăng thời gian sử dụng và doanh thu.
+
+[lop-10/bai-1-tri-tue-nhan-tao] SUSP: ['ra/vào']
+  LINE: Công nghệ nhận dạng khuôn mặt  như FaceID dùng thị giác máy tính và mạng nơ-ron tích chập (CNN) để mở khoá thiết bị, kiểm soát ra/vào và giám sát an ninh.
+
+[lop-10/bai-1-tri-tue-nhan-tao] SUSP: ['Autopilot', 'LiDAR']
+  LINE: Ô tô tự lái  như Tesla Autopilot sử dụng camera, radar, LiDAR (cảm biến đo khoảng cách bằng laser) và học sâu để hỗ trợ giữ làn, đi cao tốc và đỗ xe tự động.
+
+[lop-10/bai-2-ai-tao-sinh] SUSP: ['ảnh/tranh']
+  LINE: Những công cụ AI mà Lan và Nam sử dụng là ví dụ của AI tạo sinh - một loại AI có thể tạo ra văn bản, hình ảnh/tranh, âm thanh hoặc video theo yêu cầu. Người dùng nhập yêu cầu mô tả, hệ thống sẽ xử lí và tạo ra kết quả tương ứng
+
+[lop-10/bai-2-ai-tao-sinh] SUSP: ['ảnh/tranh']
+  LINE: Một số công cụ AI tạo sinh có thể tạo hình ảnh/tranh như ChatGPT, Craiyon,...
+
+[lop-10/bai-2-ai-tao-sinh] SUSP: ['Sưno']
+  LINE: Hình 2.8.  Kết quả nhạc được tạo ra từ Sưno A/
+
+[lop-10/bai-2-ai-tao-sinh] SUSP: ['Creator']
+  LINE: quả, khả năng thay đổi nội dung,....
+
+3. Sử dụng công cụ khác của AI tạo sinh để tạo nội dung mới. Em hãy chọn một công cụ AI tạo sinh khác với bài học (ví dụ: Bing Image Creator, Gemini,
+
+[lop-10/bai-3-mo-hinh-ngon-ngu-lon] SUSP: ['PHẨ']
+  LINE: KHÁM PHẨ
+
+[lop-10/bai-3-mo-hinh-ngon-ngu-lon] SUSP: ['ănh']
+  LINE: Để làm được điều này, hệ thống cần được huấn luyện từ trước với một lượng lớn dữ liệu gồm các cặp văn bản - hình ảnh. Quá trinh huấn luyện này giúp mô hình học được cách liên kết giữa ngôn ngữ mô tả và các đặc điểm hình ảnh tương ứng.
+
+Khả năng chuyển đổi từ văn bản thành hình ănh giúp mô hinh không chỉ hiểu ngôn ngữ mà còn hỗ trợ con người thế hiện ý tưởng một cách sinh động và trực
+
+[lop-10/bai-3-mo-hinh-ngon-ngu-lon] SUSP: ['ănh']
+  LINE: Một số LLM có thể kết hợp với hệ thống tạo sinh hình ănh đề biến văn bản mô tả thành hình ảnh.
+
+[lop-10/bai-3-mo-hinh-ngon-ngu-lon] SUSP: ['thasing']
+  LINE: Shoe thasing v
+
+[lop-10/bai-3-mo-hinh-ngon-ngu-lon] SUSP: ['muán']
+  LINE: Ban. du muán tôi tạo thêm hình ảnh náo nữa không?
+
+[lop-10/bai-3-mo-hinh-ngon-ngu-lon] SUSP: ['Dsy', 'mot', 'búc', 'zadn']
+  LINE: Dsy ls mot búc tranh né mùa zadn
+
+[lop-10/bai-3-mo-hinh-ngon-ngu-lon] SUSP: ['Gerini']
+  LINE: Ash Gerini
+
+[lop-10/bai-3-mo-hinh-ngon-ngu-lon] SUSP: ['Drep', 'Reaserch']
+  LINE: + @ Drep Reaserch
+
+[lop-10/bai-3-mo-hinh-ngon-ngu-lon] SUSP: ['họạ']
+  LINE: Lớp 10A đang chuẩn bị bài thuyết trình với chủ đề "Mùa hè đáng nhớ". Bạn An sử dụng một công cụ AI để viết nội dung bài thuyết trình, trong khi Bình thử tạo hình ảnh minh họạ cho phần trình bày. Kết quả mà hai bạn nhận được có sự khác biệt
+
+[lop-10/bai-3-mo-hinh-ngon-ngu-lon] SUSP: ['sạu']
+  LINE: 4. Em hãy đọc câu sạu và chia thành các token đơn giản: "Mùa hè đến, ve kêu râm ran trên vòm cây xanh.".
+
+[lop-10/bai-4-du-lieu-huan-luyen] SUSP: ['chalbot']
+  LINE: Trường Trung học phổ thông An Phú lổ chức cuộc thi sáng tạo khoa học. Một nhóm học sinh lớp 10 phát triển chalbot AI để hỗ trợ học tập. Dữ liệu huấn luyện ban đầu của chatbot chỉ tập trung vào món Vật lí lớp 10. Khi thử nghiệm,
+
+[lop-10/bai-4-du-lieu-huan-luyen] SUSP: ['huắn']
+  LINE: 1.  Tầm quan trọng của dữ liệu đối với việc huắn luyện mô hình Ai
+
+[lop-10/bai-4-du-lieu-huan-luyen] SUSP: ['LÚYỆN']
+  LINE: LÚYỆN TẬP
+
+[lop-10/bai-4-du-lieu-huan-luyen] SUSP: ['huán']
+  LINE: các món ăn theo góc nhìn từ trên xuống, trong khi ành của món bún bò Huế dũng để nhận dạng được chụp ở góc nghiêng và thiếu dữ liệu huán luyện về món này.
+
+[lop-10/bai-4-du-lieu-huan-luyen] SUSP: ['Xóá']
+  LINE: D. Xóá bỏ các món khó phân biệt khỏi danh sách nhận dạng.
+
+[lop-10/bai-4-du-lieu-huan-luyen] SUSP: ['AIsA']
+  LINE: AIsA
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['prompi']
+  LINE: 1.  Giới thiệu prompi
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['llên']
+  LINE: Một prompt được coi là rõ ràng nếu nó giúp AI hiểu đúng việc cần làm, chủ đề llên
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['hoặt']
+  LINE: muốn email thể hiện sự trân trọng, nhắc lại một ấn tượng đàng nhớ trong giờ học và thông báo thời gian, địa điểm của buổi sinh hoặt.
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['24/10/2025']
+  LINE: + Buổi sinh hoạt diễn ra lúc 14h00, thứ Sáu ngày 24/10/2025, tại phòng học
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['24/10/2025']
+  LINE: qua từng lời nói.". Buổi sinh hoạt diễn ra lúc 14h00, thứ Sáu ngày 24/10/2025, tại phòng học lớp 10A2. Giọng văn trang trọng, ấm áp. Kết thư có lời mời cô xác
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['Xàc']
+  LINE: Xàc định mục đích và định dạng hình ảnh:
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['đăn']
+  LINE: ảnh có hai học sinh Trung học phổ thông - một bạn cầm sách, một bạn đang chơi đăn guitar, đứng đối diện nhau như đang chia sẻ góc nhin trong một buổi tranh biện.
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['prompl']
+  LINE: + Vĩ dụ prompl: Có nền là lớp học hoặc sân trường, ánh sáng tươi sáng, màu
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['chên']
+  LINE: Ví dụ: Tạo hình ảnh minh hoạ cho một áp phích truyền thông học sinh Trung học phổ thông với chủ đề "Cân bằng giữa học tập và đam mê cá nhân". Trong ảnh có hai học sinh Trung học phổ thông - một bạn cầm sách, một bạn cầm đàn guitar - đang thảo luận hoặc trò chuyện trong lớp học. Bối cảnh có bàn học, bảng đen và biểu tượng micro. Phong cách minh hoa hiện đại, màu sắc nồi bật, ánh sáng tươi sáng. Bố cục mở rộng ở phần trên để dễ chên tiêu để, thể hiện tinh thần sáng tạo, năng động và truyền cảm hứng.
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['image-creator', 'com/images/create']
+  LINE: image-creator hoặc https://www.bing.com/images/create,...
+
+[lop-10/bai-5-prompt-giao-tiep-voi-ai-tao-sinh] SUSP: ['nhồm']
+  LINE: prompt của nhồm bạn Mai.
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['4I']
+  LINE: BÁI C: 4I TẠO SINH HỒ TRỢ
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['Khới', 'lệu', 'Lích', 'ngọi']
+  LINE: Trong tỉnh huống Khới động, nhôm bạn Minh đã sử dụng Ai tạo sinh để tim them tư lệu và hình ảnh minh hoa cho bải thuyết trinh môn Lích sử. Nhờ biết cách kiêm tra, chọn lọc và trình bày lại nội dung, các bạn đã làm bải tốt và được giáo viên khen ngọi. Điều này cho thấy, nếu sử dung đúng cách thì Ai tạo sinh có thế giúp em học tập hiệu quả
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['lưyng']
+  LINE: hoặc mô tả hiện lưyng. Tuy nhiên, với bất kì môn học nào, em chỉ nên sử dụng Ai tạo sinh với vải tro hồ trọ. Chính em là người cần hiểu, ghi nhớ và trình bày lại
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['hoậc']
+  LINE: Ngoài việc tim thông tin, AI còn có thể hỏ ty em trong việc lập kể hoạch học tập chuẩn bị bài, luyện lập theo chú đề hoậc mù rông kì ráng khi cần thiết
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['never/see']
+  LINE: (never/see) a lion before.
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['homework']
+  LINE: (finish) my homework already.
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['visited', 'grandparents']
+  LINE: I last visited my grandparents two years ago.
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['Ihaven']
+  LINE: → Ihaven't...
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['2/3']
+  LINE: Ví dụ ghi chú: "Em làm đúng 2/3 câu trắc nghiệm. Ở câu viết lại, AI cho đáp án
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['visited', 'grandparents', 'since/for']
+  LINE: I haven't visited my grandparents for two years, em hỏi lại tại sao không dùng since two years ago và AI giải thích thêm về cách dùng since/for. Nhờ vậy em hiểu rõ hơn.".
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['Vese', 'VGC']
+  LINE: HM Vese I VGC
+
+[lop-10/bai-6-ai-tao-sinh-ho-tro-hoc-tap] SUSP: ['Heinesicy']
+  LINE: AI Heinesicy
+
+[lop-10/bai-7-phan-biet-that-gia-trong-ai-tao-sinh] SUSP: ['trỏi']
+  LINE: A. Một đoạn văn trỏi chảy nhưng chứa thông tín
+
+[lop-10/bai-8-hieu-dung-ve-ai-tao-sinh-thien-vi-hieu-lam-va-tac-hai-voi-con-nguoi] SUSP: ['bảl']
+  LINE: Sau bảl học này, em sẻ:
+
+[lop-10/bai-8-hieu-dung-ve-ai-tao-sinh-thien-vi-hieu-lam-va-tac-hai-voi-con-nguoi] SUSP: ['gìảm']
+  LINE: cùng cố định kiến, làm gìảm tính đa dạng và ảnh hưởng tiêu cực đến quyết định trong nhiều lĩnh vực.
+
+[lop-10/bai-8-hieu-dung-ve-ai-tao-sinh-thien-vi-hieu-lam-va-tac-hai-voi-con-nguoi] SUSP: ['gìảm']
+  LINE: Thiên vị trong AI tạo sinh có thể dẫn đến thông tin sai lệch, quyết định thiếu công bằng, củng cố đinh kiến xã hôi và làm gìảm độ tin cậy của hệ thống AI, nhất là trong các lĩnh vực như giáo dục, tuyển dụng, y tế, truyền thông....
+
+[lop-10/bai-8-hieu-dung-ve-ai-tao-sinh-thien-vi-hieu-lam-va-tac-hai-voi-con-nguoi] SUSP: ['câ']
+  LINE: Sử dụng Ai công bằng nghĩa là tôn trọng sự đa dạng và đàm bảo không để AI gây bất lợi cho bất kì câ nhân hay nhóm người nào. Khi phát hiện kết quả có dấu hiệu thiên vị, loại trừ hoặc chưa phù hợp, con người cần can thiệp để điều chỉnh. Điều này đặc biệt quan trọng trong các lĩnh vực như tuyển dụng, giáo dục, truyền thông - nơi mỗi quyết định đều ảnh hưởng trực tiếp đến con người.
+
+[lop-10/bai-8-hieu-dung-ve-ai-tao-sinh-thien-vi-hieu-lam-va-tac-hai-voi-con-nguoi] SUSP: ['họạ']
+  LINE: 1. Lớp em đang thực hiện một tập san với chủ đề "Trường học thân thiện". Em được giao nhiệm vụ sử dụng AI tạo sinh để gợi ý nội dung và hình ảnh minh họạ cho phần giới thiệu. Em sẽ làm gì đề đảm bảo nội dung được sử dụng là đầy đủ, khách quan và không bị thiên vị?
+
+[lop-10/bai-9-cong-dan-so-trong-ki-nguyen-ai] SUSP: ['đải']
+  LINE: Chiều Chủ nhật, trong lúc chơi cầu lông ở nhà văn hóa, bạn Minh bắt gặp mọi người trong khu phố truyền tay nhau xem một đoạn video trên mạng xã hội. Video xuất hiện hình ảnh của một bác sĩ nổi tiếng cùng với logo của đải truyền hình quốc
+
+[lop-10/bai-9-cong-dan-so-trong-ki-nguyen-ai] SUSP: ['ờ']
+  LINE: gia, với nội dung nói rằng Bộ Y tế vừa thử nghiệm thành công một loại thuốc mới hỗ trợ tăng cường sức đề kháng và có khả năng giúp ngủ ngon hơn. Nhân vật trong video kêu gọi mọi người chia sẻ rộng rãi, đồng thời chỉ cần bấm theo dõi và để lại thông tin cá nhân ờ phản bình luận thì sẽ được gửi tặng thuốc miễn phí. Một
+
+[lop-10/bai-9-cong-dan-so-trong-ki-nguyen-ai] SUSP: ['02/2025/TT-BGDĐT', '24/01/2025']
+  LINE: Bộ Giáo dục và Đào tạo đã ban hành Thông tư số 02/2025/TT-BGDĐT ngày 24/01/2025 quy định khung năng lực số cho người học, bao gồm sáu miền năng lực: Khai thác dữ liệu và thông tin; Giao tiếp và hợp tác trong môi trường số; Sáng tạo nội dung số; An toàn; Giải quyết vấn đề; Ứng dụng trí tuệ nhân tạo.
+
+[lop-10/bai-9-cong-dan-so-trong-ki-nguyen-ai] SUSP: ['oông']
+  LINE: Trong kà nguyên AI, oông dân số cần hình thành những năng lự°c cốt lỗi để sử dụng công nghệ an toàn, hiệu quả, có trách nhiệm, với mục tiêu phát triển bản thân và đóng góp tích cục cho cộng đồng, xã hội.
+
+[lop-10/bai-9-cong-dan-so-trong-ki-nguyen-ai] SUSP: ['nên/khỏng']
+  LINE: Đánh giá mức độ cần thiết hay việc nên/khỏng nên sử dung AI: Tuy thuộc vào
+
+[lop-10/bai-9-cong-dan-so-trong-ki-nguyen-ai] SUSP: ['gìảm']
+  LINE: đúng, đầy đủ và có trách nhiệm sẽ giúp AI cải thiện chất lượng. Ngược lại, các phân hồi sai lệch có thể làm gìảm hiệu quả của các công cụ AI.
+
+[lop-10/bai-9-cong-dan-so-trong-ki-nguyen-ai] SUSP: ['bạnnam', 'họạ']
+  LINE: 1. Cường là một bạnnam đam mê công nghệ và yêu thích sáng tạo các nội dung nhỏ AI. Vao ki nghi lê, bạn ây nay ra ý tưởng là sử dụng hình ảnh của Lan - một bạn nữ xinh xăn trong trường - đê nhờ AI tạo ra những đoạn video kế chuyện dành cho các em nhỏ. Các video có giọng đọc truyền cảm với hình ảnh minh họạ sống động và mang nhiều thông điệp ý nghĩa. Nhờ vậy, chúng nhanh chóng được chia sé rộng rãi, nhận được nhiều lời khen và sự yêu thích lừ mọi người. Lan đã biết việc hình ảnh của mình được dùng để tạo video. Mặc dù chưa được Cường xin phép hay trao đổi thông tin trước nhưng vì thấy mọi người hào hứng với những nội dung hấp dẫn đó nên bạn ấy không phản đối.
+
+[lop-10/bai-10-ai-va-nghe-nghiep] SUSP: ['ạ']
+  LINE: Đức: Thưa thầy, nếu AI làm được nhiều việc như vậy, thì con người sẽ làm gì? Có nghề nào sẽ bị thay thế không ạ?
+
+[lop-10/bai-10-ai-va-nghe-nghiep] SUSP: ['fình']
+  LINE: Trong fình huống Khởi động, bạn Đức thắc mắc về vai trò của con người khi AI có thể làm được nhiều việc. Trong thực tế, AI đang góp mặt trong nhiều lĩnh vực và đảm nhận một số công việc vốn do con người thực hiện. Ví dụ, ở siêu thị, máy tự động thanh toán giúp khách hàng không cần chờ xếp hàng lâu; trong trung tâm chăm sóc khách hàng, chatbot có thể trả lời Hình 10.1. Tác động của AI đền việc làm các câu hỏi thường gặp; trong nhà máy, robot giúp phân loại và đóng gói sản phẩm nhanh chóng: trong ngành truyền thông, AI có thể tạo bản tin ngắn hoặc hình ánh minh hoạ dựa trên nội dung
+
+[lop-10/bai-10-ai-va-nghe-nghiep] SUSP: ['yẽu']
+  LINE: con người tiết kiệm thời gian và công sức. Tuy nhiên, điều này cũng đặt ra yẽu cầu mới cho con người là cần biết thích ứng và làm việc hiệu quả cùng AI.
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['Colaboratory']
+  LINE: Google Colab (viết tất của Colaboratory) là một nền tầng lập trình trực tuyến
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['Colabl']
+  LINE: 3 Xin chào Google Colabl khác nhau.
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['Coladl']
+  LINE: = 13) print/"Xin cho Google Coladl")
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['environmet', 'coes', 'aary', 'helpfal', 'analytian', 'Libraries', 'Laralle']
+  LINE: This Python 3 environmet coes with aary helpfal analytian Libraries Laralle
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['eruple', 'reeleg', 'thie', 'eltching', 'airtiester', 'Pales']
+  LINE: For eruple, reeleg thie (by eltching run of pressing airtiester) all list all Pales und
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['notebookff3d2d4339']
+  LINE: (1): Thanh tiêu đề trên cùng và menu:
+
+- notebookff3d2d4339: Tên mặc định của số tay bạn đang làm việc (có thể
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['thị/ẩn']
+  LINE: + View: Hiển thị/ẩn một số thành phần trên giao diện,
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['xóá']
+  LINE: Cắt, sao chép, dán, xóá ô.
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['Session']
+  LINE: Hiển thị trạng thái của phiên làm việc (Session chưa được kích hoạt nếu chưa
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['kaggle/input']
+  LINE: + Duyệt qua thư mục /kaggle/input để liệt kê các tệp dữ liệu đầu vào.
+
+[lop-10/bai-11-moi-truong-phat-trien-san-pham-ai] SUSP: ['Sừ']
+  LINE: Nhiệm vụ: Sừ dụng Google Colab để thử nghiệm AI chuyển đoạn văn
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['gìảm', 'ănh']
+  LINE: Sắp tới, trường tổ chức cuộc thi tranh biện với chủ đề "Trí tuệ nhân tạo có làm gìảm khả năng sáng tạo của học sinh?". Nhóm bạn An được giao xây dựng một dự án truyền thông nhỏ để giới thiệu về cuộc thi đến toàn khối. Để triển khai ý tưởng, các bạn đã sử dụng một công cụ AI tạo sinh để đặt các câu hỏi xây dựng dự án.
+
+Dựa trên các gợi ý nhận được, nhóm kiểm tra lại nội dung, viết lại theo cách diễn đạt riêng và sử dụng một công cụ tạo ănh để thiết kế hình minh hoạ cho áp phích.
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['tuê']
+  LINE: Ví dụ: Sau khi xác định mục tiêu, nhóm bạn An nhập prompt cụ thể: "Viết khẩu hiệu truyền cảm hừng cho cuộc thi tranh biên với chủ đề: Tri tuê nhân tạo có làm
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['rèng']
+  LINE: đây cũng là cơ hội để em thể hiện quan điểm và phong cách rèng của mình trong sản phẩm.
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['lrách']
+  LINE: Khi sử dụng AI hỗ trợ sáng tạo, em cần có lrách nhiệm với nội dung mình tạo ra. Việc trích dẫn nguồn, chỉnh sửa kết quả AI và không sao chép nguyên văn giúp em phát triển kĩ nắng tư duy, đồng thời tránh vi phạm đạo đức học tập.
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['ChaGPT']
+  LINE: Sử dụng ChaGPT để tạo prompt vẽ hình ảnh cho trang 1:
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['hồm']
+  LINE: ngày hồm qua!
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['càa', 'chuyệr']
+  LINE: Trạng 4 thường là cao trào càa cầu chuyệr. vi vậy dần trể hiện rõ cảm xi..
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['rrfi']
+  LINE: hanh. động hoặc tương lắc giữa các nhận. rà nhằm truyền lải nội dung rrfi.
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['cề', 'trế', 'cárt']
+  LINE: Lựa chọn bố cục hình ảnh phú hợp cề trế hiện được mach truyện met cárt,
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['niển', 'roir', 'tirin']
+  LINE: cửa niển. có thể kết hợp thêm lòi thoai roir. tiểu cảm nhân vật để tâng tirin tre yet phuc.
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['Niếu', 'ố']
+  LINE: Niếu xuất hiện thêm nhân vật phụ hoặc yêu ố mới, em cần mà tà rõ ràng rong
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['chiuyện']
+  LINE: prompt để đảm bảo hình ảnh chính xác và hài hòa với tổng thể câu chiuyện
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['dàu']
+  LINE: 1%., ....4?. Mang 4 trong dàu chuyện của bạn Linh
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['Bude', 'strj', 'rs', 'kiem']
+  LINE: Bude 6 Tuong tär. 'i. ?.. -,1'strj rs. AI và kiem tra, hiệu chính kết quả tạo ảnh
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['j4', 'hig', 'ién', 'rtuyện', 'rg']
+  LINE: Trang 5 là trang rét "i'n? :j4 tanh, thường mang tính tổng kết, truyền thông điệp hoặc thể hig 1!... 2. ién si, rtuyện. Em tiếp túc thực hiện các bước tương tự như ở những tá !,: 1'r. "rg tren chú ý các điềm sau:
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['einin', 'bbi']
+  LINE: Duy tri su th !; "%i vh, 1, einin, bbi cánh và phong cách hình ảnh với toàn bộ
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['thuyện']
+  LINE: thuyện tranh.
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['kới']
+  LINE: Nếu có kới tạc a rệt ". 12.1134, thông điệp, cần bổ sung vào prompt để Ai tạo ra
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['irr']
+  LINE: hình ảnh phi irr
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['kến', 'ríx', 'k7', 'T4n', 'uon']
+  LINE: Hình ánh kến ríx, "k7 T4n :uon rở cầm xúc tích cục (vui về, tự tin, gắn kết,...)
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['turris', 'sín', 'vem']
+  LINE: đh gay an turris in sín, ig ri vem hiếu rõ thông điệp của truyện.
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['Íí']
+  LINE: để kiểm tra xem các đoạn chuyển cảnh, lới thoại và kết thúc có trội cháy, hợp Íí chưa.
+
+[lop-10/bai-12-bai-tap-du-an] SUSP: ['luổi']
+  LINE: Sử dụng ngôn ngữ trong sáng, đễ hiều, phú hợp với lửa luổi học sinh. Tránh
+
+[lop-10/bang-giai-thich-thuat-ngu] SUSP: ['tuê']
+  LINE: Trí tuê nhân tạo (AI - Artificial Intelligence)
+
+[lop-10/thong-tin-xuat-ban-bia-sau] SUSP: ['nùy']
+  LINE: trong cuốn sách nùy.
+
+[lop-10/thong-tin-xuat-ban-bia-sau] SUSP: ['đóc', 'THẠNH']
+  LINE: Chủ tịch Hội đồng thành viên - Tổng Giảm đóc NGUYỄN TIÊN THẠNH
+
+[lop-10/thong-tin-xuat-ban-bia-sau] SUSP: ['GIẠNG']
+  LINE: Biến lập mĩ thuật, thiết kế sách, bla và minh hoạ: ĐẠNG DUY TIỀN - NGUYỄN THẾ PHI Sửa bản in: LƯU THÊ SƠN - NGUYỄN THANH GIẠNG
+
+[lop-10/thong-tin-xuat-ban-bia-sau] SUSP: ['TXT87P6-SED']
+  LINE: Mã số: TXT87P6-SED
+
+[lop-10/thong-tin-xuat-ban-bia-sau] SUSP: ['416-2026/CXBIPH/34-168/GD']
+  LINE: Đơn vị in : Công ty Có phần In & Bao bì Đồng Tháp Địa chỉ : 212 Lê Lợi, Phường Sa Đéc, Tinh Đồng Tháp Số ĐKXB : 416-2026/CXBIPH/34-168/GD
+
+[lop-10/thong-tin-xuat-ban-bia-sau] SUSP: ['118/QĐXB-GD']
+  LINE: Số QĐXB : 118/QĐXB-GD ngày 11 tháng 02 năm 2026 In xong và nộp lưu chiều tháng 03 năm 2026
+
+[lop-10/thong-tin-xuat-ban-bia-sau] SUSP: ['978-604-0-46630-3']
+  LINE: Mã số ISBN : 978-604-0-46630-3
+
+[lop-10/thong-tin-xuat-ban-bia-sau] SUSP: ['TAPIANKO', 'MANAO']
+  LINE: TAPIANKO GA CE MANAO
+
+[lop-10/thong-tin-xuat-ban-bia-sau] SUSP: ['978-604-0-46630-3']
+  LINE: ISBN 978-604-0-46630-3
+
+[lop-11/cong-van-tham-dinh-bia-lot] SUSP: ['1362/BGDĐT-GDPT', '31/12/2025']
+  LINE: theo chỉ đạo tại Công văn số 1362/BGDĐT-GDPT ngày 31/12/2025
+
+[lop-11/cong-van-tham-dinh-bia-lot] SUSP: ['TUÊ']
+  LINE: TRÍ TUÊ NHÂN TAO
+
+[lop-11/cong-van-tham-dinh-bia-lot] SUSP: ['XUÁT']
+  LINE: NHÀ XUÁT BẢN GIÁO DỤC VIỆT NAM
+
+[lop-11/huong-dan-su-dung-sach] SUSP: ['SỪ']
+  LINE: HƯỚNG DẪN SỪ DỤNG SÁCH
+
+[lop-11/huong-dan-su-dung-sach] SUSP: ['Góm']
+  LINE: Góm những nhiệm vụ học tập có hướng dẫn chi tiết.
+
+[lop-11/muc-luc] SUSP: ['ÚÍ']
+  LINE: CHỦ ĐỂ 2. NGUYÊN ÚÍ HOẠT ĐỘNG CỦA MÔ HÌNH NGÔN NGỮ LỚN
+
+[lop-11/muc-luc] SUSP: ['lón']
+  LINE: Tạo video bằng mô hinh ngôn ngữ lón
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['thém']
+  LINE: Ngữ cảnh trong prompt là thông tin thém giúp LLM hiểu rõ tình huống, đối tượng hoặc mục tiêu của câu hỏi. Việc đưa thêm ngữ cành giúp LLM hiểu rõ yêu cầu,
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['côsin']
+  LINE: Nếu cung cấp ngữ cảnh người đọc là học sinh lớp 11, LLM sẽ biểu diễn dưới dạng hàm số côsin:
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['từ/câu']
+  LINE: Số từ/câu cụ thể: Yêu cầu số từ hoặc số câu chính xác. Vi dụ: "Hãy tóm tắt
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['1ư']
+  LINE: Khi không sử dụng kĩ thuật chuỗi 1ư duy:
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['directive']
+  LINE: Chỉ thị (directive): Mô tả hành động chính mà mô hình cần thực hiện.
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['examples']
+  LINE: Ví dụ (examples): (tuỳ chọn) Một danh sách các ví dụ minh hoa (nếu dùng prompt có vi dụ).
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['contexl']
+  LINE: Ngữ cảnh (contexl): (tuy chọn) Mô tả tình huống, bối cảnh sử dụng hoặc vai trò của mô hình.
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['đảu']
+  LINE: Prompt nàng cao =   + (Vi dụ]* + [Ngữ cảnh]* + [Dữ liệu đảu vào]
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['tưy']
+  LINE: (*: tưy chọn)
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['prompl']
+  LINE: Bước 2. Xác định các thành phần: ví dụ, ngữ cảnh, chuỗi tư duy và định dạng đầu ra cho prompl, chằng hạn:
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['4x']
+  LINE: A. Giải phương trình x2 + 4x + 3 = 0.
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['4x']
+  LINE: B. Giải phương trình bằng cách sử dụng công thức nghiệm x2 + 4x + 3 = 0, biện luận số nghiệm của phương trình theo A:
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['4x']
+  LINE: C. Giải phương trình x? + 4x + 3 = 0, trình bày trong bốn bước:
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['4x']
+  LINE: D. Hãy giải nhanh phương trình x2 + 4x + 3 = 0 bằng phương pháp phân tích đa thức thành nhân tử.
+
+[lop-11/bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao] SUSP: ['sinx', 'cos2x']
+  LINE: Giải phương trinh: sinx + cos2x = 0.
+
+[lop-11/bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung] SUSP: ['luàn']
+  LINE: bản nghị luàn
+
+[lop-11/bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung] SUSP: ['DANT']
+  LINE: DANT O
+
+[lop-11/bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung] SUSP: ['tham_so']
+  LINE: gọi hàm này tương tự như trong Python, khi ta dùng cú pháp ten _ham (tham_so) để thực hiện một chức năng cụ thể. Tuy nhiên, thay vì viết mã trực tiếp, LLM sử
+
+[lop-11/bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung] SUSP: ['function_call', 'edit_content', 'arguments']
+  LINE: "function_call": { "name": "edit_content", "arguments" : {
+
+[lop-11/bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung] SUSP: ['edit_content']
+  LINE: Khi gặp mã JSON này, ChatGPT gọi hàm edit_content với tham số text chứa đoạn văn gốc và criteria là danh sách sáu tiêu chí. Mô hình sẽ tự động đưa văn bản vào hàm, kiểm tra từng tiêu chi và trả về kết quả đã chỉnh sửa.
+
+[lop-11/bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung] SUSP: ['soan']
+  LINE: Bước 3. Sao chép câu trả lời từ ChatGPT sang phần mềm soan thảo văn bản.
+
+[lop-11/bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung] SUSP: ['mỗn']
+  LINE: D. việc sử dụng từ ngữ chuyên mỗn.
+
+[lop-11/bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung] SUSP: ['LĨ']
+  LINE: CHỦ ĐỀ 2. NGUYÊN LĨ HOẠT ĐỘNG
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['Seli-Attention']
+  LINE: mô hình khác, kiến trúc Transformer dựa trên cơ chế tự chú ý (Seli-Attention) cho phép mô hình cân nhắc tầm quan trọng của các từ khác nhau trong câu khi xử lí một từ cụ thể. Cơ chế tự chú ý giúp mô hình nắm bắt ngữ cành và liên hệ giữa
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['self-altention']
+  LINE: Bước 3. Tự chú ý (self-altention): Mô hình cân nhắc tầm quan trọng của các từ trong yêu cầu. Qua đó giúp mô hình hiểu rõ yêu cầu hơn nhờ hiểu ngữ cảnh và liên hệ giữa các từ
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['decoding']
+  LINE: Bước 5. Giải mã dữ liệu (decoding): Kết quả được giải mã từ ngôn ngữ máy tính sang ngôn ngữ tự nhiên.
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['F0']
+  LINE: n cu thê, vi dac "Hày - (025,-0.0 . 057, 26 - F0.03, 0. .., 0.2..
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['xừa']
+  LINE: Bước 6. Mô hình trả về câu trả lời hoàn chỉnh: "Sau đây là một câu chuyện cổ tích Việt Nam: "Ngày xừa ngày xưa...". Nếu có yêu cầu gì thêm, hãy vui lòng cho tôi biết"
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['Tranformer']
+  LINE: Kiến trúc Tranformer
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['Pre-training']
+  LINE: Giai đoạn 1. Tiền huấn luyện (Pre-training): Huấn luyện mô hình trên một lượng dữ liệu văn bản khổng lồ từ Internet, sách vờ,... Mục tiêu là học các mẫu ngôn
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['Instruction']
+  LINE: Giai đoạn 2. Tỉnh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tôm tắt) hoặc để tuần theo hướng dẫn (Instruction Fine-tuning).
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['Feedback', 'RLHF']
+  LINE: Giai đoạn 3. Học củng cố từ phản hồi người dùng (Reinforcement Learning from Human Feedback - RLHF): Sử dụng phản hồi của con người (đánh giá câu trả lời nào tốt hơn) để huấn luyện mô hình tạo ra các câu trả lời hữu ích, trung thực và an toàn hơn. Giai đoạn 3 thường cho Chat Model.
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['nghin', 'chịp']
+  LINE: Việc huấn luyện một mô hình ngôn ngữ lớn dùng rất nhiều dữ liệu, lên đến hàng trăm tỉ từ. Máy tinh dùng để huấn luyện cũng phải rất mạnh, gồm hàng nghin chịp xử lí hiện đại. Điều đó cho thấy việc tạo ra LLM cần rất nhiều tài nguyên và
+
+[lop-11/bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no] SUSP: ['trèn']
+  LINE: LLM chủ yếu dự đoán dựa trên thống kê, không phải dựa trèn hiểu biết thật về nguyên nhân và hệ quả.
+
+[lop-11/bai-4-gioi-thieu-ve-rag] SUSP: ['ChatGPT-4']
+  LINE: Vi dụ: ChatGPT-4, chế độ Search the web, ngoài dữ liệu huấn luyện còn sử dụng
+
+[lop-11/bai-4-gioi-thieu-ve-rag] SUSP: ['12/6/2025']
+  LINE: LLM có RAG: Hiện tại (tính đến sau khi Quốc hội thông qua vào ngày 12/6/2025), Viêt Nam có 34 đơn vị hành chính cấp tỉnh, bao gồm 28 tỉnh và 6 thành phố trực thuộc trung ương
+
+[lop-11/bai-4-gioi-thieu-ve-rag] SUSP: ['iều']
+  LINE: "iều lượng thuốc cảm" không chừa phần triệu chứng. Khi đó, câu trả lời không đúng, không liên quan. Nếu dữ liệu ngoài chỉ chứa sách của một tác giả, câu trả lời RAG cũng chỉ dựa theo quan điểm của tác giả đó. Câu trả lời có thể bị thiếu
+
+[lop-11/bai-4-gioi-thieu-ve-rag] SUSP: ['enything']
+  LINE: Ask enything
+
+[lop-11/bai-4-gioi-thieu-ve-rag] SUSP: ['Greate']
+  LINE: & Greate an image
+
+[lop-11/bai-4-gioi-thieu-ve-rag] SUSP: ['Wnite']
+  LINE: O Wnite or code
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['sại']
+  LINE: 1. Mạng nơ-ron nhân tạo là gì?
+
+Giống như con người, các hệ thống AI cô thể ngày càng trở nên thông minh hơn nhờ khả năng học hỏi theo nhiều cách khác nhau. Việc học của hệ thống AI có thể bắt dầu một cách đơn giản bằng việc tuân theo các quy tắc (luật) do con người lập trình sẵn. Bên cạnh đó, các hệ thống AI cũng có khả năng học từ việc quan sại nhiều dữ liệu mẫu, từ đó rút ra quy luật, nhận biết được các đặc điểm và sử dung
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['fỉ']
+  LINE: Ý tưởng về mạng nơ-ron nhân tạo xuất phát từ chính bộ não con người. Bộ não của chùng ta là một mạng lưới khống lồ gồm hàng fỉ tế bào thần kinh đặc biệt gọi
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['synapse']
+  LINE: là nơ-ron (neuron), được kết nối chẳng chịt với nhau. Mỗi nơ-ron có thể nhận tin hiệu từ rất nhiều nơ-ron khác thông qua các điểm kết nối gọi là khớp thần kinh (synapse). Khi nhận đủ tin hiệu, nơ-ron sinh học sẽ được "kích hoạt" và truyền tin
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['họạ']
+  LINE: Để mính họạ rõ hơn ý tưởng xây dựng ANN, bảng dưới đày mô tả các so sánh tương đối về đặc trưng giữa cấu tạo của nó với mang nơ-ron sinh học.
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['thầnCác']
+  LINE: Các tế bào thầnCác nút nơ-ron Là một đơn vị tính toán cơ bản, mô phỏng chức năng của nơ-ron sinh học: tiêp nhận, xử li và
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['vàoGiá']
+  LINE: Tín hiệu đầu vàoGiá trị đầu vào
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['Learing']
+  LINE: Học có giám sát (Supervised Learing) là phương pháp học phố biến nhất.
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['cluster']
+  LINE: động với bộ dữ liệu không được gán nhãn. Thay vì được cho biết trước câu trả lời đúng, mạng nơ-ron phải tự tìm ra các mẫu, các cầu trúc hoặc các mối liên hệ tiềm ẩn trong dữ liệu. Nhiệm vụ của nó là tự sắp xếp, phân loại hoặc ghép nhóm các dữ liệu có đặc điểm tương tự nhau thành các cụm (cluster) mà không cần bất kì sự hướng dẫn nào từ con người.
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['Leaming']
+  LINE: Học tăng cường (Reinforcement Leaming) là phương pháp học thông qua thủ
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['gừi']
+  LINE: Vi dụ: Mạng nơ-ron có thể được huấn luyện để phân loại thư điện từ (email) có phải là "thư rác" hay không. Để làm được điều này, mạng được cung cấp một lượng lớn email đã được con người gán nhãn thủ công là thư rác hoặc không phải thư rác. Khi một email mới được đưa vào, mạng sẽ phân tích các đặc điểm của nó, như sự xuất hiện của các từ khóa nhất định (ví dụ: "miến phí".
+
+"trứng thường"), cấu trúc câu, nguồn gừi,... Ban đầu, mạng có thể phân loại sai Tuy nhiên, mỗi khi nó đưa ra dự đoán sai, hệ thống sẽ tính toán mức độ sai sót và điều chỉnh các tham số bên trong. Chẳng hạn, nếu một thư điện tử chứa từ "miễn phi" nhưng lại được phân loại là thư quan trọng, mạng sẽ tăng cường trọng số của từ "miễn phí" để với lần sau, sự xuất hiện của từ này sẽ có ảnh
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['Convolutional']
+  LINE: Thị giác máy tính là lĩnh vực giúp máy tính có khả năng nhìn và hiểu được nội dung của hình ảnh và video. Các mạng nơ-ron nhân tạo, đặc biệt là mạng nơ-ron tích chập (Convolutional Neural Network), đã tạo ra những bước tiền
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['Recurrent']
+  LINE: Xử lí ngôn ngữ tự nhiên là lĩnh vực giúp máy tính có khả năng nghe, đọc và hiểu được để giao tiếp bằng ngôn ngữ của con người. Mạng nơ-ron, đặc biệt là các kiến trúc như mạng nơ-ron hồi quy (Recurrent Neural Network) và các mỏ hình tiên tiền hơn như Transformer đã tạo ra những bước tiến quan trọng cho lĩnh vực này. Công nghệ này được ứng dụng trong nhiều lĩnh vực, ví dụ:
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['Recommendation']
+  LINE: c)  Các hệ thống đề xuất (Recommendation Systems)
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['Collaborative', 'Filtering']
+  LINE: Các hệ thống đề xuất là lĩnh vực giúp máy tính có khả năng dự đoán sờ thích của người dùng và gợi ý những sản phẩm, dịch vụ hoặc nội dung phù hợp nhật. Các mạng nơ-ron nhân tạo, đặc biệt là các mô hình như lọc cộng tác (Collaborative Filtering) và các mạng nơ-ron sâu (Deep Neural Networks), là nền tảng cho sự phát triển của lĩnh vực này. Công nghệ này được ứng dụng rộng rãi trong cuộc sống hằng ngày, ví dụ:
+
+[lop-11/bai-5-mang-no-ron-nhan-tao] SUSP: ['trèn', 'gial', 'hảt']
+  LINE: sử dụng mạng nơ-ron để học sở thích hay "gu" nghệ thuật của em dựa trên những gì em đã xem hoặc nghe trước đỏ. Hệ thống có thể không chỉ dựa trèn thể loại em thích mà còn phân tích các yếu tổ phức lạp hơn như đạo diễn, diễn viên, gial điệu và tâm trạng của bài hảt để đưa ra những gợi ý bất ngờ và thú vị
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['mộn']
+  LINE: Cách thư nhất: Xếp theo mộn học. Khi đó, Thanh sẽ chia giá sách thành nhiều phần theo từng môn. Với mỗi cuốn sách, bạn ấy cần xem nó thuộc môn học náo để xếp vào ngăn tương ứng.
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['ờ']
+  LINE: kíp thời nhằm bảo vệ tài khoản cho khách hàng. Cách thứ nhất ờ phần Khởi động chính là một ví dụ của dạng bài toán phân loại này.
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['loán']
+  LINE: Bảng 6.1. Phân biệt bài toán phân loại và bài loán phân cụm theo một số tiêu chí
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['nhỏmTự']
+  LINE: Gán đối tượng vào các nhỏmTự động khám phá và tạo ra đã biết trước.
+
+các cụm từ dữ liệu.
+
+Dữ liệu đã được gán nhãn Dữ liệu không có nhãn (chưa Dữ liệu đầu vào (biết trước đối tượng thuộc biết đối tượng thuộc nhóm nhóm nào).
+
+Học có giám sát (dữ liệu Học không giảm sát (dữ liệu Loại hinh học máy
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['gản']
+  LINE: dùng để huấn luyện đã được dùng để huấn luyện không gán nhãn).
+
+được gản nhãn).
+
+"Đối tượng mới này thuộc "Tập dữ liệu này có thể chia nhóm nào?".
+
+thành những cụm nào?
+
+Một mô hình có khả năng Một tập hợp các cụm, trong đó Kết quả dự đoán nhãn cho dữ liệu các đối tượng trong cùng một mới.
+
+cụm có tinh tương đồng cao.
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['càc']
+  LINE: Phân loại (Classification) là quả trình sắp xếp đối tượng vào càc nhóm đã được định nghĩa trước dựa trên dừ liệu có nhãn (học có giảm sát).
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['đùng/sai', 'Naive', 'Bayes']
+  LINE: định (Decision Tree) - dựa trên ý tường mô phỏng quá trình ra quyết định của con người bằng một chuỗi các câu hỏi đùng/sai; Naive Bayes - dựa trên việc áp dụng lí thuyết xác suất để tính toán khả năng một đối tượng thuộc về một nhóm nào đó hay Máy vector hỗ trợ (Support Vector Machine - SVM) - dựa trên việc tìm ra một "ranh giới" rõ ràng nhất để phân tách các nhóm dữ liệu.
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['1/khoăng']
+  LINE: bằng nhau, phiếu của láng giềng ở càng gần sẽ tương ứng có trọng số cảng cao (vi dự: trọng số = 1/khoăng cách). Nhóm nào có tổng trọng số phiếu bầu lớn nhất sẽ chiến thắng.
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['họạ']
+  LINE: 🖼️ Minh họa trong sách 
+                             Hình 6.1 minh họạ cách hệ thống AI phân loại một đầu sách mới. Bằng cách tim ra
+11 cuốn sách (chính là 11 láng giềng) có đặc điểm gần nhất, hệ thống nhận thấy
+rằng nhóm "Khoa học và Khám phá" chiếm đa số trong các láng giềng này. Dựa
+trên nguyên tắc đa số, AI đưa ra quyết định phân loại cuốn sách mới vào nhóm
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['Mre', 'tur']
+  LINE: Mre di tur col
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['phầng']
+  LINE: Trong vi dụ trên, chúng ta chỉ dùng hai tiêu chí để dễ dàng minh hoạ và có thế biểu diễn trên mặt phầng toạ độ hai chiều. Trên thực tế, trong bài toán có thể có hang chục, thậm chí hàng trăm tiêu chí. Khi đó, mỗi đối tượng sẽ được biểu diễn
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['loán']
+  LINE: Để giải quyết bài toán phân cụm, các thuật loán phải trả lời được câu hỏi: "Làm thế nào để tìm ra các nhóm tự nhiên trong dữ liệu khi không có bất kì gợi ý nào từ
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['Hierarchical', 'DBSCAN', 'Gaussian', 'GMM', 'chuỗng']
+  LINE: trước?. Mỗi thuật toán đưa ra một câu trả lời riêng, dựa trên những cách tiếp cận khác nhau: Thuật toán phân cụm phân cấp (Hierarchical Clustering) xem các nhóm như những nhánh trên một cây gia phá lớn, cho phép chúng ta tháy được mối quan hệ phân cấp từ tổng thể đến chi tiết: thuật toán phân cụm dựa trên mật độ (DBSCAN) định nghĩa một nhóm là một khu vực có "mật độ" cao, giúp nó có khả năng tim ra các cụm có hinh dạng phức tạp và lự động loại bỏ các điểm nhiều; thuật toán mô hình hỗn hợp Gaussian (GMM) thi cho rằng mỗi cụm lá một phân phối xác suất hình chuỗng, cho phép một điểm có thể thuộc về nhiều cụm với các mức độ chắc chắn khác nhau,...
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['gìảm']
+  LINE: Thuật toán K-means được dùng đề phân chia một tập hợp các đối tượng cho trước thành K cụm riêng biệt. Nguyên tắc cốt lõi của nó là có gắng làm gìảm (tối thiểu hóa) tổng khoảng cách từ mỗi đối tượng đến tâm của cụm mà nó thuộc về
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['tưong', 'loần']
+  LINE: Tì lệ tưong lác nói dung "Tìn sức - loần thọc"
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['tưong']
+  LINE: Ti lệ tưong lác nội cung "Giai trí
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['thừc']
+  LINE: T lộ tương tác nội dung "Tin tức - Kiến thừc
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['T7', 'lĐ', 'tưoơng']
+  LINE: T7 lĐ tưoơng lác nộ
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['ue']
+  LINE: ti cong ue st ding cs ir
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['đúng/sai']
+  LINE: B. Xây dựng một cây gồm nhiều câu hỏi đúng/sai.
+
+C. Một đối tượng mới sẽ được gán nhãn theo nhóm đa số của các láng giềng
+
+[lop-11/bai-6-phan-loai-va-phan-cum-du-lieu] SUSP: ['loán', 'loán']
+  LINE: 1. Phân tích ý nghĩa của giá trị tham số K trong hai thuật loán KNN và K-means và lí giải vì sao nó quan trọng đối với chất lượng và hiệu quả của hai thuật loán.
+
+[lop-11/bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon] SUSP: ['SỪ']
+  LINE: CHỦ ĐẾ 3. ĐẠO ĐỨC VÀ TRÁCH NHIỆM KHI SỬ DỤNG AI BÃI 2. ĐẠO ĐỨC, PHÁP LUẬT VÀ VĂN HOA TRONG SỪ DỤNG MÔ HÌNH NGÔN NGỮ LỚN
+
+[lop-11/bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon] SUSP: ['Khởí']
+  LINE: Trong tình huống ở phần Khởí động, kết quả mà LLM tạo ra chứa thông tin không chính xác và Hà đã phải sửa lại để tránh lan truyền thông tin sai sự thật. Hùng cũng nhắc nhở Hà ghi rõ đã sử dụng AI khi viết. Đây là những vấn để liên quan đến đạo đức khi sử dụng LLM.
+
+[lop-11/bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon] SUSP: ['dúr']
+  LINE: Khi sử dụng LLM. em cần chú ý một số nguyên tắc cần tuân thủ về đạo dúr.
+
+pháp luật và vẫn hóa như sau:
+
+[lop-11/bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon] SUSP: ['đữ']
+  LINE: định kiến xã hội,... Vì vậy cần nâng cao vai trò và trách nhiệm của người dùng cũng như của nhà phát triển để đảm bảo AI được sử dụng an toàn, chính xác, tôn trọng đạo đức và bảo vệ đữ liệu.
+
+[lop-11/bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon] SUSP: ['ờ']
+  LINE: mô hình hoạt động, dữ liệu huấn luyện, hạn chế (ờ mức độ phù hợp).
+
+[lop-11/bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon] SUSP: ['khoảnsử']
+  LINE: pháp luật, điều khoảnsử dụng, quy định của tổ chức.
+
+[lop-11/bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai] SUSP: ['rảng']
+  LINE: Việc AI ngày càng chứng tỏ khả năng vượt trội trong nhiều lĩnh vực khiến chúng ta phải đặt ra câu hỏi quan trọng: "Đâu là giá trị khác biệt và không thể thay thế của con người?". Rõ rảng, câu trả lời không phải là việc cạnh tranh về tốc độ hay hiệu suất. Thay vào đó, sự khác biệt nằm ở chinh những phẩm chất và năng lực
+
+[lop-11/bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai] SUSP: ['đat']
+  LINE: Bước 2. Thảo luận theo từng phẩm chất, năng lực. Với mỗi yếu tố, em có thể đặt câu hỏi: "AI có thể hình thành được phẩm chất năng lực đó hay không? Nếu có nó có thể đat đến mức độ như thế nào? Bản chất của việc thực hiện đó ở con người và AI khác nhau ra sao?"
+
+[lop-11/bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai] SUSP: ['g1']
+  LINE: đến câu hỏi quan trọng hơn là "Em sẽ sử dụng AI để làm g1?". Chinh những lựa chọn và hành động của em sẽ định hình tác động của Ai lên thế giới.
+
+[lop-11/bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai] SUSP: ['đữ']
+  LINE: chúng ta "dạy" AI bằng những đữ liệu chứa định kiến về giới tính, chủng tộc hay vùng miền, AI sẽ khuếch đại những định kiến đó, tạo ra sự bất công trong xã hội. Trách nhiệm
+
+[lop-11/bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai] SUSP: ['nhán']
+  LINE: AI không có khả năng lự nhận thức về ranh giới đạo đức. Chính con người phải thiết lập các quy tắc và giới hạn an toàn cho nó. Khi một chiếc xe tự lái gặp tình huống nguy cấp.
+
+người lập trình phải quyết định nó sẽ ưu tiên bảo vệ ai. Khi một hệ thống AI được dùng trong y tế, các bác sĩ và nhà quản lí phải đảm bảo nó tuân thù các quy tắc về quyền riêng tư của bệnh nhán. Con người không chỉ tạo ra AI, mà còn phải chịu trách nhiệm giám sát và kiểm soát nó
+
+[lop-11/bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai] SUSP: ['ENGUSH']
+  LINE: ENGUSH
+
+[lop-11/bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap] SUSP: ['cos2x', 'cosx']
+  LINE: Giải và giải thích bài toán sau: Giải phương trình cos2x - cosx = 0.
+
+[lop-11/bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap] SUSP: ['họạ']
+  LINE: cách yêu cầu phân tích các cầu trúc ngữ pháp trong bài, đồng thời giải nghĩa từ vựng khó, đưa ra vỉ dụ minh họạ để hiểu cách sử dụng từ trong ngữ cảnh. Nhà đó, Bình nắm vững quy tắc ngữ pháp và ghi nhớ từ mới hiệu quả hơn.
+
+[lop-11/bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap] SUSP: ['IELTS']
+  LINE: Việc sử dụng LLM trong học ngoại ngữ mang lại nhiều tiện ích như: hỗ trợ học từ, sửa lỗi, luyện ngữ pháp và hội thoại. Em có thể yêu cầu LLM giải nghĩa tử vựng mới và đưa thêm các ví dụ để hiểu rõ hơn cách sử dụng. LLM cũng có thể hỗ trợ sửa các lỗi ngữ pháp, lỗi chính tả trong bải viết (vi dụ: IELTS writing).... khi được yêu cầu.
+
+Ngoài ra, em cũng có thể giao tiếp với LLM để cài thiện khả năng hội thoại.
+
+[lop-11/bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap] SUSP: ['soan']
+  LINE: Bước 3. Sao chép câu trả lời từ ChatGPT sang phần mềm soan thảo văn bản.
+
+[lop-11/bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap] SUSP: ['emission']
+  LINE: Bước 2. Nhập prompt: "Hãy giải thích nghĩa của các từ "emission", "balance", "Carbon" và "Methane" và cho ba ví dụ minh hoạ cho mỗi từ kèm theo giải thích chi tiết".
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['sừa']
+  LINE: Sử dụng được LLM đề tìm và sừa lỗi trong các đoạn mã có lỗi cú pháp hoặc lỗi logic đơn giản.
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['bx']
+  LINE: Minh yêu cầu ChatGPT: "Viết chương trình Python nhập từ bàn phím ba số thực a, b, c và tìm nghiệm của phương trình bc hai: ax' + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh." Khi chạy thử, chương trình gặp lỗi, Minh lại yêu cầu ChatGPT tìm và sửa lỗi trong chương trình. Kết quả là Minh đã sao chép thiếu dầu ":" cho một câu lệnh điều kiện. ChatGPT đã phát hiện và sửa được lỗi này.
+
+Em hãy cho biết:
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['Github']
+  LINE: Hiện nay, có nhiều LLM hỗ trợ lập trình như ChatGPT, Gemini hay Github Copilot,... (Hình 10.1). Khi sử dụng LLM trong lập trinh, em cần xác định rõ ngôn ngữ lập trình, bài toán cần thực hiện với các bước cụ thể. Viết prompt chi tiết giúp LLM hiểu đúng yêu cầu, tiết kiệm thời gian và nâng cao hiệu quả mã.
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['Github']
+  LINE: Chat GPT Gemini Llama Claude Github Copilot
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['W3Schools', 'MDN', 'Docs']
+  LINE: hợp thêm với các nguồn tài liệu chính thống như W3Schools, MDN, Python Docs,..
+
+76
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['sừa']
+  LINE: Mô hình ngôn ngữ lớn có thể tự động phát hiện và sừa các lỗi đơn giản trong chương trình, giúp giảm thời gian, công sức kiểm thử và gỡ lỗi.
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['W3Schools', 'MDN']
+  LINE: W3Schools, MDN, Python
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['Docs']
+  LINE: Docs,....
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['bx']
+  LINE: Bước 2. Nhập prompt "Viết chương trình Python nhập từ bàn phim ba số thực a, b, c và tìm nghiệm của phương trình bậc hai: ax? + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh.".
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['PyCharm']
+  LINE: Bước 3. Đọc, hiểu chương trình thu được. Chạy thử chương trình trong một phần mềm lập trình (Visual Studio Code, PyCharm, Jupyter Notebook,...).
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['PyCharm']
+  LINE: Bước 4. Kiểm tra hai dấu ":"' có được thêm lại vào chương trình hay không. Chạy thử chương trinh thu được trong một phần mềm lập trình (Visual Studio Code, PyCharm, Jupyter Notebook,...).
+
+[lop-11/bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh] SUSP: ['ổ']
+  LINE: A. Dung lượng ổ cứng.
+
+[lop-11/bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon] SUSP: ['vuông/dọc']
+  LINE: Ti lệ khung hình: là tỉ lệ giữa chiều rộng và chiều cao của khung hinh. Tỉ lệ khung hình quyết định hình dạng khung ảnh, ngang, vuông, dọc. Lựa chọn tỉ lệ khung hinh phụ thuộc vào mục đích, khung ngang giúp chứa nhiều chi tiết, tái tạo cảnh quan; khung vuông/dọc giúp lập trung vào chủ thế.
+
+[lop-11/bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon] SUSP: ['stylize', 'dạng/lạ']
+  LINE: Ngoài ra, còn có các tham số khác ảnh hưởng tới ảnh được tạo ra như mức độ nghệ thuật hoá (stylize), mức độ đa dạng/lạ (chaos),....
+
+[lop-11/bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon] SUSP: ['1c']
+  LINE: khung hình 9:16 Hình 11.1c. Hình ảnh hệ Mặt Trời
+
+[lop-11/bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon] SUSP: ['Sludio']
+  LINE: Mô hình ngôn ngữ lớn như ChatGPT, Gemini, Google AI Sludio,... có khả năng tạo ra ảnh chi tiết theo yêu cầu của người dùng thông qua prompt mô tá. Việc tạo
+
+[lop-11/bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon] SUSP: ['sừa']
+  LINE: Khi sử dụng LLM để tạo ảnh, bức ảnh Thảo thu được có những điểm chưa như mong muốn, hình ảnh có nhiều hành tinh hơn thực tế. Thảo đã sử dụng LLM để chỉnh sửa bức ảnh ban đầu. Việc chỉnh sừa này không yêu cầu dùng phần mềm chuyên dụng mà được thực hiện bằng chinh LLM với prompt đơn giản.
+
+[lop-11/bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon] SUSP: ['5a']
+  LINE: Khi cần chỉnh sửa nội dung bên trong bức ảnh (inpainting), LLM sẽ phân tích nội dung ảnh, xác định vùng cần thay đổi và thực hiện các thay đổi theo yêu cầu. Cuối cùng, LLM kết hợp vùng đã chỉnh sửa trở lại ảnh gốc. Vị dụ, Hình 11.5b sử dụng kĩ thuật inpainting để xóa bớt bốn hành tinh trong ảnh gốc ở Hình 11.5a.
+
+[lop-11/bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon] SUSP: ['5c', '5a']
+  LINE: Khi cần mở rộng ảnh gốc và vẽ thêm các nội dung mong muốn (outpainting), LLM sẽ đặt ảnh gốc vào một khung vẽ lớn hơn, phân tích chi tiết ảnh gốc. Sau đó, LLM vẽ vào vùng mới với nội dung theo yêu cầu và phù hợp với ành gốc về kết cấu, phong cách, ánh sáng. Ví dụ, Hinh 11.5c sử dụng kĩ thuật outpainting mở rộng ảnh, thêm không gian xung quanh, thêm các ngôi sao và sao chỗi vào phần rìa ảnh gốc ở Hinh 11.5a.
+
+[lop-11/bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon] SUSP: ['Vieicure']
+  LINE: Vieicure to ài Studio
+
+[lop-11/bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon] SUSP: ['Imager']
+  LINE: Generate images with Imager
+
+[lop-11/bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon] SUSP: ['Gisy', 'Giay']
+  LINE: Giây 0 Gisy i Giay 2
+
+[lop-11/bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon] SUSP: ['Gisy']
+  LINE: Giây 3 Gisy 4
+
+[lop-11/bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon] SUSP: ['Giay']
+  LINE: Giay 5
+
+[lop-11/bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon] SUSP: ['Gry']
+  LINE: 🖼️ Minh họa trong sách 
+                             Hình 12.1, Video con lác dom Gry, las bäng LUV
+
+[lop-11/bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon] SUSP: ['rgyh', 'sảt']
+  LINE: LLM có thể tạo video theo yêu cầu cia rgyh sung bằng prompt mô tả. Tạo video bằng LLM giúp sảt kiêm
+
+[lop-11/bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon] SUSP: ['nguei']
+  LINE: Ngoài việc tạo video bắng prompt mô tá, nguei dung con có the iso video từ möt hoặc nhiều ảnh tĩnh (image-to-video). Khi đó. LUM sẽ trêm sự chuyển đặng vào
+
+[lop-11/bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon] SUSP: ['tinin', 'promct']
+  LINE: các ảnh được cung cấp để tạo video. Việc sử dụng ảnh tinin khi tạo video giúp em dễ kiểm soát nội dung, phong cách và khung cảnh như ảnh gốc. Thời gian tạo video cũng ngắn hơn do yêu cầu tính toán it hơn so với chi dùng prompt mô tả (chỉ thêm chuyến động vào ảnh). Ngoài ra, em cùng có thể cung cấp thêm promct mô tả để làm rõ hơn yêu cầu.
+
+[lop-11/bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon] SUSP: ['Welcame', 'RiSudo']
+  LINE: Welcame b RiSudo
+
+[lop-11/bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon] SUSP: ['nú']
+  LINE: Bước 2. Nháy chuột chọn nú! Generate Media, liếp theo chon Veo (Hình 124).
+
+[lop-11/bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon] SUSP: ['videos']
+  LINE: Viết prompt Generate videos with Veo Tải ảnh
+
+[lop-11/bai-13-bai-tap-du-an] SUSP: ['sàu', 'họạ']
+  LINE: phân tích sâu thông tin, kiêm chứng và bố sung các sô liệu, dẫn chứng thực tế để nội dung logic và thuyết phục. Việc tự mình hoàn thiện sẽ giúp em hiểu sàu vẫn đề và tạo dầu ấn cá nhân, thay vì sao chép máy móc. Ở bước này, AI có thể hỗ trợ bằng cách gợi ý ví dụ minh họạ, đề xuất dẫn chứng liên quan và giúp kiểm tra lại cách diễn đạt.
+
+[lop-11/bai-13-bai-tap-du-an] SUSP: ['infographic']
+  LINE: Khi đã hoàn thiện nội dung, em hãy làm cho báo cáo sinh động và hấp dẫn hơn bằng cách tạo các sản phẩm minh họa như poster, infographic, bài trình chiếu hoặc video. Các công cụ AI có thể hỗ trợ em tạo ra những sàn phẩm này một cách
+
+[lop-11/bai-13-bai-tap-du-an] SUSP: ['họạ']
+  LINE: Để khám phá vấn đề xã hội với sự hỗ trợ của AI, em cần xác định vấn để cụ thể, thu thập thông tin đa dạng, tin cậy và tổng hợp để xây dựng báo cáo hoàn chỉnh. Cuối cùng, em nên tạo ra các sản phẩm minh•
+
+họạ để làm sinh động, tăng sức hút cho nội dung và
+
+[lop-11/bai-13-bai-tap-du-an] SUSP: ['AQI']
+  LINE: Hà Nội", "thực trạng, nguyên nhân, giải pháp của việc ô nhiễm không khi", "chỉ số AQI Hà Nội"....
+
+[lop-11/bai-13-bai-tap-du-an] SUSP: ['Environmental', 'Elsevier', 'nguồn/link']
+  LINE: Sau khi sàng lọc, hãy thu thập các bài báo, sô liệu và báo cáo đáng tin cậy về vẫn đề này từ các nguồn uy tin như Cống thông tin điện tử Chính phủ, Báo Nhân Dân, Báo Lao Động, cùng các nghiên cứu của World Bank và các tạp chí khoa học quốc tế như Environmental Research và Science of The Total Environment (Elsevier). Ghi chú đầy đù thông tin trích dẫn (tác giả, năm, tiêu đề, nguồn/link, ngày truy cập).
+
+[lop-11/bai-13-bai-tap-du-an] SUSP: ['TRUƠNG']
+  LINE: BAO VỀ MÔI TRUƠNG
+
+[lop-11/bai-13-bai-tap-du-an] SUSP: ['AQI']
+  LINE: và theo dõi chỉ số AQI hằng ngày.
+
+[lop-11/bang-giai-thich-thuat-ngu] SUSP: ['tàp']
+  LINE: lớp 10°, "Bạn là trợ lí học tàp", Trong giờ học môn Sinh học"....
+
+[lop-11/bang-giai-thich-thuat-ngu] SUSP: ['khóng']
+  LINE: Dạng lệnh mà người dung khóng càn cung cấp mẫu đầu vào để AI hiểu yêu cầu.
+
+[lop-11/bang-giai-thich-thuat-ngu] SUSP: ['mảu']
+  LINE: Dạng yêu cầu mà người dùng đưa ra cho AI, kèm theo một vài vi dụ mảu để hướng dẫn cách xử lí.
+
+[lop-11/thong-tin-xuat-ban-bia-sau] SUSP: ['tưr']
+  LINE: tưr liệu được sử dụng, trích dẫn
+
+[lop-11/thong-tin-xuat-ban-bia-sau] SUSP: ['TYT21P6-SED']
+  LINE: Mã số: TYT21P6-SED
+
+[lop-11/thong-tin-xuat-ban-bia-sau] SUSP: ['416-2026/CXBIPH/36-168/GD']
+  LINE: In 20.000 bản, (QĐ in số: 01-STK) khố 19 x 26,5 cm.
+
+Đơn vị in: Công ty TNHH Sản xuất dịch vụ thương mại Bao Bì Kiến Á 26 Nguyễn Nghiêm. Phường Tân Phú, TP.Hồ Chí Minh, Việt Nam.
+
+Cơ sở in: 643 Tỉnh lộ 2, áp Lào Táo Thượng, xã Thái Mỹ, TP.Hồ Chí Minh Số ĐKXB: 416-2026/CXBIPH/36-168/GD
+
+[lop-11/thong-tin-xuat-ban-bia-sau] SUSP: ['119/QĐXB-GD']
+  LINE: Số QĐXB: 119/QĐXB-GD, ngày 11 tháng 02 năm 2026
+
+[lop-11/thong-tin-xuat-ban-bia-sau] SUSP: ['978-604-0-46632-7']
+  LINE: In xong và nộp lưu chiều tháng 03 năm 2026 Mã số ISBN: 978-604-0-46632-7
+
+[lop-11/thong-tin-xuat-ban-bia-sau] SUSP: ['HANNo']
+  LINE: HANNo
+
+[lop-11/thong-tin-xuat-ban-bia-sau] SUSP: ['978-604-0-46632-7']
+  LINE: ISBN 978-604-0-46632-7
+
+[lop-12/bia-sach] SUSP: ['TUÊ']
+  LINE: TRÍ TUÊ NHÂN TAO
+
+[lop-12/bia-lot] SUSP: ['LOP']
+  LINE: *LOP 12
+
+[lop-12/bia-lot] SUSP: ['ADUOO']
+  LINE: ADUOO
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['LLM/chatbot']
+  LINE: Nêu được khái niệm AI Agents (tác nhân thông minh) và phân biệt được AI Agent với LLM/chatbot thông thường.
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['ngoạ']
+  LINE: chọn chỗ ăn uống, cho đến chuẩn bị đồ dùng,... Quá nhiều công việc phải làm thủ công, tốn thời gian và dễ sai sót. Tùng ước có một trợ lí ảo đủ thông minh để hỗ trợ mình khi cân. Vi dụ, Tùng chỉ cần nói Hãy lên kế hoạch cho chuyến dã ngoạ
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['thưng', 'Buot']
+  LINE: Hệ thưng tường tht Mội thoai Buot thệt
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['trện']
+  LINE: và hiểu văn bản dưa trện do liệu huấn
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['glas', 'tiep', 'trie', 'vill', 'nguth', 'diung']
+  LINE: He Of glas tiep trie thp vill nguth, diung
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['GisO', 'Thoas', 'rener']
+  LINE: GisO ID ho Thoas Ms rener
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['Rs']
+  LINE: Rs quyệt đinh thông minh
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['thrstng', 'g8p']
+  LINE: Tes lori eDu Ach thrstng g8p
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['Tưong', 'tớe', 'vel']
+  LINE: Tưong tớe vel ne thông khác
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['tốm', 't8t']
+  LINE: Dịch thuật và tốm t8t
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['nọữ', 'nghiĩa']
+  LINE: Phân tích nọữ nghiĩa
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['XữIi']
+  LINE: XữIi quy trình phúc tạp
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['Sinh/hiểu']
+  LINE: Sinh/hiểu
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['trường/công']
+  LINE: động, tương tác với môi trường/công cụ.
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['luận/Lập']
+  LINE: LLM - Mô-đun Lập luận/Lập kế hoạch
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['auay']
+  LINE: auay lai bước 2 để tiếp tực chu trinh
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['Reception']
+  LINE: 1) Nhận mục tiêu (Goal Reception): Agent tiếp nhận một mục tiêu hoặc nhiệm vụ từ người dùng.
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['luận/Lập', 'Reasoning/Planning']
+  LINE: 2) Lập luận/Lập kê hoạch (Reasoning/Planning): Sử dụng mô hình AI tạo sinh làm cốt lõi để phân tích, suy nghĩ và đưa ra quyết định. Agent phân tích mục
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['Execution']
+  LINE: 4) Thực thi công cụ (Tool Execution): Agent gọi và thực thi công cụ đã chọn.
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['Observation']
+  LINE: 5) Quan sát kết quả (Observation): Sau khi công cụ thực thi, Agent thu thập và xử lí kết quả trả về. Vi dụ: kết quả tìm kiêm từ Internet, thông báo thành công/ thất bại của một API.
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['Reasoning']
+  LINE: Mô-đun Lập luận (Reasoning Module): Đây là "trái tim" của Agent, chịu trách
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['luận/Lập']
+  LINE: Vòng lặp hoạt động của AI Agent bao gồm: Nhận mục tiêu → Lập luận/Lập kế hoạch → Chọn công cụ → Thực thi công cụ → Quan sát kết quả → Cập nhật bộ nhớ và tiếp tục lập lại.
+
+[lop-12/bai-1-gioi-thieu-ve-ai-agents] SUSP: ['huồng']
+  LINE: + Xử lí các tình huồng bất ngờ: Agent có thế gặp khó khăn khi đối mặt với
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['kháchhhh']
+  LINE: Hiểu được câu hỏi của kháchhhh hàng (ví dụ: Sữa tươi có đường giá bao nhiêu?,
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['lệnh/it']
+  LINE: 1. Xây dựng AI Agent sử dụng công cụ no-code/low-code Việc xây dựng AI Agent hay các ứng dụng LLM phức tạp bằng LangChain đời, Kĩ năng lập trình Python. Điều này có thể gây khó khăn cho những ai chưa thà thạo viết mã. Sự ra đời của các công cụ no-code/low-code (không mã lệnh/it; lệnh) trong lĩnh vực AI sẽ giúp họ dễ dàng hiểu các khái niệm, thử nghiệm và trì
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['UBI']
+  LINE: Output UBI
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['họạ']
+  LINE: 🖼️ Minh họa trong sách 
+                             Hình 2.1. Minh họạ xây dựng Agent sử dụng công cụ no-code
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Dian', 'Soveu']
+  LINE: 800 *) Vi dụ Demo Sách - Dian Soveu:
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Publish']
+  LINE: Preview v Publish
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Syslec', 'Prampr', 'Evatuations', 'Profiter']
+  LINE: M Vi do Demo Sách Automations Syslec Prampr Model Settings Evatuations Profiter
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Explorm', 'Detuana', 'CWn']
+  LINE: Explorm Errors Detuana CWn toy
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Ovarview', 'Heic']
+  LINE: Ovarview Quick Heic
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Dsta', 'Sources']
+  LINE: v E Dsta Sources
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Functions']
+  LINE: y a Functions
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Usor', 'Inputs']
+  LINE: l Usor Inputs
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Workfiows']
+  LINE: v S Workfiows
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['fow']
+  LINE: B Main.fow
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Overview']
+  LINE: Start End No Overview
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Generato', 'Overvien']
+  LINE: X Generato Agent Le Edit Overvien
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Workspace']
+  LINE: việc chính (Workspace)
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Workspace']
+  LINE: Khu vực làm việc chính (Workspace): Đây là khu vực rộng lớn, nơi em sẽ
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['đặt/chỉnh']
+  LINE: + Khu vực cài đặt/chỉnh sửa khối (Configuration): Khi em chọn một khối
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Evaluations']
+  LINE: Automations System Prompt Model Settings Evaluations Profiler
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['GPT-3']
+  LINE: dụng (ví dụ: GPT-3.5, Gemini). Đây là mô hình sẽ được dùng nếu một khối cụ thể không chỉ định mô hình riêng.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Denerate', 'Interact', 'behalt']
+  LINE: Denerate Text Interact with AI on behalt of user
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Chart']
+  LINE: Generate Chart
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Ganerate', 'Asset', 'Generato', 'PDFS']
+  LINE: Ganerate Asset Generato HTML, images, or PDFS
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['chart']
+  LINE: Generate a chart from data
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Podcast', 'Two-hast', 'podcast', 'topic']
+  LINE: Create Podcast Two-hast podcast about a topic
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Transoribe']
+  LINE: Transoribe Audio AI Speech-to-Text
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Colleci']
+  LINE: User Input Colleci data from the user
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Dynamically']
+  LINE: Dynamically gather information
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['trom']
+  LINE: Query Data Source Create variable trom a Data Source
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Detect']
+  LINE: Track Website Changes Detect changes to a website
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Sourced']
+  LINE: Deep Research Sourced information from the web
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Dynamically']
+  LINE: Logic Dynamically choose the next step
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['branching', 'options']
+  LINE: Menu Present branching options D
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Warkflow']
+  LINE: Run Warkflow Run another workflow
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Thì/Ngược']
+  LINE: Thì/Ngược lại) để rẽ nhánh xử lí dựa trên điều kiện hoặc các khối đề lặp lại một hành động. Ví dụ: Nếu khách hàng hỏi về giá, chuyển đến khối Get Data. Nếu không, chuyến đến khối Generate để trả lời chung.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Gir']
+  LINE: Email (Gir thư điện tú). Khối công cụ này cho phép Agent gửi the điện tú tý
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Gúi', 'Transform', 'hặn']
+  LINE: động. Vì dụ. Gúi thư điện sử cảm ơn khách hàng sau khi mua sắm.
+
+- Text Transform (Chuyên đói văn bản): Các khối giúp xử lí, chinh sữa văn hặn
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['từy', 'truór']
+  LINE: (ví dụ: tôm tất, trích xuất tháng sn. thay thể từy Vì dụ: Tóm tắt kết quả tim hiền web truór khi dua cho Lil.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Notion', 'Notion']
+  LINE: muc đich chuyên biệt hon niu.
+
++ Social Media: Để tương tác với mạng xã hội.
+
+* SMS: Để gửi tín nhắn SMS.
+
++ Notion: Để kết nối với cơ sở dữ liệu Notion.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Extemal', 'Automation']
+  LINE: * Extemal Automation. Để kết nối với các hệ thống tự động hoa khán.
+
+Bắng cách kéo thả và kết nỗi các khối này trên canvas, em có thể tạo ra các Ai Agent thông minh, linh hoạt để giải quyết nhiều vẫn đề trong cuộc sống mà không
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Carvas']
+  LINE: Giao điện: Bảng thiết kể (Carvas) trực quan, kéo-thả.
+
+• Các khối chính (Block):
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['AIl']
+  LINE: Generative AI Block Tương tác với Generative AIl.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['prompi']
+  LINE: đạt prompi.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Input/Output', 'khổi']
+  LINE: toàn, thu điện tử).
+
+- Logic Block: Ra quyết định (if/else).
+
+- Input/Output Blocks: Giao tiếp với người dùng.
+
+• Kết nối: Kéo thả và nối mũi tên giữa các khổi để tạo luồng xử lí (workflow).
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['_khach']
+  LINE: + General: Nhập tên biến vào ô Variable, ví dụ cau_hoi _khach _hang. Biến
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['khach']
+  LINE: cau hol khach hang
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['CourtIon']
+  LINE: CourtIon
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['trạn']
+  LINE: Nhập câu hỏi của trạn ở dây
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Hetp', 'Optianal']
+  LINE: Hetp Text (Optianal)
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['_khach_hang']
+  LINE: 🖼️ Minh họa trong sách 
+                             Hình 2.7. Khai báo biến đầu vào cau_hoi _khach_hang
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Optional']
+  LINE: Test Value (Optional)
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['pre-fill', 'responses', 'previewing', 'drafts']
+  LINE: Test values make it easy to pre-fill responses when previewing drafts.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['kháchhhh']
+  LINE: b)  Sử dụng công cụ đề truy xuất thông tin từ câu hỏi của kháchhhh hàng
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['AIl']
+  LINE: Bước 1. Thêm Web Search (công cụ tìm kiếm):
+
+- Chọn nút ở giữa User Input và End, sau đó chọn View AIl Blocks Tìm mục Google và chọn Search Google để đưa vào Canvas. Kết quả nh
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['_khach']
+  LINE: kiếm sử dụng giá trị của biến cau_hoi _khach _hang làm từ khóa.
+
++ Output Variable: Lưu giá trị trả về vào biến đầu ra (output), chẳng hạ
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['khach']
+  LINE: Search Query ((cau hol khach hang))
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['variables']
+  LINE: You may include ((variables)).
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['thong_tin_tim', 'kiem']
+  LINE: Output Variable : thong_tin_tim kiem
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Select', 'exported']
+  LINE: Select the format you want the search 'results to be exported as.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Ganarate']
+  LINE: Ganarate
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['GPT-4o']
+  LINE: (Claude 3 Haiku hoặc GPT-4o Mini).
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Prafier']
+  LINE: Prompt Opens in Prafier O
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['trd']
+  LINE: Bạn là trd lý áo thân thiện và hữu ích của
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['kháchhhh']
+  LINE: cửa hàng tạp hóa gia đình An.
+
+Dưới đây là thông tin liên quan đến câu hỏi của kháchhhh hàng: Câu hỏi:
+
+{[cau_hoi_khach_hang 77
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['kháchhhh']
+  LINE: Thông tin tim dược: f[thong_tin_tim_kiem]] Hãy trả lời câu hỏi của kháchhhh hàng một cách rờ rằng, ngân gọn, thân thiện và hữu ích, chí dựa vào thông tin được cung cắp.
+
+Nếu thông tin không đủ để trả lời, hãy nói
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['kháchhhh']
+  LINE: cửa hàng tạp hóa gia đình An.
+
+Dưới đây là thông tin liên quan đến câu hỏi của kháchhhh hàng: Câu hỏi:
+
+{{cau_hoi_khach_hang }}.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Describe', 'variables']
+  LINE: Describe what you'd like the AI to generate. You may include ((variables)).
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['kháchhhh']
+  LINE: Hãy trả lời câu hỏi của kháchhhh hàng một cách rõ ràng, ngắn gọn, thân thiện và hữu ích, chỉ dựa vào thông tin được cung cấp.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Schema']
+  LINE: Output Schema
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Default']
+  LINE: Text (Default)
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['default']
+  LINE: Include (default)
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['visible', 'sessions']
+  LINE: Control whether this message is visible in the history of any chat sessions.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['thong_tin_', '_kiem']
+  LINE: Lưu ý: {{thong_tin_ tim _kiem}} là biến chứa kết quả từ Search Google.
+
++ Settings:
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['anthrogic/claude-3-5-haiku-28241922']
+  LINE: Claude 3.5 Haiku anthrogic/claude-3-5-haiku-28241922
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Inherited']
+  LINE: 4 Inherited from the Workflow's Model Settings
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Schema']
+  LINE: Output Schema: Định dạng đầu ra (Text, JSON hoặc CSV).
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['MAAMVOI']
+  LINE: O MAAMVOI E
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['phẩm7']
+  LINE: Bạn muốn hỏi gì về sản phẩm7
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['VD1']
+  LINE: AL AI Agent VD1
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['nguốn', 'tribu', 'lasi', 'tues', 'orpanic', 'dusc', 'dann', 'niện']
+  LINE: Dua trên các nguốn thông tin, lôi kin giai tribu 3 lasi sita tues orpanic dusc dann gia cao nhất niện ray.
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['tuot', 'Virgma']
+  LINE: 1.  Süa tuot Virgma 100% Organic
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['sês', 'orgaric', 'rudl', 'ire', 'neido', 'Panto', 'uike', 'ngues']
+  LINE: La sês orgaric đầu tên đạt chung nhận têu chuấn châu du tại Việt Nam • Ser rudl du nhong con do chan ire tu neido • Panto vor uike vi ngues lint
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Sdo', 'res']
+  LINE: 2.  Sdo res TH True Mila Organic:
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Giu', 'cuông', 'Raay', 'e0', 'kcal', 'Crua', 'canai', 'cet', 'reamin', 'eriét']
+  LINE: Giu đinh cuông • Raay Wong: e0,0 kcal • Crua canai, protein o cet reamin cân eriét
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['tuer', 'Orgaric', 'ONl', 'Larc']
+  LINE: ) Dua tuer Orgaric CS ONl Ha Larc
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['Giất']
+  LINE: Thương Niệu vy tin • Giất lượng đàm báo
+
+[lop-12/bai-2-cau-truc-ai-agent-don-gian] SUSP: ['khuch', 'nhớc', 'lua', 'vếi']
+  LINE: Quý khuch có trể cản nhớc 3 toại nủa này đả lua chọn phù nộp vếi nhu câu.
+
+[lop-12/bai-3-rag-nang-cao] SUSP: ['RAC']
+  LINE: RAC
+
+[lop-12/bai-3-rag-nang-cao] SUSP: ['loạ']
+  LINE: lưu trữ tại kho lưu trữ vector. Đây giống như một "thư viện lớn".", nơi các "loạ độ"
+
+[lop-12/bai-3-rag-nang-cao] SUSP: ['luả']
+  LINE: luả đề nhanh chóng tìm ra các vector " dùng. Điều này đảm bảo hệ thống có thể truy xuất thông tin liên quan một cách
+
+[lop-12/bai-3-rag-nang-cao] SUSP: ['Vectorstore']
+  LINE: Model Vectorstore
+
+[lop-12/bai-3-rag-nang-cao] SUSP: ['vecto']
+  LINE: (Lưu trữ vecto
+
+[lop-12/bai-3-rag-nang-cao] SUSP: ['gìảm']
+  LINE: một cách chính xác, sao cho những đoạn văn bản có ý nghĩa tương đồng thực sự có các vector gần nhau trong không gian đa chiều. Biểu diễn vector không chuấn sẽ làm gìảm khả năng nhận diện mối liên hệ ngữ nghĩa, dẫn đến việc truy xuất nhầm thông tin.
+
+- Thuật toán tìm kiếm hiệu quả: Việc sử dụng các thuật toán tìm kiếm tiên tiến
+
+[lop-12/bai-3-rag-nang-cao] SUSP: ['Approximate']
+  LINE: (ví dụ: các thuật toán tìm kiếm lân cận gần đúng như ANN - Approximate Nearest
+
+[lop-12/bai-3-rag-nang-cao] SUSP: ['đù/sai']
+  LINE: Chất lượng truy xuất phụ thuộc vào việc chia nhỏ hợp lí, mã hoá chính xác và thuật toán tim kiêm hiệu quả. Nếu các bước này kém, LLM nhận thông tin không đây đù/sai, dẫn đến câu trả lời thiêu chính xác.
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['Ií']
+  LINE: An đã xây dựng được một trợ lí ảo có các chức năng cơ bản cho cửa hàng tạp hoá. Trợ Ií ảo có thể trả lời các câu hòi dựa trên dữ liệu sản phẩm có sẵn. Tuy nhiên, một số khách hàng lại hỏi những câu phức tạp hơn, đòi hỏi trợ lí ảo phải suy luận và thực hiện nhiều bước. Ví dụ:
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['Chinsu']
+  LINE: Tính tống giá tiền của 2 kg gạo ST25 và 1 chai nước mắm Chinsu 500 ml (cần
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['Templates']
+  LINE: Prompt Templates
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['Modules']
+  LINE: Retrieval Modules
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['Callbacks']
+  LINE: Memory Callbacks
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['Interface']
+  LINE: Giao diện LLM (LLM Interface): Cho phép kết nối vá truy vấn các LLM khác
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['Template']
+  LINE: Mẫu prompt (Prompt Template): Các cấu trúc sản có giúp định dạng truy vắn
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['Modules']
+  LINE: Mô-dun truy xuất (Retrieval Modules): Tạo điều kiện xây dựng hệ thống
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['Callback']
+  LINE: Lệnh gọi lại (Callback Command): Các đoạn mã nhúng vào ứng dụng để ghĩ
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['ghành']
+  LINE: ghành một nhiệm vụ. Mỗi hành động nhỏ trong một chuối được gọi là một liên kết (Link). Vi dụ dưới đây làm rõ hai khái niệm chuỗi và liên kết.
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['taàn']
+  LINE: Quy trinh hoàn chỉnh giái quyét bài taàn
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['kiém']
+  LINE: Phần tích đề bải Tìm kiém kiến thức liên
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['ngoài/riêng']
+  LINE: LlamaIndex là một khung làm việc chuyên biệt đề kết nối LLM với dữ liệu bên ngoài/riêng tư với nhiệm vụ trọng tâm là tối ưu hóa cho tác vụ RAG, đặc biệt là phần truy xuất dữ liệu.
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['Lamalndex']
+  LINE: Lamalndex đơn giản hóa các bước phức tạp của RAG liên quan đến dữ liệu:
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['gòm']
+  LINE: E Thành phán LlamaIndex gòm có:
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['nguờn']
+  LINE: Thu thập dữ liệu từ nhiêu nguờn khác nhau một cách Tinh hoạt và hiệu quả
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['hibu', 'Vedlor', 'Stoce', 'inded']
+  LINE: Tổ chức dữ liệu để thy kiểm hibu quả vì dy Vedlor Stoce inded
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['tỉn', 'trớc', 'miội', 'caa']
+  LINE: Tin kiêm thông tỉn sên quan tự trớc miội caa đính xác và nhanh chống
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['háp']
+  LINE: Giao điện để truy vẫn dữ tiêu, kết háp tm kiếm và:
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['lệp']
+  LINE: 1) Thu thập dữ liệu (Data Connectors): An có thể có dữ liệu cửa hàng ở nhiều nơi: tệp Excel, lệp PDF chứa chính sách khuyên mãi, thông tin trên trang web hoặc thậm chí là các ghi chú viết tay mà An đã sô hoá. LlamaIndex cung cấp các
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['xlsx']
+  LINE: Data Connectors giúp tải dữ liệu từ vô số nguồn khác nhau một cách dễ dàng.
+
+Vị dụ: LlamaIndex có thể đọc trực tiếp từ tệp .xlsx của bảng giá, tệp .pdf của hợp đồng thuê mặt bằng (để biết giờ đóng mở cửa), hoặc tự động thu thập thông tin tử một trang web đơn giản của cửa hàng.
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['semantic']
+  LINE: Vị dụ: Thay vì để LLM đọc cà một tệp PDF dài, LlamaIndex sẽ chia tệp đó thành các đoạn nhỏ hơn, biến mỗi đoạn thành một "mục lục" có thể tìm kiếm được. Khi khách hỏi về giá sữa Vinamilk, LlamaIndex không cần đọc lại cả cuốn số tay sản phẩm mà chỉ cần tìm đến "mục" có thông tin về sữa. Đặc biệt, Vector Store Index là loại chỉ mục phổ biến nhất, giúp tìm kiếm thông tin dựa trên ý nghĩa (semantic
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['VNĐ/gói']
+  LINE: Store Index, tìm kiếm những đoạn văn bản trong cơ sở dữ liệu của An mà có ý nghĩa gân nhất với câu hỏi này (ví dụ: dòng Mì tôm Hảo Hảo gói: 5 000 VNĐ/gói.)
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['ạ']
+  LINE: gạo ST25 loại 5 kg có giá 120 000 VNĐ ạ.
+
+36
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['CANNO']
+  LINE: CANNO
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['kốt']
+  LINE: Retrieval: Tìm kiếm thông tin liên quan từ Index.
+
+• Query Engines: Giao diện để truy vấn dữ liệu, kốt hợp tìm kiếm và LLM.
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['COSSRT']
+  LINE: COSSRT VẬN DỤNG
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['kháchhhh']
+  LINE: Ghi nhớ lịch sử các câu hỏi của kháchhhh
+
+[lop-12/bai-4-thu-vien-nguon-mo-llm] SUSP: ['kháchhhh']
+  LINE: hỏi của kháchhhh hàng vượt ra ngoài dữ liệu của cửa hàng (vi dụ: Xu hướng tiêu dùng sữa năm nay là gì?).
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['THẬC']
+  LINE: BẠI 5. KHAI THẬC, THỪ VIỆN
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['nhự', 'Lamalndex', 'kháchhhh']
+  LINE: Với câu hội thứ nhất: Sữa tươi có đường hết chưa?, trợ lí ảo phải kiểm tra hàng còn hay hết trong kho. Với câu hỏi thứ hai: Tôi cần sữa không đường, ít béo dành cho người ăn kiêng. Cửa hàng có không?, trợ lí ảo phải hiểu nhu cầu chi tiết và gợi ý sản phẩm phù hợp, thậm chí phải tìm thêm thông tin ngoài cửa hàng.
+
+Trong tình huống trên, vì sao An chỉ sử dụng một công cụ nhự LangChain hoặc Lamalndex là chưa đủ? LangChain và LlamaIndex có thể phối hợp như thế nào để trợ lí ảo vừa hiểu yêu cầu của kháchhhh vừa tìm đúng thông tin cần thiết?
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['kháchhhh']
+  LINE: 1. LangChain và LlamaIndex: Hai chuyên gia, một mục tiêu Trọng tình huống của An, chỉ dùng một công cụ là chưa đủ vị mỗi câu hỏi của kháchhhh lại cần xử lí theo một cách khác nhau. Câu hỏi thứ nhất cần truy cập dữ liệu trong kho, còn câu hỏi thứ hai yêu cầu hiểu ý định phức tạp và lọc thông
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['lươi', 'xêp']
+  LINE: Vi dụ: Khi An muốn trợ lí ảo có thế trả lời câu hỏi, đặt hàng hoặc liên hệ nhà cung cấp, LangChain sẽ thiết kế "bộ não" điều phối các tác vụ đó. LangChain giống như kiến trúc sư thiết kế toàn bộ ngôi nhà. Hay để trả lời Sữa lươi có đường còn bao nhiêu hộp?, LlamaIndex sẽ giúp An thu thập thông tin tôn kho, sắp xép chúng và tìm kiêm chính xác số lượng cần. LlamaIndex giống như thủ kho sắp xêp hàng hoa trong kho, giúp em tìm đúng sản phẩm cần thiết.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['đữ']
+  LINE: Khi kết hợp, LangChain đóng vai trò người tố chức thông minh, còn LlamaIndex giống như kho tra cứu. LangChain sẽ biết lúc nào cần dùng LlamaIndex để tìm đữ liệu, rồi tiếp tục xử lí và tạo ra câu trả lời hợp lí. Nhờ sự phối hợp này, trợ lí ảo của An mới có thể trả lời linh hoạt cả câu hỏi đơn giản lẫn yêu cầu phức tạp.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Lamalndex']
+  LINE: LangChain logic Lamalndex data
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Indera']
+  LINE: Agents Indera
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Structured']
+  LINE: Prompts Structured data
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['sources']
+  LINE: sources
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Deployment']
+  LINE: Deployment
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Lamalndex']
+  LINE: Lamalndex: Tập trung vào quản lí và truy xuất dữ liệu cho LLM, đặc biệt cho RAG. Giống như thủ kho chuyên nghiệp của kho dữ liệu.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Lamaindex']
+  LINE: Lamaindex Lang Chain
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Windows/macOS/Linux']
+  LINE: hướng dẫn cách cài đặt Python trên Windows/macOS/Linux trên Google. Sau khi cài Python, Pip thường sẽ được cài đặt kèm theo.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Prompt/PowerShell']
+  LINE: Đầu tiên, cần cài đặt thư viện LlamaIndex và một LLM mẫu (chẳng hạn như Ollama để chạy LLM cục bộ). Chạy lệnh sau thông qua Command Prompt/PowerShell (trên Windows):
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['install', 'llama-index-embeddings-huggingface']
+  LINE: pip install -U llama-index llama-index-embeddings-huggingface llama-
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['index-1lms-ollama', 'pypdf', 'sentence-transformers', 'bitsandbytes', 'accelerate']
+  LINE: index-1lms-ollama langchain langchain-community pypdf transformers sentence-transformers bitsandbytes accelerate openai
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['PowerShell']
+  LINE: Sau đó, cần tải một LLM về máy nếu dùng Ollama thông qua Command Prompt/ PowerShell (trên Windows). Ví dụ:
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['llama2', 'phi3']
+  LINE: ollama run llama2 # Hoặc ollama run phi3
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Llamalndox', 'lệp']
+  LINE: a) Tâi thông tin và tạo chỉ mục Llamalndox Tạo hai lệp văn bản trong cúng thư mục với đoạn mã Python và điên thông tin sản phẩm vào đó.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['lươi', 'VND/lít']
+  LINE: Sữa lươi Vinamilk có dường: 29 000 VND/lít. Hạn sử dụng 6 tháng.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['VNĐ/gói', '200g']
+  LINE: Bánh quy Kinh Dộ Marie: 15 000 VNĐ/gói 200g.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Hôo', 'VND/gói']
+  LINE: Mi lôm Háo Hôo gói: 3 000 VND/gói.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Coca-Colo']
+  LINE: Nước ngọt Coca-Colo Ion: 10 000 VND/lon.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['ST2S', 'VND/3kg', 'Fllo', 'khuyon']
+  LINE: Gạo ST2S: 120 000 VND/3kg.
+
+Fllo: khuyon mal.txt
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['trom', '_Indox', 'enbeddingo', 'hugglogface', 'lapore', 'Huggingtosenbsdasng']
+  LINE: trom Ilona _Indox, enbeddingo hugglogface lapore Huggingtosenbsdasng
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['trom', 'licr', 'illane', 'Ollams', 'lans', 'uir', '100lo', 'Quoryengine7ool', 'roolketadasa', 'trom', 'lama_index', 'orn', 'agone', 'ReActhgens', 'langcholn', 'agore', 'loport', 'igentezecutot', 'creste_tesct_ayent']
+  LINE: trom lama _index. licr. illane import Ollams
+trum lans Index.:uir.100lo Import Quoryengine7ool, roolketadasa
+trom lama_index. :orn. agone Import ReActhgens
+tram langcholn. agore» loport igentezecutot, creste_tesct_ayent
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['trom', 'langshain_cors', 'pecspie', 'Prompttemplate', 'langchain_core', 'ensaoyes', 'AIhersage', 'Hunaskessage']
+  LINE: trom langshain_cors, pecspie import Prompttemplate
+from langchain_core. ensaoyes Import AIhersage, Hunaskessage
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['1y', 'blamalndex', 'basscconfig', 'stream-oyo', 'acdout', 'level-logging', 'INkD', '10ggtmg', 'getlogger1', 'addlandler', 'GcreanHandiez', 'syg', 'otdool']
+  LINE: 1 --- Câu hinh chung -..
+
+• Bat Logging dé xem que trinh xù 1y cûs blamalndex logging.basscconfig(stream-oyo.acdout,level-logging.INkD) 10ggtmg.getlogger1).addlandler(logging.GcreanHandiez(syg.otdool))
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['chuơng', 'nếi', 'cáờ', 'lifu', 'tếp', 'ta1', 'documento', 'gimpledirectoxyReader', 'Jond_doca', 'tás', 'Ien', 'lifu']
+  LINE: 1 -- a) Tál thông tin sân phẩn và chuơng trính khuyến nếi từ cáờ tập khác
+nhoa ---
+print/"Dang tái do lifu tú các tép...")
+1 Tái tát có cáo tếp từ thu mc hiện ta1
+documento -gimpledirectoxyReader/"./").Jond_doca()
+print(["Dó tás (Ien(documents)) tái lifu..")
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Ilamaindex', '11eu']
+  LINE: ( --- b) Tạo một chi muc dã liệu bäng Ilamaindex print/"Dang too chi muc dü 11eu..")
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Hugging', 'biéu', 'sghle', 'sentence-tranaforner', 'paraphrose-mult111ngua1-M201141-112-72']
+  LINE: 1. Cau hinh ms hinh nhung (Embedding Model) • Sử dụng mô hinh nhúng của Hugging face dé tạo vector biéu diễn agü sghle cho vẫn bán.
+
+8 Mo hinh "sentence-tranaforner:/paraphrose-mult111ngua1-M201141-112-72" 65 tro da ngôn ngõ.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['ented_n0del', 'Huggingfacelmbedd1ng']
+  LINE: settings.ented_n0del - Huggingfacelmbedd1ng(
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['model_sane', 'sentence-tranaforners/poraphrose-mult1i1nqu', 'IM-LI2']
+  LINE: model_sane-"sentence-tranaforners/poraphrose-mult1i1nqu»?-Mın: IM-LI2-
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['bdo', 'duoc', 's01', 'GFU', 'devicen']
+  LINE: Sủ dung CPU dể dam bdo chay duoc trên s01 say tinh khöng co GFU mash devicen"cpu" )
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['lón', 'Ollena', 'vól', '1lama2', 'c7s', '1ã', 'cà1', 'O11ara', '11ams2', 'Ollana', 'httpt', 'ol1ans', 'lenh', 'ol1ama', '11ama2', 'Settingo', 'I2i', 'O11an0', 'Ilana2', 'reguest_timeout-360', 'I62g', '12000u']
+  LINE: 2. Câu hình Mô hinh ngôn ngữ lón (1121) • sù dung Ollena vól mo hinh "1lama2" chay c7s bộ.
+
+• Đảm bảo bon 1ã cà1 dất O11ara và kéo mo hinh 11ams2:
+
+• Tåt Ollana tu httpt://ol1ans.com/ • Chay lenh: ol1ama run 11ama2 Settingo. I2i = O11an0 (model-"Ilana2", reguest_timeout-360.0) d I62g 12000u= cho các câu trẻ 101 dài
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['VectorStoreIndex', 'fzom', 'docunenca', 'Đđ']
+  LINE: * 3. Xây dụng chi muc vector • Chỉ mục nảy sẽ giúp chúng ca tin kiên thống cin nhanh chóng và hiệu quả.
+
+index - VectorStoreIndex.fzom documents (docunenca) print ("Đđ tạo chỉ sực dữ liệu thành công.") 42
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['muo']
+  LINE: 1 --- c) Xây dựng một Agent LangChain có khả năng sử dụng chỉ muo của LlamaIndex nhu một công cụ ---
+
+print ("Dang xáy dựng Agent LangChain...")
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['muo']
+  LINE: * 1. Ipo Query Engine từ chi muo 7 Query Engine giúp chúng ta hỏi các câu hỏi về chỉ mục.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['guezy_engine-index', 'os_query_engine', 's1m/larity_', 'lidy', 'qud']
+  LINE: tương đồng nhất guezy_engine-index.os_query_engine(s1m/larity_ top kol) o lidy 3 ket qud
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Iool', 'aản']
+  LINE: 2. Đinh nghia công cụ (Iool) cho Agent • Công cụ này cho phép Agent sử dụng Query Engine để tìm kiêm thông tin aản
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['cae', 'thoc', 'prh', 'nyến', 'htm']
+  LINE: cae thoc ei m at a a prh sa cc n ng 2 2 nyến nà, htm
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['G1á', 'Vlnamilk', 'nhléu', 'trết']
+  LINE: G1á cà của són phẩn (v1 dự: "Gid süa Vlnamilk la bao nhléu?") - Thông tin chi trết về sản phẩm(vi dự: "Bánh quy Rinh Đô Marie có gì đăc biệt?")
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['chưong', 'đãt']
+  LINE: Các chưong trinh khuyến mãi, ưu đãt (ví dụ: "M1 tôm Hảo lào có khuyến mái gì không?", "Khuyến mãi tháng 6 là gì?").
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['ReActagent', 'IlamaIndex', 'vớ1', 'blameIndex', 'systen', 'prompt_v1']
+  LINE: 3. Khỏi tạo Agent 7 Chúng ta sẽ sử dụng ReActagent của IlamaIndex v1 nó tích họp tốt vớ1 các công cụ của blameIndex 1 và có khả năng suy luận để chọn công cụ phù hạp.
+
+systen prompt_v1 = """ tra lý ảo thông minh, thân thiện và hữu Ich, chuyên cụng cấp thông tin rẽ sản phẩn và cức chuong trình khuyên mãi.
+
+Nhiệm vụ của bạn là trả lời các cầu hỏi của người dùng một cách chính xác và
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['gản', 'chưong', 'khuyện']
+  LINE: đáy dủ, dựa trên các thông tin bạn có.
+
+Bạn có khẻ năng sử dụng các CÔNG CU (tools) đế tìm kiêm thông Khi người dùng hỏi về gản phẩm, giá cà, hoặc các chưong trình khuyện mãi, bạn PHẢI SỬ DỤNG công cụ "thong_ tin _sản pham vo _khuyen mai' để láy dữ liệu.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['ReActAgent', 'Iron_10015']
+  LINE: agent = ReActAgent. Iron_10015(
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['toolg', 'query_engine_tooll', '11n', '_prompt_vi']
+  LINE: toolg=[query_engine_tooll, 11m=Settings.11n, verbose-True, system _prompt-system _prompt_vi, 4 Thêm system prompt tiêng Vięt
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['chưong', 'thoat']
+  LINE: * --- Phần tương tác với người dùng ---
+
+print ("\n--- Sẵn sàng trẻ lời cầu hỏi của bạn! ---") print ("Bạn có thế hỏi về thông tin sản phẩm, giá cà, hoặc các chưong trinh khuyên mãi. ") print ("Gö 'thoat" đế thoát. ")
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['nBan', 'thoat']
+  LINE: question = input (")nBan hỏi: ") if question. lover() = 'thoat':
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['lờ1', 'Exception']
+  LINE: response = agent.chat (question) print (f"Agent trà lờ1: (response)") except Exception as e:
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['1ọ1', 'o11ama']
+  LINE: print (f"Có lỗi xây rai (e). Vui lông thủ 1ọ1 hoặc kiển tra lại cài đật o11ama. ")
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['crả', 'thoat']
+  LINE: -- sản sàng crả lời câu hòi của ban! -
+
+Bạn có thể hỏi về thống tin sản phẩm, giá cá, hoặc các chương trính khuyến mãi.
+
+Gõ "thoat" để thoát.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['tươc', 'Vinanilk', 'Bcb88656-Sde9-482f-a012-814cb405083d', 'ánput']
+  LINE: Bạn hỏi: Sữa tươc Vinanilk có đường giả bao nhiêu > Running step Bcb88656-Sde9-482f-a012-814cb405083d. Step ánput: Sữa tươi VinamiLk có đường giá bao nhiêu
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['họạ']
+  LINE: Em sẽ thấy ở đầu ra có phần Thought cho biết Agent đã suy nghĩ và gọi công cụ như thế nào để tìm kiếm thông tin từ chỉ mục LlamaIndex. Điều này minh họạ rõ ràng sự kết hợp giữa khả năng điều phối của LangChain và khả năng truy xuất dữ liệu chuyên biệt của LlamaIndex.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['8cb88656-5de9-482f-a012-814cb405083d', '11434/ap1/chat']
+  LINE: Bạn hỏi: Sữa tươi Vinamilk có đưỡng giá bao nhiều S Running step 8cb88656-5de9-482f-a012-814cb405083d. Step input: Sữa tươi Vinamilk có đường giả bao nhiêu INFO:httpx:HTTP Request: POST http://localhost:11434/ap1/chat "HTTP/1.1 200 OK"
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Vinarilk', 'Observation', 'provided', 'mith', 'liter', '56c10474-9b6d-47cf-a889-1ca052c39d67', 'ocalhost', 'Thaught', 'ansver', 'vithout', 'aore', 'IZ', 'aser', 'Vinamilh']
+  LINE: Action Input: ('input": Sữa tươi Vinarilk gid bao nhiều?" nun beans': 5) INFO: httpx:HTTP Request: POST http://localhost:11434/api/chat *HTTP/1.1 200 ОК" HTTP Request: POST http://localhost:11434/api/chat "HПTP/1.1 200 OK" Observation: Based on the provided context the price of Vinamilk's fresh mith ts 25,000 WAD per liter > Running step 56c10474-9b6d-47cf-a889-1ca052c39d67. Step Input: None INFO: httpx:HTTP. Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 ОК" HTTP Request: POST http://ocalhost:11434/api/chat "HTTP/1.1 200 ОК™ Thaught: I car ansver vithout using any aore tools, I'IZ use the aser's language to answer Answer: Giá sữa tươi Vinamilh Là 25, 000 VND/Lit.
+
+Agent trả lời: Giá sữa tươi Vinamilk là 25,000 VND/Lit.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Parsers']
+  LINE: D. Output Parsers.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Lamalndez', 'mộn', 'oner']
+  LINE: 2. Việc Lamalndez lố chúc dũ bậu sản phâm thành mộn chi mus (oner) so vai ko nao là quan trong nhất trong quá trình BAG!
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Lamalndey']
+  LINE: 3. Hãy giải thích tại sao việc kết hợp LangChain và Lamalndey lại hiệu quả hơn sọ với việc chí sử dụng một trong hai cho một cng dung tra li ào phúc lap nhu của An.
+
+[lop-12/bai-5-khai-thac-thu-vien-nguon-mo-llm] SUSP: ['Lamalndex']
+  LINE: Theo em, để thực hiện các tính năng này, Lang Chain và Lamalndex sẽ cúng nhau đóng vai trò như thể náo? Em hãy hinh dung luồng xử lí và các thành phần chinh được sử dụng.
+
+[lop-12/bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] SUSP: ['Ahiển']
+  LINE: Ahiển chùng la không rô vì sao chùng lại làm như vậy. Vi dụ, nêu một ứng dụng
+
+[lop-12/bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] SUSP: ['tựr', 'Arư', 'điêm', 'khân', 'lựr']
+  LINE: Ai tựr động chấm điểm bài tập của em, em có thể không hiều vì sao minh lại Arư điêm đo hay vi sao một câu trẻ lời cụ thể bị đành giá là sai. Diều này gây Nho khân trong việc kiểm tra tinh công bằng, phát hiện sai sót và xây dựng niềm In Vào hệ thống AI.
+
+c) Nhòm vắn để về tác động đến xã hội và con người Gồm các vấn đề như thiên vị, ảnh hương việc làm, giá mạo (deepfake) ve quyền lựr chủ - thể hiện những ảnh hưởng rộng lớn của AI đến các giá trị xã hội và phảm gia con người.
+
+- Về thiên vị và công bằng, các mô hình AI tạo sinh học từ dữ liệu chúng dược
+
+[lop-12/bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] SUSP: ['tinh/chùng']
+  LINE: bác sĩ luôn là nam giới da trắng, trong khi y tá luôn là nữ giới, hoặc gợi y việc làm thiên về một giới tinh/chùng tộc nhật định. Điều này dẫn đến việc
+
+[lop-12/bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] SUSP: ['lưôn']
+  LINE: 🖼️ Minh họa trong sách 
+                             Hình 6.2. Thiên vị dữ liệu trong A/
+(mô lá bác sĩ luôn là nam và y tá lưôn là nữ)
+
+[lop-12/bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] SUSP: ['gìảm']
+  LINE: AI hoặc đề AI đưa ra mọi quyết định thay thể con người có thể làm suy yếu khả năng suy nghĩ độc lập và giá trị bàn thân. Vi dụ, nếu em hoàn toàn dựa vào AI để làm bài tập về nhà, chọn ngành học, hay thậm chí đưa ra lời khuyên về các mỗi quan hệ cá nhân, em có thể dần mất đi khà năng tư duy phân biện và giải quyết vân đề. Hậu quả là chúng ta có thể trờ nên quá phụ thuộc vào công nghệ, làm gìảm đi kĩ năng và quyền tự chủ của chinh mình.
+
+d) Sự liên kết và tính phức tạp giữa các vấn đề đạo đức
+
+[lop-12/bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] SUSP: ['transparency']
+  LINE: Các vấn đề đạo đức trong AI không tồn tại độc lập mà liên kết chặt chế với nhau, tạo nên một hệ thống phức tạp. Vi dụ, sự thiếu mình bạch (lack of transparency)
+
+[lop-12/bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] SUSP: ['ràc']
+  LINE: 1: tạo sinh đặt ra những vân đề đạo đức quan trọng trên ba i hia canh: an toàn thông tin cá nhân (như quyền riêng tư và ràc mật), trách nhiệm pháp lí và minh bạch (như bản quyền và giải trình), cùng với tác động xã hội và con người (như thiên vị hay thay thế việc làm). Việc phát triển và sử dụng Ai tạo sinh càn được định hướng rõ ràng để bào vệ con người và phục vụ en ron chung.
+
+[lop-12/bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] SUSP: ['huán', 'Liệc']
+  LINE: 2. Vản đề môi trường và các giài pháp trong việc huán luyện, vận hành cac mò hình lớn về AI tạo sinh a) Văn đề môi trường trong AI tạo sinh Liệc phát triển và vận hành
+
+[lop-12/bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi] SUSP: ['huản']
+  LINE: quả trình huản luyện và duy trì máy chủ, góp phần làm gìa tàng phát thải carbon. Ngoài
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['Ál']
+  LINE: • Chi ra được ảnh hưởng hai một của Ál tạo sinh đến việc làm.
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['finh', 'vire', 'hox', 'iher', 'tròc', 'nguờng']
+  LINE: Ở vp 9. cứt em đã tìm hiểu vỏ các nhóm nghề trong finh vire Tin hox iher Khoa rù nay tinh. Tìn học ứng dụng, cũng như những công việc cụ thể như phát triển phần mềm hay quản trị hệ thống. Giờ đây khi em đùng tròc nguờng aa chun
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['giui', 'nghitp', 'chura']
+  LINE: 2. Liệu những kĩ nàng em đang có đã đù để thich nghi với thế giui nghe nghitp dó chura?
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['KANd', 'KN']
+  LINE: tác vụ lặp lại và mở ra những cơ hội mỏi, tàng cường khả năng làm việc của con người.
+
+đồng thời tạo ra những ngành nghề hoàn toàn mới.
+
+Hình 7.1. H sin dt KANd KN
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['giup']
+  LINE: + Trong ngành Thiết kế và Sáng tạo: AI giup tạo ra hàng trăm ý tưởng pháo
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['giup']
+  LINE: + Trong ngành Kĩ thuật và Lập trình: AI giup lập trình viên gợi ý, tự động viết
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['Engineer']
+  LINE: + Ki sư prompt (Prompt Engineer): Chuyên gia tạo ra các câu lệnh hiệu quả để
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['Ethicist']
+  LINE: + Chuyên gia đạo đức AI (AI Ethicist): Đảm bảo AI hoạt động công bằng, không
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['Integration', 'Specialist']
+  LINE: + Chuyên gia tích hợp AI (AI Integration Specialist): Phân tích và tìm cách tích
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['Al-Powered']
+  LINE: + Nhà phát triển nội dung đa phương tiện sử dụng AI (Al-Powered Content
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['Creator']
+  LINE: Creator): Sáng tạo nội dung số (hình ảnh, video, âm nhạc) bằng cách tận dụng sức mạnh của AI.
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['vộc', 'luơng']
+  LINE: các lác vụ lập lại vá lập trung vào vộc đưa rả các ý luơng đột phá, sáng sạo.
+
+giái quyết những vẫn để phức lập hơn.
+
+- Thách thức:
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['ngánh', 'sả']
+  LINE: + Yêu cầu kì năng mới: Nhiêu ngánh nghê sả đôi hói kì nóng AI và cùng ngồ!
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['shản', 'càp']
+  LINE: + Ap lưc học hói liên tuc: AI thay đổi rất nhanh, soi hỏi sm shản kon càp rinh
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['Cohei']
+  LINE: Thách thức Cohei
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['sirh']
+  LINE: 🖼️ Minh họa trong sách 
+                             Hình 7.2. AI sẽ đồng thời là thách thức và co hội đối với học sirh
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['veroe', 'gua', 'kieh', 'thur']
+  LINE: Để tên u co ht vit veroe gua thách thưc của thời đại AI, em cần chủ động chen di cho minh kieh thur: vit ki nàng về AI
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['tụp']
+  LINE: AI có tác động hai mặt: tụp động hoa công việc lập lại. tàng cường khả năng của con người và tạo việc làm mới, điều nảy mang lại thách thức về kĩ năng, nguy có tụt hậu nhưng cùng là Cơ hội nắng cao hiệu suất và mờ ra nghề nghiệp mới. Em cần đầu tự học tập và phát triển bản thân đề thích ứng.
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['Camscaner']
+  LINE: Camscaner 56
+
+[lop-12/bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe] SUSP: ['giùp']
+  LINE: + Kĩ năng prompt (giao tiếp với AI): Đây là kĩ năng cục kì quan trọng. Nó giùp
+
+[lop-12/bai-8-quyen-con-nguoi-trong-ki-nguyen-ai] SUSP: ['rúi']
+  LINE: có thể thực hiện các dự án thiết thực như xày dụng một bộ quy tắc úng xử trên mạng xã hội cho cả lớp hoặc thiết kế ấn phẩm truyền thông để giải thích về rúi ro.
+
+những mặt trái của AI và cách phòng tránh.
+
+[lop-12/bai-9-phat-trien-ai-co-trach-nhiem] SUSP: ['triên']
+  LINE: 1. Các nguyên tắc phát triển AI có trách nhiệm Để đảm bảo AI phục vụ con người một cách tốt đẹp và giảm thiếu rủi ro, các chuyên gia đã đề ra nhiều nguyên tắc quan trọng. Những nguyên tắc này đóng vai trò định hướng cho các nhà phát triển, công ty và Chính phủ khi xây dựng và triên khai AI.
+
+[lop-12/bai-9-phat-trien-ai-co-trach-nhiem] SUSP: ['Khôa']
+  LINE: Khôa học trực tuyên
+
+[lop-12/bai-9-phat-trien-ai-co-trach-nhiem] SUSP: ['triên']
+  LINE: Học lập liên tục là cần thiết vì công nghệ AI không ngừng phát triên, các thách thức đạo đức ngày càng phức tạp và đế xây
+
+[lop-12/bai-9-phat-trien-ai-co-trach-nhiem] SUSP: ['triến']
+  LINE: 1. Nguyên tắc nào của phát triến AI có trách nhiệm giúp đảm bảo AI không đưa ra quyết định ưu tiên một nhóm người cụ thể?
+
+[lop-12/bai-9-phat-trien-ai-co-trach-nhiem] SUSP: ['triên']
+  LINE: trong phát triên AI có trách nhiệm là một thách thức.
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['đỗ/trượt']
+  LINE: 2.  Việc dự đoán điểm số khác gì với dự đoán đỗ/trượt?
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['nghin']
+  LINE: nghin học sinh trong các năm trước. Dữ liệu này có thể bao gồm:
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['điêm']
+  LINE: Vi dụ: Già sử dữ liệu cho thấy học sinh có điểm trung bình HKI lớp 12 là 7,0 thì điêm thi trung bình đạt 6,5. Khi Minh An nhập điểm trung bình HKI là 7,0 thì ứng dụng sẽ dự đoàn điểm thi trung bình của bạn ấy là khoảng 6,5. Tuy nhiên, trong thực tế, mô hinh Học máy có thể phức tạp hơn, xem xét nhiều yếu tố khác (nhũ
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['Trediecte', 'Exam', 'scort']
+  LINE: Trediecte Exam scort
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['continuous']
+  LINE: Là bài toán dự đoán giá trị số liên tục (continuous value).
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['Tuán']
+  LINE: Phân tích điểm trung binh môn Tuán, LI, Hóa -+ Du đoán điểm thì THPT Quốc gia (Vì dụ: 8,26 là số sụ thể),
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['điêm']
+  LINE: điêm thi
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['tũ']
+  LINE: Từ lượng mưa, địa hình sông Hông Dự đoán mực nước tũ tại Hà Nội.
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['tlice']
+  LINE: Du liệu tlice
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['labeling']
+  LINE: Là bài toán gán nhãn (labeling) cho dữ liệu mới.
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['discrete', 'categories']
+  LINE: Kết quả đầu ra thuộc nhóm rời rạc (discrete categories).
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['đề/nội']
+  LINE: Kiểm tra tiêu đề/nội dung → "Spam" hoặc "Không spam".
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['Trot']
+  LINE: 100 Trot Đó
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['Ngường']
+  LINE: Ngường đò = 60
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['đữ']
+  LINE: lòng dữ liệu huấn luyện và dự đoán kém chính xác trên đữ liệu mói
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['HK//HKII']
+  LINE: Bước 1. Thu thập dữ liệu: Điểm HK//HKII, kết quả thi, thông tin cá nhân (khu
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['nhạ']
+  LINE: Gom nhạ! và lổng hợp da
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['halldation/test']
+  LINE: Phan chia train halldation/test theo d
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['lệu']
+  LINE: lệu đã chuẩn bì
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['Motnc']
+  LINE: fl Motnc sai
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['nuội']
+  LINE: Giá tr nuội
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['I2', 'leakage']
+  LINE: I2 Data leakage
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['4P', '7T0']
+  LINE: 4P 7T0 з0l
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['E3']
+  LINE: E3 Thiếu random
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['kóm']
+  LINE: G Chất lượng kóm
+
+[lop-12/bai-10-nguyen-li-co-ban-cua-hoc-may] SUSP: ['đồng/kg']
+  LINE: B. Dự đoán giá cà phê (nghìn đồng/kg) tuần tới.
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['yre']
+  LINE: AI dự đoàn (gọi là y.a) và điều thực sự xảy ra (gọi là yre).
+
+- Đầu vào: Hàm mất mát nhận vào hai giá trị:
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['Yre']
+  LINE: + Yre: Giá trị thực tế (vi dụ: Bạn Nam thực sự nặng 59 kg).
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['lón']
+  LINE: + Kết quả lớn hơn 0: Dự đoán có sai lệch, giá trị càng lón thi sai lệch càng nhiều.
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['Squared']
+  LINE: Mean Squared Error (MSE): Thường dùng khi AI cần dự đoán một số liên tục.
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['_pred']
+  LINE: + Vi dụ 2: Giả sử ta cần dự đoán điểm thi (y _pred và y lần lượt là kí hiệu điềm
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['_pred']
+  LINE: dự đoán và điểm thực) dựa trên số giờ ôn tập (hay giờ học) X theo công thức Y _pred = w * X + b với w và b là hệ số phương trình đường thẳng. Khi
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['màt']
+  LINE: error = Y_pred -y #Tinh sự sai lệch giữa dự đoán và thực tê loss = (error * 2). mean() # Tinh hàm mất màt (MSE)
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['Risk']
+  LINE: Khi chúng ta có rất nhiều dữ liệu (ví dụ: cân nặng của cả lớp), chúng ta không chỉ lính hàm mất mát cho một lần dự đoán. Thay vào đó, chúng ta tính mất mát trung binh (hay nguy cơ thực nghiệm - Empirical Risk) để đánh giá tổng thể AI của chúng ta hoạt động như thế nào trên tất cả dữ liệu.
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['dồc']
+  LINE: D) Xay dựng AI dự đoán: Sử dụng thuật toán giảm dân độ dồc đề tìm ra "đường
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['CSV_txt', 'study_data', 'csv_txt', 'study_data']
+  LINE: CSV_txt = "'"'hours, score 2,4 3,5 4,6 5,7 6,8 7,9 8,10" •.
+
+open("study_data. csv", "w") .write(csv_txt) # Tạo và ghi nội dung vào file study_data.csv
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['pyplot', 'matplotlíb']
+  LINE: import matplotlib. pyplot as plt # Nhập thư viện matplotlíb dé vẽ biểu đò
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['read_csv', 'study_dato', 'sv', 'Dataframe', 'rột', 'lours']
+  LINE: data • pd. read_csv("study_dato. (sv") # Dọc dừ liệu từ file CSV vào Dataframe X = data["hours"] values " lãy rột "lours" (số giở lọc) làm dừ liện đàu vào X (dạng mang
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['datal', 'scoro']
+  LINE: питру) y = datal"scoro") values 1 Lãy cột "score" (điếm thí) làm dữ liệu đầu ra y (dạng máng numpy)
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['s-60', 'biéu', 'sealler']
+  LINE: plt.scatter(X, y, s-60) " Vi biéu do phán lin (sealler plot) với X (trục hoành) và y (trục
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['lhor', 'diém']
+  LINE: (ung), 3.60 là kich lhor diém plt-xlabel("Số giờ học") 4 Dặt tên cho trục hoành
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['điểm_dự_đoán', 'số_giờ_học']
+  LINE: điểm_dự_đoán = w* số_giờ_học + b.
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['Squared']
+  LINE: Chạy đoạn mã sau. Đây là nơi AI "học" bằng cách điều chinh w và b từng chút một để giảm hàm mất mát (ở đây là MSE - Mean Squared Error).
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['np']
+  LINE: import numpy as np
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['det', 'gradient_descent', '1_000']
+  LINE: det gradient_descent(X, y, Ir=0.01, epochs=1_000, verbose=False):
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['history_loss', 'dêu', '1-D', '_hist']
+  LINE: '"Trá vè (w, D, history_loss). X, y dêu là 1-D numpy array."..
+
+v, b = 0.0, 0.0 = Khởi tạo ban Sau cho v và b n = len (X) loss _hist = [] = lu lại giá trị mát mát sau nôi làn học
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['diém']
+  LINE: y_pred= W * X + b $ AI dua ra dự doán diém thi
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['PSE']
+  LINE: # Tính hăn mất mát (PSE)
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['np']
+  LINE: # Tính toán hướng cần điều chinh (Gradient) để giản mát mát » grad = (2 / n) * np.dot(X, error) b_ grad= (2 / n) * error-sum()
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['b_grad']
+  LINE: b -= Ir = b_grad
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['4f']
+  LINE: print (f"epoch {epoch: >4}: loss = {loss: 4f}") return w, b, loss_hist
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['gradient_descent', '1_000', '2f', '2f']
+  LINE: w, b, loss_hist = gradient_descent(X, y, Ir=0.01, epochs=1_000, verbose=True) print (f"Đường hồi quy tối ưu: y = {w:.2f}*x + {b:.2f}")
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['9-60']
+  LINE: Python | plt. scatter (X, y, 9-60, label- "Dữ liệu thực" )
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['Dlém']
+  LINE: plt. xlabel( "Số giờ học" ) plt.ylabel( "Dlém thi" ) plt. title( "Dy đoán điền thi theo số giờ học" ) plt.legend() plt.show()
+
+[lop-12/bai-11-toi-uu-hoa-mo-hinh] SUSP: ['gradient_descent']
+  LINE: Quay lại phần b và thử thay đổi giá trị tốc độ học Ir trong hàm gradient_descent.
+
+[lop-12/bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] SUSP: ['cụ/API']
+  LINE: Công cụ/API
+
+[lop-12/bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] SUSP: ['Exported']
+  LINE: Exported
+
+[lop-12/bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] SUSP: ['Oulput']
+  LINE: Oulput
+
+[lop-12/bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] SUSP: ['nghệ/công']
+  LINE: b)  Lựa chọn công nghệ/công cụ phù hợp
+
+[lop-12/bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] SUSP: ['UX/UI']
+  LINE: c)  Thiết kế giao diện và trải nghiệm người dùng (UX/UI co bán)
+
+[lop-12/bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] SUSP: ['chatbox']
+  LINE: Cách người dùng tương tác: Bằng văn bản (chatbox), giọng nói, hay nút lệnh?
+
+[lop-12/bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] SUSP: ['Agent/LLM']
+  LINE: Ai sẽ tập trung vào việc xây dựng logic của Agent/LLM?
+
+- Ai sẽ thiết kế giao diện (nếu có) hoặc chuẩn bị các trường hợp demo? Phân
+
+[lop-12/bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach] SUSP: ['nghệ/công']
+  LINE: Lựa chọn công nghệ/công cụ AI phù hợp (LLM, RAG, Agent, nền tảng
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['rds', 'thuda', 'Netseval-Augmented', 'ngưồn']
+  LINE: Ap dung cho rds sin phám AI sir dung ki thuda RAG (Netseval-Augmented Generation) d6 truy nut thông tín từ ngưồn kiến thức riêng
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['nhd']
+  LINE: Cát nhd var bin (chunking), tạo embedding d6 chuấn bị cho qua trình truy xuất thông tin hiệu quả.
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['trình/Cấu']
+  LINE: Lập trình/Cấu hình các thành phần AI
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['hình/Lập']
+  LINE: Phương pháp Cấu hình/Lập trình
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['trình/Cấu']
+  LINE: b)  Bước 2. Lập trình/Cấu hình các thành phần AI
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['hình/lập']
+  LINE: Phương pháp cấu hình/lập trình
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['thập/tiền', 'trình/cấu', 'LangChain/LlamaIndex']
+  LINE: Xây dựng sản phẩm bao gồm thu thập/tiền xử lí dữ liệu, lập trình/cấu hình các thành phần AI (LLM, LangChain/LlamaIndex.
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Metadata']
+  LINE: Agent Name Metadata
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Uner']
+  LINE: Start Uner Input
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Nsr', 'tco']
+  LINE: 1 : Nsr: tco % Use vor
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Tiree']
+  LINE: Tiree
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Ters']
+  LINE: Long Ters
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Variatie']
+  LINE: Variatie
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['irput']
+  LINE: User irput.
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['àp']
+  LINE: àp cáu rói à dày.
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['contigeetno']
+  LINE: contigeetno
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Latal', 'Tent']
+  LINE: Latal Tent
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['khổi']
+  LINE: 🖼️ Minh họa trong sách 
+                             Hình 13.5. Hình ảnh các khổi (tham khảo) được sử dụng trong Agent
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Notepad']
+  LINE: Cách làm: Mở tệp CSV của em bằng một trình soạn thảo văn bản (Notepad, VS Code,...) và sao chép toàn bộ nội dung (bao gồm cả dòng tiêu đề cột). Dán nội dung CSV vào phần Prompt của khối Generate Text theo hướng dân sau:
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['càa', 'nhồm']
+  LINE: tin chi tiết nhất có thể về bài văn đó và tác giả của nó.
+
+Nếu câu hòi là về một tác giá, hãy liệt kê các tác phẩm các dc càa nhồm của họ có trong danh sách và thông tín về tác giả.
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['sính']
+  LINE: Nếu không tìm thấy thông tin, hãy nói "Tôi xin lỗi, tôi không tim thấy thông tin em yêu cầu trong cơ sở dữ liệu của tôi." Câu hỏi của học sính: {{User input}}
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['placeho1der']
+  LINE: (| User input)): Đây là một biến (placeho1der) tự động lấy nội dung từ khối User Input trước đó.
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['kiếm/tống']
+  LINE: (| (User input)|) và tìm kiếm/tống hợp thông tin từ dữ liệu CSV mà em đã cung cấp trong prompt, sau đó tạo ra câu trả lời.
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Publish']
+  LINE: Preview V Publish
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['33R']
+  LINE: 33R
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Published']
+  LINE: C Open Published Agent
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Tảm', '1945-1975', '19-48-1955']
+  LINE: Thuộc chương: Văn học Việt Nam sau Cách mạng tháng Tảm (1945-1975) • Sáng tác từ năm 19-48-1955, trong thời ki khăng chiến chống Pháp • Nội dung: Thể hiện sự gần bó sâu sắc giữa đất nước và nhân dán, sự chuyến minh của đất nước trong chiến tranh, niềm tự hào dân tộc • Phong cách: Thơ trữ tình chỉnh trị, hào hùng, suy tư • Giá trị: Góp phần định hình nến thơ ca cách mạng Việt Nam
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['1945-1975']
+  LINE: Thuộc chương: Văn học Việt Nam sau Cách mạng tháng Tâm (1945-1975) • Trích từ trường ca "Mặt đường khát vọng", sảng tác năm 1971, trong thời ki kháng chiến chống Mỹ • Nội dung: Định nghĩa về đất nước từ nhiều góc độ: lịch sử, văn hóa, đời sống hàng ngày, khẳng định đất nước là của nhân dân
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Glá']
+  LINE: Vi dụ: Nếu hỏi về Tên bài, hãy trả lời theo cầu trúc sau: Tên bài: (Tên bài], Tác giả: [Tên lác giả), Hoàn cảnh sáng tác: (Hoàn cảnh sáng lác], Giá trị nội dung:
+
+(Glá trị nội dung chính). Giá trị nghệ thuật: (Giá trị nghệ thuật chính].
+
+[lop-12/bai-13-xay-dung-san-pham] SUSP: ['Branching']
+  LINE: Thêm các luồng nhánh (Branching): Đối với các yêu cầu phức tạp hơn, em có
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['testing', 'debugging', 'khắi']
+  LINE: nó chạy an toàn, sản phẩm AI của chúng ta cũng cần được kiểm thử (testing) Ki càng. Mục tiêu của kiêm thử là tìm ra lôi, vấn đề và đảm bảo sản phẩm hoạ động đúng như thiết kế. Khi phát hiện lỗi, chúng ta cần gỡ lỗi (debugging) để khắi phục chúng.
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['Testing']
+  LINE: Kiểm thừ phản hồi (LLM Response Testing): Đặc biệt quan trọng với các
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['glá']
+  LINE: ứng dụng dùng LLM. Chúng ta sẽ đánh glá chât lượng câu trả lời:
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['inông']
+  LINE: Tát từng phân của hý inông độ tim ra nguồn
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['gór']
+  LINE: gór ván de
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['đượs']
+  LINE: đượs giải quyết
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['huỗng']
+  LINE: Kiếm thử là bước quan trọng để phát hiện lỗi và đảm bảo sản phẩm AI hoạt động đúng.
+
+• Cần phải kiểm tra chức năng, phản hồi của LLM và các tình huỗng đặc biệt.
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['loán']
+  LINE: Tiết kiệm chi phí: Tối ưu hoá có thể giảm tài nguyên tính loán (nếu dùng AP|
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['ToollAgent']
+  LINE: Tối va boa ToollAgent
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['Vill']
+  LINE: Vill ctu soi es rang a tl va oo
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['ctr', 'ckcy']
+  LINE: yo ctr dl d too cra ckcy arn cia tar
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['Chíên', 'coia']
+  LINE: Chíên bị da liêu sach, có chu trú và coia nhó hap 5 lố Ai có tri tin
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['coirh', 'aas', 'sirh']
+  LINE: Thy coirh aas shang ed ad sirh of
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['Thuốt', 'kố']
+  LINE: Thuốt kố qua tánh cứ 5 thông mích
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['kac']
+  LINE: Niêm nây th cont kac.
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['dese', 'lés', 'lop']
+  LINE: on dese lés ad pon lop vos rud dict ao cung
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['niều', 'mut']
+  LINE: công cụ niều mut
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['7-1']
+  LINE: hơn (ví dụ: 0.7-1.0) sẽ cho phản hồi đa dạng, sáng tạo hơn nhưng có thể
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['0-0']
+  LINE: kém chính xác. Giá trị thấp hơn (ví dụ: 0.0-0.5) sẽ cho phản hồi ổn định, ít bịa đặt nhưng có thế đơn điệu.
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['Max_tokens']
+  LINE: + Độ dài phản hồi (Max_tokens): Giới hạn độ dài của câu trả lời, giúp phản hồi
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['cụ/Agent']
+  LINE: Tối ưu hoá công cụ/Agent (nếu có):
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['max_tokens', 'cụ/Agent']
+  LINE: quan), điều chỉnh tham số mô hình (temperature, max_tokens) và tối ưu hóa hoạt động của công cụ/Agent.
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['lỗi/vấn']
+  LINE: b)  Gỡ lỗi: Xác định và khắc phục ít nhất 01 lỗi/vấn đề về độ chính xác mà nhóm
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['checklist']
+  LINE: / Tao checklist đé không bỏ sót
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['tiét']
+  LINE: 1 Ghi chép kết quả chi tiét
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['kién']
+  LINE: v Hói ý kién đồng đội khi căn
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['mỏn']
+  LINE: Già sử nhóm em đang xây dựng một trợ lí môn học cho mỏn Ngữ văn lớp 12, sử dụng dữ liệu là các bài học, tác phẩm, câu hỏi ôn tập có trong môn Ngữ văn lóp 12.
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['hòi/yêu']
+  LINE: Bước 2. Chạy sản phầm AI của nhóm với từng câu hòi/yêu cầu đã liệt kê.
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['print/log']
+  LINE: Bước 2. Dựa vào các phương pháp gỡ lối đã học (đọc thông báo lỗi, dùng print/log để theo dõi dữ liệu, kiểm tra từng thành phần), hãy phân tích nguyên nhân gây ra vấn đề:
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['tra/Tối']
+  LINE: Kiểm tra/Tối ưu dữ liệu RAG: Nếu thấy LLM đôi khi bỏ sót các
+
+[lop-12/bai-14-hoan-chinh-san-pham] SUSP: ['max_tokens']
+  LINE: A. max_tokens tang lên.
+
+B. temperature giảm xuống.
+
+[lop-12/bai-15-trinh-bay-ket-qua-du-an] SUSP: ['bàyy']
+  LINE: Dù em sử dụng PowerPoint, Google Slides, hay bất kì công cụ trình bày nào, một bài trình bàyy vê dự án nên bao gôm các phân chính sau:
+
+[lop-12/bai-15-trinh-bay-ket-qua-du-an] SUSP: ['dịụ']
+  LINE: Sản phẩm AI của nhóm em giải quyết được vấn đề gì một cách cụ thể? (vĩ dịụ:
+
+[lop-12/bang-giai-thich-thuat-ngu] SUSP: ['Programming', 'Interface']
+  LINE: API (Application Programming Interface)
+
+[lop-12/bang-giai-thich-thuat-ngu] SUSP: ['Top_k']
+  LINE: Top_k (trong cầu hình LLM)
+
+[lop-12/bang-giai-thich-thuat-ngu] SUSP: ['từ/token']
+  LINE: Số lượng từ/token có xác suất cao nhất mà mô hình LLM sẽ xem xét khi chọn từ tiếp theo để tạo ra câu trả lời.
+
+[lop-12/thong-tin-xuat-ban-bia-sau] SUSP: ['TZT40P6-SED']
+  LINE: TRÍ TUỆ NHÂN TẠO LỚP 12 Mã số: TZT40P6-SED
+
+[lop-12/thong-tin-xuat-ban-bia-sau] SUSP: ['416-2026/CXBIPH/38-168/GD']
+  LINE: Cơ sở in: 643 Tỉnh lộ 2, ấp Lào Táo Thượng, xã Thái Mỹ, TP.Hồ Chí Minh Số ĐKXB: 416-2026/CXBIPH/38-168/GD
+
+[lop-12/thong-tin-xuat-ban-bia-sau] SUSP: ['120/QĐXB-GD']
+  LINE: Số QĐXB: 120/QĐXB-GD, ngày 11 tháng 02 năm 2026
+
+[lop-12/thong-tin-xuat-ban-bia-sau] SUSP: ['978-604-0-46634-1']
+  LINE: Mã số ISBN: 978-604-0-46634-1
+
+[lop-12/thong-tin-xuat-ban-bia-sau] SUSP: ['DENDANTAO']
+  LINE: VAI DENDANTAO
+
+[lop-12/thong-tin-xuat-ban-bia-sau] SUSP: ['TaRUE', 'HANDO']
+  LINE: TaRUE HANDO
+
+[lop-12/thong-tin-xuat-ban-bia-sau] SUSP: ['978-604-0-46634-1']
+  LINE: ISBN 978-604-0-46634-1
+

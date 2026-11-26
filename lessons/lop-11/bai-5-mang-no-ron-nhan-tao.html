@@ -80,7 +80,7 @@ các kết nối liên quan đến kĩ năng đó sẽ trở nên mạnh mẽ h�
 <p class="lesson-p">Để mính họạ rõ hơn ý tưởng xây dựng ANN, bảng dưới đày mô tả các so sánh tương đối về đặc trưng giữa cấu tạo của nó với mang nơ-ron sinh học.</p>
 <p class="lesson-p">Thành phần Thành phần mạng nơ-ron mạng nơ-ron Mô tả trong mô hình nhân tạo</p>
 <p class="lesson-p">Các tế bào thầnCác nút nơ-ron Là một đơn vị tính toán cơ bản, mô phỏng chức năng của nơ-ron sinh học: tiêp nhận, xử li và</p>
-<p class="lesson-p">Tín hiệu đầu vàoGiá trị đầu vào</p>
+<p class="lesson-p">Tín hiệu đầu vào - Giá trị đầu vào</p>
 <p class="lesson-p">Các con số đại diện cho dữ liệu thỏ. Ví dụ, đó có thể là giá trị màu sắc của một điểm ảnh.
 
 Là một con số được gán cho mỗi kết nối, có ý nghĩa thể hiện tầm quan trọng của tín hiệu đầu vào tương ứng. Trọng số sẽ được điều chỉnh</p>
@@ -126,7 +126,7 @@ Là một con số duy nhất thể hiện kết quả xử lí của nơ-ron. G
 <p class="lesson-p">các mạng nơ-ron phức tạp với nhiều nút hơn, kết quả đầu ra của một nút (chẳng hạn như 0,69) sau đó sẽ được chuyển đến các nút ở lớp tiếp theo cho đến khi xác định được các giá trị đầu ra ở lớp cuối cùng.</p>
 <h4 class="subheading-h4"><span class="h4-letter">d)</span> Các cách học của mạng no-ron nhân tạo</h4>
 <p class="lesson-p">Để một mạng nơ-ron nhân tạo có thể thực hiện các nhiệm vụ phức tạp như nhận dạng hình ảnh hay dịch ngôn ngữ, nó phải trải qua một quá trình "học". Quá trình</p>
-<p class="lesson-p">đó về cơ bàn là việc điều chình các giá trị trọng số của kết nối giữa các nơ-ron và hệ số thiên kiến, sao cho mạng có thể dưa ra kết quả đầu ra chính xác nhất từ dứ liệu đầu vào. Giống như các mô hinh AI khác, các mạng nơ-ron có ba phương pháp học chính, gồm: học có giám sát, học không giám sát và học lăng cường.</p>
+<p class="lesson-p">đó về cơ bàn là việc điều chình các giá trị trọng số của kết nối giữa các nơ-ron và hệ số thiên kiến, sao cho mạng có thể dưa ra kết quả đầu ra chính xác nhất từ dứ liệu đầu vào. Giống như các mô hình AI khác, các mạng nơ-ron có ba phương pháp học chính, gồm: học có giám sát, học không giám sát và học lăng cường.</p>
 <ul class="lesson-bullet-list">
 <li>Học có giám sát (Supervised Learing) là phương pháp học phố biến nhất.</li>
 </ul>
@@ -143,7 +143,7 @@ Là một con số duy nhất thể hiện kết quả xử lí của nơ-ron. G
 <li>Học tăng cường (Reinforcement Leaming) là phương pháp học thông qua thủ</li>
 </ul>
 <p class="lesson-p">và sai, mỏ phòng cách con người và động vật học hỏi từ môi trường. Theo mơ</p>
-<p class="lesson-p">hình này, chương trinh máy tính sẽ tương tác với một "môi trường" nào đó. Sau mỗi hành động, chương trình sẽ nhận được một "phần thưởng" nếu hành động đó tốt hoặc một "hình phạt" nếu ngược lại. Mục tiêu cuối cùng của chương trinh là học được một chiến lược - là một chuỗi các hành động để tối đa hoa tổng phần thường nhận được theo thời gian. Mạng nơ-ron nhân tạo không được cho biết hành động nào là đúng hay sai, mà phải tự mình khám phá ra điều đó.</p>
+<p class="lesson-p">hình này, chương trình máy tính sẽ tương tác với một "môi trường" nào đó. Sau mỗi hành động, chương trình sẽ nhận được một "phần thưởng" nếu hành động đó tốt hoặc một "hình phạt" nếu ngược lại. Mục tiêu cuối cùng của chương trình là học được một chiến lược - là một chuỗi các hành động để tối đa hoa tổng phần thường nhận được theo thời gian. Mạng nơ-ron nhân tạo không được cho biết hành động nào là đúng hay sai, mà phải tự mình khám phá ra điều đó.</p>
 <p class="lesson-p">Ví dụ: Mạng nơ-ron có thể được huấn luyện để phân loại thư điện từ (email) có phải là "thư rác" hay không. Để làm được điều này, mạng được cung cấp một lượng lớn email đã được con người gán nhãn thủ công là thư rác hoặc không phải thư rác. Khi một email mới được đưa vào, mạng sẽ phân tích các đặc điểm của nó, như sự xuất hiện của các từ khóa nhất định (ví dụ: "miến phí".
 
 "trứng thường"), cấu trúc câu, nguồn gừi,... Ban đầu, mạng có thể phân loại sai Tuy nhiên, mỗi khi nó đưa ra dự đoán sai, hệ thống sẽ tính toán mức độ sai sót và điều chỉnh các tham số bên trong. Chẳng hạn, nếu một thư điện tử chứa từ "miễn phi" nhưng lại được phân loại là thư quan trọng, mạng sẽ tăng cường trọng số của từ "miễn phí" để với lần sau, sự xuất hiện của từ này sẽ có ảnh</p>
@@ -180,7 +180,7 @@ Là một con số duy nhất thể hiện kết quả xử lí của nơ-ron. G
 <ul class="lesson-bullet-list">
 <li>Để xuất phim ành và âm nhạc: Các dịch vụ xem phim và nghe nhạc trực tuyến</li>
 </ul>
-<p class="lesson-p">sử dụng mạng nơ-ron để học sở thích hay "gu" nghệ thuật của em dựa trên những gì em đã xem hoặc nghe trước đỏ. Hệ thống có thể không chỉ dựa trèn thể loại em thích mà còn phân tích các yếu tổ phức lạp hơn như đạo diễn, diễn viên, gial điệu và tâm trạng của bài hảt để đưa ra những gợi ý bất ngờ và thú vị</p>
+<p class="lesson-p">sử dụng mạng nơ-ron để học sở thích hay "gu" nghệ thuật của em dựa trên những gì em đã xem hoặc nghe trước đỏ. Hệ thống có thể không chỉ dựa trên thể loại em thích mà còn phân tích các yếu tổ phức lạp hơn như đạo diễn, diễn viên, gial điệu và tâm bạng của bài hảt để đưa ra những gợi ý bất ngờ và thú vị</p>
 <ul class="lesson-bullet-list">
 <li>Gọi ý sản phẩm trên trang thương mại điện từ: Khi em mua sắm trực tuyến, hộ</li>
 </ul>
