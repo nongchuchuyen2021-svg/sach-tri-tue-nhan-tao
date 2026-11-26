@@ -1,5 +1,7 @@
 # Tủ Sách Trí Tuệ Nhân Tạo THPT (Lớp 10 – 11 – 12)
 
+🌐 **Bản web trực tuyến**: https://sach-tri-tue-nhan-tao.vercel.app
+
 Website đọc sách điện tử HTML tĩnh cho bộ sách **Trí tuệ nhân tạo** cấp Trung học phổ thông (Lớp 10, Lớp 11, Lớp 12) — Nhà xuất bản Giáo dục Việt Nam.
 
 ## Tính năng chính
