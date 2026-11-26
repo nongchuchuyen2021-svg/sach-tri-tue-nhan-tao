@@ -1,0 +1,2042 @@
+
+
+=================================================================================== 0: bia-sach - Bìa sách ===
+
+[1] Mở đầu
+[2] Bìa sách
+[3] 📄 Trang sách gốc: 1 – 1
+[4] 📖 Xem bản in gốc
+[5] HÀ ĐẠNG CAO TỪNG - HOÀNG THỊ MẠI - LÊ ANH VINH (ĐỒNG CHỦ BIÊN)
+[6] VŨ TRUNG CHÍNH - NGUYÊN QUANG ĐỨC - NGUYÊN CHÍ THANH
+[7] NGUYÊN THỊ VAN ANH -ĐỒ ĐÚC LÂN - NGUYÊN MINH HÃI
+[8] TRÍ TUỆ NHÂN TẠO
+[9] LỚP 11
+[10] D
+[11] NHÀ XUẤT BẢN GIÁO DỤC VIỆT NAM
+
+=== 1: cong-van-tham-dinh-bia-lot - Công văn thẩm định & Bìa lót ===
+
+[1] Mở đầu
+[2] Công văn thẩm định & Bìa lót
+[3] 📄 Trang sách gốc: 2 – 3
+[4] 📖 Xem bản in gốc
+[5] Bộ tài liệu đã được Viện Khoa học Giáo dục Việt Nam tô chức đánh giá
+[6] theo chỉ đạo tại Công văn số 1362/BGDĐT-GDPT ngày 31/12/2025
+[7] của Bộ Giáo dục và Đào tạo và kết luận đủ điều kiện "đưa vào triển khai thí điểm trong các cơ sở giáo dục phổ thông".
+[8] HÀ ĐẶNG CAO TÙNG - HOÀNG THỊ MAI - LỄ ANH VINH (ĐÔNG CHỦ BIÊN)
+[9] VŨ TRÚNG CHÍNH - NGUYỄN QUANG ĐỨC - NGUYÊN CHÍ THANH
+[10] NGUYÊN THỊ VÂN ANH - ĐỒ ĐỨC LÁN - NGUYỄN MĨNH HẢI
+[11] TRÍ TUỆ NHÂN TẠO
+[12] LóP 1]
+[13] C
+[14] NHÀ XUẤT BẢN GIÁO DỤC VIỆT NAM
+
+=== 2: huong-dan-su-dung-sach - Hướng dẫn sử dụng sách ===
+
+[1] Mở đầu
+[2] Hướng dẫn sử dụng sách
+[3] 📄 Trang sách gốc: 4 – 4
+[4] 📖 Xem bản in gốc
+[5] HƯỚNG DẪN SỬ DỤNG SÁCH
+[6] MỤC TIÊU Giúp em biết mình sẽ đạt được gì sau bài học.
+[7] 💡
+[8] KHỞI ĐỘNG
+[9] Giúp em nhận biết ý nghĩa của bài học bằng cách kết nối những tình huống xuất hiện trong cuộc sống với nội dung bài học.
+[10] KHÂM PHÁ Cung cấp nội dung chính của bài học, giúp em bổ sung kiến thức, thực hành.
+[11] trả lời câu hỏi,.. nhằm đạt được mục tiêu của bài học.
+[12] HÔP KIẾN THỨC
+[13] Tóm tắt kiến thức mới một cách cô đọng, giúp em dễ ghi nhớ.
+[14] 🛠️
+[15] THỰC HÀNH
+[16] Gồm những nhiệm vụ học tập có hướng dẫn chi tiết.
+[17] ✏️
+[18] LUYỆN TẬP
+[19] Gồm những câu hỏi, bài tập đề củng có kiến thức, kĩ năng trong bài học.
+[20] VẬN DỤNG Gồm những câu hỏi, bài tập, thực hành nâng cao hoặc mở rộng kiến thức kĩ năng đã học để giải quyết tình huống thực tiễn.
+[21] Tài liệu giảng dạy.
+[22] Học liệu số mở rộng.
+
+=== 3: loi-noi-dau - Lời nói đầu ===
+
+[1] Mở đầu
+[2] Lời nói đầu
+[3] 📄 Trang sách gốc: 5 – 5
+[4] 📖 Xem bản in gốc
+[5] LỜI NÓI ĐẦU
+[6] Các em học sinh thân mến!
+[7] Từ điện thoại thông minh, trợ lí ảo đến phần mềm tạo nhạc và vẽ tranh,
+[8] Trí tuệ nhân tạo (Al) đang thay đổi cách con người học tập, làm việc và
+[9] sáng tạo. Nhó khả năng xử lí vượt trội và tiếp cận kho dữ liệu khổng lồ, AI
+[10] đang tiến tới giới hạn có thể suy nghĩ, học hỏi và hành động gần như con
+[11] người. Vì vậy, học để hiểu và làm chủ AI không còn là một lựa chọn, mà là
+[12] một điều tát yếu đề chúng ta có thể tồn tại và phát triễn trong thể giới do
+[13] chính mình tạo ra.
+[14] Cuốn Trí tuệ nhân tạo lớp 11 giúp các em khám phá chiều sâu của thế
+[15] giới AI, đặc biệt là khả năng tương tác thông minh của các mô hình ngôn
+[16] ngữ lớn (LLM). Các em sẽ học cách viết prompt hiệu quả, biết yêu cầu AI
+[17] suy luận từng bước, viết theo định dạng hay phong cách cụ thể. Không chỉ
+[18] sử dụng AI để hỗ trợ học tập, các em còn được làm quen với những công
+[19] nghệ hiện đại như RAG, gọi hàm, tạo ảnh và video bằng AI. Qua đó, các
+[20] em không chỉ học được cách khai thác AI một cách sáng tạo, an toàn và
+[21] có trách nhiệm mà còn biết đánh giá nội dưng, hiểu các vấn đề đạo đức.
+[22] Bộ sách được thiết kế hiện đại, sinh động, gần gũi với cuộc sống hằng ngày
+[23] của các em. Những vì dụ, hoạt động và sản phẩm trong sách không chỉ dễ
+[24] hiểu mà còn khơi gợi sự tò mò, khám phá và sáng tạo, làm cho việc học
+[25] AI trờ thành một hành trình thú vị, truyền cảm hững, giúp các em phát triển
+[26] tư duy, năng lực giải quyết vấn đề, cũng như thái độ trách nhiệm trong thể
+[27] Chúc các em học tập vui vẻ, khẩm phá hùng thú và thành công trên con
+[28] đường làm quen với trí tuệ nhân tạo!
+[29] CÁC TÁC GIẢ
+
+=== 4: muc-luc - Mục lục ===
+
+[1] Mở đầu
+[2] Mục lục
+[3] 📄 Trang sách gốc: 6 – 7
+[4] 📖 Xem bản in gốc
+[5] MỤC LỤC
+[6] Trang
+[7] NỘI DUNG
+[8] CHỦ ĐẾ 1. MÔ HÌNH NGÔN NGỮ LỚN SÁNG TẠO NỘI DUNG
+[9] Bài 1
+[10] Kì thuật viết prompt cơ bản và nâng cao
+[11] Bài 2
+[12] mô hình ngôn ngữ lớn sáng tạo nội dung
+[13] CHỦ ĐỀ 2. NGUYÊN LÍ HOẠT ĐỘNG CỦA MÔ HÌNH NGÔN NGỮ LỚN
+[14] Bài 3 Mô hình ngôn ngữ lớn và hạn chế của nó
+[15] Bài 4 Giới thiệu về RAG
+[16] Bài 5 Mạng nơ-ron nhân tạo
+[17] Bài 6 Phân loại và phân cụm dù liệu
+[18] CHỦ ĐỀ 3. ĐẠO ĐỨC VÀ TRÁCH NHIỆM KHI SỬ DỤNG AI
+[19] Bời 7 Đạo đức, pháp luật và văn hóa trong sử dụng mô hình ngôn ngữ lớn
+[20] Bài 8 Giá trị con người trong ki nguyên AI
+[21] CHỦ ĐỂ 4. MÔ HÌNH NGÔN NGỮ LỚN TRONG HỌC TẬP
+[22] Bài 9 Mô hình ngôn ngữ lớn hỏ trọ học tập
+[23] Bài 10 Mơ hình ngón ngữ lớn hỗ trợ học lập trình
+[24] Bài 11
+[25] Tạo và sửa hình ảnh bằng mô hình ngôn ngữ lớn
+[26] Bỏi 12
+[27] Tạo video bằng mô hình ngôn ngữ lớn
+[28] Bài 13 Bài lập dự án
+[29] BẢNG GIẢI THÍCH THUẬT NGỮ
+[30] CHỦ ĐẾ 1. MÔ HÌNH NGÔN NGỮ LỚN
+[31] SÁNG TẠO NỘI DUNG
+[32] Prompt
+
+=== 5: bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao - Bài 1. Kĩ thuật viết prompt cơ bản và nâng cao ===
+
+[1] Chủ đề 1. Mô hình ngôn ngữ lớn sáng tạo nội dung
+[2] Bài 1. Kĩ thuật viết prompt cơ bản và nâng cao
+[3] 📄 Trang sách gốc: 8 – 17
+[4] 📖 Xem bản in gốc
+[5] VÀ NÂNG CAO
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Sử dụng được các kiểu prompt không ví dụ, prompt có ví dụ có ngữ cảnh.
+[10] Trình bày được cách yêu cầu LLM trả lời theo định dạng và độ dài mong muốn.
+[11] Sử dụng được kĩ thuật chuỗi tư duy (Chain-of-Thought) để suy luận từng bước.
+[12] 💡
+[13] KHỞI ĐỘNG
+[14] Bình sử dụng AI để giải bài toán "Từ 0 giờ đến 12 giờ trưa, chuông của một chiếc đồng hồ quả lắc sẽ đánh bao nhiêu tiếng chuông? Biết rằng đồng hồ chỉ đánh chuông báo giờ và số tiếng chuông bằng số giờ". Ngoài đề bài, Bình đã cung cấp
+[15] thêm các thông tin như một vài ví dụ về cách giải và người dùng là học sinh lớp 11.
+[16] Bên cạnh đó, Bình cũng yêu cầu LLM suy luận theo từng bước và trình bày lời giải không quá 200 chữ.
+[17] Em hãy cho biết:
+[18] 1.  Làm thế nào để Bình thu được cách giải phù hợp với học sinh lớp 11?
+[19] 2. Làm thế nào để LLM suy luận và giải bài toán theo từng bước đồng thời trình bày theo cách mà Bình mong muốn?
+[20] 🔍
+[21] KHÁM PHÁ
+[22] 1.  Prompt cơ bản
+[23] Trong chương trình lớp 10, em đã học cách viết prompt cơ bản, gồm chỉ thị và dữ liệu đầu vào. Trong những tình huống đơn giản, prompt cơ bản có ưu điểm là đơn giản, ngắn gọn. Câu trả lời cũng thường ngắn gọn, trực tiếp, tránh lan man.
+[24] Tuy nhiên, trong tình huống phức tạp, chỉ sử dụng prompt cơ bản thường không cho kết quả như mong muốn.
+[25] Cấu trúc một prompt cơ bản có dạng:   + [Dữ liệu đầu vào]
+[26] Trong đó:
+[27] Chỉ thị: Mô tả hành động chính mà mô hình cần thực hiện.
+[28] Dữ liệu đầu vào: Dữ liệu chính mà mô hình cần xử II.
+[29] Ví dụ: Khi sử dụng prompt cơ bản cho tình huống ở phần Khởi động, chỉ thị là yêu
+[30] cầu giải bài toán và dữ liệu đầu vào là đề bài. Kết quả thu được có dạng:
+[31] Kết quả (ví dụ rút gọn):
+[32] Đầu tiên, chúng ta cần liệt kê số tiếng chuông đồng hồ đánh vào mỗi giờ từ 1 giờ đến 12 giờ.
+[33] 1 giờ: 1 tiếng
+[34] 2 giờ: 2 tiếng
+[35] 11 giờ: 11 tiếng
+[36] 12 giờ: 12 tiếng.
+[37] Để tìm tổng số tiếng chuông, chúng ta chỉ cần cộng tất cả các số này lại:
+[38] 1 + 2 + 3+ 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 = 78.
+[39] Prompt cơ bản bao gồm chỉ thị và dữ liệu đầu vào.
+[40] • Prompt cơ bản thường chỉ dùng cho những tình huống khái quát, đơn giản.
+[41] 2.  Prompt nâng cao
+[42] Trong những tình huống phức tạp, prompt cơ bản thường không cho kết quả mong muốn. Vì dụ, khi dùng prompt cơ bản, kết quả trà về không chỉa bước rõ ràng và quá dài do có nhiều bước trung gian hoặc nội dung chưa phù hợp với người đọc. Để cải thiện kết quả do LLM tạo ra, em có thể thêm vào prompt một số
+[43] thành phần được trình bày sau đây.
+[44] a)  Ví dụ minh hoạ
+[45] Một hoặc một vài ví dụ (one-shot, few-shot) có thể được đưa vào prompt để định hướng câu trả lời cho mô hình. Nếu không sử dụng ví dụ, mô hình sẽ dựa vào
+[46] hiểu biết sẵn có. Khi sử dụng ví dụ, mô hình kết hợp thêm kinh nghiệm qua ví dụ nhằm cải thiện kết quả.
+[47] Prompt không ví dự: "Hãy phân loại cảm xúc của câu sau: "Trời mưa nên em không được đi chơi. " cho kết quả có thể là Buốn. Thất vọng hoặc Không vui.
+[48] Như vậy. prompt không ví dụ cho kết quả thiếu tính xác định, mơ hồ.
+[49] Prompt có ví dụ: "Hãy phân loại cảm xúc của câu sau: "Trời mưa nên em không được đi chơi.". Ví dụ câu "Hôm nay em được 10 điểm." -> Cảm xúc Vui, câu "Hôm nay em bị ốm." -> cảm xúc Buồn."' luôn cho kết quả là Buồn.
+[50] Như vậy, prompt có ví dụ cho kết quả rõ ràng, xác định.
+[51] b)  Ngữ cảnh
+[52] Ngữ cảnh trong prompt là thông tin thêm giúp LLM hiểu rõ tình huống, đối tượng hoặc mục tiêu của câu hỏi. Việc đưa thêm ngữ cảnh giúp LLM hiểu rõ yêu cầu,
+[53] nhờ vậy trả lời chính xác hơn.
+[54] Ví dụ: Yêu cầu LLM mô tả về một vật dao động điều hoà.
+[55] Nếu không cung cấp ngữ cảnh, LLM có thể biểu diễn dưới dạng số phức:
+[56] x(t) = Re[A.e"u."].
+[57] Nếu cung cấp ngữ cảnh người đọc là học sinh lớp 11, LLM sẽ biểu diễn dưới dạng hàm số cosin:
+[58] x(t) = A.cos(ωt + φ).
+[59] c)  Định dạng và độ dài văn bản đầu ra
+[60] Khi đặt prompt cho LLM, việc mô tả rõ định dạng và độ dài rất quan trọng có tác dụng tạo khuôn cho câu trả lời. Nếu người dùng nêu rõ định dạng (đoạn văn, gạch đầu dòng,...), giới hạn bao nhiêu chữ,.... thì LLM sẽ hiểu và trả lời đúng ý hơn.
+[61] Cách này giúp câu trả lời rõ ràng, dễ đọc và sử dụng. Nhờ đó, việc giao tiếp với LLM hiệu quả hơn và kết quả đúng như mong muốn.
+[62] Cách mô tả định dạng đầu ra:
+[63] Liệt kệ: Sử dụng các cụm từ như "Hãy liệt kê...", "Đưa ra danh sách...", "Gạch
+[64] đầu dòng...". Ví dụ: "Hay liệt kê 5 lợi ích của việc đọc sách".
+[65] Bảng: Yêu cầu tạo bảng với các tiêu đề cột cụ thể. Ví dụ: "Hãy tạo một bảng
+[66] so sánh giữa xe máy điện và xe máy xăng với các cột: Tiêu chí, Xe máy điện, Xe máy xăng".
+[67] Đoạn văn: Yêu cầu tạo một đoạn văn giải thích hoặc tóm tắt. Ví dụ: "Hãy tóm
+[68] tắt nội dung chính của bài báo trong một đoạn văn".
+[69] Theo bước: Sử dụng các cụm từ như "Hãy giải thích theo từng bước ...", "Các
+[70] bước thực hiện là...".". Ví dụ: "Hãy giải thích theo từng bước quy trình đăng kí tài khoản ngân hàng trực tuyến".
+[71] Cách yêu cầu về độ dài văn bản:
+[72] Số từ/câu cụ thể: Yêu cầu số từ hoặc số câu chính xác. Ví dụ: "Hãy tóm tắt
+[73] trong khoảng 100 từ", "Đưa ra 3 câu trả lời ngắn gọn".
+[74] Số từ hoặc số câu trong một khoảng: Yêu cầu số từ hoặc số câu trong một
+[75] khoảng. Ví dụ: "Hãy giải thích từ 120 đến 150 chữ", "Trả lời trong 2 đến 3 câu".
+[76] Mức độ chi tiết: Yêu cầu tóm tắt ngắn gọn, giải thích chi tiết hoặc nêu những
+[77] điểm chính. Ví dụ: "Hãy tóm tắt ngắn gọn". "Hãy giải thích một cách chi tiết", "Chỉ nêu ra những điểm chinh".
+[78] đ) Chuỗi tư duy
+[79] Kĩ thuật chuỗi tư duy (Chain-of-Thought) là một phương pháp giúp LLM suy luận theo từng bước để giải quyết bài toán phức tạp hiệu quả và trình bày dễ hiểu
+[80] hơn.
+[81] Yêu cầu đầu vào Yêu cầu đầu vào
+[82] Bước 1 Không sử dụng chuỗi
+[83] Sử dụng chuỗi tư duy Bước 2
+[84] tu duy
+[85] Kết quả Kết quả
+[86] 🖼️ Minh họa trong sách
+[87] Hình 1.1. Kĩ thuật chuỗi tư duy
+[88] Ví dụ: Yêu cầu LLM xác định phần tử tiếp theo trong dãy số 2, 4, 8, 16.
+[89] Khi không sử dụng kĩ thuật chuỗi tư duy:
+[90] Số tiếp theo trong dãy 2, 4, 8, 16 là 32.
+[91] Khi sử dụng kĩ thuật chuỗi tư duy:
+[92] Ta xét dãy số: 2, 4, 8, 16.
+[93] Nhận thấy mỗi số sau gấp 2 lần số trước:
+[94] 2 x 2 = 4;
+[95] 4 × 2 = 8;
+[96] 8 x 2 = 16.
+[97] Theo quy luật, số tiếp theo là:
+[98] 16 x 2 = 32.
+[99] Prompt nâng cao ngoài chỉ thị và dữ liệu đầu vào còn có thêm các thành phần: ví dụ, ngữ cảnh, định dạng đầu ra và chuỗi tư duy.
+[100] Prompt nâng cao có thêm các mô tả kĩ hơn yêu cầu, dùng cho tình huống phức tạp, cần độ chính xác cao và chi tiết.
+[101] 3.  Cấu trúc tổng quát của một prompt
+[102] Cấu trúc của một prompt cơ bản có dạng:
+[103] Prompt cơ bản = [Chỉ thị] + [Dữ liệu đầu vào].
+[104] Cấu trúc của một prompt nâng cao có dạng:
+[105] Prompt nâng cao =   + [Ví dụ]* + [Ngữ cảnh]* + [Dữ liệu đầu vào]
+[106] + [Định dạng đầu ra] + [Chuỗi tư duy)*.
+[107] (*: tùy chọn)
+[108] Trong đó:
+[109] Chỉ thị: Mô tả hành động chính mà mô hình cần thực hiện.
+[110] Ví dụ: (tuỳ chọn) Một danh sách các ví dụ minh hoa (nếu dùng prompt có ví dụ).
+[111] Ngữ cảnh: (tùy chọn) Mô tả tình huống, bối cảnh sử dụng hoặc vai trò của mô hình.
+[112] Dữ liệu đầu vào (input): Dữ liệu chính mà mô hình cần xử lí.
+[113] Định dạng đầu ra: (tùy chọn) Yêu cầu cụ thể về hình thức đầu ra mong muốn (dạng danh sách, đoạn văn, bảng,...).
+[114] Chuỗi tư duy (chain of thought): (tùy chọn) Hướng dẫn mô hình lập luận từng bước để đi đến kết quả, giúp lời giải mạch lạc, nhất quán và giảm sai sót.
+[115] Sự khác biệt giữa prompt cơ bản và prompt nâng cao được tổng hợp trong bảng sau:
+[116] Prompt cơ bản
+[117] Prompt nãng cao
+[118] Chỉ thị, dữ liệu đầu vào ví dụ, ngữ cảnh, định dạng đầu ra và chuỗi tư duy.
+[119] Thanh phần Chỉ thị và dữ liệu đầu vào.
+[120] Cao với những yêu cầu đơn giản, khái quát, kém. Cao và ổn định hơn prompt với những yêu cầu phức cơ bản.
+[121] tạp, chi tiết.
+[122] Chất lượng đầu ra
+[123] Dữ liệu
+[124] Không yêu cầu dữ liệu Yêu cầu một số ít dữ liệu (ví dụ).
+[125] (ví dụ)-
+[126] Dùng cho những vấn đề yêu cầu độ chính xác
+[127] Ứng dụng
+[128] Dùng cho những vấn đề chung, đơn giản.
+[129] cao, chi tiết.
+[130] Tốc độ thực hiện
+[131] Nhanh.
+[132] Chậm.
+[133] Trong tình huống ở phần Khởi động, prompt nâng cao có thể có dạng: "Hãy giải
+[134] bài toán sau cho học sinh lớp 11: "Từ 0 giờ ... bằng số giờ", ví dụ sử dụng công thức cấp số cộng, phương pháp bắt cặp. Hãy suy luận theo từng bước. Lời giải
+[135] không quá 200 chữ.".
+[136] CẤU TRÚC CỦA MỘT PROMPT NĂNG CAO
+[137] Chỉ thị
+[138] Giải bài toán sau.
+[139] Ngữ cảnh
+[140] Cho học sinh lớp 11.
+[141] Dữ liêu đầu vào
+[142] "Từ 0 giờ đến 12 giờ trưa... và số tiếng chuông bằng số giờ".
+[143] Chuỗi tư duy
+[144] Hãy suy luận theo từng bước.
+[145] Ví dụ
+[146] Sử dụng công thức cấp số cộng, phương pháp bắt cặp.
+[147] Định dạng đầu ra
+[148] Lời giải không quá 200 chữ.
+[149] 🖼️ Minh họa trong sách
+[150] Hình 1.2. Cấu trúc của một prompt nâng cao
+[151] Prompt cơ bản = [Chỉ thị] + [Dữ liệu đầu vào].
+[152] Prompt nâng cao = [Chỉ thị] + (Ví dụ]* + [Ngữ cảnh]* + [Dữ liệu đầu vào]
+[153] + [Định dạng đầu ra] + [Chuỗi tư duy]*.
+[154] (*: tùy chọn)
+[155] 4.  Thực hành
+[156] (Hướng dẫn dưới đây sử dụng phần mềm Gemini.)
+[157] Nhiệm vụ 1: Sử dụng prompt cơ bản tính số tiền thu được khi gửi ngân hàng
+[158] Hướng dẫn
+[159] Bước 1. Khởi động trình duyệt và truy cập trang Gemini:
+[160] https://gemini.google.com/,
+[161] Bước 2. Nhập prompt "Giải bài toán sau: Giả sử một người gửi tiết kiệm với lãi suất
+[162] không đổi (danh nghĩa) 6% một năm, theo hình thức tính lãi kép hàng quý. Giả sử sau 5 năm người đó nhận được số tiền 100 triệu đồng cả vốn lẫn lãi. Tính giá trị hiện tại của số tiền 100 triệu đồng đó".
+[163] Bước 3. Chép câu trả lời từ Gemini về phần mềm soạn thảo văn bản.
+[164] Nhiệm vụ 2: Sử dụng prompt nâng cao tính số tiền thu được khi gửi
+[165] ngân hàng.
+[166] Hướng dẫn
+[167] Bước 1. Khởi động trình duyệt và truy cập trang Gemini:
+[168] https://gemini.google.com/.
+[169] Bước 2. Xác định các thành phần: ví dụ, ngữ cảnh, chuỗi tư duy và định dạng đầu ra cho prompt, chằng hạn:
+[170] Ví dụ: Sử dụng kiến thức cấp số nhân;
+[171] Ngữ cảnh: Học sinh lớp 11;
+[172] Chuỗi tư duy. Suy luận theo từng bước;
+[173] Định dạng đầu ra: Lời giải trình bày theo ba bước, không quá 150 chữ.
+[174] Bước 3. Nhập prompt "Giải bài toán sau: "Giả sử một người gửi tiết kiệm với lãi
+[175] suất không đổi (danh nghĩa) 6% một năm, theo hình thức tính lãi kép hàng quý.
+[176] Giả sử sau 5 năm người đó nhận được số tiền 100 triệu đồng cả vốn lẫn lãi. Tính giá trị hiện tại của số tiền 100 triệu đồng đó" cho học sinh lớp 11, ví dụ sử dụng kiến thức cấp số nhân. Suy luận theo từng bước. Lời giải trình bày theo ba bước, không quá 150 chữ.".
+[177] Bước 4. Chép câu trả lời từ Gemini về phần mềm soạn thảo văn bản.
+[178] Em có nhận xét gì về các kết quả nhận được từ prompt cơ bản và prompt nâng cao?
+[179] ✏️
+[180] LUYỆN TẬP
+[181] 1.  Trong các yêu câu sau, yêu cầu nào là một prompt có ví dụ?
+[182] A. Hãy tạo một cấp số cộng bắt đầu bằng số 1.
+[183] B. Hãy tạo một cấp số cộng bắt đầu bằng số 1; ví dụ 1, 4, 7, 10, 13,...
+[184] C. Nêu định nghĩa cấp số cộng.
+[185] D. Ứng dụng của cấp số cộng trong đời sống là gì?
+[186] 2.  Với yêu cầu nào thì AI trả lời với định dạng rõ ràng?
+[187] A. Giải phương trình x² + 4x + 3 = 0.
+[188] B. Giải phương trình bằng cách sử dụng công thức nghiệm x² + 4x + 3 = 0, biện luận số nghiệm của phương trình theo A:
+[189] C. Giải phương trình x² + 4x + 3 = 0, trình bày trong bốn bước:
+[190] 1) Xác định các hệ số:
+[191] 2) Tính Δ;
+[192] 3) Tìm nghiệm;
+[193] 4) Kết luận.
+[194] D. Hãy giải nhanh phương trình x² + 4x + 3 = 0 bằng phương pháp phân tích đa thức thành nhân tử.
+[195] 3. Lan muốn AI viết một đoạn thơ ngắn về Hà Nội, không quá 30 từ. Lan nên sử dụng yêu cầu nào sau đây?
+[196] A. Viết thơ về Hà Nội. Bài thơ tả cảnh Hồ Gươm, tháp Rùa và đền Ngọc Sơn.
+[197] B. Hà Nội đẹp lắm, hãy viết một bài thơ thể hiện tình cảm của em với Hà Nội.
+[198] C. Viết một đoạn thơ về Hà Nội, độ dài tối đa 30 từ.
+[199] D, Viết một bài thơ về Hà Nội theo thể thơ lục bát.
+[200] 4. Giả sử em yêu cầu LLM viết dàn ý bài nghị luận về nghệ thuật tự sự của Nam Cao trong truyện ngắn Đời thừa. Em hãy viết một prompt có ví dụ, có ngữ cảnh để LLM phản hồi đúng mục đích bài kiểm tra của học sinh lớp 11.
+[201] 🚀
+[202] VẬN DỤNG
+[203] 1. Giả sử em muốn yêu cầu LLM giải bài toán: "Tế bào E. Coli trong điều kiện nuôi cấy thích hợp cứ 20 phút lại phân đôi một lần. Hỏi sau 24 giờ, tế bào ban đầu sẽ phân chia thành bao nhiêu tế bào?".
+[204] Em hãy viết một prompt nâng cao đề LLM giải bài toán theo từng bước và có giới hạn độ dài dưới 200 từ.
+[205] 2.  Giả sử em cần LLM giải bài toán sau:
+[206] Giải phương trình: sin x + cos 2x = 0.
+[207] Em hãy viết prompt sao cho LLM giải đúng, có lời giải chi tiết và có yêu cầu trình bày từng bước với giới hạn về độ dài,
+
+=== 6: bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung - Bài 2. Mô hình ngôn ngữ lớn sáng tạo nội dung ===
+
+[1] Chủ đề 1. Mô hình ngôn ngữ lớn sáng tạo nội dung
+[2] Bài 2. Mô hình ngôn ngữ lớn sáng tạo nội dung
+[3] 📄 Trang sách gốc: 18 – 26
+[4] 📖 Xem bản in gốc
+[5] BÃI 2. MÔ HÌNH NGÔN NGỮ LỚN
+[6] SÁNG TẠO NỘI DUNG
+[7] 🎯
+[8] MỤC TIÊU
+[9] Sau bài học này, em sẽ:
+[10] Sử dụng được mô hình ngôn ngữ lớn để lập dàn ý và viết văn bản theo giọng văn và phong cách cụ thể.
+[11] Sử dụng hợp lí nội dung từ mô hình ngôn ngữ lớn, giải thích được khái niệm đạo văn và phân biệt với việc sử dụng hợp lí nội dung từ LLM.
+[12] Trình bày được cách hoạt động của gọi hàm bằng ví dụ JSON đơn giản.
+[13] 💡
+[14] KHỞI ĐỘNG
+[15] Bạn Lan cần viết một bài văn nghị luận và sử dụng ChatGPT hỗ trợ.
+[16] Lần thứ nhất, Lan yêu cầu ChatGPT "Viết dàn ý về: Ý nghĩa của phát ngôn có trách nhiệm trong giao tiếp xã hội." nhưng kết quả lan man, không cụ thể.
+[17] Lần thứ hai, Lan thêm yêu cầu rõ hơn: "Viết dàn ý về: Ý nghĩa của phát ngôn có trách nhiệm trong giao tiếp xã hội, phân tích trên ba góc nhìn khác nhau kèm theo dẫn chứng cụ thế, độ dài 500 chữ, giọng văn trang trọng, phong cách ngôn
+[18] ngữ chinh luận, phù hợp với học sinh lớp 11.". Kết quả lần này rõ ràng, đúng mong muốn.
+[19] Em hãy cho biết:
+[20] 1. Để có được kết quả như mong muốn, Lan đã thêm những yêu cầu nào cho LLM?
+[21] 2. Làm thế nào đề đánh giá được văn bản do LLM tạo ra? Khi sử dụng văn bản do LLM tạo ra em cần chú ý điều gì?
+[22] 🔍
+[23] KHÁM PHÁ
+[24] 1.  Sử dụng mô hình ngôn ngữ lớn để lập dàn ý và viết văn bản
+[25] Ở lần thứ nhất trong tình huống Khởi động. Lan chỉ yêu cầu đơn giản nên kết quả chưa như mong muốn. Khi thêm yêu cầu cụ thể về phân tích trên ba góc nhìn khác
+[26] nhau kèm dẫn chứng, độ dài, đối lượng, giọng văn, phong cách, mô hình đã tạo dàn ý và văn bản rõ ràng, phù hợp hơn.
+[27] Khi lập dàn ý, LLM tìm ra các góc nhìn khác nhau, phát triển và sắp xếp ý tưởng.
+[28] Khi viết văn bản, LLM có thể viết theo giọng văn và phong cách cụ thể. Đế có kết quả như mong muốn, người dùng cần mô tả rõ giọng văn, phong cách, mục
+[29] Mô hình ngôn ngữ lớn có thể hỗ trợ người dùng trong lập dàn ý và viết văn bản.
+[30] đích và đặc điểm người đọc.
+[31] Nhiệm vụ: Viết dàn ý về chủ đề "Ý nghĩa của phát ngôn có (rách nhiệm trong giao tiếp xã hội"
+[32] Góc nhìn cá nhân
+[33] Góc nhìn xã hội
+[34] Góc nhìn pháp luật
+[35] Phân tích
+[36] Phân tích
+[37] Phân tích
+[38] Dẫn chứng
+[39] Dẫn chứng
+[40] Dẫn chứng
+[41] 🖼️ Minh họa trong sách
+[42] Hình 2.1. Các góc nhìn khác nhau và phát triển các luận điểm
+[43] Có ba loại mô hình ngôn ngữ lớn được sử dụng phổ biến đề lập dàn ý và viết văn bản là:
+[44] Mô hình cơ bản chỉ tạo văn bản thông thường dựa trên dữ liệu huấn luyện có
+[45] nội dung đa dạng.
+[46] Mô hình tinh chỉnh được huấn luyện thêm với dữ liệu có nội dung cụ thể (các
+[47] bài văn nghị luận, các đoạn tóm tắt, các bản dịch,...) để phục vụ mục tiêu cụ thể như viết luận, tóm tắt, dịch thuật,...
+[48] Mô hình hội thoại được huấn luyện đề hiểu ngữ cảnh và phần hồi giống cách
+[49] con người trò chuyện, nên dễ điều chỉnh câu trả lời theo yêu cầu.
+[50] Các loại mô hình ngôn ngữ lớn
+[51] Yêu cầu viết văn
+[52] Yêu cầu viết văn
+[53] bài nghị luận
+[54] Yêu cầu viết văn
+[55] bản nghị luận
+[56] bản nghị luận
+[57] Mô hình cơ bản Mô hình được
+[58] Dữ liêu về các văn bản nghị luận
+[59] Mô hình hội thoại
+[60] Khả năng
+[61] tinh chỉnh
+[62] giao tiếp
+[63] Kết quả Kết quả Kết quả
+[64] 🖼️ Minh họa trong sách
+[65] Hình 2.2. Các loại mô hình ngôn ngữ lớn
+[66] Mô hình ngôn ngữ lớn hỗ trợ lập dàn ý, viết văn bản theo góc nhin, ý tưởng và phong cách mong muốn. Người
+[67] dùng cần nêu rõ giọng văn, mục đích và đối tượng để có kết quả tốt.
+[68] 2.  Đánh giá và chinh sửa nội dung do LLM tạo ra
+[69] Trong phần Khởi động, văn bản do LLM tạo có thể hợp lí nhưng chưa chắc đúng sự thật, mạch lạc hay phù hợp với ngữ cảnh. Nếu sử dụng nguyên văn mà không chỉnh sửa hay ghi nguồn, có nguy cơ bị coi là đạo văn. Do đó, không thể dùng ngay mà cần kiểm tra kĩ nội dung trước khi sử dụng.
+[70] Việc đánh giá chất lượng văn bản do LLM tạo ra là cần thiết để đảm bảo nội dung chính xác, rõ ràng và đáng tin cậy. Điều này giúp người học chủ động kiểm soát thông tin, tránh phụ thuộc hoàn toàn vào công cụ, giữ gìn tính trung thực trong học tập và sáng tạo. Khi đánh giá chất lượng văn bản do LLM tạo ra, có thể sử dụng
+[71] các tiêu chí sau:
+[72] Chính xác: Thông tin, dữ kiện và số liệu trong văn bản phải đúng với thực tế
+[73] hoặc nguồn đáng tin cậy.
+[74] Mạch lạc: Các ý tưởng được trình bày rõ ràng, có trình tự hợp lí, dễ hiểu và dễ
+[75] Liên quan: Nội dung cần bám sát chủ đề, tránh lan man hoặc đưa thông tin
+[76] không cần thiết.
+[77] Khách quan: Văn bản không bị chi phối bởi ý kiến cá nhân làm sai lệch nội dung
+[78] hoặc gây thiên lệch.
+[79] Nguyên bản: Nội dung phải do người viết tạo ra, không sao chép hoặc đạo văn
+[80] từ nguồn khác.
+[81] Văn phong: Cách dùng từ, giọng điệu và phong cách thể hiện phù hợp với
+[82] mục đích và đối tượng đọc.
+[83] Để tôn trọng quyền tác giả và giữ đúng chuẩn mực đạo đức, em cũng cần chú ý vấn đề đạo văn khi sử dụng văn bản do AI tạo ra. Đạo văn là việc sao chép nội dung hoặc ý tưởng của người khác mà không ghi rõ nguồn, khiến người đọc
+[84] hiểu nhầm là do mình tạo ra. Điều này có thể xảy ra dù em chép nguyên văn hay chỉ diễn đạt lại. Hành vi này thiếu trung thực và có thể gây mất uy tín hoặc bị xử lí
+[85] Ví dụ: Một học sinh chép toàn bộ đoạn văn từ mạng vào bài viết của mình mà không ghi nguồn, hoặc chỉ thay đổi vài từ rồi nộp như bài làm cá nhân.
+[86] Khi dừng nội dung do mô hình ngôn ngữ lớn tạo ra, cần biết kiểm tra, chỉnh sửa và ghi rõ nguồn nếu sử dụng. Điều đó giúp tránh đạo văn và thể hiện sự minh bạch, trách nhiệm trong học tập. Sử dụng LLM đúng cách là biết học hỏi chứ không ý lại.
+[87] Đạo văn là sao chép nội dung, ý tưởng mà không ghi nguồn, khiến người đọc hiểu nhầm là do mình sáng tạo
+[88] Sử dụng hợp lí nội dung từ LLM là biết đánh giá, chỉnh sửa và trích dẫn rõ ràng khi tham khảo nội dung do mô hình tạo ra
+[89] 3.  Gọi hàm và định dạng JSON
+[90] Gọi hàm (function calling) là một tính năng cho phép mô hình ngôn ngữ lớn kết nối và tương tác với các hàm bên ngoài. Nhờ đó, thay vì chỉ dựa vào kiến thức đã
+[91] được huấn luyện sẵn, mô hình có thể "gọi" các hàm chuyên biệt để truy xuất dữ liệu, thực hiện tính toán hoặc xử lí một nhiệm vụ cụ thể. Việc gọi hàm giúp mô hình đưa ra kết quả nhanh chóng và chính xác hơn.
+[92] Để lưu nội dung đoạn văn và các thông tin liên quan, Lan có thể sử dụng định dạng JSON. JSON (JavaScript Object Notation) là một định dạng văn bản dùng để lưu trữ và trao đổi dữ liệu dưới dạng các cặp (khoa : giá trị). Dữ liệu ở dạng JSON có
+[93] cấu trúc rõ ràng, dễ đọc đối với con người và dễ xử lí đối với máy tính. Nhờ tính đơn giản và linh hoạt, JSON thường được sử dụng để truyền dữ liệu giữa các hệ thống hoặc ứng dụng khác nhau một cách hiệu quả.
+[94] Ví dụ:
+[95] "ten": "Lan", "tuoi": 17, "laHocSinh": true
+[96] Trong đó:
+[97] Khoa
+[98] ten "Lan"
+[99] tuoi
+[100] laHocSinh
+[101] Giá trị (ứng với từng khoa)
+[102] true
+[103] Mô hình ngôn ngữ lớn có thể gọi hàm bằng cách nhận yêu cầu từ người dùng và
+[104] gửi thông tin phù hợp đến một hàm bên ngoài để xử lí, sau đó trả về kết quả. Cách
+[105] gọi hàm này tương tự như trong Python, khi ta dùng cú pháp ten _ham (tham_so) để thực hiện một chức năng cụ thể. Tuy nhiên, thay vì viết mã trực tiếp, LLM sử
+[106] dụng ngôn ngữ tự nhiên để mô tả yêu cầu và hệ thống sẽ tự động quyết định hàm nào cần gọi.
+[107] Dưới đây là một ví dụ về mã JSON gọi hàm sửa văn bản.
+[108] Ví dụ:
+[109] "function_call": { "name": "edit_content", "arguments" : {
+[110] "text": "Đoạn văn gốc cần chỉnh sửa." "criteria": ["chính xác", "mạch lạc", "khách quan", "nguyên bản", "văn phong" ]
+[111] "liên quan",
+[112] Khi gặp mã JSON này, ChatGPT gọi hàm edit_content với tham số text chứa đoạn văn gốc và criteria là danh sách sáu tiêu chí. Mô hình sẽ tự động đưa văn bản vào hàm, kiểm tra từng tiêu chí và trả về kết quả đã chỉnh sửa.
+[113] Cách mô hình gọi hàm
+[114] Yêu cầu dạng văn bản Gọi hàm bằng định dạng JSON
+[115] Mô hình ngôn ngữ
+[116] Hàm (thực hiện
+[117] Người
+[118] dùng
+[119] lớn
+[120] các yêu
+[121] cầu)
+[122] Kết quả dạng văn bản Kết quả ở định dạng JSON
+[123] 🖼️ Minh họa trong sách
+[124] Hình 2.3. Quy trình mô hình ngôn ngữ lớn sử dụng hàm đề xử lí yêu cầu
+[125] Gọi hàm là việc sử dụng một hàm đã có sẵn (nằm bên ngoài mô hình ngôn ngữ lớn) để lấy dữ liệu, thực hiện tính toán hoặc làm một công việc cụ thể. Khi gọi hàm, mô hình truyền các đối
+[126] số vào hàm và nhận lại kết quả.
+[127] Định dạng JSON là định dạng văn bản dùng để lưu trữ và trao đổi dữ liệu, trong đó thông tin được tổ chức theo cặp (khoá : giá trị), giúp việc truyền dữ liệu nhanh và dễ dàng giữa
+[128] các hệ thống.
+[129] 4.  Thực hành
+[130] Nhiệm vụ 1: Sử dụng LLM để lập dàn ý, phát triển ý tưởng và tìm các góc
+[131] nhìn khác nhau.
+[132] Hướng dẫn (Hướng dẫn dưới đây sử dụng công cụ ChatGPT.)
+[133] Bước 1. Khởi động trình duyệt và truy cập ChatGPT: https://chatgpt.com/:
+[134] Bước 2. Nhập prompt "Viết dàn ý về: Ý nghĩa của phát ngôn có trách nhiệm trong giao tiếp xã hội, phân tích trên ba góc nhìn khác nhau kèm theo dẫn chứng cụ thể
+[135] Độ dài dàn ý khoảng 500 chữ, giọng văn trang trọng, phong cách chính luận, phù hợp với học sinh lớp 11.
+[136] Bước 3. Sao chép câu trả lời từ ChatGPT sang phần mềm soạn thảo văn bản.
+[137] Nhiệm vụ 2: Đánh giá và chỉnh sửa nội dung do mô hình ngôn ngữ lớn
+[138] tạo ra.
+[139] Hướng dẫn
+[140] Bước 1. Khởi động trình duyệt và truy cập vào trang web của công cụ ChatGPT:
+[141] https://chatgpt.com/.
+[142] Bước 2. Nhập prompt "Đánh giá đoạn văn sau theo sáu tiêu chí: chính xác, mạch lạc, liên quan, khách quan, nguyên bản, văn phong:
+[143] Học ngoại ngữ giúp con người thông minh hơn và dễ thành công trong cuộc sống.
+[144] Người biết nhiều thứ tiếng có thể làm việc ở bất kì quốc gia nào. Ví dụ, nếu học tiếng Pháp, bạn có thể dễ xin học bổng ở Mỹ. Ngoài ra, học ngoại ngữ giúp giảm căng thẳng và làm da đẹp hơn. Nhiều người cho rằng chỉ cần biết tiếng Anh là đủ, còn các ngôn ngữ khác không cần thiết. Tuy nhiên, học ngoại ngữ cũng tốn thời gian và công sức, nên có thể không phù hợp với học sinh trung bình. Dù sao, học ngoại ngữ vẫn là cách để mở rộng hiểu biết và kết nối với thế giới".
+[145] Bước 3. Từ kết quả Bước 2, nhập tiếp prompt: "Chỉnh sửa đoạn văn trên theo sáu tiêu chỉ: chính xác, mạch lạc, liên quan, khách quan, nguyên bản, văn phong".
+[146] Bước 4. Kiểm tra lại kết quả đã chỉnh sửa.
+[147] ✏️
+[148] LUYỆN TẬP
+[149] 1. Phương án nào sau đây là cách mô hình ngôn ngữ lớn giúp người học phát triển ý tưởng bài viết?
+[150] A. Viết bài văn hoàn chỉnh đúng theo đề bài.
+[151] B. Đưa ra các luận điểm và hướng triển khai cụ thể.
+[152] C. Phân tích chi tiết từng từ ngữ trong đề.
+[153] D. Cung cấp các tải liệu tham khảo cho bài viết.
+[154] 2. Nếu muốn tương tác nhiều lượt, điều chỉnh yêu cầu và nhận phản hồi linh hoạt thì em chọn loại mô hình nào sau đây?
+[155] A. Mô hình cơ bản.
+[156] B. Mô hình được tinh chỉnh.
+[157] C. Mô hình hôi thoai.
+[158] D. Cả ba mô hình trên.
+[159] 3. Phương án nào sau đây là thích hợp để điền vào chỗ chấm trong câu "Tiêu chí "mạch lạc" đánh giá..."?
+[160] A, lượng thông tin trong bài viết.
+[161] B. tính hài hước của nội dung.
+[162] C. mức độ rõ ràng, logic trong trình bày.
+[163] D. việc sử dụng từ ngữ chuyên môn.
+[164] 4.  Hành vi nào sau đây được xem là đạo văn?
+[165] A. Tóm tắt nội dung của một bài viết.
+[166] B. Sao chép nội dung mà không ghi nguồn và xem đó là của mình.
+[167] C. Ghi chú đầy đủ nguồn tham khảo trong bài viết.
+[168] D. Dịch lại nội dung sang ngôn ngữ khác.
+[169] 5.  Khi gọi một hàm trong mô hình ngôn ngữ trí tuệ nhân tạo, điều gì sẽ xảy ra?
+[170] A. Mô hình sẽ tìm kiếm thông tin từ Internet để đưa ra câu trả lời.
+[171] B. Mô hình nhận các đối số (dữ liệu đầu vào) của hàm và trà về kết quả.
+[172] C. Mô hình suy luận từng bước để giải quyết bài toán.
+[173] D. Mô hình đưa thêm ví dụ minh hoa để làm rõ câu trả lời.
+[174] VẬN DỤNG
+[175] 1. Sử dụng mô hình ngôn ngữ lớn để lập dàn ý và viết văn bản cho bài văn nghị luận "Phân tích nghệ thuật xây dựng tình huống truyện trong tác phẩm Vợ Nhặt của Kim Lân".
+[176] 2. Để tránh bị lỗi đạo văn, em cần làm gì với kết quả thu được từ mô hình ngôn ngữ lớn trong Vận dụng 1?
+[177] 3.  ChatGPT là loại mô hình ngôn ngữ lớn nào? Tại sao?
+[178] CHỦ ĐỀ 2. NGUYÊN LÍ HOẠT ĐỘNG
+[179] CỦA MÔ HÌNH NGÔN NGỮ LỚN BÀI 3. MÔ HÌNH NGÔN NGỮ LỚN
+[180] Truy xuất
+[181] Tăng cường
+[182] Sinh câu trả lời
+
+=== 7: bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no - Bài 3. Mô hình ngôn ngữ lớn và hạn chế của nó ===
+
+[1] Chủ đề 2. Nguyên lí hoạt động của mô hình ngôn ngữ lớn
+[2] Bài 3. Mô hình ngôn ngữ lớn và hạn chế của nó
+[3] 📄 Trang sách gốc: 27 – 32
+[4] 📖 Xem bản in gốc
+[5] VÀ HẠN CHẾ CỦA NÓ
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Trình bày được kiến trúc Transformer (mô hình học sâu) và quá trình huấn luyện mô hình ngôn ngữ lớn (LLM) ở mức khái niệm.
+[10] Hiểu được mối liên hệ giữa học máy, xử lí ngôn ngữ và LLM.
+[11] Trình bày được hạn chế của LLM kèm ví dụ minh hoạ
+[12] 💡
+[13] KHỞI ĐỘNG
+[14] An rất thích vẽ tranh minh hoạ truyện cổ tích. An nhập prompt "Một cô bé đội mũ đỏ đi trong rừng, phong cách hoạt hình, ánh sáng dịu, tông màu ấm" nhờ AI vẽ giúp bức tranh.
+[15] Chỉ sau vài giây. AI đã tạo ra một bức tranh rất đẹp. Tuy nhiên, khi đưa lên mạng xã hội. An nhận được bình luận rằng bức tranh giống với một tác phẩm của một hoạ sĩ. Ngoài ra, khi tìm hiểu thêm, An thấy mô hình mà công cụ này dùng để tạo
+[16] tranh rất phức tạp. An tự hỏi: "AI học vẽ tranh và thực hiện các yêu cầu khác như thế nào? AI có phải lúc nào cũng đáng tin không?".
+[17] Em hãy cho biết:
+[18] 1. Để tạo ra được hình ảnh từ mô tả, Ai cần trải qua quá trình học như thế nào?
+[19] Quá trình đó liên quan gì đến học máy và xử lí ngôn ngữ?
+[20] 2. Vì sao An lại gặp vấn đề về bản quyền khi dùng AI tạo ảnh? Việc này gợi ý điều gì về đạo đức và giới hạn của mô hình AI hiện nay?
+[21] 25 24
+[22] KHÁM PHẢ
+[23] 1.  Kiến trức Transformer và huấn luyện mô hình ngôn ngữ lớn
+[24] a)  Kiến trúc Transformer
+[25] Để có thể hiểu và thực hiện được yêu cầu của người dùng, ví dụ vẽ tranh như trong phần Khởi động, các mô hình ngôn ngữ lớn sử dụng kiến trúc Transformer.
+[26] Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. Khác với các
+[27] mô hình khác, kiến trúc Transformer dựa trên cơ chế tự chú ý (Self-Attention) cho phép mô hình cân nhắc tầm quan trọng của các từ khác nhau trong câu khi xử lí một từ cụ thể. Cơ chế tự chú ý giúp mô hình nắm bắt ngữ cảnh và liên hệ giữa
+[28] Kiến trúc Transformer dựa trên 6 bước chính:
+[29] Bước 1. Chia yêu cầu đầu vào thành các từ (token); Yêu câu đầu vào sẽ được chia nhỏ thành các từ.
+[30] Bước 2. Mã hoá dữ liệu đầu vào (embedding): Chuyển các từ thành dạng mà máy tính có thể hiểu và xử lí được.
+[31] Bước 3. Tự chú ý (self-attention): Mô hình cân nhắc tầm quan trọng của các từ trong yêu cầu. Qua đó giúp mô hình hiểu rõ yêu cầu hơn nhờ hiểu ngữ cảnh và liên hệ giữa các từ
+[32] Bước 4. Xử lí yêu cầu: Xử lí các yêu cầu của người dùng. Nhờ hiểu yêu cầu, kiến trúc Transformer chỉ dùng mô hình mạng nơ-ron truyền thẳng (dạng đơn giản nhất) vẫn có thể xử lí được các yêu cầu. Việc này giúp tiết kiệm nhiều thời gian huấn luyện, cho phép huấn luyện với số lượng dữ liệu rất lớn.
+[33] Bước 5. Giải mã dữ liệu (decoding): Kết quả được giải mã từ ngôn ngữ máy tính sang ngôn ngữ tự nhiên.
+[34] Bước 6. Tạo kết quả dạng ngôn ngữ tự nhiên: Kết quả được tổng hợp và trả về dạng ngôn ngữ tự nhiên hoàn chỉnh.
+[35] Khi người dùng đưa vào prompt "Hãy kể một câu chuyện cổ tích Việt Nam."
+[36] Dựa vào cấu trúc Transformer, mô hình sẽ xử lí yêu cầu trên theo các bước sau:
+[37] Bước 1. Chia prompt thành các từ: ("Hãy", "kể", "một", "câu", "chuyện", "cổ", "tích", "Việt", "Nam", "."]
+[38] Bước 2. Mã hoa các từ bằng các vector đại số mang thông tin về ngữ nghĩa, mối quan hệ giữa các từ. Phương pháp và kết quả mã hóa phụ thuộc vào từng mô
+[39] Bước 3. Cơ chế tự chú ý giúp mô hình xác định từ nào trong câu quan trọng hơn trong từng ngữ cảnh. Trong prompt trên, từ "kế" sẽ được chú ý vi nó là hành động chính; mô hình học cách hiểu rằng "câu chuyện cổ tích" là một cụm có nghĩa và "Việt Nam" là tính từ mô tả "câu chuyện".
+[40] Bước 4. Sau khi hiểu ngữ cảnh và yêu cầu, mô hình sẽ tìm kiếm một truyện cổ tích Việt Nam đã được huấn luyện và viết lại kết quả ở dạng mã hoa.
+[41] Bước 5. Kết quả viết lại được giải mã về ngôn ngữ tự nhiên.
+[42] Bước 6. Mô hình trả về câu trả lời hoàn chỉnh: "Sau đây là một câu chuyện cổ tích Việt Nam: "Ngày xửa ngày xưa...". Nếu có yêu cầu gì thêm, hãy vui lòng cho tôi biết"
+[43] Kiến trúc Transformer
+[44] Chia yêu cầu đầu vào thành các từ
+[45] Mã hóa dữ liệu
+[46] đầu vào Tự chú ý
+[47] Tạo kết quả dạng ngôn ngữ
+[48] Giải mã dữ liệu Xử lí yêu cầu
+[49] tự nhiên
+[50] 🖼️ Minh họa trong sách
+[51] Hình 3.1. Kiến trúc Transformer
+[52] Kiến trúc Transformer là kiến trúc nền tảng cho hầu hết các LLM hiện nay Kiến trúc Transformer sử dụng cơ chế tự chú ý (Self-Attention) để mô hình
+[53] hiểu ngữ cảnh và yêu cầu từ người dùng
+[54] b)  Huấn luyện mô hình ngôn ngữ lớn
+[55] Huấn luyện LLM là quá trình giúp LLM học cách hiểu và đáp ứng các yêu cầu bằng ngôn ngữ tự nhiên thông qua việc xử lí một lượng dữ liệu khổng lồ. Quá trình này thường được tiến hành qua ba giai đoạn chính:
+[56] Giai đoạn 1. Tiền huấn luyện (Pre-training): Huấn luyện mô hình trên một lượng dữ liệu văn bản khổng lồ từ Internet, sách vở,... Mục tiêu là học các mẫu ngôn
+[57] ngữ, kiến thức tổng quát (thường là dự đoán từ tiếp theo - Phương pháp huấn luyện là học tự giám sát (self-supervised learning)). Giai đoạn này tốn chi phí rất lớn cho dữ liệu và quá trình huấn luyện.
+[58] Giai đoạn 2. Tinh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tóm tắt) hoặc để tuân theo hướng dẫn (Instruction Fine-tuning).
+[59] Giai đoạn 3. Học củng cố từ phản hồi người dùng (Reinforcement Learning from Human Feedback - RLHF): Sử dụng phản hồi của con người (đánh giá câu trả lời nào tốt hơn) để huấn luyện mô hình tạo ra các câu trả lời hữu ích, trung thực và an toàn hơn. Giai đoạn 3 thường cho Chat Model.
+[60] Việc huấn luyện một mô hình ngôn ngữ lớn dùng rất nhiều dữ liệu, lên đến hàng trăm tỉ từ. Máy tính dùng để huấn luyện cũng phải rất mạnh, gồm hàng nghìn chip xử lí hiện đại. Điều đó cho thấy việc tạo ra LLM cần rất nhiều tài nguyên và
+[61] Quá trình huấn luyện LLM
+[62] Học củng cố từ phản hồi
+[63] Tiền huấn luyện Tinh chỉnh
+[64] người dùng
+[65] 🖼️ Minh họa trong sách
+[66] Hình 3,2. Quá trình huấn luyện LLM
+[67] Huấn luyện mô hình ngôn ngữ lớn trải qua ba giai đoạn:
+[68] tiền huấn luyện, tinh chỉnh và học củng cố nhờ phản hồi từ người dùng
+[69] 2.  Học máy, xử lí ngôn ngữ và mô hình ngôn ngữ lớn
+[70] Học máy, xử lí ngôn ngữ và mô hình ngôn ngữ lớn là những khái niệm cơ bản trong lĩnh vực trí tuệ nhân tạo. Cụ thể:
+[71] Học máy (Machine learning - ML): Là lĩnh vực cho phép máy tính tự học từ dữ
+[72] liêu để đưa ra dự đoán hoặc quyết định, mà không cần lập trình từng bước.
+[73] - Xử lí ngôn ngữ tự nhiên (Natural Language Processing - NLP): Là một ứng
+[74] dụng của học máy vào phân tích, hiểu và tạo ra ngôn ngữ con người (văn bản, lời nói).
+[75] Mô hình ngôn ngữ lớn (Large Language Model - LLM): Là kết quả cao cấp nhất
+[76] của NLP hiện nay. LLM sử dụng các mô hình học máy phức tạp, học sâu (Deep learning) và kiến trúc Transformer, giúp máy hiểu và tạo ra ngôn ngữ.
+[77] Em có thể hiểu học máy là kĩ thuật chung, NLP là ứng dụng học máy cho ngôn ngữ và LLM là sản phẩm tiên tiến của NLP. giúp máy hiểu và sử dụng ngôn ngữ
+[78] giống con người.
+[79] LLM NLP Học máy
+[80] 🖼️ Minh họa trong sách
+[81] Hình 3.3. Mối liên hệ giữa học máy, NLP và LLM
+[82] Học máy là kĩ thuật chung giúp máy tự học từ dữ liệu; NLP là ứng dụng học máy để máy hiểu và xử lí ngôn ngữ; còn LLM là kĩ thuật NLP tiên tiến, giúp máy hiểu và tạo ra văn bản giống con người.
+[83] 3.  Hạn chế của mô hình ngôn ngữ lớn
+[84] Như đã học ở các bài học trước, em có thể sử dụng LLM trong nhiều lĩnh vực như tìm kiếm thông tin, sáng tạo nội dung, hỗ trợ trong học tập. Tuy nhiên, mô hình ngôn ngữ lớn vẫn có những hạn chế chưa thể khắc phục hoàn toàn.
+[85] Thiếu khách quan: Sự thiếu khách quan trong câu trả lời của LLM thường khó
+[86] nhận biết.
+[87] Thiếu khả năng suy luận mối quan hệ thực sự giữa nguyên nhân và kết quả:
+[88] LLM chủ yếu dự đoán dựa trên thống kê, không phải dựa trên hiểu biết thật về nguyên nhân và hệ quả.
+[89] Dễ bị ảnh hưởng bởi prompt: Kết quả từ LLM thường bị ảnh hưởng nhiều bởi
+[90] prompt "mớm" (leading prompts). Ngoài ra, LLM dễ bị tấn công bởi các kĩ thuật prompt đối nghịch (làm rối hoặc chèn lệnh vào prompt để LLM vi phạm quy tắc an toàn).
+[91] Chưa thực sự hiểu thế giới: Vì dựa vào mô hình thống kê, LLM khó có thể thực
+[92] sự hiểu về thế giới loài người.
+[93] Ví dụ, khi em hỏi: "Tại sao trái cây là tốt?" thì LLM sẽ chỉ liệt kê các lợi ích. Nhưng nếu hỏi: "Tại sao trái cây có hại?" thì LLM lại liệt kê các nhược điểm. Đây là dạng prompt dẫn dắt, khiến mô hình nói theo hướng em hỏi, không phải nó tự suy nghĩ.
+[94] 2°
+[95] LLM vẫn còn han chế về tính khách quan, khả năng
+[96] suy luận logic và dễ bị chi phối bởi cách đặt prompt.
+[97] ✏️
+[98] LUYỆN TẬP
+[99] 1.  Phương án nào sau đây là ưu điểm của kiến trúc Transformer?
+[100] A. Chỉ cần một lượng nhỏ dữ liệu huấn luyện vẫn có được kết quả tốt.
+[101] B. Sử dụng các dữ liệu bên ngoài như Internet và cơ sở dữ liệu nội bộ để tạo
+[102] C. Sử dụng các mạng nơ-ron phức tạp để thực hiện yêu cầu của người dùng
+[103] D. Dùng trên cơ chế tự chú ý để hiểu được ngữ cảnh và yêu cầu người dùng.
+[104] 2.  Phương án nào sau đây thể hiện mối liên hệ giữa học máy (ML), xử lí ngôn ngữ
+[105] tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM)?
+[106] A. ML là một nhánh của NLP, NLP là một nhánh của LLM.
+[107] B. NLP và LLM là hai nhánh riêng biệt trong ML.
+[108] C. LLM là một nhành của NLP, NLP. là một nhánh của ML.
+[109] D. Đây là ba kĩ thuật độc lập, không liên quan đến nhau.
+[110] 3. Phương án nào sau đầy là một trong những hạn chế của LLM?
+[111] A. LLM thiếu khả năng suy luận.
+[112] B. Phải biết lập trình mới sử dụng được LLM.
+[113] C. LLM không thể sử dụng dữ liệu bên ngoài.
+[114] D. LLM không thể tạo ảnh và video.
+[115] 🚀
+[116] VẬN DỤNG
+[117] Lan cần tạo ảnh tuyên truyền bào vệ môi trường. Lan chọn một hình ảnh từ Internet và dùng AI để chỉnh sửa lại cho phù hợp. Theo em, trong trường hợp này Lan có thể vi phạm lỗi gì khi sử dụng AI? Để không bị vi phạm, Lan nên làm gì?
+
+=== 8: bai-4-gioi-thieu-ve-rag - Bài 4. Giới thiệu về RAG ===
+
+[1] Chủ đề 2. Nguyên lí hoạt động của mô hình ngôn ngữ lớn
+[2] Bài 4. Giới thiệu về RAG
+[3] 📄 Trang sách gốc: 33 – 40
+[4] 📖 Xem bản in gốc
+[5] BÀI 4. GIỚI THIỆU VỀ RAG
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Trình bày được RAG (Retrieval-Augmented Generation) là gì và lí do cần bổ sung RAG vào mô hình ngôn ngữ lớn (LLM).
+[10] Trình bày được ba bước hoạt động của RAG: truy xuất, tăng cường, sinh câu trả lời.
+[11] Phân biệt được LLM thường và LLM dùng RAG qua ví dụ đơn giản.
+[12] 💡
+[13] KHỞI ĐỘNG
+[14] Lan cần viết báo cáo về kinh tế và xã hội Nhật Bản năm 2025. Khi dùng một mô hình ngôn ngữ lớn (LLM), Lan nhận được bài viết trôi chảy nhưng nhiều thông tin sai hoặc cũ (từ năm 2021). Sau đó, Lan chọn chế độ Search the web: mô hình
+[15] truy xuất nguồn mới, bổ sung vào ngữ cảnh và tạo báo cáo kèm liên kết đáng tin cậy.
+[16] Em hãy cho biết:
+[17] 1.  Vì sao LLM ban đầu trả lời sai hoặc lỗi thời?
+[18] 2. Khi dùng Search the web, mô hình đã thực hiện những bước nào để cho kết quả chính xác và đáng tin hơn? (Gợi ý: truy xuất - tăng cường - sinh câu
+[19] 3. So sánh câu trả lời của LLM thường và LLM có truy xuất khác nhau thế nào về tính cập nhật, độ tin cậy và nguồn tham khảo?
+[20] 🔍
+[21] KHÁM PHÁ
+[22] 1.  Giới thiệu về RAG
+[23] Trong tình huống ở phần Khởi động, khi Lan dùng chế độ mặc định, mô hình chỉ sử dụng dữ liệu huấn luyện cũ. Vì vậy, kết quả trả về có thông tin sai hoặc lỗi thời.
+[24] Do mô hình không cung cấp nguồn, việc kiểm chứng nội dung cũng khó khăn.
+[25] Trong Bài 3, tạ biết rằng một trong những hạn chế lớn nhất của LLM là kết quả
+[26] phụ thuộc nhiều vào dữ liệu huần luyện. Khi dữ liệu huấn luyện bị cũ, sai hoặc thiếu, LLM có thể đưa ra câu trả lời có thông tin cũ, sai hoặc bịa đặt. Nhằm nâng cao độ chính xác và độ tin cậy cho mô hình, kĩ thuật RAG (Retrieval-Augmented
+[27] Generation) được ra đời. Với kĩ thuật RAG, mô hình sử dụng thêm dữ liệu bên ngoài (dữ liệu riêng, dữ liệu kiểm chứng được nguồn,...) để tạo ra câu trả lời mà không cần huấn luyện lại.
+[28] Khi sử dụng kĩ thuật RAG, do sử dụng thêm dữ liệu bên ngoài, nội dung tạo ra chính xác và cập nhật hơn, giảm tình trạng bịa đặt (hallucination). Việc cho phép sử dụng dữ liệu riêng của tổ chức và kiểm chứng được nguồn giúp kết quả đáng tin cây và phù hợp hơn với nhu cầu thực tế.
+[29] Ví dụ: ChatGPT-4, chế độ Search the web, ngoài dữ liệu huấn luyện còn sử dụng
+[30] dữ liệu mới hơn tìm được trên Internet.
+[31] Tài liệu nội bộ Internet
+[32] Dữ liệu bên ngoài
+[33] Cơ sở dừ liêu
+[34] 🖼️ Minh họa trong sách
+[35] Hình 4.1. Các nguồn dữ liệu cho kĩ thuật RAG
+[36] Kĩ thuật RAG (Retrieval-Augmented Generation) là cách để LLM kết hợp dữ liệu bên ngoài với dữ liệu huấn luyện, giúp bổ sung thông tin mới.
+[37] Nhờ sử dụng thêm dữ liệu có nguồn tin cậy và cập nhật, RAG cho câu trả lời chính xác hơn và giảm sai lệch mà không cần huấn luyện lai.
+[38] 2. Nguyên lí hoạt động của RAG Khi Lan sử dụng tuỳ chọn Search the web của ChatGPT, ChatGPT sẽ tìm kiếm những thông tin liên quan trên Internet. ChatGPT bổ sung những thông tin này vào
+[39] prompt ban đầu trước khi tạo ra câu trả lời. Vì vậy, kết quả thu được có những thông tin mới nhất. Tìm kiếm, bổ sung thông tin tìm được vào prompt và tạo ra câu trả lời là ba bước chính khi LLM sử dụng RAG.
+[40] Quy trình hoạt động gồm ba bước chinh của RAG như sau:
+[41] Truy xuất: Mô hình tim các thóng tin liên quan từ kho dữ liệu bên ngoài (dữ liệu
+[42] riêng, Internet, dữ liệu kiểm chứng được nguồn,...).
+[43] Tăng cường: Các thông tin này được đưa vào cùng với câu hỏi để cung cấp
+[44] thêm ngữ cảnh.
+[45] Sinh câu trả lời: mô hình dựa trên cả câu hỏi và thông tin tìm được để tạo ra câu
+[46] trả lời chính xác và đáng tin cậy hơn
+[47] Dữ liệu bên ngoài (dữ liệu riêng, Internet,...)
+[48] Truy xuất Các thông tin
+[49] liên quan
+[50] Prompt được
+[51] tăng cường Câu trả lời Người
+[52] Prompt
+[53] mô hình ngôn ngữ
+[54] dùng RAG
+[55] lớn
+[56] LLM dùng RAG
+[57] 🖼️ Minh họa trong sách
+[58] Hình 4.2. Nguyên lí hoạt động của RAG
+[59] Quy trình hoạt động của RAG có ba bước chinh:
+[60] truy xuất - tìm thông tin, tăng cường - kết hợp thông tin và câu hỏi, sinh câu trả lời - dựa trên câu hỏi và thông tin tìm được.
+[61] 3.  Mô hình LLM thường và LLM có kết hợp RAG
+[62] Trong phần Khởi động, ở lần thừ đầu tiên, nội dùng trả lời có những thông tin sai hoặc lỗi thời. Đây là một nhược điểm của mô hình ngôn ngữ lớn vì dữ liệu để huấn luyện các mô hình này thường không được cập nhật (chỉ bao gồm thông tin trước
+[63] một mốc thời gian cụ thể).
+[64] nhật những thông tin mới nhất từ Internet nên hạn chế được nhược điểm nêu trên.
+[65] Ngoài phần nội dung, ChatGPT còn cung cấp liên kết tới nguồn của những thông tin trong nội dung.
+[66] Ở lần thử thứ hai, khi sử dụng tính năng Search the web, ChatGPT đã được cập
+[67] Nhờ bước truy xuất thông tin liên quan từ dữ liệu bên ngoài trước khi tạo câu
+[68] trả lời, RAG giúp mô hình có thông tin mới, chính xác. Các thông tin do RAG cung
+[69] cấp có nguồn cụ thể, có thể kiểm chứng được nên câu trả lời đáng tin cậy hơn.
+[70] Vi du:
+[71] Câu hỏi: Việt Nam có bao nhiêu tỉnh, thành phố?
+[72] LLM thường: Tính đến thời điểm huấn luyện của tôi (2023), Việt Nam có 63 đơn vị hành chính cấp tỉnh bao gồm 58 tỉnh và 5 thành phố trực thuộc trung ương
+[73] LLM có RAG: Hiện tại (tính đến sau khi Quốc hội thông qua vào ngày 12/6/2025), Viêt Nam có 34 đơn vị hành chính cấp tỉnh, bao gồm 28 tỉnh và 6 thành phố trực thuộc trung ương
+[74] -
+[75] LLM thường
+[76] Prompt Kết quả
+[77] Mô hình ngôn ngữ
+[78] lớn
+[79] LLM kết hợp RAG
+[80] Prompt
+[81] Mó hình ngôn ngữ
+[82] Kết quả
+[83] lớn
+[84] Dữ liệu bên ngoài L- -
+[85] -
+[86] 🖼️ Minh họa trong sách
+[87] Hình 4.3. LLM thường và LLM dùng RAG
+[88] Tuy nhiên, chính RAG cũng có những nhược điểm như sau:
+[89] Phụ thuộc vào chất lượng dữ liệu ngoài: Nếu dữ liệu ngoài chứa thông tin sai,
+[90] lỗi thời hoặc thiên vị, kết quả RAG cũng sẽ bị ảnh hưởng.
+[91] Khó khăn trong truy xuất: Việc tìm chính xác đoạn thông tin liên quan nhất trong
+[92] lượng lớn dữ liệu ngoài là rất khó. Lỗi truy xuất (không tìm được hoặc tim sai) sẽ dẫn đến câu trả lời sai hoặc không liên quan.
+[93] Khả năng tích hợp thông tin: LLM có thể gặp khó khăn trong việc tổng hợp và
+[94] diễn giải một cách mạch lạc nhiều đoạn thông tin được truy xuất.
+[95] Chi phí và độ phức tạp: Xây dựng và duy trì một hệ thống RAG hiệu quả (đặc
+[96] biệt là phần dữ liệu ngoài và truy xuất) tốn kém và phức tạp hơn dùng LLM đơn thuần.
+[97] Có thể tạo ra sự thiếu khách quan mới: Quá trình truy xuất có thể ưu tiên một
+[98] số nguồn hoặc loại thông tin nhất định trong dữ liệu ngoài.
+[99] Ví dụ, em hỏi "Triệu chứng cảm cúm?" nhưng hệ thống truy xuất nhằm tài liệu về
+[100] "Liều lượng thuốc cảm" không chứa phần triệu chứng. Khi đó, câu trả lời không đúng, không liên quan. Nếu dữ liệu ngoài chỉ chứa sách của một tác giả, câu trả lời RAG cũng chỉ dựa theo quan điểm của tác giả đó. Câu trả lời có thể bị thiếu
+[101] chiều sâu hoặc thiên lệch về góc nhìn.
+[102] LLM thường: chỉ sử dụng thông tin huấn luyện không được cập nhật.
+[103] LLM kết hợp với RAG: cung cấp thêm thông tin mới bên ngoài cho mô hình bên cạnh thông tin huấn luyện.
+[104] RAG giúp trả lời chính xác hơn nhờ sử dụng thêm dữ liệu bên ngoài (dữ liệu riêng, dữ liệu từ Internet,...).
+[105] Các dữ liệu này kiểm chứng được nguồn nên câu trả lời đáng tin cậy hơn.
+[106] 4.  Thực hành
+[107] Nhiệm vụ: Viết báo cáo về kinh tế và xã hội Việt Nam năm 2025 bằng
+[108] tuỳ chọn Search the web của ChatGPT.
+[109] Hướng dẫn
+[110] Bước 1. Truy cập trang web của ChatGPT: https://chatgpt.com/.
+[111] Bước 2. Nháy chuột vào mục Tools → Search the web (Hình 4.4).
+[112] Where should we begin?
+[113] Ask anything
+[114] & Create an image
+[115] * Search the web
+[116] O Write or code
+[117] Ở Think for longer
+[118] * Run deep research a let
+[119] 🖼️ Minh họa trong sách
+[120] Hình 4.4. Chon công cụ Search the web
+[121] Bước 3. Nhập prompt "Viết báo cáo về kinh tế và xã hội Việt Nam năm 2025.
+[122] Sử dụng nguồn từ website tiếng Việt".
+[123] Bước 4. Kiểm tra các thông tin trong cầu trả lời của ChatGPT.
+[124] ✏️
+[125] LUYỆN TẬP
+[126] 1. RAG giúp cải thiện mô hình ngôn ngữ lớn bằng cách nào?
+[127] A. Tăng khả năng tưởng tượng của mô hình.
+[128] B. Giúp mô hình tạo nội dung sáng tạo hơn.
+[129] C. Kết hợp thông tin truy xuất được từ nguồn bên ngoài vào quá trình sinh câu
+[130] trả lời.
+[131] D. Giảm thời gian xử lí ngôn ngữ tự nhiên.
+[132] 2.  Lợi ích nổi bật của RAG là gì?
+[133] A. Không cần dữ liệu huấn luyện ban đầu.
+[134] B. Giúp mô hình trả lời đúng hơn, giảm bịa đặt.
+[135] C. Giảm dung lượng mô hình.
+[136] D. Loại bỏ hoàn toàn nhu cầu truy vấn.
+[137] 3.  Khi nào nên ưu tiên sử dụng mô hình tích hợp RAG?
+[138] A. Khi cần viết thơ, truyện sáng tạo.
+[139] B. Khi cần tạo trò chơi điên tử.
+[140] C. Khi cần thông tin cập nhật, chính xác, có dẫn nguồn.
+[141] D. Khi cần xử lí ảnh.
+[142] 4.  Phương án nào sau đây là các bước trong quy trình hoạt động của RAG?
+[143] A. Truy xuất, cung cấp ví dụ và sinh câu trả lời.
+[144] B. Truy xuất, suy luận theo từng bước, tăng cường và sinh câu trả lời.
+[145] C. Gọi hàm, tăng cường và sinh câu trả lời.
+[146] D. Truy xuất, tăng cường và sinh câu trả lời.
+[147] 5. Phương án nào sau đây là điểm khác nhau giữa LLM có sử dụng RAG và LLM thường?
+[148] A. Có suy luận theo từng bước.
+[149] B. Có ví dụ minh hoạ.
+[150] C. Có thông tin được cập nhật và ghi nguồn cụ thể
+[151] D. Có giọng văn và phong cách theo yêu cầu của người sử dụng.
+[152] 6.  Lí do nào sau đày giúp RAG có câu trả lời tin cậy hơn?
+[153] A. Luôn dẫn nguồn rõ ràng với dữ liệu được sử dụng.
+[154] B. Trả lời câu hỏi dựa vào dữ liệu đã được huấn luyện.
+[155] C. Tự tạo thông tin mới khi cần.
+[156] D. Luôn từ chối trả lời nếu không chắc.
+[157] 🚀
+[158] VẬN DỤNG
+[159] 1. Sử dụng tùy chọn Search the web của ChatGPT, em hãy làm báo cáo môn Địa lí về kinh tế và xã hội Australia năm 2025.
+[160] 2. Em hãy kiểm tra các thông tin trong báo cáo do ChatGPT tạo ra bằng các liên kết được cung cấp.
+
+=== 9: bai-5-mang-no-ron-nhan-tao - Bài 5. Mạng nơ-ron nhân tạo ===
+
+[1] Chủ đề 2. Nguyên lí hoạt động của mô hình ngôn ngữ lớn
+[2] Bài 5. Mạng nơ-ron nhân tạo
+[3] 📄 Trang sách gốc: 41 – 49
+[4] 📖 Xem bản in gốc
+[5] BÃI 5. MẠNG NƠ-RON NHẬN TẠO
+[6] MUC TIEU
+[7] Sau bài học này, em sẽ:
+[8] • Trình bày được khái niệm cơ bản về mạng nơ-ron nhân tạo.
+[9] • Giải thích được nguyên lí mô phỏng bộ não người và cách mạng nơ-ron nhân tạo học từ dữ liệu.
+[10] • Trình bày được một số ví dụ thực tiễn về ứng dụng của mạng nơ-ron nhân tạo.
+[11] 💡
+[12] KHỞI ĐỘNG
+[13] Ngày nay, nhiều thiết bị thông minh có thể phân tích và nhận dạng hình ảnh. Công nghệ này hiện diện ngay trong đời sống hằng ngày: điện thoại thông minh có thể
+[14] mờ khoa bằng nhận diện khuôn mặt, hệ thống giám sát giao thông có thể nhận dạng biển số xe và các lỗi vi phạm, hay camera an ninh có thể phát hiện những hành vi bất thường.
+[15] Em có bao giờ tự hỏi: "Làm thế nào máy tính có thể "nhìn" và "hiểu" được giống như con người?". Hãy thử liên hê với chính quá trình học hỏi của chúng ta đề dự đoán câu trả lời:
+[16] 1. Theo em, một em bé học cách nhận ra những người thân trong gia đình như thế nào?
+[17] 2. Khi nhìn một chiếc ô tô, làm sao em có thể nhận biết kiểu dáng, số chỗ ngồi, hãng xe hay tên xe?
+[18] 3. Từ những ví dụ trên, em hãy dự đoán máy tính đã học để có khả năng "nhìn - hiểu" như thế nào.
+[19] 🔍
+[20] KHÁM PHÁ
+[21] 1. Mạng nơ-ron nhân tạo là gì?
+[22] Giống như con người, các hệ thống AI cô thể ngày càng trở nên thông minh hơn nhờ khả năng học hỏi theo nhiều cách khác nhau. Việc học của hệ thống AI có thể bắt dầu một cách đơn giản bằng việc tuân theo các quy tắc (luật) do con người lập trình sẵn. Bên cạnh đó, các hệ thống AI cũng có khả năng học từ việc quan sát nhiều dữ liệu mẫu, từ đó rút ra quy luật, nhận biết được các đặc điểm và sử dụng
+[23] chùng để thực hiện những nhiệm vụ như phần loại hay nhận dạng. Một trong các phương pháp học tập đặc biệt và mạnh mẽ của các hệ thống AI là sử dụng mạng nơ-ron nhân tạo.
+[24] a)  Ý tưởng mô phỏng bộ não con người
+[25] Ý tưởng về mạng nơ-ron nhân tạo xuất phát từ chính bộ não con người. Bộ não của chúng ta là một mạng lưới khổng lồ gồm hàng tỉ tế bào thần kinh đặc biệt gọi
+[26] là nơ-ron (neuron), được kết nối chằng chịt với nhau. Mỗi nơ-ron có thể nhận tín hiệu từ rất nhiều nơ-ron khác thông qua các điểm kết nối gọi là khớp thần kinh (synapse). Khi nhận đủ tín hiệu, nơ-ron sinh học sẽ được "kích hoạt" và truyền tin
+[27] hiệu đi tới các nơ-ron khác. Nhờ mạng lưới kết nối như vậy, bộ não của chúng la có thể nhận biết hình ảnh, ghi nhớ âm thanh, hiểu ngôn ngữ và đưa ra quyết định Quá trình học tập và hinh thành kí ức của con người chính là sự thay đổi độ mạnh yếu của hàng nghìn tỉ kết nối khớp thần kinh như vậy. Khi em học một kĩ năng mỏi.
+[28] các kết nối liên quan đến kĩ năng đó sẽ trở nên mạnh mẽ hơn:
+[29] ((X)
+[30] a)  Tế bào thần kinh
+[31] b)  Nút nơ-ron nhân tạo
+[32] c)  Mạng nơ-ron nhân tạo
+[33] (no-ron sinh học)
+[34] (ANN)
+[35] 🖼️ Minh họa trong sách
+[36] Hình 5.1. Tế bào thần kinh và minh hoa mô hình nhân tạo
+[37] b)  Cấu trúc của mạng no-ron nhân tạo
+[38] Mạng nơ-ron nhân tạo (Artificial Neural Network - ANN) được xây dựng bằng cách mô phỏng lại cách hoạt động đó của bộ não. Nó được tạo thành từ các đơn vị cơ bản là nơ-ron nhân tạo và được tổ chức thành một kiến trúc nhiều lớp (layer). Một mạng ANN điển hình thường có ba loại lớp là:
+[39] Lớp đầu vào (Input Layer): Tiếp nhận các thông tin ban đầu (dữ liệu, giá trị).
+[40] Lớp ẩn (Hidden Layer): Nắm ở giữa, có thể coi là nơi diễn ra những "suy nghĩ
+[41] chính vì chúng thực hiện các quá trình phân tích, xử lí thông tin. Một mạng có thể có nhiều lớp ẩn.
+[42] Lớp đầu ra (Output Layer): Đưa ra kết quả cuối cùng, mang tính quyết định cho
+[43] bài toán.
+[44] Trong ANN, mỗi nơ-ron nhân tạo là một nút nhỏ, thực hiện các chức năng: tiếp nhận thông tin, xử lí, rồi tiếp tục gửi giá trị cho các nơ-ron ở lớp tiếp theo. Các nơ-ron
+[45] nhân tạo giữa các lớp được kết nối với nhau. Mỗi kết nối được gán một giá trị gọi là trọng số. Giá trị đó quy định mức độ ảnh hường của một nơ-ron này tới nơ-ron
+[46] khác mà nó truyền dữ liệu tới.
+[47] Như vậy, ANN tiếp nhận thông tin (các giá trị) ở lớp đầu vào, xử lí - phân tích thông qua các lớp ấn trung gian để đưa ra các giá trị mang tính quyết định ở lớp
+[48] đầu ra.
+[49] Để minh họa rõ hơn ý tưởng xây dựng ANN, bảng dưới đây mô tả các so sánh tương đối về đặc trưng giữa cấu tạo của nó với mạng nơ-ron sinh học.
+[50] Thành phần Thành phần mạng nơ-ron mạng nơ-ron Mô tả trong mô hình nhân tạo
+[51] Các nút nơ-ron Là một đơn vị tính toán cơ bản, mô phỏng chức năng của nơ-ron sinh học: tiếp nhận, xử lí và
+[52] Tín hiệu đầu vào - Giá trị đầu vào
+[53] Các con số đại diện cho dữ liệu thỏ. Ví dụ, đó có thể là giá trị màu sắc của một điểm ảnh.
+[54] Là một con số được gán cho mỗi kết nối, có ý nghĩa thể hiện tầm quan trọng của tín hiệu đầu vào tương ứng. Trọng số sẽ được điều chỉnh
+[55] Khớp thần kinh Trọng số
+[56] Bao gồm hàm tổng hợp (thực hiện tính toán dựa
+[57] Các hàm tính trên các giá trị đầu vào kết hợp với bộ giá trị trọng số tương ứng) và hàm kích hoạt (quyết định xem nơ-ron có nên truyền tín hiệu đi hay không, dựa trên kết quả của hàm tổng hợp).
+[58] Là một con số duy nhất thể hiện kết quả xử lí của nơ-ron. Giá trị này sẽ được truyền đến các nơ-ron
+[59] (xử lí tín hiệu)
+[60] Tín hiệu đầu ra
+[61] ở lớp tiếp theo.
+[62] C
+[63] c)  Ví dụ về mạng no-ron nhân tạo đơn giản
+[64] Hãy xem xét chương trình giúp robot phân biệt một con vật thật sự là meo hay chi là mèo máy. Nó sẽ đánh giá dựa trên hai yếu tố: hơi thở và nhiệt độ cơ thể của
+[65] con mèo. Nếu một con méo có hơi thở hoặc có thân nhiệt ấm, chương trình sẻ kết luận đó thực sự là mèo. Ngược lại, nếu không có cả hai yếu tố này thì chương
+[66] trình sẽ kết luận đó là mèo máy.
+[67] Một mạng nơ-ron nhân tạo đơn giản chỉ với một nút duy nhất có thể giải quyết được vấn đề này. Nút nơ-ron đơn lẻ khi đó nhận hai giá trị đầu vào, tương ứng với nhận biết hơi thở (giá trị 1 nếu có hoặc giá trị 0 nếu ngược lại) và nhận biết thân nhiệt (giá trị 1 nếu có thân nhiệt ấm hoặc giá trị 0 nếu ngược lại) để đưa ra quyết định theo quy tắc như bảng sau:
+[68] Hơi thờ
+[69] Thân nhiệt
+[70] Kết luận
+[71] 0 1
+[72] 0 (mèo máy)
+[73] 0 1 1
+[74] 1 (mèo thật)
+[75] 1 (mèo thật)
+[76] 1 (mèo thật)
+[77] hơi thở
+[78] nơ-ron nhân tạo
+[79] mèo thật?
+[80] (nút)
+[81] thân nhiệt
+[82] 🖼️ Minh họa trong sách
+[83] Hình 5.2
+[84] Nút nơ-ron nhân tạo này có thể thực hiện một bước toán học đơn giản: lấy tổng hai giá trị nhận được. Nó cũng cộng thêm một giá trị ẩn của riêng nó, được gọi là "hệ số thiên kiến". Ban đầu, giá trị thiên kiến đó là ngẫu nhiên, nhưng mạng sẽ tự
+[85] điều chỉnh nó theo thời gian nếu các kết luận đưa ra không chính xác.
+[86] Một vấn đề khác là việc cộng các giá trị như thế có thể cho ra những kết quả lớn hơn 1. Để điều chỉnh, mạng nơ-ron sẽ đặt ra một quy tắc đặc biệt (chính là hàm tổng hợp), đảm bảo kết quả cuối cùng luôn nằm trong khoảng từ 0 đến 1. Trong
+[87] các mạng nơ-ron phức tạp với nhiều nút hơn, kết quả đầu ra của một nút (chẳng hạn như 0,69) sau đó sẽ được chuyển đến các nút ở lớp tiếp theo cho đến khi xác định được các giá trị đầu ra ở lớp cuối cùng.
+[88] d)  Các cách học của mạng no-ron nhân tạo
+[89] Để một mạng nơ-ron nhân tạo có thể thực hiện các nhiệm vụ phức tạp như nhận dạng hình ảnh hay dịch ngôn ngữ, nó phải trải qua một quá trình "học". Quá trình
+[90] đó về cơ bản là việc điều chỉnh các giá trị trọng số của kết nối giữa các nơ-ron và hệ số thiên kiến, sao cho mạng có thể đưa ra kết quả đầu ra chính xác nhất từ dữ liệu đầu vào. Giống như các mô hình AI khác, các mạng nơ-ron có ba phương pháp học chính, gồm: học có giám sát, học không giám sát và học tăng cường.
+[91] Học có giám sát (Supervised Learning) là phương pháp học phố biến nhất.
+[92] Mạng nơ-ron được huấn luyện bằng bộ dữ liệu đã được gán nhãn từ trước.
+[93] Điều này có nghĩa là với mỗi dữ liệu đầu vào (ví dụ: một bức ảnh), chúng đã được cung cấp sẵn câu trả lời đúng, hay còn gọi là "nhãn" (ví dụ: nhãn "mèo" hoặc "chó"). Mạng nơ-ron sẽ đưa ra một dự đoán, sau đó đối chiếu với đáp án đúng. Dựa trên sự khác biệt (sai số) giữa dự đoán và kết quả thực tế, mạng nơ-ron sẽ tự động điều chỉnh các tham số bên trong của nó để lần dự đoán tiếp theo sẽ chính xác hơn. Quá trình này được láp đi lặp lại cất nhiều lần với bộ dữ liệu đa dạng cho đến khi đạt được độ chính xác chấp nhận được.
+[94] Ví dụ: Hệ thống nhận diện khuôn mặt trên điện thoại thông minh là một ứng dụng đặc trưng cho phương pháp học có giám sát. Ban đầu, em "dạy" cho hệ thống bằng cách cung cấp nhiều hình ảnh khuôn mặt của mình ở các góc độ hay điều kiện ánh sáng khác nhau (dữ liệu đầu vào) và gán nhãn rằng tất cả đều là em (kết quả đúng). Mạng nơ-ron sẽ học các đặc điểm đặc trưng trên các dữ liệu khuôn mặt nhận được đó. Sau quá trình huấn luyện, khi em đưa điện thoại lên, hệ thống sẽ phân tích hình ảnh từ camera và quyết định xem có khớp với các đặc điểm đã học hay không.
+[95] Học không giám sát (Unsupervised Learning) có cơ chế trái ngược lại, là hoạt
+[96] động với bộ dữ liệu không được gán nhãn. Thay vì được cho biết trước câu trả lời đúng, mạng nơ-ron phải tự tìm ra các mẫu, các cấu trúc hoặc các mối liên hệ tiềm ẩn trong dữ liệu. Nhiệm vụ của nó là tự sắp xếp, phân loại hoặc ghép nhóm các dữ liệu có đặc điểm tương tự nhau thành các cụm (cluster) mà không cần bất kì sự hướng dẫn nào từ con người.
+[97] Ví dụ: Hệ thống bên trong các mạng xã hội có thể sử dụng phương pháp học không giám sát để đề xuất những nội dung thu hút sự tương tác của người dùng. Chúng có thể phân tích các hành vi rằng em bấm thích bài viết nào, dừng lại xem video nào lâu hơn, theo dõi trang nào, hay tương tác với những ai. Dựa trên hàng tỉ tương tác đó, thuật toán sẽ tự động xác định các "cụm" người dùng có cùng sở thích (ví dụ: nhóm yêu thích du lịch, nhóm quan tâm đến thời trang, nhóm đam mê công nghệ). Khi em tương tác với một nội dung, hệ thống sẽ nhận dạng em thuộc nhóm nào và đề xuất thêm các bài viết, hình ảnh, hoặc video phổ biến trong chính nhóm đó để hiển thị trên bảng tin, giữ cho em luôn yêu thích tương tác với nền tảng
+[98] Học tăng cường (Reinforcement Learning) là phương pháp học thông qua thủ
+[99] và sai, mô phỏng cách con người và động vật học hỏi từ môi trường. Theo mơ
+[100] hình này, chương trình máy tính sẽ tương tác với một "môi trường" nào đó. Sau mỗi hành động, chương trình sẽ nhận được một "phần thưởng" nếu hành động đó tốt hoặc một "hình phạt" nếu ngược lại. Mục tiêu cuối cùng của chương trình là học được một chiến lược - là một chuỗi các hành động để tối đa hoa tổng phần thường nhận được theo thời gian. Mạng nơ-ron nhân tạo không được cho biết hành động nào là đúng hay sai, mà phải tự mình khám phá ra điều đó.
+[101] Ví dụ: Mạng nơ-ron có thể được huấn luyện để phân loại thư điện tử (email) có phải là "thư rác" hay không. Để làm được điều này, mạng được cung cấp một lượng lớn email đã được con người gán nhãn thủ công là thư rác hoặc không phải thư rác. Khi một email mới được đưa vào, mạng sẽ phân tích các đặc điểm của nó, như sự xuất hiện của các từ khóa nhất định (ví dụ: "miễn phí".
+[102] "trúng thưởng"), cấu trúc câu, nguồn gửi,... Ban đầu, mạng có thể phân loại sai Tuy nhiên, mỗi khi nó đưa ra dự đoán sai, hệ thống sẽ tính toán mức độ sai sót và điều chỉnh các tham số bên trong. Chẳng hạn, nếu một thư điện tử chứa từ "miễn phi" nhưng lại được phân loại là thư quan trọng, mạng sẽ tăng cường trọng số của từ "miễn phí" để với lần sau, sự xuất hiện của từ này sẽ có ảnh
+[103] hưởng lớn hơn đến việc kết luận là thư rác. Quá trình này lặp đi lặp lại rất nhiều lần, giúp mạng nơ-ron dần "học" được các mẫu và đặc điểm chung của thư rác, từ đó tự động lọc chúng ra khỏi hộp thư đến của người dùng một cách hiệu quả
+[104] Mạng no-ron nhân tạo (ANN) là một mô hình được xây dựng dựa trên ý tưởng mô phỏng cấu trúc và nguyên lí hoạt động của bộ não người, bao gồm các đơn vị xử lí cơ bản gọi là nơ-ron nhân tạo (nút), được liên kết chặt chẽ với nhau và sắp xếp thành các lớp.
+[105] Với ANN, quá trình học là việc liên tục điều chỉnh các tham số bên trong (trọng số và hệ số thiên kiến) bằng cách sử dụng dữ liệu, giúp mô hình đưa ra dự đoán ngày cang chính xác hơn.
+[106] 2.  Ứng dụng của mạng nơ-ron nhân tạo trong đời sống
+[107] a)  Thị giác máy tính (Computer vision - CV)
+[108] Thị giác máy tính là lĩnh vực giúp máy tính có khả năng nhìn và hiểu được nội dung của hình ảnh và video. Các mạng nơ-ron nhân tạo, đặc biệt là mạng nơ-ron tích chập (Convolutional Neural Network), đã tạo ra những bước tiến
+[109] đột phá trong thị giác máy tính. Bên cạnh ứng dụng mở khóa bằng nhận diện khuôn mặt, công nghệ này còn xuất hiện trong các sản phẩm như:
+[110] Chẩn đoán hình ảnh trong y tế: mạng nơ-ron nhân tạo có thể được huấn luyện trên hàng triệu ảnh y khoa (như X-quang, CT, MRI). Chúng có khả năng phát
+[111] hiện sớm các dấu hiệu rất nhỏ của bệnh tật, chẳng hạn như khối u ung thư hoặc các tổn thương khác, với độ chính xác cao, trở thành một công cụ trợ giúp đắc lực cho các bác sĩ.
+[112] Xe tự lái: các mạng nợ-ron liên tục phân tích dữ liệu từ camera và cảm biến để
+[113] nhận dạng các đối tượng quan trọng như người đi bộ, phương tiện lưu thông trên đường, biển báo giao thông, vạch kẻ đường,... Từ đó, hệ thống điều khiển có thể đưa ra quyết định an toàn cho xe như phanh, tăng tốc hay chuyển làn.
+[114] Để thực hiện chức năng này, máy tính số hoá hình ảnh thành một lưới dữ liệu khổng lồ, trong đó mỗi điểm ảnh được biều diễn bằng một hoặc nhiều giá trị số về
+[115] màu sắc. Toàn bộ bộ giá trị này sẽ được đưa vào lớp đầu vào của mạng nơ-ron nhân tạo. Sau đó, chúng được xử lí tuần tự qua các lớp ẩn, nơi các đặc trưng của
+[116] hình ảnh được phân tích theo từng cấp độ. Cuối cùng, lớp đầu ra sẽ tinh toán và đưa ra một giá trị quyết định, xác định xem hình ảnh được phân tích phù hợp nhất với kết quả nào trong các khả năng đã được huấn luyện.
+[117] b)  Xử lí ngôn ngữ tự nhiên (Natural language processing - NLP)
+[118] Xử lí ngôn ngữ tự nhiên là lĩnh vực giúp máy tính có khả năng nghe, đọc và hiểu được để giao tiếp bằng ngôn ngữ của con người. Mạng nơ-ron, đặc biệt là các kiến trúc như mạng nơ-ron hồi quy (Recurrent Neural Network) và các mô hình tiên tiến hơn như Transformer đã tạo ra những bước tiến quan trọng cho lĩnh vực này. Công nghệ này được ứng dụng trong nhiều lĩnh vực, ví dụ:
+[119] Trợ II ảo: Khi em ra lệnh bằng giọng nói, một mạng nơ-ron sẽ phân tích sóng
+[120] âm trong giọng nói của em để chuyển thành văn bản. Một mạng nơ-ron khác sẽ phân tích câu lệnh đó để hiểu yêu cầu của em (ví dụ: đặt báo thức, hỏi thời tiết, hay gọi điện cho ai đó) và thực hiện yêu cầu. Các Chatbot trả lời tự động cũng hoạt động theo nguyên lí tương tự như thế
+[121] Gợi ý và tự động sửa lồi văn bản: Khi em soạn thảo văn bản trên điện thoại
+[122] hoặc máy tính, hệ thống thường gợi ý từ tiếp theo mà em có thể muốn gõ hoặc tự động sửa các lỗi chính tả, ngữ pháp. Đây là kết quả của một mạng nơ-ron đã được huấn luyện trên một kho dữ liệu văn bản khổng lồ để học các quy luật và cấu trúc của ngôn ngữ.
+[123] c)  Các hệ thống đề xuất (Recommendation Systems)
+[124] Các hệ thống đề xuất là lĩnh vực giúp máy tính có khả năng dự đoán sở thích của người dùng và gợi ý những sản phẩm, dịch vụ hoặc nội dung phù hợp nhất. Các mạng nơ-ron nhân tạo, đặc biệt là các mô hình như lọc cộng tác (Collaborative Filtering) và các mạng nơ-ron sâu (Deep Neural Networks), là nền tảng cho sự phát triển của lĩnh vực này. Công nghệ này được ứng dụng rộng rãi trong cuộc sống hằng ngày, ví dụ:
+[125] Để xuất phim ành và âm nhạc: Các dịch vụ xem phim và nghe nhạc trực tuyến
+[126] sử dụng mạng nơ-ron để học sở thích hay "gu" nghệ thuật của em dựa trên những gì em đã xem hoặc nghe trước đó. Hệ thống có thể không chỉ dựa trên thể loại em thích mà còn phân tích các yếu tố phức tạp hơn như đạo diễn, diễn viên, giai điệu và tâm trạng của bài hát để đưa ra những gợi ý bất ngờ và thú vị
+[127] Gọi ý sản phẩm trên trang thương mại điện từ: Khi em mua sắm trực tuyến, hộ
+[128] thống sẽ phân tích lịch sử mua hàng, các sản phẩm em đã xem, đồng thời so sảnh với hành vi của hàng triệu người dùng khác. Từ đó, mạng nơ-ron sẽ đề
+[129] xuất những sản phẩm mà em có khả năng quan tâm nhất, giúp trải nghiệm mua sắm trở nên cá nhân hóa và hiệu quả hơn.
+[130] Mạng nơ-ron nhân tạo có nhiều ứng dụng quan trọng và đang trở thành một trong những nền tăng cốt lõi cho
+[131] cuộc cách mạng công nghệ AI, từ việc tự động hoa các quy trình phức tạp đến việc tạo ra những trải nghiệm thông minh và cá nhân hóa cho người dùng.
+[132] ✏️
+[133] LUYỆN TẬP
+[134] 1. Trong mạng nơ-ron nhân tạo, lớp nào chịu trách nhiệm chính trong việc xử lí vá phân tích thông tin?
+[135] A. Lớp đầu vào.
+[136] B. Lớp ẩn.
+[137] C. Lớp đầu ra.
+[138] D. Cả ba lớp trên.
+[139] 2. Trong chức năng mở khóa bằng khuôn mặt trên điện thoại, mạng nơ-ron nhân tạo chủ yếu tham gia vào công đoạn nào?
+[140] A. Thu nhận hình ảnh khuôn mặt.
+[141] B. Trích xuất, phân tích và mã hóa các đặc trưng của khuôn mặt.
+[142] C. Lưu trữ dữ liệu khuôn mặt theo cách an toàn.
+[143] D. Bật đếm ngược thời gian khóa máy nếu nhận dạng sai.
+[144] 3. Từ các công nghệ được giới thiệu trong bài học, em hãy tìm ví dụ về một công cụ hoặc chức năng AI có sử dụng mạng nơ-ron nhân tạo và chi ra mạng nơ-ron nhân tạo có thể tham gia vào quá trình nào.
+[145] 🚀
+[146] VẬN DỤNG
+[147] Một trường đại học muốn phát triển hệ thống AI để tư vấn và gợi ý ngành học phù hợp cho học sinh Trung học phố thông đang trong giai đoạn chuẩn bị nộp hồ sơ xét tuyển. Hệ thống này sẽ sử dụng mạng nơ-ron nhân tạo để đưa ra
+[148] những đề xuất được cá nhân hoá.
+[149] 1. Theo em, để có thể đưa ra lời khuyên hợp lí, hệ thống cần thu thập những loại thông tin nào từ học sinh?
+[150] 2. Em hãy đề xuất cách hệ thống thu thập phàn hồi đề tự điều chinh và cải thiện chất lượng tư vấn cho những lần sau.
+[151] D
+
+=== 10: bai-6-phan-loai-va-phan-cum-du-lieu - Bài 6. Phân loại và phân cụm dữ liệu ===
+
+[1] Chủ đề 2. Nguyên lí hoạt động của mô hình ngôn ngữ lớn
+[2] Bài 6. Phân loại và phân cụm dữ liệu
+[3] 📄 Trang sách gốc: 50 – 60
+[4] 📖 Xem bản in gốc
+[5] VÀ PHÂN CỤM DỨ LIỆU
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Trình bày được những nét đặc trưng cơ bản và so sánh hai bai toán phân loại dữ liệu và phân cụm dữ liệu.
+[10] Trình bày được ý tưởng và giải thích cách hoạt động cơ bản của hai thuật toán KNN và K-means. Phân tích được các yếu tố ảnh hưởng
+[11] đến độ chính xác của thuật toán.
+[12] KHƠI ĐỘNG
+[13] Đầu năm học, Thanh được tăng một số thùng sách gồm nhiều tài liệu học tập quý báu. Bạn ấy phân vân không biết nên sắp xếp số sách lên giá như thê nào cho hợp lí. Thanh dự định sẽ thực hiện theo một trong hai cách:
+[14] Cách thư nhất: Xếp theo môn học. Khi đó, Thanh sẽ chia giá sách thành nhiều phần theo từng môn. Với mỗi cuốn sách, bạn ấy cần xem nó thuộc môn học náo để xếp vào ngăn tương ứng.
+[15] Cách thứ hai: Chia theo mục đích sử dụng. Với cách này, Thanh muốn chia sách thành các nhóm khác nhau như: sách giáo khoa, sách bài tập, tài liệu nâng cao, tuyền tập đề thi,... Tuy nhiên, theo cách này, Thanh chưa biết trước sẽ có chính xác bao nhiêu nhóm hay tên gọi của chúng là gì, mà phải tự mình dẫn điều chỉnh trong
+[16] quá trình sắp xếp.
+[17] 1.  Theo em, hai cách sắp xếp đó có gì giống và khác nhau?
+[18] 2. Nếu sau này có thêm một cuốn sách mới, với cách sắp xếp nào thi Thanh sẽ dễ dàng đặt nó vào giá sách hơn?
+[19] 3. Nếu Thanh muốn tìm tất cả các tài liệu nâng cao để xem trước chủ đề và lên kế hoạch học tập thì cách sắp xếp nào sẽ giúp bạn ấy tìm kiếm hiệu quả hơn?
+[20] 🔍
+[21] KHÁM PHÁ
+[22] 1.  Bài toán phân loại và bài toán phân cụm
+[23] Trong tình huống ở phần Khởi động, hai cách sắp xếp giá sách mà bạn Thanh phân vân mô tả hai nhiệm vụ cơ bản giúp các hệ thống AI hiểu và sắp xếp thông tin từ dữ liệu để đưa ra quyết định, là bài toán phân loại (Classification) và bài toán phân cụm (Clustering).
+[24] 📘 Hộp kiến thức cốt lõi
+[25] Bài toán phân loại yêu cầu gán (sắp xếp) một đối tượng mới vào một trong các nhóm đã được định nghĩa trước, dựa trên việc học từ các ví dụ đã có. Chẳng hạn, một hệ thống AI của ngân hàng được huấn luyện với hàng nghìn hồ sơ giao dịch trong quá khứ, bao gồm cả giao dịch hợp lệ và giao dịch gian lận. Khi một giao
+[26] dịch mới phát sinh, nhiệm vụ của AI là đánh giá (phân loại) ngay lập tức giao dịch này là "bình thường" hay "đáng ngờ" để có thể đưa ra cảnh bảo hoặc khoa thé
+[27] kịp thời nhằm bảo vệ tài khoản cho khách hàng. Cách thứ nhất ờ phần Khởi động chính là một ví dụ của dạng bài toán phân loại này.
+[28] Trong khi đó, bài toán phân cụm yêu cầu tự khám phá và gom những đối tượng có đặc tính tương đồng lại với nhau thành các nhóm (cụm) mà không cần biết trước ý nghĩa của các nhóm đó. Ví dụ, một công ty viễn thông muốn hiểu rõ hơn về các phân khúc khách hàng của mình. Thay vì tự định nghĩa các nhóm một cách chủ
+[29] quan, họ sử dụng thuật toán phân cụm để phân tích dữ liệu sử dụng của hàng triệu khách hàng dựa trên các tiêu chí như số phút gọi, lượng tin nhắn và dung lượng data tiêu thụ. Từ đó chia ra các phân khúc khách hàng để nghiên cứu kĩ và đề xuất những gói cước kèm chương trình khuyến mại phù hợp với nhu cầu. Một
+[30] ví dụ của dạng bài toán phân cụm là cách thứ hai trong phần Khởi động
+[31] Bảng dưới đây trình bày một số điểm khác nhau cơ bản giữa hai bài toán phân loại và phân cụm.
+[32] Bảng 6.1. Phân biệt bài toán phân loại và bài toán phân cụm theo một số tiêu chí
+[33] Tiêu chí
+[34] Phân loại Phân cụm
+[35] 🎯
+[36] MỤC TIÊU
+[37] Gán đối tượng vào các nhỏmTự động khám phá và tạo ra đã biết trước.
+[38] các cụm từ dữ liệu.
+[39] Dữ liệu đã được gán nhãn Dữ liệu không có nhãn (chưa Dữ liệu đầu vào (biết trước đối tượng thuộc biết đối tượng thuộc nhóm nhóm nào).
+[40] Học có giám sát (dữ liệu Học không giảm sát (dữ liệu Loại hinh học máy
+[41] dùng để huấn luyện đã được dùng để huấn luyện không gán nhãn).
+[42] được gắn nhãn).
+[43] "Đối tượng mới này thuộc "Tập dữ liệu này có thể chia nhóm nào?".
+[44] thành những cụm nào?
+[45] Một mô hình có khả năng Một tập hợp các cụm, trong đó Kết quả dự đoán nhãn cho dữ liệu các đối tượng trong cùng một mới.
+[46] cụm có tinh tương đồng cao.
+[47] Câu hỏi cần trả lời
+[48] Phân loại (Classification) là quả trình sắp xếp đối tượng vào càc nhóm đã được định nghĩa trước dựa trên dữ liệu có nhãn (học có giám sát).
+[49] Phần cụm (Clustering) là quá trình tự động khám phá và gom các đối tượng tương đồng thành những nhóm
+[50] chưa từng được biết đến từ dữ liệu không nhãn (học không giảm sát).
+[51] 2.  Thuật toán KNN giải quyết bài toán phân loại
+[52] Để giải quyết bài toán phân loại, có rất nhiều thuật toán hiệu quả như: Cây quyết
+[53] định (Decision Tree) - dựa trên ý tưởng mô phỏng quá trình ra quyết định của con người bằng một chuỗi các câu hỏi đúng/sai; Naive Bayes - dựa trên việc áp dụng lí thuyết xác suất để tính toán khả năng một đối tượng thuộc về một nhóm nào đó hay Máy vector hỗ trợ (Support Vector Machine - SVM) - dựa trên việc tìm ra một "ranh giới" rõ ràng nhất để phân tách các nhóm dữ liệu.
+[54] Một trong những thuật toán đơn giàn có thể giúp giải bài toán phân loại một các đơn giản là K - láng giềng gần nhất (K-Nearest Neighbors hay KNN), hoạt động
+[55] dựa trên quan điểm cho rằng những đối tượng giống nhau thì "ở gần nhau"
+[56] a)  Thuật toán tổng quát
+[57] Thuật toán KNN là một phương pháp học có giám sát dùng để giải quyết bài toán nhân loại. Nguyên tắc cốt lỗi của nó là môt đối tương mới sẽ được phân loại dựa trên nhãn của các đối tượng đã biết ở gần nó nhất trong không gian đặc trưng Quy trình của thuật toán có thể được mô tả gồm các bước chính sau:
+[58] Bước 0. Biểu diễn dữ liêu
+[59] Trước khi tính toán, mỗi đối tượng trong tập dữ liệu (cả dữ liệu huấn luyện và đối tượng mới) được chuyển đổi thành một vector đặc trưng. Vector này là một tập hợp các con số đại diện cho các thuộc tính hay tiêu chí nào đó. Điều này đặt
+[60] mỗi đối tượng như một điểm trong một không gian đa chiều, nơi các đối tượng giống nhau sẽ có vị trí gần nhau.
+[61] Bước 1. Xác định tham số K.
+[62] Chọn một số nguyên dương K, là số lượng "láng giềng" gần nhất sẽ được xem xét để ra quyết định.
+[63] Bước 2. Tính khoảng cách và xác định K - láng giềng gần nhất.
+[64] Với một đối tượng mới cần phân loại, tính khoảng cách từ vector đặc trưng của nó đến vector đặc trưng của tất cả các đối tượng trong tập dữ liệu huấn luyện, theo một quy tắc nào đó. Tự đây, xác định K đối tượng trong tập dữ liệu huấn luyện có khoảng cách ngắn nhất đến đối tượng mới.
+[65] Bước 3. Bò phiếu và ra quyết định.
+[66] Trong số K láng giềng đã tìm được, đếm số lượng đối tượng thuộc về mỗi nhóm.
+[67] Thông thường, đối tượng mới sẽ được gán cho nhóm có số lượng láng giêng đông nhất. Trong trường hợp đặc biệt (có hai hoặc nhiều nhóm cùng chiếm số lượng nhiều nhất), hệ thống cần một co chế để phá vỡ thế cân bằng. Chẳng hạn, một phương pháp đơn giản là "bỏ phiếu có trọng số": thay vì các "phiếu" có giá trị
+[68] bằng nhau, phiếu của láng giềng ở càng gần sẽ tương ứng có trọng số cảng cao (ví dụ: trọng số = 1/khoảng cách). Nhóm nào có tổng trọng số phiếu bầu lớn nhất sẽ chiến thắng.
+[69] b)  Ví dụ minh hoa
+[70] Già sử thư viện của một trường học phân loại sách thành bốn nhóm chính:
+[71] (A) Khoa học và Khám phá, (B) Văn học và Cảm xúc, (C) Giải trí và Sáng tạo, (D) Kĩ năng và Hướng nghiệp. Để tự động sắp xếp các đầu sách mới, thư viện sử
+[72] dụng một hệ thống AI với nhiệm vụ phân loại chúng vào các nhóm phù hợp.
+[73] Để làm được điều đó, trước hết, hệ thống AI cần "số hoa" mỗi cuốn sách. Để minh hoa đơn giản, ta giả sử hệ thống đánh giá sách dựa trên hai tiêu chí: Mức độ hư cấu và Độ phức tạp về từ vựng, chấm điểm mỗi tiêu chí từ 0 đến 10 theo quy tắc nào đó. Như vậy, mỗi cuốn sách có thể được biểu diễn bằng một điểm trên mặt phẳng toạ độ hai chiều.
+[74] 🖼️ Minh họa trong sách
+[75] Hình 6.1 minh họa cách hệ thống AI phân loại một đầu sách mới. Bằng cách tìm ra
+[76] 11 cuốn sách (chính là 11 láng giềng) có đặc điểm gần nhất, hệ thống nhận thấy
+[77] rằng nhóm "Khoa học và Khám phá" chiếm đa số trong các láng giềng này. Dựa
+[78] trên nguyên tắc đa số, AI đưa ra quyết định phân loại cuốn sách mới vào nhóm
+[79] sách Khoa học và Khám phá
+[80] Độ phức tạp về từ vựng
+[81] 🖼️ Minh họa trong sách
+[82] Hình 6.1. Minh hoa thuật toán KNN - Phân loại sách trong thư viện
+[83] c)  Một số lưu ý quan trọng
+[84] Việc tìm ra giá trị K phù hợp là chìa khóa đề thuật toán hoạt động hiệu quả
+[85] Nếu K quá nhỏ, quyết định rất dễ bị ảnh hưởng bởi một vài điểm nhiễu, giống nhu việc em chỉ nghe lời khuyên của một người mà không có phân tích tổng thế. Đồng thời, nếu K quả lớn, quyết định có thể bị "loãng" bởi sự ảnh hưởng của những láng
+[86] giềng ở quá xa, không thực sự liên quan.
+[87] Trong ví dụ trên, chúng ta chỉ dùng hai tiêu chí để dễ dàng minh hoạ và có thể biểu diễn trên mặt phẳng toạ độ hai chiều. Trên thực tế, trong bài toán có thể có hàng chục, thậm chí hàng trăm tiêu chí. Khi đó, mỗi đối tượng sẽ được biểu diễn
+[88] băng một vector nhiều chiều và thuật toán vẫn sẽ tính khoảng cach giữa các vector này trong một không gian đa chiều phức tạp.
+[89] Chương trình có thể sử dụng nhiều cách tinh khoảng cách khác nhau. Bên
+[90] cạnh cách đơn giản nhất là tinh khoảng cách bằng độ dài đoạn nối hai điểm (khoảng cách Euclid), chương trình có thể tính toán theo các quy tác khác, tuy thuộc vào loại dữ liệu đang xử lí (dữ liệu số, văn bản, hình ánh,...) va mục tiêu cụ thể của bài toán, để đạt hiệu quả tốt hơn. Việc lựa chọn đúng công thức tinh
+[91] khoảng cách sẽ giúp mô hình đánh giá sự tương đồng giữa các đối tượng một cách chính xác nhất.
+[92] Thuật toán KNN rất nhạy cảm với thang đo của dữ liệu. Nếu một tiêu chí có thang đo lớn (ví dụ: doanh thu tính bằng triệu đồng) và một tiêu chí khác có thang đo nhỏ (ví dụ: đánh giá trên thang điểm 10), tiêu chí có thang đo lớn có thể "lấn át" và ảnh hưởng đến kết quả nhiều hơn. Do đó, một bước quan trọng trước khi áp dụng KNN là chuẩn hóa dữ liệu để đưa tất cả các tiêu chí tương đồng vệ
+[93] thang đo, đảm bảo sự công bảng.
+[94] Thuật toán KNN hoạt động dựa trên nguyên tắc cốt lõi: những đối tượng có đặc tinh giống nhau thì sẽ
+[95] có vị trí gần nhau trong không gian dữ liệu.
+[96] Để phân loại một điểm dữ liệu mới, thuật toán cần tìm ra K láng giềng gần nhất và để chúng bỏ phiếu quyết
+[97] đinh xem điểm mới đó thuộc về nhóm nào.
+[98] Độ chính xác của thuật toán phụ thuộc nhiều vào các yếu tố cài đặt, bao gồm việc chuẩn hoa dữ liệu, lựa chọn giá trị K phù hợp và xác định quy tắc tính khoảng cách.
+[99] 3.  Thuật toán K-means giải quyết bài toán phân cụm
+[100] Để giải quyết bài toán phân cụm, các thuật toán phải trả lời được câu hỏi: "Làm thế nào để tìm ra các nhóm tự nhiên trong dữ liệu khi không có bất kì gợi ý nào từ
+[101] trước?. Mỗi thuật toán đưa ra một câu trả lời riêng, dựa trên những cách tiếp cận khác nhau: Thuật toán phân cụm phân cấp (Hierarchical Clustering) xem các nhóm như những nhánh trên một cây gia phả lớn, cho phép chúng ta thấy được mối quan hệ phân cấp từ tổng thể đến chi tiết: thuật toán phân cụm dựa trên mật độ (DBSCAN) định nghĩa một nhóm là một khu vực có "mật độ" cao, giúp nó có khả năng tìm ra các cụm có hình dạng phức tạp và tự động loại bỏ các điểm nhiễu; thuật toán mô hình hỗn hợp Gaussian (GMM) thì cho rằng mỗi cụm là một phân phối xác suất hình chuông, cho phép một điểm có thể thuộc về nhiều cụm với các mức độ chắc chắn khác nhau,...
+[102] Trong số rất nhiều phương pháp đó, K-means là một trong những thuật toán có ý tưởng đơn giản, trực quan và được sử dụng rộng rãi. Ý tường tiếp cận của thuật toán này rất đơn giản: mỗi nhóm được hinh thành xung quanh một "tâm" đại diện.
+[103] Do vậy, nhiệm vụ chính của thuật toán là tìm ra các tâm đó
+[104] a)  Thuật toán tổng quát
+[105] Thuật toán K-means được dùng đề phân chia một tập hợp các đối tượng cho trước thành K cụm riêng biệt. Nguyên tắc cốt lõi của nó là có gắng làm giảm (tối thiểu hóa) tổng khoảng cách từ mỗi đối tượng đến tâm của cụm mà nó thuộc về
+[106] Quy trình của thuật toán có thể được mô tả gồm các bước chính sau:
+[107] Bước 0. Biều diễn dữ liệu.
+[108] Tương tự như bài toán phân loại, mỗi đối tượng trong tập dữ liệu được chuyến đổi thành một vector đặc trưng. Điều này đặt mỗi đối tượng như một điểm trong một không gian đa chiều.
+[109] Bước 1. Khởi tạo các tâm cụm.
+[110] Đầu tiên, chọn một số nguyên dương K là số lượng cụm mà chúng ta muốn xác định. Sau đó, khởi tạo K điểm làm "tâm cụm" ban đầu. Cách đơn giản nhất là chọn ngẫu nhiên K điểm từ chính tập dữ liệu đang có.
+[111] Bước 2. Gán các điểm vào cụm gần nhất.
+[112] Với mỗi điểm dữ liệu, tính khoảng cách từ nó đến K tâm cụm. Sau đó, gán điểm dữ liệu đó vào cụm có tâm gần nó nhất.
+[113] Bước 3. Cập nhật lại các tâm cụm.
+[114] Sau khi đã gán tất cả các điểm vào các cụm, tính toán lại vị trí mới cho mỗi tâm cụm. Vị trí mới của một tâm cụm chính là trung binh cộng toạ độ của tất cả các điểm dữ liệu thuộc về cụm đó.
+[115] Bước 4. Lặp lại cho đến khi hội tụ.
+[116] Chương trình sẽ liên tục thực hiện lặp lại Bước 2 và Bước 3, cho đến khi việc phân cụm được ổn định - nghĩa là các tâm cụm không còn thay đổi vị trí một cách đáng kể hoặc các điểm dữ liệu không còn bị di chuyển sang cụm khác. Tại thời điểm đó, nhiệm vụ xác định ra K cụm cuối cùng đã hoàn tắt.
+[117] b)  Ví dụ minh hoa
+[118] Một mạng xã hội muốn cải thiện trải nghiệm người dùng bằng cách cá nhân hoá Bảng tin của họ. Thay vi hiển thị nội dung một cách chung chung, nhà phát triển muốn hiểu rõ sở thích của mỗi người dùng để ưu tiên hiển thị những thứ mà họ
+[119] thực sự quan tâm. Hệ thống không có sẵn các nhãn như "người dùng này thích đọc tin tức" hay "người dùng này thích đọc truyện cười", mà muốn AI tự khám phá ra các nhóm người dùng đó.
+[120] Để có thể phân tích, hệ thống AI đánh giá mỗi người dùng dựa trên hai tiêu chí về hành vi tương tác của họ trên nền tảng: ti lệ tương tác với các nội dung giả
+[121] trị (bao gồm lượt thích, bình luận, chia sẻ các video hài hước, ca nhạc, nội dung về trò chơi,...) và tỉ lệ tương tác với các nội dung tin tức - kiến thức (bao gồm tương tác với các bài báo, bài phân tích, nội dung khoa học, bài viết hướng dẫn kì năng,...). Theo cách đó, hệ thống có thể biểu diễn mỗi người dùng thành một điểm trên bản đồ "khẩu vị nội dung".
+[122] Giả sử rằng hệ thống AI được yêu cầu phân loại người dùng thành bốn nhóm.
+[123] Khi đó, nó sẽ thực hiện việc lựa chọn ngẫu nhiên các tâm ban đầu rồi dần điều chinh như minh hoa dưới đây.
+[124] 1 18 tương tác nội dung Tin tức - Kiến thức
+[125] Tỉ lệ tương tác nội dung "Tin tức - Kiến thức"
+[126] Tỉ% tương lắc nội đưng "Giải trí
+[127] Ti lệ tương lác nội cung "Giai trí
+[128] Bước 1. Khởi tạo 4 tâm cụm
+[129] ngẫu nhiên
+[130] Bước 2. Các điểm được gán màu
+[131] (chia cụm) lần đầu
+[132] Tỉ lệ tương tác nội dung "Tin tức - Kiến thức"
+[133] Tỉ tường sáo nội dứng "ia tn
+[134] Tỉ lệ tương tác nội dung "Giải trí"
+[135] Bước 3. Tâm cụm tiếp tục di chuyển
+[136] Bước 4. Tâm cụm tiếp tục di chuyển
+[137] Bước 5. Thuật toán hội tụ - Các cụm đã ổn định
+[138] Sau khi có kết quả phân cụm, nhà phát hành mạng xã hội sẽ cần diễn giải kết quả để ứng dụng. Chẳng hạn, đánh giá những người dùng theo bốn nhóm tương ứng với bốn cụm đó, là:
+[139] Nhóm 1 (màu vàng): những người dùng chủ yếu lướt mạng xã hội để thư giãn,
+[140] xem video giải trí. Hệ thống có thể gọi đây là nhóm "khán giả giải trí" và vu tiên hiển thị các nội dung vui vẻ, bắt xu hướng trên bảng tin của họ.
+[141] Nhóm 2 (màu tim): những người dùng sử dụng mạng xã hội như một kênh
+[142] cập nhật thông tin, đọc tin tức, theo dõi các trang kiến thức. Hệ thống có thể định danh họ là nhóm "độc già tin tức" và sẽ đề xuất cho họ các bài báo, các trang tin uy tín.
+[143] Nhóm 3 (màu xanh dương): những người dùng đa năng, vừa thích giải trí vừa
+[144] muốn cập nhật thông tin. Có thể xem họ là nhóm "người dùng toàn diện" và bảng tin của họ sẽ là sự kết hợp cân bằng giữa hai loại nội dung.
+[145] Nhóm 4 (màu xanh lá): đây có thể là những người dùng mới hoặc ít hoạt động.
+[146] Hệ thống có thể ghi nhận đây là nhóm "cần kích hoạt tương tác" và cần thêm thử nghiệm hiển thị nhiều loại nội dung đa dạng để tìm ra sở thích của họ.
+[147] c) Một số luu ý quan trọng - Giá trị K ban đầu có ý nghĩa quyết định chất lượng phân cụm. Đây là một
+[148] tham số phải do con người quyết định từ trước. Nêu chọn K quá nhỏ, các nhóm
+[149] có đặc tính khác biệt có thể bị gộp chung vào một cụm. Ngược lại, nếu chọn K quá lớn, một nhóm tự nhiên có thể bị xé nhỏ thành nhiều cụm không có ý nghĩa Trong thực tế, có nhiều phương pháp khác nhau để tìm ra một số K hợp lí nhất cho bộ dữ liệu.
+[150] Tương tự KNN, K-means cũng rất nhạy cảm với thang đo của dữ liệu. Do đó
+[151] một bước xử lí cực kì quan trọng là chuẩn hóa dữ liệu để đưa tất cả các tiêu chí về chung một thang đo, đảm bảo sự công bằng
+[152] Kết quả của thuật toán phụ thuộc vào vị trí khởi tạo của các tâm cụm. Vì các
+[153] tâm ban đầu được chọn ngẫu nhiên, nên việc chạy thuật toán nhiều lần với các điểm khởi tạo khác nhau có thể cho ra các kết quả phân cụm khác nhau. Để
+[154] C
+[155] giải quyết vấn đề này, các thu viện lập trình thường sẽ tự động chạy thuật toán nhiều lần với các bò tâm khởi tạo khác nhau rồi cuối cùng chỉ giữ lại kết quả phân cụm tốt nhất (kết quả có tổng khoảng cách từ các điểm đến tàm cụm của chúng là nhỏ nhất).
+[156] Vì K-means là một thuật toán học không giám sát, nên nó chỉ có khả năng gom
+[157] các điểm dữ liệu lại thành các cụm mà không hề biết ý nghĩa của chúng. Sau khi thuật toàn chạy xong, người phân tích phải xem xét các đặc điểm của từng cụm để diễn giải và có thể đặt tên cho chúng.
+[158] Thuật toán K-means hoạt động dựa trên nguyên tắc tìm ra K tâm cụm và gom các điểm dữ liệu vào cụm có tâm gần nó nhất, theo quy trình lặp đi lặp lại hai bước:
+[159] (1) Gán điểm vào cụm và (2) Cập nhật lại tâm cụm, cho đến khi các cụm trở nên ổn định.
+[160] Chất lượng phân cụm phụ thuộc nhiều vào các yếu tố cài đặt, bao gồm việc chuẩn hóa dữ liệu và lựa chọn số K ban đầu.
+[161] ✏️
+[162] LUYỆN TẬP
+[163] 1.  Sự khác biệt cơ bản nhất giữa bài toán phân loại và bài toán phân cụm là gì?
+[164] A. Phân loại dùng cho dữ liệu dạng số, còn phân cụm dùng cho dữ liệu dạng
+[165] văn bản.
+[166] B. Phân loại sắp xếp dữ liệu vào các nhóm đã được định nghĩa trước, còn
+[167] phân cụm tự khám phá ra các nhóm chưa từng được biết đến.
+[168] C. Phận loại luôn chia dữ liệu thành hai nhóm, còn phân cụm có thể chia thành
+[169] nhiều nhóm.
+[170] D. Phân cụm là một trường hợp đặc biệt của bài toán phân loại, nơi số lượng
+[171] nhóm chưa đươc biết trước.
+[172] 2.  Thuật toán KNN hoạt động dựa trên nguyên tắc nào sau đây?
+[173] A. Tìm ra các tâm đại diện cho mỗi nhóm.
+[174] B. Xây dựng một cây gồm nhiều câu hỏi đúng/sai.
+[175] C. Một đối tượng mới sẽ được gán nhãn theo nhóm đa số của các láng giềng
+[176] gần nó nhất.
+[177] D. Tinh toán xác suất để một đối tượng thuộc về một nhóm nào đó.
+[178] 3. Quá trình hoạt động của thuật toán K-means là một vòng lặp gồm hai bước chính nào?
+[179] A. (1) Chọn số K và (2) Chuẩn hoá dữ liệu.
+[180] B. (1) Gán các điểm dữ liệu vào tâm cụm gần nhất và (2) Cập nhật lại vị trí của
+[181] các tâm cụm.
+[182] C. (1) Tỉnh khoảng cách và (2) Bỏ phiếu theo phe đa số.
+[183] D. (1) Khởi tạo ngẫu nhiên và (2) Diễn giải ý nghĩa của các cụm.
+[184] 4. Tại sao việc chuẩn hóa dữ liệu (đưa các tiêu chí về chung một thang đo) lại là một bước xử lí quan trọng đối với cả hai thuật toán KNN và K-means?
+[185] A. VI nếu không chuẩn hóa, thuật toán sẽ chạy rất chậm.
+[186] B. Vì nếu không chuẩn hóa, tiêu chị có thang đo lớn hơn có thể lấn át các
+[187] tiêu chí khác và ảnh hưởng đến kết quả tính khoảng cách.
+[188] C. Vì thuật toán chỉ hoạt động với các số trong khoảng từ 0 đến 1.
+[189] D. Vì việc chuẩn hóa giúp máy tính dễ dàng lưu trữ dữ liệu hơn.
+[190] 5 Một cưa gà ư n g s n ghi kh c c hoa ea mở
+[191] a) Cửa hàng có sẵn dữ liệu của các khách hàng cũ và đã phân họ thành hai nhóm là "Khách hàng ưu tiên" và "Khách hàng tiêu chuẩn". Khi có một khách hàng mới, họ muốn hệ thống xác định xem khách hàng này có khả năng thuộc
+[192] b) Cửa hàng muốn khám phá xem trong toàn bộ tập khách hàng của mình đang có những nhóm hành vi mua sắm nào (ví dụ: nhóm chỉ mua đồ giảm giá, nhóm chuyên mua các mẫu hàng mới ra mắt,....) mà họ chưa từng biết đến trước đây.
+[193] 🚀
+[194] VẬN DỤNG
+[195] 1. Phân tích ý nghĩa của giá trị tham số K trong hai thuật toán KNN và K-means và lí giải vì sao nó quan trọng đối với chất lượng và hiệu quả của hai thuật toán.
+[196] 2. Kể tên ba chức năng AI mà em thường sử dụng. Với mỗi chức năng, hãy mô tả cách nó hoạt động, xem xét nó có liên quan tới bài toán phân loại hay phân cụm và giải thích tại sao một trong hai thuật toán KNN hoặc K-means sẽ phù hợp
+[197] hơn để giải quyết vấn đề đó.
+[198] A
+[199] dc
+
+=== 11: bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon - Bài 7. Đạo đức, pháp luật và văn hóa trong sử dụng mô hình ngôn ngữ lớn ===
+
+[1] Chủ đề 3. Đạo đức và trách nhiệm khi sử dụng AI
+[2] Bài 7. Đạo đức, pháp luật và văn hóa trong sử dụng mô hình ngôn ngữ lớn
+[3] 📄 Trang sách gốc: 61 – 65
+[4] 📖 Xem bản in gốc
+[5] CHỦ ĐẾ 3. ĐẠO ĐỨC VÀ TRÁCH NHIỆM KHI SỬ DỤNG AI BÃI 2. ĐẠO ĐỨC, PHÁP LUẬT VÀ VĂN HOA TRONG SỬ DỤNG MÔ HÌNH NGÔN NGỮ LỚN
+[6] MUC TIEU
+[7] Sau bài học này, em sẽ:
+[8] • Nhận biết được các nguyên lắc: an toàn, công bằng, minh bạch, bảo vệ dữ liệu.
+[9] • Giải thích được vai trò và trách nhiệm của cả người dùng và nhà phát triển trong hệ sinh thái AI.
+[10] • Giải thích được vấn đề đạo đức và bản quyền khi dùng AI tạo ảnh, video.
+[11] 💡
+[12] KHỞI ĐỘNG
+[13] Hà và Hùng cần viết phần giới thiệu cho trang web của trường. Hà sử dụng LLM và nhập prompt "Viết đoạn giới thiệu về trưởng Trung học phổ thông Minh Khai,
+[14] nhấn mạnh vào thành tích học tập và hoạt động ngoại khoa." Chỉ sau vài giây, Hà nhận được đoạn văn rất hay. Tuy nhiên, đoạn văn có một số thông tin không đúng như số lượng huy chương đạt được hoặc tên một số câu lạc bộ của trường. Hà đã sửa lại để tránh lan truyền thóng tin sai. Hùng cũng lưu
+[15] ý răng cần ghi rõ đoạn văn được hỗ trợ bởi AI để đàm bảo minh bạch.
+[16] Em hãy cho biết:
+[17] 1. Hà đã gặp vấn đề gì khi sử dụng mô hình ngôn ngữ lớn để hỗ trợ công việc?
+[18] 2. Vì sao Hà và người phát triển công cụ AI đều cần có trách nhiệm khi sử dụng và cung cấp mô hình?
+[19] 🔍
+[20] KHÁM PHÁ
+[21] 1.  Đạo đức, pháp luật và văn hóa khi sử dụng mô hình ngôn ngữ lớn
+[22] Trong tình huống ở phần Khởi động, kết quả mà LLM tạo ra chứa thông tin không chính xác và Hà đã phải sửa lại để tránh lan truyền thông tin sai sự thật. Hùng cũng nhắc nhở Hà ghi rõ đã sử dụng AI khi viết. Đây là những vấn đề liên quan đến đạo đức khi sử dụng LLM.
+[23] Khi sử dụng LLM. em cần chú ý một số nguyên tắc cần tuân thủ về đạo đức.
+[24] pháp luật và văn hóa như sau:
+[25] An toàn: Không sử dụng LLM để tạo ra những nội dung độc hại, sai lệch.
+[26] Ví dụ: Không sử dụng LLM để tạo bài viết, ảnh hay video có nội dung bạo lực.
+[27] - Công bằng: Đảm bảo tính khách quan trong kết quả từ LLM, không có sự
+[28] phân biệt đối xử dựa trên tôn giáo, giới tính, chủng tộc,...
+[29] Ví dụ: Khi được hòi về nghề nghiệp, LLM có xu hướng liên kết kĩ sư với nam giới, y tá với nữ giới, phản ánh định kiến về giới tính.
+[30] Minh bạch: Nếu sử dụng LLM trong học tập hay công việc, cần cung cấp đầy đủ
+[31] thông tin một cách trung thực.
+[32] Ví dụ: Khi sử dụng ảnh do LLM tạo, cần nêu rõ ảnh được tạo bởi LLM.
+[33] Bảo vệ dữ liệu: Kết quả do LLM tạo ra không chứa các thông tin cả nhân. Không
+[34] sử dụng LLM để tìm kiếm các thông tin cá nhân của người khác.
+[35] Ví dụ: Câu trả lời của LLM không được chứa thông tin cá nhân như: họ và tên,
+[36] địa chỉ, tài khoản ngân hàng,....
+[37] An toàn Công bằng
+[38] Đạo đức, Pháp luật,
+[39] Văn hoa
+[40] Minh bạch Bảo vệ dữ liệu
+[41] 🖼️ Minh họa trong sách
+[42] Hình 7.1. Nguyên tắc đạo đức, pháp luật và văn hóa khi sử dụng LLM
+[43] Khi ứng dụng mô hình ngôn ngữ lớn, cần quan tâm đến các yếu tố đạo đức, pháp luật và văn hóa, đảm bảo
+[44] các nguyên tắc về an toàn, công bằng, minh bạch và bảo vệ dữ liệu.
+[45] 2. Vai trò và trách nhiệm của người dùng và nhà phát triển trong hệ sinh thái AI
+[46] Qua tình huống trong phần Khởi động, Hà đã phải kiểm tra lại và chỉnh sửa, đồng thời ghi rõ việc minh đã sử dụng AI. Với vai trò là người dùng, em cần sử dụng AI một cách thận trọng, kiểm tra thông tin trước khi chia sẻ và tôn trọng quyền riêng tư của bản thân và người khác. Nhà phát triển (bên cung cấp dịch vụ về AI) có trách nhiệm xây dựng hệ thống an toàn, công bằng và minh bạch, giúp người dùng biết cách sử dụng đúng.
+[47] 60
+[48] Trong hệ sinh thái AI chỉ có bên cung cấp và người dùng, không có bộ phận "kiểm duyệt". Do đó, AI hoàn toàn có thể đưa ra các thông tin sai, lỗi thời hoặc gây
+[49] định kiến xã hội,... Vì vậy cần nâng cao vai trò và trách nhiệm của người dùng cũng như của nhà phát triển để đảm bảo AI được sử dụng an toàn, chính xác, tôn trọng đạo đức và bảo vệ dữ liệu.
+[50] Người dùng và nhà phát triển cùng hợp tác sẽ giúp AI mang lại lợi ích và hạn chế rủi ro. Vai trò và trách nhiệm của cả hai bên trong hệ sinh thái AI được tổng hợp trong bảng sau:
+[51] Bảng 7.1. Vai trợ và trách nhiệm của người dùng và nhà phát triển trong hệ sinh thái AI
+[52] Người dùng Nhà phát triển
+[53] Vai trò
+[54] Thiết kế và xây dụng mô hình AI:
+[55] Đưa ra yêu cầu cho AI: để mô hình
+[56] xây dựng kiến trúc và huấn luyện.
+[57] - Vận hành, giám sát hệ thống AI:
+[58] xử lí và tạo kết quả.
+[59] Sử dụng kết quả từ mô hình AI: như
+[60] đảm bảo vận hành ổn định, an toàn và còng bằng.
+[61] văn bản, hình ảnh, video,...
+[62] Cung cắp phản hồi: giúp cải
+[63] Cung cấp hướng dẫn cho người dùng:
+[64] giúp người dùng hiểu rõ cách sử dụng và giới hạn của công nghệ.
+[65] mô hình (nếu cô cơ chế).
+[66] Trách nhiệm
+[67] An toàn và bảo mật: Thiết kế mô hình
+[68] giảm thiểu rủi ro, chống lạm dụng.
+[69] Sử dụng cô ý thức: Hiểu khả năng và
+[70] Công bằng: Đảm bảo khách quan trong
+[71] hạn chế của công cụ.
+[72] dữ liệu và mô hình.
+[73] Sử dụng có đạo đức: Tránh tạo hoặc
+[74] Minh bạch: Cung cấp thông tin về cách
+[75] lan truyên nội dung có hại, sai lệch, thiên vị.
+[76] mô hình hoạt động, dữ liệu huấn luyện, hạn chế (ờ mức độ phù hợp).
+[77] Bảo vệ dữ liệu: Cần trọng với thông tin
+[78] chia sẻ.
+[79] Giải trình được: Có cơ chế chịu trách
+[80] Tuần thủ quy định: Thực hiện đúng
+[81] nhiệm khi có sự cố hoặc hậu quả
+[82] pháp luật, điều khoản sử dụng, quy định của tổ chức.
+[83] Bảo vệ riêng tư: Tuân thủ các quy định
+[84] Học hỏi liên tục: Cập nhật kiến thức về
+[85] bảo vệ dữ liệu người dùng
+[86] công nghệ và rùi ro.
+[87] Nghiên cứu và đánh giá tác động:
+[88] Liên tục nghiên cứu các rủi ro tiềm ẩn
+[89] và tác động xã hội.
+[90] Người dùng cần sử dụng AI cần thận, kiểm tra thông tin và tôn trọng quyền riêng tư. Nhà phát triển có trách nhiệm xây dựng hệ thống an toàn và minh bạch. Khi cả hai bên cùng hợp tác, AI sẽ mang lại nhiều lợi ích và giảm thiểu rủi ro.
+[91] 3. Vấn đề đạo đức và bản quyền khi dùng AI tạo ảnh, video Mặc dù AI có thể tạo, chính sửa ảnh và tạo video nhưng em cần chú ý vấn đề đạo đức và bản quyền khi sử dụng những tinh năng này. Vấn đề bản quyền có thể liên quan đến ảnh, video được sử dụng trong quá trình huấn luyện hoặc sản phẩm có
+[92] AI tạo ra. Khả năng tạo ảnh và video của LLM cũng có thể bị lợi dụng vào những hành động vi phạm pháp luật và đạo đức.
+[93] a)  Bản quyền dữ liệu huấn luyện
+[94] Vấn để: Quá trình huấn luyện AI sử dụng một số lượng rất lớn hình ảnh, video từ Internet mà không có sự đồng ý rõ ràng của tác giả hình ảnh, video hoặc người trong ảnh, video.
+[95] Hậu quả: Xâm phạm quyền tác già của ảnh, video, vi phạm quyền hình ảnh của những người xuất hiện trong ảnh, video.
+[96] Ví dụ, AI sử dụng một bức ảnh trên Internet để huấn luyện mà không có sự đồng ý từ người đã chụp bức ảnh đó.
+[97] b) Bản quyền của sản phẩm do AI tạo ra Vấn đề: Ai sở hữu bản quyền của ảnh, video do AI tạo ra? Người viết prompt?
+[98] Công ty AI? Hay không ai cả?
+[99] Hậu quả: Khó khăn trong việc bảo vệ và thương mại hóa các tác phẩm do AI tạo ra.
+[100] Ví dụ, Mỹ hiện không cấp bản quyền cho tác phẩm hoàn toàn do AI tạo ra.
+[101] c)  Đạo đức và pháp luật khi sử dụng AI tạo ảnh và video
+[102] Vấn đề: AI có thể được sử dụng để tạo ảnh, video giả mạo.
+[103] Hậu quả: Lợi dụng AI để lừa đào, trả thù cá nhân và các hành vi vi phạm pháp luật khác.
+[104] Ví dụ, sử dụng Deepfake tạo cuộc gọi video để lừa đảo chuyển tiền.
+[105] Khi sử dụng AI, em cần chú ý đến vấn đề đao đức và bản quyền. Bản quyền của ảnh, video sử dụng cho huấn luyện AI và do AI tạo ra vẫn chưa được xác định rõ ràng.
+[106] Ngoài ra, AI còn có thể bị lợi dụng để tạo nội dung giả mao nhằm lừa đảo hoặc gây hại cho người khác.
+[107] ✏️
+[108] LUYỆN TẬP
+[109] 1.  Khi sử dụng LLM cần tuân thủ nguyên tắc nào sau đây?
+[110] A. Sáng tạo, trách nhiệm, chăm chỉ
+[111] B. Chỉ sử dụng LLM khi không thể tự giải quyết được vấn đề.
+[112] C. Không được sử dụng LLM cho các mục đích thương mại.
+[113] D. An toàn, công bằng, minh bạch, bảo vệ dữ liệu.
+[114] 2.  Nguyên tắc minh bạch trong việc sử dụng LLM yêu cầu người dùng phải
+[115] A. giấu nguồn gốc của nội dung được tạo bởi LLM.
+[116] B. ghi rõ ràng nội dung có sự hỗ trợ của LLM.
+[117] C. chỉ sử dụng LLM trong môi trường bí mật.
+[118] D. xoá lịch sử sử dụng LLM sau mỗi lần dùng.
+[119] 3.  Nguyên tắc giải trình được khi phát triển AI là:
+[120] A. Đảm bảo khách quan trong dữ liệu và mô hình.
+[121] B. Cung cấp thông tin về cách mô hình hoạt động, dữ liệu huấn luyện, hạn chế.
+[122] C. Câu trả lời từ AI được thể hiện rõ quá trình suy luận, giúp người dùng dễ dàng
+[123] theo dõi và kiểm tra.
+[124] D. Có cơ chế chịu trách nhiệm khi có sự cố hoặc hậu quả tiêu cực.
+[125] 4.  Ví dụ nào sau đây là vi phạm bản quyền trong huấn luyện AI?
+[126] A. Dùng nhiều ảnh vẽ tay để tạo video hoạt hình bằng công cụ AI.
+[127] B. Dùng ảnh từ Internet để huấn luyện mà chưa được sự cho phép.
+[128] C. Sử dụng ảnh ở định dạng PNG và JPEG để huấn luyện.
+[129] D. Sử dụng ảnh tạo bởi AI để làm video bằng một công cụ AI khác.
+[130] 🚀
+[131] VẬN DỤNG
+[132] Khi sử dụng ChatGPT, trong một số trường hợp, ChatGPT trả về hai kết quả và yêu cầu người dùng chọn kết quả phù hợp.
+[133] A
+[134] Cơ chế này cho phép người dùng thể hiện vai trò nào?
+
+=== 12: bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai - Bài 8. Giá trị con người trong kỉ nguyên AI ===
+
+[1] Chủ đề 3. Đạo đức và trách nhiệm khi sử dụng AI
+[2] Bài 8. Giá trị con người trong kỉ nguyên AI
+[3] 📄 Trang sách gốc: 66 – 71
+[4] 📖 Xem bản in gốc
+[5] TRONG KỈ NGUYÊN ẠI
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Trình bày được những giá trị cốt lỗi tạo nên sự khác biệt giữa con người với AI.
+[10] Phân tích và nêu được một số ví dụ về hạn chế của AI so với con người.
+[11] Nêu được một số hành động để phát huy giá trị của con người trong kỉ nguyên AI.
+[12] 💡
+[13] KHỞI ĐỘNG
+[14] Ngày nay, với sự phát triển vượt bậc của công nghệ, AI đã có thể viết văn, giải toán, vẽ tranh, chơi cờ, điều khiển xe tự lái, thậm chí có khả năng giành được thành tích cao ở những đấu trường trí tuệ hàng đầu thế giới. Những khả năng đó
+[15] đặt ra câu hỏi: nếu máy móc đã tài giỏi đến vậy, con người còn giữ ưu thế nào?
+[16] Điều gì khiến chúng ta vẫn khác biệt và không thể bị thay thế trong xã hội hiện đại?
+[17] 🖼️ Minh họa trong sách
+[18] Hình 8 1
+[19] 🔍
+[20] KHÁM PHÁ
+[21] 1.  Giá trị cốt lõi tạo nên sự khác biệt giữa con người với AI
+[22] Việc AI ngày càng chứng tỏ khả năng vượt trội trong nhiều lĩnh vực khiến chúng ta phải đặt ra câu hỏi quan trọng: "Đâu là giá trị khác biệt và không thể thay thế của con người?". Rõ rảng, câu trả lời không phải là việc cạnh tranh về tốc độ hay hiệu suất. Thay vào đó, sự khác biệt nằm ở chính những phẩm chất và năng lực
+[23] cốt lõi làm nên bản sắc của chúng ta - những giá trị mà không một cỗ máy nào có thể sở hữu một cách đích thực.
+[24] Theo nội dung Chương trình Giáo dục phổ thông năm 2018, học sinh cần hình thành và phát triển năm phẩm chất chủ yếu: yêu nước, nhân ái, chăm chì, trung thực, trách nhiệm; ba năng lực chung: năng lực tự chủ và tự học, năng lực giao tiếp và hợp tác, năng lực giải quyết vấn đề và sáng tạo; bày năng lực đặc thù:
+[25] năng lực ngôn ngữ, năng lực tính toán, năng lực khoa học, năng lực công nghệ, năng lực tin học, năng lực thẩm mĩ, năng lực thể chất. Những phẩm chất và năng
+[26] lực đó không chỉ là mục tiêu học tập, mà còn là "tấm bản đồ" giúp chúng ta nhận dạng và khẳng định giá trị riêng của mình.
+[27] Thảo luận: Em hãy thảo luận cùng các bạn trong lớp để xác định những phẩm chất và năng lực nào có thể là yếu tố thể hiện rõ nhất về sự khác biệt giữa con
+[28] Gợi ý các bước thực hiện:
+[29] Bước 1. Tra cứu Chương trình tổng thể - Chương trình Giáo dục phổ thông năm 2018 và đọc nội dung các phần 2, 3 - chương IX để hiểu rõ hơn các yêu cầu cần đạt về các phẩm chất và năng lực kể trên.
+[30] Bước 2. Thảo luận theo từng phẩm chất, năng lực. Với mỗi yếu tố, em có thể đặt câu hỏi: "AI có thể hình thành được phẩm chất năng lực đó hay không? Nếu có nó có thể đạt đến mức độ như thế nào? Bản chất của việc thực hiện đó ở con người và AI khác nhau ra sao?"
+[31] Bước 3. Tổng hợp kết quả thảo luận để đưa ra câu trả lời chung.
+[32] Câu hỏi sau thảo luận:
+[33] Từ kết quả thu được, theo em, AI có những điểm hạn chế gì so với con người?
+[34] Phẩm chất là nền tảng đạo đức khiến con người khác biệt hoàn toàn với máy móc. Các năng lực chung chính là thế mạnh mà em cần mài giữa để giữ vai trò dẫn dắt và giải quyết những vấn đề phức tạp. Cuối cùng, với
+[35] những năng lực đặc thù, em hãy học cách làm chủ AI và biến nó thành công cụ đắc lực để vượt qua giới hạn của
+[36] 64 65
+[37] 2.  AI chi là công cụ, vai trò quan trọng vẫn nắm ở con người
+[38] Mỗi công cụ khi ra đời không tự nó tốt hay xấu, mà giá trị của nó được quyết định bỏi người sử dụng. AI cũng không ngoại lệ. Thay vì chi hỏi "Ai có thể làm gì?", em cân chú ý
+[39] đến câu hỏi quan trọng hơn là "Em sẽ sử dụng AI để làm g1?". Chính những lựa chọn và hành động của em sẽ định hình tác động của Ai lên thế giới.
+[40] Con người quyết định. "dữ liệu đầu vào" cho AI:
+[41] AI học hỏi từ dữ liệu mà chúng ta cung cấp. Nếu con người đưa vào những dữ liệu công bằng, đa dạng và nhân văn, AI sẽ trở thành một công cụ hỗ trợ hiệu quả. Ngược lại, nếu
+[42] chúng ta "dạy" AI bằng những dữ liệu chứa định kiến về giới tính, chủng tộc hay vùng miền, AI sẽ khuếch đại những định kiến đó, tạo ra sự bất công trong xã hội. Trách nhiệm
+[43] lựa chọn và làm sach dữ liệu hoàn toàn thuộc về con người.
+[44] Con người quyết định "mục địch sử dụng" AI:
+[45] Cùng một công nghệ AI, con người có thể chọn sử dụng nó để phục vụ những mục địch rất khác nhau. Chúng ta có thể dùng AI để phân tích ảnh vệ tinh nhằm phát hiện sớm cháy rừng và bảo vệ môi trường. Nhưng chúng ta cũng có thể dùng nó để tạo ra các video giá mạo (deepfake) nhằm bôi nhọ danh dự người khác. Việc lựa chọn mục đích sử dụng mội
+[46] cách có đạo đức chinh là vai trò không thể thay thể của con người.
+[47] Con người thiết lập "giới hạn và quy tắc" cho AI:
+[48] AI không có khả năng tự nhận thức về ranh giới đạo đức. Chính con người phải thiết lập các quy tắc và giới hạn an toàn cho nó. Khi một chiếc xe tự lái gặp tình huống nguy cấp.
+[49] người lập trình phải quyết định nó sẽ ưu tiên bảo vệ ai. Khi một hệ thống AI được dùng trong y tế, các bác sĩ và nhà quản lí phải đảm bảo nó tuân thù các quy tắc về quyền riêng tư của bệnh nhán. Con người không chỉ tạo ra AI, mà còn phải chịu trách nhiệm giám sát và kiểm soát nó
+[50] Tương lai của AI không phải là một kịch bản được viết sản. Nó là một con đường đang được xây dựng và mỗi chúng ta đều là một người thợ kiến tạo. Việc trang bị kiến thức, kĩ
+[51] năng và một la bàn đạo đức vững chắc chính là cách để chúng ta đảm bảo AI phát triển vì lợi ích chung của nhân loại.
+[52] 🖼️ Minh họa trong sách
+[53] Hình 8.2
+[54] 66
+[55] 67
+[56] AI có thể mô phỏng trí thông minh, nhưng không thế thay thế nhân cách. Giá trị độc nhất của con người không nằm ở khả năng tỉnh toán, mà ở chiều sâu của cảm xúc.
+[57] sự sáng tạo từ trải nghiệm, lương trí đạo đức, bán sắc văn hóa và khát vọng sống có mục đích. Đày chính là những giá trị làm nên phẩm giá và vị thế làm chủ của
+[58] chúng ta trong kỉ nguyên số.
+[59] 3. Thảo luận về giữ gin giá trị của con người trong giáo dục, lao động và xã hội
+[60] Chủ đề thảo luận: Em hãy thảo luận cùng các bạn trong lớp đế xây dựng một "Kế hoạch hành động" nhằm phát huy giá trị con người trong ba lĩnh vực then chốt:
+[61] giáo dục, lao động và xã hội.
+[62] Gợi ý thực hiện:
+[63] Bước 1. Phân tích từ thực tế, em có thể bắt đầu từ việc trả lời các câu hỏi sau:
+[64] Trong các giờ học, em nên ưu tiên việc ghi nhớ kiến thức hay rèn luyện các kĩ năng như tư duy phản biện và hợp tác làm việc nhóm?
+[65] Các ngành nghề trong bối cảnh hiện nay đòi hỏi những phầm chất, năng lực nào của con người mà AI rất khó để làm tốt?
+[66] Chúng ta đang sử dụng mạng xã hội để kết nối hay đang để nó làm mình xa
+[67] cách với mọi người xung quanh?
+[68] Bước 2. Đặt ra các câu hỏi thực tiễn tương tự để thảo luận cùng các bạn trong lớp.
+[69] Bước 3. Dựa trên các phân tích ở trên, hãy đề xuất các hành động cụ thể, khả thi mà học sinh có thể thực hiện để phát huy giá trị con người trong kỉ nguyên AI.
+[70] Bước 4. Tổng hợp các ý kiến và trình bày chìa sẻ trước lớp.
+[71] ✏️
+[72] LUYỆN TẬP
+[73] 1.  Mỗi khẳng định sau đây đúng hay sai? Vì sao?
+[74] a) Giá trị lớn nhất của con người trong ki nguyên AI là khả năng tính toán nhanh và ghi nhớ nhiều thông tin hơn máy móc.
+[75] b) Lòng nhân ái và ý thức trách nhiệm là những phẩm chất mà AI không thể có được một cách đích thực.
+[76] c) Con người không cần cố gắng phát triển các năng lực đặc thù như tin học, công nghệ vì không thể cạnh tranh với AI.
+[77] d) Con người phải chịu trách nhiệm cuối cùng cho các quyết định và hành động của AI, vì AI chỉ là công cụ do con người tạo ra và kiểm soát.
+[78] e) Mọi quyết định do AI đưa ra đều khách quan và công bằng hơn con người vi nó không bị chi phối bởi cảm xúc.
+[79] f) Mục tiêu của giáo dực trong kỉ nguyên AI là tập trung hoàn toàn vào việc rèn luyện các kĩ năng công nghệ để cạnh tranh với máy móc.
+[80] 2. Có ý kiến cho rằng "AI có thể học được lòng nhân ái bằng cách phân tích hàng triệu hành động giúp đỡ người khác và bắt chước theo". Em có đồng tình với ý kiến đó không? Vì sao?
+[81] 🚀
+[82] VẬN DỤNG
+[83] Trình bày quan điểm của em về câu hỏi:
+[84] " Nếu một ngày AI làm hầu hết công việc, em muốn giữ lại điều gì để khẳng định
+[85] mình là con người?".
+[86] A
+[87] CHỦ ĐỀ 4. MÔ HÌNH NGÔN NGỮ LỚN
+[88] TRONG HỌC TẬP
+[89] ENGUSH
+
+=== 13: bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap - Bài 9. Mô hình ngôn ngữ lớn hỗ trợ học tập ===
+
+[1] Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập
+[2] Bài 9. Mô hình ngôn ngữ lớn hỗ trợ học tập
+[3] 📄 Trang sách gốc: 72 – 76
+[4] 📖 Xem bản in gốc
+[5] HỖ TRỢ HỌC TẬP
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Sử dụng được mô hình ngôn ngữ lớn (LLM) để tim hiểu, tóm tắt và đặt câu hỏi trong học tập.
+[10] Sử dụng được LLM để học từ, sửa lỗi, luyện ngữ pháp và hội thoại ngoại ngữ.
+[11] 💡
+[12] KHỞI ĐỘNG
+[13] Trong quá trình học, Bình gặp khó khăn khi đọc hiểu bài viết về Hội nghị Liên Hợp Quốc về Biến đổi Khí hậu (COP) bằng tiếng Anh. Bình đã yêu cầu ChatGPT giải thích từng
+[14] đoạn văn và tóm tắt bài viết. Ngoài ra, Bình cũng yêu cầu ChatGPT phân tích các cấu trúc ngữ pháp trong bài và giải nghĩa một số từ vựng khó kèm ví dụ minh hoạ. Nhờ vậy, Bình đã hiểu bài viết rõ ràng và sâu sắc hơn.
+[15] Em hãy cho biết:
+[16] 1. Bình đã sử dụng ChatGPT như thể nào để hiểu được nội dung bài viết bằng tiếng Anh?
+[17] 2.  Bình đã sử dụng ChatGPT như thế nào đề học ngữ pháp và từ vựng trong bài viết?
+[18] 🔍
+[19] KHÁM PHÁ
+[20] 1. Sử dụng được mô hình ngôn ngữ lớn để tìm hiểu, tóm tắt và đặt câu hỏi trong học tập
+[21] Trong phần Khởi động, Bình đã sử dụng ChatGPT để hỗ trợ đọc hiểu bài viết bằng tiếng Anh. Cụ thể, Bình yêu cầu tổng hợp nội dung chính, làm rõ ý nghĩa từng đoạn văn, qua đó nắm được thông tin quan trọng. Nhờ khả năng tóm tắt và diễn giải của LLM, Bình tiếp cận bài đọc dễ dàng và hiệu quả hơn.
+[22] 70
+[23] Trong quá trình học tập, em có thể sử dụng LLM như một công cụ hỗ trợ để tìm hiếu, tồng hợp thông tin và luyện tập.
+[24] a) Giài thích các khái niệm, thuật ngữ hoặc quá trình Cách dùng: Hỏi LLM để được giải thích khái niệm, thuật ngữ hoặc quả trình.
+[25] Ví dụ:
+[26] Hãy giải thích Định luật 2 Newton bắng ngôn ngữ đơn giản
+[27] Tóm tắt truyện Chiếc lược ngà.
+[28] b)  Luyện tập và kiểm tra kiến thức
+[29] Cách dùng: Nhờ LLM tạo câu hỏi trắc nghiệm, bài tập hoặc đưa ra đáp án để đối chiếu.
+[30] Ví dụ:
+[31] Tạo 5 câu hỏi trắc nghiệm liên quan đến Cách mạng tháng Tám năm 1945.
+[32] Giải và giải thích bài toán sau: Giải phương trình cos 2x - cos x = 0.
+[33] c)  Phát triển kĩ năng viết và tư duy phản biện
+[34] Cách dùng: Nhờ LLM góp ý bài viết, gợi ý dàn ý hoặc phản biện ý kiến.
+[35] Ví dụ:
+[36] Góp ý cho đoạn văn nghị luận xã hội về ý chi vượt khỏ.
+[37] Viết đoạn văn phản biện cho quan điểm: "Học trực tuyến không hiệu quả bằng
+[38] học trực tiếp".
+[39] Lưu ý khi sử dụng:
+[40] - Kiểm chứng thông tin: LLM đôi
+[41] khi có thể tạo ra thông tin sai lệch hoặc không chính xác, hiện tượng này được gọi là "bịa đặt".
+[42] Không nên lạm dụng: Cần tránh
+[43] lạm dụng LLM vì đây chỉ là công
+[44] cụ hỗ trợ, không thể thay thế cho tư duy độc lập và sự nỗ lực thực sự trong học tập.
+[45] Tôn trọng đạo đức học tập: Không
+[46] sử dụng LLM để gian lận trong Hình 9.1. Sử dụng LLM hỗ trợ học tập kiểm tra, thi cử
+[47] Mô hình ngôn ngữ lớn có thể được sử dụng để tìm hiểu, tóm tắt và đặt câu hỏi trong nhiều môn học khác nhau. Việc sử dụng LLM giúp chủ động thời gian và tăng hiệu quả học tập.
+[48] 2. Sử dụng mô hình ngôn ngữ lớn hỗ trợ học ngoại ngữ Ở phần Khởi động, Bình đã sử dụng ChatGPT để học ngữ pháp và từ vựng bằng
+[49] cách yêu cầu phân tích các cấu trúc ngữ pháp trong bài, đồng thời giải nghĩa từ vựng khó, đưa ra vỉ dụ minh họa để hiểu cách sử dụng từ trong ngữ cảnh. Nhờ đó, Bình nắm vững quy tắc ngữ pháp và ghi nhớ từ mới hiệu quả hơn.
+[50] Việc sử dụng LLM trong học ngoại ngữ mang lại nhiều tiện ích như: hỗ trợ học từ, sửa lỗi, luyện ngữ pháp và hội thoại. Em có thể yêu cầu LLM giải nghĩa từ vựng mới và đưa thêm các ví dụ để hiểu rõ hơn cách sử dụng. LLM cũng có thể hỗ trợ sửa các lỗi ngữ pháp, lỗi chính tả trong bài viết (ví dụ: IELTS writing).... khi được yêu cầu.
+[51] Ngoài ra, em cũng có thể giao tiếp với LLM để cải thiện khả năng hội thoại.
+[52] Học sinh có thể sử dụng LLM để hỗ trợ học nhiều ngôn ngữ với nội dung khác nhau vào bất kì thời gian nào và hoàn toàn miễn phí. Khi kết hợp đúng cách với các tài liệu từ giáo viên, LLM giúp nâng cao hiệu quả và trải nghiệm học ngoại ngữ
+[53] 🖼️ Minh họa trong sách
+[54] Hình 9.2. Sử dụng LLM hỗ trợ học ngoại ngữ
+[55] Mô hình ngôn ngữ lớn có thể được sử dụng để học từ vựng, sửa lỗi, luyện ngữ pháp và luyện giao tiếp. Việc sử dụng LLM giúp học sinh linh hoạt nội dung, thời gian học, nâng cao hiệu quả và trải nghiệm học ngoại ngữ.
+[56] 3.  Thực hành
+[57] (Hướng dẫn dưới đây sử dụng phần mềm ChatGPT.)
+[58] Nhiệm vụ 1: Sử dụng LLM tìm hiểu về khởi nghĩa Lam Sơn.
+[59] Hướng dẫn
+[60] Bước 1. Khởi động trình duyệt và truy cập trang web cia ChatGPT: https://chatgpt.com/.
+[61] Bước 2. Nhập prompt "Hãy tóm tắt bối cảnh lịch sử và diễn biến chinh của khởi nghĩa Lam Sơn".
+[62] Bước 3. Sao chép câu trả lời từ ChatGPT sang phần mềm soạn thảo văn bản.
+[63] Nhiệm vụ 2: Sử dụng LLM để học lừ vựng tiếng Anh.
+[64] Hướng dẫn
+[65] Bước 1. Khởi động trình duyệt và truy cập trang web của ChatGPT: https://chatgpt.com/
+[66] Bước 2. Nhập prompt: "Hãy giải thích nghĩa của các từ "emission", "balance", "Carbon" và "Methane" và cho ba ví dụ minh hoạ cho mỗi từ kèm theo giải thích chi tiết".
+[67] Bước 3. Sao chép câu trả lời từ ChatGPT sang phần mềm soạn thảo văn bản.
+[68] ✏️
+[69] LUYỆN TẬP
+[70] 1.  Mô hình ngôn ngữ lớn có thể hỗ trợ những nhiệm vụ nào sau đây trong học tập?
+[71] A. Vẽ bản đồ tư duy và học thuộc lòng.
+[72] B. Tăng cường khả năng tập trung và ghi nhớ của người học.
+[73] C. Vẽ tranh và sáng tác nhạc.
+[74] D. Tìm hiểu, tóm tắt và đặt câu hỏi.
+[75] 2.  LLM có thể áp dụng cho học môn ngoại ngữ nào sau đây?
+[76] A. Chỉ tiếng Anh.
+[77] B. Các loại ngôn ngữ phổ biến (Anh, Pháp, Tây Ban Nha,....).
+[78] C. Chỉ ngoại ngữ chuyên ngành.
+[79] D. Không áp dụng được.
+[80] 3.  LLM hỗ trợ người như thế nào trong việc học từ vựng?
+[81] A. Nhắc nhở người học ôn tập từ mới hằng ngày.
+[82] B. Giải nghĩa từ theo ngữ cảnh.
+[83] C. Chỉnh sửa lại cách phát âm cho người học.
+[84] D. Phát hiện từ mới trong đoạn văn do người dùng cung cấp.
+[85] 🚀
+[86] VẬN DỤNG
+[87] 1. Hãy sử dụng LLM để viết báo cáo môn Lịch sử về phong trào Tây Sơn. Nội dung báo cáo bao gồm bối cảnh lịch sử, diễn biến chính và ý nghĩa lịch sử của
+[88] 2. Sử dụng LLM, hãy tim ba từ đồng nghĩa với từ "balance", phân tích sự giống nhau và khác nhau giữa các từ này.
+
+=== 14: bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh - Bài 10. Mô hình ngôn ngữ lớn hỗ trợ học lập trình ===
+
+[1] Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập
+[2] Bài 10. Mô hình ngôn ngữ lớn hỗ trợ học lập trình
+[3] 📄 Trang sách gốc: 77 – 81
+[4] 📖 Xem bản in gốc
+[5] BÃI 10. MÔ HÌNH NGÔN NGỮ LỚN
+[6] HỒ TRỢ HỌC LẬP TRÌNH
+[7] 🎯
+[8] MỤC TIÊU
+[9] Sau bài học này, em sẽ:
+[10] Sử dụng được LLM để giải thích các đoạn mã (code) đơn giản (chằng hạn Python).
+[11] Viết được prompt để yêu cầu LLM sinh mã cho một bài toán cụ thể.
+[12] Sử dụng được LLM đề tìm và sửa lỗi trong các đoạn mã có lỗi cú pháp hoặc lỗi logic đơn giản.
+[13] 💡
+[14] KHỞI ĐỘNG
+[15] Minh yêu cầu ChatGPT: "Viết chương trình Python nhập từ bàn phím ba số thực a, b, c và tìm nghiệm của phương trình bậc hai: ax² + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh." Khi chạy thử, chương trình gặp lỗi, Minh lại yêu cầu ChatGPT tìm và sửa lỗi trong chương trình. Kết quả là Minh đã sao chép thiếu dấu ":" cho một câu lệnh điều kiện. ChatGPT đã phát hiện và sửa được lỗi này.
+[16] Em hãy cho biết:
+[17] 1.  Để viết chương trình giải phương trình bậc hai một ẩn Minh đã làm gì?
+[18] 2.  Khi chương trình gặp lỗi, Minh đã xử lí như thế nào?
+[19] 🔍
+[20] KHÁM PHÁ
+[21] 1.  Yêu cầu mô hình ngôn ngữ lớn lập trình
+[22] Để viết chương trình giải phương trình bậc hai, Minh đã nhập yêu cầu cụ thể cho ChatGPT, nêu rõ ngôn ngữ lập trình và nội dung cần làm. Qua đó, ta thấy khi viết prompt rõ ràng, đầy đủ và có mục tiêu cụ thể, LLM có thể tự động sinh mã theo yêu cầu. Chẳng hạn, prompt như sau:
+[23] 75 74
+[24] "Viết chương trình Python xác định một số có phải là số nguyên tố hay không và in kết quả ra màn hình."
+[25] Hiện nay, có nhiều LLM hỗ trợ lập trình như ChatGPT, Gemini hay Github Copilot,... (Hình 10.1). Khi sử dụng LLM trong lập trình, em cần xác định rõ ngôn ngữ lập trình, bài toán cần thực hiện với các bước cụ thể. Viết prompt chi tiết giúp LLM hiểu đúng yêu cầu, tiết kiệm thời gian và nâng cao hiệu quả mã.
+[26] Chat GPT Gemini Llama Claude Github Copilot
+[27] 🖼️ Minh họa trong sách
+[28] Hình 10.1. Một số mô hình ngôn ngữ lớn hỗ trợ lập trình
+[29] Tuy nhiên, mã do LLM sinh ra cũng có thể có lỗi hoặc chưa tối ưu. Vì vậy, em không chỉ sao chép mà cần hiểu được mã. Qua đó, em có thể chạy thử, kiểm lỗi và cải tiến nếu cần thiết.
+[30] Mô hình ngôn ngữ lớn có thể sinh mã (code) cho một
+[31] bài toán cụ thể. Viết prompt yêu cầu LLM sinh mã cần nêu rõ ngôn ngữ lập trình và bài toán cần thực hiện.
+[32] 2.  Sử dụng mô hình ngôn ngữ lớn để giãi thích chương trình
+[33] Ngoài yêu cầu lập trình, Minh còn yêu cầu ChatGPT giải thích rõ từng câu lệnh.
+[34] Việc này giúp Minh có thể hiểu đoạn mã được sinh ra dễ dàng hơn.
+[35] Các mô hình ngôn ngữ lớn có thể phân tích và giải thích các đoạn mã do chính nó tạo ra hoặc do người dùng cung cấp. Việc sử dụng LLM giải thích mã giúp em hiểu rõ cách hoạt động và học lập trình hiệu quả hơn, chẳng hạn sử dụng prompt
+[36] "giải thích từng dòng lệnh của chương trình ..." để có thể giải thích các dòng lệnh tương tự như Hình 10.2.
+[37] numbers = [1, 2, 3]
+[38] Khởi tạo một danh sách chứa ba số nguyên là 1, 2, và 3.
+[39] total = sum(numbers)
+[40] Dùng hàm sum() để tính tổng tất cả phần tử trong danh sách; kết quả ở đây là 6
+[41] Python / Code  Sao chép
+[42] print(total)
+[43] In ra màn hình giá trị đã tính, tức là 6.
+[44] 🖼️ Minh họa trong sách
+[45] Hình 10.2. Sử dựng LLM đề giải thích chương trình
+[46] Tuy nhiên, LLM chỉ là một công cụ hỗ trợ, không thể thay thế tài liệu học. Em cần kết
+[47] hợp thêm với các nguồn tài liệu chính thống như W3Schools, MDN, Python Docs,..
+[48] 76
+[49] Mô hình ngôn ngữ lớn có thể phân tích và giải thích các câu lệnh trong chương trình. Nhờ đó, giúp ta hiểu rõ cách hoạt động và học
+[50] lập trình dễ hơn.
+[51] 3.  Sử dụng mô hình ngôn ngữ lớn tìm và sửa lỗi chương trình
+[52] Trong tình huống Khởi động, khi chương trình gặp lỗi, Minh tiếp tục sử dụng ChatGPT để tìm và sửa lỗi. Sử dụng LLM đề lim và sửa các lỗi cú pháp hoặc lỗi logic đơn giản giúp việc kiểm thử và gỡ lỗi chương trình được thực hiện tự động, nhanh chóng và dễ dàng
+[53] Trong quá trình sửa lỗi bằng LLM, em cũng có thể học cách sửa lỗi và cải tiến chương trình bằng cách yêu cầu LLM giải thích chi tiết lỗi và cách sửa hay đề xuất phương án cải tiến.
+[54] Ví dụ như Tại sao chương trình bị lỗi? hay Có cách nào viết mã tốt hơn không?.
+[55] 🖼️ Minh họa trong sách
+[56] Hình 10.3. Kiểm thử và gỡ lỗi khi lập trình
+[57] Mô hình ngôn ngữ lớn có thể tự động phát hiện và sửa các lỗi đơn giản trong chương trình, giúp giảm thời gian, công sức kiểm thử và gỡ lỗi.
+[58] Một số nguyên tắc khi sử dựng AI tạo sinh trong học lập trình được tống hợp trong bảng sau:
+[59] Bảng 10.1. Nguyên tắc sử dụng AI tạo sinh trong học lập trình
+[60] Nguyên tác
+[61] Vân đề
+[62] Hành động
+[63] Hiểu, không sao chép
+[64] Người học cần hiểu từng
+[65] Yêu cầu LLM giải thích từng
+[66] dòng lệnh, không chỉ sao chép mã của AI,
+[67] dòng lệnh.
+[68] Kiểm tra kĩ
+[69] Mã tạo bởi LLM có thể sai hoặc chưa tối ưu.
+[70] Chạy thử, kiểm lỗi, thêm điều kiện kiểm tra.
+[71] kết quả
+[72] Đặt câu hỏi cụ thể
+[73] Câu hỏi càng rõ ràng, mã trả về càng đúng ý.
+[74] Nêu rõ yêu cầu: ngôn ngữ, đầu vào, đầu ra, giới hạn,...
+[75] Kết hợp tài liệu
+[76] Tra cứu thêm trên
+[77] LLM chỉ là công cụ, không thể thay thế tài liệu học.
+[78] W3Schools, MDN, Python
+[79] chính thống
+[80] Docs,....
+[81] Học qua sửa lỗi và
+[82] Hỏi: "Tại sao chương trình bị
+[83] LLM có thể hỗ trợ hiểu lỗi và
+[84] lỗi?", "Có cách nào viết mã
+[85] giải thích
+[86] hướng dẫn cách sửa.
+[87] tốt hơn không?".
+[88] 4.  Thực hành
+[89] (Hướng dẫn dưới đây sử dụng phần mềm ChatGPT.)
+[90] Nhiệm vụ 1: Viết prompt yêu cầu LLM sinh mã Python giải phương trình bậc
+[91] hai một ẩn và giải thích chi tiết.
+[92] Hướng dẫn
+[93] Bước 1. Khởi động trình duyệt và truy cập trang web của ChatGPT: https://chatgpt.com/.
+[94] Bước 2. Nhập prompt "Viết chương trình Python nhập từ bàn phím ba số thực a, b, c và tìm nghiệm của phương trình bậc hai: ax² + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh.".
+[95] Bước 3. Đọc, hiểu chương trình thu được. Chạy thử chương trình trong một phần mềm lập trình (Visual Studio Code, PyCharm, Jupyter Notebook,...).
+[96] Nhiệm vụ 2: Sử dụng LLM để tìm và sửa lỗi cú pháp trong chương trình.
+[97] Hướng dẫn
+[98] Bước 1. Khởi động trình duyệt và truy cập trang web của ChatGPT: https://chatgpt.com/
+[99] Bước 2. Xóa hai dấu *:" bất kì trong chương trình thu được ở Nhiệm vụ 1.
+[100] Bước 3. Nhập prompt "Tìm và sửa lỗi chương trình sau:
+[101] ".
+[102] Bước 4. Kiểm tra hai dấu ":"' có được thêm lại vào chương trình hay không. Chạy thử chương trình thu được trong một phần mềm lập trình (Visual Studio Code, PyCharm, Jupyter Notebook,...).
+[103] ✏️
+[104] LUYỆN TẬP
+[105] 1.  Khi yêu cầu LLM lập trình, cần cung cấp những thông tin nào dưới đây?
+[106] A. Ngôn ngữ lập trình và bài toán cần thực hiện.
+[107] B. Lưu đồ thuật toán và bài toán cần thực hiện.
+[108] C. Tên các biến, các câu lệnh cần sử dụng và bài toán cần thực hiện.
+[109] D. Bài toán cần thực hiện.
+[110] 2.  Lợi ích của việc sử dụng LLM để giải thích chương trình là:
+[111] A. Giảm dung lượng bộ nhớ chứa chương trình.
+[112] B. Học sinh hiểu sâu hơn về cấu trúc chương trình.
+[113] C. Làm chương trình chạy nhanh hơn.
+[114] D. Làm bài kiểm tra thay người dùng.
+[115] 3.  Sử dụng LLM để sửa lỗi giúp tiết kiệm:
+[116] A. Dung lượng ổ cứng.
+[117] B. Thời gian và công sức kiểm thừ.
+[118] C. Tiền điện.
+[119] D. Dung lượng mạng.
+[120] 🚀
+[121] VẬN DỤNG
+[122] 1. Sử dụng LLM để viết chương trình giải hệ phương trình bậc nhất hai ân. Các hệ số được nhập từ người dùng.
+[123] 2.  Sử dụng LLM giải thích chương trình thu được trong Vận dụng 1.
+
+=== 15: bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon - Bài 11. Tạo và sửa hình ảnh bằng mô hình ngôn ngữ lớn ===
+
+[1] Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập
+[2] Bài 11. Tạo và sửa hình ảnh bằng mô hình ngôn ngữ lớn
+[3] 📄 Trang sách gốc: 82 – 89
+[4] 📖 Xem bản in gốc
+[5] 🎯
+[6] MỤC TIÊU
+[7] Sau bài học này, em sẽ:
+[8] Sử dụng được từ khóa và prompt phủ định (negative prompt) để tạo ảnh.
+[9] Điều chỉnh được tỉ lệ khung hình và tham số để kiểm soát ảnh tạo ra.
+[10] Giải thích được cách tạo ảnh từ ảnh gốc và các kĩ thuật inpainting, outpainting.
+[11] Thực hiện được việc tạo và chỉnh sửa ảnh bằng các kĩ thuật đã học
+[12] 💡
+[13] KHỞI ĐỘNG
+[14] Thảo muốn tạo một hình ảnh có tỉ lệ khung hình 1:1 mô tả hệ Mặt Trời theo phong cách hiện thực với ánh sáng dịu nhẹ và góc nhìn rộng, không có chữ. Tuy nhiên, hình ảnh được tạo ra có nhiều hành tinh hơn thực tế. Thảo tải ảnh về và tiếp tục yêu cầu mô hình bỏ bớt một số hành tinh trong ảnh.
+[15] Em hãy cho biết:
+[16] 1.  Thảo đã đưa ra những yêu cầu nào khi tạo hình ảnh?
+[17] 2.  Khi ảnh chưa được như mong muốn, Thảo đã làm gì?
+[18] 🔍
+[19] KHÁM PHÁ
+[20] 1.  Sử dụng mô hình ngôn ngữ lớn để tạo ảnh
+[21] a)  Các tham số và từ khóa khi tạo ảnh
+[22] Khi tạo ảnh Thảo đã đưa ra các yêu cầu về tỉ lệ khung hình, phong cách, ánh sáng, góc nhìn. Các yếu tố này ảnh hưởng trực tiếp đến ảnh được tạo ra bởi LLM.
+[23] Ti lệ khung hình: là tỉ lệ giữa chiều rộng và chiều cao của khung hình. Tỉ lệ khung hình quyết định hình dạng khung ảnh, ngang, vuông, dọc. Lựa chọn tỉ lệ khung hình phụ thuộc vào mục đích, khung ngang giúp chứa nhiều chi tiết, tái tạo cảnh quan; khung vuông/dọc giúp tập trung vào chủ thể.
+[24] Phong cách: là cách thức thể hiện bức ảnh. Một số phong cách hình ảnh phổ biến như tranh sơn dầu (oil painting), màu nước (watercolor), phác thảo chì (pencil sketch),
+[25] hoạt hình (anime style), hiện thực (photorealistic), Van Gogh (Van Gogh style).....
+[26] Anh sáng: cách bố trí và điều chỉnh ánh sáng trong ảnh gồm nguồn sáng, cường độ, màu sắc, hướng chiếu sáng. Ánh sáng ảnh hường tới không khí và cảm xúc của bức ảnh (ấm áp, bí ẩn, vui vẻ,...).
+[27] Góc nhin: là hướng và vị trí của máy ảnh hoặc người vẽ so với chủ thể trong ảnh, gồm góc cao hoặc thấp, góc nghiêng hoặc thẳng, góc rộng hoặc hẹp.
+[28] Ngoài ra, còn có các tham số khác ảnh hưởng tới ảnh được tạo ra như mức độ nghệ thuật hoá (stylize), mức độ đa dạng/lạ (chaos),....
+[29] 🖼️ Minh họa trong sách
+[30] Ví dụ 1. Hình ảnh với các tỉ lệ khung hình khác nhau.
+[31] 🖼️ Minh họa trong sách
+[32] Hình 11.1a. Hình ảnh hê Mặt Tròi
+[33] được tạo bời công cụ AI với ti lệ
+[34] khung hình 1:1
+[35] 🖼️ Minh họa trong sách
+[36] Hình 11.1b. Hình ảnh hệ Mặt Trời
+[37] được tạo bởi công cụ AI với tỉ lệ
+[38] khung hình 9:16 Hình 11.1c. Hình ảnh hệ Mặt Trời
+[39] được tạo bởi công cụ AI với tì lệ
+[40] khung hình 4:3 81
+[41] C'S
+[42] 🖼️ Minh họa trong sách
+[43] Ví dụ 2. Hình ảnh với các phong cách khác nhau:
+[44] a) Phong cách hoạt hình:
+[45] b) Phong cách phác thảo chi
+[46] 🖼️ Minh họa trong sách
+[47] Hình 11.2. Ảnh lớp học theo phong cách khác nhau
+[48] Khi sử dụng LLM đề tạo ảnh, ngoài nội dung ảnh, em cần ghi rõ các yếu tố tỉ lệ khung hình, phong cách, ánh sáng, góc nhìn để có được ảnh như mong muốn.
+[49] b) Prompt phủ định Ngoài các tham số và từ khóa cung cấp cho mô hình, em cũng có thể yêu cầu
+[50] mô hình không được đưa một số yếu tố như mờ nền, tay chân thừa, logo vào ảnh.
+[51] Các yêu cầu này ngăn mô hình ngôn ngữ lớn tạo ra các yếu tố không mong muốn trong ảnh.
+[52] Prompt phủ định (negative prompt) là một chuỗi từ khóa thể hiện những gì em muốn tránh xuất hiện trong ảnh theo cú pháp "không +  ". Ví dụ: không nhoè, không người, không chữ,.... Prompt phủ định giúp giảm khuyết điểm, tăng độ chính xác theo yêu cầu, kiểm soát tốt hơn yếu tố thẩm mĩ (thừa tay, kí tự bất thường, nhoè,...).
+[53] Ví dụ, yêu cầu ảnh phong cảnh không có người.
+[54] a)  Ảnh phong cảnh không sử dụng
+[55] b) Ảnh phong cảnh có sử dụng prompt phủ định "không người"
+[56] prompt phủ định "không người"
+[57] 🖼️ Minh họa trong sách
+[58] Hình 11.3
+[59] Mô hình ngôn ngữ lớn như ChatGPT, Gemini, Google AI Studio,... có khả năng tạo ra ảnh chi tiết theo yêu cầu của người dùng thông qua prompt mô tả. Việc tạo
+[60] ảnh này được gọi là tạo ảnh từ prompt (text-to-image). Tuy nhiên, để có thể thu
+[61] được bức ảnh đúng như mong muốn, em cần cung cấp đầy đủ các thông tin về nội dung bức ảnh, tham số và từ khóa cùng với prompt phủ định.
+[62] Khi sử dụng LLM để tạo ảnh, câu trúc prompt thường có dạng:
+[63] Prompt - Tạo hình ảnh +   +
+[64] Cấu trúc của một prompt để tạo ảnh
+[65] Chỉ thị
+[66] Tạo hình ảnh về.
+[67] Hệ Mặt Trời gồm Mặt Trời ở trung tâm và các hành tinh chuyển động xung quanh gồm Thuỷ tinh, Kim tinh, Trái Đất, Hỏa tinh, Mộc tinh, Thổ tinh, Thiên Vương tinh, Hải Vương tinh cùng đường biểu diễn quỹ đạo các hành tinh.
+[68] Nội dung bức ảnh
+[69] Tham số, từ khóa
+[70] Tỉ lệ khung hình 1:1, phong cách hiện thực, ánh sáng
+[71] dịu nhẹ, góc nhìn rộng.
+[72] Prompt phủ định Không chữ.
+[73] 🖼️ Minh họa trong sách
+[74] Hình 11.4. Cấu trúc một prompt tạo ảnh bằng LLM
+[75] Prompt phủ định (negative prompt) là chuỗi các từ khóa liệt kê các yếu tố không muốn có trong ảnh. Prompt phủ định có dạng: không +
+[76] +   +
+[77] .
+[78] 2.  Sử dụng mô hỉnh ngôn ngữ lớn đề chỉnh sửa ảnh
+[79] Khi sử dụng LLM để tạo ảnh, bức ảnh Thảo thu được có những điểm chưa như mong muốn, hình ảnh có nhiều hành tinh hơn thực tế. Thảo đã sử dụng LLM để chỉnh sửa bức ảnh ban đầu. Việc chỉnh sửa này không yêu cầu dùng phần mềm chuyên dụng mà được thực hiện bằng chính LLM với prompt đơn giản.
+[80] Việc tạo một ảnh mới từ một ảnh gốc (chỉnh sửa) theo prompt mô tả được gọi là tạo ảnh từ ảnh (image-to-image). Để LLM có thể chỉnh sửa ảnh, em cần cung cấp
+[81] ảnh gốc và các yêu cầu chỉnh sửa trong prompt. LLM sẽ tạo ra ảnh mới dựa trên hai thông tin này.
+[82] Khi cần chỉnh sửa nội dung bên trong bức ảnh (inpainting), LLM sẽ phân tích nội dung ảnh, xác định vùng cần thay đổi và thực hiện các thay đổi theo yêu cầu. Cuối cùng, LLM kết hợp vùng đã chỉnh sửa trở lại ảnh gốc. Ví dụ, Hình 11.5b sử dụng kĩ thuật inpainting để xóa bớt bốn hành tinh trong ảnh gốc ở Hình 11.5a.
+[83] Khi cần mở rộng ảnh gốc và vẽ thêm các nội dung mong muốn (outpainting), LLM sẽ đặt ảnh gốc vào một khung vẽ lớn hơn, phân tích chi tiết ảnh gốc. Sau đó, LLM vẽ vào vùng mới với nội dung theo yêu cầu và phù hợp với ảnh gốc về kết cấu, phong cách, ánh sáng. Ví dụ, Hình 11.5c sử dụng kĩ thuật outpainting mở rộng ảnh, thêm không gian xung quanh, thêm các ngôi sao và sao chổi vào phần rìa ảnh gốc ở Hình 11.5a.
+[84] 🖼️ Minh họa trong sách
+[85] a) Hình ảnh gốc
+[86] b) Hình ảnh được chỉnh sửa
+[87] nội dung bên trong ảnh
+[88] (inpainting)
+[89] c)  Hình ảnh được mở rộng và vẽ thêm các nội dung mong muốn (outpainting)
+[90] 🖼️ Minh họa trong sách
+[91] Hình 11.5
+[92] Mô hình ngôn ngữ lớn có thể được sử dụng để chỉnh sửa ánh thông qua prompt mô tả (image-to-image). Em có thể chính
+[93] sửa các nội dung bên trong ảnh (inpainting) hay mở rộng ảnh với nội dung mong muốn (outpainting) bằng cách cung cấp ảnh gốc và yêu cầu.
+[94] 3.  Thực hành: Sử dụng LLM để tạo và chỉnh sửa ảnh
+[95] (Hướng dẫn dưới đầy sử dụng ứng dụng Google AI Studio.)
+[96] Nhiệm vụ 1: Sử dụng LLM để tạo ảnh có các tỉ lệ và phong cách khác nhau.
+[97] Bước 1. Mở trình duyệt web và truy cập vào trang web: https://aistudio.google.com/.
+[98] 🖼️ Minh họa trong sách
+[99] Hình 11.6. Giao diện Google AI Studio
+[100] Bước 2. Nháy chuột chọn nút lệnh Generate Media, tiếp theo chọn Imagen.
+[101] Create Generative Media
+[102] 🖼️ Minh họa trong sách
+[103] Hình 11.7. Chọn công cụ Imagen
+[104] Bước 3. Lựa chọn tỉ lệ khung hình 1:1 ở khu vực phía bên phải.
+[105] Bước 4. Nhập prompt "Tạo hình ảnh về Hệ Mặt Trời, Mặt Trời ở trung tâm bức ảnh, xung quanh là các hành tinh cùng với đường biểu diễn quỹ đạo, phong cách hiện thực, ánh sáng dịu nhẹ, góc nhìn rộng. Không chữ^ và nhấn tổ hợp phím Ctrl + Enter.
+[106] Viết prompt
+[107] Generate images with Imagen
+[108] Lựa chọn tỉ lệ
+[109] khung hình
+[110] 🖼️ Minh họa trong sách
+[111] Hình 11.8. Giao diện công cụ Imagen
+[112] Bước 5. Lưu ảnh đã tạo được về máy tính.
+[113] Nhiệm vụ 2: Sử dụng LLM để chỉnh sửa ảnh.
+[114] Bước 1. Mở trình duyệt web và truy cập vào trang web: https://aistudio.google.com/.
+[115] Bước 2. Nháy chuột chọn nút lệnh Generate Media, tiếp theo chọn Gemini image generation.
+[116] Create Generative Media
+[117] Hình 11.9. Chọn công cụ Gemini image generation
+[118] Bước 3. Tải ảnh thu được ở Nhiệm vụ 1 lên mô hình.
+[119] Bước 4. Nhập prompt "Hãy xóa bớt bốn hành tinh trong ảnh" và nhấn tổ hợp phím Ctrl + Enter.
+[120] Viết prompt Tải ảnh Welcome to AI Studio
+[121] 🖼️ Minh họa trong sách
+[122] Hình 11.10. Tải ành và nhập prompt
+[123] Bước 5. Lưu ảnh đã tạo được về máy tính.
+[124] 86
+[125] ✏️
+[126] LUYỆN TẬP
+[127] 1. Tỉ lệ khung hình là:
+[128] A. Độ sáng và tôi của ảnh.
+[129] B. Tĩ lệ giữa điểm sáng nhất và điểm tối nhất trong ảnh.
+[130] C. TT lệ giữa chiều rộng và chiều cao của ảnh.
+[131] D. Tỉ lệ giữa khả năng sáng tạo và khả năng mô tả đúng prompt của mô hình.
+[132] 2.  Prompt phủ định dùng đề làm gì?
+[133] A. Xác định đối tượng cần có trong ảnh.
+[134] B. Xác định đối tượng không muốn có trong ảnh
+[135] C. Tăng độ phần giải ảnh.
+[136] D. Tăng tốc độ xử lí ảnh của LLM.
+[137] 3. Khẳng định nào sau đây là đúng về sự phân biệt giữa hai khái niệm text-to-image và image-to-image?
+[138] A. Text-to-image và image-to-image đều tạo ảnh chỉ sử dụng prompt.
+[139] B. Text-to-Image và image-to-image đều tạo ảnh chỉ sử dụng ảnh gốc.
+[140] C. Text-to-image tạo ảnh chỉ sử dụng prompt, image-to-image tạo ảnh sử dụng
+[141] prompt và ảnh gốc.
+[142] D. Text-to-image và image-to-image đều tạo ảnh sử dụng cả prompt và ảnh gốc.
+[143] VẠN DỤNG
+[144] 1. Sử dụng công cụ Imagen trong Google AI Studio tạo một bức ảnh gia đình bốn người giữa khung cảnh thiên nhiên.
+[145] 2. Hãy thêm hai người vào ảnh thu được từ Vận dụng 1 bằng công cụ Gemini image generation.
+[146] A
+
+=== 16: bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon - Bài 12. Tạo video bằng mô hình ngôn ngữ lớn ===
+
+[1] Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập
+[2] Bài 12. Tạo video bằng mô hình ngôn ngữ lớn
+[3] 📄 Trang sách gốc: 90 – 94
+[4] 📖 Xem bản in gốc
+[5] 🎯
+[6] MỤC TIÊU
+[7] Sau bài học này, em sẽ:
+[8] Hiểu được text-to-video và image-to-video là gì.
+[9] Giải thích được vì sao tạo video AI chưa phổ biến như tạo ánh.
+[10] Sử dụng được công cụ tạo video AI.
+[11] 💡
+[12] KHỞI ĐỘNG
+[13] Hải muốn tạo video mô tả dao động của một con lắc đơn. Hải sử dụng prompt:
+[14] "Tạo một video mô tả hoạt động của con lắc đơn, bên dưới là đổ thị thể hiện lí độ của con lắc đon theo thời gian. TT lệ khung hình 16:9, phong cách hiện thực, ánh
+[15] sáng vàng. Không nhạc nền. Không tiếng ồn".
+[16] Sau khoảng 3 phút, Hải có được một video dài 8 giây. Tuy nhiên, phần đồ thị li độ
+[17] không chính xác. Bèn cạnh đó, đo tính năng bị giới hạn, Hải chi có thể tạo tối đa 3 video một ngày.
+[18] Em hãy cho biết:
+[19] 1. Khi cần tạo video, Hải đã làm gì?
+[20] 2. Sau khoảng bao lâu thì Hải có được kết quả? Ngoài ra, Hải còn gặp khó khăn gì khi tạo video bằng mô hình ngôn ngữ lớn?
+[21] 🔍
+[22] KHÁM PHÁ
+[23] 1. Sử dụng mô hình ngôn ngữ lớn để tạo video a) Tạo video bằng prompt mô tả
+[24] Trong phần Khởi động, Hải đã sử dụng mô hình ngôn ngữ lớn tạo video theo nội dung mong muốn. Để tạo video bằng LLM bằng prompt mô tả (text-to-video), ta cần cung cấp các thông tin như nội dung video, các thông số về tỉ lệ khung hình, phong cách, ánh sáng và nêu rõ các yếu tố không muốn có trong video. Sử dụng LLM giúp tiết kiệm thời gian và chi phí, không yêu cầu thiết bị, kĩ năng về ghi hình
+[25] và chỉnh sửa video.
+[26] Giây 0 Giấy i Giấy 2
+[27] Giây 3 Giấy 4
+[28] Giấy 5
+[29] 🖼️ Minh họa trong sách
+[30] Hình 12.1. Video con lắc đơn tạo bằng LLM
+[31] LLM có thể tạo video theo yêu cầu của người dùng bằng prompt mô tả. Tạo video bằng LLM giúp tiết kiệm
+[32] thời gian và chi phí cho người sử dụng.
+[33] b)  Tạo video bảng prompt mô tả và ánh tính
+[34] Ngoài việc tạo video bằng prompt mô tả, người dùng còn có thể tạo video từ một hoặc nhiều ảnh tĩnh (image-to-video). Khi đó, LLM sẽ thêm sự chuyển động vào
+[35] các ảnh được cung cấp để tạo video. Việc sử dụng ảnh tĩnh khi tạo video giúp em dễ kiểm soát nội dung, phong cách và khung cảnh như ảnh gốc. Thời gian tạo video cũng ngắn hơn do yêu cầu tính toán it hơn so với chi dùng prompt mô tả (chỉ thêm chuyến động vào ảnh). Ngoài ra, em cùng có thể cung cấp thêm promct mô tả để làm rõ hơn yêu cầu.
+[36] Ánh gốc Giảy 1 Giấy 2
+[37] Giấy 3 Giây 4
+[38] Giấy 5
+[39] 🖼️ Minh họa trong sách
+[40] Hình 12.2. Video được tạo tử ảnh bằng LLM
+[41] C
+[42] LLM có thể tạo video từ ành tĩnh, có thể sử dụng thêm prompt mô tả để hỗ trợ. Việc tạo video từ ảnh giúp dễ kiểm soát nội dung, phong cách, khung cảnh và tiết kiệm được thời gian tạo video.
+[43] 2.  Hạn chế và tiềm năng của việc tạo video bằng mô hình ngòn ngừ lớn
+[44] Trong phần Khởi động, video được tạo bằng LLM có thời lượng chỉ là 8 giây, thời gian chờ lâu hơn so với tạo ảnh và số lượng video được tạo bị giới hạn. Đồ thị li độ của con lắc cũng không chính xác. Tạo video bằng LLM bị giới hạn về thời lượng và số video được tạo do yêu cầu tài nguyên tính toán lớn. Ngoài ra, tạo
+[45] video bằng LLM khó duy trì sự nhất quán về bối cảnh, mỗi lần tạo video thường
+[46] ra các kết quả khác nhau. Việc tạo các chuyển động phức tạp và kiểm soát chi tiết cũng gặp nhiều khó khăn.
+[47] Tuy nhiên, tạo video bằng LLM có tiềm năng rất lớn trong việc làm phim ngắn, video quảng cáo hoặc tạo nỗi dung học tập nhanh. Nhờ LLM có thê tự động viết
+[48] kịch bản, tạo khung cảnh và chuyển động, em có thể sản xuất video chất lượng trong vài phút với chi phí thấp hơn nhiều so với tự quay video
+[49] Tạo video bằng LLM hiện nay còn một số hạn chế về tài nguyên tính toán, duy trì sự nhất quán và tạo các chi tiết
+[50] phức tạp. Tuy nhiên, phương pháp này có tiềm năng rất
+[51] lớn trong làm phim ngắn, video quảng cáo hoặc tạo nội dung học tập nhanh.
+[52] 3.  Thực hành
+[53] (Hướng dẫn sau đây sử dụng ứng dụng Google AI Studio.)
+[54] Nhiệm vụ: Tạo video từ prompt
+[55] mô tả.
+[56] Hướng dẫn
+[57] Bước 1. Mở trình duyệt web và truy cập vào trang web:
+[58] https://aistudio.google.com/.
+[59] 🖼️ Minh họa trong sách
+[60] Hình 12.3. Giao diện Google AI Studio
+[61] Bước 2. Nháy chuột chọn nút Generate Media, tiếp theo chọn Veo (Hình 12.4).
+[62] Create Generative Media
+[63] 🖼️ Minh họa trong sách
+[64] Hình 12.4. Chọn cóng cụ Veo
+[65] Bước 3. Lựa chọn thời lượng video, tỉ lệ khung hình 16: 9 ở khung bên phải.
+[66] Bước 4. Nhập prompt "Tạo một video mô tả hoạt động của con lắc đơn, bên dưới là đồ thị thể hiện li độ của con lắc đơn theo thời gian. Phong cách hiện thực, ánh sáng vàng". và điền nội dung "Không nhạc nền. Không tiếng ồn" vào ô Prompt phủ định và nhấn tổ hợp phím Ctrl + Enter.
+[67] Tỉ lệ khung hình
+[68] Viết prompt Generate videos with Veo Tải ảnh
+[69] Thời lượng
+[70] Prompt phủ định
+[71] 🖼️ Minh họa trong sách
+[72] Hình 12.5. Giao diện công cụ Veo để tạo video
+[73] Bước 5. Lưu video về máy tính.
+[74] ✏️
+[75] LUYỆN TẬP
+[76] 1.  Text-to-video là gì?
+[77] B. Tạo video từ prompt mô tả
+[78] A. Tao video từ ảnh tĩnh.
+[79] C. Tao thuyết minh từ cho video.
+[80] D. Quay phim theo kịch bản có sẵn.
+[81] 90 91
+[82] 2.  Trong image-io-video, mục đích chinh khi đưa thêm ảnh vào là gì?
+[83] A. Giảm thời gian tạo video.
+[84] B. Giữ nguyên phong cách, tông màu, bối cảnh mong muốn.
+[85] C. Thay thế prompt văn bản.
+[86] D. Tăng độ dài video.
+[87] 3.  Tạo video bằng LLM gặp những khó khăn gì?
+[88] A. Giới hạn tài nguyên tính toán.
+[89] B. Khó duy tri tính nhất quán.
+[90] C. Khó tạo chuyển động phức tạp, chi tiết.
+[91] D. Cả ba phương án trên.
+[92] 🚀
+[93] VẬN DỤNG
+[94] Sử dụng LLM, tạo video từ một ảnh tuỳ chọn (ảnh gia đình, động vật, giao thông,...).
+[95] A
+
+=== 17: bai-13-bai-tap-du-an - Bài 13. Bài tập dự án ===
+
+[1] Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập
+[2] Bài 13. Bài tập dự án
+[3] 📄 Trang sách gốc: 95 – 100
+[4] 📖 Xem bản in gốc
+[5] MỤC TIEU
+[6] Sau bài học này, em sẽ:
+[7] • Trình bày được các bước để khám phá vấn đề xã hội với sự hỗ trợ của AI.
+[8] • Hoàn thiện được sản phẩm báo cáo về một vấn đề xã hội.
+[9] • Phát triển kĩ năng tư duy phản biện, trình bày logic và sáng tạo sản phẩm mang dấu ấn cá nhân.
+[10] 💡
+[11] KHỞI ĐỘNG
+[12] Trên đường đến trường, Thanh nghe loa phường cảnh báo chất lượng không khí kém, người dân nên hạn chế ra ngoài. Vào lớp,
+[13] Thanh thấy các bạn bàn tán về khói bụi dày đặc và bầu trời mờ mịt, ai cũng phải đeo khẩu trang khiến Thanh chợt suy nghĩ: "Đây là vấn đề nghiêm trọng, nếu mình tìm hiểu kĩ rồi chia sẻ, cả lớp có thể cùng phân tích và tìm cách bảo vệ môi Hình 13.1. Chất lượng không khí kém trường."
+[14] Tuy nhiên, khi tra cứu, Thanh choáng ngợp trước "rừng" thông tin từ báo chí, nghiên cứu đến mạng xã hội. Bạn nhận ra cần tổng hợp, sắp xếp dữ liệu khoa học để trình bày hiệu quả. Thanh liền nghĩ đến việc dùng công cụ AI làm trợ thù để tìm kiếm và hệ thống hóa thông tin.
+[15] Theo em, Thanh có thể dùng AI để hỗ trợ tra cứu và tổng hợp thông tin như thế nào?
+[16] 🔍
+[17] KHÁM PHÁ
+[18] 1.  Khám phá vấn đề xã hội và chuẩn bị thuyết trình với sự hỗ trợ của AI
+[19] Bên cạnh vấn đề ô nhiễm không khí mà bạn Thanh đang muốn tìm hiểu trong tình huống ở phần Khởi động, trong đời sống hằng ngày, chúng ta thường xuyên bắt gặp nhiều vấn đề xã hội có ảnh hưởng trực tiếp đến con người, như biến đổi khí hậu, an toàn thông tin trên mạng hay sức khỏe tinh thần của học sinh,... Việc tìm hiểu những vấn đề này không chỉ giúp em mở rộng hiểu biết và rèn luyện khả năng khám phá tri thức, phân tích khoa học, mà còn nâng cao ý thức trách nhiệm đối với cộng đồng và giúp em chủ động ứng phó với những vấn đề có thể xảy đến trong tương lai.
+[20] Các chủ đề có sức "nóng" trong xã hội thường thu hút sự quan tâm lớn của mọi người, đi kèm với đó là rất nhiều thông tin từ nhiều nguồn khác nhau. Ngày nay, nhờ sự hỗ trợ của các công cụ AI, em có thể dễ dàng tra cứu, thu thập các thông tin và sắp xếp theo cấu trúc hợp lí đề tổng hợp nhằm mục đích lưu trữ hoặc chia sẻ trình bày quan điểm với mọi người theo cách rõ ràng, chặt chẽ, đầy thuyết phục.
+[21] a)  Quy trình khám phá vấn đề xã hội với sự hỗ trợ của AI
+[22] Để thực hiện việc khám phá một vấn đề xã hội hiệu quả và có hệ thống, em có thể thực hiện theo quy trình 6 bước như Hình 13.1.
+[23] Quy trình khám phá vấn đề xã hội với sự hỗ trợ của AI
+[24] Bước 1. Xác định ván để.
+[25] Bước 2. Thu thập và đánh giá thông tin
+[26] Bước 3. Tổng hợp thông tin với sự hỗ trợ của AI
+[27] Bước 4. Hoàn thiện nội dung và lập báo cáo
+[28] Bước 5. Tạo sản phẩm minh họa nội dung báo cáo
+[29] Bước 6. Chia sẻ thông tin và kều gọi hành động
+[30] 🖼️ Minh họa trong sách
+[31] Hình 13.2. Quy trình khám phá vấn đề xã hội với sự hỗ trợ của A/
+[32] Bước 1. Xác định vấn đề.
+[33] Để bắt đầu, em cần xác định một vấn đề cu thế mà minh quan tâm, ưu tiên các
+[34] chủ đề xã hội gần gũi hoặc ảnh hường trực tiếp đến cuộc sống. Việc chọn đúng
+[35] vần đề sẽ tạo động lực tìm hiểu sâu và hừng thú chia sẻ sau này. Em có thể tim ý tưởng từ các kênh tin tức uy tín; sử dụng AI để gợi ý các chủ đề phù hợp với
+[36] địa phương, đồng thời nên tham khảo lời khuyên từ thầy cô, bạn bè và gia đình để có lựa chọn tốt nhất.
+[37] Bước 2. Thu thập và đánh giá thông tin.
+[38] Sau khi xác định được vấn đề, em cần tìm kiếm và thu thập thông tin từ các nguồn chính thống như thời sự, báo chí, cổng thông tin điện tử của cơ quan chức năng, hoặc các báo cáo nghiên cứu. Vì thông tin trên Internet rất đa dạng, em cần chọn lọc và kiểm tra độ tin cậy cần thận. AI có thể hỗ trợ em bảng cách gợi ý từ khóa tìm kiếm, lọc nguồn uy tín và tóm tắt nhanh nội dung để em dễ dàng nắm bắt thông tin.
+[39] Bước 3. Tổng hợp thông tin với sự hỗ trợ của AI.
+[40] Khi đã có đủ tài liệu, em cần tổng hợp để hệ thống hóa thông tin. Em có thể dùng các công cụ AI như Gemini, ChatGPT, Google AI Studio để so sánh, tìm điểm
+[41] chung, xây dựng dàn ý và tạo bản tóm tắt. Tuy nhiên, hãy luôn đọc lại, chỉnh sửa đề đảm bảo nội dung chính xác và phù hợp với mục tiêu của mình, tránh phụ thuộc hoàn toàn vào AI
+[42] Bước 4. Hoàn thiện nội dung và lập báo cáo.
+[43] Sau khi có bản tổng hợp, em cần rà soát, điều chỉnh và hoàn thiện báo cáo. Hãy
+[44] phân tích sâu thông tin, kiểm chứng và bổ sung các số liệu, dẫn chứng thực tế để nội dung logic và thuyết phục. Việc tự mình hoàn thiện sẽ giúp em hiểu sâu vấn đề và tạo dấu ấn cá nhân, thay vì sao chép máy móc. Ở bước này, AI có thể hỗ trợ bằng cách gợi ý ví dụ minh họa, đề xuất dẫn chứng liên quan và giúp kiểm tra lại cách diễn đạt.
+[45] Bước 5. Tạo sản phẩm minh hoạ nội dung báo cáo.
+[46] Khi đã hoàn thiện nội dung, em hãy làm cho báo cáo sinh động và hấp dẫn hơn bằng cách tạo các sản phẩm minh họa như poster, infographic, bài trình chiếu hoặc video. Các công cụ AI có thể hỗ trợ em tạo ra những sản phẩm này một cách
+[47] đẹp mắt và lỗi cuốn.
+[48] Bước 6. Chia sẻ thông tin và kêu gọi hành động.
+[49] Cuối cùng, sau khi hoàn thành sản phẩm, em hãy chia sẻ thông tin với mọi người để lan toả nhận thức và kêu gọi hành động. Em có thể trình bày trước lớp, đăng lên mạng xã hội, hoặc gửi cho thầy cô và bạn bè. Điều quan trọng là thể hiện trách
+[50] nhiêm. khơi gợi sự quan tâm và đề xuất những hành động cụ thê đề cùng nhau ao ra thay đối tích cực
+[51] b)  Một số lưu ý quan trọng
+[52] Trong quá trình khám phá vấn đề xã hội với sự hỗ trợ của AI, em cần lưu ý:
+[53] - Chọn lọc thông tin chất lượng: Ở Bước 2, nguồn thông tin quyết định độ chính
+[54] xác cho các bước sau. Hãy ưu tiên tài liệu từ cơ quan chuyên môn, tạp chí khoa học, có số liệu và dẫn chứng rõ ràng.
+[55] Kiếm chứng kĩ lưỡng: Đừng dựa vào một nguồn duy nhất. Cân đổi chiêu nhiều
+[56] nguồn đề xác thực. AI có thể gợi ý và tóm tắt nhanh, nhưng chính em phải đọc, phân tích và quyết định thông tin nào phù hợp.
+[57] Thể hiện dấu ấn cá nhân: AI chỉ là công cụ hỗ trợ. Nội dung báo cáo phải phản ánh tư duy. quan điểm và phong cách riêng. Nếu sao chép nguyên văn từ AI, bài làm sẽ thiếu thuyết phục và không thể hiện năng lực thực sự. Một sản phẩm giá trị là sản phẩm vừa chính xác về dữ liệu, vừa có phân tích và thông điệp riêng Ngoài ra, việc tổng hợp thông tin từ tài liệu sẵn có chỉ là bước đầu. Để nội dung sinh động và gắn thực tiễn hơn, em có thể khảo sát, phòng vấn hoặc gửi phiếu hỏi
+[58] đến thầy cô, bạn bè, người thân hay cộng đồng mạng. Những dữ liệu trực tiếp này giúp báo cáo đa chiều, cụ thể và thuyết phục hơn. AI có thể hỗ trợ em thiết kế bảng hỏi hoặc nội dung phỏng vấn đề khai thác thông tin đầy đủ, chi tiết.
+[59] Để khám phá vấn đề xã hội với sự hỗ trợ của AI, em cần xác định vấn đề cụ thể, thu thập thông tin đa dạng, tin cậy và tổng hợp để xây dựng báo cáo hoàn chỉnh. Cuối cùng, em nên tạo ra các sản phẩm minh•
+[60] họạ để làm sinh động, tăng sức hút cho nội dung và
+[61] cần chia sẻ rộng rãi tới những người xung quanh đề lan toa giá trị tích cực.
+[62] Sau khi tổng hợp thông tin từ các nguồn có sẵn, em có thể khảo sát hoặc phỏng vấn mọi người xung quanh để hiểu rõ vấn đề từ thực tiễn, giúp bổ sung dẫn chứng cho báo cáo đa chiều và thuyết phục hơn.
+[63] 2.  Thực hành khám phá vấn đề xã hội với sự hỗ trợ của AI
+[64] Nhiệm vụ: Em hãy thực hiện khám phá một vấn đề xã hội với sự hỗ trợ của
+[65] Ai theo quy trình được giới thiệu ở Mục 1 và trình bày báo cáo tại lớp học.
+[66] Hướng dẫn
+[67] (Ví dụ dưới đây mô tả một số bước chính để xây dựng bài báo cáo "Vấn đề
+[68] ô nhiễm không khí ở thành phố Hà Nội".)
+[69] Bước 1. Xác định vấn đề.
+[70] Lựa chọn vấn đề làm báo cáo là "Ô nhiễm không khí ở Hà Nội".
+[71] Bước 2. Thu thập và đánh giá thông tin.
+[72] Hãy sử dụng Google và Google Scholar với các từ khóa như "ô nhiễm không khí
+[73] Hà Nội", "thực trạng, nguyên nhân, giải pháp của việc ô nhiễm không khí", "chỉ số AQI Hà Nội"....
+[74] Sau khi sàng lọc, hãy thu thập các bài báo, số liệu và báo cáo đáng tin cậy về vấn đề này từ các nguồn uy tín như Cổng thông tin điện tử Chính phủ, Báo Nhân Dân, Báo Lao Động, cùng các nghiên cứu của World Bank và các tạp chí khoa học quốc tế như Environmental Research và Science of The Total Environment (Elsevier). Ghi chú đầy đủ thông tin trích dẫn (tác giả, năm, tiêu đề, nguồn/link, ngày truy cập).
+[75] Bước 3. Tổng hợp thông tin với sự hỗ trợ của AI.
+[76] Lưu tất cả các bài báo và báo cáo đã chọn lọc từ Bước 2 thành các tệp pdf. Tiếp
+[77] theo, em mở công cụ Google AI Studio, tải toàn bộ các tệp pdf này lên không
+[78] gian làm vệc của công cụ.
+[79] Sử dụng một số prompt để yêu cầu AI thực hiện, như: "Dựa vào các tài liệu tôi
+[80] đã cung cấp, hãy xây dụng giúp tôi một dàn ý chi tiết cho bài trình bày về vấn
+[81] đề ô nhiễm không khí ở Hà Nội, bao gồm các mục chinh: Thực trạng, Nguyên nhân, Hậu quả và Giải pháp", sau đó đặt câu hỏi để hỗ trợ lổng hợp thông tin theo từng phần nội dung.
+[82] Bước 4. Hoàn thiện nội dung và lập báo cáo.
+[83] Sau khi có bản tổng hợp từ AI ở Bước 3, em hãy:
+[84] Kiểm tra cần thận thông tin và số liệu để đảm bào chính xác.
+[85] Viết lại các ý chính bằng cách diễn đạt của riêng em cho gần gũi, mạch lạc.
+[86] - Bổ sung các liên hệ, quan sát thực tế từ cuộc sống hằng ngày để bài báo cáo
+[87] sâu sắc và mang dấu ấn cá nhân.
+[88] Bước 5. Tạo sản phẩm minh hoạ nội dung báo cáo.
+[89] Để làm báo cáo sinh động và hấp dẫn hơn, em hãy:
+[90] Tải nội dung văn bản lên
+[91] phần mềm Gamma để tạo bài trình chiếu nhanh chóng
+[92] BẢO VỆ MÔI TRƯỜNG
+[93] PHÒNG TRÁNH Ó NHIÊM KHÔNG KHÍ - Dùng Google AI Studio thiết
+[94] kế hình ảnh minh hoa phù hợp.
+[95] Tạo một video ngắn nhằm
+[96] truyền tải thông điệp bảo vệ
+[97] môi trường trực quan và
+[98] mạnh mẽ.
+[99] 🖼️ Minh họa trong sách
+[100] Hình 13.3. Bảo vệ môi trường
+[101] Bước 6. Chia sẻ thông tin và kêu gọi hành động.
+[102] Sau khi hoàn thành báo cáo và các sản phẩm minh hoạ, em hãy:
+[103] trình bày rõ thực trạng và nguyên nhân ô nhiễm không khí.
+[104] Đưa ra các lưu ý thiết thực giúp bảo vệ sức khỏe, như đeo khẩu trang đạt chuẩn
+[105] và theo dõi chỉ số AQI hằng ngày.
+[106] ✏️
+[107] LUYỆN TẬP
+[108] 1.  Vì sao cần thể hiện phong cách và dấu ấn cà nhân sau khi sử dụng AI?
+[109] A. Để cải thiện AI cho ra sản phẩm tốt hơn trong tương lai.
+[110] B. Để tránh bị thầy cô phát hiện có sử dụng AI.
+[111] C. Để sản phẩm có tính thuyết phục và thể hiện năng lực riêng.
+[112] D. Vì AI chỉ có thể tổng hợp và tóm tắt thông tin thành các đoạn văn ngắn.
+[113] 2. Theo em, nếu chỉ hoàn toàn sử dụng AI và sao chép nguyên văn nội dung do AI tạo ra mà không tự kiểm tra lại thì những điều gì có thể xảy ra với bài báo cáo của minh?
+[114] 3. Giả sử có một bạn cùng lớp đang tìm hiểu cùng vấn đề với em nhưng có số liệu trong hai bài báo cáo khác nhau, khi đó, em có thể làm gì để cùng bạn tìm ra thông tin chính xác nhất?
+[115] 🚀
+[116] VẬN DỤNG
+[117] Em hãy sử dụng sản phẩm đã hoàn thiện ở lớp để chia sẻ với người thân trong
+[118] gia đình hoặc cộng đồng nơi em sinh sống. Từ đó, thiết kế và thực hiện khảo sát,
+[119] phòng vấn đề ghi nhận thêm ý kiến, kinh nghiệm thực tiễn của mọi người về vấn
+[120] đề em đã tìm hiểu rồi bổ sung các kết quả thu thập được vào nội dung báo cáo.
+
+=== 18: bang-giai-thich-thuat-ngu - Bảng giải thích thuật ngữ ===
+
+[1] Phụ lục
+[2] Bảng giải thích thuật ngữ
+[3] 📄 Trang sách gốc: 101 – 101
+[4] 📖 Xem bản in gốc
+[5] BẢNG GIẢI THÍCH THUẬT NGỮ
+[6] Thuật ngừ
+[7] Giải thich
+[8] Trang
+[9] Chuỗi tư duy (Chain-of-
+[10] Thành phần trong prompt nhàm hướng dẫn mô hình suy nghĩ và trình bày lừng bước một để đi đến câu trả lời, thay vi chi đưa ra kết quả cuối cùng.
+[11] Thought)
+[12] JSON
+[13] Định dạng văn bản dùng để lưu trữ và trao đổi dữ liệu dưới dạng các cặp (khóa : giá trị).
+[14] (JavaScript Object Notation)
+[15] Thành phần của prompt cung cấp thông tin nền hoặc tình huống sử dụng, giúp mô hình hiểu rò mục tiêu tạo nội dung. Ví dụ: "Dành cho học sinh
+[16] N
+[17] Ngữ cảnh
+[18] lớp 10°, "Bạn là trợ lí học tàp", Trong giờ học môn Sinh học"....
+[19] Prompt không ví dụ (Zero-shot
+[20] Dạng lệnh mà người dùng không cần cung cấp mẫu đầu vào để AI hiểu yêu cầu.
+[21] prompt)
+[22] Prompt có ví dụ (Few-shot prompt)
+[23] Dạng yêu cầu mà người dùng đưa ra cho AI, kèm theo một vài ví dụ mẫu để hướng dẫn cách xử lí.
+[24] Kĩ thuật giúp AI tim thông tin từ tài liệu bên ngoài như bài báo, sách, hoặc website, rôi dùng thông tin đó để trả lời câu hỏi. Nhờ vậy, câu trả lời chính xác và cập nhật hơn so với chỉ dựa vào kiến thức
+[25] R
+[26] RAG (Retrieval-
+[27] Augmented
+[28] Generation)
+[29] có sẵn.
+[30] Một kiến trúc AI được thiết kế để xử lí chuỗi văn bản bằng cách sử dụng cơ chế tự chú ý
+[31] (self-attention). Kiến trúc này giúp mô hình xác định các từ quan trọng và mối liên hệ giữa các từ trong câu, từ đó hiểu được nội dung văn bản
+[32] Transformer
+[33] tốt hơn.
+
+=== 19: thong-tin-xuat-ban-bia-sau - Thông tin xuất bản & Bìa sau ===
+
+[1] Phụ lục
+[2] Thông tin xuất bản & Bìa sau
+[3] 📄 Trang sách gốc: 102 – 103
+[4] 📖 Xem bản in gốc
+[5] Trân trọng cám ơn các tác giả có tác phẩm,
+[6] tưr liệu được sử dụng, trích dẫn
+[7] trong cuốn sách này.
+[8] Chịu trách nhiệm xuất bản:
+[9] Chủ tịch Hội đồng thành viên - Tổng Giám đốc NGUYÊN TIÊN THANH
+[10] Chịu trách nhiệm nội dụng:
+[11] Tổng biên tập PHẠM VĨNH THÁI
+[12] Tổ chức và chịu trách nhiệm bản thảo:
+[13] Phó Tổng biên tập VŨ TRUNG CHÍNH
+[14] Phó Tổng biên tập - Họa sĩ trưởng ĐINH GIA LÊ Tổng Giám đốc Công ty CP Đầu tư và Phát triển Giáo dục Phương Nam LÊ PHƯƠNG MAI
+[15] Biên tập nội dung: HOÀNG THỊ THANH - NGUYỄN THANH ĐẠT
+[16] Biên tập mĩ thuật, thiết kế sách, bìa và minh hoạ: ĐẶNG DUY TIẾN - NGUYỄN THỂ PHI Sửa bản in: HOÀNG THỊ THANH - NGUYÊN THÀNH ĐẠT
+[17] Bản quyền thuộc Nhà xuất bản Giáo dục Việt Nam và Công ty Cổ phần Đầu tư và Phát triển Giáo dục Phương Nam.
+[18] Xuất bản phẩm đã đăng kí quyền tác giả. Tất cả các phần của nội dung cuốn sách này đều không được sao chép, lưu trữ, chuyển thể dưới bất kì hình thức nào khi chưa có sự cho phép bằng văn bản của Nhà xuất bản Giáo dục Việt Nam và Công ty Cổ phần Đầu tư và Phát triển Giáo dục Phương Nam.
+[19] TRÍ TUỆ NHÂN TẠO LỚP 11
+[20] Mã số: TYT21P6-SED
+[21] In 20.000 bản, (QĐ in số: 01-STK) khố 19 x 26,5 cm.
+[22] Đơn vị in: Công ty TNHH Sản xuất dịch vụ thương mại Bao Bì Kiến Á 26 Nguyễn Nghiêm. Phường Tân Phú, TP.Hồ Chí Minh, Việt Nam.
+[23] Cơ sở in: 643 Tỉnh lộ 2, áp Lào Táo Thượng, xã Thái Mỹ, TP.Hồ Chí Minh Số ĐKXB: 416-2026/CXBIPH/36-168/GD
+[24] Số QĐXB: 119/QĐXB-GD, ngày 11 tháng 02 năm 2026
+[25] In xong và nộp lưu chiều tháng 03 năm 2026 Mã số ISBN: 978-604-0-46632-7
+[26] HANNo
+[27] ISBN 978-604-0-46632-7
+[28] CÔNG TY CỔ PHẦN ĐẦU TỪ VÀ PHÁT TRIỂN GIÁO DỤC
+[29] PHƯƠNG NAM SEDIDCO 9 786040 466327 Giá: 45.000đ

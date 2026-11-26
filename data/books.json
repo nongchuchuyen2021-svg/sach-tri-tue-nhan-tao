@@ -324,7 +324,7 @@
               "printPage": 39,
               "id": "bai-5-mang-no-ron-nhan-tao",
               "endPage": 49,
-              "summary": "BÃI 5. MẠNG NƠ-RON NHẬN TẠO MUC TIEU Sau bài học này, em sẽ: • Trình bày được khái niệm cơ bản về mạng nơ-ron nhân tạo. • Giải thích được nguyên lí mô phòng bộ não người và cách mạng nơ-ron nhân tạo học từ dữ liệu. • Trình bày được một số ví dụ thực tiền về ứng dụng của mạng nơ-r..."
+              "summary": "BÃI 5. MẠNG NƠ-RON NHẬN TẠO MUC TIEU Sau bài học này, em sẽ: • Trình bày được khái niệm cơ bản về mạng nơ-ron nhân tạo. • Giải thích được nguyên lí mô phỏng bộ não người và cách mạng nơ-ron nhân tạo học từ dữ liệu. • Trình bày được một số ví dụ thực tiễn về ứng dụng của mạng nơ-r..."
             },
             {
               "title": "Bài 6. Phân loại và phân cụm dữ liệu",
@@ -332,7 +332,7 @@
               "printPage": 48,
               "id": "bai-6-phan-loai-va-phan-cum-du-lieu",
               "endPage": 60,
-              "summary": "BÀI G. PHÂN LOẠI VÀ PHÂN CỤM DỨ LIỆU MỤC TIÊU Sau bài học này, em sẽ: • Trình bày được những nét đặc trưng cơ bản và so sánh hai bai toán phân loại dữ liệu và phân cụm dữ liệu. • Trình bày được ý tưởng và giải thích cách hoạt động cơ bản của hai thuật toán KNN và K-means. Phân tí..."
+              "summary": "BÀI G. PHÂN LOẠI VÀ PHÂN CỤM DỮ LIỆU MỤC TIÊU Sau bài học này, em sẽ: • Trình bày được những nét đặc trưng cơ bản và so sánh hai bai toán phân loại dữ liệu và phân cụm dữ liệu. • Trình bày được ý tưởng và giải thích cách hoạt động cơ bản của hai thuật toán KNN và K-means. Phân tí..."
             }
           ]
         },
@@ -402,7 +402,7 @@
               "printPage": 93,
               "id": "bai-13-bai-tap-du-an",
               "endPage": 100,
-              "summary": "BÁI 13: BÀI TẬP DỰ ÂN MỤC TIEU Sau bài học này, em sẽ: • Trình bày được các bước để khám phá vấn để xã hội với sự hỗ trợ của AI. • Hoàn thiện được sản phẩm báo cáo về một vấn đề xã hội. • Phát triển kĩ năng tư duy phản biện, trình bày logic và sáng tạo sản phẩm mang dấu ấn cá nhâ..."
+              "summary": "BÁI 13: BÀI TẬP DỰ ÂN MỤC TIEU Sau bài học này, em sẽ: • Trình bày được các bước để khám phá vấn đề xã hội với sự hỗ trợ của AI. • Hoàn thiện được sản phẩm báo cáo về một vấn đề xã hội. • Phát triển kĩ năng tư duy phản biện, trình bày logic và sáng tạo sản phẩm mang dấu ấn cá nhâ..."
             }
           ]
         },
@@ -415,7 +415,7 @@
               "printPage": 99,
               "id": "bang-giai-thich-thuat-ngu",
               "endPage": 101,
-              "summary": "BẢNG GIẢI THÍCH THUẬT NGỮ Thuật ngừ Giải thich Trang Chuỗi tư duy (Chain-of- Thành phần trong prompt nhàm hướng dẫn mô hình suy nghĩ và trình bày lừng bước một để đi đến câu trả lời, thay vi chi đưa ra kết quả cuối cùng. Thought) JSON Định dạng văn bản dùng để lưu trừ và trao đổi..."
+              "summary": "BẢNG GIẢI THÍCH THUẬT NGỮ Thuật ngừ Giải thich Trang Chuỗi tư duy (Chain-of- Thành phần trong prompt nhàm hướng dẫn mô hình suy nghĩ và trình bày lừng bước một để đi đến câu trả lời, thay vi chi đưa ra kết quả cuối cùng. Thought) JSON Định dạng văn bản dùng để lưu trữ và trao đổi..."
             },
             {
               "title": "Thông tin xuất bản & Bìa sau",
@@ -423,7 +423,7 @@
               "printPage": 100,
               "id": "thong-tin-xuat-ban-bia-sau",
               "endPage": 103,
-              "summary": "Trân trọng cám ơn các tác giả có tác phẩm, tưr liệu được sử dụng, trích dẫn trong cuốn sách này. Chịu trách nhiệm xuất bản: Chủ tịch Hội đồng thành viên - Tổng Giám đốc NGUYÊN TIÊN THANH Chịu trách nhiệm nội dụng: Tổng biên tập PHẠM VĨNH THÁI Tổ chức và chịu trách nhiệm bản thảo:..."
+              "summary": "Trân trọng cám ơn các tác giả có tác phẩm, tư liệu được sử dụng, trích dẫn trong cuốn sách này. Chịu trách nhiệm xuất bản: Chủ tịch Hội đồng thành viên - Tổng Giám đốc NGUYÊN TIÊN THANH Chịu trách nhiệm nội dụng: Tổng biên tập PHẠM VĨNH THÁI Tổ chức và chịu trách nhiệm bản thảo:..."
             }
           ]
         }

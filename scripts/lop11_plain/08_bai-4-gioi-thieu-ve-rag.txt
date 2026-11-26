@@ -1,0 +1,162 @@
+=== 8: bai-4-gioi-thieu-ve-rag - Bài 4. Giới thiệu về RAG ===
+
+[1] Chủ đề 2. Nguyên lí hoạt động của mô hình ngôn ngữ lớn
+[2] Bài 4. Giới thiệu về RAG
+[3] 📄 Trang sách gốc: 33 – 40
+[4] 📖 Xem bản in gốc
+[5] BÀI 4. GIỚI THIỆU VỀ RAG
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Trình bày được RAG (Retrieval-Augmented Generation) là gì và lí do cần bổ sung RAG vào mô hình ngôn ngữ lớn (LLM).
+[10] Trình bày được ba bước hoạt động của RAG: truy xuất, tăng cường, sinh câu trả lời.
+[11] Phân biệt được LLM thường và LLM dùng RAG qua ví dụ đơn giản.
+[12] 💡
+[13] KHỞI ĐỘNG
+[14] Lan cần viết báo cáo về kinh tế và xã hội Nhật Bản năm 2025. Khi dùng một mô hình ngôn ngữ lớn (LLM), Lan nhận được bài viết trôi chảy nhưng nhiều thông tin sai hoặc cũ (từ năm 2021). Sau đó, Lan chọn chế độ Search the web: mô hình
+[15] truy xuất nguồn mới, bổ sung vào ngữ cảnh và tạo báo cáo kèm liên kết đáng tin cậy.
+[16] Em hãy cho biết:
+[17] 1.  Vì sao LLM ban đầu trả lời sai hoặc lỗi thời?
+[18] 2. Khi dùng Search the web, mô hình đã thực hiện những bước nào để cho kết quả chính xác và đáng tin hơn? (Gợi ý: truy xuất - tăng cường - sinh câu
+[19] 3. So sánh câu trả lời của LLM thường và LLM có truy xuất khác nhau thế nào về tính cập nhật, độ tin cậy và nguồn tham khảo?
+[20] 🔍
+[21] KHÁM PHÁ
+[22] 1.  Giới thiệu về RAG
+[23] Trong tình huống ở phần Khởi động, khi Lan dùng chế độ mặc định, mô hình chỉ sử dụng dữ liệu huấn luyện cũ. Vì vậy, kết quả trả về có thông tin sai hoặc lỗi thời.
+[24] Do mô hình không cung cấp nguồn, việc kiểm chứng nội dung cũng khó khăn.
+[25] Trong Bài 3, tạ biết rằng một trong những hạn chế lớn nhất của LLM là kết quả
+[26] phụ thuộc nhiều vào dữ liệu huần luyện. Khi dữ liệu huấn luyện bị cũ, sai hoặc thiếu, LLM có thể đưa ra câu trả lời có thông tin cũ, sai hoặc bịa đặt. Nhằm nâng cao độ chính xác và độ tin cậy cho mô hình, kĩ thuật RAG (Retrieval-Augmented
+[27] Generation) được ra đời. Với kĩ thuật RAG, mô hình sử dụng thêm dữ liệu bên ngoài (dữ liệu riêng, dữ liệu kiểm chứng được nguồn,...) để tạo ra câu trả lời mà không cần huấn luyện lại.
+[28] Khi sử dụng kĩ thuật RAG, do sử dụng thêm dữ liệu bên ngoài, nội dung tạo ra chính xác và cập nhật hơn, giảm tình trạng bịa đặt (hallucination). Việc cho phép sử dụng dữ liệu riêng của tổ chức và kiểm chứng được nguồn giúp kết quả đáng tin cây và phù hợp hơn với nhu cầu thực tế.
+[29] Ví dụ: ChatGPT-4, chế độ Search the web, ngoài dữ liệu huấn luyện còn sử dụng
+[30] dữ liệu mới hơn tìm được trên Internet.
+[31] Tài liệu nội bộ Internet
+[32] Dữ liệu bên ngoài
+[33] Cơ sở dừ liêu
+[34] 🖼️ Minh họa trong sách
+[35] Hình 4.1. Các nguồn dữ liệu cho kĩ thuật RAG
+[36] Kĩ thuật RAG (Retrieval-Augmented Generation) là cách để LLM kết hợp dữ liệu bên ngoài với dữ liệu huấn luyện, giúp bổ sung thông tin mới.
+[37] Nhờ sử dụng thêm dữ liệu có nguồn tin cậy và cập nhật, RAG cho câu trả lời chính xác hơn và giảm sai lệch mà không cần huấn luyện lai.
+[38] 2. Nguyên lí hoạt động của RAG Khi Lan sử dụng tuỳ chọn Search the web của ChatGPT, ChatGPT sẽ tìm kiếm những thông tin liên quan trên Internet. ChatGPT bổ sung những thông tin này vào
+[39] prompt ban đầu trước khi tạo ra câu trả lời. Vì vậy, kết quả thu được có những thông tin mới nhất. Tìm kiếm, bổ sung thông tin tìm được vào prompt và tạo ra câu trả lời là ba bước chính khi LLM sử dụng RAG.
+[40] Quy trình hoạt động gồm ba bước chinh của RAG như sau:
+[41] Truy xuất: Mô hình tim các thóng tin liên quan từ kho dữ liệu bên ngoài (dữ liệu
+[42] riêng, Internet, dữ liệu kiểm chứng được nguồn,...).
+[43] Tăng cường: Các thông tin này được đưa vào cùng với câu hỏi để cung cấp
+[44] thêm ngữ cảnh.
+[45] Sinh câu trả lời: mô hình dựa trên cả câu hỏi và thông tin tìm được để tạo ra câu
+[46] trả lời chính xác và đáng tin cậy hơn
+[47] Dữ liệu bên ngoài (dữ liệu riêng, Internet,...)
+[48] Truy xuất Các thông tin
+[49] liên quan
+[50] Prompt được
+[51] tăng cường Câu trả lời Người
+[52] Prompt
+[53] mô hình ngôn ngữ
+[54] dùng RAG
+[55] lớn
+[56] LLM dùng RAG
+[57] 🖼️ Minh họa trong sách
+[58] Hình 4.2. Nguyên lí hoạt động của RAG
+[59] Quy trình hoạt động của RAG có ba bước chinh:
+[60] truy xuất - tìm thông tin, tăng cường - kết hợp thông tin và câu hỏi, sinh câu trả lời - dựa trên câu hỏi và thông tin tìm được.
+[61] 3.  Mô hình LLM thường và LLM có kết hợp RAG
+[62] Trong phần Khởi động, ở lần thừ đầu tiên, nội dùng trả lời có những thông tin sai hoặc lỗi thời. Đây là một nhược điểm của mô hình ngôn ngữ lớn vì dữ liệu để huấn luyện các mô hình này thường không được cập nhật (chỉ bao gồm thông tin trước
+[63] một mốc thời gian cụ thể).
+[64] nhật những thông tin mới nhất từ Internet nên hạn chế được nhược điểm nêu trên.
+[65] Ngoài phần nội dung, ChatGPT còn cung cấp liên kết tới nguồn của những thông tin trong nội dung.
+[66] Ở lần thử thứ hai, khi sử dụng tính năng Search the web, ChatGPT đã được cập
+[67] Nhờ bước truy xuất thông tin liên quan từ dữ liệu bên ngoài trước khi tạo câu
+[68] trả lời, RAG giúp mô hình có thông tin mới, chính xác. Các thông tin do RAG cung
+[69] cấp có nguồn cụ thể, có thể kiểm chứng được nên câu trả lời đáng tin cậy hơn.
+[70] Vi du:
+[71] Câu hỏi: Việt Nam có bao nhiêu tỉnh, thành phố?
+[72] LLM thường: Tính đến thời điểm huấn luyện của tôi (2023), Việt Nam có 63 đơn vị hành chính cấp tỉnh bao gồm 58 tỉnh và 5 thành phố trực thuộc trung ương
+[73] LLM có RAG: Hiện tại (tính đến sau khi Quốc hội thông qua vào ngày 12/6/2025), Viêt Nam có 34 đơn vị hành chính cấp tỉnh, bao gồm 28 tỉnh và 6 thành phố trực thuộc trung ương
+[74] -
+[75] LLM thường
+[76] Prompt Kết quả
+[77] Mô hình ngôn ngữ
+[78] lớn
+[79] LLM kết hợp RAG
+[80] Prompt
+[81] Mó hình ngôn ngữ
+[82] Kết quả
+[83] lớn
+[84] Dữ liệu bên ngoài L- -
+[85] -
+[86] 🖼️ Minh họa trong sách
+[87] Hình 4.3. LLM thường và LLM dùng RAG
+[88] Tuy nhiên, chính RAG cũng có những nhược điểm như sau:
+[89] Phụ thuộc vào chất lượng dữ liệu ngoài: Nếu dữ liệu ngoài chứa thông tin sai,
+[90] lỗi thời hoặc thiên vị, kết quả RAG cũng sẽ bị ảnh hưởng.
+[91] Khó khăn trong truy xuất: Việc tìm chính xác đoạn thông tin liên quan nhất trong
+[92] lượng lớn dữ liệu ngoài là rất khó. Lỗi truy xuất (không tìm được hoặc tim sai) sẽ dẫn đến câu trả lời sai hoặc không liên quan.
+[93] Khả năng tích hợp thông tin: LLM có thể gặp khó khăn trong việc tổng hợp và
+[94] diễn giải một cách mạch lạc nhiều đoạn thông tin được truy xuất.
+[95] Chi phí và độ phức tạp: Xây dựng và duy trì một hệ thống RAG hiệu quả (đặc
+[96] biệt là phần dữ liệu ngoài và truy xuất) tốn kém và phức tạp hơn dùng LLM đơn thuần.
+[97] Có thể tạo ra sự thiếu khách quan mới: Quá trình truy xuất có thể ưu tiên một
+[98] số nguồn hoặc loại thông tin nhất định trong dữ liệu ngoài.
+[99] Ví dụ, em hỏi "Triệu chứng cảm cúm?" nhưng hệ thống truy xuất nhằm tài liệu về
+[100] "Liều lượng thuốc cảm" không chứa phần triệu chứng. Khi đó, câu trả lời không đúng, không liên quan. Nếu dữ liệu ngoài chỉ chứa sách của một tác giả, câu trả lời RAG cũng chỉ dựa theo quan điểm của tác giả đó. Câu trả lời có thể bị thiếu
+[101] chiều sâu hoặc thiên lệch về góc nhìn.
+[102] LLM thường: chỉ sử dụng thông tin huấn luyện không được cập nhật.
+[103] LLM kết hợp với RAG: cung cấp thêm thông tin mới bên ngoài cho mô hình bên cạnh thông tin huấn luyện.
+[104] RAG giúp trả lời chính xác hơn nhờ sử dụng thêm dữ liệu bên ngoài (dữ liệu riêng, dữ liệu từ Internet,...).
+[105] Các dữ liệu này kiểm chứng được nguồn nên câu trả lời đáng tin cậy hơn.
+[106] 4.  Thực hành
+[107] Nhiệm vụ: Viết báo cáo về kinh tế và xã hội Việt Nam năm 2025 bằng
+[108] tuỳ chọn Search the web của ChatGPT.
+[109] Hướng dẫn
+[110] Bước 1. Truy cập trang web của ChatGPT: https://chatgpt.com/.
+[111] Bước 2. Nháy chuột vào mục Tools → Search the web (Hình 4.4).
+[112] Where should we begin?
+[113] Ask anything
+[114] & Create an image
+[115] * Search the web
+[116] O Write or code
+[117] Ở Think for longer
+[118] * Run deep research a let
+[119] 🖼️ Minh họa trong sách
+[120] Hình 4.4. Chon công cụ Search the web
+[121] Bước 3. Nhập prompt "Viết báo cáo về kinh tế và xã hội Việt Nam năm 2025.
+[122] Sử dụng nguồn từ website tiếng Việt".
+[123] Bước 4. Kiểm tra các thông tin trong cầu trả lời của ChatGPT.
+[124] ✏️
+[125] LUYỆN TẬP
+[126] 1. RAG giúp cải thiện mô hình ngôn ngữ lớn bằng cách nào?
+[127] A. Tăng khả năng tưởng tượng của mô hình.
+[128] B. Giúp mô hình tạo nội dung sáng tạo hơn.
+[129] C. Kết hợp thông tin truy xuất được từ nguồn bên ngoài vào quá trình sinh câu
+[130] trả lời.
+[131] D. Giảm thời gian xử lí ngôn ngữ tự nhiên.
+[132] 2.  Lợi ích nổi bật của RAG là gì?
+[133] A. Không cần dữ liệu huấn luyện ban đầu.
+[134] B. Giúp mô hình trả lời đúng hơn, giảm bịa đặt.
+[135] C. Giảm dung lượng mô hình.
+[136] D. Loại bỏ hoàn toàn nhu cầu truy vấn.
+[137] 3.  Khi nào nên ưu tiên sử dụng mô hình tích hợp RAG?
+[138] A. Khi cần viết thơ, truyện sáng tạo.
+[139] B. Khi cần tạo trò chơi điên tử.
+[140] C. Khi cần thông tin cập nhật, chính xác, có dẫn nguồn.
+[141] D. Khi cần xử lí ảnh.
+[142] 4.  Phương án nào sau đây là các bước trong quy trình hoạt động của RAG?
+[143] A. Truy xuất, cung cấp ví dụ và sinh câu trả lời.
+[144] B. Truy xuất, suy luận theo từng bước, tăng cường và sinh câu trả lời.
+[145] C. Gọi hàm, tăng cường và sinh câu trả lời.
+[146] D. Truy xuất, tăng cường và sinh câu trả lời.
+[147] 5. Phương án nào sau đây là điểm khác nhau giữa LLM có sử dụng RAG và LLM thường?
+[148] A. Có suy luận theo từng bước.
+[149] B. Có ví dụ minh hoạ.
+[150] C. Có thông tin được cập nhật và ghi nguồn cụ thể
+[151] D. Có giọng văn và phong cách theo yêu cầu của người sử dụng.
+[152] 6.  Lí do nào sau đày giúp RAG có câu trả lời tin cậy hơn?
+[153] A. Luôn dẫn nguồn rõ ràng với dữ liệu được sử dụng.
+[154] B. Trả lời câu hỏi dựa vào dữ liệu đã được huấn luyện.
+[155] C. Tự tạo thông tin mới khi cần.
+[156] D. Luôn từ chối trả lời nếu không chắc.
+[157] 🚀
+[158] VẬN DỤNG
+[159] 1. Sử dụng tùy chọn Search the web của ChatGPT, em hãy làm báo cáo môn Địa lí về kinh tế và xã hội Australia năm 2025.
+[160] 2. Em hãy kiểm tra các thông tin trong báo cáo do ChatGPT tạo ra bằng các liên kết được cung cấp.

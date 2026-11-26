@@ -60,7 +60,7 @@
 - Lưu các vector (vector store) vào một kho đặc biệt gọi là kho lưu trữ vector để</p>
 <p class="lesson-p">thuận lợi cho việc tìm kiếm.</p>
 <p class="lesson-p">Nhớ cách làm này, khi bạn Minh Châu hỏi về năm sinh của Nguyễn Du, AI có thể tim đúng đoạn thơ liên quan, thay vì phải xử lí cả tác phẩm dài trong một lần.</p>
-<p class="lesson-p">LLM chỉ xử li được lượng thông tin giới hạn (cửa số ngữ cảnh). RAG giúp LLM bằng cách truy xuất các đoạn văn bản liên quan từ tài liệu lớn và đưa vào cửa số ngữ cảnh, giúp LLM trả lời chính xác.</p>
+<p class="lesson-p">LLM chỉ xử lí được lượng thông tin giới hạn (cửa số ngữ cảnh). RAG giúp LLM bằng cách truy xuất các đoạn văn bản liên quan từ tài liệu lớn và đưa vào cửa số ngữ cảnh, giúp LLM trả lời chính xác.</p>
 <p class="lesson-p">RAG</p>
 <p class="lesson-p">RAG</p>
 <p class="lesson-p">RAC</p>
@@ -84,7 +84,7 @@ bên cạnh là mô phỏng máy tính đang dùng RAG đề truy xuất dữ li
 <p class="lesson-p">để chia nhỏ, ví dụ: kích thước cố định, theo câu, theo đoạn văn, hoặc theo cấu trúc của tài liệu (như tiêu đẻ, mỤc lục).
 
 - Ví dụ: Một bài báo khoa học dài 10</p>
-<p class="lesson-p">trang có thế được chia thành các</p>
+<p class="lesson-p">trang có thể được chia thành các</p>
 <p class="lesson-p">đoạn nhỏ hơn, mỗi đoạn khoảng 2 đến 3 câu hoặc theo từng đoạn văn</p>
 <p class="lesson-p">bán có ý nghĩa hoàn chỉnh.
 
@@ -174,7 +174,7 @@ Việc này giúp gắn vị trí cho thông tin, để các đoạn có nội d
 a) Hậu quả khi truy xuất kém chất lượng Nếu bước truy xuất không chính xác, LLM sẽ nhận được dữ liệu không liên quan, thiếu hụt, hoặc thậm chí sai lệch. Điều này khiến "bộ não" của AI không có đủ thông tin hoặc bị đánh lừa bởi thông tin không đúng, dẫn đến việc tạo ra câu trả lời</p>
 <p class="lesson-p">không đầy đủ, mơ hồ, hoặc hoàn toàn sai. Khi đó, dù LLM có năng lực tổng hợp tốt đến đâu thì đầu ra vẫn kém chất lượng vì đầu vào đã bị lối.</p>
 <p class="lesson-p">b) Yếu tố quyết định chất lượng truy xuất - Chia nhỏ nội dung hợp lí: Việc chia tài liệu thành các đoạn văn bản cần đảm</p>
-<p class="lesson-p">bảo mỗi đoạn văn bản đủ gọn để LLM có thế xử lí hiệu quả, nhưng đồng thời phải giữ được ngữ nghĩa và bối cảnh đầy đủ của thông tin. Nếu đoạn văn bản quá nhỏ sẽ mất ngữ cảnh, quá lớn sẽ vượt quá khả năng xử lí hoặc chứa nhiều thông tin nhiều.
+<p class="lesson-p">bảo mỗi đoạn văn bản đủ gọn để LLM có thể xử lí hiệu quả, nhưng đồng thời phải giữ được ngữ nghĩa và bối cảnh đầy đủ của thông tin. Nếu đoạn văn bản quá nhỏ sẽ mất ngữ cảnh, quá lớn sẽ vượt quá khả năng xử lí hoặc chứa nhiều thông tin nhiều.
 
 - Biểu diễn vector chuẩn: Việc biểu diễn vector cần mã hoá văn bản thành vector</p>
 <p class="lesson-p">một cách chính xác, sao cho những đoạn văn bản có ý nghĩa tương đồng thực sự có các vector gần nhau trong không gian đa chiều. Biểu diễn vector không chuấn sẽ làm giảm khả năng nhận diện mối liên hệ ngữ nghĩa, dẫn đến việc truy xuất nhầm thông tin.

@@ -1,0 +1,34 @@
+=== 4: muc-luc - Mục lục ===
+
+[1] Mở đầu
+[2] Mục lục
+[3] 📄 Trang sách gốc: 6 – 7
+[4] 📖 Xem bản in gốc
+[5] MỤC LỤC
+[6] Trang
+[7] NỘI DUNG
+[8] CHỦ ĐẾ 1. MÔ HÌNH NGÔN NGỮ LỚN SÁNG TẠO NỘI DUNG
+[9] Bài 1
+[10] Kì thuật viết prompt cơ bản và nâng cao
+[11] Bài 2
+[12] mô hình ngôn ngữ lớn sáng tạo nội dung
+[13] CHỦ ĐỀ 2. NGUYÊN LÍ HOẠT ĐỘNG CỦA MÔ HÌNH NGÔN NGỮ LỚN
+[14] Bài 3 Mô hình ngôn ngữ lớn và hạn chế của nó
+[15] Bài 4 Giới thiệu về RAG
+[16] Bài 5 Mạng nơ-ron nhân tạo
+[17] Bài 6 Phân loại và phân cụm dù liệu
+[18] CHỦ ĐỀ 3. ĐẠO ĐỨC VÀ TRÁCH NHIỆM KHI SỬ DỤNG AI
+[19] Bời 7 Đạo đức, pháp luật và văn hóa trong sử dụng mô hình ngôn ngữ lớn
+[20] Bài 8 Giá trị con người trong ki nguyên AI
+[21] CHỦ ĐỂ 4. MÔ HÌNH NGÔN NGỮ LỚN TRONG HỌC TẬP
+[22] Bài 9 Mô hình ngôn ngữ lớn hỏ trọ học tập
+[23] Bài 10 Mơ hình ngón ngữ lớn hỗ trợ học lập trình
+[24] Bài 11
+[25] Tạo và sửa hình ảnh bằng mô hình ngôn ngữ lớn
+[26] Bỏi 12
+[27] Tạo video bằng mô hình ngôn ngữ lớn
+[28] Bài 13 Bài lập dự án
+[29] BẢNG GIẢI THÍCH THUẬT NGỮ
+[30] CHỦ ĐẾ 1. MÔ HÌNH NGÔN NGỮ LỚN
+[31] SÁNG TẠO NỘI DUNG
+[32] Prompt

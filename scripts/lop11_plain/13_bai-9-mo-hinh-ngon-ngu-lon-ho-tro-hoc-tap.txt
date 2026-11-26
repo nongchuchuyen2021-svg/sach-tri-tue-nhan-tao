@@ -1,0 +1,90 @@
+=== 13: bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap - Bài 9. Mô hình ngôn ngữ lớn hỗ trợ học tập ===
+
+[1] Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập
+[2] Bài 9. Mô hình ngôn ngữ lớn hỗ trợ học tập
+[3] 📄 Trang sách gốc: 72 – 76
+[4] 📖 Xem bản in gốc
+[5] HỖ TRỢ HỌC TẬP
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Sử dụng được mô hình ngôn ngữ lớn (LLM) để tim hiểu, tóm tắt và đặt câu hỏi trong học tập.
+[10] Sử dụng được LLM để học từ, sửa lỗi, luyện ngữ pháp và hội thoại ngoại ngữ.
+[11] 💡
+[12] KHỞI ĐỘNG
+[13] Trong quá trình học, Bình gặp khó khăn khi đọc hiểu bài viết về Hội nghị Liên Hợp Quốc về Biến đổi Khí hậu (COP) bằng tiếng Anh. Bình đã yêu cầu ChatGPT giải thích từng
+[14] đoạn văn và tóm tắt bài viết. Ngoài ra, Bình cũng yêu cầu ChatGPT phân tích các cấu trúc ngữ pháp trong bài và giải nghĩa một số từ vựng khó kèm ví dụ minh hoạ. Nhờ vậy, Bình đã hiểu bài viết rõ ràng và sâu sắc hơn.
+[15] Em hãy cho biết:
+[16] 1. Bình đã sử dụng ChatGPT như thể nào để hiểu được nội dung bài viết bằng tiếng Anh?
+[17] 2.  Bình đã sử dụng ChatGPT như thế nào đề học ngữ pháp và từ vựng trong bài viết?
+[18] 🔍
+[19] KHÁM PHÁ
+[20] 1. Sử dụng được mô hình ngôn ngữ lớn để tìm hiểu, tóm tắt và đặt câu hỏi trong học tập
+[21] Trong phần Khởi động, Bình đã sử dụng ChatGPT để hỗ trợ đọc hiểu bài viết bằng tiếng Anh. Cụ thể, Bình yêu cầu tổng hợp nội dung chính, làm rõ ý nghĩa từng đoạn văn, qua đó nắm được thông tin quan trọng. Nhờ khả năng tóm tắt và diễn giải của LLM, Bình tiếp cận bài đọc dễ dàng và hiệu quả hơn.
+[22] 70
+[23] Trong quá trình học tập, em có thể sử dụng LLM như một công cụ hỗ trợ để tìm hiếu, tồng hợp thông tin và luyện tập.
+[24] a) Giài thích các khái niệm, thuật ngữ hoặc quá trình Cách dùng: Hỏi LLM để được giải thích khái niệm, thuật ngữ hoặc quả trình.
+[25] Ví dụ:
+[26] Hãy giải thích Định luật 2 Newton bắng ngôn ngữ đơn giản
+[27] Tóm tắt truyện Chiếc lược ngà.
+[28] b)  Luyện tập và kiểm tra kiến thức
+[29] Cách dùng: Nhờ LLM tạo câu hỏi trắc nghiệm, bài tập hoặc đưa ra đáp án để đối chiếu.
+[30] Ví dụ:
+[31] Tạo 5 câu hỏi trắc nghiệm liên quan đến Cách mạng tháng Tám năm 1945.
+[32] Giải và giải thích bài toán sau: Giải phương trình cos 2x - cos x = 0.
+[33] c)  Phát triển kĩ năng viết và tư duy phản biện
+[34] Cách dùng: Nhờ LLM góp ý bài viết, gợi ý dàn ý hoặc phản biện ý kiến.
+[35] Ví dụ:
+[36] Góp ý cho đoạn văn nghị luận xã hội về ý chi vượt khỏ.
+[37] Viết đoạn văn phản biện cho quan điểm: "Học trực tuyến không hiệu quả bằng
+[38] học trực tiếp".
+[39] Lưu ý khi sử dụng:
+[40] - Kiểm chứng thông tin: LLM đôi
+[41] khi có thể tạo ra thông tin sai lệch hoặc không chính xác, hiện tượng này được gọi là "bịa đặt".
+[42] Không nên lạm dụng: Cần tránh
+[43] lạm dụng LLM vì đây chỉ là công
+[44] cụ hỗ trợ, không thể thay thế cho tư duy độc lập và sự nỗ lực thực sự trong học tập.
+[45] Tôn trọng đạo đức học tập: Không
+[46] sử dụng LLM để gian lận trong Hình 9.1. Sử dụng LLM hỗ trợ học tập kiểm tra, thi cử
+[47] Mô hình ngôn ngữ lớn có thể được sử dụng để tìm hiểu, tóm tắt và đặt câu hỏi trong nhiều môn học khác nhau. Việc sử dụng LLM giúp chủ động thời gian và tăng hiệu quả học tập.
+[48] 2. Sử dụng mô hình ngôn ngữ lớn hỗ trợ học ngoại ngữ Ở phần Khởi động, Bình đã sử dụng ChatGPT để học ngữ pháp và từ vựng bằng
+[49] cách yêu cầu phân tích các cấu trúc ngữ pháp trong bài, đồng thời giải nghĩa từ vựng khó, đưa ra vỉ dụ minh họa để hiểu cách sử dụng từ trong ngữ cảnh. Nhờ đó, Bình nắm vững quy tắc ngữ pháp và ghi nhớ từ mới hiệu quả hơn.
+[50] Việc sử dụng LLM trong học ngoại ngữ mang lại nhiều tiện ích như: hỗ trợ học từ, sửa lỗi, luyện ngữ pháp và hội thoại. Em có thể yêu cầu LLM giải nghĩa từ vựng mới và đưa thêm các ví dụ để hiểu rõ hơn cách sử dụng. LLM cũng có thể hỗ trợ sửa các lỗi ngữ pháp, lỗi chính tả trong bài viết (ví dụ: IELTS writing).... khi được yêu cầu.
+[51] Ngoài ra, em cũng có thể giao tiếp với LLM để cải thiện khả năng hội thoại.
+[52] Học sinh có thể sử dụng LLM để hỗ trợ học nhiều ngôn ngữ với nội dung khác nhau vào bất kì thời gian nào và hoàn toàn miễn phí. Khi kết hợp đúng cách với các tài liệu từ giáo viên, LLM giúp nâng cao hiệu quả và trải nghiệm học ngoại ngữ
+[53] 🖼️ Minh họa trong sách
+[54] Hình 9.2. Sử dụng LLM hỗ trợ học ngoại ngữ
+[55] Mô hình ngôn ngữ lớn có thể được sử dụng để học từ vựng, sửa lỗi, luyện ngữ pháp và luyện giao tiếp. Việc sử dụng LLM giúp học sinh linh hoạt nội dung, thời gian học, nâng cao hiệu quả và trải nghiệm học ngoại ngữ.
+[56] 3.  Thực hành
+[57] (Hướng dẫn dưới đây sử dụng phần mềm ChatGPT.)
+[58] Nhiệm vụ 1: Sử dụng LLM tìm hiểu về khởi nghĩa Lam Sơn.
+[59] Hướng dẫn
+[60] Bước 1. Khởi động trình duyệt và truy cập trang web cia ChatGPT: https://chatgpt.com/.
+[61] Bước 2. Nhập prompt "Hãy tóm tắt bối cảnh lịch sử và diễn biến chinh của khởi nghĩa Lam Sơn".
+[62] Bước 3. Sao chép câu trả lời từ ChatGPT sang phần mềm soạn thảo văn bản.
+[63] Nhiệm vụ 2: Sử dụng LLM để học lừ vựng tiếng Anh.
+[64] Hướng dẫn
+[65] Bước 1. Khởi động trình duyệt và truy cập trang web của ChatGPT: https://chatgpt.com/
+[66] Bước 2. Nhập prompt: "Hãy giải thích nghĩa của các từ "emission", "balance", "Carbon" và "Methane" và cho ba ví dụ minh hoạ cho mỗi từ kèm theo giải thích chi tiết".
+[67] Bước 3. Sao chép câu trả lời từ ChatGPT sang phần mềm soạn thảo văn bản.
+[68] ✏️
+[69] LUYỆN TẬP
+[70] 1.  Mô hình ngôn ngữ lớn có thể hỗ trợ những nhiệm vụ nào sau đây trong học tập?
+[71] A. Vẽ bản đồ tư duy và học thuộc lòng.
+[72] B. Tăng cường khả năng tập trung và ghi nhớ của người học.
+[73] C. Vẽ tranh và sáng tác nhạc.
+[74] D. Tìm hiểu, tóm tắt và đặt câu hỏi.
+[75] 2.  LLM có thể áp dụng cho học môn ngoại ngữ nào sau đây?
+[76] A. Chỉ tiếng Anh.
+[77] B. Các loại ngôn ngữ phổ biến (Anh, Pháp, Tây Ban Nha,....).
+[78] C. Chỉ ngoại ngữ chuyên ngành.
+[79] D. Không áp dụng được.
+[80] 3.  LLM hỗ trợ người như thế nào trong việc học từ vựng?
+[81] A. Nhắc nhở người học ôn tập từ mới hằng ngày.
+[82] B. Giải nghĩa từ theo ngữ cảnh.
+[83] C. Chỉnh sửa lại cách phát âm cho người học.
+[84] D. Phát hiện từ mới trong đoạn văn do người dùng cung cấp.
+[85] 🚀
+[86] VẬN DỤNG
+[87] 1. Hãy sử dụng LLM để viết báo cáo môn Lịch sử về phong trào Tây Sơn. Nội dung báo cáo bao gồm bối cảnh lịch sử, diễn biến chính và ý nghĩa lịch sử của
+[88] 2. Sử dụng LLM, hãy tim ba từ đồng nghĩa với từ "balance", phân tích sự giống nhau và khác nhau giữa các từ này.

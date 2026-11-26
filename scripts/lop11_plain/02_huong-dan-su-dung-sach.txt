@@ -1,0 +1,24 @@
+=== 2: huong-dan-su-dung-sach - Hướng dẫn sử dụng sách ===
+
+[1] Mở đầu
+[2] Hướng dẫn sử dụng sách
+[3] 📄 Trang sách gốc: 4 – 4
+[4] 📖 Xem bản in gốc
+[5] HƯỚNG DẪN SỬ DỤNG SÁCH
+[6] MỤC TIÊU Giúp em biết mình sẽ đạt được gì sau bài học.
+[7] 💡
+[8] KHỞI ĐỘNG
+[9] Giúp em nhận biết ý nghĩa của bài học bằng cách kết nối những tình huống xuất hiện trong cuộc sống với nội dung bài học.
+[10] KHÂM PHÁ Cung cấp nội dung chính của bài học, giúp em bổ sung kiến thức, thực hành.
+[11] trả lời câu hỏi,.. nhằm đạt được mục tiêu của bài học.
+[12] HÔP KIẾN THỨC
+[13] Tóm tắt kiến thức mới một cách cô đọng, giúp em dễ ghi nhớ.
+[14] 🛠️
+[15] THỰC HÀNH
+[16] Gồm những nhiệm vụ học tập có hướng dẫn chi tiết.
+[17] ✏️
+[18] LUYỆN TẬP
+[19] Gồm những câu hỏi, bài tập đề củng có kiến thức, kĩ năng trong bài học.
+[20] VẬN DỤNG Gồm những câu hỏi, bài tập, thực hành nâng cao hoặc mở rộng kiến thức kĩ năng đã học để giải quyết tình huống thực tiễn.
+[21] Tài liệu giảng dạy.
+[22] Học liệu số mở rộng.

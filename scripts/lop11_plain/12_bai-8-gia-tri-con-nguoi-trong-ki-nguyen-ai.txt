@@ -1,0 +1,91 @@
+=== 12: bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai - Bài 8. Giá trị con người trong kỉ nguyên AI ===
+
+[1] Chủ đề 3. Đạo đức và trách nhiệm khi sử dụng AI
+[2] Bài 8. Giá trị con người trong kỉ nguyên AI
+[3] 📄 Trang sách gốc: 66 – 71
+[4] 📖 Xem bản in gốc
+[5] TRONG KỈ NGUYÊN ẠI
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Trình bày được những giá trị cốt lỗi tạo nên sự khác biệt giữa con người với AI.
+[10] Phân tích và nêu được một số ví dụ về hạn chế của AI so với con người.
+[11] Nêu được một số hành động để phát huy giá trị của con người trong kỉ nguyên AI.
+[12] 💡
+[13] KHỞI ĐỘNG
+[14] Ngày nay, với sự phát triển vượt bậc của công nghệ, AI đã có thể viết văn, giải toán, vẽ tranh, chơi cờ, điều khiển xe tự lái, thậm chí có khả năng giành được thành tích cao ở những đấu trường trí tuệ hàng đầu thế giới. Những khả năng đó
+[15] đặt ra câu hỏi: nếu máy móc đã tài giỏi đến vậy, con người còn giữ ưu thế nào?
+[16] Điều gì khiến chúng ta vẫn khác biệt và không thể bị thay thế trong xã hội hiện đại?
+[17] 🖼️ Minh họa trong sách
+[18] Hình 8 1
+[19] 🔍
+[20] KHÁM PHÁ
+[21] 1.  Giá trị cốt lõi tạo nên sự khác biệt giữa con người với AI
+[22] Việc AI ngày càng chứng tỏ khả năng vượt trội trong nhiều lĩnh vực khiến chúng ta phải đặt ra câu hỏi quan trọng: "Đâu là giá trị khác biệt và không thể thay thế của con người?". Rõ rảng, câu trả lời không phải là việc cạnh tranh về tốc độ hay hiệu suất. Thay vào đó, sự khác biệt nằm ở chính những phẩm chất và năng lực
+[23] cốt lõi làm nên bản sắc của chúng ta - những giá trị mà không một cỗ máy nào có thể sở hữu một cách đích thực.
+[24] Theo nội dung Chương trình Giáo dục phổ thông năm 2018, học sinh cần hình thành và phát triển năm phẩm chất chủ yếu: yêu nước, nhân ái, chăm chì, trung thực, trách nhiệm; ba năng lực chung: năng lực tự chủ và tự học, năng lực giao tiếp và hợp tác, năng lực giải quyết vấn đề và sáng tạo; bày năng lực đặc thù:
+[25] năng lực ngôn ngữ, năng lực tính toán, năng lực khoa học, năng lực công nghệ, năng lực tin học, năng lực thẩm mĩ, năng lực thể chất. Những phẩm chất và năng
+[26] lực đó không chỉ là mục tiêu học tập, mà còn là "tấm bản đồ" giúp chúng ta nhận dạng và khẳng định giá trị riêng của mình.
+[27] Thảo luận: Em hãy thảo luận cùng các bạn trong lớp để xác định những phẩm chất và năng lực nào có thể là yếu tố thể hiện rõ nhất về sự khác biệt giữa con
+[28] Gợi ý các bước thực hiện:
+[29] Bước 1. Tra cứu Chương trình tổng thể - Chương trình Giáo dục phổ thông năm 2018 và đọc nội dung các phần 2, 3 - chương IX để hiểu rõ hơn các yêu cầu cần đạt về các phẩm chất và năng lực kể trên.
+[30] Bước 2. Thảo luận theo từng phẩm chất, năng lực. Với mỗi yếu tố, em có thể đặt câu hỏi: "AI có thể hình thành được phẩm chất năng lực đó hay không? Nếu có nó có thể đạt đến mức độ như thế nào? Bản chất của việc thực hiện đó ở con người và AI khác nhau ra sao?"
+[31] Bước 3. Tổng hợp kết quả thảo luận để đưa ra câu trả lời chung.
+[32] Câu hỏi sau thảo luận:
+[33] Từ kết quả thu được, theo em, AI có những điểm hạn chế gì so với con người?
+[34] Phẩm chất là nền tảng đạo đức khiến con người khác biệt hoàn toàn với máy móc. Các năng lực chung chính là thế mạnh mà em cần mài giữa để giữ vai trò dẫn dắt và giải quyết những vấn đề phức tạp. Cuối cùng, với
+[35] những năng lực đặc thù, em hãy học cách làm chủ AI và biến nó thành công cụ đắc lực để vượt qua giới hạn của
+[36] 64 65
+[37] 2.  AI chi là công cụ, vai trò quan trọng vẫn nắm ở con người
+[38] Mỗi công cụ khi ra đời không tự nó tốt hay xấu, mà giá trị của nó được quyết định bỏi người sử dụng. AI cũng không ngoại lệ. Thay vì chi hỏi "Ai có thể làm gì?", em cân chú ý
+[39] đến câu hỏi quan trọng hơn là "Em sẽ sử dụng AI để làm g1?". Chính những lựa chọn và hành động của em sẽ định hình tác động của Ai lên thế giới.
+[40] Con người quyết định. "dữ liệu đầu vào" cho AI:
+[41] AI học hỏi từ dữ liệu mà chúng ta cung cấp. Nếu con người đưa vào những dữ liệu công bằng, đa dạng và nhân văn, AI sẽ trở thành một công cụ hỗ trợ hiệu quả. Ngược lại, nếu
+[42] chúng ta "dạy" AI bằng những dữ liệu chứa định kiến về giới tính, chủng tộc hay vùng miền, AI sẽ khuếch đại những định kiến đó, tạo ra sự bất công trong xã hội. Trách nhiệm
+[43] lựa chọn và làm sach dữ liệu hoàn toàn thuộc về con người.
+[44] Con người quyết định "mục địch sử dụng" AI:
+[45] Cùng một công nghệ AI, con người có thể chọn sử dụng nó để phục vụ những mục địch rất khác nhau. Chúng ta có thể dùng AI để phân tích ảnh vệ tinh nhằm phát hiện sớm cháy rừng và bảo vệ môi trường. Nhưng chúng ta cũng có thể dùng nó để tạo ra các video giá mạo (deepfake) nhằm bôi nhọ danh dự người khác. Việc lựa chọn mục đích sử dụng mội
+[46] cách có đạo đức chinh là vai trò không thể thay thể của con người.
+[47] Con người thiết lập "giới hạn và quy tắc" cho AI:
+[48] AI không có khả năng tự nhận thức về ranh giới đạo đức. Chính con người phải thiết lập các quy tắc và giới hạn an toàn cho nó. Khi một chiếc xe tự lái gặp tình huống nguy cấp.
+[49] người lập trình phải quyết định nó sẽ ưu tiên bảo vệ ai. Khi một hệ thống AI được dùng trong y tế, các bác sĩ và nhà quản lí phải đảm bảo nó tuân thù các quy tắc về quyền riêng tư của bệnh nhán. Con người không chỉ tạo ra AI, mà còn phải chịu trách nhiệm giám sát và kiểm soát nó
+[50] Tương lai của AI không phải là một kịch bản được viết sản. Nó là một con đường đang được xây dựng và mỗi chúng ta đều là một người thợ kiến tạo. Việc trang bị kiến thức, kĩ
+[51] năng và một la bàn đạo đức vững chắc chính là cách để chúng ta đảm bảo AI phát triển vì lợi ích chung của nhân loại.
+[52] 🖼️ Minh họa trong sách
+[53] Hình 8.2
+[54] 66
+[55] 67
+[56] AI có thể mô phỏng trí thông minh, nhưng không thế thay thế nhân cách. Giá trị độc nhất của con người không nằm ở khả năng tỉnh toán, mà ở chiều sâu của cảm xúc.
+[57] sự sáng tạo từ trải nghiệm, lương trí đạo đức, bán sắc văn hóa và khát vọng sống có mục đích. Đày chính là những giá trị làm nên phẩm giá và vị thế làm chủ của
+[58] chúng ta trong kỉ nguyên số.
+[59] 3. Thảo luận về giữ gin giá trị của con người trong giáo dục, lao động và xã hội
+[60] Chủ đề thảo luận: Em hãy thảo luận cùng các bạn trong lớp đế xây dựng một "Kế hoạch hành động" nhằm phát huy giá trị con người trong ba lĩnh vực then chốt:
+[61] giáo dục, lao động và xã hội.
+[62] Gợi ý thực hiện:
+[63] Bước 1. Phân tích từ thực tế, em có thể bắt đầu từ việc trả lời các câu hỏi sau:
+[64] Trong các giờ học, em nên ưu tiên việc ghi nhớ kiến thức hay rèn luyện các kĩ năng như tư duy phản biện và hợp tác làm việc nhóm?
+[65] Các ngành nghề trong bối cảnh hiện nay đòi hỏi những phầm chất, năng lực nào của con người mà AI rất khó để làm tốt?
+[66] Chúng ta đang sử dụng mạng xã hội để kết nối hay đang để nó làm mình xa
+[67] cách với mọi người xung quanh?
+[68] Bước 2. Đặt ra các câu hỏi thực tiễn tương tự để thảo luận cùng các bạn trong lớp.
+[69] Bước 3. Dựa trên các phân tích ở trên, hãy đề xuất các hành động cụ thể, khả thi mà học sinh có thể thực hiện để phát huy giá trị con người trong kỉ nguyên AI.
+[70] Bước 4. Tổng hợp các ý kiến và trình bày chìa sẻ trước lớp.
+[71] ✏️
+[72] LUYỆN TẬP
+[73] 1.  Mỗi khẳng định sau đây đúng hay sai? Vì sao?
+[74] a) Giá trị lớn nhất của con người trong ki nguyên AI là khả năng tính toán nhanh và ghi nhớ nhiều thông tin hơn máy móc.
+[75] b) Lòng nhân ái và ý thức trách nhiệm là những phẩm chất mà AI không thể có được một cách đích thực.
+[76] c) Con người không cần cố gắng phát triển các năng lực đặc thù như tin học, công nghệ vì không thể cạnh tranh với AI.
+[77] d) Con người phải chịu trách nhiệm cuối cùng cho các quyết định và hành động của AI, vì AI chỉ là công cụ do con người tạo ra và kiểm soát.
+[78] e) Mọi quyết định do AI đưa ra đều khách quan và công bằng hơn con người vi nó không bị chi phối bởi cảm xúc.
+[79] f) Mục tiêu của giáo dực trong kỉ nguyên AI là tập trung hoàn toàn vào việc rèn luyện các kĩ năng công nghệ để cạnh tranh với máy móc.
+[80] 2. Có ý kiến cho rằng "AI có thể học được lòng nhân ái bằng cách phân tích hàng triệu hành động giúp đỡ người khác và bắt chước theo". Em có đồng tình với ý kiến đó không? Vì sao?
+[81] 🚀
+[82] VẬN DỤNG
+[83] Trình bày quan điểm của em về câu hỏi:
+[84] " Nếu một ngày AI làm hầu hết công việc, em muốn giữ lại điều gì để khẳng định
+[85] mình là con người?".
+[86] A
+[87] CHỦ ĐỀ 4. MÔ HÌNH NGÔN NGỮ LỚN
+[88] TRONG HỌC TẬP
+[89] ENGUSH

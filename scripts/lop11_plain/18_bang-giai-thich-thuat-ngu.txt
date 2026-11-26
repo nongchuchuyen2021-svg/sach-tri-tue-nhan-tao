@@ -1,0 +1,35 @@
+=== 18: bang-giai-thich-thuat-ngu - Bảng giải thích thuật ngữ ===
+
+[1] Phụ lục
+[2] Bảng giải thích thuật ngữ
+[3] 📄 Trang sách gốc: 101 – 101
+[4] 📖 Xem bản in gốc
+[5] BẢNG GIẢI THÍCH THUẬT NGỮ
+[6] Thuật ngừ
+[7] Giải thich
+[8] Trang
+[9] Chuỗi tư duy (Chain-of-
+[10] Thành phần trong prompt nhàm hướng dẫn mô hình suy nghĩ và trình bày lừng bước một để đi đến câu trả lời, thay vi chi đưa ra kết quả cuối cùng.
+[11] Thought)
+[12] JSON
+[13] Định dạng văn bản dùng để lưu trữ và trao đổi dữ liệu dưới dạng các cặp (khóa : giá trị).
+[14] (JavaScript Object Notation)
+[15] Thành phần của prompt cung cấp thông tin nền hoặc tình huống sử dụng, giúp mô hình hiểu rò mục tiêu tạo nội dung. Ví dụ: "Dành cho học sinh
+[16] N
+[17] Ngữ cảnh
+[18] lớp 10°, "Bạn là trợ lí học tàp", Trong giờ học môn Sinh học"....
+[19] Prompt không ví dụ (Zero-shot
+[20] Dạng lệnh mà người dùng không cần cung cấp mẫu đầu vào để AI hiểu yêu cầu.
+[21] prompt)
+[22] Prompt có ví dụ (Few-shot prompt)
+[23] Dạng yêu cầu mà người dùng đưa ra cho AI, kèm theo một vài ví dụ mẫu để hướng dẫn cách xử lí.
+[24] Kĩ thuật giúp AI tim thông tin từ tài liệu bên ngoài như bài báo, sách, hoặc website, rôi dùng thông tin đó để trả lời câu hỏi. Nhờ vậy, câu trả lời chính xác và cập nhật hơn so với chỉ dựa vào kiến thức
+[25] R
+[26] RAG (Retrieval-
+[27] Augmented
+[28] Generation)
+[29] có sẵn.
+[30] Một kiến trúc AI được thiết kế để xử lí chuỗi văn bản bằng cách sử dụng cơ chế tự chú ý
+[31] (self-attention). Kiến trúc này giúp mô hình xác định các từ quan trọng và mối liên hệ giữa các từ trong câu, từ đó hiểu được nội dung văn bản
+[32] Transformer
+[33] tốt hơn.

@@ -1,0 +1,1773 @@
+[
+  {
+    "file": "03_loi-noi-dau.txt",
+    "line_no": 26,
+    "type": "CONTEXT_TYPO",
+    "desc": "mò -> mô",
+    "match": [
+      "mò"
+    ],
+    "text": "[24] hiểu mà còn khơi gợi sự tò mò, khám phá và sáng tạo, làm cho việc học"
+  },
+  {
+    "file": "05_bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao.txt",
+    "line_no": 59,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: cosin",
+    "match": [
+      "cosin"
+    ],
+    "text": "[57] Nếu cung cấp ngữ cảnh người đọc là học sinh lớp 11, LLM sẽ biểu diễn dưới dạng hàm số cosin:"
+  },
+  {
+    "file": "05_bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao.txt",
+    "line_no": 60,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: ωt",
+    "match": [
+      "ωt"
+    ],
+    "text": "[58] x(t) = A.cos(ωt + φ)."
+  },
+  {
+    "file": "05_bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao.txt",
+    "line_no": 120,
+    "type": "CONTEXT_TYPO",
+    "desc": "chuối tư duy -> chuỗi tư duy",
+    "match": [
+      "chuối tư duy"
+    ],
+    "text": "[118] Chỉ thị, dữ liệu đầu vào ví dụ, ngữ cảnh, định dạng đầu ra và chuối tư duy."
+  },
+  {
+    "file": "05_bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao.txt",
+    "line_no": 189,
+    "type": "CONJOINED",
+    "desc": "conjoined: 4x",
+    "match": [
+      "4x"
+    ],
+    "text": "[187] A. Giải phương trình x² + 4x + 3 = 0."
+  },
+  {
+    "file": "05_bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao.txt",
+    "line_no": 190,
+    "type": "CONJOINED",
+    "desc": "conjoined: 4x",
+    "match": [
+      "4x"
+    ],
+    "text": "[188] B. Giải phương trình bằng cách sử dụng công thức nghiệm x² + 4x + 3 = 0, biện luận số nghiệm của phương trình theo A:"
+  },
+  {
+    "file": "05_bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao.txt",
+    "line_no": 191,
+    "type": "CONJOINED",
+    "desc": "conjoined: 4x",
+    "match": [
+      "4x"
+    ],
+    "text": "[189] C. Giải phương trình x² + 4x + 3 = 0, trình bày trong bốn bước:"
+  },
+  {
+    "file": "05_bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao.txt",
+    "line_no": 196,
+    "type": "CONJOINED",
+    "desc": "conjoined: 4x",
+    "match": [
+      "4x"
+    ],
+    "text": "[194] D. Hãy giải nhanh phương trình x² + 4x + 3 = 0 bằng phương pháp phân tích đa thức thành nhân tử."
+  },
+  {
+    "file": "05_bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao.txt",
+    "line_no": 208,
+    "type": "CONTEXT_TYPO",
+    "desc": "phương trinh -> phương trình",
+    "match": [
+      "phương trinh"
+    ],
+    "text": "[206] Giải phương trinh: sin x + cos 2x = 0."
+  },
+  {
+    "file": "05_bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao.txt",
+    "line_no": 208,
+    "type": "CONJOINED",
+    "desc": "conjoined: 2x",
+    "match": [
+      "2x"
+    ],
+    "text": "[206] Giải phương trinh: sin x + cos 2x = 0."
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 90,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: DANT",
+    "match": [
+      "DANT"
+    ],
+    "text": "[88] DANT O"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 93,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: function",
+    "match": [
+      "function"
+    ],
+    "text": "[91] Gọi hàm (function calling) là một tính năng cho phép mô hình ngôn ngữ lớn kết nối và tương tác với các hàm bên ngoài. Nhờ đỏ, thay vì chỉ dựa vào kiến thức đã"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 95,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Object",
+    "match": [
+      "Object"
+    ],
+    "text": "[93] Để lưu nội dung đoạn văn và các thông tin liên quan, Lan có thể sử dụng định dạng JSON. JSON (JavaScript Object Notation) là một định dạng văn bản dùng để lưu trữ và trao đổi dữ liệu dưới dạng các cặp (khoa : giá trị). Dữ liệu ở dạng JSON có"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 95,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Notation",
+    "match": [
+      "Notation"
+    ],
+    "text": "[93] Để lưu nội dung đoạn văn và các thông tin liên quan, Lan có thể sử dụng định dạng JSON. JSON (JavaScript Object Notation) là một định dạng văn bản dùng để lưu trữ và trao đổi dữ liệu dưới dạng các cặp (khoa : giá trị). Dữ liệu ở dạng JSON có"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 98,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: tuoi",
+    "match": [
+      "tuoi"
+    ],
+    "text": "[96] \"ten\": \"Lan\", \"tuoi\": 17, \"laHocSinh\": true"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 98,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: laHocSinh",
+    "match": [
+      "laHocSinh"
+    ],
+    "text": "[96] \"ten\": \"Lan\", \"tuoi\": 17, \"laHocSinh\": true"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 102,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: tuoi",
+    "match": [
+      "tuoi"
+    ],
+    "text": "[100] tuoi"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 103,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: laHocSinh",
+    "match": [
+      "laHocSinh"
+    ],
+    "text": "[101] laHocSinh"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 112,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: function_call",
+    "match": [
+      "function_call"
+    ],
+    "text": "[110] \"function_call\": { \"name\": \"edit_content\", \"arguments\" : {"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 112,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: arguments",
+    "match": [
+      "arguments"
+    ],
+    "text": "[110] \"function_call\": { \"name\": \"edit_content\", \"arguments\" : {"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 113,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: text",
+    "match": [
+      "text"
+    ],
+    "text": "[111] \"text\": \"Đoạn văn gốc cần chỉnh sửa.\" \"criteria\": [\"chính xác\", \"mạch lạc\", \"khách quan\", \"nguyên bản\", \"văn phong\" ]"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 113,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: criteria",
+    "match": [
+      "criteria"
+    ],
+    "text": "[111] \"text\": \"Đoạn văn gốc cần chỉnh sửa.\" \"criteria\": [\"chính xác\", \"mạch lạc\", \"khách quan\", \"nguyên bản\", \"văn phong\" ]"
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 115,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: text",
+    "match": [
+      "text"
+    ],
+    "text": "[113] Khi gặp mã JSON này, ChatGPT gọi hàm edit_content với tham số text chứa đoạn văn gốc và criteria là danh sách sáu tiêu chí. Mô hình sẽ tự động đưa văn bản vào hàm, kiểm tra từng tiêu chí và trả về kết quả đã chỉnh sửa."
+  },
+  {
+    "file": "06_bai-2-mo-hinh-ngon-ngu-lon-sang-tao-noi-dung.txt",
+    "line_no": 115,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: criteria",
+    "match": [
+      "criteria"
+    ],
+    "text": "[113] Khi gặp mã JSON này, ChatGPT gọi hàm edit_content với tham số text chứa đoạn văn gốc và criteria là danh sách sáu tiêu chí. Mô hình sẽ tự động đưa văn bản vào hàm, kiểm tra từng tiêu chí và trả về kết quả đã chỉnh sửa."
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 33,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: altention",
+    "match": [
+      "altention"
+    ],
+    "text": "[31] Bước 3. Tự chú ý (self-altention): Mô hình cân nhắc tầm quan trọng của các từ trong yêu cầu. Qua đó giúp mô hình hiểu rõ yêu cầu hơn nhờ hiểu ngữ cảnh và liên hệ giữa các từ"
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 35,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: decoding",
+    "match": [
+      "decoding"
+    ],
+    "text": "[33] Bước 5. Giải mã dữ liệu (decoding): Kết quả được giải mã từ ngôn ngữ máy tính sang ngôn ngữ tự nhiên."
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 41,
+    "type": "CONJOINED",
+    "desc": "conjoined: F0",
+    "match": [
+      "F0"
+    ],
+    "text": "[39] n cu thê, vi dac \"Hày - (025,-0.0 . 057, 26 - F0.03, 0. .., 0.2.."
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 46,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Tranformer",
+    "match": [
+      "Tranformer"
+    ],
+    "text": "[44] Kiến trúc Tranformer"
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 59,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Pre",
+    "match": [
+      "Pre"
+    ],
+    "text": "[57] Giai đoạn 1. Tiền huấn luyện (Pre-training): Huấn luyện mô hình trên một lượng dữ liệu văn bản khổng lồ từ Internet, sách vở,... Mục tiêu là học các mẫu ngôn"
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 61,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: tuning",
+    "match": [
+      "tuning"
+    ],
+    "text": "[59] Giai đoạn 2. Tinh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tóm tắt) hoặc để tuân theo hướng dẫn (Instruction Fine-tuning)."
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 61,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Instruction",
+    "match": [
+      "Instruction"
+    ],
+    "text": "[59] Giai đoạn 2. Tinh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tóm tắt) hoặc để tuân theo hướng dẫn (Instruction Fine-tuning)."
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 61,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: tuning",
+    "match": [
+      "tuning"
+    ],
+    "text": "[59] Giai đoạn 2. Tinh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tóm tắt) hoặc để tuân theo hướng dẫn (Instruction Fine-tuning)."
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 62,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Feedback",
+    "match": [
+      "Feedback"
+    ],
+    "text": "[60] Giai đoạn 3. Học củng cố từ phản hồi người dùng (Reinforcement Learning from Human Feedback - RLHF): Sử dụng phản hồi của con người (đánh giá câu trả lời nào tốt hơn) để huấn luyện mô hình tạo ra các câu trả lời hữu ích, trung thực và an toàn hơn. Giai đoạn 3 thường cho Chat Model."
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 62,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: RLHF",
+    "match": [
+      "RLHF"
+    ],
+    "text": "[60] Giai đoạn 3. Học củng cố từ phản hồi người dùng (Reinforcement Learning from Human Feedback - RLHF): Sử dụng phản hồi của con người (đánh giá câu trả lời nào tốt hơn) để huấn luyện mô hình tạo ra các câu trả lời hữu ích, trung thực và an toàn hơn. Giai đoạn 3 thường cho Chat Model."
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 76,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Language",
+    "match": [
+      "Language"
+    ],
+    "text": "[74] - Xử lí ngôn ngữ tự nhiên (Natural Language Processing - NLP): Là một ứng"
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 76,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Processing",
+    "match": [
+      "Processing"
+    ],
+    "text": "[74] - Xử lí ngôn ngữ tự nhiên (Natural Language Processing - NLP): Là một ứng"
+  },
+  {
+    "file": "07_bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no.txt",
+    "line_no": 78,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Language",
+    "match": [
+      "Language"
+    ],
+    "text": "[76] Mô hình ngôn ngữ lớn (Large Language Model - LLM): Là kết quả cao cấp nhất"
+  },
+  {
+    "file": "08_bai-4-gioi-thieu-ve-rag.txt",
+    "line_no": 29,
+    "type": "CONTEXT_TYPO",
+    "desc": "dứ -> dữ",
+    "match": [
+      "dứ liệu"
+    ],
+    "text": "[27] Generation) được ra đời. Với kĩ thuật RAG, mô hình sử dụng thêm dữ liệu bên ngoài (dứ liệu riêng, dữ liệu kiểm chứng được nguồn,...) để tạo ra câu trả lời mà không cần huấn luyện lại."
+  },
+  {
+    "file": "08_bai-4-gioi-thieu-ve-rag.txt",
+    "line_no": 63,
+    "type": "CONJOINED",
+    "desc": "conjoined: O7",
+    "match": [
+      "O7"
+    ],
+    "text": "[61] O7"
+  },
+  {
+    "file": "08_bai-4-gioi-thieu-ve-rag.txt",
+    "line_no": 87,
+    "type": "CONTEXT_TYPO",
+    "desc": "dừ -> dữ",
+    "match": [
+      "Dừ liệu"
+    ],
+    "text": "[85] Dừ liệu bên ngoài L- -"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 11,
+    "type": "CONTEXT_TYPO",
+    "desc": "mô phòng -> mô phỏng",
+    "match": [
+      "mô phòng"
+    ],
+    "text": "[9] • Giải thích được nguyên lí mô phòng bộ não người và cách mạng nơ-ron nhân tạo học từ dữ liệu."
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 28,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: synapse",
+    "match": [
+      "synapse"
+    ],
+    "text": "[26] là nơ-ron (neuron), được kết nối chằng chịt với nhau. Mỗi nơ-ron có thể nhận tín hiệu từ rất nhiều nơ-ron khác thông qua các điểm kết nối gọi là khớp thần kinh (synapse). Khi nhận đủ tín hiệu, nơ-ron sinh học sẽ được \"kích hoạt\" và truyền tin"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 40,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Neural",
+    "match": [
+      "Neural"
+    ],
+    "text": "[38] Mạng nơ-ron nhân tạo (Artificial Neural Network - ANN) được xây dựng báng cách mô phỏng lại cách hoạt động đó của bộ não. Nó được tạo thành từ các đơn vị cơ bản là nơ-ron nhân tạo và được tổ chức thành một kiến trúc nhiều lớp (layer). Một mạng ANN điển hình thường có ba loại lớp là:"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 51,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: họạ",
+    "match": [
+      "họạ"
+    ],
+    "text": "[49] Để mính họạ rõ hơn ý tưởng xây dựng ANN, bảng dưới đày mô tả các so sánh tương đối về đặc trưng giữa cấu tạo của nó với mang nơ-ron sinh học."
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 53,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: thầnCác",
+    "match": [
+      "thầnCác"
+    ],
+    "text": "[51] Các tế bào thầnCác nút nơ-ron Là một đơn vị tính toán cơ bản, mô phỏng chức năng của nơ-ron sinh học: tiêp nhận, xử li và"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 62,
+    "type": "CONTEXT_TYPO",
+    "desc": "tin hiệu -> tín hiệu",
+    "match": [
+      "Tin hiệu"
+    ],
+    "text": "[60] Tin hiệu đầu ra"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 98,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: cluster",
+    "match": [
+      "cluster"
+    ],
+    "text": "[96] động với bộ dữ liệu không được gán nhãn. Thay vì được cho biết trước câu trả lời đúng, mạng nơ-ron phải tự tìm ra các mẫu, các cấu trúc hoặc các mối liên hệ tiềm ẩn trong dữ liệu. Nhiệm vụ của nó là tự sắp xếp, phân loại hoặc ghép nhóm các dữ liệu có đặc điểm tương tự nhau thành các cụm (cluster) mà không cần bất kì sự hướng dẫn nào từ con người."
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 106,
+    "type": "CONTEXT_TYPO",
+    "desc": "mô phòng -> mô phỏng",
+    "match": [
+      "mô phòng"
+    ],
+    "text": "[104] Mạng no-ron nhân tạo (ANN) là một mô hình được xây dựng dựa trên ý tưởng mô phòng cấu trúc và nguyên lí hoạt động của bộ não người, bao gồm các đơn vị xử lí cơ bản gọi là nơ-ron nhân tạo (nút), được liên kết chặt chẽ với nhau và sắp xếp thành các lớp."
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 110,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Convolutional",
+    "match": [
+      "Convolutional"
+    ],
+    "text": "[108] Thị giác máy tính là lĩnh vực giúp máy tính có khả năng nhìn và hiểu được nội dung của hình ảnh và video. Các mạng nơ-ron nhân tạo, đặc biệt là mạng nơ-ron tích chập (Convolutional Neural Network), đã tạo ra những bước tiến"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 110,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Neural",
+    "match": [
+      "Neural"
+    ],
+    "text": "[108] Thị giác máy tính là lĩnh vực giúp máy tính có khả năng nhìn và hiểu được nội dung của hình ảnh và video. Các mạng nơ-ron nhân tạo, đặc biệt là mạng nơ-ron tích chập (Convolutional Neural Network), đã tạo ra những bước tiến"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 119,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: language",
+    "match": [
+      "language"
+    ],
+    "text": "[117] b)  Xử lí ngôn ngữ tự nhiên (Natural language processing - NLP)"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 119,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: processing",
+    "match": [
+      "processing"
+    ],
+    "text": "[117] b)  Xử lí ngôn ngữ tự nhiên (Natural language processing - NLP)"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 120,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Recurrent",
+    "match": [
+      "Recurrent"
+    ],
+    "text": "[118] Xử lí ngôn ngữ tự nhiên là lĩnh vực giúp máy tính có khả năng nghe, đọc và hiểu được để giao tiếp bằng ngôn ngữ của con người. Mạng nơ-ron, đặc biệt là các kiến trúc như mạng nơ-ron hồi quy (Recurrent Neural Network) và các mô hình tiên tiền hơn như Transformer đã tạo ra những bước tiến quan trọng cho lĩnh vực này. Công nghệ này được ứng dụng trong nhiều lĩnh vực, ví dụ:"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 120,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Neural",
+    "match": [
+      "Neural"
+    ],
+    "text": "[118] Xử lí ngôn ngữ tự nhiên là lĩnh vực giúp máy tính có khả năng nghe, đọc và hiểu được để giao tiếp bằng ngôn ngữ của con người. Mạng nơ-ron, đặc biệt là các kiến trúc như mạng nơ-ron hồi quy (Recurrent Neural Network) và các mô hình tiên tiền hơn như Transformer đã tạo ra những bước tiến quan trọng cho lĩnh vực này. Công nghệ này được ứng dụng trong nhiều lĩnh vực, ví dụ:"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 122,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Chatbot",
+    "match": [
+      "Chatbot"
+    ],
+    "text": "[120] âm trong giọng nói của em để chuyển thành văn bản. Một mạng nơ-ron khác sẽ phân tích câu lệnh đó để hiểu yêu cầu của em (ví dụ: đặt báo thức, hỏi thời tiết, hay gọi điện cho ai đó) và thực hiện yêu cầu. Các Chatbot trả lời tự động cũng hoạt động theo nguyên lí tương tự như thế"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 125,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Recommendation",
+    "match": [
+      "Recommendation"
+    ],
+    "text": "[123] c)  Các hệ thống đề xuất (Recommendation Systems)"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 126,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Collaborative",
+    "match": [
+      "Collaborative"
+    ],
+    "text": "[124] Các hệ thống đề xuất là lĩnh vực giúp máy tính có khả năng dự đoán sở thích của người dùng và gợi ý những sản phẩm, dịch vụ hoặc nội dung phù hợp nhất. Các mạng nơ-ron nhân tạo, đặc biệt là các mô hình như lọc cộng tác (Collaborative Filtering) và các mạng nơ-ron sâu (Deep Neural Networks), là nền tảng cho sự phát triển của lĩnh vực này. Công nghệ này được ứng dụng rộng rãi trong cuộc sống hằng ngày, ví dụ:"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 126,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Filtering",
+    "match": [
+      "Filtering"
+    ],
+    "text": "[124] Các hệ thống đề xuất là lĩnh vực giúp máy tính có khả năng dự đoán sở thích của người dùng và gợi ý những sản phẩm, dịch vụ hoặc nội dung phù hợp nhất. Các mạng nơ-ron nhân tạo, đặc biệt là các mô hình như lọc cộng tác (Collaborative Filtering) và các mạng nơ-ron sâu (Deep Neural Networks), là nền tảng cho sự phát triển của lĩnh vực này. Công nghệ này được ứng dụng rộng rãi trong cuộc sống hằng ngày, ví dụ:"
+  },
+  {
+    "file": "09_bai-5-mang-no-ron-nhan-tao.txt",
+    "line_no": 126,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Neural",
+    "match": [
+      "Neural"
+    ],
+    "text": "[124] Các hệ thống đề xuất là lĩnh vực giúp máy tính có khả năng dự đoán sở thích của người dùng và gợi ý những sản phẩm, dịch vụ hoặc nội dung phù hợp nhất. Các mạng nơ-ron nhân tạo, đặc biệt là các mô hình như lọc cộng tác (Collaborative Filtering) và các mạng nơ-ron sâu (Deep Neural Networks), là nền tảng cho sự phát triển của lĩnh vực này. Công nghệ này được ứng dụng rộng rãi trong cuộc sống hằng ngày, ví dụ:"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 7,
+    "type": "CONTEXT_TYPO",
+    "desc": "dứ -> dữ",
+    "match": [
+      "DỨ LIỆU"
+    ],
+    "text": "[5] VÀ PHÂN CỤM DỨ LIỆU"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 25,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Classification",
+    "match": [
+      "Classification"
+    ],
+    "text": "[23] Trong tình huống ở phần Khởi động, hai cách sắp xếp giá sách mà bạn Thanh phân vân mô tả hai nhiệm vụ cơ bản giúp các hệ thống AI hiểu và sắp xếp thông tin từ dữ liệu để đưa ra quyết định, là bài toán phân loại (Classification) và bài toán phân cụm (Clustering)."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 25,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Clustering",
+    "match": [
+      "Clustering"
+    ],
+    "text": "[23] Trong tình huống ở phần Khởi động, hai cách sắp xếp giá sách mà bạn Thanh phân vân mô tả hai nhiệm vụ cơ bản giúp các hệ thống AI hiểu và sắp xếp thông tin từ dữ liệu để đưa ra quyết định, là bài toán phân loại (Classification) và bài toán phân cụm (Clustering)."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 39,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: nhỏmTự",
+    "match": [
+      "nhỏmTự"
+    ],
+    "text": "[37] Gán đối tượng vào các nhỏmTự động khám phá và tạo ra đã biết trước."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 50,
+    "type": "CONTEXT_TYPO",
+    "desc": "quả trình -> quá trình",
+    "match": [
+      "quả trình"
+    ],
+    "text": "[48] Phân loại (Classification) là quả trình sắp xếp đối tượng vào càc nhóm đã được định nghĩa trước dựa trên dữ liệu có nhãn (học có giám sát)."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 50,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Classification",
+    "match": [
+      "Classification"
+    ],
+    "text": "[48] Phân loại (Classification) là quả trình sắp xếp đối tượng vào càc nhóm đã được định nghĩa trước dựa trên dữ liệu có nhãn (học có giám sát)."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 50,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: càc",
+    "match": [
+      "càc"
+    ],
+    "text": "[48] Phân loại (Classification) là quả trình sắp xếp đối tượng vào càc nhóm đã được định nghĩa trước dựa trên dữ liệu có nhãn (học có giám sát)."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 51,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Clustering",
+    "match": [
+      "Clustering"
+    ],
+    "text": "[49] Phần cụm (Clustering) là quá trình tự động khám phá và gom các đối tượng tương đồng thành những nhóm"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 55,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Naive",
+    "match": [
+      "Naive"
+    ],
+    "text": "[53] định (Decision Tree) - dựa trên ý tưởng mô phỏng quá trình ra quyết định của con người bằng một chuỗi các câu hỏi đúng/sai; Naive Bayes - dựa trên việc áp dụng lí thuyết xác suất để tính toán khả năng một đối tượng thuộc về một nhóm nào đó hay Máy vector hỗ trợ (Support Vector Machine - SVM) - dựa trên việc tìm ra một \"ranh giới\" rõ ràng nhất để phân tách các nhóm dữ liệu."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 55,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Bayes",
+    "match": [
+      "Bayes"
+    ],
+    "text": "[53] định (Decision Tree) - dựa trên ý tưởng mô phỏng quá trình ra quyết định của con người bằng một chuỗi các câu hỏi đúng/sai; Naive Bayes - dựa trên việc áp dụng lí thuyết xác suất để tính toán khả năng một đối tượng thuộc về một nhóm nào đó hay Máy vector hỗ trợ (Support Vector Machine - SVM) - dựa trên việc tìm ra một \"ranh giới\" rõ ràng nhất để phân tách các nhóm dữ liệu."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 55,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: SVM",
+    "match": [
+      "SVM"
+    ],
+    "text": "[53] định (Decision Tree) - dựa trên ý tưởng mô phỏng quá trình ra quyết định của con người bằng một chuỗi các câu hỏi đúng/sai; Naive Bayes - dựa trên việc áp dụng lí thuyết xác suất để tính toán khả năng một đối tượng thuộc về một nhóm nào đó hay Máy vector hỗ trợ (Support Vector Machine - SVM) - dựa trên việc tìm ra một \"ranh giới\" rõ ràng nhất để phân tách các nhóm dữ liệu."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 73,
+    "type": "CONTEXT_TYPO",
+    "desc": "giài -> giải",
+    "match": [
+      "Giài"
+    ],
+    "text": "[71] (A) Khoa học và Khám phá, (B) Văn học và Càm xúc, (C) Giài tri và Sáng tạo, (D) Kĩ năng và Hướng nghiệp. Để tự động sắp xếp các đầu sách mới, thư viện sử"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 77,
+    "type": "CONTEXT_TYPO",
+    "desc": "tim -> tìm",
+    "match": [
+      "ra"
+    ],
+    "text": "[75] Hình 6.1 minh họa cách hệ thống AI phân loại một đầu sách mới. Bằng cách tim ra"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 83,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Mre",
+    "match": [
+      "Mre"
+    ],
+    "text": "[81] Mre di tur col"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 83,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: tur",
+    "match": [
+      "tur"
+    ],
+    "text": "[81] Mre di tur col"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 87,
+    "type": "CONTEXT_TYPO",
+    "desc": "tim -> tìm",
+    "match": [
+      "ra"
+    ],
+    "text": "[85] Việc tim ra giá trị K phù hợp là chia khoa đề thuật toán hoạt động hiệu quả"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 90,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: phầng",
+    "match": [
+      "phầng"
+    ],
+    "text": "[88] Trong ví dụ trên, chúng ta chỉ dùng hai tiêu chí để dễ dàng minh hoạ và có thế biểu diễn trên mặt phầng toạ độ hai chiều. Trên thực tế, trong bài toán có thể có hang chục, thậm chí hàng trăm tiêu chí. Khi đó, mỗi đối tượng sẽ được biểu diễn"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 95,
+    "type": "CONTEXT_TYPO",
+    "desc": "tiêu chi -> tiêu chí",
+    "match": [
+      "tiêu chi",
+      "tiêu chi"
+    ],
+    "text": "[93] Thuật toán KNN rất nhạy cảm với thang đo của dữ liệu. Nếu một tiêu chí có thang đo lớn (ví dụ: doanh thu tính bằng triệu đồng) và một tiêu chi khác có thang đo nhỏ (ví dụ: đánh giá trên thang điểm 10), tiêu chí có thang đo lớn có thể \"lắn át\" và ảnh hưởng đến kết quả nhiều hơn. Do đó, một bước quan trọng trước khi áp dụng KNN là chuẩn hóa dữ liệu để đưa tât cả các tiêu chi tương đông vệ"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 104,
+    "type": "CONTEXT_TYPO",
+    "desc": "tim -> tìm",
+    "match": [
+      "ra"
+    ],
+    "text": "[102] trước?. Mỗi thuật toán đưa ra một câu trả lời riêng, dựa trên những cách tiếp cận khác nhau: Thuật toán phân cụm phân cấp (Hierarchical Clustering) xem các nhóm như những nhánh trên một cây gia phả lớn, cho phép chúng ta thấy được mối quan hệ phân cấp từ tổng thể đến chi tiết: thuật toán phân cụm dựa trên mật độ (DBSCAN) định nghĩa một nhóm là một khu vực có \"mật độ\" cao, giúp nó có khả năng tim ra các cụm có hinh dạng phức tạp và tự động loại bỏ các điểm nhiều; thuật toán mô hình hỗn hợp Gaussian (GMM) thi cho rằng mỗi cụm lá một phân phối xác suất hình chuông, cho phép một điểm có thể thuộc về nhiều cụm với các mức độ chắc chắn khác nhau,..."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 104,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Hierarchical",
+    "match": [
+      "Hierarchical"
+    ],
+    "text": "[102] trước?. Mỗi thuật toán đưa ra một câu trả lời riêng, dựa trên những cách tiếp cận khác nhau: Thuật toán phân cụm phân cấp (Hierarchical Clustering) xem các nhóm như những nhánh trên một cây gia phả lớn, cho phép chúng ta thấy được mối quan hệ phân cấp từ tổng thể đến chi tiết: thuật toán phân cụm dựa trên mật độ (DBSCAN) định nghĩa một nhóm là một khu vực có \"mật độ\" cao, giúp nó có khả năng tim ra các cụm có hinh dạng phức tạp và tự động loại bỏ các điểm nhiều; thuật toán mô hình hỗn hợp Gaussian (GMM) thi cho rằng mỗi cụm lá một phân phối xác suất hình chuông, cho phép một điểm có thể thuộc về nhiều cụm với các mức độ chắc chắn khác nhau,..."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 104,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Clustering",
+    "match": [
+      "Clustering"
+    ],
+    "text": "[102] trước?. Mỗi thuật toán đưa ra một câu trả lời riêng, dựa trên những cách tiếp cận khác nhau: Thuật toán phân cụm phân cấp (Hierarchical Clustering) xem các nhóm như những nhánh trên một cây gia phả lớn, cho phép chúng ta thấy được mối quan hệ phân cấp từ tổng thể đến chi tiết: thuật toán phân cụm dựa trên mật độ (DBSCAN) định nghĩa một nhóm là một khu vực có \"mật độ\" cao, giúp nó có khả năng tim ra các cụm có hinh dạng phức tạp và tự động loại bỏ các điểm nhiều; thuật toán mô hình hỗn hợp Gaussian (GMM) thi cho rằng mỗi cụm lá một phân phối xác suất hình chuông, cho phép một điểm có thể thuộc về nhiều cụm với các mức độ chắc chắn khác nhau,..."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 104,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: DBSCAN",
+    "match": [
+      "DBSCAN"
+    ],
+    "text": "[102] trước?. Mỗi thuật toán đưa ra một câu trả lời riêng, dựa trên những cách tiếp cận khác nhau: Thuật toán phân cụm phân cấp (Hierarchical Clustering) xem các nhóm như những nhánh trên một cây gia phả lớn, cho phép chúng ta thấy được mối quan hệ phân cấp từ tổng thể đến chi tiết: thuật toán phân cụm dựa trên mật độ (DBSCAN) định nghĩa một nhóm là một khu vực có \"mật độ\" cao, giúp nó có khả năng tim ra các cụm có hinh dạng phức tạp và tự động loại bỏ các điểm nhiều; thuật toán mô hình hỗn hợp Gaussian (GMM) thi cho rằng mỗi cụm lá một phân phối xác suất hình chuông, cho phép một điểm có thể thuộc về nhiều cụm với các mức độ chắc chắn khác nhau,..."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 104,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Gaussian",
+    "match": [
+      "Gaussian"
+    ],
+    "text": "[102] trước?. Mỗi thuật toán đưa ra một câu trả lời riêng, dựa trên những cách tiếp cận khác nhau: Thuật toán phân cụm phân cấp (Hierarchical Clustering) xem các nhóm như những nhánh trên một cây gia phả lớn, cho phép chúng ta thấy được mối quan hệ phân cấp từ tổng thể đến chi tiết: thuật toán phân cụm dựa trên mật độ (DBSCAN) định nghĩa một nhóm là một khu vực có \"mật độ\" cao, giúp nó có khả năng tim ra các cụm có hinh dạng phức tạp và tự động loại bỏ các điểm nhiều; thuật toán mô hình hỗn hợp Gaussian (GMM) thi cho rằng mỗi cụm lá một phân phối xác suất hình chuông, cho phép một điểm có thể thuộc về nhiều cụm với các mức độ chắc chắn khác nhau,..."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 104,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: GMM",
+    "match": [
+      "GMM"
+    ],
+    "text": "[102] trước?. Mỗi thuật toán đưa ra một câu trả lời riêng, dựa trên những cách tiếp cận khác nhau: Thuật toán phân cụm phân cấp (Hierarchical Clustering) xem các nhóm như những nhánh trên một cây gia phả lớn, cho phép chúng ta thấy được mối quan hệ phân cấp từ tổng thể đến chi tiết: thuật toán phân cụm dựa trên mật độ (DBSCAN) định nghĩa một nhóm là một khu vực có \"mật độ\" cao, giúp nó có khả năng tim ra các cụm có hinh dạng phức tạp và tự động loại bỏ các điểm nhiều; thuật toán mô hình hỗn hợp Gaussian (GMM) thi cho rằng mỗi cụm lá một phân phối xác suất hình chuông, cho phép một điểm có thể thuộc về nhiều cụm với các mức độ chắc chắn khác nhau,..."
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 123,
+    "type": "CONTEXT_TYPO",
+    "desc": "tiêu chi -> tiêu chí",
+    "match": [
+      "tiêu chi"
+    ],
+    "text": "[121] Để có thể phân tích, hệ thống AI đánh giá mỗi người dùng dựa trên hai tiêu chi về hành vi tương tác của họ trên nền tảng: ti lệ tương tác với các nội dung giả"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 140,
+    "type": "CONJOINED",
+    "desc": "conjoined: T7",
+    "match": [
+      "T7"
+    ],
+    "text": "[138] T7 lĐ tưoơng lác nộ"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 140,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: lĐ",
+    "match": [
+      "lĐ"
+    ],
+    "text": "[138] T7 lĐ tưoơng lác nộ"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 140,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: tưoơng",
+    "match": [
+      "tưoơng"
+    ],
+    "text": "[138] T7 lĐ tưoơng lác nộ"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 141,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: ue",
+    "match": [
+      "ue"
+    ],
+    "text": "[139] ti cong ue st ding cs ir"
+  },
+  {
+    "file": "10_bai-6-phan-loai-va-phan-cum-du-lieu.txt",
+    "line_no": 151,
+    "type": "CONTEXT_TYPO",
+    "desc": "tim -> tìm",
+    "match": [
+      "ra"
+    ],
+    "text": "[149] Hệ thống có thể ghi nhận đây là nhóm \"cần kích hoạt tương tác\" và cần thêm thử nghiệm hiển thị nhiều loại nội dung đa dạng để tim ra sở thích của họ."
+  },
+  {
+    "file": "11_bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 25,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: dúr",
+    "match": [
+      "dúr"
+    ],
+    "text": "[23] Khi sử dụng LLM. em cần chú ý một số nguyên tắc cần tuân thủ về đạo dúr."
+  },
+  {
+    "file": "11_bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 31,
+    "type": "CONTEXT_TYPO",
+    "desc": "hòi -> hỏi",
+    "match": [
+      "hòi"
+    ],
+    "text": "[29] Ví dụ: Khi được hòi về nghề nghiệp, LLM có xu hướng liên kết kĩ sư với nam giới, y tá với nữ giới, phản ánh định kiến về giới tính."
+  },
+  {
+    "file": "12_bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai.txt",
+    "line_no": 24,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: rảng",
+    "match": [
+      "rảng"
+    ],
+    "text": "[22] Việc AI ngày càng chứng tỏ khả năng vượt trội trong nhiều lĩnh vực khiến chúng ta phải đặt ra câu hỏi quan trọng: \"Đâu là giá trị khác biệt và không thể thay thế của con người?\". Rõ rảng, câu trả lời không phải là việc cạnh tranh về tốc độ hay hiệu suất. Thay vào đó, sự khác biệt nằm ở chính những phẩm chất và năng lực"
+  },
+  {
+    "file": "12_bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai.txt",
+    "line_no": 41,
+    "type": "CONJOINED",
+    "desc": "conjoined: g1",
+    "match": [
+      "g1"
+    ],
+    "text": "[39] đến câu hỏi quan trọng hơn là \"Em sẽ sử dụng AI để làm g1?\". Chính những lựa chọn và hành động của em sẽ định hình tác động của Ai lên thế giới."
+  },
+  {
+    "file": "12_bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai.txt",
+    "line_no": 51,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: nhán",
+    "match": [
+      "nhán"
+    ],
+    "text": "[49] người lập trình phải quyết định nó sẽ ưu tiên bảo vệ ai. Khi một hệ thống AI được dùng trong y tế, các bác sĩ và nhà quản lí phải đảm bảo nó tuân thù các quy tắc về quyền riêng tư của bệnh nhán. Con người không chỉ tạo ra AI, mà còn phải chịu trách nhiệm giám sát và kiểm soát nó"
+  },
+  {
+    "file": "12_bai-8-gia-tri-con-nguoi-trong-ki-nguyen-ai.txt",
+    "line_no": 91,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: ENGUSH",
+    "match": [
+      "ENGUSH"
+    ],
+    "text": "[89] ENGUSH"
+  },
+  {
+    "file": "13_bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap.txt",
+    "line_no": 11,
+    "type": "CONTEXT_TYPO",
+    "desc": "tim -> tìm",
+    "match": [
+      "hiểu"
+    ],
+    "text": "[9] Sử dụng được mô hình ngôn ngữ lớn (LLM) để tim hiểu, tóm tắt và đặt câu hỏi trong học tập."
+  },
+  {
+    "file": "13_bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap.txt",
+    "line_no": 26,
+    "type": "CONTEXT_TYPO",
+    "desc": "quả trình -> quá trình",
+    "match": [
+      "quả trình"
+    ],
+    "text": "[24] a) Giài thích các khái niệm, thuật ngữ hoặc quá trình Cách dùng: Hỏi LLM để được giải thích khái niệm, thuật ngữ hoặc quả trình."
+  },
+  {
+    "file": "13_bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap.txt",
+    "line_no": 26,
+    "type": "CONTEXT_TYPO",
+    "desc": "giài -> giải",
+    "match": [
+      "Giài"
+    ],
+    "text": "[24] a) Giài thích các khái niệm, thuật ngữ hoặc quá trình Cách dùng: Hỏi LLM để được giải thích khái niệm, thuật ngữ hoặc quả trình."
+  },
+  {
+    "file": "13_bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap.txt",
+    "line_no": 34,
+    "type": "CONJOINED",
+    "desc": "conjoined: 2x",
+    "match": [
+      "2x"
+    ],
+    "text": "[32] Giải và giải thích bài toán sau: Giải phương trình cos 2x - cos x = 0."
+  },
+  {
+    "file": "13_bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap.txt",
+    "line_no": 52,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: IELTS",
+    "match": [
+      "IELTS"
+    ],
+    "text": "[50] Việc sử dụng LLM trong học ngoại ngữ mang lại nhiều tiện ích như: hỗ trợ học từ, sửa lỗi, luyện ngữ pháp và hội thoại. Em có thể yêu cầu LLM giải nghĩa từ vựng mới và đưa thêm các ví dụ để hiểu rõ hơn cách sử dụng. LLM cũng có thể hỗ trợ sửa các lỗi ngữ pháp, lỗi chính tả trong bài viết (ví dụ: IELTS writing).... khi được yêu cầu."
+  },
+  {
+    "file": "13_bai-9-mo-hinh-ngon-ngu-lon-ho-tro-hoc-tap.txt",
+    "line_no": 68,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: emission",
+    "match": [
+      "emission"
+    ],
+    "text": "[66] Bước 2. Nhập prompt: \"Hãy giải thích nghĩa của các từ \"emission\", \"balance\", \"Carbon\" và \"Methane\" và cho ba ví dụ minh hoạ cho mỗi từ kèm theo giải thích chi tiết\"."
+  },
+  {
+    "file": "14_bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh.txt",
+    "line_no": 17,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: bx",
+    "match": [
+      "bx"
+    ],
+    "text": "[15] Minh yêu cầu ChatGPT: \"Viết chương trình Python nhập từ bàn phím ba số thực a, b, c và tìm nghiệm của phương trình bc hai: ax² + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh.\" Khi chạy thử, chương trình gặp lỗi, Minh lại yêu cầu ChatGPT tìm và sửa lỗi trong chương trình. Kết quả là Minh đã sao chép thiếu dấu \":\" cho một câu lệnh điều kiện. ChatGPT đã phát hiện và sửa được lỗi này."
+  },
+  {
+    "file": "14_bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh.txt",
+    "line_no": 49,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Schools",
+    "match": [
+      "Schools"
+    ],
+    "text": "[47] hợp thêm với các nguồn tài liệu chính thống như W3Schools, MDN, Python Docs,.."
+  },
+  {
+    "file": "14_bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh.txt",
+    "line_no": 49,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: MDN",
+    "match": [
+      "MDN"
+    ],
+    "text": "[47] hợp thêm với các nguồn tài liệu chính thống như W3Schools, MDN, Python Docs,.."
+  },
+  {
+    "file": "14_bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh.txt",
+    "line_no": 49,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Docs",
+    "match": [
+      "Docs"
+    ],
+    "text": "[47] hợp thêm với các nguồn tài liệu chính thống như W3Schools, MDN, Python Docs,.."
+  },
+  {
+    "file": "14_bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh.txt",
+    "line_no": 74,
+    "type": "CONTEXT_TYPO",
+    "desc": "hòi -> hỏi",
+    "match": [
+      "hòi"
+    ],
+    "text": "[72] Đặt câu hòi cụ thể"
+  },
+  {
+    "file": "14_bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh.txt",
+    "line_no": 80,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Schools",
+    "match": [
+      "Schools"
+    ],
+    "text": "[78] W3Schools, MDN, Python"
+  },
+  {
+    "file": "14_bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh.txt",
+    "line_no": 80,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: MDN",
+    "match": [
+      "MDN"
+    ],
+    "text": "[78] W3Schools, MDN, Python"
+  },
+  {
+    "file": "14_bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh.txt",
+    "line_no": 82,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Docs",
+    "match": [
+      "Docs"
+    ],
+    "text": "[80] Docs,...."
+  },
+  {
+    "file": "14_bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh.txt",
+    "line_no": 96,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: bx",
+    "match": [
+      "bx"
+    ],
+    "text": "[94] Bước 2. Nhập prompt \"Viết chương trình Python nhập từ bàn phím ba số thực a, b, c và tìm nghiệm của phương trình bậc hai: ax² + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh.\"."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 26,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: watercolor",
+    "match": [
+      "watercolor"
+    ],
+    "text": "[24] Phong cách: là cách thức thể hiện bức ảnh. Một số phong cách hình ảnh phổ biến như tranh sơn dầu (oil painting), màu nước (watercolor), phác thảo chì (pencil sketch),"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 26,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: pencil",
+    "match": [
+      "pencil"
+    ],
+    "text": "[24] Phong cách: là cách thức thể hiện bức ảnh. Một số phong cách hình ảnh phổ biến như tranh sơn dầu (oil painting), màu nước (watercolor), phác thảo chì (pencil sketch),"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 26,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: sketch",
+    "match": [
+      "sketch"
+    ],
+    "text": "[24] Phong cách: là cách thức thể hiện bức ảnh. Một số phong cách hình ảnh phổ biến như tranh sơn dầu (oil painting), màu nước (watercolor), phác thảo chì (pencil sketch),"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 27,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: photorealistic",
+    "match": [
+      "photorealistic"
+    ],
+    "text": "[25] hoạt hình (anime style), hiện thực (photorealistic), Van Gogh (Van Gogh style)....."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 30,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: stylize",
+    "match": [
+      "stylize"
+    ],
+    "text": "[28] Ngoài ra, còn có các tham số khác ảnh hưởng tới ảnh được tạo ra như mức độ nghệ thuật hoá (stylize), mức độ đa dạng/lạ (chaos),...."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 62,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: text",
+    "match": [
+      "text"
+    ],
+    "text": "[60] ảnh này được gọi là tạo ảnh từ prompt (text-to-image). Tuy nhiên, để có thể thu"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 99,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: aistudio",
+    "match": [
+      "aistudio"
+    ],
+    "text": "[97] Bước 1. Mở trình duyệt web và truy cập vào trang web: https://aistudio.google.com/."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 100,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Vieicure",
+    "match": [
+      "Vieicure"
+    ],
+    "text": "[98] Vieicure to ài Studio"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 103,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Imagen",
+    "match": [
+      "Imagen"
+    ],
+    "text": "[101] Bước 2. Nháy chuột chọn nút lệnh Generate Media, tiếp theo chọn Imagen."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 104,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Generative",
+    "match": [
+      "Generative"
+    ],
+    "text": "[102] Create Generative Media"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 106,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Imagen",
+    "match": [
+      "Imagen"
+    ],
+    "text": "[104] Hình 11.7. Chọn công cụ Imagen"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 108,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Ctrl",
+    "match": [
+      "Ctrl"
+    ],
+    "text": "[106] Bước 4. Nhập prompt \"Tạo hình ảnh về Hệ Mặt Trời, Mặt Trời ở trung tâm bức ảnh, xung quanh là các hành tinh cùng với đường biểu diễn quỹ đạo, phong cách hiện thực, ánh sáng dịu nhẹ, góc nhìn rộng. Không chữ^ và nhấn tổ hợp phím Ctrl + Enter."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 110,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Imager",
+    "match": [
+      "Imager"
+    ],
+    "text": "[108] Generate images with Imager"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 114,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Imagen",
+    "match": [
+      "Imagen"
+    ],
+    "text": "[112] Hình 11.8. Giao diện công cụ Imagen"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 117,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: aistudio",
+    "match": [
+      "aistudio"
+    ],
+    "text": "[115] Bước 1. Mở trình duyệt web và truy cập vào trang web: https://aistudio.google.com/."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 119,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Generative",
+    "match": [
+      "Generative"
+    ],
+    "text": "[117] Create Generative Media"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 122,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Ctrl",
+    "match": [
+      "Ctrl"
+    ],
+    "text": "[120] Bước 4. Nhập prompt \"Hãy xoa bớt bốn hành tinh trong ảnh\" và nhân tổ hợp phím Ctrl + Enter."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 140,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: text",
+    "match": [
+      "text"
+    ],
+    "text": "[138] 3. Khẳng định nào sau đây là đúng về sự phân biệt giữa hai khái niệm text-lo-image và image-to-image?"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 141,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Text",
+    "match": [
+      "Text"
+    ],
+    "text": "[139] A. Text-to-image và image-to-image đều tạo ảnh chỉ sử dụng prompt."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 142,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Text",
+    "match": [
+      "Text"
+    ],
+    "text": "[140] B. Text-to-Image và image-lo-image đều tạo ảnh chi sử dụng ành gốc."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 143,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Text",
+    "match": [
+      "Text"
+    ],
+    "text": "[141] C. Text-to-image tạo ảnh chỉ sử dụng prompt, image-to-image tạo ảnh sử dụng"
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 145,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Text",
+    "match": [
+      "Text"
+    ],
+    "text": "[143] D. Text-to-image và image-to-image đều tạo ảnh sử dụng cả prompt và ảnh gốc."
+  },
+  {
+    "file": "15_bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 147,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Imagen",
+    "match": [
+      "Imagen"
+    ],
+    "text": "[145] 1. Sử dụng công cụ Imagen trong Google AI Studio tạo một bức ảnh gia đình bốn người giữa khung cảnh thiên nhiên."
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 10,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: text",
+    "match": [
+      "text"
+    ],
+    "text": "[8] Hiểu được text-to-video và image-to-video là gì."
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 17,
+    "type": "CONTEXT_TYPO",
+    "desc": "ổn -> ồn",
+    "match": [
+      "Không tiếng ổn"
+    ],
+    "text": "[15] sáng vàng. Không nhạc nền. Không tiếng ổn\"."
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 26,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: text",
+    "match": [
+      "text"
+    ],
+    "text": "[24] Trong phần Khởi động, Hải đã sử dụng mô hình ngôn ngữ lớn tạo video theo nội dung mong muốn. Để tạo video bằng LLM bằng prompt mô tả (text-to-video), ta cần cung cấp các thông tin như nội dung video, các thông số về tỉ lệ khung hình, phong cách, ánh sáng và nêu rõ các yếu tố không muốn có trong video. Sử dụng LLM giúp tiết kiệm thời gian và chi phí, không yêu cầu thiết bị, kĩ năng về ghi hình"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 32,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Gry",
+    "match": [
+      "Gry"
+    ],
+    "text": "[30] Hình 12.1, Video con lác dom Gry, las bäng LUV"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 32,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: bäng",
+    "match": [
+      "bäng"
+    ],
+    "text": "[30] Hình 12.1, Video con lác dom Gry, las bäng LUV"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 33,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: rgyh",
+    "match": [
+      "rgyh"
+    ],
+    "text": "[31] LLM có thể tạo video theo yêu cầu cia rgyh sung bằng prompt mô tả. Tạo video bằng LLM giúp sảt kiêm"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 33,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: sảt",
+    "match": [
+      "sảt"
+    ],
+    "text": "[31] LLM có thể tạo video theo yêu cầu cia rgyh sung bằng prompt mô tả. Tạo video bằng LLM giúp sảt kiêm"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 36,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: nguei",
+    "match": [
+      "nguei"
+    ],
+    "text": "[34] Ngoài việc tạo video bắng prompt mô tả, nguei dung con có the iso video từ möt hoặc nhiều ảnh tĩnh (image-to-video). Khi đó. LUM sẽ trêm sự chuyển đặng vào"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 36,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: möt",
+    "match": [
+      "möt"
+    ],
+    "text": "[34] Ngoài việc tạo video bắng prompt mô tả, nguei dung con có the iso video từ möt hoặc nhiều ảnh tĩnh (image-to-video). Khi đó. LUM sẽ trêm sự chuyển đặng vào"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 37,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: tinin",
+    "match": [
+      "tinin"
+    ],
+    "text": "[35] các ảnh được cung cấp để tạo video. Việc sử dụng ảnh tinin khi tạo video giúp em dễ kiểm soát nội dung, phong cách và khung cảnh như ảnh gốc. Thời gian tạo video cũng ngắn hơn do yêu cầu tính toán it hơn so với chi dùng prompt mô tả (chỉ thêm chuyến động vào ảnh). Ngoài ra, em cùng có thể cung cấp thêm promct mô tả để làm rõ hơn yêu cầu."
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 37,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: promct",
+    "match": [
+      "promct"
+    ],
+    "text": "[35] các ảnh được cung cấp để tạo video. Việc sử dụng ảnh tinin khi tạo video giúp em dễ kiểm soát nội dung, phong cách và khung cảnh như ảnh gốc. Thời gian tạo video cũng ngắn hơn do yêu cầu tính toán it hơn so với chi dùng prompt mô tả (chỉ thêm chuyến động vào ảnh). Ngoài ra, em cùng có thể cung cấp thêm promct mô tả để làm rõ hơn yêu cầu."
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 57,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Welcame",
+    "match": [
+      "Welcame"
+    ],
+    "text": "[55] Welcame b RiSudo"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 57,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: RiSudo",
+    "match": [
+      "RiSudo"
+    ],
+    "text": "[55] Welcame b RiSudo"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 61,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: aistudio",
+    "match": [
+      "aistudio"
+    ],
+    "text": "[59] https://aistudio.google.com/."
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 65,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Generative",
+    "match": [
+      "Generative"
+    ],
+    "text": "[63] Create Generative Media"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 69,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Ctrl",
+    "match": [
+      "Ctrl"
+    ],
+    "text": "[67] Bước 4. Nhập prompt \"Tạo một video mô tả hoạt động của con lắc đơn, bên dưới là đồ thị thể hiện li độ của con lắc đơn theo thời gian. Phong cách hiện thực, ánh sáng vàng\". và điền nội dung \"Không nhạc nền. Không tiếng ồn\" vào ô Prompt phủ định và nhấn tổ hợp phím Ctrl + Enter."
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 71,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: videos",
+    "match": [
+      "videos"
+    ],
+    "text": "[69] Viết prompt Generate videos with Veo Tải ảnh"
+  },
+  {
+    "file": "16_bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon.txt",
+    "line_no": 79,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Text",
+    "match": [
+      "Text"
+    ],
+    "text": "[77] 1.  Text-to-video là gì?"
+  },
+  {
+    "file": "17_bai-13-bai-tap-du-an.txt",
+    "line_no": 15,
+    "type": "CONTEXT_TYPO",
+    "desc": "thây -> thấy",
+    "match": [
+      "các"
+    ],
+    "text": "[13] Thanh thây các bạn bàn tán về khói bụi dày đặc và bầu trời mờ mịt, ai cũng phải đeo khẩu trang khiến Thanh chợt suy nghĩ: \"Đây là vấn đề nghiêm trọng, nếu mình tìm hiểu kĩ rồi chia sẻ, cả lớp có thể cùng phân tích và tìm cách bảo vệ môi Hình 13.1. Chất lượng không khí kém trường.\""
+  },
+  {
+    "file": "17_bai-13-bai-tap-du-an.txt",
+    "line_no": 21,
+    "type": "CONTEXT_TYPO",
+    "desc": "tri thức -> tri thức",
+    "match": [
+      "khám phá tri thức"
+    ],
+    "text": "[19] Bên cạnh vấn đề ô nhiễm không khi mà bạn Thanh đang muốn tìm hiểu trong tình huống ở phần Khởi động, trong đời sống hằng ngày, chúng ta thường xuyên bắt gặp nhiều vấn đề xã hội có ảnh hưởng trực tiếp đến con người, như biến đổi khi hậu, an toàn thông tin trên mạng hay sức khỏe tinh thần của học sinh,... Việc tim hiêu những vân đề này không chỉ giúp em mở rộng hiêu biết và rèn luyện khả năng khám phá tri thức, phân tích khoa học, mà còn nâng cao ý thức trách nhiệm đối với cộng đồng và giúp em chủ động ứng phó với những vấn đề có thể xảy đến trong tương lai."
+  },
+  {
+    "file": "17_bai-13-bai-tap-du-an.txt",
+    "line_no": 48,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: infographic",
+    "match": [
+      "infographic"
+    ],
+    "text": "[46] Khi đã hoàn thiện nội dung, em hãy làm cho báo cáo sinh động và hấp dẫn hơn bằng cách tạo các sản phẩm minh họa như poster, infographic, bài trình chiếu hoặc video. Các công cụ AI có thể hỗ trợ em tạo ra những sản phẩm này một cách"
+  },
+  {
+    "file": "17_bai-13-bai-tap-du-an.txt",
+    "line_no": 60,
+    "type": "CONTEXT_TYPO",
+    "desc": "hòi -> hỏi",
+    "match": [
+      "hòi"
+    ],
+    "text": "[58] đến thầy cô, bạn bè, người thân hay cộng đồng mạng. Những dữ liệu trực tiếp này giúp báo cảo đa chiều, cụ thể và thuyết phục hơn. AI có thể hỗ trợ em thiết kế bảng hòi hoặc nội dung phỏng vấn để khai thác thông tin đầy đủ, chi tiết."
+  },
+  {
+    "file": "17_bai-13-bai-tap-du-an.txt",
+    "line_no": 62,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: họạ",
+    "match": [
+      "họạ"
+    ],
+    "text": "[60] họạ để làm sinh động, tăng sức hút cho nội dung và"
+  },
+  {
+    "file": "17_bai-13-bai-tap-du-an.txt",
+    "line_no": 76,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Environmental",
+    "match": [
+      "Environmental"
+    ],
+    "text": "[74] Sau khi sàng lọc, hãy thu thập các bài báo, số liệu và báo cáo đáng tin cậy về vẫn đề này từ các nguồn uy tin như Cống thông tin điện tử Chính phủ, Báo Nhân Dân, Báo Lao Động, cùng các nghiên cứu của World Bank và các tạp chí khoa học quốc tế như Environmental Research và Science of The Total Environment (Elsevier). Ghi chú đầy đù thông tin trích dẫn (tác giả, năm, tiêu đề, nguồn/link, ngày truy cập)."
+  },
+  {
+    "file": "17_bai-13-bai-tap-du-an.txt",
+    "line_no": 76,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Elsevier",
+    "match": [
+      "Elsevier"
+    ],
+    "text": "[74] Sau khi sàng lọc, hãy thu thập các bài báo, số liệu và báo cáo đáng tin cậy về vẫn đề này từ các nguồn uy tin như Cống thông tin điện tử Chính phủ, Báo Nhân Dân, Báo Lao Động, cùng các nghiên cứu của World Bank và các tạp chí khoa học quốc tế như Environmental Research và Science of The Total Environment (Elsevier). Ghi chú đầy đù thông tin trích dẫn (tác giả, năm, tiêu đề, nguồn/link, ngày truy cập)."
+  },
+  {
+    "file": "17_bai-13-bai-tap-du-an.txt",
+    "line_no": 116,
+    "type": "CONTEXT_TYPO",
+    "desc": "tim -> tìm",
+    "match": [
+      "ra"
+    ],
+    "text": "[114] 3. Giả sử có một bạn cùng lớp đang tìm hiểu cùng vấn đề với em nhưng có số liệu trong hai bài báo cáo khác nhau, khi đó, em có thể làm gì để cùng bạn tim ra thông tin chính xác nhất?"
+  },
+  {
+    "file": "18_bang-giai-thich-thuat-ngu.txt",
+    "line_no": 16,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Object",
+    "match": [
+      "Object"
+    ],
+    "text": "[14] (JavaScript Object Notation)"
+  },
+  {
+    "file": "18_bang-giai-thich-thuat-ngu.txt",
+    "line_no": 16,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: Notation",
+    "match": [
+      "Notation"
+    ],
+    "text": "[14] (JavaScript Object Notation)"
+  },
+  {
+    "file": "18_bang-giai-thich-thuat-ngu.txt",
+    "line_no": 20,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: tàp",
+    "match": [
+      "tàp"
+    ],
+    "text": "[18] lớp 10°, \"Bạn là trợ lí học tàp\", Trong giờ học môn Sinh học\"...."
+  },
+  {
+    "file": "18_bang-giai-thich-thuat-ngu.txt",
+    "line_no": 22,
+    "type": "CONTEXT_TYPO",
+    "desc": "càn -> cần",
+    "match": [
+      "càn"
+    ],
+    "text": "[20] Dạng lệnh mà người dung khóng càn cung cấp mẫu đầu vào để AI hiểu yêu cầu."
+  },
+  {
+    "file": "18_bang-giai-thich-thuat-ngu.txt",
+    "line_no": 22,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: khóng",
+    "match": [
+      "khóng"
+    ],
+    "text": "[20] Dạng lệnh mà người dung khóng càn cung cấp mẫu đầu vào để AI hiểu yêu cầu."
+  },
+  {
+    "file": "18_bang-giai-thich-thuat-ngu.txt",
+    "line_no": 26,
+    "type": "CONTEXT_TYPO",
+    "desc": "hòi -> hỏi",
+    "match": [
+      "hòi"
+    ],
+    "text": "[24] Kĩ thuật giúp AI tim thông tin từ tài liệu bên ngoài như bài báo, sách, hoặc website, rôi dùng thông tin đó để trả lời câu hòi. Nhờ vậy, câu trả lời chính xác và cập nhật hơn so với chỉ dựa vào kiến thức"
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 8,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: tưr",
+    "match": [
+      "tưr"
+    ],
+    "text": "[6] tưr liệu được sử dụng, trích dẫn"
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 22,
+    "type": "CONJOINED",
+    "desc": "conjoined: TYT21",
+    "match": [
+      "TYT21"
+    ],
+    "text": "[20] Mã số: TYT21P6-SED"
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 22,
+    "type": "CONJOINED",
+    "desc": "conjoined: P6",
+    "match": [
+      "P6"
+    ],
+    "text": "[20] Mã số: TYT21P6-SED"
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 22,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: TYT",
+    "match": [
+      "TYT"
+    ],
+    "text": "[20] Mã số: TYT21P6-SED"
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 23,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: QĐ",
+    "match": [
+      "QĐ"
+    ],
+    "text": "[21] In 20.000 bản, (QĐ in số: 01-STK) khố 19 x 26,5 cm."
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 23,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: STK",
+    "match": [
+      "STK"
+    ],
+    "text": "[21] In 20.000 bản, (QĐ in số: 01-STK) khố 19 x 26,5 cm."
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 25,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: ĐKXB",
+    "match": [
+      "ĐKXB"
+    ],
+    "text": "[23] Cơ sở in: 643 Tỉnh lộ 2, áp Lào Táo Thượng, xã Thái Mỹ, TP.Hồ Chí Minh Số ĐKXB: 416-2026/CXBIPH/36-168/GD"
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 25,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: CXBIPH",
+    "match": [
+      "CXBIPH"
+    ],
+    "text": "[23] Cơ sở in: 643 Tỉnh lộ 2, áp Lào Táo Thượng, xã Thái Mỹ, TP.Hồ Chí Minh Số ĐKXB: 416-2026/CXBIPH/36-168/GD"
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 25,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: GD",
+    "match": [
+      "GD"
+    ],
+    "text": "[23] Cơ sở in: 643 Tỉnh lộ 2, áp Lào Táo Thượng, xã Thái Mỹ, TP.Hồ Chí Minh Số ĐKXB: 416-2026/CXBIPH/36-168/GD"
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 26,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: GD",
+    "match": [
+      "GD"
+    ],
+    "text": "[24] Số QĐXB: 119/QĐXB-GD, ngày 11 tháng 02 năm 2026"
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 28,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: HANNo",
+    "match": [
+      "HANNo"
+    ],
+    "text": "[26] HANNo"
+  },
+  {
+    "file": "19_thong-tin-xuat-ban-bia-sau.txt",
+    "line_no": 31,
+    "type": "UNKNOWN_WORD",
+    "desc": "unknown word: SEDIDCO",
+    "match": [
+      "SEDIDCO"
+    ],
+    "text": "[29] PHƯƠNG NAM SEDIDCO 9 786040 466327 Giá: 45.000đ"
+  }
+]

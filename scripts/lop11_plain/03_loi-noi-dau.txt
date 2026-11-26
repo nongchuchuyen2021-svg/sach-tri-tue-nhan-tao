@@ -1,0 +1,31 @@
+=== 3: loi-noi-dau - Lời nói đầu ===
+
+[1] Mở đầu
+[2] Lời nói đầu
+[3] 📄 Trang sách gốc: 5 – 5
+[4] 📖 Xem bản in gốc
+[5] LỜI NÓI ĐẦU
+[6] Các em học sinh thân mến!
+[7] Từ điện thoại thông minh, trợ lí ảo đến phần mềm tạo nhạc và vẽ tranh,
+[8] Trí tuệ nhân tạo (Al) đang thay đổi cách con người học tập, làm việc và
+[9] sáng tạo. Nhó khả năng xử lí vượt trội và tiếp cận kho dữ liệu khổng lồ, AI
+[10] đang tiến tới giới hạn có thể suy nghĩ, học hỏi và hành động gần như con
+[11] người. Vì vậy, học để hiểu và làm chủ AI không còn là một lựa chọn, mà là
+[12] một điều tát yếu đề chúng ta có thể tồn tại và phát triễn trong thể giới do
+[13] chính mình tạo ra.
+[14] Cuốn Trí tuệ nhân tạo lớp 11 giúp các em khám phá chiều sâu của thế
+[15] giới AI, đặc biệt là khả năng tương tác thông minh của các mô hình ngôn
+[16] ngữ lớn (LLM). Các em sẽ học cách viết prompt hiệu quả, biết yêu cầu AI
+[17] suy luận từng bước, viết theo định dạng hay phong cách cụ thể. Không chỉ
+[18] sử dụng AI để hỗ trợ học tập, các em còn được làm quen với những công
+[19] nghệ hiện đại như RAG, gọi hàm, tạo ảnh và video bằng AI. Qua đó, các
+[20] em không chỉ học được cách khai thác AI một cách sáng tạo, an toàn và
+[21] có trách nhiệm mà còn biết đánh giá nội dưng, hiểu các vấn đề đạo đức.
+[22] Bộ sách được thiết kế hiện đại, sinh động, gần gũi với cuộc sống hằng ngày
+[23] của các em. Những vì dụ, hoạt động và sản phẩm trong sách không chỉ dễ
+[24] hiểu mà còn khơi gợi sự tò mò, khám phá và sáng tạo, làm cho việc học
+[25] AI trờ thành một hành trình thú vị, truyền cảm hững, giúp các em phát triển
+[26] tư duy, năng lực giải quyết vấn đề, cũng như thái độ trách nhiệm trong thể
+[27] Chúc các em học tập vui vẻ, khẩm phá hùng thú và thành công trên con
+[28] đường làm quen với trí tuệ nhân tạo!
+[29] CÁC TÁC GIẢ

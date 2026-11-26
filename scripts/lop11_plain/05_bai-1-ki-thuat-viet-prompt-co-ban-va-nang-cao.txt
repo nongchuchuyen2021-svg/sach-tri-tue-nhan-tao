@@ -1,0 +1,209 @@
+=== 5: bai-1-ki-thuat-viet-prompt-co-ban-va-nang-cao - Bài 1. Kĩ thuật viết prompt cơ bản và nâng cao ===
+
+[1] Chủ đề 1. Mô hình ngôn ngữ lớn sáng tạo nội dung
+[2] Bài 1. Kĩ thuật viết prompt cơ bản và nâng cao
+[3] 📄 Trang sách gốc: 8 – 17
+[4] 📖 Xem bản in gốc
+[5] VÀ NÂNG CAO
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Sử dụng được các kiểu prompt không ví dụ, prompt có ví dụ có ngữ cảnh.
+[10] Trình bày được cách yêu cầu LLM trả lời theo định dạng và độ dài mong muốn.
+[11] Sử dụng được kĩ thuật chuỗi tư duy (Chain-of-Thought) để suy luận từng bước.
+[12] 💡
+[13] KHỞI ĐỘNG
+[14] Bình sử dụng AI để giải bài toán "Từ 0 giờ đến 12 giờ trưa, chuông của một chiếc đồng hồ quả lắc sẽ đánh bao nhiêu tiếng chuông? Biết rằng đồng hồ chỉ đánh chuông báo giờ và số tiếng chuông bằng số giờ". Ngoài đề bài, Bình đã cung cấp
+[15] thêm các thông tin như một vài ví dụ về cách giải và người dùng là học sinh lớp 11.
+[16] Bên cạnh đó, Bình cũng yêu cầu LLM suy luận theo từng bước và trình bày lời giải không quá 200 chữ.
+[17] Em hãy cho biết:
+[18] 1.  Làm thế nào để Bình thu được cách giải phù hợp với học sinh lớp 11?
+[19] 2. Làm thế nào để LLM suy luận và giải bài toán theo từng bước đồng thời trình bày theo cách mà Bình mong muốn?
+[20] 🔍
+[21] KHÁM PHÁ
+[22] 1.  Prompt cơ bản
+[23] Trong chương trình lớp 10, em đã học cách viết prompt cơ bản, gồm chỉ thị và dữ liệu đầu vào. Trong những tình huống đơn giản, prompt cơ bản có ưu điểm là đơn giản, ngắn gọn. Câu trả lời cũng thường ngắn gọn, trực tiếp, tránh lan man.
+[24] Tuy nhiên, trong tình huống phức tạp, chỉ sử dụng prompt cơ bản thường không cho kết quả như mong muốn.
+[25] Cấu trúc một prompt cơ bản có dạng:   + [Dữ liệu đầu vào]
+[26] Trong đó:
+[27] Chỉ thị: Mô tả hành động chính mà mô hình cần thực hiện.
+[28] Dữ liệu đầu vào: Dữ liệu chính mà mô hình cần xử II.
+[29] Ví dụ: Khi sử dụng prompt cơ bản cho tình huống ở phần Khởi động, chỉ thị là yêu
+[30] cầu giải bài toán và dữ liệu đầu vào là đề bài. Kết quả thu được có dạng:
+[31] Kết quả (ví dụ rút gọn):
+[32] Đầu tiên, chúng ta cần liệt kê số tiếng chuông đồng hồ đánh vào mỗi giờ từ 1 giờ đến 12 giờ.
+[33] 1 giờ: 1 tiếng
+[34] 2 giờ: 2 tiếng
+[35] 11 giờ: 11 tiếng
+[36] 12 giờ: 12 tiếng.
+[37] Để tìm tổng số tiếng chuông, chúng ta chỉ cần cộng tất cả các số này lại:
+[38] 1 + 2 + 3+ 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 = 78.
+[39] Prompt cơ bản bao gồm chỉ thị và dữ liệu đầu vào.
+[40] • Prompt cơ bản thường chỉ dùng cho những tình huống khái quát, đơn giản.
+[41] 2.  Prompt nâng cao
+[42] Trong những tình huống phức tạp, prompt cơ bản thường không cho kết quả mong muốn. Vì dụ, khi dùng prompt cơ bản, kết quả trà về không chỉa bước rõ ràng và quá dài do có nhiều bước trung gian hoặc nội dung chưa phù hợp với người đọc. Để cải thiện kết quả do LLM tạo ra, em có thể thêm vào prompt một số
+[43] thành phần được trình bày sau đây.
+[44] a)  Ví dụ minh hoạ
+[45] Một hoặc một vài ví dụ (one-shot, few-shot) có thể được đưa vào prompt để định hướng câu trả lời cho mô hình. Nếu không sử dụng ví dụ, mô hình sẽ dựa vào
+[46] hiểu biết sẵn có. Khi sử dụng ví dụ, mô hình kết hợp thêm kinh nghiệm qua ví dụ nhằm cải thiện kết quả.
+[47] Prompt không ví dự: "Hãy phân loại cảm xúc của câu sau: "Trời mưa nên em không được đi chơi. " cho kết quả có thể là Buốn. Thất vọng hoặc Không vui.
+[48] Như vậy. prompt không ví dụ cho kết quả thiếu tính xác định, mơ hồ.
+[49] Prompt có ví dụ: "Hãy phân loại cảm xúc của câu sau: "Trời mưa nên em không được đi chơi.". Ví dụ câu "Hôm nay em được 10 điểm." -> Cảm xúc Vui, câu "Hôm nay em bị ốm." -> cảm xúc Buồn."' luôn cho kết quả là Buồn.
+[50] Như vậy, prompt có ví dụ cho kết quả rõ ràng, xác định.
+[51] b)  Ngữ cảnh
+[52] Ngữ cảnh trong prompt là thông tin thêm giúp LLM hiểu rõ tình huống, đối tượng hoặc mục tiêu của câu hỏi. Việc đưa thêm ngữ cảnh giúp LLM hiểu rõ yêu cầu,
+[53] nhờ vậy trả lời chính xác hơn.
+[54] Ví dụ: Yêu cầu LLM mô tả về một vật dao động điều hoà.
+[55] Nếu không cung cấp ngữ cảnh, LLM có thể biểu diễn dưới dạng số phức:
+[56] x(t) = Re[A.e"u."].
+[57] Nếu cung cấp ngữ cảnh người đọc là học sinh lớp 11, LLM sẽ biểu diễn dưới dạng hàm số cosin:
+[58] x(t) = A.cos(ωt + φ).
+[59] c)  Định dạng và độ dài văn bản đầu ra
+[60] Khi đặt prompt cho LLM, việc mô tả rõ định dạng và độ dài rất quan trọng có tác dụng tạo khuôn cho câu trả lời. Nếu người dùng nêu rõ định dạng (đoạn văn, gạch đầu dòng,...), giới hạn bao nhiêu chữ,.... thì LLM sẽ hiểu và trả lời đúng ý hơn.
+[61] Cách này giúp câu trả lời rõ ràng, dễ đọc và sử dụng. Nhờ đó, việc giao tiếp với LLM hiệu quả hơn và kết quả đúng như mong muốn.
+[62] Cách mô tả định dạng đầu ra:
+[63] Liệt kệ: Sử dụng các cụm từ như "Hãy liệt kê...", "Đưa ra danh sách...", "Gạch
+[64] đầu dòng...". Ví dụ: "Hay liệt kê 5 lợi ích của việc đọc sách".
+[65] Bảng: Yêu cầu tạo bảng với các tiêu đề cột cụ thể. Ví dụ: "Hãy tạo một bảng
+[66] so sánh giữa xe máy điện và xe máy xăng với các cột: Tiêu chí, Xe máy điện, Xe máy xăng".
+[67] Đoạn văn: Yêu cầu tạo một đoạn văn giải thích hoặc tóm tắt. Ví dụ: "Hãy tóm
+[68] tắt nội dung chính của bài báo trong một đoạn văn".
+[69] Theo bước: Sử dụng các cụm từ như "Hãy giải thích theo từng bước ...", "Các
+[70] bước thực hiện là...".". Ví dụ: "Hãy giải thích theo từng bước quy trình đăng kí tài khoản ngân hàng trực tuyến".
+[71] Cách yêu cầu về độ dài văn bản:
+[72] Số từ/câu cụ thể: Yêu cầu số từ hoặc số câu chính xác. Ví dụ: "Hãy tóm tắt
+[73] trong khoảng 100 từ", "Đưa ra 3 câu trả lời ngắn gọn".
+[74] Số từ hoặc số câu trong một khoảng: Yêu cầu số từ hoặc số câu trong một
+[75] khoảng. Ví dụ: "Hãy giải thích từ 120 đến 150 chữ", "Trả lời trong 2 đến 3 câu".
+[76] Mức độ chi tiết: Yêu cầu tóm tắt ngắn gọn, giải thích chi tiết hoặc nêu những
+[77] điểm chính. Ví dụ: "Hãy tóm tắt ngắn gọn". "Hãy giải thích một cách chi tiết", "Chỉ nêu ra những điểm chinh".
+[78] đ) Chuỗi tư duy
+[79] Kĩ thuật chuỗi tư duy (Chain-of-Thought) là một phương pháp giúp LLM suy luận theo từng bước để giải quyết bài toán phức tạp hiệu quả và trình bày dễ hiểu
+[80] hơn.
+[81] Yêu cầu đầu vào Yêu cầu đầu vào
+[82] Bước 1 Không sử dụng chuỗi
+[83] Sử dụng chuỗi tư duy Bước 2
+[84] tu duy
+[85] Kết quả Kết quả
+[86] 🖼️ Minh họa trong sách
+[87] Hình 1.1. Kĩ thuật chuỗi tư duy
+[88] Ví dụ: Yêu cầu LLM xác định phần tử tiếp theo trong dãy số 2, 4, 8, 16.
+[89] Khi không sử dụng kĩ thuật chuỗi tư duy:
+[90] Số tiếp theo trong dãy 2, 4, 8, 16 là 32.
+[91] Khi sử dụng kĩ thuật chuỗi tư duy:
+[92] Ta xét dãy số: 2, 4, 8, 16.
+[93] Nhận thấy mỗi số sau gấp 2 lần số trước:
+[94] 2 x 2 = 4;
+[95] 4 × 2 = 8;
+[96] 8 x 2 = 16.
+[97] Theo quy luật, số tiếp theo là:
+[98] 16 x 2 = 32.
+[99] Prompt nâng cao ngoài chỉ thị và dữ liệu đầu vào còn có thêm các thành phần: ví dụ, ngữ cảnh, định dạng đầu ra và chuỗi tư duy.
+[100] Prompt nâng cao có thêm các mô tả kĩ hơn yêu cầu, dùng cho tình huống phức tạp, cần độ chính xác cao và chi tiết.
+[101] 3.  Cấu trúc tổng quát của một prompt
+[102] Cấu trúc của một prompt cơ bản có dạng:
+[103] Prompt cơ bản = [Chỉ thị] + [Dữ liệu đầu vào].
+[104] Cấu trúc của một prompt nâng cao có dạng:
+[105] Prompt nâng cao =   + [Ví dụ]* + [Ngữ cảnh]* + [Dữ liệu đầu vào]
+[106] + [Định dạng đầu ra] + [Chuỗi tư duy)*.
+[107] (*: tùy chọn)
+[108] Trong đó:
+[109] Chỉ thị: Mô tả hành động chính mà mô hình cần thực hiện.
+[110] Ví dụ: (tuỳ chọn) Một danh sách các ví dụ minh hoa (nếu dùng prompt có ví dụ).
+[111] Ngữ cảnh: (tùy chọn) Mô tả tình huống, bối cảnh sử dụng hoặc vai trò của mô hình.
+[112] Dữ liệu đầu vào (input): Dữ liệu chính mà mô hình cần xử lí.
+[113] Định dạng đầu ra: (tùy chọn) Yêu cầu cụ thể về hình thức đầu ra mong muốn (dạng danh sách, đoạn văn, bảng,...).
+[114] Chuỗi tư duy (chain of thought): (tùy chọn) Hướng dẫn mô hình lập luận từng bước để đi đến kết quả, giúp lời giải mạch lạc, nhất quán và giảm sai sót.
+[115] Sự khác biệt giữa prompt cơ bản và prompt nâng cao được tổng hợp trong bảng sau:
+[116] Prompt cơ bản
+[117] Prompt nãng cao
+[118] Chỉ thị, dữ liệu đầu vào ví dụ, ngữ cảnh, định dạng đầu ra và chuỗi tư duy.
+[119] Thanh phần Chỉ thị và dữ liệu đầu vào.
+[120] Cao với những yêu cầu đơn giản, khái quát, kém. Cao và ổn định hơn prompt với những yêu cầu phức cơ bản.
+[121] tạp, chi tiết.
+[122] Chất lượng đầu ra
+[123] Dữ liệu
+[124] Không yêu cầu dữ liệu Yêu cầu một số ít dữ liệu (ví dụ).
+[125] (ví dụ)-
+[126] Dùng cho những vấn đề yêu cầu độ chính xác
+[127] Ứng dụng
+[128] Dùng cho những vấn đề chung, đơn giản.
+[129] cao, chi tiết.
+[130] Tốc độ thực hiện
+[131] Nhanh.
+[132] Chậm.
+[133] Trong tình huống ở phần Khởi động, prompt nâng cao có thể có dạng: "Hãy giải
+[134] bài toán sau cho học sinh lớp 11: "Từ 0 giờ ... bằng số giờ", ví dụ sử dụng công thức cấp số cộng, phương pháp bắt cặp. Hãy suy luận theo từng bước. Lời giải
+[135] không quá 200 chữ.".
+[136] CẤU TRÚC CỦA MỘT PROMPT NĂNG CAO
+[137] Chỉ thị
+[138] Giải bài toán sau.
+[139] Ngữ cảnh
+[140] Cho học sinh lớp 11.
+[141] Dữ liêu đầu vào
+[142] "Từ 0 giờ đến 12 giờ trưa... và số tiếng chuông bằng số giờ".
+[143] Chuỗi tư duy
+[144] Hãy suy luận theo từng bước.
+[145] Ví dụ
+[146] Sử dụng công thức cấp số cộng, phương pháp bắt cặp.
+[147] Định dạng đầu ra
+[148] Lời giải không quá 200 chữ.
+[149] 🖼️ Minh họa trong sách
+[150] Hình 1.2. Cấu trúc của một prompt nâng cao
+[151] Prompt cơ bản = [Chỉ thị] + [Dữ liệu đầu vào].
+[152] Prompt nâng cao = [Chỉ thị] + (Ví dụ]* + [Ngữ cảnh]* + [Dữ liệu đầu vào]
+[153] + [Định dạng đầu ra] + [Chuỗi tư duy]*.
+[154] (*: tùy chọn)
+[155] 4.  Thực hành
+[156] (Hướng dẫn dưới đây sử dụng phần mềm Gemini.)
+[157] Nhiệm vụ 1: Sử dụng prompt cơ bản tính số tiền thu được khi gửi ngân hàng
+[158] Hướng dẫn
+[159] Bước 1. Khởi động trình duyệt và truy cập trang Gemini:
+[160] https://gemini.google.com/,
+[161] Bước 2. Nhập prompt "Giải bài toán sau: Giả sử một người gửi tiết kiệm với lãi suất
+[162] không đổi (danh nghĩa) 6% một năm, theo hình thức tính lãi kép hàng quý. Giả sử sau 5 năm người đó nhận được số tiền 100 triệu đồng cả vốn lẫn lãi. Tính giá trị hiện tại của số tiền 100 triệu đồng đó".
+[163] Bước 3. Chép câu trả lời từ Gemini về phần mềm soạn thảo văn bản.
+[164] Nhiệm vụ 2: Sử dụng prompt nâng cao tính số tiền thu được khi gửi
+[165] ngân hàng.
+[166] Hướng dẫn
+[167] Bước 1. Khởi động trình duyệt và truy cập trang Gemini:
+[168] https://gemini.google.com/.
+[169] Bước 2. Xác định các thành phần: ví dụ, ngữ cảnh, chuỗi tư duy và định dạng đầu ra cho prompt, chằng hạn:
+[170] Ví dụ: Sử dụng kiến thức cấp số nhân;
+[171] Ngữ cảnh: Học sinh lớp 11;
+[172] Chuỗi tư duy. Suy luận theo từng bước;
+[173] Định dạng đầu ra: Lời giải trình bày theo ba bước, không quá 150 chữ.
+[174] Bước 3. Nhập prompt "Giải bài toán sau: "Giả sử một người gửi tiết kiệm với lãi
+[175] suất không đổi (danh nghĩa) 6% một năm, theo hình thức tính lãi kép hàng quý.
+[176] Giả sử sau 5 năm người đó nhận được số tiền 100 triệu đồng cả vốn lẫn lãi. Tính giá trị hiện tại của số tiền 100 triệu đồng đó" cho học sinh lớp 11, ví dụ sử dụng kiến thức cấp số nhân. Suy luận theo từng bước. Lời giải trình bày theo ba bước, không quá 150 chữ.".
+[177] Bước 4. Chép câu trả lời từ Gemini về phần mềm soạn thảo văn bản.
+[178] Em có nhận xét gì về các kết quả nhận được từ prompt cơ bản và prompt nâng cao?
+[179] ✏️
+[180] LUYỆN TẬP
+[181] 1.  Trong các yêu câu sau, yêu cầu nào là một prompt có ví dụ?
+[182] A. Hãy tạo một cấp số cộng bắt đầu bằng số 1.
+[183] B. Hãy tạo một cấp số cộng bắt đầu bằng số 1; ví dụ 1, 4, 7, 10, 13,...
+[184] C. Nêu định nghĩa cấp số cộng.
+[185] D. Ứng dụng của cấp số cộng trong đời sống là gì?
+[186] 2.  Với yêu cầu nào thì AI trả lời với định dạng rõ ràng?
+[187] A. Giải phương trình x² + 4x + 3 = 0.
+[188] B. Giải phương trình bằng cách sử dụng công thức nghiệm x² + 4x + 3 = 0, biện luận số nghiệm của phương trình theo A:
+[189] C. Giải phương trình x² + 4x + 3 = 0, trình bày trong bốn bước:
+[190] 1) Xác định các hệ số:
+[191] 2) Tính Δ;
+[192] 3) Tìm nghiệm;
+[193] 4) Kết luận.
+[194] D. Hãy giải nhanh phương trình x² + 4x + 3 = 0 bằng phương pháp phân tích đa thức thành nhân tử.
+[195] 3. Lan muốn AI viết một đoạn thơ ngắn về Hà Nội, không quá 30 từ. Lan nên sử dụng yêu cầu nào sau đây?
+[196] A. Viết thơ về Hà Nội. Bài thơ tả cảnh Hồ Gươm, tháp Rùa và đền Ngọc Sơn.
+[197] B. Hà Nội đẹp lắm, hãy viết một bài thơ thể hiện tình cảm của em với Hà Nội.
+[198] C. Viết một đoạn thơ về Hà Nội, độ dài tối đa 30 từ.
+[199] D, Viết một bài thơ về Hà Nội theo thể thơ lục bát.
+[200] 4. Giả sử em yêu cầu LLM viết dàn ý bài nghị luận về nghệ thuật tự sự của Nam Cao trong truyện ngắn Đời thừa. Em hãy viết một prompt có ví dụ, có ngữ cảnh để LLM phản hồi đúng mục đích bài kiểm tra của học sinh lớp 11.
+[201] 🚀
+[202] VẬN DỤNG
+[203] 1. Giả sử em muốn yêu cầu LLM giải bài toán: "Tế bào E. Coli trong điều kiện nuôi cấy thích hợp cứ 20 phút lại phân đôi một lần. Hỏi sau 24 giờ, tế bào ban đầu sẽ phân chia thành bao nhiêu tế bào?".
+[204] Em hãy viết một prompt nâng cao đề LLM giải bài toán theo từng bước và có giới hạn độ dài dưới 200 từ.
+[205] 2.  Giả sử em cần LLM giải bài toán sau:
+[206] Giải phương trình: sin x + cos 2x = 0.
+[207] Em hãy viết prompt sao cho LLM giải đúng, có lời giải chi tiết và có yêu cầu trình bày từng bước với giới hạn về độ dài,

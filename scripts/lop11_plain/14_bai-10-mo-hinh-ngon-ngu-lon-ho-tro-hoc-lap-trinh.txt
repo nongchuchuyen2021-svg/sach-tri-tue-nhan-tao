@@ -1,0 +1,125 @@
+=== 14: bai-10-mo-hinh-ngon-ngu-lon-ho-tro-hoc-lap-trinh - Bài 10. Mô hình ngôn ngữ lớn hỗ trợ học lập trình ===
+
+[1] Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập
+[2] Bài 10. Mô hình ngôn ngữ lớn hỗ trợ học lập trình
+[3] 📄 Trang sách gốc: 77 – 81
+[4] 📖 Xem bản in gốc
+[5] BÃI 10. MÔ HÌNH NGÔN NGỮ LỚN
+[6] HỒ TRỢ HỌC LẬP TRÌNH
+[7] 🎯
+[8] MỤC TIÊU
+[9] Sau bài học này, em sẽ:
+[10] Sử dụng được LLM để giải thích các đoạn mã (code) đơn giản (chằng hạn Python).
+[11] Viết được prompt để yêu cầu LLM sinh mã cho một bài toán cụ thể.
+[12] Sử dụng được LLM đề tìm và sửa lỗi trong các đoạn mã có lỗi cú pháp hoặc lỗi logic đơn giản.
+[13] 💡
+[14] KHỞI ĐỘNG
+[15] Minh yêu cầu ChatGPT: "Viết chương trình Python nhập từ bàn phím ba số thực a, b, c và tìm nghiệm của phương trình bậc hai: ax² + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh." Khi chạy thử, chương trình gặp lỗi, Minh lại yêu cầu ChatGPT tìm và sửa lỗi trong chương trình. Kết quả là Minh đã sao chép thiếu dấu ":" cho một câu lệnh điều kiện. ChatGPT đã phát hiện và sửa được lỗi này.
+[16] Em hãy cho biết:
+[17] 1.  Để viết chương trình giải phương trình bậc hai một ẩn Minh đã làm gì?
+[18] 2.  Khi chương trình gặp lỗi, Minh đã xử lí như thế nào?
+[19] 🔍
+[20] KHÁM PHÁ
+[21] 1.  Yêu cầu mô hình ngôn ngữ lớn lập trình
+[22] Để viết chương trình giải phương trình bậc hai, Minh đã nhập yêu cầu cụ thể cho ChatGPT, nêu rõ ngôn ngữ lập trình và nội dung cần làm. Qua đó, ta thấy khi viết prompt rõ ràng, đầy đủ và có mục tiêu cụ thể, LLM có thể tự động sinh mã theo yêu cầu. Chẳng hạn, prompt như sau:
+[23] 75 74
+[24] "Viết chương trình Python xác định một số có phải là số nguyên tố hay không và in kết quả ra màn hình."
+[25] Hiện nay, có nhiều LLM hỗ trợ lập trình như ChatGPT, Gemini hay Github Copilot,... (Hình 10.1). Khi sử dụng LLM trong lập trình, em cần xác định rõ ngôn ngữ lập trình, bài toán cần thực hiện với các bước cụ thể. Viết prompt chi tiết giúp LLM hiểu đúng yêu cầu, tiết kiệm thời gian và nâng cao hiệu quả mã.
+[26] Chat GPT Gemini Llama Claude Github Copilot
+[27] 🖼️ Minh họa trong sách
+[28] Hình 10.1. Một số mô hình ngôn ngữ lớn hỗ trợ lập trình
+[29] Tuy nhiên, mã do LLM sinh ra cũng có thể có lỗi hoặc chưa tối ưu. Vì vậy, em không chỉ sao chép mà cần hiểu được mã. Qua đó, em có thể chạy thử, kiểm lỗi và cải tiến nếu cần thiết.
+[30] Mô hình ngôn ngữ lớn có thể sinh mã (code) cho một
+[31] bài toán cụ thể. Viết prompt yêu cầu LLM sinh mã cần nêu rõ ngôn ngữ lập trình và bài toán cần thực hiện.
+[32] 2.  Sử dụng mô hình ngôn ngữ lớn để giãi thích chương trình
+[33] Ngoài yêu cầu lập trình, Minh còn yêu cầu ChatGPT giải thích rõ từng câu lệnh.
+[34] Việc này giúp Minh có thể hiểu đoạn mã được sinh ra dễ dàng hơn.
+[35] Các mô hình ngôn ngữ lớn có thể phân tích và giải thích các đoạn mã do chính nó tạo ra hoặc do người dùng cung cấp. Việc sử dụng LLM giải thích mã giúp em hiểu rõ cách hoạt động và học lập trình hiệu quả hơn, chẳng hạn sử dụng prompt
+[36] "giải thích từng dòng lệnh của chương trình ..." để có thể giải thích các dòng lệnh tương tự như Hình 10.2.
+[37] numbers = [1, 2, 3]
+[38] Khởi tạo một danh sách chứa ba số nguyên là 1, 2, và 3.
+[39] total = sum(numbers)
+[40] Dùng hàm sum() để tính tổng tất cả phần tử trong danh sách; kết quả ở đây là 6
+[41] Python / Code  Sao chép
+[42] print(total)
+[43] In ra màn hình giá trị đã tính, tức là 6.
+[44] 🖼️ Minh họa trong sách
+[45] Hình 10.2. Sử dựng LLM đề giải thích chương trình
+[46] Tuy nhiên, LLM chỉ là một công cụ hỗ trợ, không thể thay thế tài liệu học. Em cần kết
+[47] hợp thêm với các nguồn tài liệu chính thống như W3Schools, MDN, Python Docs,..
+[48] 76
+[49] Mô hình ngôn ngữ lớn có thể phân tích và giải thích các câu lệnh trong chương trình. Nhờ đó, giúp ta hiểu rõ cách hoạt động và học
+[50] lập trình dễ hơn.
+[51] 3.  Sử dụng mô hình ngôn ngữ lớn tìm và sửa lỗi chương trình
+[52] Trong tình huống Khởi động, khi chương trình gặp lỗi, Minh tiếp tục sử dụng ChatGPT để tìm và sửa lỗi. Sử dụng LLM đề lim và sửa các lỗi cú pháp hoặc lỗi logic đơn giản giúp việc kiểm thử và gỡ lỗi chương trình được thực hiện tự động, nhanh chóng và dễ dàng
+[53] Trong quá trình sửa lỗi bằng LLM, em cũng có thể học cách sửa lỗi và cải tiến chương trình bằng cách yêu cầu LLM giải thích chi tiết lỗi và cách sửa hay đề xuất phương án cải tiến.
+[54] Ví dụ như Tại sao chương trình bị lỗi? hay Có cách nào viết mã tốt hơn không?.
+[55] 🖼️ Minh họa trong sách
+[56] Hình 10.3. Kiểm thử và gỡ lỗi khi lập trình
+[57] Mô hình ngôn ngữ lớn có thể tự động phát hiện và sửa các lỗi đơn giản trong chương trình, giúp giảm thời gian, công sức kiểm thử và gỡ lỗi.
+[58] Một số nguyên tắc khi sử dựng AI tạo sinh trong học lập trình được tống hợp trong bảng sau:
+[59] Bảng 10.1. Nguyên tắc sử dụng AI tạo sinh trong học lập trình
+[60] Nguyên tác
+[61] Vân đề
+[62] Hành động
+[63] Hiểu, không sao chép
+[64] Người học cần hiểu từng
+[65] Yêu cầu LLM giải thích từng
+[66] dòng lệnh, không chỉ sao chép mã của AI,
+[67] dòng lệnh.
+[68] Kiểm tra kĩ
+[69] Mã tạo bởi LLM có thể sai hoặc chưa tối ưu.
+[70] Chạy thử, kiểm lỗi, thêm điều kiện kiểm tra.
+[71] kết quả
+[72] Đặt câu hỏi cụ thể
+[73] Câu hỏi càng rõ ràng, mã trả về càng đúng ý.
+[74] Nêu rõ yêu cầu: ngôn ngữ, đầu vào, đầu ra, giới hạn,...
+[75] Kết hợp tài liệu
+[76] Tra cứu thêm trên
+[77] LLM chỉ là công cụ, không thể thay thế tài liệu học.
+[78] W3Schools, MDN, Python
+[79] chính thống
+[80] Docs,....
+[81] Học qua sửa lỗi và
+[82] Hỏi: "Tại sao chương trình bị
+[83] LLM có thể hỗ trợ hiểu lỗi và
+[84] lỗi?", "Có cách nào viết mã
+[85] giải thích
+[86] hướng dẫn cách sửa.
+[87] tốt hơn không?".
+[88] 4.  Thực hành
+[89] (Hướng dẫn dưới đây sử dụng phần mềm ChatGPT.)
+[90] Nhiệm vụ 1: Viết prompt yêu cầu LLM sinh mã Python giải phương trình bậc
+[91] hai một ẩn và giải thích chi tiết.
+[92] Hướng dẫn
+[93] Bước 1. Khởi động trình duyệt và truy cập trang web của ChatGPT: https://chatgpt.com/.
+[94] Bước 2. Nhập prompt "Viết chương trình Python nhập từ bàn phím ba số thực a, b, c và tìm nghiệm của phương trình bậc hai: ax² + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh.".
+[95] Bước 3. Đọc, hiểu chương trình thu được. Chạy thử chương trình trong một phần mềm lập trình (Visual Studio Code, PyCharm, Jupyter Notebook,...).
+[96] Nhiệm vụ 2: Sử dụng LLM để tìm và sửa lỗi cú pháp trong chương trình.
+[97] Hướng dẫn
+[98] Bước 1. Khởi động trình duyệt và truy cập trang web của ChatGPT: https://chatgpt.com/
+[99] Bước 2. Xóa hai dấu *:" bất kì trong chương trình thu được ở Nhiệm vụ 1.
+[100] Bước 3. Nhập prompt "Tìm và sửa lỗi chương trình sau:
+[101] ".
+[102] Bước 4. Kiểm tra hai dấu ":"' có được thêm lại vào chương trình hay không. Chạy thử chương trình thu được trong một phần mềm lập trình (Visual Studio Code, PyCharm, Jupyter Notebook,...).
+[103] ✏️
+[104] LUYỆN TẬP
+[105] 1.  Khi yêu cầu LLM lập trình, cần cung cấp những thông tin nào dưới đây?
+[106] A. Ngôn ngữ lập trình và bài toán cần thực hiện.
+[107] B. Lưu đồ thuật toán và bài toán cần thực hiện.
+[108] C. Tên các biến, các câu lệnh cần sử dụng và bài toán cần thực hiện.
+[109] D. Bài toán cần thực hiện.
+[110] 2.  Lợi ích của việc sử dụng LLM để giải thích chương trình là:
+[111] A. Giảm dung lượng bộ nhớ chứa chương trình.
+[112] B. Học sinh hiểu sâu hơn về cấu trúc chương trình.
+[113] C. Làm chương trình chạy nhanh hơn.
+[114] D. Làm bài kiểm tra thay người dùng.
+[115] 3.  Sử dụng LLM để sửa lỗi giúp tiết kiệm:
+[116] A. Dung lượng ổ cứng.
+[117] B. Thời gian và công sức kiểm thừ.
+[118] C. Tiền điện.
+[119] D. Dung lượng mạng.
+[120] 🚀
+[121] VẬN DỤNG
+[122] 1. Sử dụng LLM để viết chương trình giải hệ phương trình bậc nhất hai ân. Các hệ số được nhập từ người dùng.
+[123] 2.  Sử dụng LLM giải thích chương trình thu được trong Vận dụng 1.

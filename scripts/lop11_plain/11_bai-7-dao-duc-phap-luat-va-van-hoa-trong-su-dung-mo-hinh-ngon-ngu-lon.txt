@@ -1,0 +1,136 @@
+=== 11: bai-7-dao-duc-phap-luat-va-van-hoa-trong-su-dung-mo-hinh-ngon-ngu-lon - Bài 7. Đạo đức, pháp luật và văn hóa trong sử dụng mô hình ngôn ngữ lớn ===
+
+[1] Chủ đề 3. Đạo đức và trách nhiệm khi sử dụng AI
+[2] Bài 7. Đạo đức, pháp luật và văn hóa trong sử dụng mô hình ngôn ngữ lớn
+[3] 📄 Trang sách gốc: 61 – 65
+[4] 📖 Xem bản in gốc
+[5] CHỦ ĐẾ 3. ĐẠO ĐỨC VÀ TRÁCH NHIỆM KHI SỬ DỤNG AI BÃI 2. ĐẠO ĐỨC, PHÁP LUẬT VÀ VĂN HOA TRONG SỬ DỤNG MÔ HÌNH NGÔN NGỮ LỚN
+[6] MUC TIEU
+[7] Sau bài học này, em sẽ:
+[8] • Nhận biết được các nguyên lắc: an toàn, công bằng, minh bạch, bảo vệ dữ liệu.
+[9] • Giải thích được vai trò và trách nhiệm của cả người dùng và nhà phát triển trong hệ sinh thái AI.
+[10] • Giải thích được vấn đề đạo đức và bản quyền khi dùng AI tạo ảnh, video.
+[11] 💡
+[12] KHỞI ĐỘNG
+[13] Hà và Hùng cần viết phần giới thiệu cho trang web của trường. Hà sử dụng LLM và nhập prompt "Viết đoạn giới thiệu về trưởng Trung học phổ thông Minh Khai,
+[14] nhấn mạnh vào thành tích học tập và hoạt động ngoại khoa." Chỉ sau vài giây, Hà nhận được đoạn văn rất hay. Tuy nhiên, đoạn văn có một số thông tin không đúng như số lượng huy chương đạt được hoặc tên một số câu lạc bộ của trường. Hà đã sửa lại để tránh lan truyền thóng tin sai. Hùng cũng lưu
+[15] ý răng cần ghi rõ đoạn văn được hỗ trợ bởi AI để đàm bảo minh bạch.
+[16] Em hãy cho biết:
+[17] 1. Hà đã gặp vấn đề gì khi sử dụng mô hình ngôn ngữ lớn để hỗ trợ công việc?
+[18] 2. Vì sao Hà và người phát triển công cụ AI đều cần có trách nhiệm khi sử dụng và cung cấp mô hình?
+[19] 🔍
+[20] KHÁM PHÁ
+[21] 1.  Đạo đức, pháp luật và văn hóa khi sử dụng mô hình ngôn ngữ lớn
+[22] Trong tình huống ở phần Khởi động, kết quả mà LLM tạo ra chứa thông tin không chính xác và Hà đã phải sửa lại để tránh lan truyền thông tin sai sự thật. Hùng cũng nhắc nhở Hà ghi rõ đã sử dụng AI khi viết. Đây là những vấn đề liên quan đến đạo đức khi sử dụng LLM.
+[23] Khi sử dụng LLM. em cần chú ý một số nguyên tắc cần tuân thủ về đạo đức.
+[24] pháp luật và văn hóa như sau:
+[25] An toàn: Không sử dụng LLM để tạo ra những nội dung độc hại, sai lệch.
+[26] Ví dụ: Không sử dụng LLM để tạo bài viết, ảnh hay video có nội dung bạo lực.
+[27] - Công bằng: Đảm bảo tính khách quan trong kết quả từ LLM, không có sự
+[28] phân biệt đối xử dựa trên tôn giáo, giới tính, chủng tộc,...
+[29] Ví dụ: Khi được hòi về nghề nghiệp, LLM có xu hướng liên kết kĩ sư với nam giới, y tá với nữ giới, phản ánh định kiến về giới tính.
+[30] Minh bạch: Nếu sử dụng LLM trong học tập hay công việc, cần cung cấp đầy đủ
+[31] thông tin một cách trung thực.
+[32] Ví dụ: Khi sử dụng ảnh do LLM tạo, cần nêu rõ ảnh được tạo bởi LLM.
+[33] Bảo vệ dữ liệu: Kết quả do LLM tạo ra không chứa các thông tin cả nhân. Không
+[34] sử dụng LLM để tìm kiếm các thông tin cá nhân của người khác.
+[35] Ví dụ: Câu trả lời của LLM không được chứa thông tin cá nhân như: họ và tên,
+[36] địa chỉ, tài khoản ngân hàng,....
+[37] An toàn Công bằng
+[38] Đạo đức, Pháp luật,
+[39] Văn hoa
+[40] Minh bạch Bảo vệ dữ liệu
+[41] 🖼️ Minh họa trong sách
+[42] Hình 7.1. Nguyên tắc đạo đức, pháp luật và văn hóa khi sử dụng LLM
+[43] Khi ứng dụng mô hình ngôn ngữ lớn, cần quan tâm đến các yếu tố đạo đức, pháp luật và văn hóa, đảm bảo
+[44] các nguyên tắc về an toàn, công bằng, minh bạch và bảo vệ dữ liệu.
+[45] 2. Vai trò và trách nhiệm của người dùng và nhà phát triển trong hệ sinh thái AI
+[46] Qua tình huống trong phần Khởi động, Hà đã phải kiểm tra lại và chỉnh sửa, đồng thời ghi rõ việc minh đã sử dụng AI. Với vai trò là người dùng, em cần sử dụng AI một cách thận trọng, kiểm tra thông tin trước khi chia sẻ và tôn trọng quyền riêng tư của bản thân và người khác. Nhà phát triển (bên cung cấp dịch vụ về AI) có trách nhiệm xây dựng hệ thống an toàn, công bằng và minh bạch, giúp người dùng biết cách sử dụng đúng.
+[47] 60
+[48] Trong hệ sinh thái AI chỉ có bên cung cấp và người dùng, không có bộ phận "kiểm duyệt". Do đó, AI hoàn toàn có thể đưa ra các thông tin sai, lỗi thời hoặc gây
+[49] định kiến xã hội,... Vì vậy cần nâng cao vai trò và trách nhiệm của người dùng cũng như của nhà phát triển để đảm bảo AI được sử dụng an toàn, chính xác, tôn trọng đạo đức và bảo vệ dữ liệu.
+[50] Người dùng và nhà phát triển cùng hợp tác sẽ giúp AI mang lại lợi ích và hạn chế rủi ro. Vai trò và trách nhiệm của cả hai bên trong hệ sinh thái AI được tổng hợp trong bảng sau:
+[51] Bảng 7.1. Vai trợ và trách nhiệm của người dùng và nhà phát triển trong hệ sinh thái AI
+[52] Người dùng Nhà phát triển
+[53] Vai trò
+[54] Thiết kế và xây dụng mô hình AI:
+[55] Đưa ra yêu cầu cho AI: để mô hình
+[56] xây dựng kiến trúc và huấn luyện.
+[57] - Vận hành, giám sát hệ thống AI:
+[58] xử lí và tạo kết quả.
+[59] Sử dụng kết quả từ mô hình AI: như
+[60] đảm bảo vận hành ổn định, an toàn và còng bằng.
+[61] văn bản, hình ảnh, video,...
+[62] Cung cắp phản hồi: giúp cải
+[63] Cung cấp hướng dẫn cho người dùng:
+[64] giúp người dùng hiểu rõ cách sử dụng và giới hạn của công nghệ.
+[65] mô hình (nếu cô cơ chế).
+[66] Trách nhiệm
+[67] An toàn và bảo mật: Thiết kế mô hình
+[68] giảm thiểu rủi ro, chống lạm dụng.
+[69] Sử dụng cô ý thức: Hiểu khả năng và
+[70] Công bằng: Đảm bảo khách quan trong
+[71] hạn chế của công cụ.
+[72] dữ liệu và mô hình.
+[73] Sử dụng có đạo đức: Tránh tạo hoặc
+[74] Minh bạch: Cung cấp thông tin về cách
+[75] lan truyên nội dung có hại, sai lệch, thiên vị.
+[76] mô hình hoạt động, dữ liệu huấn luyện, hạn chế (ờ mức độ phù hợp).
+[77] Bảo vệ dữ liệu: Cần trọng với thông tin
+[78] chia sẻ.
+[79] Giải trình được: Có cơ chế chịu trách
+[80] Tuần thủ quy định: Thực hiện đúng
+[81] nhiệm khi có sự cố hoặc hậu quả
+[82] pháp luật, điều khoản sử dụng, quy định của tổ chức.
+[83] Bảo vệ riêng tư: Tuân thủ các quy định
+[84] Học hỏi liên tục: Cập nhật kiến thức về
+[85] bảo vệ dữ liệu người dùng
+[86] công nghệ và rùi ro.
+[87] Nghiên cứu và đánh giá tác động:
+[88] Liên tục nghiên cứu các rủi ro tiềm ẩn
+[89] và tác động xã hội.
+[90] Người dùng cần sử dụng AI cần thận, kiểm tra thông tin và tôn trọng quyền riêng tư. Nhà phát triển có trách nhiệm xây dựng hệ thống an toàn và minh bạch. Khi cả hai bên cùng hợp tác, AI sẽ mang lại nhiều lợi ích và giảm thiểu rủi ro.
+[91] 3. Vấn đề đạo đức và bản quyền khi dùng AI tạo ảnh, video Mặc dù AI có thể tạo, chính sửa ảnh và tạo video nhưng em cần chú ý vấn đề đạo đức và bản quyền khi sử dụng những tinh năng này. Vấn đề bản quyền có thể liên quan đến ảnh, video được sử dụng trong quá trình huấn luyện hoặc sản phẩm có
+[92] AI tạo ra. Khả năng tạo ảnh và video của LLM cũng có thể bị lợi dụng vào những hành động vi phạm pháp luật và đạo đức.
+[93] a)  Bản quyền dữ liệu huấn luyện
+[94] Vấn để: Quá trình huấn luyện AI sử dụng một số lượng rất lớn hình ảnh, video từ Internet mà không có sự đồng ý rõ ràng của tác giả hình ảnh, video hoặc người trong ảnh, video.
+[95] Hậu quả: Xâm phạm quyền tác già của ảnh, video, vi phạm quyền hình ảnh của những người xuất hiện trong ảnh, video.
+[96] Ví dụ, AI sử dụng một bức ảnh trên Internet để huấn luyện mà không có sự đồng ý từ người đã chụp bức ảnh đó.
+[97] b) Bản quyền của sản phẩm do AI tạo ra Vấn đề: Ai sở hữu bản quyền của ảnh, video do AI tạo ra? Người viết prompt?
+[98] Công ty AI? Hay không ai cả?
+[99] Hậu quả: Khó khăn trong việc bảo vệ và thương mại hóa các tác phẩm do AI tạo ra.
+[100] Ví dụ, Mỹ hiện không cấp bản quyền cho tác phẩm hoàn toàn do AI tạo ra.
+[101] c)  Đạo đức và pháp luật khi sử dụng AI tạo ảnh và video
+[102] Vấn đề: AI có thể được sử dụng để tạo ảnh, video giả mạo.
+[103] Hậu quả: Lợi dụng AI để lừa đào, trả thù cá nhân và các hành vi vi phạm pháp luật khác.
+[104] Ví dụ, sử dụng Deepfake tạo cuộc gọi video để lừa đảo chuyển tiền.
+[105] Khi sử dụng AI, em cần chú ý đến vấn đề đao đức và bản quyền. Bản quyền của ảnh, video sử dụng cho huấn luyện AI và do AI tạo ra vẫn chưa được xác định rõ ràng.
+[106] Ngoài ra, AI còn có thể bị lợi dụng để tạo nội dung giả mao nhằm lừa đảo hoặc gây hại cho người khác.
+[107] ✏️
+[108] LUYỆN TẬP
+[109] 1.  Khi sử dụng LLM cần tuân thủ nguyên tắc nào sau đây?
+[110] A. Sáng tạo, trách nhiệm, chăm chỉ
+[111] B. Chỉ sử dụng LLM khi không thể tự giải quyết được vấn đề.
+[112] C. Không được sử dụng LLM cho các mục đích thương mại.
+[113] D. An toàn, công bằng, minh bạch, bảo vệ dữ liệu.
+[114] 2.  Nguyên tắc minh bạch trong việc sử dụng LLM yêu cầu người dùng phải
+[115] A. giấu nguồn gốc của nội dung được tạo bởi LLM.
+[116] B. ghi rõ ràng nội dung có sự hỗ trợ của LLM.
+[117] C. chỉ sử dụng LLM trong môi trường bí mật.
+[118] D. xoá lịch sử sử dụng LLM sau mỗi lần dùng.
+[119] 3.  Nguyên tắc giải trình được khi phát triển AI là:
+[120] A. Đảm bảo khách quan trong dữ liệu và mô hình.
+[121] B. Cung cấp thông tin về cách mô hình hoạt động, dữ liệu huấn luyện, hạn chế.
+[122] C. Câu trả lời từ AI được thể hiện rõ quá trình suy luận, giúp người dùng dễ dàng
+[123] theo dõi và kiểm tra.
+[124] D. Có cơ chế chịu trách nhiệm khi có sự cố hoặc hậu quả tiêu cực.
+[125] 4.  Ví dụ nào sau đây là vi phạm bản quyền trong huấn luyện AI?
+[126] A. Dùng nhiều ảnh vẽ tay để tạo video hoạt hình bằng công cụ AI.
+[127] B. Dùng ảnh từ Internet để huấn luyện mà chưa được sự cho phép.
+[128] C. Sử dụng ảnh ở định dạng PNG và JPEG để huấn luyện.
+[129] D. Sử dụng ảnh tạo bởi AI để làm video bằng một công cụ AI khác.
+[130] 🚀
+[131] VẬN DỤNG
+[132] Khi sử dụng ChatGPT, trong một số trường hợp, ChatGPT trả về hai kết quả và yêu cầu người dùng chọn kết quả phù hợp.
+[133] A
+[134] Cơ chế này cho phép người dùng thể hiện vai trò nào?

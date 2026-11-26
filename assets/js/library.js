@@ -1,7 +1,7 @@
 (function () {
   const THEME_KEY = "ai_books_theme";
   const PROGRESS_KEY = "ai_books_progress";
-  const ASSET_VER = "20261126-v9";
+  const ASSET_VER = "20261126-v10";
 
   const booksGrid = document.getElementById("booksGrid");
   const searchInput = document.getElementById("globalSearchInput");

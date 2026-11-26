@@ -1,0 +1,97 @@
+=== 16: bai-12-tao-video-bang-mo-hinh-ngon-ngu-lon - Bài 12. Tạo video bằng mô hình ngôn ngữ lớn ===
+
+[1] Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập
+[2] Bài 12. Tạo video bằng mô hình ngôn ngữ lớn
+[3] 📄 Trang sách gốc: 90 – 94
+[4] 📖 Xem bản in gốc
+[5] 🎯
+[6] MỤC TIÊU
+[7] Sau bài học này, em sẽ:
+[8] Hiểu được text-to-video và image-to-video là gì.
+[9] Giải thích được vì sao tạo video AI chưa phổ biến như tạo ánh.
+[10] Sử dụng được công cụ tạo video AI.
+[11] 💡
+[12] KHỞI ĐỘNG
+[13] Hải muốn tạo video mô tả dao động của một con lắc đơn. Hải sử dụng prompt:
+[14] "Tạo một video mô tả hoạt động của con lắc đơn, bên dưới là đổ thị thể hiện lí độ của con lắc đon theo thời gian. TT lệ khung hình 16:9, phong cách hiện thực, ánh
+[15] sáng vàng. Không nhạc nền. Không tiếng ồn".
+[16] Sau khoảng 3 phút, Hải có được một video dài 8 giây. Tuy nhiên, phần đồ thị li độ
+[17] không chính xác. Bèn cạnh đó, đo tính năng bị giới hạn, Hải chi có thể tạo tối đa 3 video một ngày.
+[18] Em hãy cho biết:
+[19] 1. Khi cần tạo video, Hải đã làm gì?
+[20] 2. Sau khoảng bao lâu thì Hải có được kết quả? Ngoài ra, Hải còn gặp khó khăn gì khi tạo video bằng mô hình ngôn ngữ lớn?
+[21] 🔍
+[22] KHÁM PHÁ
+[23] 1. Sử dụng mô hình ngôn ngữ lớn để tạo video a) Tạo video bằng prompt mô tả
+[24] Trong phần Khởi động, Hải đã sử dụng mô hình ngôn ngữ lớn tạo video theo nội dung mong muốn. Để tạo video bằng LLM bằng prompt mô tả (text-to-video), ta cần cung cấp các thông tin như nội dung video, các thông số về tỉ lệ khung hình, phong cách, ánh sáng và nêu rõ các yếu tố không muốn có trong video. Sử dụng LLM giúp tiết kiệm thời gian và chi phí, không yêu cầu thiết bị, kĩ năng về ghi hình
+[25] và chỉnh sửa video.
+[26] Giây 0 Giấy i Giấy 2
+[27] Giây 3 Giấy 4
+[28] Giấy 5
+[29] 🖼️ Minh họa trong sách
+[30] Hình 12.1. Video con lắc đơn tạo bằng LLM
+[31] LLM có thể tạo video theo yêu cầu của người dùng bằng prompt mô tả. Tạo video bằng LLM giúp tiết kiệm
+[32] thời gian và chi phí cho người sử dụng.
+[33] b)  Tạo video bảng prompt mô tả và ánh tính
+[34] Ngoài việc tạo video bằng prompt mô tả, người dùng còn có thể tạo video từ một hoặc nhiều ảnh tĩnh (image-to-video). Khi đó, LLM sẽ thêm sự chuyển động vào
+[35] các ảnh được cung cấp để tạo video. Việc sử dụng ảnh tĩnh khi tạo video giúp em dễ kiểm soát nội dung, phong cách và khung cảnh như ảnh gốc. Thời gian tạo video cũng ngắn hơn do yêu cầu tính toán it hơn so với chi dùng prompt mô tả (chỉ thêm chuyến động vào ảnh). Ngoài ra, em cùng có thể cung cấp thêm promct mô tả để làm rõ hơn yêu cầu.
+[36] Ánh gốc Giảy 1 Giấy 2
+[37] Giấy 3 Giây 4
+[38] Giấy 5
+[39] 🖼️ Minh họa trong sách
+[40] Hình 12.2. Video được tạo tử ảnh bằng LLM
+[41] C
+[42] LLM có thể tạo video từ ành tĩnh, có thể sử dụng thêm prompt mô tả để hỗ trợ. Việc tạo video từ ảnh giúp dễ kiểm soát nội dung, phong cách, khung cảnh và tiết kiệm được thời gian tạo video.
+[43] 2.  Hạn chế và tiềm năng của việc tạo video bằng mô hình ngòn ngừ lớn
+[44] Trong phần Khởi động, video được tạo bằng LLM có thời lượng chỉ là 8 giây, thời gian chờ lâu hơn so với tạo ảnh và số lượng video được tạo bị giới hạn. Đồ thị li độ của con lắc cũng không chính xác. Tạo video bằng LLM bị giới hạn về thời lượng và số video được tạo do yêu cầu tài nguyên tính toán lớn. Ngoài ra, tạo
+[45] video bằng LLM khó duy trì sự nhất quán về bối cảnh, mỗi lần tạo video thường
+[46] ra các kết quả khác nhau. Việc tạo các chuyển động phức tạp và kiểm soát chi tiết cũng gặp nhiều khó khăn.
+[47] Tuy nhiên, tạo video bằng LLM có tiềm năng rất lớn trong việc làm phim ngắn, video quảng cáo hoặc tạo nỗi dung học tập nhanh. Nhờ LLM có thê tự động viết
+[48] kịch bản, tạo khung cảnh và chuyển động, em có thể sản xuất video chất lượng trong vài phút với chi phí thấp hơn nhiều so với tự quay video
+[49] Tạo video bằng LLM hiện nay còn một số hạn chế về tài nguyên tính toán, duy trì sự nhất quán và tạo các chi tiết
+[50] phức tạp. Tuy nhiên, phương pháp này có tiềm năng rất
+[51] lớn trong làm phim ngắn, video quảng cáo hoặc tạo nội dung học tập nhanh.
+[52] 3.  Thực hành
+[53] (Hướng dẫn sau đây sử dụng ứng dụng Google AI Studio.)
+[54] Nhiệm vụ: Tạo video từ prompt
+[55] mô tả.
+[56] Hướng dẫn
+[57] Bước 1. Mở trình duyệt web và truy cập vào trang web:
+[58] https://aistudio.google.com/.
+[59] 🖼️ Minh họa trong sách
+[60] Hình 12.3. Giao diện Google AI Studio
+[61] Bước 2. Nháy chuột chọn nút Generate Media, tiếp theo chọn Veo (Hình 12.4).
+[62] Create Generative Media
+[63] 🖼️ Minh họa trong sách
+[64] Hình 12.4. Chọn cóng cụ Veo
+[65] Bước 3. Lựa chọn thời lượng video, tỉ lệ khung hình 16: 9 ở khung bên phải.
+[66] Bước 4. Nhập prompt "Tạo một video mô tả hoạt động của con lắc đơn, bên dưới là đồ thị thể hiện li độ của con lắc đơn theo thời gian. Phong cách hiện thực, ánh sáng vàng". và điền nội dung "Không nhạc nền. Không tiếng ồn" vào ô Prompt phủ định và nhấn tổ hợp phím Ctrl + Enter.
+[67] Tỉ lệ khung hình
+[68] Viết prompt Generate videos with Veo Tải ảnh
+[69] Thời lượng
+[70] Prompt phủ định
+[71] 🖼️ Minh họa trong sách
+[72] Hình 12.5. Giao diện công cụ Veo để tạo video
+[73] Bước 5. Lưu video về máy tính.
+[74] ✏️
+[75] LUYỆN TẬP
+[76] 1.  Text-to-video là gì?
+[77] B. Tạo video từ prompt mô tả
+[78] A. Tao video từ ảnh tĩnh.
+[79] C. Tao thuyết minh từ cho video.
+[80] D. Quay phim theo kịch bản có sẵn.
+[81] 90 91
+[82] 2.  Trong image-io-video, mục đích chinh khi đưa thêm ảnh vào là gì?
+[83] A. Giảm thời gian tạo video.
+[84] B. Giữ nguyên phong cách, tông màu, bối cảnh mong muốn.
+[85] C. Thay thế prompt văn bản.
+[86] D. Tăng độ dài video.
+[87] 3.  Tạo video bằng LLM gặp những khó khăn gì?
+[88] A. Giới hạn tài nguyên tính toán.
+[89] B. Khó duy tri tính nhất quán.
+[90] C. Khó tạo chuyển động phức tạp, chi tiết.
+[91] D. Cả ba phương án trên.
+[92] 🚀
+[93] VẬN DỤNG
+[94] Sử dụng LLM, tạo video từ một ảnh tuỳ chọn (ảnh gia đình, động vật, giao thông,...).
+[95] A

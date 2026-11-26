@@ -1,0 +1,119 @@
+=== 7: bai-3-mo-hinh-ngon-ngu-lon-va-han-che-cua-no - Bài 3. Mô hình ngôn ngữ lớn và hạn chế của nó ===
+
+[1] Chủ đề 2. Nguyên lí hoạt động của mô hình ngôn ngữ lớn
+[2] Bài 3. Mô hình ngôn ngữ lớn và hạn chế của nó
+[3] 📄 Trang sách gốc: 27 – 32
+[4] 📖 Xem bản in gốc
+[5] VÀ HẠN CHẾ CỦA NÓ
+[6] 🎯
+[7] MỤC TIÊU
+[8] Sau bài học này, em sẽ:
+[9] Trình bày được kiến trúc Transformer (mô hình học sâu) và quá trình huấn luyện mô hình ngôn ngữ lớn (LLM) ở mức khái niệm.
+[10] Hiểu được mối liên hệ giữa học máy, xử lí ngôn ngữ và LLM.
+[11] Trình bày được hạn chế của LLM kèm ví dụ minh hoạ
+[12] 💡
+[13] KHỞI ĐỘNG
+[14] An rất thích vẽ tranh minh hoạ truyện cổ tích. An nhập prompt "Một cô bé đội mũ đỏ đi trong rừng, phong cách hoạt hình, ánh sáng dịu, tông màu ấm" nhờ AI vẽ giúp bức tranh.
+[15] Chỉ sau vài giây. AI đã tạo ra một bức tranh rất đẹp. Tuy nhiên, khi đưa lên mạng xã hội. An nhận được bình luận rằng bức tranh giống với một tác phẩm của một hoạ sĩ. Ngoài ra, khi tìm hiểu thêm, An thấy mô hình mà công cụ này dùng để tạo
+[16] tranh rất phức tạp. An tự hỏi: "AI học vẽ tranh và thực hiện các yêu cầu khác như thế nào? AI có phải lúc nào cũng đáng tin không?".
+[17] Em hãy cho biết:
+[18] 1. Để tạo ra được hình ảnh từ mô tả, Ai cần trải qua quá trình học như thế nào?
+[19] Quá trình đó liên quan gì đến học máy và xử lí ngôn ngữ?
+[20] 2. Vì sao An lại gặp vấn đề về bản quyền khi dùng AI tạo ảnh? Việc này gợi ý điều gì về đạo đức và giới hạn của mô hình AI hiện nay?
+[21] 25 24
+[22] KHÁM PHẢ
+[23] 1.  Kiến trức Transformer và huấn luyện mô hình ngôn ngữ lớn
+[24] a)  Kiến trúc Transformer
+[25] Để có thể hiểu và thực hiện được yêu cầu của người dùng, ví dụ vẽ tranh như trong phần Khởi động, các mô hình ngôn ngữ lớn sử dụng kiến trúc Transformer.
+[26] Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. Khác với các
+[27] mô hình khác, kiến trúc Transformer dựa trên cơ chế tự chú ý (Self-Attention) cho phép mô hình cân nhắc tầm quan trọng của các từ khác nhau trong câu khi xử lí một từ cụ thể. Cơ chế tự chú ý giúp mô hình nắm bắt ngữ cảnh và liên hệ giữa
+[28] Kiến trúc Transformer dựa trên 6 bước chính:
+[29] Bước 1. Chia yêu cầu đầu vào thành các từ (token); Yêu câu đầu vào sẽ được chia nhỏ thành các từ.
+[30] Bước 2. Mã hoá dữ liệu đầu vào (embedding): Chuyển các từ thành dạng mà máy tính có thể hiểu và xử lí được.
+[31] Bước 3. Tự chú ý (self-attention): Mô hình cân nhắc tầm quan trọng của các từ trong yêu cầu. Qua đó giúp mô hình hiểu rõ yêu cầu hơn nhờ hiểu ngữ cảnh và liên hệ giữa các từ
+[32] Bước 4. Xử lí yêu cầu: Xử lí các yêu cầu của người dùng. Nhờ hiểu yêu cầu, kiến trúc Transformer chỉ dùng mô hình mạng nơ-ron truyền thẳng (dạng đơn giản nhất) vẫn có thể xử lí được các yêu cầu. Việc này giúp tiết kiệm nhiều thời gian huấn luyện, cho phép huấn luyện với số lượng dữ liệu rất lớn.
+[33] Bước 5. Giải mã dữ liệu (decoding): Kết quả được giải mã từ ngôn ngữ máy tính sang ngôn ngữ tự nhiên.
+[34] Bước 6. Tạo kết quả dạng ngôn ngữ tự nhiên: Kết quả được tổng hợp và trả về dạng ngôn ngữ tự nhiên hoàn chỉnh.
+[35] Khi người dùng đưa vào prompt "Hãy kể một câu chuyện cổ tích Việt Nam."
+[36] Dựa vào cấu trúc Transformer, mô hình sẽ xử lí yêu cầu trên theo các bước sau:
+[37] Bước 1. Chia prompt thành các từ: ("Hãy", "kể", "một", "câu", "chuyện", "cổ", "tích", "Việt", "Nam", "."]
+[38] Bước 2. Mã hoa các từ bằng các vector đại số mang thông tin về ngữ nghĩa, mối quan hệ giữa các từ. Phương pháp và kết quả mã hóa phụ thuộc vào từng mô
+[39] Bước 3. Cơ chế tự chú ý giúp mô hình xác định từ nào trong câu quan trọng hơn trong từng ngữ cảnh. Trong prompt trên, từ "kế" sẽ được chú ý vi nó là hành động chính; mô hình học cách hiểu rằng "câu chuyện cổ tích" là một cụm có nghĩa và "Việt Nam" là tính từ mô tả "câu chuyện".
+[40] Bước 4. Sau khi hiểu ngữ cảnh và yêu cầu, mô hình sẽ tìm kiếm một truyện cổ tích Việt Nam đã được huấn luyện và viết lại kết quả ở dạng mã hoa.
+[41] Bước 5. Kết quả viết lại được giải mã về ngôn ngữ tự nhiên.
+[42] Bước 6. Mô hình trả về câu trả lời hoàn chỉnh: "Sau đây là một câu chuyện cổ tích Việt Nam: "Ngày xửa ngày xưa...". Nếu có yêu cầu gì thêm, hãy vui lòng cho tôi biết"
+[43] Kiến trúc Transformer
+[44] Chia yêu cầu đầu vào thành các từ
+[45] Mã hóa dữ liệu
+[46] đầu vào Tự chú ý
+[47] Tạo kết quả dạng ngôn ngữ
+[48] Giải mã dữ liệu Xử lí yêu cầu
+[49] tự nhiên
+[50] 🖼️ Minh họa trong sách
+[51] Hình 3.1. Kiến trúc Transformer
+[52] Kiến trúc Transformer là kiến trúc nền tảng cho hầu hết các LLM hiện nay Kiến trúc Transformer sử dụng cơ chế tự chú ý (Self-Attention) để mô hình
+[53] hiểu ngữ cảnh và yêu cầu từ người dùng
+[54] b)  Huấn luyện mô hình ngôn ngữ lớn
+[55] Huấn luyện LLM là quá trình giúp LLM học cách hiểu và đáp ứng các yêu cầu bằng ngôn ngữ tự nhiên thông qua việc xử lí một lượng dữ liệu khổng lồ. Quá trình này thường được tiến hành qua ba giai đoạn chính:
+[56] Giai đoạn 1. Tiền huấn luyện (Pre-training): Huấn luyện mô hình trên một lượng dữ liệu văn bản khổng lồ từ Internet, sách vở,... Mục tiêu là học các mẫu ngôn
+[57] ngữ, kiến thức tổng quát (thường là dự đoán từ tiếp theo - Phương pháp huấn luyện là học tự giám sát (self-supervised learning)). Giai đoạn này tốn chi phí rất lớn cho dữ liệu và quá trình huấn luyện.
+[58] Giai đoạn 2. Tinh chỉnh (Fine-tuning): Huấn luyện tiếp mô hình đã tiền huấn luyện trên một bộ dữ liệu nhỏ hơn, chuyên biệt hơn cho một tác vụ cụ thể (ví dụ: dịch thuật, tóm tắt) hoặc để tuân theo hướng dẫn (Instruction Fine-tuning).
+[59] Giai đoạn 3. Học củng cố từ phản hồi người dùng (Reinforcement Learning from Human Feedback - RLHF): Sử dụng phản hồi của con người (đánh giá câu trả lời nào tốt hơn) để huấn luyện mô hình tạo ra các câu trả lời hữu ích, trung thực và an toàn hơn. Giai đoạn 3 thường cho Chat Model.
+[60] Việc huấn luyện một mô hình ngôn ngữ lớn dùng rất nhiều dữ liệu, lên đến hàng trăm tỉ từ. Máy tính dùng để huấn luyện cũng phải rất mạnh, gồm hàng nghìn chip xử lí hiện đại. Điều đó cho thấy việc tạo ra LLM cần rất nhiều tài nguyên và
+[61] Quá trình huấn luyện LLM
+[62] Học củng cố từ phản hồi
+[63] Tiền huấn luyện Tinh chỉnh
+[64] người dùng
+[65] 🖼️ Minh họa trong sách
+[66] Hình 3,2. Quá trình huấn luyện LLM
+[67] Huấn luyện mô hình ngôn ngữ lớn trải qua ba giai đoạn:
+[68] tiền huấn luyện, tinh chỉnh và học củng cố nhờ phản hồi từ người dùng
+[69] 2.  Học máy, xử lí ngôn ngữ và mô hình ngôn ngữ lớn
+[70] Học máy, xử lí ngôn ngữ và mô hình ngôn ngữ lớn là những khái niệm cơ bản trong lĩnh vực trí tuệ nhân tạo. Cụ thể:
+[71] Học máy (Machine learning - ML): Là lĩnh vực cho phép máy tính tự học từ dữ
+[72] liêu để đưa ra dự đoán hoặc quyết định, mà không cần lập trình từng bước.
+[73] - Xử lí ngôn ngữ tự nhiên (Natural Language Processing - NLP): Là một ứng
+[74] dụng của học máy vào phân tích, hiểu và tạo ra ngôn ngữ con người (văn bản, lời nói).
+[75] Mô hình ngôn ngữ lớn (Large Language Model - LLM): Là kết quả cao cấp nhất
+[76] của NLP hiện nay. LLM sử dụng các mô hình học máy phức tạp, học sâu (Deep learning) và kiến trúc Transformer, giúp máy hiểu và tạo ra ngôn ngữ.
+[77] Em có thể hiểu học máy là kĩ thuật chung, NLP là ứng dụng học máy cho ngôn ngữ và LLM là sản phẩm tiên tiến của NLP. giúp máy hiểu và sử dụng ngôn ngữ
+[78] giống con người.
+[79] LLM NLP Học máy
+[80] 🖼️ Minh họa trong sách
+[81] Hình 3.3. Mối liên hệ giữa học máy, NLP và LLM
+[82] Học máy là kĩ thuật chung giúp máy tự học từ dữ liệu; NLP là ứng dụng học máy để máy hiểu và xử lí ngôn ngữ; còn LLM là kĩ thuật NLP tiên tiến, giúp máy hiểu và tạo ra văn bản giống con người.
+[83] 3.  Hạn chế của mô hình ngôn ngữ lớn
+[84] Như đã học ở các bài học trước, em có thể sử dụng LLM trong nhiều lĩnh vực như tìm kiếm thông tin, sáng tạo nội dung, hỗ trợ trong học tập. Tuy nhiên, mô hình ngôn ngữ lớn vẫn có những hạn chế chưa thể khắc phục hoàn toàn.
+[85] Thiếu khách quan: Sự thiếu khách quan trong câu trả lời của LLM thường khó
+[86] nhận biết.
+[87] Thiếu khả năng suy luận mối quan hệ thực sự giữa nguyên nhân và kết quả:
+[88] LLM chủ yếu dự đoán dựa trên thống kê, không phải dựa trên hiểu biết thật về nguyên nhân và hệ quả.
+[89] Dễ bị ảnh hưởng bởi prompt: Kết quả từ LLM thường bị ảnh hưởng nhiều bởi
+[90] prompt "mớm" (leading prompts). Ngoài ra, LLM dễ bị tấn công bởi các kĩ thuật prompt đối nghịch (làm rối hoặc chèn lệnh vào prompt để LLM vi phạm quy tắc an toàn).
+[91] Chưa thực sự hiểu thế giới: Vì dựa vào mô hình thống kê, LLM khó có thể thực
+[92] sự hiểu về thế giới loài người.
+[93] Ví dụ, khi em hỏi: "Tại sao trái cây là tốt?" thì LLM sẽ chỉ liệt kê các lợi ích. Nhưng nếu hỏi: "Tại sao trái cây có hại?" thì LLM lại liệt kê các nhược điểm. Đây là dạng prompt dẫn dắt, khiến mô hình nói theo hướng em hỏi, không phải nó tự suy nghĩ.
+[94] 2°
+[95] LLM vẫn còn han chế về tính khách quan, khả năng
+[96] suy luận logic và dễ bị chi phối bởi cách đặt prompt.
+[97] ✏️
+[98] LUYỆN TẬP
+[99] 1.  Phương án nào sau đây là ưu điểm của kiến trúc Transformer?
+[100] A. Chỉ cần một lượng nhỏ dữ liệu huấn luyện vẫn có được kết quả tốt.
+[101] B. Sử dụng các dữ liệu bên ngoài như Internet và cơ sở dữ liệu nội bộ để tạo
+[102] C. Sử dụng các mạng nơ-ron phức tạp để thực hiện yêu cầu của người dùng
+[103] D. Dùng trên cơ chế tự chú ý để hiểu được ngữ cảnh và yêu cầu người dùng.
+[104] 2.  Phương án nào sau đây thể hiện mối liên hệ giữa học máy (ML), xử lí ngôn ngữ
+[105] tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM)?
+[106] A. ML là một nhánh của NLP, NLP là một nhánh của LLM.
+[107] B. NLP và LLM là hai nhánh riêng biệt trong ML.
+[108] C. LLM là một nhành của NLP, NLP. là một nhánh của ML.
+[109] D. Đây là ba kĩ thuật độc lập, không liên quan đến nhau.
+[110] 3. Phương án nào sau đầy là một trong những hạn chế của LLM?
+[111] A. LLM thiếu khả năng suy luận.
+[112] B. Phải biết lập trình mới sử dụng được LLM.
+[113] C. LLM không thể sử dụng dữ liệu bên ngoài.
+[114] D. LLM không thể tạo ảnh và video.
+[115] 🚀
+[116] VẬN DỤNG
+[117] Lan cần tạo ảnh tuyên truyền bào vệ môi trường. Lan chọn một hình ảnh từ Internet và dùng AI để chỉnh sửa lại cho phù hợp. Theo em, trong trường hợp này Lan có thể vi phạm lỗi gì khi sử dụng AI? Để không bị vi phạm, Lan nên làm gì?

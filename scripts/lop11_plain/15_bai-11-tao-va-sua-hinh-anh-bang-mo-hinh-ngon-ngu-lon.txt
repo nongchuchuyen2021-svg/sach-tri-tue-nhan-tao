@@ -1,0 +1,148 @@
+=== 15: bai-11-tao-va-sua-hinh-anh-bang-mo-hinh-ngon-ngu-lon - Bài 11. Tạo và sửa hình ảnh bằng mô hình ngôn ngữ lớn ===
+
+[1] Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập
+[2] Bài 11. Tạo và sửa hình ảnh bằng mô hình ngôn ngữ lớn
+[3] 📄 Trang sách gốc: 82 – 89
+[4] 📖 Xem bản in gốc
+[5] 🎯
+[6] MỤC TIÊU
+[7] Sau bài học này, em sẽ:
+[8] Sử dụng được từ khóa và prompt phủ định (negative prompt) để tạo ảnh.
+[9] Điều chỉnh được tỉ lệ khung hình và tham số để kiểm soát ảnh tạo ra.
+[10] Giải thích được cách tạo ảnh từ ảnh gốc và các kĩ thuật inpainting, outpainting.
+[11] Thực hiện được việc tạo và chỉnh sửa ảnh bằng các kĩ thuật đã học
+[12] 💡
+[13] KHỞI ĐỘNG
+[14] Thảo muốn tạo một hình ảnh có tỉ lệ khung hình 1:1 mô tả hệ Mặt Trời theo phong cách hiện thực với ánh sáng dịu nhẹ và góc nhìn rộng, không có chữ. Tuy nhiên, hình ảnh được tạo ra có nhiều hành tinh hơn thực tế. Thảo tải ảnh về và tiếp tục yêu cầu mô hình bỏ bớt một số hành tinh trong ảnh.
+[15] Em hãy cho biết:
+[16] 1.  Thảo đã đưa ra những yêu cầu nào khi tạo hình ảnh?
+[17] 2.  Khi ảnh chưa được như mong muốn, Thảo đã làm gì?
+[18] 🔍
+[19] KHÁM PHÁ
+[20] 1.  Sử dụng mô hình ngôn ngữ lớn để tạo ảnh
+[21] a)  Các tham số và từ khóa khi tạo ảnh
+[22] Khi tạo ảnh Thảo đã đưa ra các yêu cầu về tỉ lệ khung hình, phong cách, ánh sáng, góc nhìn. Các yếu tố này ảnh hưởng trực tiếp đến ảnh được tạo ra bởi LLM.
+[23] Ti lệ khung hình: là tỉ lệ giữa chiều rộng và chiều cao của khung hình. Tỉ lệ khung hình quyết định hình dạng khung ảnh, ngang, vuông, dọc. Lựa chọn tỉ lệ khung hình phụ thuộc vào mục đích, khung ngang giúp chứa nhiều chi tiết, tái tạo cảnh quan; khung vuông/dọc giúp tập trung vào chủ thể.
+[24] Phong cách: là cách thức thể hiện bức ảnh. Một số phong cách hình ảnh phổ biến như tranh sơn dầu (oil painting), màu nước (watercolor), phác thảo chì (pencil sketch),
+[25] hoạt hình (anime style), hiện thực (photorealistic), Van Gogh (Van Gogh style).....
+[26] Anh sáng: cách bố trí và điều chỉnh ánh sáng trong ảnh gồm nguồn sáng, cường độ, màu sắc, hướng chiếu sáng. Ánh sáng ảnh hường tới không khí và cảm xúc của bức ảnh (ấm áp, bí ẩn, vui vẻ,...).
+[27] Góc nhin: là hướng và vị trí của máy ảnh hoặc người vẽ so với chủ thể trong ảnh, gồm góc cao hoặc thấp, góc nghiêng hoặc thẳng, góc rộng hoặc hẹp.
+[28] Ngoài ra, còn có các tham số khác ảnh hưởng tới ảnh được tạo ra như mức độ nghệ thuật hoá (stylize), mức độ đa dạng/lạ (chaos),....
+[29] 🖼️ Minh họa trong sách
+[30] Ví dụ 1. Hình ảnh với các tỉ lệ khung hình khác nhau.
+[31] 🖼️ Minh họa trong sách
+[32] Hình 11.1a. Hình ảnh hê Mặt Tròi
+[33] được tạo bời công cụ AI với ti lệ
+[34] khung hình 1:1
+[35] 🖼️ Minh họa trong sách
+[36] Hình 11.1b. Hình ảnh hệ Mặt Trời
+[37] được tạo bởi công cụ AI với tỉ lệ
+[38] khung hình 9:16 Hình 11.1c. Hình ảnh hệ Mặt Trời
+[39] được tạo bởi công cụ AI với tì lệ
+[40] khung hình 4:3 81
+[41] C'S
+[42] 🖼️ Minh họa trong sách
+[43] Ví dụ 2. Hình ảnh với các phong cách khác nhau:
+[44] a) Phong cách hoạt hình:
+[45] b) Phong cách phác thảo chi
+[46] 🖼️ Minh họa trong sách
+[47] Hình 11.2. Ảnh lớp học theo phong cách khác nhau
+[48] Khi sử dụng LLM đề tạo ảnh, ngoài nội dung ảnh, em cần ghi rõ các yếu tố tỉ lệ khung hình, phong cách, ánh sáng, góc nhìn để có được ảnh như mong muốn.
+[49] b) Prompt phủ định Ngoài các tham số và từ khóa cung cấp cho mô hình, em cũng có thể yêu cầu
+[50] mô hình không được đưa một số yếu tố như mờ nền, tay chân thừa, logo vào ảnh.
+[51] Các yêu cầu này ngăn mô hình ngôn ngữ lớn tạo ra các yếu tố không mong muốn trong ảnh.
+[52] Prompt phủ định (negative prompt) là một chuỗi từ khóa thể hiện những gì em muốn tránh xuất hiện trong ảnh theo cú pháp "không +  ". Ví dụ: không nhoè, không người, không chữ,.... Prompt phủ định giúp giảm khuyết điểm, tăng độ chính xác theo yêu cầu, kiểm soát tốt hơn yếu tố thẩm mĩ (thừa tay, kí tự bất thường, nhoè,...).
+[53] Ví dụ, yêu cầu ảnh phong cảnh không có người.
+[54] a)  Ảnh phong cảnh không sử dụng
+[55] b) Ảnh phong cảnh có sử dụng prompt phủ định "không người"
+[56] prompt phủ định "không người"
+[57] 🖼️ Minh họa trong sách
+[58] Hình 11.3
+[59] Mô hình ngôn ngữ lớn như ChatGPT, Gemini, Google AI Studio,... có khả năng tạo ra ảnh chi tiết theo yêu cầu của người dùng thông qua prompt mô tả. Việc tạo
+[60] ảnh này được gọi là tạo ảnh từ prompt (text-to-image). Tuy nhiên, để có thể thu
+[61] được bức ảnh đúng như mong muốn, em cần cung cấp đầy đủ các thông tin về nội dung bức ảnh, tham số và từ khóa cùng với prompt phủ định.
+[62] Khi sử dụng LLM để tạo ảnh, câu trúc prompt thường có dạng:
+[63] Prompt - Tạo hình ảnh +   +
+[64] Cấu trúc của một prompt để tạo ảnh
+[65] Chỉ thị
+[66] Tạo hình ảnh về.
+[67] Hệ Mặt Trời gồm Mặt Trời ở trung tâm và các hành tinh chuyển động xung quanh gồm Thuỷ tinh, Kim tinh, Trái Đất, Hỏa tinh, Mộc tinh, Thổ tinh, Thiên Vương tinh, Hải Vương tinh cùng đường biểu diễn quỹ đạo các hành tinh.
+[68] Nội dung bức ảnh
+[69] Tham số, từ khóa
+[70] Tỉ lệ khung hình 1:1, phong cách hiện thực, ánh sáng
+[71] dịu nhẹ, góc nhìn rộng.
+[72] Prompt phủ định Không chữ.
+[73] 🖼️ Minh họa trong sách
+[74] Hình 11.4. Cấu trúc một prompt tạo ảnh bằng LLM
+[75] Prompt phủ định (negative prompt) là chuỗi các từ khóa liệt kê các yếu tố không muốn có trong ảnh. Prompt phủ định có dạng: không +
+[76] +   +
+[77] .
+[78] 2.  Sử dụng mô hỉnh ngôn ngữ lớn đề chỉnh sửa ảnh
+[79] Khi sử dụng LLM để tạo ảnh, bức ảnh Thảo thu được có những điểm chưa như mong muốn, hình ảnh có nhiều hành tinh hơn thực tế. Thảo đã sử dụng LLM để chỉnh sửa bức ảnh ban đầu. Việc chỉnh sửa này không yêu cầu dùng phần mềm chuyên dụng mà được thực hiện bằng chính LLM với prompt đơn giản.
+[80] Việc tạo một ảnh mới từ một ảnh gốc (chỉnh sửa) theo prompt mô tả được gọi là tạo ảnh từ ảnh (image-to-image). Để LLM có thể chỉnh sửa ảnh, em cần cung cấp
+[81] ảnh gốc và các yêu cầu chỉnh sửa trong prompt. LLM sẽ tạo ra ảnh mới dựa trên hai thông tin này.
+[82] Khi cần chỉnh sửa nội dung bên trong bức ảnh (inpainting), LLM sẽ phân tích nội dung ảnh, xác định vùng cần thay đổi và thực hiện các thay đổi theo yêu cầu. Cuối cùng, LLM kết hợp vùng đã chỉnh sửa trở lại ảnh gốc. Ví dụ, Hình 11.5b sử dụng kĩ thuật inpainting để xóa bớt bốn hành tinh trong ảnh gốc ở Hình 11.5a.
+[83] Khi cần mở rộng ảnh gốc và vẽ thêm các nội dung mong muốn (outpainting), LLM sẽ đặt ảnh gốc vào một khung vẽ lớn hơn, phân tích chi tiết ảnh gốc. Sau đó, LLM vẽ vào vùng mới với nội dung theo yêu cầu và phù hợp với ảnh gốc về kết cấu, phong cách, ánh sáng. Ví dụ, Hình 11.5c sử dụng kĩ thuật outpainting mở rộng ảnh, thêm không gian xung quanh, thêm các ngôi sao và sao chổi vào phần rìa ảnh gốc ở Hình 11.5a.
+[84] 🖼️ Minh họa trong sách
+[85] a) Hình ảnh gốc
+[86] b) Hình ảnh được chỉnh sửa
+[87] nội dung bên trong ảnh
+[88] (inpainting)
+[89] c)  Hình ảnh được mở rộng và vẽ thêm các nội dung mong muốn (outpainting)
+[90] 🖼️ Minh họa trong sách
+[91] Hình 11.5
+[92] Mô hình ngôn ngữ lớn có thể được sử dụng để chỉnh sửa ánh thông qua prompt mô tả (image-to-image). Em có thể chính
+[93] sửa các nội dung bên trong ảnh (inpainting) hay mở rộng ảnh với nội dung mong muốn (outpainting) bằng cách cung cấp ảnh gốc và yêu cầu.
+[94] 3.  Thực hành: Sử dụng LLM để tạo và chỉnh sửa ảnh
+[95] (Hướng dẫn dưới đầy sử dụng ứng dụng Google AI Studio.)
+[96] Nhiệm vụ 1: Sử dụng LLM để tạo ảnh có các tỉ lệ và phong cách khác nhau.
+[97] Bước 1. Mở trình duyệt web và truy cập vào trang web: https://aistudio.google.com/.
+[98] 🖼️ Minh họa trong sách
+[99] Hình 11.6. Giao diện Google AI Studio
+[100] Bước 2. Nháy chuột chọn nút lệnh Generate Media, tiếp theo chọn Imagen.
+[101] Create Generative Media
+[102] 🖼️ Minh họa trong sách
+[103] Hình 11.7. Chọn công cụ Imagen
+[104] Bước 3. Lựa chọn tỉ lệ khung hình 1:1 ở khu vực phía bên phải.
+[105] Bước 4. Nhập prompt "Tạo hình ảnh về Hệ Mặt Trời, Mặt Trời ở trung tâm bức ảnh, xung quanh là các hành tinh cùng với đường biểu diễn quỹ đạo, phong cách hiện thực, ánh sáng dịu nhẹ, góc nhìn rộng. Không chữ^ và nhấn tổ hợp phím Ctrl + Enter.
+[106] Viết prompt
+[107] Generate images with Imagen
+[108] Lựa chọn tỉ lệ
+[109] khung hình
+[110] 🖼️ Minh họa trong sách
+[111] Hình 11.8. Giao diện công cụ Imagen
+[112] Bước 5. Lưu ảnh đã tạo được về máy tính.
+[113] Nhiệm vụ 2: Sử dụng LLM để chỉnh sửa ảnh.
+[114] Bước 1. Mở trình duyệt web và truy cập vào trang web: https://aistudio.google.com/.
+[115] Bước 2. Nháy chuột chọn nút lệnh Generate Media, tiếp theo chọn Gemini image generation.
+[116] Create Generative Media
+[117] Hình 11.9. Chọn công cụ Gemini image generation
+[118] Bước 3. Tải ảnh thu được ở Nhiệm vụ 1 lên mô hình.
+[119] Bước 4. Nhập prompt "Hãy xóa bớt bốn hành tinh trong ảnh" và nhấn tổ hợp phím Ctrl + Enter.
+[120] Viết prompt Tải ảnh Welcome to AI Studio
+[121] 🖼️ Minh họa trong sách
+[122] Hình 11.10. Tải ành và nhập prompt
+[123] Bước 5. Lưu ảnh đã tạo được về máy tính.
+[124] 86
+[125] ✏️
+[126] LUYỆN TẬP
+[127] 1. Tỉ lệ khung hình là:
+[128] A. Độ sáng và tôi của ảnh.
+[129] B. Tĩ lệ giữa điểm sáng nhất và điểm tối nhất trong ảnh.
+[130] C. TT lệ giữa chiều rộng và chiều cao của ảnh.
+[131] D. Tỉ lệ giữa khả năng sáng tạo và khả năng mô tả đúng prompt của mô hình.
+[132] 2.  Prompt phủ định dùng đề làm gì?
+[133] A. Xác định đối tượng cần có trong ảnh.
+[134] B. Xác định đối tượng không muốn có trong ảnh
+[135] C. Tăng độ phần giải ảnh.
+[136] D. Tăng tốc độ xử lí ảnh của LLM.
+[137] 3. Khẳng định nào sau đây là đúng về sự phân biệt giữa hai khái niệm text-to-image và image-to-image?
+[138] A. Text-to-image và image-to-image đều tạo ảnh chỉ sử dụng prompt.
+[139] B. Text-to-Image và image-to-image đều tạo ảnh chỉ sử dụng ảnh gốc.
+[140] C. Text-to-image tạo ảnh chỉ sử dụng prompt, image-to-image tạo ảnh sử dụng
+[141] prompt và ảnh gốc.
+[142] D. Text-to-image và image-to-image đều tạo ảnh sử dụng cả prompt và ảnh gốc.
+[143] VẠN DỤNG
+[144] 1. Sử dụng công cụ Imagen trong Google AI Studio tạo một bức ảnh gia đình bốn người giữa khung cảnh thiên nhiên.
+[145] 2. Hãy thêm hai người vào ảnh thu được từ Vận dụng 1 bằng công cụ Gemini image generation.
+[146] A

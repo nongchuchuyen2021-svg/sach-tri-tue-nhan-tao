@@ -45,11 +45,11 @@ Trong tình huống trên, vì sao An chỉ sử dụng một công cụ như La
                 <div class="section-body">
             
 <p class="lesson-p">1. LangChain và LlamaIndex: Hai chuyên gia, một mục tiêu Trọng tình huống của An, chỉ dùng một công cụ là chưa đủ vị mỗi câu hỏi của kháchh lại cần xử lí theo một cách khác nhau. Câu hỏi thứ nhất cần truy cập dữ liệu trong kho, còn câu hỏi thứ hai yêu cầu hiểu ý định phức tạp và lọc thông</p>
-<p class="lesson-p">tin phù hợp. Trợ lí ảo phải vừa hiều ngôn ngữ tự nhiên vừa tìm đúng dữ liệu tù nhiêu nguồn.</p>
+<p class="lesson-p">tin phù hợp. Trợ lí ảo phải vừa hiểu ngôn ngữ tự nhiên vừa tìm đúng dữ liệu tù nhiêu nguồn.</p>
 <p class="lesson-p">LangChain là công cụ giúp điều phối quá trình xữ lí: nhận yêu cầu, lên kế hoạch</p>
 <p class="lesson-p">các bước và gọi các công cụ cần thiết. Trong khi đó, LlamaIndex chuyên dùng để tìm kiếm thông tin từ dữ liệu văn bản như tệp sản phẩm, hóa đơn, hoặc tài liệu</p>
 <p class="lesson-p">khác. LangChain điều khiến dòng xử lí, LlamaIndex tập trung tim thông tin trong dữ liệu.</p>
-<p class="lesson-p">Ví dụ: Khi An muốn trợ lí ảo có thế trả lời câu hỏi, đặt hàng hoặc liên hệ nhà cung cấp, LangChain sẽ thiết kế "bộ não" điều phối các tác vụ đó. LangChain giống như kiến trúc sư thiết kế toàn bộ ngôi nhà. Hay để trả lời Sữa tươi có đường còn bao nhiêu hộp?, LlamaIndex sẽ giúp An thu thập thông tin tôn kho, sắp xép chúng và tìm kiêm chính xác số lượng cần. LlamaIndex giống như thủ kho sắp xếp hàng hóa trong kho, giúp em tìm đúng sản phẩm cần thiết.</p>
+<p class="lesson-p">Ví dụ: Khi An muốn trợ lí ảo có thể trả lời câu hỏi, đặt hàng hoặc liên hệ nhà cung cấp, LangChain sẽ thiết kế "bộ não" điều phối các tác vụ đó. LangChain giống như kiến trúc sư thiết kế toàn bộ ngôi nhà. Hay để trả lời Sữa tươi có đường còn bao nhiêu hộp?, LlamaIndex sẽ giúp An thu thập thông tin tôn kho, sắp xép chúng và tìm kiêm chính xác số lượng cần. LlamaIndex giống như thủ kho sắp xếp hàng hóa trong kho, giúp em tìm đúng sản phẩm cần thiết.</p>
 <p class="lesson-p">Khi kết hợp, LangChain đóng vai trò người tố chức thông minh, còn LlamaIndex giống như kho tra cứu. LangChain sẽ biết lúc nào cần dùng LlamaIndex để tìm dữ liệu, rồi tiếp tục xử lí và tạo ra câu trả lời hợp lí. Nhờ sự phối hợp này, trợ lí ảo của An mới có thể trả lời linh hoạt cả câu hỏi đơn giản lẫn yêu cầu phức tạp.</p>
 <p class="lesson-p">LangChain logic LlamaIndex data</p>
 <p class="lesson-p">Lang Chain</p>
@@ -236,7 +236,7 @@ Bạn có khẻ năng sử dụng các CÔNG CỤ (tools) đế tìm kiêm thôn
 <p class="lesson-p">print ("Đã xây dụng Agent LangChain thành công. ")</p>
 <p class="lesson-p">* --- Phần tương tác với người dùng ---
 
-print ("\n--- Sẵn sàng trẻ lời câu hỏi của bạn! ---") print ("Bạn có thế hỏi về thông tin sản phẩm, giá cà, hoặc các chương trình khuyên mãi. ") print ("Gö 'thoát" đế thoát. ")</p>
+print ("\n--- Sẵn sàng trẻ lời câu hỏi của bạn! ---") print ("Bạn có thể hỏi về thông tin sản phẩm, giá cà, hoặc các chương trình khuyên mãi. ") print ("Gö 'thoát" đế thoát. ")</p>
 <p class="lesson-p">while True:</p>
 <p class="lesson-p">question = input (")nBan hỏi: ") if question. lover() = 'thoát':</p>
 
@@ -260,9 +260,9 @@ break</code></pre>
 <p class="lesson-p">thức chung của LLM).</p>
 <p class="lesson-p">Đã xây đựng Agent LangChain thánh công.</p>
 <ul class="lesson-bullet-list">
-<li>-- sản sàng crả lời câu hòi của ban! -
+<li>-- sản sàng crả lời câu hỏi của ban! -
 
-Bạn có thể hỏi về thống tin sản phẩm, giá cá, hoặc các chương trính khuyến mãi.
+Bạn có thể hỏi về thông tin sản phẩm, giá cá, hoặc các chương trính khuyến mãi.
 
 Gõ "thoát" để thoát.</li>
 </ul>
@@ -324,7 +324,7 @@ A. Chains.</p>
 
 - Khi khách hàng hỏi về một sản phẩm cụ thể, trợ lí không chỉ nói giá mà còn</li>
 </ul>
-<p class="lesson-p">có thé so sánh giá đó với giá trung bình trên thị trướng (bắng cách tìm kiếm trên mạng).</p>
+<p class="lesson-p">có thể so sánh giá đó với giá trung bình trên thị trướng (bắng cách tìm kiếm trên mạng).</p>
 <p class="lesson-p">Theo em, để thực hiện các tính năng này, Lang Chain và LlamaIndex sẽ cúng nhau đóng vai trò như thể náo? Em hãy hinh dung luồng xử lí và các thành phần chinh được sử dụng.</p>
 <p class="lesson-p">CHỦ ĐỂ 3. ĐẠO ĐỨC, TRÁCH NHIỆM</p>
 <p class="lesson-p">VÀ TÁC ĐỘNG XÃ HỘI TRONG AI</p>

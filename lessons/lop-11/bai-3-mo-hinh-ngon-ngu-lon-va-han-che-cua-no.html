@@ -54,7 +54,7 @@ Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. K
 <p class="lesson-p">Kiến trúc Transformer dựa trên 6 bước chính:</p>
 <p class="lesson-p">Bước 1. Chia yêu cầu đầu vào thành các từ (token); Yêu câu đầu vào sẽ được chia nhỏ thành các từ.</p>
 <p class="lesson-p">Bước 2. Mã hoá dữ liệu đầu vào (embedding): Chuyển các từ thành dạng mà máy tính có thể hiểu và xử lí được.</p>
-<p class="lesson-p">Bước 3. Tự chú ý (self-altention): Mô hình cân nhắc tầm quan trọng của các từ trong yêu cầu. Qua đó giúp mô hình hiểu rõ yêu cầu hơn nhờ hiểu ngữ cảnh và liên hệ giữa các từ</p>
+<p class="lesson-p">Bước 3. Tự chú ý (self-attention): Mô hình cân nhắc tầm quan trọng của các từ trong yêu cầu. Qua đó giúp mô hình hiểu rõ yêu cầu hơn nhờ hiểu ngữ cảnh và liên hệ giữa các từ</p>
 <p class="lesson-p">Bước 4. Xử lí yêu cầu: Xử lí các yêu cầu của người dùng. Nhờ hiểu yêu cầu, kiến trúc Transformer chỉ dùng mô hình mạng nơ-ron truyền thẳng (dạng đơn giản nhất) vẫn có thể xử lí được các yêu cầu. Việc này giúp tiết kiệm nhiều thời gian huấn luyện, cho phép huấn luyện với số lượng dữ liệu rất lớn.</p>
 <p class="lesson-p">Bước 5. Giải mã dữ liệu (decoding): Kết quả được giải mã từ ngôn ngữ máy tính sang ngôn ngữ tự nhiên.</p>
 <p class="lesson-p">Bước 6. Tạo kết quả dạng ngôn ngữ tự nhiên: Kết quả được tổng hợp và trả về dạng ngôn ngữ tự nhiên hoàn chỉnh.</p>
@@ -62,12 +62,12 @@ Kiến trúc Transformer là nền tảng cho hầu hết các LLM hiện nay. K
 <p class="lesson-p">Dựa vào cấu trúc Transformer, mô hình sẽ xử lí yêu cầu trên theo các bước sau:</p>
 <p class="lesson-p">Bước 1. Chia prompt thành các từ: ("Hãy", "kể", "một", "câu", "chuyện", "cổ", "tích", "Việt", "Nam", "."]</p>
 <p class="lesson-p">Bước 2. Mã hoa các từ bằng các vector đại số mang thông tin về ngữ nghĩa, mối quan hệ giữa các từ. Phương pháp và kết quả mã hóa phụ thuộc vào từng mô</p>
-<p class="lesson-p">n cu thê, vi dac "Hày - (025,-0.0 . 057, 26 - F0.03, 0. .., 0.2..</p>
+<p class="lesson-p"></p>
 <p class="lesson-p">Bước 3. Cơ chế tự chú ý giúp mô hình xác định từ nào trong câu quan trọng hơn trong từng ngữ cảnh. Trong prompt trên, từ "kế" sẽ được chú ý vi nó là hành động chính; mô hình học cách hiểu rằng "câu chuyện cổ tích" là một cụm có nghĩa và "Việt Nam" là tính từ mô tả "câu chuyện".</p>
 <p class="lesson-p">Bước 4. Sau khi hiểu ngữ cảnh và yêu cầu, mô hình sẽ tìm kiếm một truyện cổ tích Việt Nam đã được huấn luyện và viết lại kết quả ở dạng mã hoa.</p>
 <p class="lesson-p">Bước 5. Kết quả viết lại được giải mã về ngôn ngữ tự nhiên.</p>
 <p class="lesson-p">Bước 6. Mô hình trả về câu trả lời hoàn chỉnh: "Sau đây là một câu chuyện cổ tích Việt Nam: "Ngày xửa ngày xưa...". Nếu có yêu cầu gì thêm, hãy vui lòng cho tôi biết"</p>
-<p class="lesson-p">Kiến trúc Tranformer</p>
+<p class="lesson-p">Kiến trúc Transformer</p>
 <p class="lesson-p">Chia yêu cầu đầu vào thành các từ</p>
 <p class="lesson-p">Mã hóa dữ liệu</p>
 <p class="lesson-p">đầu vào Tự chú ý</p>
@@ -171,7 +171,7 @@ tiền huấn luyện, tinh chỉnh và học củng cố nhờ phản hồi t�
 <p class="lesson-p">tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM)?</p>
 <p class="lesson-p">A. ML là một nhánh của NLP, NLP là một nhánh của LLM.</p>
 <p class="lesson-p">B. NLP và LLM là hai nhánh riêng biệt trong ML.</p>
-<p class="lesson-p">C. LLM là một nhành của NLP, NLP. là một nhánh của ML.</p>
+<p class="lesson-p">C. LLM là một nhánh của NLP, NLP. là một nhánh của ML.</p>
 <p class="lesson-p">D. Đây là ba kĩ thuật độc lập, không liên quan đến nhau.
 
 3. Phương án nào sau đầy là một trong những hạn chế của LLM?</p>
