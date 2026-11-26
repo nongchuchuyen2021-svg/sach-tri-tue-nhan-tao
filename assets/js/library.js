@@ -1,6 +1,7 @@
 (function () {
   const THEME_KEY = "ai_books_theme";
   const PROGRESS_KEY = "ai_books_progress";
+  const ASSET_VER = "20261126-v3";
 
   const booksGrid = document.getElementById("booksGrid");
   const searchInput = document.getElementById("globalSearchInput");
@@ -157,7 +158,7 @@
 
   async function ensureSearchData(bookId) {
     if (searchCache.has(bookId)) return searchCache.get(bookId);
-    const res = await fetch(`data/search-${bookId}.json`);
+    const res = await fetch(`data/search-${bookId}.json?v=${ASSET_VER}`);
     const docs = await res.json();
     const indexed = docs.map((d) => ({
       ...d,
@@ -247,7 +248,7 @@
     }
   });
 
-  fetch("data/books.json")
+  fetch(`data/books.json?v=${ASSET_VER}`)
     .then((r) => r.json())
     .then((data) => {
       books = data.books || [];

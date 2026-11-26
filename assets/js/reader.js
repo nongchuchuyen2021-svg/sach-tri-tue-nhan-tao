@@ -35,6 +35,7 @@
   const closeScanModal = document.getElementById("closeScanModal");
 
   // State
+  const ASSET_VER = "20261126-v3";
   let books = [];
   let currentBookId = "lop-10";
   let currentBookMeta = null;
@@ -128,7 +129,7 @@
   // --- INIT ---
   async function init() {
     try {
-      const res = await fetch("data/books.json");
+      const res = await fetch(`data/books.json?v=${ASSET_VER}`);
       const data = await res.json();
       books = data.books || data;
 
@@ -221,7 +222,7 @@
     if (lessonsCache.has(bookId)) {
       currentLessons = lessonsCache.get(bookId);
     } else {
-      const res = await fetch(`data/lessons-${bookId}.json`);
+      const res = await fetch(`data/lessons-${bookId}.json?v=${ASSET_VER}`);
       currentLessons = await res.json();
       lessonsCache.set(bookId, currentLessons);
     }
@@ -382,6 +383,20 @@
             setTimeout(() => (btn.textContent = old), 1800);
           });
         }
+      });
+    });
+
+    // Attach click to zoom on lesson images
+    lessonContent.querySelectorAll(".lesson-img").forEach((img) => {
+      img.style.cursor = "zoom-in";
+      img.title = "Bấm để xem phóng to";
+      img.addEventListener("click", () => {
+        scanImage.src = img.src;
+        scanModalTitle.textContent = img.alt || "Hình minh hoạ bài học";
+        scanPageIndicator.textContent = "Ảnh minh họa";
+        scanPrevBtn.disabled = true;
+        scanNextBtn.disabled = true;
+        scanModal.classList.add("open");
       });
     });
 
