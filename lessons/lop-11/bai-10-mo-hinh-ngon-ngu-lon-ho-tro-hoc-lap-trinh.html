@@ -1,0 +1,192 @@
+
+    <header class="lesson-header">
+        <div class="lesson-topic-badge">Chủ đề 4. Mô hình ngôn ngữ lớn trong học tập</div>
+        <h1 class="lesson-main-title">Bài 10. Mô hình ngôn ngữ lớn hỗ trợ học lập trình</h1>
+        <div class="lesson-meta-bar">
+            <span class="meta-pages">📄 Trang sách gốc: 77 – 81</span>
+            <button class="btn-toggle-scan" onclick="openOriginalPages(77, 81)">📖 Xem bản in gốc</button>
+        </div>
+    </header>
+    
+<p class="lesson-p">BÃI 10. MÔ HÌNH NGÔN NGỮ LỚN</p>
+<p class="lesson-p">HỒ TRỢ HỌC LẬP TRÌNH</p>
+
+            <section class="lesson-card target-section" id="sec-mục-tiêu">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🎯</span>
+                    <h2 class="section-title">MỤC TIÊU</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Sau bài học này, em sẽ:</p>
+<ul class="lesson-bullet-list">
+<li>Sử dụng được LLM để giải thích các đoạn mã (code) đơn giản (chằng hạn Python).</li>
+<li>Viết được prompt để yêu cầu LLM sinh mã cho một bài toán cụ thể.</li>
+<li>Sử dụng được LLM đề tìm và sừa lỗi trong các đoạn mã có lỗi cú pháp hoặc lỗi logic đơn giản.</li>
+</ul>
+</div></section>
+
+            <section class="lesson-card warmup-section" id="sec-khởi-động">
+                <div class="section-badge-header">
+                    <span class="sec-icon">💡</span>
+                    <h2 class="section-title">KHỞI ĐỘNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Minh yêu cầu ChatGPT: "Viết chương trình Python nhập từ bàn phím ba số thực a, b, c và tìm nghiệm của phương trình bc hai: ax' + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh." Khi chạy thử, chương trình gặp lỗi, Minh lại yêu cầu ChatGPT tìm và sửa lỗi trong chương trình. Kết quả là Minh đã sao chép thiếu dầu ":" cho một câu lệnh điều kiện. ChatGPT đã phát hiện và sửa được lỗi này.
+
+Em hãy cho biết:</p>
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Để viết chương trình giải phương trình bậc hai một ẩn Minh đã làm gi?</h3>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Khi chương trình gặp lỗi, Minh đã xử lí như thế nào?</h3>
+</div></section>
+
+            <section class="lesson-card discovery-section" id="sec-khám-phá">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🔍</span>
+                    <h2 class="section-title">KHÁM PHÁ</h2>
+                </div>
+                <div class="section-body">
+            
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Yêu cầu mô hình ngôn ngữ lớn lập trình</h3>
+<p class="lesson-p">Để viết chương trình giải phương trình bậc hai, Minh đã nhập yêu cầu cụ thể cho ChatGPT, nêu rõ ngôn ngữ lập trình và nội dung cần làm. Qua đó, ta thấy khi viết prompt rõ ràng, đầy đủ và có mục tiêu cụ thể, LLM có thể tự động sinh mã theo yêu cầu. Chẳng hạn, prompt như sau:</p>
+<p class="lesson-p">75 74</p>
+<p class="lesson-p">"Viết chương trình Python xác định một số có phải là số nguyên tố hay không và in kết quả ra màn hình."</p>
+<p class="lesson-p">Hiện nay, có nhiều LLM hỗ trợ lập trình như ChatGPT, Gemini hay Github Copilot,... (Hình 10.1). Khi sử dụng LLM trong lập trinh, em cần xác định rõ ngôn ngữ lập trình, bài toán cần thực hiện với các bước cụ thể. Viết prompt chi tiết giúp LLM hiểu đúng yêu cầu, tiết kiệm thời gian và nâng cao hiệu quả mã.</p>
+<p class="lesson-p">Chat GPT Gemini Llama Claude Github Copilot</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 10.1. Một số mô hình ngôn ngữ lớn hỗ trợ lập trình</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Tuy nhiên, mã do LLM sinh ra cũng có thể có lỗi hoặc chưa tối ưu. Vì vậy, em không chỉ sao chép mà cần hiểu được mã. Qua đó, em có thể chạy thử, kiểm lỗi và cài tiến nếu cần thiết.</p>
+<p class="lesson-p">Mô hình ngôn ngữ lớn có thể sinh mã (code) cho một</p>
+<p class="lesson-p">bài toán cụ thể. Viết prompt yêu cầu LLM sinh mã cần nêu rõ ngôn ngữ lập trình và bải toán cần thực hiện.</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Sử dụng mô hình ngôn ngữ lớn để giãi thích chương trình</h3>
+<p class="lesson-p">Ngoài yêu cầu lập trinh, Minh còn yêu cầu ChatGPT giải thích rõ từng câu lệnh.</p>
+<p class="lesson-p">Việc này giúp Minh có thể hiểu đoạn mã được sinh ra dễ dàng hơn.</p>
+<p class="lesson-p">Các mô hình ngôn ngữ lớn có thể phân tích và giải thích các đoạn mã do chính nó tạo ra hoặc do người dùng cung cấp. Việc sử dụng LLM giải thích mã giúp em hiều rõ cách hoạt động và học lập trình hiệu quả hơn, chẳng hạn sử dụng prompt</p>
+<p class="lesson-p">"giải thích từng dòng lệnh của chương trình ..." để có thể giải thích các dòng lệnh tương tự như Hình 10.2.</p>
+<p class="lesson-p">numbers = [1, 2, 3]</p>
+<p class="lesson-p">Khởi tạo một danh sách chứa ba số nguyên là 1, 2, và 3.</p>
+<p class="lesson-p">total = sum(numbers)</p>
+<p class="lesson-p">Dùng hàm sum() để tính tổng tất cả phần từ trong danh sách; kết quá ở đây là 6</p>
+
+                    <div class="code-block-wrapper">
+                        <div class="code-header"><span>Python / Code</span><button class="btn-copy-code" onclick="copyCode(this)">Sao chép</button></div>
+                        <pre><code class="language-python">print(total)</code></pre>
+                    </div>
+                    
+<p class="lesson-p">In ra màn hình giá trị đã tính, tức là 6.</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 10.2. Sử dựng LLM đề giải thích chương trình</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Tuy nhiên, LLM chỉ là một công cụ hỗ trợ, không thể thay thế tài liệu học. Em cần kết</p>
+<p class="lesson-p">hợp thêm với các nguồn tài liệu chính thống như W3Schools, MDN, Python Docs,..
+
+76</p>
+<p class="lesson-p">Mô hình ngôn ngữ lớn có thể phân tích và giải thích các cầu lệnh trong chương trình. Nhờ đó, giúp ta hiểu rõ cách hoạt động và học</p>
+<p class="lesson-p">lập trình dễ hơn.</p>
+<h3 class="subheading-h3"><span class="h3-num">3.</span> Sử dụng mô hình ngôn ngữ lớn tìm và sửa lỗi chương trình</h3>
+<p class="lesson-p">Trong tình huống Khởi động, khi chương trinh gặp lỗi, Minh tiếp tục sử dụng ChatGPT để tìm và sửa lỗi. Sử dụng LLM đề lim và sửa các lỗi cú pháp hoặc lỗi logic đơn giản giúp việc kiểm thử và gỡ lỗi chương trinh được thực hiện tự động, nhanh chóng và dễ dàng</p>
+<p class="lesson-p">Trong quá trình sửa lỗi bằng LLM, em cũng có thể học cách sửa lỗi và cải tiến chương trình bằng cách yêu cầu LLM giải thích chi tiết lỗi và cách sửa hay đề xuất phương án cài tiến.</p>
+<p class="lesson-p">Vi dụ như Tại sao chương trình bị lỗi? hay Có cách nào viết mã tốt hơn không?.</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 10.3. Kiểm thử và gỡ lỗi khi lập trình</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Mô hình ngôn ngữ lớn có thể tự động phát hiện và sừa các lỗi đơn giản trong chương trình, giúp giảm thời gian, công sức kiểm thử và gỡ lỗi.</p>
+<p class="lesson-p">Một số nguyên tắc khi sử dựng AI tạo sinh trong học lập trình được tống hợp trong bảng sau:</p>
+<p class="lesson-p">Bàng 10.1. Nguyên tắc sử dụng AI tạo sinh trong học lập trình</p>
+<p class="lesson-p">Nguyên tác</p>
+<p class="lesson-p">Vân đề</p>
+<p class="lesson-p">Hành động</p>
+<p class="lesson-p">Hiều, không sao chép</p>
+<p class="lesson-p">Người học cần hiểu từng</p>
+<p class="lesson-p">Yêu cầu LLM giải thích từng</p>
+<p class="lesson-p">dòng lệnh, không chỉ sao chép mã của AI,</p>
+<p class="lesson-p">dòng lệnh.</p>
+<p class="lesson-p">Kiểm tra kĩ</p>
+<p class="lesson-p">Mã tạo bởi LLM có thể sai hoặc chưa tối ưu.</p>
+<p class="lesson-p">Chạy thử, kiểm lỗi, thêm điều kiện kiểm tra.</p>
+<p class="lesson-p">kết quả</p>
+<p class="lesson-p">Đặt câu hòi cụ thể</p>
+<p class="lesson-p">Câu hỏi càng rõ ràng, mã trả về càng đúng ý.</p>
+<p class="lesson-p">Nêu rõ yêu cầu: ngôn ngữ, đầu vào, đầu ra, giới hạn,...</p>
+<p class="lesson-p">Kết hợp tài liệu</p>
+<p class="lesson-p">Tra cứu thêm trên</p>
+<p class="lesson-p">LLM chỉ là công cụ, không thể thay thế tài liệu học.</p>
+<p class="lesson-p">W3Schools, MDN, Python</p>
+<p class="lesson-p">chính thống</p>
+<p class="lesson-p">Docs,....</p>
+<p class="lesson-p">Học qua sửa lỗi và</p>
+<p class="lesson-p">Hỏi: "Tại sao chương trình bị</p>
+<p class="lesson-p">LLM có thể hỗ trợ hiểu lỗi và</p>
+<p class="lesson-p">lỗi?", "Có cách nào viết mã</p>
+<p class="lesson-p">giải thích</p>
+<p class="lesson-p">hướng dẫn cách sửa.</p>
+<p class="lesson-p">tốt hơn không?".</p>
+<h3 class="subheading-h3"><span class="h3-num">4.</span> Thực hành</h3>
+<p class="lesson-p">(Hướng dẫn dưới đây sử dụng phần mềm ChatGPT.)</p>
+<p class="lesson-p">Nhiệm vụ 1: Viết prompt yêu cầu LLM sinh mã Python giải phương trình bậc</p>
+<p class="lesson-p">hai một ẩn và giải thích chi tiết.</p>
+<p class="lesson-p">Hướng dẫn</p>
+<p class="lesson-p">Bước 1. Khởi động trình duyệt và truy cập trang web của ChatGPT: https://chatgpt.com/.</p>
+<p class="lesson-p">Bước 2. Nhập prompt "Viết chương trình Python nhập từ bàn phim ba số thực a, b, c và tìm nghiệm của phương trình bậc hai: ax? + bx + c = 0, xét đầy đủ các trường hợp, giải thích rõ từng câu lệnh.".</p>
+<p class="lesson-p">Bước 3. Đọc, hiểu chương trình thu được. Chạy thử chương trình trong một phần mềm lập trình (Visual Studio Code, PyCharm, Jupyter Notebook,...).</p>
+<p class="lesson-p">Nhiệm vụ 2: Sử dụng LLM để tìm và sửa lỗi cú pháp trong chương trình.</p>
+<p class="lesson-p">Hướng dẫn</p>
+<p class="lesson-p">Bước 1. Khởi động trình duyệt và truy cập trang web của ChatGPT: https://chatgpt.com/</p>
+<p class="lesson-p">Bước 2. Xoa hai dầu *:" bất kì trong chương trình thu được ở Nhiệm vụ 1.</p>
+<p class="lesson-p">Bước 3. Nhập prompt "Tìm và sửa lỗi chương trình sau:
+
+<đoạn chương trình ở Bước 2>".</p>
+<p class="lesson-p">Bước 4. Kiểm tra hai dấu ":"' có được thêm lại vào chương trình hay không. Chạy thử chương trinh thu được trong một phần mềm lập trình (Visual Studio Code, PyCharm, Jupyter Notebook,...).</p>
+</div></section>
+
+            <section class="lesson-card exercise-section" id="sec-luyện-tập">
+                <div class="section-badge-header">
+                    <span class="sec-icon">✏️</span>
+                    <h2 class="section-title">LUYỆN TẬP</h2>
+                </div>
+                <div class="section-body">
+            
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Khi yêu cầu LLM lập trình, cần cung cấp những thông tin nào dưới đây?</h3>
+<p class="lesson-p">A. Ngôn ngữ lập trình và bài toán cần thực hiện.</p>
+<p class="lesson-p">B. Lưu đồ thuật toán và bài toán cần thực hiện.</p>
+<p class="lesson-p">C. Tên các biến, các câu lệnh cần sử dụng và bài toán cần thực hiện.
+
+D. Bài toán cần thực hiện.</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Lợi ích của việc sử dụng LLM để giải thích chương trình là:</h3>
+<p class="lesson-p">A. Giảm dung lượng bộ nhớ chứa chương trinh.</p>
+<p class="lesson-p">B. Học sinh hiểu sâu hơn về cấu trúc chương trình.</p>
+<p class="lesson-p">C. Làm chương trình chạy nhanh hơn.</p>
+<p class="lesson-p">D. Làm bài kiểm tra thay người dùng.</p>
+<h3 class="subheading-h3"><span class="h3-num">3.</span> Sử dụng LLM để sửa lỗi giúp tiết kiệm:</h3>
+<p class="lesson-p">A. Dung lượng ổ cứng.</p>
+<p class="lesson-p">B. Thời gian và công sức kiểm thừ.</p>
+<p class="lesson-p">C. Tiền điện.</p>
+<p class="lesson-p">D. Dung lượng mạng.</p>
+</div></section>
+
+            <section class="lesson-card apply-section" id="sec-vận-dụng">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🚀</span>
+                    <h2 class="section-title">VẬN DỤNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">1. Sử dụng LLM để viết chương trình giải hệ phương trình bậc nhất hai ân. Các hệ số được nhập từ người dùng.</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Sử dụng LLM giải thích chương trình thu được trong Vận dụng 1.</h3>
+</div></section>

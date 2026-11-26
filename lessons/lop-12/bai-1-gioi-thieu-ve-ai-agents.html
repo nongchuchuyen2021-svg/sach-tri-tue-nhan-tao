@@ -1,0 +1,280 @@
+
+    <header class="lesson-header">
+        <div class="lesson-topic-badge">Chủ đề 1. AI Agents – Hướng tới AI tự hoạt động</div>
+        <h1 class="lesson-main-title">Bài 1. Giới thiệu về AI Agents</h1>
+        <div class="lesson-meta-bar">
+            <span class="meta-pages">📄 Trang sách gốc: 7 – 13</span>
+            <button class="btn-toggle-scan" onclick="openOriginalPages(7, 13)">📖 Xem bản in gốc</button>
+        </div>
+    </header>
+    
+<p class="lesson-p">BÁI 1. GIỚI THIÊU VÊ AI AGENTS</p>
+
+            <section class="lesson-card target-section" id="sec-mục-tiêu">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🎯</span>
+                    <h2 class="section-title">MỤC TIÊU</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Sau bài học này, em sẽ:</p>
+<ul class="lesson-bullet-list">
+<li>Nêu được khái niệm AI Agents (tác nhân thông minh) và phân biệt được AI Agent với LLM/chatbot thông thường.</li>
+<li>Trình bày được vòng lặp hoạt động và các thành phần chính của một AI Agent.</li>
+<li>Nêu được tiềm năng ứng dụng và các thách thức kĩ thuật, đạo đức của AI Agent trong tương lai.</li>
+</ul>
+</div></section>
+
+            <section class="lesson-card warmup-section" id="sec-khởi-động">
+                <div class="section-badge-header">
+                    <span class="sec-icon">💡</span>
+                    <h2 class="section-title">KHỞI ĐỘNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Sau chuyến dã ngoại cuối tuần cùng lớp, Tùng cảm thây mệt mỏi vì đã phải làm rất nhiều việc chuẩn bị cho chuyến đi: từ tìm địa điểm, xem dự báo thời tiết, đặt xe,</p>
+<p class="lesson-p">chọn chỗ ăn uống, cho đến chuẩn bị đồ dùng,... Quá nhiều công việc phải làm thủ công, tốn thời gian và dễ sai sót. Tùng ước có một trợ lí ảo đủ thông minh để hỗ trợ mình khi cân. Vi dụ, Tùng chỉ cần nói Hãy lên kế hoạch cho chuyến dã ngoạ</p>
+<p class="lesson-p">cuối tuần thì trợ lí ảo sẽ tự động thực hiện tất cả các công việc cần thiết. Theo em, một trợ lí áo như vậy cần có những khả năng gì để tự thực hiện một yêu cầu phức tạp như thế (điều này hoàn toàn khác với một chatbot chỉ trả lời từng câu hỏi riêng lẻ như: nên đi đâu?, thời tiết thế nào?, hãy đặt xe,...)?</p>
+</div></section>
+
+            <section class="lesson-card discovery-section" id="sec-khám-phá">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🔍</span>
+                    <h2 class="section-title">KHÁM PHÁ</h2>
+                </div>
+                <div class="section-body">
+            
+<h3 class="subheading-h3"><span class="h3-num">1.</span> AI Agents</h3>
+<p class="lesson-p">Một trợ lí ảo có thể hiểu yêu cầu của Tùng và tự động lên kế hoạch, tra cứu thông tin thời tiết, đặt xe và chọn chỗ ăn trưa phù hợp mà không chỉ trả lời từng câu hỏi cụ thế. Trợ lí ảo đó cần có khả năng lập kế hoạch, chọn công cụ phù hợp và thực hiện nhiều bước liên tiếp để hoàn thành nhiệm vụ. Trợ lí ảo mà Tùng đang hình dung chính là một Agent.
+
+6</p>
+<p class="lesson-p">O</p>
+<p class="lesson-p">LLMs</p>
+<p class="lesson-p">Chatbot</p>
+<p class="lesson-p">AI Agents</p>
+<p class="lesson-p">Mô hình ngôn ngô lên có khô rông sinh</p>
+<p class="lesson-p">Hệ thưng tường tht Mội thoai Buot thệt</p>
+<p class="lesson-p">Hệ thống AI tự động có khế nắng thực</p>
+<p class="lesson-p">và hiểu văn bản dưa trện do liệu huấn</p>
+<p class="lesson-p">tuyện không 1</p>
+<p class="lesson-p">He Of glas tiep trie thp vill nguth, diung</p>
+<p class="lesson-p">Hiện nhiệm vụ phút tạp và tương tác với</p>
+<p class="lesson-p">mội trường</p>
+<ul class="lesson-bullet-list">
+<li>GisO ID ho Thoas Ms rener</li>
+</ul>
+<p class="lesson-p">Sinh và tiều vận bân tự nhiện</p>
+<ul class="lesson-bullet-list">
+<li>Thực Hiện nhiệm vu tư đöng</li>
+</ul>
+<p class="lesson-p">Xử lí đe ngôn ngô</p>
+<ul class="lesson-bullet-list">
+<li>Rs quyệt đinh thông minh</li>
+</ul>
+<p class="lesson-p">Trà lới câu nội mô</p>
+<ul class="lesson-bullet-list">
+<li>Tes lori eDu Ach thrstng g8p</li>
+<li>Tưong tớe vel ne thông khác</li>
+</ul>
+<p class="lesson-p">Dịch thuật và tốm t8t</p>
+<ul class="lesson-bullet-list">
+<li>Hỏ trợ khách rông cơ băn</li>
+<li>Học nói từ kính nghiệm</li>
+<li>Giao điện thên thiện</li>
+</ul>
+<p class="lesson-p">Sảng tạo nội dụng</p>
+<ul class="lesson-bullet-list">
+<li>Tích hơp đa nên táng</li>
+<li>Sử dung công cu bên ngoài</li>
+</ul>
+<p class="lesson-p">Phân tích nọữ nghiĩa</p>
+<ul class="lesson-bullet-list">
+<li>XữIi quy trình phúc tạp</li>
+</ul>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 1.1. Hình minh hoạ so sánh LLM, chatbot, AI Agents</figcaption>
+                        </div>
+                    </figure>
+                    
+
+                    <div class="callout-box knowledge-callout">
+                        <div class="callout-title">📘 Hộp kiến thức cốt lõi</div>
+                        <p>Khác với LLM hay chatbot thông thường chỉ phản hồi từng câu hỏi đơn lẻ tại một thời điểm, AI Agent là một hệ thống sử dụng công nghệ AI, bao gồm AI tạo sinh (Generative AI) làm "bộ não" có khả năng hiểu mục tiêu, tự lập kế hoạch, sử dụng</p>
+                    </div>
+                    
+<p class="lesson-p">các công cụ và dữ liệu bên ngoài để tự động thực hiện nhiều bước liên tiếp, hoàn thành một nhiệm vụ phức tạp một cách tự chủ.</p>
+<p class="lesson-p">Phân biệt AI Agent với LLM và chatbot thông thường:</p>
+<p class="lesson-p">Chatbot thông thường</p>
+<p class="lesson-p">AI Agents (dùng LLM làm lõi)</p>
+<p class="lesson-p">Đặc điểm LLM</p>
+<p class="lesson-p">(dùng LLM)</p>
+<p class="lesson-p">Khả năng chính</p>
+<p class="lesson-p">Sinh/hiểu</p>
+<p class="lesson-p">Đối thoại, trả lời câu hỏi.</p>
+<p class="lesson-p">Tự lập kế hoạch, tự hoạt</p>
+<p class="lesson-p">ngôn ngữ.</p>
+<p class="lesson-p">động, tương tác với môi trường/công cụ.</p>
+<p class="lesson-p">Phản hồi prompt, theo luồng định sẵn, có thể gọi</p>
+<p class="lesson-p">Tự chủ, thực hiện nhiều</p>
+<p class="lesson-p">Cách</p>
+<p class="lesson-p">Phản hồi prompt trực tiếp.</p>
+<p class="lesson-p">bước phức tạp, vòng lập suy nghĩ-hành động.</p>
+<p class="lesson-p">hoạt động</p>
+<p class="lesson-p">API đơn giản.</p>
+<p class="lesson-p">Sử dụng công cụ</p>
+<p class="lesson-p">Không tự động sử dụng.</p>
+<p class="lesson-p">Có thể được lập trình để gọi API</p>
+<p class="lesson-p">Tự động lựa chọn và sử dụng đa dạng công cụ dựa trên kế hoạch.</p>
+<p class="lesson-p">cụ thế.</p>
+<p class="lesson-p">Bộ nhớ Hạn chế hoặc</p>
+<p class="lesson-p">Duy trì bộ nhớ lâu dài về hành động, quan sát để học hỏi và điều chỉnh.</p>
+<p class="lesson-p">Có thể nhớ lịch sử hội thoại ngắn.</p>
+<p class="lesson-p">không có.</p>
+<p class="lesson-p">AI Agents là hệ thống thông minh có khả năng tự động phân tích, lập luận và thực hiện hành động để đạt được mục tiêu, thông qua việc sử dụng các công nghệ AI, bao gồm cả AI tạo sinh.</p>
+<p class="lesson-p">2. Vòng lặp hoạt động và các thành phần chính của AI Agents a) Vòng lập hoạt động</p>
+<p class="lesson-p">Hoạt động của một AI Agent được mô tả thông qua một vòng lặp liên tục, phản án</p>
+<p class="lesson-p">quá trình suy nghĩ và hành động của nó:</p>
+<p class="lesson-p">Nhận mục tiêu</p>
+<p class="lesson-p">AI Agents được cung cấp nhiệm vụ hoặc mục tiêu cần thực hiện</p>
+<p class="lesson-p">LLM - Mô-đun Lập luận/Lập kế hoạch</p>
+<p class="lesson-p">Sử dụng mô hình ngôn ngữ lớn để phân tích, suy nghĩ và đưa ra quyết</p>
+<p class="lesson-p">định</p>
+<p class="lesson-p">Chọn công cụ</p>
+<p class="lesson-p">Quyết định công cụ hoặc phương pháp phù hợp nhất để thực hiện nhiệm vụ</p>
+<p class="lesson-p">Thực thi công cụ</p>
+<p class="lesson-p">Sử dụng công cụ đã chọn để thực thi hành động cụ thể</p>
+<p class="lesson-p">Quan sát kết quả</p>
+<p class="lesson-p">Đánh giá và phân tích kết quả từ việc thực thi công cụ</p>
+<p class="lesson-p">Cập nhật bộ nhớ</p>
+<p class="lesson-p">Lưu trữ kinh nghiệm và kiến thức mới để cái thiện hiệu suất tương lai</p>
+<p class="lesson-p">auay lai bước 2 để tiếp tực chu trinh</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 1.2. Vòng lặp hoạt động của AI Agents</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Mô tả vòng lặp:</p>
+<p class="lesson-p">1) Nhận mục tiêu (Goal Reception): Agent tiếp nhận một mục tiêu hoặc nhiệm vụ từ người dùng.</p>
+<p class="lesson-p">2) Lập luận/Lập kê hoạch (Reasoning/Planning): Sử dụng mô hình AI tạo sinh làm cốt lõi để phân tích, suy nghĩ và đưa ra quyết định. Agent phân tích mục</p>
+<p class="lesson-p">tiêu, suy luận các bước cần thiết, xác định các thông tin cần thu thập và các hành động cần thực hiện để đạt được mục tiêu. Đây là nơi mô hình AI tạo sinh đóng vai trò bộ não đưa ra các quyết định chiến lược.</p>
+<p class="lesson-p">3) Chọn công cụ (Tool Selection): Dựa trên kế hoạch đã lập, Agent lựa chọn công cụ phù hợp nhất từ bộ công cụ sẵn có để thực hiện bước tiếp theo. Vị dụ: công cụ tìm kiếm web để thu thập thông tin, máy tính để tính toán, API để đặt lịch.</p>
+<p class="lesson-p">4) Thực thi công cụ (Tool Execution): Agent gọi và thực thi công cụ đã chọn.</p>
+<p class="lesson-p">5) Quan sát kết quả (Observation): Sau khi công cụ thực thi, Agent thu thập và xử lí kết quả trả về. Vi dụ: kết quả tìm kiêm từ Internet, thông báo thành công/ thất bại của một API.</p>
+<p class="lesson-p">6) Cập nhật bộ nhớ (Memory Update): Agent ghi lại các hành động đã thực hiện, kết quả quan sát được và các thông tin quan trọng vào bộ nhớ của mình. Điều</p>
+<p class="lesson-p">này giúp Agent học hỏi từ kinh nghiệm, duy trì ngữ cảnh của nhiệm vụ và điều chỉnh kế hoạch nếu cần thiết trong các vòng lặp tiếp theo.</p>
+<p class="lesson-p">7) Lặp lại: Vòng lặp này tiếp diễn cho đến khi mục tiêu được hoàn thành hoặc khi Agent nhận thấy không thể tiếp tục được nữa.</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Các thành phần chính của AI Agent</h4>
+<p class="lesson-p">AI AGENT</p>
+<p class="lesson-p">Lập kế hoạch</p>
+<p class="lesson-p">Lập luận - GENAI</p>
+<p class="lesson-p">Bộ nhớ Sử dụng công cụ</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 1.3. Thành phần bên trong một AI Agent</figcaption>
+                        </div>
+                    </figure>
+                    
+<ul class="lesson-bullet-list">
+<li>Mô-đun Lập luận (Reasoning Module): Đây là "trái tim" của Agent, chịu trách</li>
+</ul>
+<p class="lesson-p">nhiệm cho khả năng hiểu, lập kế hoạch và ra quyết định. Mô-đun này sử dụng một mô hình AI tạo sinh làm cốt lõi để phân tích mục tiêu, tạo ra các bước hành động và quyết định sử dụng công cụ nào.
+
+- Mô-đun Lập kế hoạch (Planning Module): Hỗ trợ mô hình AI tạo sinh trong</p>
+<p class="lesson-p">việc chia nhỏ mục tiêu phức tạp thành các nhiệm vụ con, quản lí trình tự thực</p>
+<p class="lesson-p">hiện và ưu tiên các bước.</p>
+<ul class="lesson-bullet-list">
+<li>Mô-đun Sử dụng công cụ (Tool Use Module): Cung cấp tập hợp các công</li>
+</ul>
+<p class="lesson-p">cụ mà Agent có thể tương tác với thế giới bên ngoài. Các công cụ này có thể là các hàm lập trình, API, công cụ tìm kiếm web hoặc phần mềm xử lí mã như</p>
+<p class="lesson-p">công cụ chạy và kiểm tra chương trình.</p>
+<ul class="lesson-bullet-list">
+<li>Mô-đun Bộ nhớ (Memory Module): Lưu trữ các thông tin quan trọng trong</li>
+</ul>
+<p class="lesson-p">suốt quá trình hoạt động của Agent, bao gồm lịch sử hội thoại, các hành động đã thực hiện, các quan sát và kế hoạch hiện tại. Bộ nhớ giúp Agent duy trì ngữ cảnh và đưa ra các quyết định thông minh hơn theo thời gian.</p>
+<ul class="lesson-bullet-list">
+<li>Vòng lặp hoạt động của AI Agent bao gồm: Nhận mục tiêu → Lập luận/Lập kế hoạch → Chọn công cụ → Thực thi công cụ → Quan sát kết quả → Cập nhật bộ nhớ và tiếp tục lập lại.</li>
+<li>Các thành phần thiết yếu là Mô-đun Lập luận, Mô-đun Lập kể hoạch, Mô-đun Sử dụng công cụ và Mô-đun Bộ nhớ.</li>
+</ul>
+<p class="lesson-p">3. Tiềm năng ứng dụng và thách thức của AI Agents a) Tiêm năng ứng dụng Khả năng tự chủ và tương tác với môi trường bên ngoài mang lại cho AI Agents tiềm năng cách mạng hoá nhiều lĩnh vực:</p>
+<ul class="lesson-bullet-list">
+<li>Tự động hoá quy trình phức tạp: AI Agents có thể tự động hóá các tác vụ</li>
+</ul>
+<p class="lesson-p">đa bước, đa nền tảng. Vi dụ: Lên kế hoạch và đặt một chuyên du lịch trọn gói,</p>
+<p class="lesson-p">bao gồm: đặt vé máy bay, đặt phòng khách sạn, tìm kiếm địa điểm tham quan va nha hang phú hợp với sở thịch cá nhân hay xứ li các công việc trong doanh nghiệp như: duyệt tài liệu, tông hợp báo cáo tài chính từ nhiêu nguôn.
+
+- Trợ lí cá nhân thông minh: Vượt xa các trợ lí ảo hiện tại, AI Agents có thế</p>
+<p class="lesson-p">quản lí lịch trình, sắp xếp thư điện tử, thực hiện các yêu cầu mua sắm trực tuyến, hay thậm chí hỗ trợ học sinh tìm kiếm và tổng hợp kiến thức từ nhiều</p>
+<p class="lesson-p">nguồn học liệu khác nhau.
+
+- Nghiên cứu khoa học và phân tích dữ</p>
+<p class="lesson-p">liệu: AI Agents có thế tự động hoá việc thu thập dữ liệu từ các cơ sở dữ liệu khoa học,</p>
+<p class="lesson-p">phân tích kết quả thí nghiệm và thậm chí đề xuất các giả thuyết mới để các nhà khoa học xem xét</p>
+<ul class="lesson-bullet-list">
+<li>Quản lí và tự động sửa lỗi hệ thống:</li>
+</ul>
+<p class="lesson-p">Trong lĩnh vực công nghệ thông tin, AI Agents có thể theo dõi hoạt động của hệ thống, tự động phát hiện lỗi và thực hiện các biện pháp khắc phục sự cố, giảm thiểu Hình 1.4. Kịch bản ứng dụng AI Age trong thực tế thời gian ngừng hoạt động.</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Thách thức về kĩ thuật và đạo đức</h4>
+<p class="lesson-p">Bên cạnh tiềm năng to lớn, việc phát triển và triển khai AI Agents cũng đối mặt với nhiều thách thức đáng kế:</p>
+<ul class="lesson-bullet-list">
+<li>Thách thức về kĩ thuật:</li>
+</ul>
+<p class="lesson-p">+ "Bịa đặt" (Hallucination) của mô hình AI tạo sinh: Mô hình AI tạo sinh</p>
+<p class="lesson-p">(đặc biệt là LLM) đôi khi tạo ra thông tin không chính xác hoặc không có thật.</p>
+<p class="lesson-p">Khi Agent dựa vào những "bịa đặt" này để đưa ra quyết định và hành động, có thế dẫn đến hậu quả nghiêm trọng</p>
+<p class="lesson-p">+ Kiểm soát và an toàn: Làm thế nào đế đảm bảo Agent luôn hoạt động trong</p>
+<p class="lesson-p">giới hạn an toàn, tuân thủ các quy tắc và không thực hiện những hành động ngoài ý muốn hay gây hại? Việc thiết lập các cơ chế giám sát và dừng khấn cấp là cần thiết.</p>
+<p class="lesson-p">+ Hiệu quả và tộc độ: Quá trình Agent lập kế hoạch, thực thi công cụ và lặp lại</p>
+<p class="lesson-p">có thể tốn nhiều thời gian và tài nguyên máy tính, đặc biệt đối với các nhiệm vụ phức tạp.</p>
+<p class="lesson-p">+ Xử lí các tình huồng bất ngờ: Agent có thế gặp khó khăn khi đối mặt với</p>
+<p class="lesson-p">các tình huống không lường trước được, dữ liệu mơ hồ hoặc các ngoại lệ không được đê cập trong huân luyện.</p>
+<ul class="lesson-bullet-list">
+<li>Thách thức về đạo đức:</li>
+</ul>
+<p class="lesson-p">+ Trách nhiệm pháp lí: Ai chịu trách nhiệm khi một AI Agent gây ra lỗi hoặc</p>
+<p class="lesson-p">hậu quả tiêu cực (vi dụ: đặt sai đơn hàng, đưa ra lời khuyên y tế sai lệch)?
+
+Vấn đề này đặc biệt phức tạp khi Agent hoạt động tự chủ.</p>
+<p class="lesson-p">+ Quyên riêng tư và bảo mật dữ liệu: Để thực hiện các nhiệm vụ, Agent</p>
+<p class="lesson-p">thường cân truy cập và xử lí lượng lớn dữ liệu cá nhân hoặc nhạy cảm, đặt ra yêu cầu cao về bảo vệ quyền riêng tư và an ninh thông tin.</p>
+<p class="lesson-p">+ Ánh hưởng đến việc làm: Khả năng tự động hoá các quy trình phức tạp</p>
+<p class="lesson-p">của AI Agent có thế làm thay đối cấu trúc thị trường lao động và yêu cầu lực lượng lao động phải thích nghi với các kĩ năng mới.</p>
+<p class="lesson-p">+ Thiên vị (Bias) và công bằng: Nếu dữ liệu huấn luyện của mô hình AI tạo</p>
+<p class="lesson-p">sinh hoặc các quy tắc của Agent có chứa sự thiên vị, Agent có thể đưa ra các quyết định không công bằng hoặc phân biệt đối xử.</p>
+<p class="lesson-p">Tiềm năng ứng dụng của AI Agent bao gồm tự động hoá quy trình phức tạp, trợ lí cá nhân, nghiên cứu khoa học và quản lí</p>
+<p class="lesson-p">hệ thống. Tuy nhiên, nó cũng đối mặt với thách thức kĩ thuật (bịa đặt, kiểm soát, hiệu quả) và thách thức đạo đức (trách nhiệm, quyền riêng tư, ảnh hưởng việc làm).</p>
+<p class="lesson-p">LUYÊN TẬP</p>
+<p class="lesson-p">1. Hãy chọn câu đúng nhất để mô tả sự khác biệt cơ bản giữa một AI Agent và một chatbot thông thường.</p>
+<p class="lesson-p">A. AI Agent sử dụng công nghệ mới hơn chatbot.</p>
+<p class="lesson-p">B. AI Agent có thể tự lập kế hoạch và thực hiện chuỗi hành động để đạt mục</p>
+<p class="lesson-p">tiêu, trong khi chatbot chủ yếu phản hồi trực tiếp các câu hỏi.</p>
+<p class="lesson-p">C. Chatbot có bộ nhớ lớn hơn AI Agent.</p>
+<p class="lesson-p">D. AI Agent chỉ có thể làm việc với dữ liệu có cầu trúc.</p>
+<p class="lesson-p">2. Trong vòng lặp hoạt động của một AI Agent, thành phần nào chịu trách nhiệm cho việc tim kiếm và trích xuất thông tin từ các nguồn bên ngoài khi được yêu câu?</p>
+<p class="lesson-p">A. Mô-đun Lập luận.
+
+B. Mô-đun Bộ nhớ.</p>
+<p class="lesson-p">C. Mô-đun Sử dụng công cụ.
+
+D. Mô-đun Lập kê hoạch.</p>
+<p class="lesson-p">3. Giai thích tại sao việc kiểm soát và đảm bảo an toàn là một thách thức kĩ thuật quan trọng khi phát triển AI Agents.</p>
+</div></section>
+
+            <section class="lesson-card apply-section" id="sec-vận-dụng">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🚀</span>
+                    <h2 class="section-title">VẬN DỤNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Em hãy hinh dụng một dự án nghiên cứu khoa học mà em muốn thực hiện. Ví dụ như tìm hiểu về ảnh hưởng của biến đổi khí hậu đối với một hệ sinh thái cụ thế.
+
+Nếu có một AI Agent có thể hỗ trợ em trong dự án này, em sẽ giao cho nó những nhiệm vụ cụ thế nào? Hãy mô tà một kịch bản mà Agent sẽ tự động thực hiện nhiêu bước để hỗ trợ nghiên cứu của em. Đồng thời, hãy chỉ ra một thách thức tiêm năng (kĩ thuật hoặc đạo đức) mà việc sử dụng Agent trong kịch bản này có thể gặp phải.</p>
+</div></section>

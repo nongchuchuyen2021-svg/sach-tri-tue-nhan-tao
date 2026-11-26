@@ -76,13 +76,13 @@
         const lessons = countLessons(book);
         const topics = countTopics(book);
         totalLessons += lessons;
-        totalPages += book.pages;
+        totalPages += book.pages || 90;
 
         const saved = progress[book.id];
-        const savedPage = saved && saved.page ? Math.min(Math.max(1, saved.page), book.pages) : null;
-        const pct = savedPage ? Math.round((savedPage / book.pages) * 100) : 0;
-        const readHref = `reader.html?book=${encodeURIComponent(book.id)}&page=${savedPage || 1}`;
-        const readLabel = savedPage && savedPage > 1 ? `Tiếp tục đọc · Tr.${savedPage}` : "Đọc sách";
+        const readHref = saved && saved.lessonId 
+          ? `reader.html?book=${encodeURIComponent(book.id)}&lesson=${encodeURIComponent(saved.lessonId)}`
+          : `reader.html?book=${encodeURIComponent(book.id)}`;
+        const readLabel = saved && saved.lessonTitle ? `Tiếp tục: ${escapeHtml(saved.lessonTitle)}` : "Đọc sách HTML";
 
         return `
           <article class="book-card">
@@ -96,18 +96,9 @@
               <h2>${escapeHtml(book.title)}</h2>
               <p class="book-authors">${escapeHtml(book.authors)}<br/>${escapeHtml(book.publisher)} · ISBN ${escapeHtml(book.isbn)}</p>
               <div class="book-meta-pills">
+                <span class="meta-pill">📖 Sách chữ HTML</span>
                 <span class="meta-pill">${topics} chủ đề</span>
                 <span class="meta-pill">${lessons} bài học</span>
-                <span class="meta-pill">${book.pages} trang</span>
-              </div>
-            </div>
-            <div class="progress-wrap">
-              <div class="progress-label">
-                <span>${savedPage ? `Đã đọc tới trang ${savedPage}/${book.pages}` : "Chưa đọc"}</span>
-                <span>${pct}%</span>
-              </div>
-              <div class="progress-bar">
-                <span style="width: ${pct}%; background: ${book.accent};"></span>
               </div>
             </div>
             <div class="book-actions">
@@ -145,9 +136,9 @@
         const items = (grp.items || [])
           .map(
             (it) => `
-              <a class="toc-item" href="reader.html?book=${book.id}&page=${it.page}">
+              <a class="toc-item" href="reader.html?book=${book.id}&lesson=${it.id || ''}&page=${it.page}">
                 <span>${escapeHtml(it.title)}</span>
-                <span class="toc-p">${it.printPage ? `Tr. ${it.printPage}` : `Ảnh ${it.page}`}</span>
+                <span class="toc-p">${it.printPage ? `Tr. ${it.printPage}` : `Tr. ${it.page}`}</span>
               </a>
             `
           )

@@ -1,0 +1,366 @@
+
+    <header class="lesson-header">
+        <div class="lesson-topic-badge">Chủ đề 5. Dự án AI Agent</div>
+        <h1 class="lesson-main-title">Bài 14. Hoàn chỉnh sản phẩm</h1>
+        <div class="lesson-meta-bar">
+            <span class="meta-pages">📄 Trang sách gốc: 105 – 112</span>
+            <button class="btn-toggle-scan" onclick="openOriginalPages(105, 112)">📖 Xem bản in gốc</button>
+        </div>
+    </header>
+    
+<p class="lesson-p">SẢN PHẬM</p>
+<p class="lesson-p">MUC TIEU</p>
+<p class="lesson-p">Sau bài học này, em sẽ:</p>
+<p class="lesson-p">• Thực hiện được việc kiểm thừ và gỡ lỗi cho sản phẩm.</p>
+<p class="lesson-p">• Cải thiện hiệu suất và độ chính xác của sản phẩm (Tối ưu hoá).</p>
+
+            <section class="lesson-card warmup-section" id="sec-khởi-động">
+                <div class="section-badge-header">
+                    <span class="sec-icon">💡</span>
+                    <h2 class="section-title">KHỞI ĐỘNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Ở Bài 13, em đã hoàn thành việc xây dựng sản phẩm AI, tạo ra phiên bản đầu tiên của trợ lí môn học hoặc trọ lí cửa hàng tạp hoá. Việc cần làm tiếp theo là đánh giá mức độ hoàn thiện của sản phẩm, cụ thể là xác định độ chính xác trong phản hồi của Agent và hiệu suất của các chức năng.</p>
+<p class="lesson-p">1. Theo em, làm thế nào chúng ta biết được sản phẩm AI của minh đã sản sàng để sử dụng hay chưa?</p>
+<p class="lesson-p">2. Nếu sản phẩm của em đôi khi đưa ra câu trả lời sai hoặc không liên quan, em sẽ làm gì để khắc phục?</p>
+</div></section>
+
+            <section class="lesson-card discovery-section" id="sec-khám-phá">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🔍</span>
+                    <h2 class="section-title">KHÁM PHÁ</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">1. Kiểm thử và gỡ lỗi sản phẩm AI Agents Giống như việc kiểm tra kĩ lưỡng một chiếc xe đạp vừa được lắp ráp để đảm bảo</p>
+<p class="lesson-p">nó chạy an toàn, sản phẩm AI của chúng ta cũng cần được kiểm thử (testing) Ki càng. Mục tiêu của kiêm thử là tìm ra lôi, vấn đề và đảm bảo sản phẩm hoạ động đúng như thiết kế. Khi phát hiện lỗi, chúng ta cần gỡ lỗi (debugging) để khắi phục chúng.</p>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Tri sao phải kiểm thứ?</h4>
+
+                    <div class="callout-box knowledge-callout">
+                        <div class="callout-title">📘 Hộp kiến thức cốt lõi</div>
+                        <p>Kiềm thử là quá trình không thể thiếu để đảm bảo chất lượng. Nó giúp chúng la:</p>
+                    </div>
+                    
+<ul class="lesson-bullet-list">
+<li>Phát hiện lỗi: Tim ra những điểm mà sản phẩm không hoạt động đúng hoặc</li>
+</ul>
+<p class="lesson-p">có hành vì không mong muốn.</p>
+<ul class="lesson-bullet-list">
+<li>Đảm bảo chức năng: Xác minh rằng mọi chức năng được thiết kế đều hoại</li>
+</ul>
+<p class="lesson-p">động chính xác. Vi dụ: Trợ li môn học có lóm tắt được bài giảng không?</p>
+<ul class="lesson-bullet-list">
+<li>Cải thiện trải nghiệm người dùng: Một sản phẩm ít lỗi sẽ mang lại trải nghiệm</li>
+</ul>
+<p class="lesson-p">tối hơn cho người dùng.</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Các loại kiểm thừ cơ bản</h4>
+<p class="lesson-p">Kiếm thừ chức năng Kiếm thừ phản hồi Kiểm thừ trường hợp đặc biệt</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 14.1. Các loại kiểm thử cơ bản cho AI Agent</figcaption>
+                        </div>
+                    </figure>
+                    
+<ul class="lesson-bullet-list">
+<li>Kiểm thử chức năng: Tập trung vào việc kiểm tra xem mỗi tính năng của săn</li>
+</ul>
+<p class="lesson-p">phẩm có hoạt động đúng theo yêu cầu không. Vi dụ: Với trợ lí cửa hàng tạp hoa</p>
+<p class="lesson-p">nhà An, hãy thứ hỏi về giá của một sàn phẩm hoặc xem nó có thể tìm kiếm theo tên không</p>
+<ul class="lesson-bullet-list">
+<li>Kiểm thừ phản hồi (LLM Response Testing): Đặc biệt quan trọng với các</li>
+</ul>
+<p class="lesson-p">ứng dụng dùng LLM. Chúng ta sẽ đánh glá chât lượng câu trả lời:</p>
+<p class="lesson-p">+ Độ chính xác: Câu trả lời có đúng với thông tin đã học hoặc dữ liệu cung</p>
+<p class="lesson-p">câp không? Tránh bịa đặt (hallucination).</p>
+<p class="lesson-p">+ Độ tự nhiên và mạch lạc: Câu trả lời có dễ hiểu, không bị lặp từ hay ngắt</p>
+<p class="lesson-p">quảng không?</p>
+<p class="lesson-p">+ Độ liên quan: Câu trả lời có đúng trọng tâm câu hỏi không?</p>
+<ul class="lesson-bullet-list">
+<li>Kiểm thừ trường hợp đặc biệt: Thử đưa dữ liệu đầu vào không mong muốn,</li>
+</ul>
+<p class="lesson-p">quá dài, quá ngăn, hoặc không liên quan để xem hệ thống phản ứng thế nào. Ví dụ, hòi trợ lí môn học về một chủ đề không có trong dữ liệu xem hệ thống phản</p>
+<p class="lesson-p">hồi như thế nào?</p>
+<h4 class="subheading-h4"><span class="h4-letter">c)</span> Phương pháp gỡ lỗi cơ bản</h4>
+<p class="lesson-p">Phát hiện và ghi nhận lỗi</p>
+<p class="lesson-p">Tách và phân tích nguyên nhân</p>
+<p class="lesson-p">Khắc phục và xóc nhận két quả</p>
+<p class="lesson-p">Xem tràng bảo lỏi chi hệt và phản tích log</p>
+<p class="lesson-p">Tát từng phân của hý inông độ tim ra nguồn</p>
+<p class="lesson-p">Sửa kỏi kiếm thừ lại và xác nhận văn đè đi</p>
+<p class="lesson-p">bệ thông</p>
+<p class="lesson-p">gór ván de</p>
+<p class="lesson-p">đượs giải quyết</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 14.2. Quy trình tìm kiếm, phân tích và khắc phục lỗi</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Khi phát hiện lỗi, hãy binh tĩnh và áp dụng các phương pháp sau:</p>
+<p class="lesson-p">Bước 1. Phát hiện và ghi nhận lới: Các thông báo lỗi thường cung cấp thông tin quan trọng về nguyên nhân và vị tri xày ra lỗi. Việc đọc kĩ và hiểu nội dung của thông báo giúp xác định chính xác vần đề cần xử li.</p>
+<p class="lesson-p">Một số hoạt động cần thực hiện:</p>
+<ul class="lesson-bullet-list">
+<li>Đọc và phân tích kĩ thông bảo lỗi (error message).</li>
+<li>Ghi chép thông tin chi tiêt về lỗi đã xày ra.</li>
+<li>Lưu lại các hình ảnh màn hình hoặc tệp nhật kí hệ thông (log files).</li>
+<li>Đánh giá mức độ nghiêm trọng và phạm vi ảnh hưởng của lỗi.</li>
+</ul>
+<p class="lesson-p">Bước 2. Tách và phân tích nguyên nhân: Sau khi ghi nhận lỗi, cần phân tích hệ thống theo từng phần riêng biệt đề khoanh vùng và xác định chính xác vị trí hoạc nguyên nhân gây lỗi.</p>
+<p class="lesson-p">Một số phương pháp thường dùng:</p>
+<ul class="lesson-bullet-list">
+<li>Kiểm tra từng thành phần (module) độc lập để xem phần nào gây ra lỗi.</li>
+<li>Tạm thời tắt các phần không liên quan để thu hẹp phạm vi phân tích.</li>
+<li>Phân tích luồng dữ liệu hoặc các bước xử lí để tìm nguyên nhân.</li>
+</ul>
+<p class="lesson-p">Bước 3. Khắc phục và xác nhận kết quả: Khi đã xác định được nguyên nhãn, cần thực hiện điều chỉnh phù hợp để khắc phục lỗi và sau đó kiểm tra lại toàn bộ hệ thống để đảm bào lỗi không tái diễn.</p>
+<p class="lesson-p">Các bước thực hiện gồm:</p>
+<ul class="lesson-bullet-list">
+<li>Ap dụng giải pháp sửa lỗi phù hợp.</li>
+<li>Chạy lại toàn bộ các tình huống kiểm thử (test cases) có liên quan.
+
+- Xác nhận rằng lỗi đã được xử lí triệt để và không gây ành hưởng đến các phần khác.</li>
+<li>Cập nhật tài liệu kĩ thuật và ghi chú lại quá trình sửa lỗi đề phục vụ cho lần kiểm tra sau.</li>
+<li>Kiếm thử là bước quan trọng để phát hiện lỗi và đảm bảo sản phẩm AI hoạt động đúng.
+
+• Cần phải kiểm tra chức năng, phản hồi của LLM và các tình huỗng đặc biệt.</li>
+<li>Khi gặp lỗi cần: phát hiện và ghi nhận lỗi, tách và phân tích nguyên nhân, khắc phục và xác nhận kết quả.</li>
+</ul>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Tối ưu hoá hiệu suất và độ chính xác</h3>
+
+                    <div class="callout-box knowledge-callout">
+                        <div class="callout-title">📘 Hộp kiến thức cốt lõi</div>
+                        <p>Sau khi sản phẩm đã hoạt động tương đối ổn định, bước tiếp theo là làm cho nó tốt hơn nữa: nhanh hơn, chinh xác hơn, hiệu quả hơn. Đây là quá trình tôi vu hoá.</p>
+                    </div>
+                    
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Tại sao phải tối ưu hoá?</h4>
+<ul class="lesson-bullet-list">
+<li>Cải thiện trải nghiệm người dùng: Sản phẩm phản hồi nhanh hơn, chính xác</li>
+</ul>
+<p class="lesson-p">hơn sẽ làm người dùng hài lòng.</p>
+<ul class="lesson-bullet-list">
+<li>Tiết kiệm chi phí: Tối ưu hoá có thể giảm tài nguyên tính loán (nếu dùng AP|</li>
+</ul>
+<p class="lesson-p">trà phí).</p>
+<ul class="lesson-bullet-list">
+<li>Nâng cao chất lượng: Đàm bảo sản phẩm đạt được mục tiêu ban đầu một</li>
+</ul>
+<p class="lesson-p">cách tốt nhất.</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Các phương pháp tối ưu hóá cơ bản</h4>
+<p class="lesson-p">Tối ưu Prompt</p>
+<p class="lesson-p">Tối ưu hóa do liệu</p>
+<p class="lesson-p">Điều chỉnh tham số mô hình</p>
+<p class="lesson-p">Tối va boa ToollAgent</p>
+<p class="lesson-p">Vill ctu soi es rang a tl va oo</p>
+<p class="lesson-p">yo ctr dl d too cra ckcy arn cia tar</p>
+<p class="lesson-p">Chíên bị da liêu sach, có chu trú và coia nhó hap 5 lố Ai có tri tin</p>
+<p class="lesson-p">Thy coirh aas shang ed ad sirh of</p>
+<p class="lesson-p">sử Aì co mể xuy tưân và sử dụng</p>
+<p class="lesson-p">Thuốt kố qua tánh cứ 5 thông mích</p>
+<p class="lesson-p">Niêm nây th cont kac.</p>
+<p class="lesson-p">on dese lés ad pon lop vos rud dict ao cung</p>
+<p class="lesson-p">công cụ niều mut</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 14.3. Các phương pháp tối ưu hoá sản phẩm AI</figcaption>
+                        </div>
+                    </figure>
+                    
+<ul class="lesson-bullet-list">
+<li>Tối ưu prompt: Đây là một trong những cách hiệu quà nhất để cải thiện chất</li>
+</ul>
+<p class="lesson-p">lượng phản hồi của LLM.</p>
+<p class="lesson-p">+ Rõ ràng và cụ thể: Tránh các câu lệnh mơ hồ. Thay vì Hãy nói gì đó về Lịch</p>
+<p class="lesson-p">sử, hãy dùng Hãy tóm tắt 3 sự kiện chính của Cách mạng tháng Tám 1945 trong 100 từ.</p>
+<p class="lesson-p">+ Cung cấp ví dụ: Nếu muốn LLM trà lời theo một định dạng nhất định, hãy</p>
+<p class="lesson-p">đưa ra ví dụ về đầu vào và đầu ra mong muốn (few-shot prompting).</p>
+<p class="lesson-p">+ Chỉ dẫn vai trò: Giao vai trò cụ thể cho LLM. Vi dụ: Bạn là giáo viên môn</p>
+<p class="lesson-p">Lịch sử, hãy giải thích.
+
+- Tối ưu hoa dữ liệu:</p>
+<p class="lesson-p">+ Dữ liệu sạch và liên quan: Đảm bào nguồn dữ liệu mà AI truy xuất là chính</p>
+<p class="lesson-p">xác, đầy đủ và trực tiếp liên quan đến các câu hỏi người dùng có thể đặt. Xoá bò thông tin nhiễu, trùng lặp.</p>
+<p class="lesson-p">+ Tối ưu hoá chia nhỏ nội dung và biểu diễn vector: Điều chình kích thước</p>
+<p class="lesson-p">của các đoạn văn bàn và phương pháp tạo vector để đàm bảo các đoạn liên quan được truy xuất chính xác nhất khi có câu hỏi.</p>
+<ul class="lesson-bullet-list">
+<li>Điều chỉnh tham số mô hình:</li>
+</ul>
+<p class="lesson-p">+ Độ ngẫu nhiên (Temperature): Kiểm soát độ sáng tạo của LLM. Giá trị cao</p>
+<p class="lesson-p">hơn (ví dụ: 0.7-1.0) sẽ cho phản hồi đa dạng, sáng tạo hơn nhưng có thể</p>
+<p class="lesson-p">kém chính xác. Giá trị thấp hơn (ví dụ: 0.0-0.5) sẽ cho phản hồi ổn định, ít bịa đặt nhưng có thế đơn điệu.</p>
+<p class="lesson-p">+ Độ dài phản hồi (Max_tokens): Giới hạn độ dài của câu trả lời, giúp phản hồi</p>
+<p class="lesson-p">ngăn gọn, đi thẳng vào vấn đề hơn.</p>
+<ul class="lesson-bullet-list">
+<li>Tối ưu hoá công cụ/Agent (nếu có):</li>
+</ul>
+<p class="lesson-p">+ Đảm bảo các công cụ mà Agent sử dụng hoạt động hiệu quả và trả về kết</p>
+<p class="lesson-p">quả chính xác.</p>
+<p class="lesson-p">+ Điều chỉnh các chuỗi suy luận của Agent để nó đưa ra quyết định sử dụng</p>
+<p class="lesson-p">công cụ một cách thông minh và hợp lí hơn.</p>
+
+                    <div class="callout-box knowledge-callout">
+                        <div class="callout-title">📘 Hộp kiến thức cốt lõi</div>
+                        <p>Tối ưu hóá là quá trình cải thiện sản phẩm AI về hiệu suất và độ chính xác. Các phương pháp chính bao gồm tối ưu prompt (cụ thể, có vai trò), cải thiện chất lượng dữ liệu RAG (sạch, liên</p>
+                    </div>
+                    
+<p class="lesson-p">quan), điều chỉnh tham số mô hình (temperature, max_tokens) và tối ưu hóá hoạt động của công cụ/Agent.</p>
+<h3 class="subheading-h3"><span class="h3-num">3.</span> Thực hành: Kiểm thử, gỡ lỗi và tối ưu sản phẩm</h3>
+<p class="lesson-p">Nhiệm vụ:</p>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Kiểm thử chức năng: Thực hiện ít nhất 05 trường hợp kiểm thử cho sản phẩm</h4>
+<p class="lesson-p">AI của nhóm (bao gồm cả trường hợp đúng và trường hợp gây lỗi tiềm năng).</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Gỡ lỗi: Xác định và khắc phục ít nhất 01 lỗi/vấn đề về độ chính xác mà nhóm</h4>
+<p class="lesson-p">em phát hiện trong quá trình kiểm thử.</p>
+<h4 class="subheading-h4"><span class="h4-letter">c)</span> Tối ưu hoá: Thử áp dụng ít nhất 01 phương pháp tối ưu hóá (ví dụ: chỉnh sửa</h4>
+<p class="lesson-p">prompt, điều chỉnh temperature, kiểm tra lại chất lượng dữ liệu RAG) để cải thiện sản phẩm và ghi nhận sự thay đổi.
+
+Hướng dẫn:</p>
+<p class="lesson-p">8 Mẹo hữu ích</p>
+<ul class="lesson-bullet-list">
+<li>Mẹo Kiếm thừ</li>
+</ul>
+<p class="lesson-p">/ Mẹo Gờ lỏi</p>
+<p class="lesson-p">B Mẹo Học tập</p>
+<p class="lesson-p">/ Kiểm thứ theo ké hoạch có hệ thống</p>
+<p class="lesson-p">\ Chuẩn bị test cases trước khi bật đầu</p>
+<p class="lesson-p">/ Kiên nhản - debug mất thời gian</p>
+<ul class="lesson-bullet-list">
+<li>Học hỏi từ mỗi lỏi gặp phải</li>
+</ul>
+<p class="lesson-p">1 Thứ nghiệm với dữ liệu thực té</p>
+<p class="lesson-p">v Thứ từng bước một cách logic</p>
+<p class="lesson-p">v Đọc kĩ thông bảo lỏi</p>
+<p class="lesson-p">/ Tao checklist đé không bò sót</p>
+<p class="lesson-p">1 Thực hành thường xuyên</p>
+<p class="lesson-p">1 Ghi chép kết quả chi tiét</p>
+<p class="lesson-p">v Hói ý kién đồng đội khi căn</p>
+<p class="lesson-p">V Chia sẽ kinh nghiệm với bạn</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 14.4. Một vài lưu ý giúp ích cho việc kiểm thử, gỡ lỗi hiệu quả</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Già sử nhóm em đang xây dựng một trợ lí môn học cho mỏn Ngữ văn lớp 12, sử dụng dữ liệu là các bài học, tác phẩm, câu hỏi ôn tập có trong môn Ngữ văn lóp 12.</p>
+<p class="lesson-p">Cam Scanner</p>
+<p class="lesson-p">Trợ lị này là một AI Agent tích hợp ngôn ngữ tự nhiên, có thể tiếp nhận câu hỏi bằng tiếng Việt và trả lời dựa trên nội dung tài liệu đã học, chuẩn bị ở các</p>
+<p class="lesson-p">phần trước.</p>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Kiểm thử chức năng</h4>
+<p class="lesson-p">Bươc 1. Dựa trên các chức năng chính của trợ lí môn học, hãy liệt kê 05 câu hỏi/ yêu cầu cụ thể mà người dùng có thể nhập vào để kiểm tra:</p>
+<ul class="lesson-bullet-list">
+<li>Trường hợp 1 (Tìm kiếm tác phẩm): Tóm tắt tác phẩm Số đỏ (Kì vọng: Thông</li>
+</ul>
+<p class="lesson-p">tin chi tiết về tác phẩm Số đỏ và tác giả Vũ Trọng Phụng).</p>
+<ul class="lesson-bullet-list">
+<li>Trường hợp 2 (Tim kiểm tác già): Thông tin về tác giả Vũ Trọng Phụng (Ki</li>
+</ul>
+<p class="lesson-p">vọng: Các tác phẩm của Vũ Trọng Phụng trong danh sách và thông tin về ông).</p>
+<ul class="lesson-bullet-list">
+<li>Trường hợp 3 (Tìm kiếm theo đặc điểm): Hoàn cành sáng tác bài Việt Bắc là</li>
+</ul>
+<p class="lesson-p">gì? (Kì vọng: Trả lời đúng về hoàn cảnh sáng tác của bài Việt Bắc).</p>
+<ul class="lesson-bullet-list">
+<li>Trường hợp 4 (Kiếm tra dữ liệu ngoài phạm vi): Ai là tác giả của Lục Vân Tiên?</li>
+</ul>
+<p class="lesson-p">(Kì vọng: Tôi xin lỗi, tôi không tìm thấy thông tin bạn yêu cầu trong cơ sở dữ liệu</p>
+<p class="lesson-p">của tôi.).</p>
+<ul class="lesson-bullet-list">
+<li>Trường hợp 5 (Tìm kiếm theo nhiều tiêu chí): Tác phẩm thơ nào của Tố Hữu</li>
+</ul>
+<p class="lesson-p">có trong danh sách? (Kì vọng: Liệt kê các bài thơ của Tố Hữu).</p>
+<p class="lesson-p">Bước 2. Chạy sản phầm AI của nhóm với từng câu hòi/yêu cầu đã liệt kê.</p>
+<p class="lesson-p">Bước 3. Ghi lại kết quả phản hồi của AI cho từng trường hợp. Đánh giá xem câu trà lời có chính xác, đầy đủ và đúng định dạng mong muốn không.</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Gỡ lỗi</h4>
+<p class="lesson-p">Bước 1. Từ các kết quả kiểm thử ở phần a, hãy tìm một trường hợp mà trợ lí môn học trả lời sai, không liên quan, hoặc xuất hiện lỗi kĩ thuật. Vi dụ: Trợ lí trả lời sai năm sinh của tác giả Vũ Trọng Phụng hoặc không tìm thấy thông tin về tác phẩm</p>
+<p class="lesson-p">Số đỏ mặc dù có trong dữ liệu.</p>
+<p class="lesson-p">Bước 2. Dựa vào các phương pháp gỡ lối đã học (đọc thông báo lỗi, dùng print/log để theo dõi dữ liệu, kiểm tra từng thành phần), hãy phân tích nguyên nhân gây ra vấn đề:</p>
+<ul class="lesson-bullet-list">
+<li>Nếu trà lời sai thông tin về Vũ Trọng Phụng: Kiềm tra lại dữ liệu trong cột</li>
+</ul>
+<p class="lesson-p">Năm sinh tác giả của tác phẩm Số đò và prompt xem LLM có bị hiểu lầm không.</p>
+<ul class="lesson-bullet-list">
+<li>Nếu không tìm thấy thông tin về tác phẩm Số đỏ: Kiềm tra lại cách chia nhỏ</li>
+</ul>
+<p class="lesson-p">nội dung và biểu diễn vector cho dữ liệu, hoặc cách truy xuất có hoạt động hiệu quả không. Có thể từ khoá "Số đỏ" không được nhúng đúng cách.</p>
+<p class="lesson-p">Bước 3. Thực hiện các chình sửa cần thiết (vi dụ: sửa lỗi chính tả trong dữ liệu, làm rõ prompt) và kiểm thử lại trường hợp đó để xác nhận lỗi đã được khắc phục.</p>
+<h4 class="subheading-h4"><span class="h4-letter">c)</span> Tôi ưu hoá</h4>
+<p class="lesson-p">Xác định mục têu rở ràng:
+
+Biết chính xác ban muốn AI</p>
+<p class="lesson-p">Thừ nghiệm và điều chỉnh:</p>
+<p class="lesson-p">Cung cấp ngữ cảnh: Cho AI biết bạn là ai, đang học gì đó</p>
+<p class="lesson-p">Kiểm tra kết quả: Luôn xắc</p>
+<p class="lesson-p">Không ngai thay đổi cách hỏi</p>
+<p class="lesson-p">nình thông tin từ AI, đác biệt</p>
+<p class="lesson-p">giúp gì trước khi đặt câu hội</p>
+<p class="lesson-p">nếu kết quả chưa như mong</p>
+<p class="lesson-p">có cấu trà lời phù hợp muốn.</p>
+<p class="lesson-p">với bải tập quan trọng.</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 14.5. Lưu ý để thực hành tối ưu hóá cho Agent hiệu quả</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Bước 1. Chọn một trường hợp kiểm thử mà trợ lí môn học hoạt động đúng nhưng chưa thực sự tôi ưu (vi dụ: câu trả lời về tác giả quá dài dòng, hoặc phản hồi về hoàn cảnh sáng tác chưa đầy đủ).</p>
+<p class="lesson-p">Bước 2. Áp dụng một trong các phương pháp tối ưu hóá đã học:</p>
+<ul class="lesson-bullet-list">
+<li>Tối ưu prompt: Chỉnh sửa lại câu lệnh prompt. Vi dụ: Thay vì "Hãy nói về</li>
+</ul>
+<p class="lesson-p">tác giá Vũ Trọng Phụng",", hãy thử "Hãy tóm tắt về tác giả Vũ Trọng Phụng và</p>
+<p class="lesson-p">hai tác phẩm tiêu biếu nhất của ông trong danh sách dưới 50 từ"</p>
+<ul class="lesson-bullet-list">
+<li>Điều chinh temperature: Nếu muốn trợ lí trả lời ổn định và đi thẳng vào vấn đề</li>
+</ul>
+<p class="lesson-p">hơn, hãy giảm giá trị temperature của LLM (ví dụ: từ 0.7 xuống 0.5). Nếu muốn</p>
+<p class="lesson-p">nó trả lời linh hoạt, sáng tạo hơn một chút khi không có dữ liệu trực tiếp, có thể tăng lên (nhưng cần thận với "bịa đặt").</p>
+<ul class="lesson-bullet-list">
+<li>Kiểm tra/Tối ưu dữ liệu RAG: Nếu thấy LLM đôi khi bỏ sót các</li>
+</ul>
+<p class="lesson-p">thông tin nhỏ trong dữ liệu (ví dụ: Phong cách nghệ thuật chính);</p>
+<p class="lesson-p">hãy xem xét lại kích thước của các đoạn văn bản hoặc chất lượng của embedding model.</p>
+<p class="lesson-p">Bước 3. Chạy lại sản phẩm với thay đổi đã thực hiện và so sánh kết quả với trước khi tối ưu. Ghi nhận sự khác biệt và đánh giá hiệu quả của việc tối ưu.</p>
+</div></section>
+
+            <section class="lesson-card exercise-section" id="sec-luyện-tập">
+                <div class="section-badge-header">
+                    <span class="sec-icon">✏️</span>
+                    <h2 class="section-title">LUYỆN TẬP</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">1. Khi trợ lí cửa hàng tạp hoá nhà An thỉnh thoảng trả lời bằng thông tin không có trong danh sách sản phẩm (bị bịa đặt), em nên ưu tiên kiểm thử và gỡ lỗi ở bước nào đầu tiên?</p>
+<p class="lesson-p">A. Kiểm tra giao diện người dùng.</p>
+<p class="lesson-p">B. Kiểm tra chất lượng phản hồi của LLM và nguồn dữ liệu RAG.</p>
+<p class="lesson-p">C. Kiểm tra tốc độ tải ứng dụng.</p>
+<p class="lesson-p">D. Kiếm tra màu sắc giao diện.</p>
+<p class="lesson-p">2. Đế trợ lí môn học có câu trả lời sáng tạo và đa dạng hơn (it bị lặp lại), em nên điều chỉnh tham số nào của mô hình LLM?</p>
+<p class="lesson-p">A. max_tokens tang lên.
+
+B. temperature giảm xuống.</p>
+<p class="lesson-p">C. temperature tăng lên.
+
+D. top._k giảm xuống.</p>
+<p class="lesson-p">3. Hãy giải thích tại sao việc tối ưu hoá prompt lại quan trọng đổi với độ chính xác của một ứng dụng AI sử dụng LLM.</p>
+</div></section>
+
+            <section class="lesson-card apply-section" id="sec-vận-dụng">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🚀</span>
+                    <h2 class="section-title">VẬN DỤNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Trong quá trình nhóm em hoàn thiện sản phẩm AI cho dự án cuối khoá:</p>
+<p class="lesson-p">1. Hãy mô tả một lỗi cụ thể mà nhóm em đã phát hiện (trong quá trình kiểm thử) và cách nhóm em đã gỡ lỗi đó thành công.</p>
+<p class="lesson-p">2. Nhóm em đã áp dụng phương pháp tối ưu hoá nào để cài thiện sản phẩm của mình? Hãy chia sẻ sự thay đổi cụ thể mà nhóm em đã đạt được (ví dụ: phản hồi nhanh hơn, chính xác hơn, tự nhiên hơn).</p>
+</div></section>

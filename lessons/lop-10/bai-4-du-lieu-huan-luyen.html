@@ -1,0 +1,123 @@
+
+    <header class="lesson-header">
+        <div class="lesson-topic-badge">Chủ đề 1. Giới thiệu về AI và AI tạo sinh</div>
+        <h1 class="lesson-main-title">Bài 4. Dữ liệu huấn luyện</h1>
+        <div class="lesson-meta-bar">
+            <span class="meta-pages">📄 Trang sách gốc: 28 – 33</span>
+            <button class="btn-toggle-scan" onclick="openOriginalPages(28, 33)">📖 Xem bản in gốc</button>
+        </div>
+    </header>
+    
+<p class="lesson-p">BÂI 4: DỮ LIỆU HUẬN LUYỆN</p>
+
+            <section class="lesson-card target-section" id="sec-mục-tiêu">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🎯</span>
+                    <h2 class="section-title">MỤC TIÊU</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Sau bài học này, em sẽ:</p>
+<ul class="lesson-bullet-list">
+<li>Trình bảy được tầm quan trọng của dữ liệu đối với việc huấn luyện mô hình Ai tạo sinh.</li>
+<li>Nhận biết các loại dữ liệu và nguồn dữ liệu phổ biến dùng để huấn luyện AI tạo sinh.</li>
+<li>Giái thich được chất lượng của dữ liệu và số lượng dữ liệu ành hưởng lớn đến kết quả của Ai.</li>
+</ul>
+</div></section>
+
+            <section class="lesson-card warmup-section" id="sec-khởi-động">
+                <div class="section-badge-header">
+                    <span class="sec-icon">💡</span>
+                    <h2 class="section-title">KHỞI ĐỘNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Trường Trung học phổ thông An Phú lổ chức cuộc thi sáng tạo khoa học. Một nhóm học sinh lớp 10 phát triển chalbot AI để hỗ trợ học tập. Dữ liệu huấn luyện ban đầu của chatbot chỉ tập trung vào món Vật lí lớp 10. Khi thử nghiệm,</p>
+<p class="lesson-p">chatbot trả lời khá tốt các câu hỏi liên quan đến Vật lí, nhưng thường xuyên không hiểu hoặc trả lời sai khi được hỏi về các môn khác như Toán, Hóá học hay Sinh học. Nhóm nghi ngờ rằng chatbot hoạt động chưa hiệu quả do dữ liệu huấn luyện còn hạn chế, mới chỉ bao phủ một môn học duy nhất.</p>
+<p class="lesson-p">1. Theo em, tại sao dữ liệu lại quan trọng trong quá trịnh huấn luyện AI như chatbot trên?</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Em hãy kể tên một số loại dữ liệu mà AI có thể sử dụng đề huấn luyện.</h3>
+<p class="lesson-p">3. Theo em, giữa chất lượng của dữ liệu và số lượng dữ liệu, yếu tố nào quan trọng hơn? Vì sao?</p>
+<p class="lesson-p">KHÁM PHẢ</p>
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Tầm quan trọng của dữ liệu đối với việc huắn luyện mô hình Ai</h3>
+<p class="lesson-p">Trong tịnh huống Khởi động, chatbot mà nhóm học sinh phát triển chỉ hoạt động tốt với các câu hỏi liên quan đến môn Vật lí lớp 10 - là lình vưc duy nhất có trong dữ liệu huấn luyện ban đầu. Khi nhận câu hỏi thuộc các món học khác như Toán.
+
+Hóa học hay Sinh học, chatbot thường không đưa ra được càu trả lời phù hợp.
+
+Tinh huống này cho thấy, phạm vi dữ liệu huấn luyện có ảnh hưởng trực tiếp đến khả năng phản hồi của mô hình AI. Mô hình có xu hướng phản hỏi chinh xác hơn trong những lĩnh vực mà nó đã được cung cấp dữ liệu đầy đủ và gặp khó khăn với những nội dung nằm ngoài phạm vi dữ liệu đã học.</p>
+<p class="lesson-p">Mô hình Ạl tạo sinh là một chương trình máy tính được huấn luyện bằng dữ liệu.</p>
+<p class="lesson-p">Trong các mô hinh AI tạo sinh, dữ liệu huấn luyện có vai trò cung cấp nền tảng để mô hình học cách tạo ra nội dung mới như viết đoạn văn, giải thích hoặc trả lới</p>
+<p class="lesson-p">câu hỏi. Thông qua quá trình huần luyện, mò hinh xây dựng được khả năng sử dụng ngôn ngữ, nhận diện ngữ cảnh và tạo phản hồi phù hợp với từng tình huống</p>
+<p class="lesson-p">Dữ liệu huấn luyện là nguồn thông tin quan trọng giúp mô hình AI tạo sinh có thể học và hoạt động</p>
+<p class="lesson-p">được. Nếu không có dữ liệu, mô hình sẽ không có cơ sở để tạo ra nội dung theo yêu cầu.</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Các loại dữ liệu và nguồn dừ liệu phổ biến dùng cho AI tạo sinh</h3>
+<p class="lesson-p">Để mô hình AI tạo ra được nội dung phù hợp với yêu cầu của người dùng, trước hết mô hình cần được huấn luyện từ những dừ liệu liên quan. Tuỳ theo mục địch sử dụng, AI có thể học từ nhiều loại dữ liệu khác nhau như văn bàn, hình ảnh,</p>
+<p class="lesson-p">âm thanh hoặc video. Mỗi loại dữ liệu sẽ giúp mô hinh học được những đặc điểm khác nhau trong việc xử li và sinh nội dung</p>
+<p class="lesson-p">Vi dự, mô hình Ai dùng trong học tiếng</p>
+<p class="lesson-p">Anh cần được học từ các đoạn văn, từ điển, bài tập ngữ pháp và bản dịch có độ chính xác cao. Trong lĩnh vực nhận dạng hình ảnh, để phân biệt được các loài hoa, mô hình AI phải được cung</p>
+<p class="lesson-p">cấp nhiều hình ảnh khác nhau về mỗi loài hoa, hoặc có thể là video quay nhiều hướng của loài hoa đó, học cách nhận biết đặc điểm riêng của từng loài.
+
+Hinh 4.1. Các loại dữ liệu có thể dùng cho huấn luyện AI tao sinh</p>
+<p class="lesson-p">Ngoài văn bản và hình ảnh, mó hình AI còn có thể được huấn luyện bằng âm thanh hoặc video tuy theo chức năng cần thực hiện. Các nguồn cung cấp dữ liệu bao gồm Internet, kho dữ liệu công khai, tài liệu nghiên cửu, dữ liệu do người dùng chia sẻ hoặc được tạo bởi các tổ chức chuyên môn. Khi dữ liệu huấn luyện có chất lượng và phù hợp với mục tiêu sử dụng, mô hình sẽ có khả năng xử lí tốt hơn và đưa ra kết quả chính xác hơn.</p>
+<p class="lesson-p">Dữ liệu dùng để huấn luyện mô hình AI lạo sinh gồm văn bản, hình ảnh, âm thanh và video. Nguồn dữ liệu đó có thể từ Internet, kho dữ liệu công khai, dữ liệu mua hoặc do con người tạo ra.</p>
+<h3 class="subheading-h3"><span class="h3-num">3.</span> Chất lượng và số lượng dữ liệu ảnh hưởng đến kết quả của mò hình AI</h3>
+<p class="lesson-p">Al</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 4.2. Chất lượng của dữ liệu và số lượng dữ liệu huấn luyện</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">ảnh hưởng đến kết quả mô hình AI</p>
+<p class="lesson-p">Để mô hình AI hoạt động hiệu quả, không chỉ cần dữ liệu để huấn luyện má còn</p>
+<p class="lesson-p">cần dữ liệu có chất lượng đù tốt và số lượng đủ nhiều. Chất lượng của dữ liệu và số lượng dữ liệu đóng vai trò quan trọng trong việc giúp mô hình học đúng và tạo ra nội dung phù hợp với yêu cầu. Cả hai yếu tố này đều rất quan trọng trong việc</p>
+<p class="lesson-p">huấn luyện năng lực tạo sinh của mô hình AI.</p>
+<p class="lesson-p">Ví dụ, trong lĩnh vực giao thông đường bộ, một ô lõ tự lái sẽ vận hành tốt nếu được huấn luyện với rất nhiều hình ảnh và tình huống giao thông khác nhau như gặp các đèn tin hiệu giao thông, gặp người đi bộ băng qua đường, các loại hình thời tiết, tinh trạng giao thông... Nếu chỉ được huấn luyện với một số ít dữ liệu như vào ban ngày và điều kiện Ií tường thì ô tô tự lái có thể gặp khó khăn khi phải</p>
+<p class="lesson-p">di chuyển vào ban đêm hoặc trong điều kiện thời tiết xấu.</p>
+<p class="lesson-p">Trong huấn luyện mô hình AI tạo sinh, chất lượng của dữ liêu đóng vai trò quan trọng hơn số lượng dữ liệu. Một mô hình AI được huấn luyện từ ít dữ liệu nhưng rõ ràng, chính xác và phù hợp vẫn có thể cho kết quả đúng. Trong khi đó, nếu dữ liệu huân luyện quá nhiều nhưng không chỉnh xác hoặc không phù hợp, mô hình</p>
+<p class="lesson-p">AI tạo sinh sẽ dễ học sai và cho kết quả không hợp Ií.</p>
+<p class="lesson-p">Dữ liệu huấn luyện càng có chất lượng và số lượng đù nhiều thì mô hình AI càng học đúng, hiểu được nhiều tình huống và cho kết quả càng chính xác.
+
+Nếu dữ liệu ít hoặc sai lệch, AI dễ học sai và cho kết quả không hợp lí.</p>
+<p class="lesson-p">LÚYỆN TẬP</p>
+<p class="lesson-p">Một nhóm học sinh lập trình một mô hình AI để nhận dạng các loại thực phẩm trong căng tin trường. Mô hình hoạt động khá tốt khi phân biệt giữa cơm, mì và bánh mì. Tuy nhiên, khi có món bún bò Huế, mô hình AI đó lại cho rằng đó là mì gói. Sau khi rà soát, nhóm phát hiện mõ hình chỉ được huấn luyện với ảnh chụp</p>
+<p class="lesson-p">các món ăn theo góc nhìn từ trên xuống, trong khi ành của món bún bò Huế dũng để nhận dạng được chụp ở góc nghiêng và thiếu dữ liệu huán luyện về món này.</p>
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Vì sao mô hình AI đã nhận dạng sai món bún bò Huế là mì gói?</h3>
+<p class="lesson-p">A. Vì bún bò Huế và mì gói có cùng nguyên liệu.</p>
+<p class="lesson-p">B. Vì AI chưa được huấn luyện đủ ảnh về món bún bò Huế ở góc nhìn khác.</p>
+<p class="lesson-p">C. VI hệ thống không nhận dạng được món ăn có nước.</p>
+<p class="lesson-p">D. Vì người dùng nhập sai tên món ăn.</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Tinh huống trên cho thấy yếu tố nào ảnh hưởng đến kết quả của mô hình AI?</h3>
+<p class="lesson-p">A. Cách mô hình AI được kết nối Internet.</p>
+<p class="lesson-p">B. Giao diện ứng dụng dễ sử dụng.</p>
+<p class="lesson-p">C. Độ phong phú và đa dang của dữ liệu huấn luyện.</p>
+<p class="lesson-p">D. Tên món ăn trong thực đơn.</p>
+<p class="lesson-p">3. Muốn mô hình AI đó cải thiện khả nhận dạng món ăn, nhóm học sinh nên làm gì?</p>
+<p class="lesson-p">A. Giảm độ phân giải ảnh.
+
+B. Chụp thêm nhiều ảnh cáo món ăn ở nhiều góc độ và điều kiện ánh sáng</p>
+<p class="lesson-p">khác nhau.</p>
+<p class="lesson-p">C. Tăng tốc độ xử Ií của máy tính.</p>
+<p class="lesson-p">D. Xóá bỏ các món khó phân biệt khỏi danh sách nhận dạng.</p>
+</div></section>
+
+            <section class="lesson-card apply-section" id="sec-vận-dụng">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🚀</span>
+                    <h2 class="section-title">VẬN DỤNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Một công ty muốn xây dựng một mô hình AI giúp nhận dạng các loài hoa dựa trên hình ảnh. Trong quá trình huấn luyện, họ chỉ sử dụng hình ảnh hoa hồng màu đỏ mà không bổ sung hình ảnh các màu khác như trắng, vàng hay hồng nhạt. Khi thứ nghiệm, hệ thống không thể nhận dạng chính xác hoa hồng màu trắng hoặc vàng.</p>
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Em nghĩ kết quả mà mô hình AI đưa ra chưa chính xác là do nguyên nhân nào?</h3>
+<p class="lesson-p">2. Nếu là người phụ trách chuẩn bị dữ liệu huấn luyện, em sẽ làm gì để hệ thống nhận dạng chính xác các loại hoa hồng?</p>
+<p class="lesson-p">3. Qua tình huống trên, em rút ra được bài học gì về vai trò của chất lượng và sự đa dạng của dữ liệu huấn luyện trong việc phát triển mô hình AI?</p>
+<p class="lesson-p">CHỦ ĐẾ 2. KHÂM PHÁ CÔNG CỤ</p>
+<p class="lesson-p">VÀ ỨNG DỤNG AI</p>
+<p class="lesson-p">PROMPT AI</p>
+<p class="lesson-p">CONTENT</p>
+<p class="lesson-p">IMAGE</p>
+<p class="lesson-p">A/sA</p>
+<p class="lesson-p">balat</p>
+</div></section>

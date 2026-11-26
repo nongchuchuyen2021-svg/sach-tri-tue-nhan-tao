@@ -1,0 +1,346 @@
+
+    <header class="lesson-header">
+        <div class="lesson-topic-badge">Chủ đề 5. Dự án AI Agent</div>
+        <h1 class="lesson-main-title">Bài 13. Xây dựng sản phẩm</h1>
+        <div class="lesson-meta-bar">
+            <span class="meta-pages">📄 Trang sách gốc: 96 – 104</span>
+            <button class="btn-toggle-scan" onclick="openOriginalPages(96, 104)">📖 Xem bản in gốc</button>
+        </div>
+    </header>
+    
+<p class="lesson-p">MỤC TIEU</p>
+<p class="lesson-p">Sau bài học này, em sẽ:</p>
+<p class="lesson-p">• Thực hiện được việc cài đặt môi trường và xây dựng sản phẩm.</p>
+
+            <section class="lesson-card warmup-section" id="sec-khởi-động">
+                <div class="section-badge-header">
+                    <span class="sec-icon">💡</span>
+                    <h2 class="section-title">KHỞI ĐỘNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Ở' Bài 12, em đã hoàn thành việc xác định vấn đề, thiết kế giải pháp và lập kế</p>
+<p class="lesson-p">hoạch chi tiết cho sản phẩm AI. Công việc tiếp theo là xây dựng một ứng dụng AI có thể hoạt động thực tế theo bản thiết kế.</p>
+<p class="lesson-p">1. Theo em, để bắt tay vào lập trình hay cấu hình một ứng dụng AI, việc đầu tiên chúng ta cần chuẩn bị là gì?
+
+2. Khi bắt đầu xây dựng, nhóm em có thể gặp những khó khăn gì và làm thế nào để vượt qua?</p>
+</div></section>
+
+            <section class="lesson-card discovery-section" id="sec-khám-phá">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🔍</span>
+                    <h2 class="section-title">KHÁM PHÁ</h2>
+                </div>
+                <div class="section-body">
+            
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Cài đặt môi trường phát triển</h3>
+<p class="lesson-p">Trước khi bắt tay vào xây dựng sản phẩm AI, việc đầu tiên và quan trọng nhất là chuẩn bị một môi trường làm việc phù hợp. Môi trường này bao gôm các công cụ, thư viện phần mềm và những thiết lập cần thiết để em có thể bắt đầu mã hóá hoặc cấu hình ứng dụng AI của mình một cách thuận lợi nhât.</p>
+<p class="lesson-p">Nếu nhóm em chọn nền tảng không mã nguồn (no-code) như MindStudio, việc cài đặt môi trường sẽ đơn giản hơn rất nhiều. Các em chỉ cần truy cập nên tảng qua trình duyệt web và tạo một dự án mới. Tuy nhiên, vẫn cần đảm bảo kết nối Internet</p>
+<p class="lesson-p">ổn định và tài khoản đã được thiết lập.</p>
+<p class="lesson-p">Nếu nhóm em chọn hướng phát triển bằng mã nguồn (vi dụ: Python với thư viện LangChain, Llamalndex), các em sẽ cần (xem lại hướng dẫn cài đặt ở Bài 5):</p>
+<ul class="lesson-bullet-list">
+<li>Cài đặt Python: Phiên bản Python phù hợp (thường là Python 3.8 trở lên).</li>
+<li>Quản lí thư viện (Pip): Công cụ Pip giúp cài đặt các thư viện Python cần thiết</li>
+</ul>
+<p class="lesson-p">như Langchain, Llama-index, Ollama (nều dùng mô hình cục bộ).</p>
+<ul class="lesson-bullet-list">
+<li>Môi trường ào (virtual environment): Nên tạo môi trường ào riêng cho dự ản</li>
+</ul>
+<p class="lesson-p">để tránh xung đột phiên bản thư viện với các dự án khác trên máy tính của em.</p>
+<p class="lesson-p">Chuẩn bị môi trường phát triển là bước khởi đầu quan trọng, bao gồm cài đặt Python và các thư viện cần thiết (nếu lập trình) hoặc thiết lập dự án trên nên táng no-code. Môi trường làm việc ôn định sẽ giúp quá trình xây dựng sản phẩm diễn ra</p>
+<p class="lesson-p">suôn sẻ.</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Xây dựng sàn phẩm theo kế hoạch</h3>
+<p class="lesson-p">Dựa vào kế hoạch chi tiết mà nhóm đã lập ở Bài 12, các em sẽ bắt tay vào xây dựng sản phẩm.</p>
+<p class="lesson-p">Thu thập và tiên xử lí dữ liệu</p>
+<p class="lesson-p">Ap dung cho rds sin phám AI sir dung ki thuda RAG (Netseval-Augmented Generation) d6 truy nut thông tín từ ngưồn kiến thức riêng</p>
+<p class="lesson-p">Tập hợp các tải hiệu cân thiết như bài giáng, sách giảo khoa tài liu duyen môn phuc vu cho tro li màn học</p>
+<ul class="lesson-bullet-list">
+<li>Thu thếp tài hiệu</li>
+<li>Tiền xử lí da liệu</li>
+</ul>
+<p class="lesson-p">Cát nhd var bin (chunking), tao embeuding d6 chuấn bị cho qua trình truy xuất thông tin hiệu quả.</p>
+<p class="lesson-p">kas Chunking Vector Store</p>
+<p class="lesson-p">Lập trình/Cấu hình các thành phần AI</p>
+<p class="lesson-p">Bước cốt lỏi để hiện thực hóa thiết ké giái pháp két nối cóc thánh phân Ai thành một hệ thống hoàn chinh</p>
+<p class="lesson-p">. Kết nết với mô hình ngôn ngữ lớn</p>
+<p class="lesson-p">Tích hợp thư viện điều phối (Framework)</p>
+<ul class="lesson-bullet-list">
+<li>Phương pháp Cấu hình/Lập trinh</li>
+</ul>
+<p class="lesson-p">Sử dụng APl của các mô hình ngôn ngữ lớn hoàc triển khai mô hình cục bú</p>
+<p class="lesson-p">(LLM):</p>
+<p class="lesson-p">Chọn lập trình bằng viết mà hoặc công cu no code</p>
+<p class="lesson-p">Tích hợp một hoặc nhiêu thư viện giúp điu phối các thành phần trong AI</p>
+<p class="lesson-p">Open/l GPT) Google Gemin</p>
+<p class="lesson-p">Kết nối các thành phần và kiếm thử ban đầu</p>
+<p class="lesson-p">Tích hợp các thánh phần riêng lê thánh một luồng hoạt động hoàn chính và thực hiện kiểm từ sóm.</p>
+<ul class="lesson-bullet-list">
+<li>Kết nói luòng hoạt động</li>
+<li>Kiếm thứ từng phần</li>
+</ul>
+<p class="lesson-p">Tạo luông hoàn chính từ đầu vào của người dùng, qua xí lí AI, dến đầu ra cuối cùng.</p>
+<p class="lesson-p">Chay thừ và kiểm tra chưc nàng ngay sau khi hoàn thành mỗi phần nhỏ để phát hiện lôi răm</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 13.1. Các bước xây dựng sản phẩm</figcaption>
+                        </div>
+                    </figure>
+                    
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Bước 1. Thu thập và tiền xử lí dữ liệu (nếu ứng dụng cần)</h4>
+<p class="lesson-p">Nếu sản phẩm AI của em sử dụng kĩ thuật RAG để truy xuất thông tin từ nguồn kiến thức riêng (như trợ lí môn học cần dữ liệu về bài giảng, sách giáo khoa), các</p>
+<p class="lesson-p">em cân thực hiện bước thu thập các tài liệu và sử dụng công cụ để tiên xử lí dũ liệu (vi dụ: sử dụng Llamalndex để chia nhỏ nội dung, biểu diễn vector, lưu trữ</p>
+<p class="lesson-p">vector) để chuẩn bị cho quá trình truy xuất.</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Bước 2. Lập trình/Cấu hình các thành phần AI</h4>
+<p class="lesson-p">Đây là bước cốt lõi để biến bản thiết kế của em thành ứng dụng AI hoạt động được. Bước này gồm các việc chính sau:
+
+- Kết nối với LLM</p>
+<p class="lesson-p">Mọi ứng dụng AI đều cần bộ não là LLM. Em cần thiết lập để ứng dụng của mình kết nối được với một LLM. Có thể lựa chọn:</p>
+<p class="lesson-p">+ Sử dụng API của các LLM lớn như OpenAI GPT hay Google Gemini.</p>
+<p class="lesson-p">+ Triển khai LLM cục bộ với Ollama nếu muốn chạy mô hình trực tiếp trên</p>
+<p class="lesson-p">máy tính.</p>
+<ul class="lesson-bullet-list">
+<li>Tích hợp thư viện điều phối (Framework)</li>
+</ul>
+<p class="lesson-p">Để các thành phần AI hoạt động nhịp nhàng, em cần tích hợp một hoặc nhiều thư viện giúp điều phối chúng. Có thể lựa chọn:</p>
+<p class="lesson-p">+ LangChain: Giúp kết nối các thành phần khác nhau (LLM, công cụ, bộ nhớ)</p>
+<p class="lesson-p">thành một chuỗi hành động logic hoặc tạo ra một Agent thông minh.</p>
+<p class="lesson-p">+ Llamalndex: Mạnh về việc xây dựng chỉ mục dữ liệu hiệu quả để truy xuất</p>
+<p class="lesson-p">thông tin từ nguồn kiến thức riêng (cho RAG).</p>
+<ul class="lesson-bullet-list">
+<li>Phương pháp cấu hình/lập trình</li>
+</ul>
+<p class="lesson-p">Cách em thực hiện các kết nối và tích hợp trên sẽ tuỳ thuộc vào phương pháp phát triển. Có thế lựa chọn:</p>
+<p class="lesson-p">+ Lập trình có viết mã (Code): Viết code Python để kết nối LLM và sử dụng các</p>
+<p class="lesson-p">framework.</p>
+<p class="lesson-p">+ Câu hình trên nền tảng (No-code): Chọn các khối chức năng có sẵn trên các</p>
+<p class="lesson-p">nền tảng như MindStudio để xây dựng luồng hoạt động.</p>
+<h4 class="subheading-h4"><span class="h4-letter">c)</span> Bước 3. Kết nối các thành phần và kiểm thừ ban đầu</h4>
+<p class="lesson-p">Sau khi các thành phần riêng lẻ được xây dựng, em cần kết nôi chúng lại với nhau để tạo thành một luồng hoạt động hoàn chỉnh (từ đầu vào của người dùng, qua xú lí của AI, đến đầu ra). Sau mỗi phần nhỏ được hoàn thành, hãy chạy thử và kiếm</p>
+<p class="lesson-p">tra chức năng ngay lập tức. Vi dụ, nếu xây dựng trợ lí môn học, hãy thử hỏi một câu đơn giản để xem nó có trả lời được không. Việc kiếm thử sớm giúp phát hiện và sửa lỗi kịp thời.</p>
+<p class="lesson-p">Xây dựng sản phẩm bao gồm thu thập/tiền xử lí dữ liệu, lập trình/cấu hình các thành phần AI (LLM, LangChain/Llamalndex.</p>
+<p class="lesson-p">hoặc các khối no-code) và kết nồi chúng. Hãy kiểm thử thường xuyên trong quá trình xây dựng để đảm bảo các chức năng hoạt động đúng như thiết kế.</p>
+<h3 class="subheading-h3"><span class="h3-num">3.</span> Thực hành: Xây dựng sản phẩm AI</h3>
+<p class="lesson-p">Nhiệm vụ:</p>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Thiết lập môi trường phát triển cho dự án AI của nhóm em.</h4>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Dựa trên kế hoạch và thiết kế đã có từ Bài 12, bắt đầu xây dựng phần cốt lõi</h4>
+<p class="lesson-p">đầu tiên của sản phẩm AI (vi dụ: tạo luồng xử lí nhận đầu vào và gửi cho LLM, hoặc tạo một công cụ đơn giản).</p>
+<p class="lesson-p">c) Chạy thử và kiểm tra chức năng cơ bản của phần đã xây dựng.
+
+Hướng dẫn:</p>
+<p class="lesson-p">(Hướng dẫn sau đây sử dụng công cụ MindStudio để xây dựng sản phẩm AI Agent Hồ trợ học Ngữ văn 12.)</p>
+<p class="lesson-p">Chuẩn bị</p>
+<p class="lesson-p">dữ liệu Tạo Agent Kết nối các khối</p>
+<p class="lesson-p">Kiểm thử và</p>
+<p class="lesson-p">tinh chỉnh</p>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Thiết lập môi trường phát triển</h4>
+<p class="lesson-p">Chuẩn bị dữ liệu (tệp CSV): Hãy đảm bảo em đã có sẵn tệp CSV chi tiết các bài ngữ văn mà chúng ta đã tạo. Tệp này sẽ là nguồn dữ liệu cho AI Agent của em.</p>
+<p class="lesson-p">Em không tải trực tiếp CSV vào một Knowledge Base như các nền tảng khác mà sẽ dùng nó để Generate Text thông minh.</p>
+<p class="lesson-p">b) Xây dựng phần cốt lõi. Tạo Agent mới trên MindStudio Bước 1. Đăng nhập vào MindStudio: Truy cập trang web MindStudio tại địa chỉ https://www.mindstudio.ai và đăng nhập tài khoản của em.</p>
+<p class="lesson-p">Bước 2. Tạo Agent mới: Trên giao diện chính, nháy chuột vào Create New Agent. Đặt tên cho project của nhóm, ví dụ: Agent Hỗ trợ học Ngữ văn 12.</p>
+<p class="lesson-p">S Main.flow * Agent Hỗ ...Ngữ văn 12</p>
+<p class="lesson-p">General</p>
+<p class="lesson-p">Agent Name Metadata</p>
+<p class="lesson-p">Agent Hồ trợ học Ngữ văn 12 Landing Page</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 13.2. Giao diện dặt tên Agent mới
+98</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Bước 3. Xây dựng AI Flow co bản: Em sẽ thấy một không gian làm việc trống với khối Start và End. Chúng ta sẽ thêm các khói khác vào giữa.</p>
+<p class="lesson-p">Start Uner Input</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 13.3. Giao diện thêm khối User Input vào giữa khối Start và End</figcaption>
+                        </div>
+                    </figure>
+                    
+<ul class="lesson-bullet-list">
+<li>Khối 1: User Input (Đầu vào người dùng)</li>
+</ul>
+<p class="lesson-p">+ Thêm khối User Input vào giữa khối Start và khối End.</p>
+<p class="lesson-p">+ Tạo biến Use: Input và cấu hình biến vừa tạo.</p>
+<p class="lesson-p">1 : Nsr: tco % Use vor</p>
+<p class="lesson-p">Tiree</p>
+<p class="lesson-p">Long Ters</p>
+<p class="lesson-p">Variatie</p>
+<p class="lesson-p">Bạn có câu hỏi gi về môn Ngữ văn lớp 12?</p>
+<p class="lesson-p">User irput.</p>
+<p class="lesson-p">àp cáu rói à dày.</p>
+<p class="lesson-p">contigeetno</p>
+<p class="lesson-p">Latal Tent</p>
+<p class="lesson-p">Bạn có cầu hôi gi vệ mên Ngữ văn kho 122.</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 13.4. Hình ảnh cấu hình biến User input đầu vào</figcaption>
+                        </div>
+                    </figure>
+                    
+<ul class="lesson-bullet-list">
+<li>Khối 2: Generate Text (Tạo văn bản - Xử lí thông minh)</li>
+</ul>
+<p class="lesson-p">Đây là khối quan trọng nhất để AI Agent của em có thế hiếu và trả lời dựa trên dữ liệu em có.</p>
+<p class="lesson-p">* Thêm khối Generate Text vào không gian làm việc giữa khối User Input và End.</p>
+<p class="lesson-p">User Input</p>
+<p class="lesson-p">Generate</p>
+<p class="lesson-p">Text End</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 13.5. Hình ảnh các khổi (tham khảo) được sử dụng trong Agent</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">+ Cấu hình khối Generate Text: Chọn khối Generate Text và cấu hình ở thẻ</p>
+<p class="lesson-p">Configuration như sau:</p>
+<p class="lesson-p">Prompt: Đây là nơi em gợi ý cho AI cách xử lí thông tin. Em sẽ sao chép nội dung của tệp CSV vào đây, sau đó yêu cầu AI trà lời dựa trên nội dung đó.</p>
+<p class="lesson-p">Cách làm: Mở tệp CSV của em bằng một trình soạn thảo văn bản (Notepad, VS Code,...) và sao chép toàn bộ nội dung (bao gồm cả dòng tiêu đề cột). Dán nội dung CSV vào phần Prompt của khối Generate Text theo hướng dân sau:</p>
+<p class="lesson-p">(Dân toàn bộ nội dung CSV của em vào đây] Dựa vào thông tin trên, hãy trả lời câu hỏi của học sinh.
+
+ay tran vao Nêu câu hói liên quan đến một bài văn, hây cung cầp thông</p>
+<p class="lesson-p">tin chi tiết nhất có thể về bài văn đó và tác giả của nó.
+
+Nếu câu hòi là về một tác giá, hãy liệt kê các tác phẩm các dc càa nhồm của họ có trong danh sách và thông tín về tác giả.</p>
+<p class="lesson-p">Nếu không tìm thấy thông tin, hãy nói "Tôi xin lỗi, tôi không tim thấy thông tin em yêu cầu trong cơ sở dữ liệu của tôi." Câu hỏi của học sính: {{User input}}</p>
+<p class="lesson-p">(| User input)): Đây là một biến (placeho1der) tự động lấy nội dung từ khối User Input trước đó.</p>
+<p class="lesson-p">Mục đích: Khối này sử dụng LLM để phận tích câu hỏi của học sinh</p>
+<p class="lesson-p">(| (User input)|) và tìm kiếm/tống hợp thông tin từ dữ liệu CSV mà em đã cung cấp trong prompt, sau đó tạo ra câu trả lời.</p>
+<ul class="lesson-bullet-list">
+<li>Khối 3: Đầu ra khối Generate Text được kết nối mặc định với đầu vào của</li>
+</ul>
+<p class="lesson-p">khối End.</p>
+<p class="lesson-p">Mục đích: Đánh dấu điểm kết thúc của luồng AI và hiển thị kết quả cho người dùng.</p>
+<h4 class="subheading-h4"><span class="h4-letter">c)</span> Chạy và kiểm thử Agent của em</h4>
+<p class="lesson-p">Bước 1. Chạy Agent: Nháy chuột vào nút Preview ở góc trên bên phải đề kiểm thử AI Agent của nhóm em và chọn Open Draft Agent (Hình 13.6).</p>
+<p class="lesson-p">Preview V Publish</p>
+<ul class="lesson-bullet-list">
+<li>Run in Debugger</li>
+</ul>
+<p class="lesson-p">33R</p>
+<ul class="lesson-bullet-list">
+<li>Start from Selection</li>
+</ul>
+<p class="lesson-p">C Open Draft Agent</p>
+<p class="lesson-p">C Open Published Agent</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 13.6. Hình ảnh khu vực lựa chọn các phương án kiểm thử và gỡ lồi</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Bước 2. Nhập câu hỏi: Một hộp thoại phục vụ kiềm thử sẽ xuất hiện như Hình 13.7.
+
+Em hãy nhập các câu hỏi khác nhau vào đó, ví dụ:</p>
+<ul class="lesson-bullet-list">
+<li>Cho tôi thông tin về bài Đất nước.</li>
+<li>Tác già Nguyễn Đình Thi là ai và có những tác phẩm nào?</li>
+<li>Bài nào tiêu biếu của văn học kháng chiên?</li>
+<li>Thông tin về bài Việt Bắc của Tố Hữu.</li>
+</ul>
+<p class="lesson-p">Agent Hồ trợ học Ngữ vàn 12</p>
+<p class="lesson-p">Bạn có câu hỏi gì về môn Ngữ văn lớp 12?</p>
+<p class="lesson-p">Mây nhập câu hoi ở lây</p>
+<p class="lesson-p">Next</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 13.7. Hình ảnh giao diện của Agent ở môi trường kiếm thử</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Bước 3. Xem kết quả: Kiểm tra xem Agent trả lời có chính xác và đầy đủ thông tin dựa trên nội dung tệp CSV của em không.</p>
+<p class="lesson-p">Agent Hỗ trợ học Ngữ văn 12</p>
+<p class="lesson-p">Dựa trên thông tìn trong danh sách, tôi có thể cung cấp chi tiết về bài thơ "Dất nước" của hai tác giả:</p>
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Bài "Đất nước" của Nguyễn Đinh Thị:</h3>
+<ul class="lesson-bullet-list">
+<li>Thuộc chương: Văn học Việt Nam sau Cách mạng tháng Tảm (1945-1975) • Sáng tác từ năm 19-48-1955, trong thời ki khăng chiến chống Pháp • Nội dung: Thể hiện sự gần bó sâu sắc giữa đất nước và nhân dán, sự chuyến minh của đất nước trong chiến tranh, niềm tự hào dân tộc • Phong cách: Thơ trữ tình chỉnh trị, hào hùng, suy tư • Giá trị: Góp phần định hình nến thơ ca cách mạng Việt Nam</li>
+</ul>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Bải "Đất nước" của Nguyễn Khoa Điểm:</h3>
+<ul class="lesson-bullet-list">
+<li>Thuộc chương: Văn học Việt Nam sau Cách mạng tháng Tâm (1945-1975) • Trích từ trường ca "Mặt đường khát vọng", sảng tác năm 1971, trong thời ki kháng chiến chống Mỹ • Nội dung: Định nghĩa về đất nước từ nhiều góc độ: lịch sử, văn hóa, đời sống hàng ngày, khẳng định đất nước là của nhân dân</li>
+<li>Phong cách: Thơ trữ tình chính luận, tư tường sâu sắc, đậm chất triết li • Giá trị: Đem đến một cái nhìn mới mè, sâu sắc về đất nước, kháng định vai trò của nhân dân trong việc tạo dựng và bảo vệ đất nước</li>
+</ul>
+<p class="lesson-p">Cả hai bài thơ đều mang ý nghĩa sâu sắc về đắt nước, nhưng được viết ở những giai đoạn và với góc nhìn Khác nhau</p>
+<p class="lesson-p">l Copy & Share V Run Finished</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 13.8. Agent trả lời câu hỏi dựa vào nội dung trong tệp CSV được chuẩn bị</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">và cung cấp ở mục a</p>
+<p class="lesson-p">Bước 4. Tỉnh chinh và mở rộng (Nội dung nâng cao cho học sinh)</p>
+<ul class="lesson-bullet-list">
+<li>Tối ưu prompt: Nếu AI trả lời chưa tốt, hãy chỉnh sửa prompt trong khối</li>
+</ul>
+<p class="lesson-p">Generate Text. Cụ thể hơn về cách AI cần hiếu và xuất thông tin.</p>
+<p class="lesson-p">Vi dụ: Nếu hỏi về Tên bài, hãy trả lời theo cầu trúc sau: Tên bài: (Tên bài], Tác giả: [Tên lác giả), Hoàn cảnh sáng tác: (Hoàn cảnh sáng lác], Giá trị nội dung:
+
+(Glá trị nội dung chính). Giá trị nghệ thuật: (Giá trị nghệ thuật chính].</p>
+<ul class="lesson-bullet-list">
+<li>Thêm các luồng nhánh (Branching): Đối với các yêu cầu phức tạp hơn, em có</li>
+</ul>
+<p class="lesson-p">thể sử dụng các khối Logic (If/Else) để tạo các nhánh luồng khác nhau.</p>
+<p class="lesson-p">+ VI dụ: Nếu User Input chứa từ khóa chào thì điều hướng đến một khối</p>
+<p class="lesson-p">Generate Text chi để chào hỏi, thay vì cố gắng tìm kiếm thông tin văn học.
+
+Điều này giúp Agent linh hoạt hơn.</p>
+<p class="lesson-p">+ Cách làm: Dùng khối Logic sau User Input để kiểm tra nội dung đầu vào,</p>
+<p class="lesson-p">sau đó nối tới các khối Generate Text khác nhau với prompt riêng biệt.
+
+- Giải thích cho học sinh:</p>
+<p class="lesson-p">+ Giải thích rằng việc dán CSV vào prompt là một cách để cung cấp kiến thức</p>
+<p class="lesson-p">cụ thể cho AI.</p>
+<p class="lesson-p">+ Generate Text hoạt động như một bộ não phân tích câu hỏi và tổng hợp câu</p>
+<p class="lesson-p">trả lời từ kiên thức đã cho.</p>
+<p class="lesson-p">* ((user input)) la cách chúng ta đưa dữ liệu từ khối này sang khối khác.</p>
+<p class="lesson-p">Sau khi đã tham khảo các bước trên, nhóm em tự triển khai sản</p>
+<p class="lesson-p">phẩm theo ý tưởng, giải pháp và kế hoạch đã lập, sử dụng những công cụ phù hợp với nhóm để xây dựng sản phẩm của nhóm mình.</p>
+</div></section>
+
+            <section class="lesson-card exercise-section" id="sec-luyện-tập">
+                <div class="section-badge-header">
+                    <span class="sec-icon">✏️</span>
+                    <h2 class="section-title">LUYỆN TẬP</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">1. Phương án nào sau đây là lợi ích chính của việc sử dụng môi trường ảo (virtual environment) khi phát triển dự án AI bằng Python?</p>
+<p class="lesson-p">A. Giúp cài đặt Python nhanh hơn.</p>
+<p class="lesson-p">B. Tránh xung đột phiên bản thư viện giữa các dự án.</p>
+<p class="lesson-p">C. Tăng tốc độ chạy của ứng dụng AI.</p>
+<p class="lesson-p">D. Tự động tìm lỗi trong mã nguồn.</p>
+<p class="lesson-p">2. Trong quá trình xây dựng sản phẩm AI, việc kiểm thử ban đầu (chạy thử và kiểm tra chức năng ngay sau khi xây dựng một phần nhỏ) có vai trò gì?</p>
+<p class="lesson-p">A. Chỉ đế xem sản phẩm có khởi động được không.</p>
+<p class="lesson-p">B. Giúp phát hiện và sửa lỗi sớm, tránh lỗi tích tụ lớn về sau.
+
+C. Thể hiện cho giáo viên thấy đã làm được sản phẩm.</p>
+<p class="lesson-p">D. Không cần thiết, chỉ cần kiểm thử khi hoàn thành toàn bộ.</p>
+</div></section>
+
+            <section class="lesson-card apply-section" id="sec-vận-dụng">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🚀</span>
+                    <h2 class="section-title">VẬN DỤNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Trong quá trình nhóm em thực hành xây dựng sản phẩm AI cho dự án cuối khoá:</p>
+<p class="lesson-p">1. Hãy chia sẽ một khó khăn kĩ thuật cụ thể mà nhóm em gặp phải trong quá trình cài đặt môi trường hoặc xây dựng các thành phần đầu tiên của sản phâm.</p>
+<p class="lesson-p">2. Nhóm em đã áp dụng kiến thức nào từ Bài 12 (vấn đề và ý tường) hoặc các bài học trước để giải quyết khó khăn đó và liếp lục công việc xây dựng?</p>
+</div></section>

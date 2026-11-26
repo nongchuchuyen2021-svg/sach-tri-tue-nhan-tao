@@ -1089,3 +1089,455 @@ input {
     display: none;
   }
 }
+
+/* ============================================================
+   TEXT READER STYLES (Chế độ đọc sách văn bản HTML hiện đại)
+   ============================================================ */
+
+:root {
+  --reader-font-size: 16.5px;
+  --reader-line-height: 1.78;
+}
+
+.text-reader-stage {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  background: var(--bg);
+  padding: 24px 20px 80px;
+}
+
+.text-reader-layout {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.lesson-article-wrap {
+  flex: 1;
+  min-width: 0;
+  max-width: 860px;
+}
+
+/* Header bài học */
+.lesson-header {
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.lesson-topic-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 600;
+  background: var(--accent-soft);
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.lesson-main-title {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--text);
+  margin: 0 0 14px 0;
+  letter-spacing: -0.5px;
+}
+
+.lesson-meta-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 13.5px;
+  color: var(--text-soft);
+}
+
+.btn-toggle-scan {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.btn-toggle-scan:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Card phần học */
+.lesson-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 26px 30px;
+  margin-bottom: 26px;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s ease;
+}
+
+.lesson-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.section-badge-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
+}
+
+.sec-icon {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin: 0;
+  color: var(--text);
+}
+
+/* Màu viền theo từng phần học chuẩn sách giáo khoa */
+.target-section {
+  border-left: 5px solid #2563eb;
+}
+.warmup-section {
+  border-left: 5px solid #d97706;
+}
+.discovery-section {
+  border-left: 5px solid #059669;
+}
+.practice-section {
+  border-left: 5px solid #7c3aed;
+}
+.exercise-section {
+  border-left: 5px solid #db2777;
+}
+.apply-section {
+  border-left: 5px solid #0891b2;
+}
+
+/* Typography nội dung */
+.lesson-p {
+  font-size: var(--reader-font-size);
+  line-height: var(--reader-line-height);
+  color: var(--text);
+  margin: 0 0 16px 0;
+}
+
+.subheading-h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 24px 0 12px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.h3-num {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.subheading-h4 {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 20px 0 10px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.h4-letter {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.lesson-bullet-list {
+  padding-left: 24px;
+  margin: 0 0 18px 0;
+}
+
+.lesson-bullet-list li {
+  font-size: var(--reader-font-size);
+  line-height: var(--reader-line-height);
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+/* Hộp kiến thức ghi nhớ cốt lõi */
+.callout-box.knowledge-callout {
+  background: color-mix(in srgb, var(--bg-elevated) 90%, var(--accent));
+  border: 1px solid color-mix(in srgb, var(--border) 50%, var(--accent));
+  border-left: 5px solid var(--accent);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin: 22px 0;
+}
+
+.callout-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.callout-box.knowledge-callout p {
+  margin: 0;
+  font-size: var(--reader-font-size);
+  line-height: var(--reader-line-height);
+  font-weight: 500;
+}
+
+/* Khối Code */
+.code-block-wrapper {
+  background: #181926;
+  color: #cad3f5;
+  border-radius: 12px;
+  margin: 20px 0;
+  overflow: hidden;
+  border: 1px solid #363a4f;
+}
+
+.code-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  background: #1e2030;
+  border-bottom: 1px solid #363a4f;
+  font-size: 12px;
+  font-weight: 600;
+  color: #a5adcb;
+}
+
+.btn-copy-code {
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: #363a4f;
+  color: #cad3f5;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.15s;
+}
+
+.btn-copy-code:hover {
+  background: #494d64;
+}
+
+.code-block-wrapper pre {
+  margin: 0;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.code-block-wrapper code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+/* Hình minh hoạ sách */
+.lesson-figure-box {
+  margin: 22px 0;
+  padding: 14px 18px;
+  background: var(--bg-subtle);
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fig-badge {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.figure-caption {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+/* Footer chuyển bài học */
+.lesson-bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.btn-lesson-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  text-decoration: none;
+  color: inherit;
+  flex: 1;
+  max-width: 380px;
+  transition: all 0.18s ease;
+}
+
+.btn-lesson-nav:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-2px);
+}
+
+.btn-lesson-nav.nav-next {
+  margin-left: auto;
+  text-align: right;
+}
+
+.nav-dir-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-soft);
+  margin-bottom: 4px;
+}
+
+.nav-lesson-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* Right Outline (Mục lục trên trang) */
+.reader-outline {
+  width: 220px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 24px;
+  padding: 14px 16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .reader-outline {
+    display: block;
+  }
+}
+
+.outline-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.outline-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.outline-link {
+  display: block;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.outline-link:hover,
+.outline-link.active {
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-weight: 600;
+}
+
+/* Controls cỡ chữ trên toolbar */
+.font-size-control {
+  display: inline-flex;
+  align-items: center;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.font-size-control button {
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.font-size-control button:hover {
+  background: var(--bg-elevated);
+  color: var(--accent);
+}
+
+/* Modal xem bản in gốc */
+.scan-modal-card {
+  width: 95vw;
+  max-width: 1100px;
+  height: 90vh;
+  background: var(--bg-elevated);
+  border-radius: 16px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.scan-viewer-stage {
+  flex: 1;
+  background: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  padding: 16px;
+}
+
+.scan-viewer-stage img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border-radius: 4px;
+}

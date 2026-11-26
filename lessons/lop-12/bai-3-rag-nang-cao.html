@@ -1,0 +1,241 @@
+
+    <header class="lesson-header">
+        <div class="lesson-topic-badge">Chủ đề 2. RAG và công cụ làm việc với LLM</div>
+        <h1 class="lesson-main-title">Bài 3. RAG nâng cao</h1>
+        <div class="lesson-meta-bar">
+            <span class="meta-pages">📄 Trang sách gốc: 26 – 32</span>
+            <button class="btn-toggle-scan" onclick="openOriginalPages(26, 32)">📖 Xem bản in gốc</button>
+        </div>
+    </header>
+    
+<p class="lesson-p">Cam Scanner</p>
+<p class="lesson-p">BAI 3. RAG NÂNG CAO</p>
+
+            <section class="lesson-card target-section" id="sec-mục-tiêu">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🎯</span>
+                    <h2 class="section-title">MỤC TIÊU</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Sau bài học này, em sẽ:</p>
+<ul class="lesson-bullet-list">
+<li>Trình bày được vai trò của các kĩ thuật chia nhỏ nội dung (chunking), biểu diễn vector (embedding) và lưu trữ vector (vector store) trong quá trình truy xuất thông tin của RAG.</li>
+<li>Giải thích được ảnh hưởng của chất lượng truy xuất (retrieval) đến độ chính xác và hiệu quả của hệ thống RAG.</li>
+</ul>
+</div></section>
+
+            <section class="lesson-card warmup-section" id="sec-khởi-động">
+                <div class="section-badge-header">
+                    <span class="sec-icon">💡</span>
+                    <h2 class="section-title">KHỞI ĐỘNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Minh Châu, học sinh lớp 12 tại một trường THPT, đang ôn tập môn Ngữ văn thì gặp câu hỏi: Nguyễn Du sinh năm nào?. Thay vì đọc từ đầu đến cuối cuốn sách giáo khoa, Minh Châu mở mục lục cuốn sách, tìm phần viết về Nguyễn Du, rồi đọc để trả lời chính xác, tiết kiệm rất nhiều thời gian.
+
+1. Nếu Minh Châu chụp toàn bộ cuốn sách thành bản PDF, làm sao máy tính "lật nhanh" và tìm được thông tin chính xác như Minh Châu?
+
+2. Vì sao người ta thường chia một cuốn sách thành chương, mục thay vi để nguyên văn bản dài?</p>
+</div></section>
+
+            <section class="lesson-card discovery-section" id="sec-khám-phá">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🔍</span>
+                    <h2 class="section-title">KHÁM PHÁ</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">1. Các thành phần kĩ thuật trong bước truy xuất Các mô hình ngôn ngữ lớn (Large Language Model, viết tắt là LLM) như ChatGPT không thế ghi nhớ mọi chi tiết từ hàng trăm trang tài liệu. Để trả lời chính xác một câu hỏi cụ thể, LLM cần cơ chế để tra cứu thông tin liên quan. Đây là lúc tạo sinh có hỗ trợ truy xuất (Retrieval - Augmented Generation, viết tắt là RAG) phát huy tác dụng.</p>
+<p class="lesson-p">RAG kết hợp một mô hình tìm kiếm và một mô hình tạo văn bản (thường là LLM). Nó giúp AI truy xuất kiến thức bên ngoài mà LLM chưa được học hoặc không ghi nhớ sẵn. Cụ thế, khi có câu hỏi, RAG tìm thông tin liên quan nhất từ kho dữ liệu, đưa vào cửa số ngữ cảnh của LLM, sau đó LLM tổng hợp và tạo câu trà lời chính xác hơn.</p>
+<p class="lesson-p">Trong mô hình tim kiếm, tài liệu lớn cần được xử lí qua ba kĩ thuật nối tiếp nhau:
+
+- Chia nhỏ văn bản thành các đoạn hợp lí (chunking), vi dụ theo từng cập</p>
+<p class="lesson-p">câu thơ.</p>
+<ul class="lesson-bullet-list">
+<li>Mã hoá mỗi cặp câu thơ thành dãy số (vector) gắn với nội dung (embedding),</li>
+</ul>
+<p class="lesson-p">để máy tính hiểu được và so sánh được.
+
+- Lưu các vector (vector store) vào một kho đặc biệt gọi là kho lưu trữ vector để</p>
+<p class="lesson-p">thuận lợi cho việc tìm kiếm.</p>
+<p class="lesson-p">Nhớ cách làm này, khi bạn Minh Châu hỏi về năm sinh của Nguyễn Du, AI có thể tim đúng đoạn thơ liên quan, thay vì phải xử lí cả tác phẩm dài trong một lần.</p>
+<p class="lesson-p">LLM chỉ xử li được lượng thông tin giới hạn (cửa số ngữ cảnh). RAG giúp LLM bằng cách truy xuất các đoạn văn bản liên quan từ tài liệu lớn và đưa vào cửa số ngữ cảnh, giúp LLM trả lời chính xác.</p>
+<p class="lesson-p">RAG</p>
+<p class="lesson-p">RAG</p>
+<p class="lesson-p">RAC</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 3.1. Một bạn học sinh đang tra cứu mục lục sách để tìm nhanh thông tin,
+bên cạnh là mô phỏng máy tính đang dùng RAG đề truy xuất dữ liệu rồi đưa vào LLM</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">a) Kĩ thuật chia nhỏ nội dung Trước tiên, để LLM có thể "tiêu hoá" một lượng lớn văn bản, chúng ta cần thực hiện việc chia nhỏ nội dung.
+
+- Khái niệm: LLM có giới hạn về lượng thông tin xử lí cùng lúc. Để giải quyết, tài</p>
+<p class="lesson-p">liệu dài được chia nhỏ thành các đoạn ngắn, gọi là chunk. Mỗi chunk đủ nhỏ để</p>
+<p class="lesson-p">LLM tìm kiểm chính xác và nhanh hơn nhưng đủ lớn để giữ ý nghĩa của đoạn văn bản.</p>
+<ul class="lesson-bullet-list">
+<li>Nguyên lí hoạt động: Có nhiều cách</li>
+</ul>
+<p class="lesson-p">để chia nhỏ, vi dụ: kích thước cố định, theo câu, theo đoạn văn, hoặc theo cấu trúc của tài liệu (như tiêu đẻ, mỤc lục).
+
+- Ví dụ: Một bài báo khoa học dài 10</p>
+<p class="lesson-p">trang có thế được chia thành các</p>
+<p class="lesson-p">đoạn nhỏ hơn, mỗi đoạn khoảng 2 đến 3 câu hoặc theo từng đoạn văn</p>
+<p class="lesson-p">bán có ý nghĩa hoàn chỉnh.
+
+Hình 3.2. Hinh ảnh một văn bản được chia thành các đoạn nhỏ bằng thuật toán</p>
+<p class="lesson-p">Chia nhỏ nội dung (chunking) là phân đoạn tài liệu lớn thành các đơn vị nhỏ (chunk) để phù hợp với giới hạn xử lí của LLM giúp tăng tốc độ và độ chính xác tìm kiếm, giảm nhiều.</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Kĩ thuật biểu diễn vector</h4>
+
+                    <div class="callout-box knowledge-callout">
+                        <div class="callout-title">📘 Hộp kiến thức cốt lõi</div>
+                        <p>Sau khi nội dung đã được chia nhỏ, bước tiếp theo là giúp máy tính hiểu được ý nghĩa của từng đoạn văn bản đó.
+
+- Khái niệm: Biểu diễn vector là quá trình mã hóa mỗi đoạn văn bản thành một</p>
+                    </div>
+                    
+<p class="lesson-p">dãy sô (gọi là vector). Dãy sô này giông như "toạ độ" hay "vị trí" của đoạn văn</p>
+<p class="lesson-p">bản trong một không gian ảo, giúp máy tính hiêu được ý nghĩa của nó. Các đoạn có ý nghĩa tương tự sẽ có các vector "gần nhau" trong không gian này - Nguyên lí hoạt động: Quá trình này bao gồm tiền xử lí văn bản, sau đó sử</p>
+<p class="lesson-p">dụng một mô hình Embedding chuyên biệt để mã hoá văn bản thành vector.</p>
+<p class="lesson-p">Qua đó, máy tính có thể đo "khoảng cách" giữa các vector để biết mức độ liên quan về ý nghĩa.
+
+- Ví dụ: Tập thể dục giúp khoẻ mạnh và Ăn uống lành mạnh tốt cho sức khoẻ sẽ</p>
+<p class="lesson-p">có vector "gần nhau" hơn Mèo thích ăn cá.</p>
+<p class="lesson-p">Biểu diễn vector (embedding) là mã hóá văn bản thành dãy số (vector), gắn với nội dung, để máy tính hiếu và xử lí được ý nghĩa của văn bản đó.
+
+Việc này giúp gắn vị trí cho thông tin, để các đoạn có nội dung tương đồng</p>
+<p class="lesson-p">có vector gần nhau.</p>
+<p class="lesson-p">c) Kĩ thuật lưu trữ vector Sau khi các đoạn văn bản đã được mã hóa thành vector, chúng ta cần một nơi để lưu trữ và tìm kiếm chúng một cách hiệu quả.</p>
+<ul class="lesson-bullet-list">
+<li>Khái niệm: Sau khi các đoạn văn bản được má hóa thành vector, chúng được</li>
+</ul>
+<p class="lesson-p">lưu trữ tại kho lưu trữ vector. Đây giống như một "thư viện lớn".", nơi các "loạ độ"</p>
+<p class="lesson-p">thông lin được sắp xếp khoa học để tim kiếm nhanh chóng.
+
+- Nguyên lí hoạt động: Kho lưu trữ vector sử dụng các thuật toán tìm kiếm hiệu</p>
+<p class="lesson-p">luả đề nhanh chóng tìm ra các vector " dùng. Điều này đảm bảo hệ thống có thể truy xuất thông tin liên quan một cách</p>
+<p class="lesson-p">siêu nhanh.
+
+- Vi dụ: Khi em tìm ào ấm mùa đông trên một trang thương mại điện tử, câu hỏi</p>
+<p class="lesson-p">của em sẽ được mã hoa thành vector. Hệ thống sẽ nhanh chóng tìm trong kho lưu trữ vector để lầy các sản phẩm (đã được mã hoá thành vector từ trước) có "mã số" gần nhất, tức là các sản phẩm phù hợp nhất với yêu cầu của em.</p>
+<p class="lesson-p">Lưu trữ vector (vector store) là việc trở các đoạn văn bản đã được mã hoá thành vector. Nó sử dụng các thuật toán để truy xuất nhanh chóng cáo thông tin liên quan dựa trên sự "gần gũi" về ý nghĩa của các vector.</p>
+<p class="lesson-p">Documents Embedding</p>
+<p class="lesson-p">Model Vectorstore</p>
+<p class="lesson-p">Query Context/</p>
+<p class="lesson-p">LLM</p>
+<p class="lesson-p">Prompt</p>
+<p class="lesson-p">User</p>
+<p class="lesson-p">Output</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 3.3. Sơ đồ quy trình từ khi người dùng gửi câu hỏi đến khi truy xuất thông tin từ</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">kho lưu trữ vector và tạo phản hồi bằng LLM</p>
+<h4 class="subheading-h4"><span class="h4-letter">d)</span> Dòng chảy dữ liệu</h4>
+<p class="lesson-p">Tãi liệu góc</p>
+<p class="lesson-p">(Chia nhỏ nội dung) →</p>
+<p class="lesson-p">Chunking</p>
+<p class="lesson-p">Embedding</p>
+<p class="lesson-p">Vector Store</p>
+<p class="lesson-p">(Văn bản đầu vào)</p>
+<p class="lesson-p">(Biểu diễn vector)</p>
+<p class="lesson-p">(Lưu trữ vecto</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 3.4. Dòng chảy dữ liệu trong RAG</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">Đây là cách các thành phần hoạt động cùng nhau trong RAG:
+
+- Chia nhỏ nội dung: Tài liệu gốc được chia nhỏ thành các đoạn ngắn.</p>
+<ul class="lesson-bullet-list">
+<li>Biểu diễn vector: Mỗi đoạn ngắn được mã hóa thành một vector.</li>
+<li>Lưu trữ vector: Các vector được lưu trữ để tìm kiếm.</li>
+</ul>
+<p class="lesson-p">Khi có câu hỏi:</p>
+<p class="lesson-p">1) Câu hỏi của người dùng cũng được mã hóá thành vector.
+
+2) Tìm kiếm trong kho lưu trữ vector để lấy các đoạn có ý nghĩa gần nhất.</p>
+<p class="lesson-p">3) Các đoạn tìm được cộng vào prompt của người dùng, LLM dùng thông tin đó để tạo câu trả lời chính xác.</p>
+<p class="lesson-p">2. Tâm quan trọng của chất lượng truy xuất thông tin Bước truy xuất đóng vai trò then chốt trong hệ thống RAG. Đây là quá trình AI tìm kiếm và chọn lọc những thông tin liên quan nhất từ kho dữ liệu để cung cấp cho LLM. Chất lượng của bước này ảnh hưởng trực tiếp đến độ chính xác và tin cậy của câu trả lời do RAG tạo ra.
+
+a) Hậu quả khi truy xuất kém chất lượng Nếu bước truy xuất không chính xác, LLM sẽ nhận được dữ liệu không liên quan, thiếu hụt, hoặc thậm chí sai lệch. Điều này khiến "bộ não" của AI không có đủ thông tin hoặc bị đánh lừa bởi thông tin không đúng, dẫn đến việc tạo ra câu trả lời</p>
+<p class="lesson-p">không đầy đủ, mơ hồ, hoặc hoàn toàn sai. Khi đó, dù LLM có năng lực tổng hợp tốt đến đâu thì đầu ra vẫn kém chất lượng vì đầu vào đã bị lối.</p>
+<p class="lesson-p">b) Yếu tố quyết định chất lượng truy xuất - Chia nhỏ nội dung hợp lí: Việc chia tài liệu thành các đoạn văn bản cần đảm</p>
+<p class="lesson-p">bảo mỗi đoạn văn bản đủ gọn để LLM có thế xử lí hiệu quả, nhưng đồng thời phải giữ được ngữ nghĩa và bối cảnh đầy đủ của thông tin. Nếu đoạn văn bản quá nhỏ sẽ mất ngữ cảnh, quá lớn sẽ vượt quá khả năng xử lí hoặc chứa nhiều thông tin nhiều.
+
+- Biểu diễn vector chuẩn: Việc biểu diễn vector cần mã hoá văn bản thành vector</p>
+<p class="lesson-p">một cách chính xác, sao cho những đoạn văn bản có ý nghĩa tương đồng thực sự có các vector gần nhau trong không gian đa chiều. Biểu diễn vector không chuấn sẽ làm giảm khả năng nhận diện mối liên hệ ngữ nghĩa, dẫn đến việc truy xuất nhầm thông tin.
+
+- Thuật toán tìm kiếm hiệu quả: Việc sử dụng các thuật toán tìm kiếm tiên tiến</p>
+<p class="lesson-p">(ví dụ: các thuật toán tìm kiếm lân cận gần đúng như ANN - Approximate Nearest</p>
+<p class="lesson-p">Neighbors) giúp hệ thống nhanh chóng xác định và lấy được các vector (tức là các đoạn văn bản) có độ tương đồng cao nhất với câu hỏi của người dùng. Một thuật toán yếu kém có thể bỏ sót thông tin quan trọng hoặc lấy về các kết quả</p>
+<p class="lesson-p">kém liên quan.</p>
+<p class="lesson-p">Chất lượng truy xuất phụ thuộc vào việc chia nhỏ hợp lí, mã hoá chính xác và thuật toán tim kiêm hiệu quả. Nếu các bước này kém, LLM nhận thông tin không đây đù/sai, dẫn đến câu trả lời thiêu chính xác.</p>
+</div></section>
+
+            <section class="lesson-card exercise-section" id="sec-luyện-tập">
+                <div class="section-badge-header">
+                    <span class="sec-icon">✏️</span>
+                    <h2 class="section-title">LUYỆN TẬP</h2>
+                </div>
+                <div class="section-body">
+            
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Trong quá trình RAG, bước truy xuất có vai trò gì?</h3>
+<p class="lesson-p">A. Tạo ra văn bản hoàn chỉnh cuối cùng.</p>
+<p class="lesson-p">B. Tăng tốc độ xử lí mô hình ngôn ngữ.</p>
+<p class="lesson-p">C. Tìm kiểm thông tin liên quan trước khi sinh câu trả lời.</p>
+<p class="lesson-p">D. Dịch câu hỏi người dùng sang ngôn ngữ khác.</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Mục đích chinh của kĩ thuật chia nhỏ nội dung là gì?</h3>
+<p class="lesson-p">A. Giảm lỗi đánh máy.
+
+B. Phù hợp với LLM.</p>
+<p class="lesson-p">C. Tăng số từ.
+
+D. Làm đẹp văn bản.</p>
+<h3 class="subheading-h3"><span class="h3-num">3.</span> Hai đoạn văn bản giống nhau sẽ có "vị trí" như thế nào?</h3>
+<p class="lesson-p">A. Xa nhau.
+
+B. Gần nhau.</p>
+<p class="lesson-p">C. Bằng 0.
+
+D. Không đo được.</p>
+<p class="lesson-p">4. Nếu bước truy xuất trong quá trình RAG không chính xác, điều gì sẽ xảy ra với câu trả lời của hệ thống?</p>
+<p class="lesson-p">A. Câu trả lời sẽ dai hơn.</p>
+<p class="lesson-p">B. Câu trả lời sẽ chính xác hơn.</p>
+<p class="lesson-p">C. Câu trả lời sẽ không đầy đủ hoặc sai lệch.</p>
+<p class="lesson-p">D. Câu trả lời sẽ nhanh hơn.</p>
+<p class="lesson-p">5. Nếu nguồn kiến thức trong RAG chứa thông tin sai lệch, hệ thống sẽ phản ứng như thê nào?</p>
+<p class="lesson-p">A. Tự động sửa lôi và trả lời đúng.</p>
+<p class="lesson-p">B. Trả lời dựa trên thông tin sai lệch đó.</p>
+<p class="lesson-p">C. Từ chối trả lời câu hỏi.</p>
+<p class="lesson-p">D. Yêu cầu người dùng cập nhật nguồn kiến thức.</p>
+</div></section>
+
+            <section class="lesson-card apply-section" id="sec-vận-dụng">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🚀</span>
+                    <h2 class="section-title">VẬN DỤNG</h2>
+                </div>
+                <div class="section-body">
+            
+<h3 class="subheading-h3"><span class="h3-num">1.</span> So sánh việc tìm thông tin trong sách với quy trình RAG.</h3>
+<p class="lesson-p">2. Nếu LLM sau này đọc được 1 triệu từ, có cần cắt nhỏ văn bản nữa không?
+
+Vì sao?</p>
+<p class="lesson-p">3. Hãy giải thích tại sao việc quản lí và cập nhật nguồn kiến thức trong RAG là quan trọng. Đưa ra một vi dụ cụ thể về hậu quả nếu nguồn kiến thức không được cập nhật thường xuyên.</p>
+<p class="lesson-p">AF</p>
+<p class="lesson-p">D</p>
+</div></section>

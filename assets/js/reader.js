@@ -1,59 +1,61 @@
 (function () {
+  "use strict";
+
   const THEME_KEY = "ai_books_theme";
+  const FONT_SIZE_KEY = "ai_books_font_size";
   const PROGRESS_KEY = "ai_books_progress";
-  const BOOKMARKS_KEY = "ai_books_bookmarks";
-  const THEMES = ["light", "sepia", "dark"];
-  const THEME_ICONS = { light: "☀️", sepia: "📜", dark: "🌙" };
 
-  const el = {
-    bookSwitcher: document.getElementById("bookSwitcher"),
-    toggleSidebarBtn: document.getElementById("toggleSidebarBtn"),
-    sidebar: document.getElementById("readerSidebar"),
-    lessonIndicator: document.getElementById("lessonIndicator"),
-    pageJumpInput: document.getElementById("pageJumpInput"),
-    pageTotalLabel: document.getElementById("pageTotalLabel"),
-    modeTwoBtn: document.getElementById("modeTwoBtn"),
-    modeOneBtn: document.getElementById("modeOneBtn"),
-    modeScrollBtn: document.getElementById("modeScrollBtn"),
-    zoomOutBtn: document.getElementById("zoomOutBtn"),
-    zoomResetBtn: document.getElementById("zoomResetBtn"),
-    zoomInBtn: document.getElementById("zoomInBtn"),
-    zoomLabel: document.getElementById("zoomLabel"),
-    bookmarkBtn: document.getElementById("bookmarkBtn"),
-    gridBtn: document.getElementById("gridBtn"),
-    themeCycleBtn: document.getElementById("themeCycleBtn"),
-    fullscreenBtn: document.getElementById("fullscreenBtn"),
-    tabToc: document.getElementById("tabToc"),
-    tabSearch: document.getElementById("tabSearch"),
-    tabBookmarks: document.getElementById("tabBookmarks"),
-    sidebarSearchInput: document.getElementById("sidebarSearchInput"),
-    sidebarSearchResults: document.getElementById("sidebarSearchResults"),
-    stage: document.getElementById("readerStage"),
-    spreadContainer: document.getElementById("spreadContainer"),
-    prevBtn: document.getElementById("prevBtn"),
-    nextBtn: document.getElementById("nextBtn"),
-    bottomPrevBtn: document.getElementById("bottomPrevBtn"),
-    bottomNextBtn: document.getElementById("bottomNextBtn"),
-    scrubber: document.getElementById("pageScrubber"),
-    bottomInfo: document.getElementById("bottomInfo"),
-    gridModal: document.getElementById("gridModal"),
-    gridModalTitle: document.getElementById("gridModalTitle"),
-    closeGridModal: document.getElementById("closeGridModal"),
-    thumbsGrid: document.getElementById("thumbsGrid"),
-  };
+  // Elements
+  const bookSwitcher = document.getElementById("bookSwitcher");
+  const lessonIndicator = document.getElementById("lessonIndicator");
+  const toggleSidebarBtn = document.getElementById("toggleSidebarBtn");
+  const readerSidebar = document.getElementById("readerSidebar");
+  const tabToc = document.getElementById("tabToc");
+  const tabSearch = document.getElementById("tabSearch");
+  const sidebarSearchInput = document.getElementById("sidebarSearchInput");
+  const sidebarSearchResults = document.getElementById("sidebarSearchResults");
+  const lessonContent = document.getElementById("lessonContent");
+  const outlineList = document.getElementById("outlineList");
+  const textReaderStage = document.getElementById("textReaderStage");
 
+  // Controls
+  const btnFontDec = document.getElementById("btnFontDec");
+  const btnFontInc = document.getElementById("btnFontInc");
+  const themeCycleBtn = document.getElementById("themeCycleBtn");
+  const btnViewScan = document.getElementById("btnViewScan");
+  const fullscreenBtn = document.getElementById("fullscreenBtn");
+
+  // Scan modal
+  const scanModal = document.getElementById("scanModal");
+  const scanModalTitle = document.getElementById("scanModalTitle");
+  const scanImage = document.getElementById("scanImage");
+  const scanPageIndicator = document.getElementById("scanPageIndicator");
+  const scanPrevBtn = document.getElementById("scanPrevBtn");
+  const scanNextBtn = document.getElementById("scanNextBtn");
+  const closeScanModal = document.getElementById("closeScanModal");
+
+  // State
   let books = [];
-  let currentBook = null;
-  let currentPage = 1;
-  let viewMode = window.innerWidth >= 960 ? "two" : "one";
-  let zoom = 100;
-  let spreads = [];
-  const searchCache = new Map();
-  let scrollObserver = null;
-  let isSyncingScroll = false;
+  let currentBookId = "lop-10";
+  let currentBookMeta = null;
+  let currentLessons = [];
+  let currentLessonIndex = 0;
+  let currentFontSize = 16.5;
 
-  function pad3(n) {
-    return String(n).padStart(3, "0");
+  // Scan modal state
+  let scanStartPage = 1;
+  let scanEndPage = 1;
+  let scanCurrentPage = 1;
+
+  // Cache lessons
+  const lessonsCache = new Map();
+
+  function escapeHtml(str) {
+    return (str || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
   }
 
   function normalizeVi(str) {
@@ -64,737 +66,514 @@
       .replace(/đ/g, "d");
   }
 
-  function escapeHtml(str) {
-    return (str || "")
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
+  // --- THEME ---
+  function applyTheme(t) {
+    const valid = ["light", "sepia", "dark"];
+    const theme = valid.includes(t) ? t : "light";
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem(THEME_KEY, theme);
+    const icons = { light: "☀️", sepia: "📜", dark: "🌙" };
+    themeCycleBtn.textContent = icons[theme] || "☀️";
   }
 
-  function applyTheme(theme) {
-    const t = THEMES.includes(theme) ? theme : "light";
-    document.documentElement.setAttribute("data-theme", t);
-    localStorage.setItem(THEME_KEY, t);
-    el.themeCycleBtn.textContent = THEME_ICONS[t];
-  }
-
-  applyTheme(localStorage.getItem(THEME_KEY) || "light");
-  el.themeCycleBtn.addEventListener("click", () => {
+  function cycleTheme() {
     const cur = document.documentElement.getAttribute("data-theme") || "light";
-    const next = THEMES[(THEMES.indexOf(cur) + 1) % THEMES.length];
+    const next = cur === "light" ? "sepia" : cur === "sepia" ? "dark" : "light";
     applyTheme(next);
+  }
+
+  themeCycleBtn.addEventListener("click", cycleTheme);
+  applyTheme(localStorage.getItem(THEME_KEY) || "light");
+
+  // --- FONT SIZE ---
+  function setFontSize(size) {
+    currentFontSize = Math.min(Math.max(14, size), 22);
+    document.documentElement.style.setProperty("--reader-font-size", `${currentFontSize}px`);
+    localStorage.setItem(FONT_SIZE_KEY, String(currentFontSize));
+  }
+
+  btnFontDec.addEventListener("click", () => setFontSize(currentFontSize - 1));
+  btnFontInc.addEventListener("click", () => setFontSize(currentFontSize + 1));
+  setFontSize(parseFloat(localStorage.getItem(FONT_SIZE_KEY)) || 16.5);
+
+  // --- FULLSCREEN ---
+  fullscreenBtn.addEventListener("click", () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(() => {});
+    } else {
+      document.exitFullscreen().catch(() => {});
+    }
   });
 
-  function buildSpreads(book) {
-    const list = [];
-    const start = book.firstSpreadStart || 2;
-    for (let p = 1; p < start; p++) {
-      list.push([p]);
-    }
-    for (let p = start; p <= book.pages; p += 2) {
-      if (p + 1 <= book.pages) {
-        list.push([p, p + 1]);
-      } else {
-        list.push([p]);
+  // --- SIDEBAR TOGGLE ---
+  toggleSidebarBtn.addEventListener("click", () => {
+    readerSidebar.classList.toggle("collapsed");
+    toggleSidebarBtn.classList.toggle("active", !readerSidebar.classList.contains("collapsed"));
+  });
+
+  // --- SIDEBAR TABS ---
+  document.querySelectorAll(".sidebar-tab").forEach((tab) => {
+    tab.addEventListener("click", () => {
+      document.querySelectorAll(".sidebar-tab").forEach((t) => t.classList.remove("active"));
+      tab.classList.add("active");
+      const target = tab.getAttribute("data-tab");
+      tabToc.classList.toggle("active", target === "toc");
+      tabSearch.classList.toggle("active", target === "search");
+      if (target === "search") {
+        sidebarSearchInput.focus();
       }
-    }
-    return list;
-  }
+    });
+  });
 
-  function findSpreadIndex(page) {
-    for (let i = 0; i < spreads.length; i++) {
-      if (spreads[i].includes(page)) return i;
-    }
-    return 0;
-  }
+  // --- INIT ---
+  async function init() {
+    try {
+      const res = await fetch("data/books.json");
+      const data = await res.json();
+      books = data.books || data;
 
-  function getFlatTocEntries(book) {
-    const entries = [];
-    for (const grp of book.toc || []) {
-      if (grp.page) {
-        entries.push({ title: grp.group, page: grp.page, printPage: grp.printPage });
+      const urlParams = new URLSearchParams(window.location.search);
+      const bParam = urlParams.get("book");
+      if (bParam && books.some((b) => b.id === bParam)) {
+        currentBookId = bParam;
       }
-      for (const it of grp.items || []) {
-        entries.push({ title: it.title, page: it.page, printPage: it.printPage });
+
+      currentBookMeta = books.find((b) => b.id === currentBookId) || books[0];
+
+      renderBookSwitcher();
+      await loadBook(currentBookId);
+
+      // Handle lesson param or page param
+      const lesParam = urlParams.get("lesson");
+      const pageParam = parseInt(urlParams.get("page"), 10);
+
+      if (lesParam) {
+        const foundIdx = currentLessons.findIndex((l) => l.id === lesParam);
+        if (foundIdx >= 0) {
+          selectLesson(foundIdx);
+          return;
+        }
       }
-    }
-    entries.sort((a, b) => a.page - b.page);
-    return entries;
-  }
 
-  function findCurrentSection(page) {
-    const entries = getFlatTocEntries(currentBook);
-    let active = entries[0] || { title: currentBook.title, page: 1 };
-    for (const item of entries) {
-      if (item.page <= page) active = item;
-      else break;
-    }
-    return active;
-  }
+      if (!isNaN(pageParam)) {
+        const foundIdx = currentLessons.findIndex(
+          (l) => pageParam >= l.startPage && pageParam <= l.endPage
+        );
+        if (foundIdx >= 0) {
+          selectLesson(foundIdx);
+          return;
+        }
+      }
 
-  function formatPageLabel(page) {
-    if (!currentBook) return `Trang ${page}`;
-    if (page === 1) return "Bìa trước";
-    if (page === currentBook.pages) return "Bìa sau";
-    if (currentBook.pageOffset === 2 && page === 2) return "Công văn thẩm định";
-    if (currentBook.pageOffset === 2 && page === 3) return "Bìa lót";
-    if (currentBook.pageOffset === 1 && page === 2) return "Bìa lót";
-    return `Trang in ${page - currentBook.pageOffset}`;
-  }
-
-  function saveProgress() {
-    if (!currentBook) return;
-    try {
-      const map = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
-      map[currentBook.id] = { page: currentPage, updatedAt: Date.now() };
-      localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
-    } catch {
-      /* ignore */
-    }
-  }
-
-  function getBookmarks() {
-    try {
-      const all = JSON.parse(localStorage.getItem(BOOKMARKS_KEY) || "{}");
-      return all[currentBook.id] || [];
-    } catch {
-      return [];
-    }
-  }
-
-  function setBookmarks(list) {
-    try {
-      const all = JSON.parse(localStorage.getItem(BOOKMARKS_KEY) || "{}");
-      all[currentBook.id] = list;
-      localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(all));
-    } catch {
-      /* ignore */
-    }
-  }
-
-  function updateBookmarkUI() {
-    const bms = getBookmarks();
-    const active = bms.some((b) => b.page === currentPage);
-    el.bookmarkBtn.textContent = active ? "★" : "☆";
-    el.bookmarkBtn.classList.toggle("active", active);
-    renderBookmarksTab();
-  }
-
-  function renderBookmarksTab() {
-    if (!currentBook) return;
-    const bms = getBookmarks().sort((a, b) => a.page - b.page);
-    if (!bms.length) {
-      el.tabBookmarks.innerHTML = `<p style="font-size:13px;color:var(--text-soft);">Chưa có trang nào được đánh dấu. Nhấn nút ☆ hoặc phím <kbd>B</kbd> để lưu nhanh trang đang đọc.</p>`;
-      return;
-    }
-    el.tabBookmarks.innerHTML = bms
-      .map(
-        (b) => `
-        <div class="sidebar-search-item" style="display:flex;align-items:center;justify-content:space-between;gap:8px;">
-          <button style="text-align:left;flex:1;" data-jump-page="${b.page}">
-            <div style="font-size:12px;font-weight:700;color:var(--accent);">${escapeHtml(formatPageLabel(b.page))} (Ảnh ${b.page})</div>
-            <div style="font-size:13px;color:var(--text-muted);margin-top:2px;">${escapeHtml(b.title)}</div>
-          </button>
-          <button class="icon-btn" style="height:28px;min-width:28px;padding:0;" data-del-bm="${b.page}" title="Xoá đánh dấu">✕</button>
+      // Default to first real lesson (or first item)
+      const firstBaiIdx = currentLessons.findIndex((l) => l.id.startsWith("bai-"));
+      selectLesson(firstBaiIdx >= 0 ? firstBaiIdx : 0);
+    } catch (err) {
+      console.error("Init reader error:", err);
+      lessonContent.innerHTML = `
+        <div style="padding: 40px; color: #ef4444; text-align: center;">
+          <h3>Không thể tải sách</h3>
+          <p>${escapeHtml(err.message)}</p>
         </div>
-      `
-      )
-      .join("");
-
-    el.tabBookmarks.querySelectorAll("[data-jump-page]").forEach((btn) => {
-      btn.addEventListener("click", () => goToPage(Number(btn.dataset.jumpPage)));
-    });
-    el.tabBookmarks.querySelectorAll("[data-del-bm]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const p = Number(btn.dataset.delBm);
-        setBookmarks(getBookmarks().filter((x) => x.page !== p));
-        updateBookmarkUI();
-      });
-    });
+      `;
+    }
   }
 
   function renderBookSwitcher() {
-    el.bookSwitcher.innerHTML = books
+    bookSwitcher.innerHTML = books
       .map(
         (b) => `
-        <button class="book-tab ${b.id === currentBook.id ? "active" : ""}" data-book-id="${b.id}">
+        <button class="book-tab ${b.id === currentBookId ? "active" : ""}" data-book="${b.id}">
           Lớp ${b.grade}
         </button>
       `
       )
       .join("");
-    el.bookSwitcher.querySelectorAll("[data-book-id]").forEach((btn) => {
-      btn.addEventListener("click", () => switchBook(btn.dataset.bookId, 1));
-    });
-  }
 
-  function renderToc() {
-    const activeSec = findCurrentSection(currentPage);
-    el.tabToc.innerHTML = (currentBook.toc || [])
-      .map((grp) => {
-        const grpActive = grp.page && activeSec.page === grp.page ? "active" : "";
-        const grpHtml = grp.page
-          ? `<button class="toc-group-title ${grpActive}" style="width:100%;" data-toc-page="${grp.page}">
-               <span>${escapeHtml(grp.group)}</span>
-               <span class="toc-p">Tr.${grp.printPage ?? grp.page}</span>
-             </button>`
-          : `<div class="toc-group-title"><span>${escapeHtml(grp.group)}</span></div>`;
-
-        const itemsHtml = (grp.items || [])
-          .map((it) => {
-            const isAct = activeSec.page === it.page ? "active" : "";
-            return `
-              <button class="toc-item ${isAct}" style="width:100%;text-align:left;" data-toc-page="${it.page}">
-                <span>${escapeHtml(it.title)}</span>
-                <span class="toc-p">${it.printPage ? `Tr.${it.printPage}` : `Ảnh ${it.page}`}</span>
-              </button>
-            `;
-          })
-          .join("");
-
-        return `<div class="toc-group">${grpHtml}${itemsHtml}</div>`;
-      })
-      .join("");
-
-    el.tabToc.querySelectorAll("[data-toc-page]").forEach((btn) => {
+    bookSwitcher.querySelectorAll(".book-tab").forEach((btn) => {
       btn.addEventListener("click", () => {
-        goToPage(Number(btn.dataset.tocPage));
-        if (window.innerWidth < 960) el.sidebar.classList.add("collapsed");
-      });
-    });
-  }
-
-  function highlightActiveToc() {
-    const activeSec = findCurrentSection(currentPage);
-    el.tabToc.querySelectorAll("[data-toc-page]").forEach((btn) => {
-      const p = Number(btn.dataset.tocPage);
-      const isAct = p === activeSec.page;
-      btn.classList.toggle("active", isAct);
-      if (isAct) {
-        btn.scrollIntoView({ block: "nearest" });
-      }
-    });
-    el.lessonIndicator.textContent = activeSec.title;
-  }
-
-  function preloadAround(page) {
-    const candidates = [page - 2, page - 1, page + 1, page + 2, page + 3];
-    for (const p of candidates) {
-      if (p >= 1 && p <= currentBook.pages) {
-        const img = new Image();
-        img.src = `books/${currentBook.id}/page-${pad3(p)}.webp`;
-      }
-    }
-  }
-
-  function applyZoom() {
-    el.zoomLabel.textContent = `${zoom}%`;
-    const isZoomed = zoom > 100 && viewMode !== "scroll";
-    el.stage.classList.toggle("zoomed", isZoomed);
-
-    if (viewMode === "scroll") {
-      el.spreadContainer.style.transform = "";
-      return;
-    }
-
-    const imgs = el.spreadContainer.querySelectorAll(".page-img");
-    imgs.forEach((img) => {
-      if (zoom === 100) {
-        img.style.height = "";
-      } else {
-        img.style.height = `calc((100dvh - 134px) * ${zoom / 100})`;
-      }
-    });
-  }
-
-  function renderStage(animate = false) {
-    el.modeTwoBtn.classList.toggle("active", viewMode === "two");
-    el.modeOneBtn.classList.toggle("active", viewMode === "one");
-    el.modeScrollBtn.classList.toggle("active", viewMode === "scroll");
-
-    el.stage.classList.toggle("scroll-mode", viewMode === "scroll");
-    el.prevBtn.style.display = viewMode === "scroll" ? "none" : "flex";
-    el.nextBtn.style.display = viewMode === "scroll" ? "none" : "flex";
-
-    if (scrollObserver) {
-      scrollObserver.disconnect();
-      scrollObserver = null;
-    }
-
-    if (viewMode === "scroll") {
-      renderScrollMode();
-      return;
-    }
-
-    let pair = [currentPage];
-    if (viewMode === "two") {
-      const sIdx = findSpreadIndex(currentPage);
-      pair = spreads[sIdx] || [currentPage];
-      currentPage = pair[0];
-    }
-
-    const cls = pair.length === 2 ? "spread-container spread-pair" : "spread-container spread-single";
-    el.spreadContainer.className = cls + (animate ? " flipping" : "");
-
-    el.spreadContainer.innerHTML = pair
-      .map(
-        (p) => `
-        <div class="book-page-frame">
-          <img class="page-img" src="books/${currentBook.id}/page-${pad3(p)}.webp" alt="${escapeHtml(currentBook.title)} - ${escapeHtml(formatPageLabel(p))}" draggable="false" />
-        </div>
-      `
-      )
-      .join("");
-
-    if (animate) {
-      requestAnimationFrame(() => {
-        setTimeout(() => el.spreadContainer.classList.remove("flipping"), 40);
-      });
-    }
-
-    applyZoom();
-    updateNavButtons(pair);
-    preloadAround(currentPage);
-  }
-
-  function renderScrollMode() {
-    el.spreadContainer.className = "scroll-stack";
-    const cards = [];
-    for (let p = 1; p <= currentBook.pages; p++) {
-      cards.push(`
-        <div class="scroll-page-card" data-scroll-page="${p}">
-          <span class="scroll-page-tag">${escapeHtml(formatPageLabel(p))}</span>
-          <img src="books/${currentBook.id}/thumbs/page-${pad3(p)}.webp" data-full="books/${currentBook.id}/page-${pad3(p)}.webp" alt="Trang ${p}" loading="lazy" />
-        </div>
-      `);
-    }
-    el.spreadContainer.innerHTML = cards.join("");
-
-    const cardEls = el.spreadContainer.querySelectorAll(".scroll-page-card");
-    scrollObserver = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          const p = Number(entry.target.dataset.scrollPage);
-          if (entry.isIntersecting) {
-            const img = entry.target.querySelector("img");
-            if (img && img.dataset.full && img.getAttribute("src") !== img.dataset.full) {
-              img.setAttribute("src", img.dataset.full);
-            }
-            if (!isSyncingScroll && entry.intersectionRatio >= 0.35) {
-              currentPage = p;
-              updatePageIndicators(false);
-            }
-          }
+        const bid = btn.getAttribute("data-book");
+        if (bid !== currentBookId) {
+          switchBook(bid);
         }
-      },
-      { root: el.stage, threshold: [0.05, 0.35] }
-    );
-    cardEls.forEach((c) => scrollObserver.observe(c));
-
-    // Jump to currentPage
-    const target = el.spreadContainer.querySelector(`[data-scroll-page="${currentPage}"]`);
-    if (target) {
-      isSyncingScroll = true;
-      target.scrollIntoView({ behavior: "auto", block: "start" });
-      setTimeout(() => {
-        isSyncingScroll = false;
-      }, 250);
-    }
-    updatePageIndicators(false);
-  }
-
-  function updateNavButtons(pair) {
-    if (viewMode === "two") {
-      const idx = findSpreadIndex(currentPage);
-      el.prevBtn.disabled = idx <= 0;
-      el.nextBtn.disabled = idx >= spreads.length - 1;
-    } else {
-      el.prevBtn.disabled = currentPage <= 1;
-      el.nextBtn.disabled = currentPage >= currentBook.pages;
-    }
-    el.bottomPrevBtn.disabled = el.prevBtn.disabled;
-    el.bottomNextBtn.disabled = el.nextBtn.disabled;
-    updatePageIndicators(true, pair);
-  }
-
-  function updatePageIndicators(syncUrl = true, pair = null) {
-    el.pageJumpInput.value = String(currentPage);
-    el.pageJumpInput.max = String(currentBook.pages);
-    el.pageTotalLabel.textContent = `/ ${currentBook.pages}`;
-    el.scrubber.max = String(currentBook.pages);
-    el.scrubber.value = String(currentPage);
-
-    if (pair && pair.length === 2) {
-      el.bottomInfo.textContent = `${formatPageLabel(pair[0])} – ${formatPageLabel(pair[1])} (Ảnh ${pair[0]}–${pair[1]}/${currentBook.pages})`;
-    } else {
-      el.bottomInfo.textContent = `${formatPageLabel(currentPage)} (Ảnh ${currentPage}/${currentBook.pages})`;
-    }
-
-    document.title = `${currentBook.title} · ${formatPageLabel(currentPage)}`;
-    highlightActiveToc();
-    updateBookmarkUI();
-    saveProgress();
-
-    if (syncUrl) {
-      const url = new URL(window.location.href);
-      url.searchParams.set("book", currentBook.id);
-      url.searchParams.set("page", String(currentPage));
-      history.replaceState(null, "", url.toString());
-    }
-  }
-
-  function goToPage(page, animate = true) {
-    if (!currentBook) return;
-    const p = Math.min(Math.max(1, page), currentBook.pages);
-    currentPage = p;
-
-    if (viewMode === "scroll") {
-      const target = el.spreadContainer.querySelector(`[data-scroll-page="${p}"]`);
-      if (target) {
-        isSyncingScroll = true;
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
-        setTimeout(() => {
-          isSyncingScroll = false;
-        }, 400);
-      }
-      updatePageIndicators(true);
-      return;
-    }
-
-    el.stage.scrollTop = 0;
-    el.stage.scrollLeft = 0;
-    renderStage(animate);
-  }
-
-  function stepPage(delta) {
-    if (!currentBook) return;
-    if (viewMode === "two") {
-      const idx = findSpreadIndex(currentPage);
-      const nextIdx = Math.min(Math.max(0, idx + delta), spreads.length - 1);
-      if (nextIdx !== idx) {
-        goToPage(spreads[nextIdx][0], true);
-      }
-    } else {
-      goToPage(currentPage + delta, true);
-    }
-  }
-
-  function switchBook(bookId, startPage = null) {
-    const found = books.find((b) => b.id === bookId) || books[0];
-    if (!found) return;
-    currentBook = found;
-    document.documentElement.style.setProperty("--accent", currentBook.accent);
-    document.documentElement.style.setProperty("--accent-soft", currentBook.accentSoft);
-    spreads = buildSpreads(currentBook);
-
-    if (startPage !== null) {
-      currentPage = Math.min(Math.max(1, startPage), currentBook.pages);
-    } else {
-      try {
-        const map = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
-        currentPage = map[currentBook.id]?.page || 1;
-      } catch {
-        currentPage = 1;
-      }
-    }
-
-    renderBookSwitcher();
-    renderToc();
-    el.sidebarSearchResults.innerHTML = "";
-    el.sidebarSearchInput.value = "";
-    renderStage(false);
-  }
-
-  // Controls
-  el.prevBtn.addEventListener("click", () => stepPage(-1));
-  el.nextBtn.addEventListener("click", () => stepPage(1));
-  el.bottomPrevBtn.addEventListener("click", () => stepPage(-1));
-  el.bottomNextBtn.addEventListener("click", () => stepPage(1));
-
-  el.scrubber.addEventListener("input", () => {
-    goToPage(Number(el.scrubber.value), false);
-  });
-
-  el.pageJumpInput.addEventListener("change", () => {
-    goToPage(Number(el.pageJumpInput.value) || 1, true);
-  });
-
-  el.modeTwoBtn.addEventListener("click", () => {
-    viewMode = "two";
-    renderStage(false);
-  });
-  el.modeOneBtn.addEventListener("click", () => {
-    viewMode = "one";
-    renderStage(false);
-  });
-  el.modeScrollBtn.addEventListener("click", () => {
-    viewMode = "scroll";
-    renderStage(false);
-  });
-
-  el.zoomOutBtn.addEventListener("click", () => {
-    zoom = Math.max(50, zoom - 15);
-    applyZoom();
-  });
-  el.zoomInBtn.addEventListener("click", () => {
-    zoom = Math.min(250, zoom + 15);
-    applyZoom();
-  });
-  el.zoomResetBtn.addEventListener("click", () => {
-    zoom = 100;
-    applyZoom();
-  });
-
-  el.toggleSidebarBtn.addEventListener("click", () => {
-    const collapsed = el.sidebar.classList.toggle("collapsed");
-    el.toggleSidebarBtn.classList.toggle("active", !collapsed);
-  });
-
-  document.querySelectorAll(".sidebar-tab").forEach((tabBtn) => {
-    tabBtn.addEventListener("click", () => {
-      const target = tabBtn.dataset.tab;
-      document.querySelectorAll(".sidebar-tab").forEach((b) => b.classList.toggle("active", b === tabBtn));
-      el.tabToc.classList.toggle("active", target === "toc");
-      el.tabSearch.classList.toggle("active", target === "search");
-      el.tabBookmarks.classList.toggle("active", target === "bookmarks");
-      if (target === "search") {
-        setTimeout(() => el.sidebarSearchInput.focus(), 50);
-      }
-    });
-  });
-
-  el.bookmarkBtn.addEventListener("click", () => {
-    const bms = getBookmarks();
-    const exists = bms.some((b) => b.page === currentPage);
-    if (exists) {
-      setBookmarks(bms.filter((b) => b.page !== currentPage));
-    } else {
-      const sec = findCurrentSection(currentPage);
-      bms.push({ page: currentPage, title: sec.title });
-      setBookmarks(bms);
-    }
-    updateBookmarkUI();
-  });
-
-  // Thumbnail grid
-  el.gridBtn.addEventListener("click", () => {
-    el.gridModalTitle.textContent = `Tất cả ${currentBook.pages} trang — ${currentBook.title}`;
-    const tiles = [];
-    for (let p = 1; p <= currentBook.pages; p++) {
-      tiles.push(`
-        <button class="thumb-tile ${p === currentPage ? "active" : ""}" data-grid-page="${p}">
-          <img src="books/${currentBook.id}/thumbs/page-${pad3(p)}.webp" alt="Trang ${p}" loading="lazy" />
-          <span>${escapeHtml(formatPageLabel(p))}</span>
-        </button>
-      `);
-    }
-    el.thumbsGrid.innerHTML = tiles.join("");
-    el.thumbsGrid.querySelectorAll("[data-grid-page]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        el.gridModal.classList.remove("open");
-        goToPage(Number(btn.dataset.gridPage), false);
       });
     });
-    el.gridModal.classList.add("open");
-  });
+  }
 
-  el.closeGridModal.addEventListener("click", () => el.gridModal.classList.remove("open"));
-  el.gridModal.addEventListener("click", (e) => {
-    if (e.target === el.gridModal) el.gridModal.classList.remove("open");
-  });
+  async function switchBook(bookId) {
+    currentBookId = bookId;
+    currentBookMeta = books.find((b) => b.id === currentBookId) || books[0];
+    renderBookSwitcher();
 
-  el.fullscreenBtn.addEventListener("click", () => {
-    if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen?.();
+    // Update URL
+    const url = new URL(window.location);
+    url.searchParams.set("book", bookId);
+    url.searchParams.delete("lesson");
+    url.searchParams.delete("page");
+    window.history.pushState({}, "", url);
+
+    await loadBook(bookId);
+    const firstBaiIdx = currentLessons.findIndex((l) => l.id.startsWith("bai-"));
+    selectLesson(firstBaiIdx >= 0 ? firstBaiIdx : 0);
+  }
+
+  async function loadBook(bookId) {
+    if (lessonsCache.has(bookId)) {
+      currentLessons = lessonsCache.get(bookId);
     } else {
-      document.exitFullscreen?.();
+      const res = await fetch(`data/lessons-${bookId}.json`);
+      currentLessons = await res.json();
+      lessonsCache.set(bookId, currentLessons);
     }
-  });
 
-  // Search inside current book
-  async function ensureBookSearch(bookId) {
-    if (searchCache.has(bookId)) return searchCache.get(bookId);
-    const res = await fetch(`data/search-${bookId}.json`);
-    const docs = await res.json();
-    const indexed = docs.map((d) => ({ ...d, norm: normalizeVi(d.t) }));
-    searchCache.set(bookId, indexed);
-    return indexed;
+    renderToC();
+    setupSearch();
   }
 
-  function makeSnippet(rawText, query) {
-    const normText = normalizeVi(rawText);
-    const normQuery = normalizeVi(query);
-    const idx = normText.indexOf(normQuery);
-    if (idx === -1) return escapeHtml(rawText.slice(0, 110));
-    const start = Math.max(0, idx - 36);
-    const end = Math.min(rawText.length, idx + query.length + 74);
-    const before = escapeHtml(rawText.slice(start, idx));
-    const match = escapeHtml(rawText.slice(idx, idx + query.length));
-    const after = escapeHtml(rawText.slice(idx + query.length, end));
-    return `${start > 0 ? "..." : ""}${before}<mark>${match}</mark>${after}${end < rawText.length ? "..." : ""}`;
+  function renderToC() {
+    // Group lessons by `group`
+    const groups = new Map();
+    currentLessons.forEach((les, idx) => {
+      const g = les.group || "Chung";
+      if (!groups.has(g)) {
+        groups.set(g, []);
+      }
+      groups.get(g).push({ ...les, index: idx });
+    });
+
+    let html = "";
+    for (const [groupTitle, items] of groups.entries()) {
+      html += `
+        <div class="toc-group">
+          <div class="toc-group-title">
+            <span>${escapeHtml(groupTitle)}</span>
+          </div>
+          <div class="toc-group-items">
+            ${items
+              .map(
+                (it) => `
+                <a class="toc-item ${it.index === currentLessonIndex ? "active" : ""}" 
+                   href="#" data-index="${it.index}" id="toc-item-${it.index}">
+                  <span class="toc-item-title">${escapeHtml(it.title)}</span>
+                  <span class="toc-p">Tr.${it.startPage}</span>
+                </a>
+              `
+              )
+              .join("")}
+          </div>
+        </div>
+      `;
+    }
+
+    tabToc.innerHTML = html;
+
+    tabToc.querySelectorAll(".toc-item").forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const idx = parseInt(link.getAttribute("data-index"), 10);
+        selectLesson(idx);
+        // Mobile auto collapse sidebar
+        if (window.innerWidth <= 960) {
+          readerSidebar.classList.add("collapsed");
+          toggleSidebarBtn.classList.remove("active");
+        }
+      });
+    });
   }
 
-  let searchDebounce = null;
-  el.sidebarSearchInput.addEventListener("input", () => {
-    clearTimeout(searchDebounce);
-    const q = el.sidebarSearchInput.value.trim();
-    if (q.length < 2) {
-      el.sidebarSearchResults.innerHTML = "";
+  function selectLesson(index) {
+    if (index < 0 || index >= currentLessons.length) return;
+    currentLessonIndex = index;
+    const lesson = currentLessons[index];
+
+    // Update active in ToC
+    tabToc.querySelectorAll(".toc-item").forEach((el, idx) => {
+      el.classList.toggle("active", idx === index);
+    });
+
+    const activeEl = document.getElementById(`toc-item-${index}`);
+    if (activeEl) {
+      activeEl.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+
+    // Update toolbar indicator
+    lessonIndicator.textContent = `${currentBookMeta.title} · ${lesson.title}`;
+    document.title = `${lesson.title} — ${currentBookMeta.title}`;
+
+    // Update URL without reload
+    const url = new URL(window.location);
+    url.searchParams.set("book", currentBookId);
+    url.searchParams.set("lesson", lesson.id);
+    url.searchParams.delete("page");
+    window.history.pushState({}, "", url);
+
+    // Save reading progress
+    try {
+      const prog = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
+      prog[currentBookId] = {
+        lessonId: lesson.id,
+        lessonTitle: lesson.title,
+        page: lesson.startPage,
+        updatedAt: Date.now(),
+      };
+      localStorage.setItem(PROGRESS_KEY, JSON.stringify(prog));
+    } catch {}
+
+    // Prepare Scan button pages
+    scanStartPage = lesson.startPage;
+    scanEndPage = lesson.endPage;
+    scanCurrentPage = lesson.startPage;
+
+    // Render HTML content
+    renderLessonBody(lesson, index);
+
+    // Scroll to top of stage
+    textReaderStage.scrollTop = 0;
+  }
+
+  function renderLessonBody(lesson, index) {
+    let html = lesson.html || `<div class="lesson-p">${escapeHtml(lesson.summary)}</div>`;
+
+    // Append Bottom Navigation
+    const prevLesson = index > 0 ? currentLessons[index - 1] : null;
+    const nextLesson = index + 1 < currentLessons.length ? currentLessons[index + 1] : null;
+
+    let navHtml = '<nav class="lesson-bottom-nav">';
+    if (prevLesson) {
+      navHtml += `
+        <a href="#" class="btn-lesson-nav nav-prev" data-target-index="${index - 1}">
+          <span class="nav-dir-label">‹ Bài trước</span>
+          <span class="nav-lesson-name">${escapeHtml(prevLesson.title)}</span>
+        </a>
+      `;
+    } else {
+      navHtml += `<div></div>`;
+    }
+
+    if (nextLesson) {
+      navHtml += `
+        <a href="#" class="btn-lesson-nav nav-next" data-target-index="${index + 1}">
+          <span class="nav-dir-label">Bài tiếp theo ›</span>
+          <span class="nav-lesson-name">${escapeHtml(nextLesson.title)}</span>
+        </a>
+      `;
+    }
+    navHtml += "</nav>";
+
+    lessonContent.innerHTML = html + navHtml;
+
+    // Attach bottom nav clicks
+    lessonContent.querySelectorAll(".btn-lesson-nav").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        const target = parseInt(btn.getAttribute("data-target-index"), 10);
+        selectLesson(target);
+      });
+    });
+
+    // Attach copy code buttons
+    lessonContent.querySelectorAll(".btn-copy-code").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const pre = btn.closest(".code-block-wrapper").querySelector("code");
+        if (pre) {
+          navigator.clipboard.writeText(pre.innerText).then(() => {
+            const old = btn.textContent;
+            btn.textContent = "✓ Đã chép";
+            setTimeout(() => (btn.textContent = old), 1800);
+          });
+        }
+      });
+    });
+
+    // Build Right Outline
+    buildOutline();
+  }
+
+  function buildOutline() {
+    const headings = lessonContent.querySelectorAll(
+      ".section-badge-header, .subheading-h3"
+    );
+    if (!headings.length) {
+      outlineList.innerHTML = '<li style="color:var(--text-soft); font-size:12.5px;">Toàn văn bài học</li>';
       return;
     }
-    searchDebounce = setTimeout(async () => {
-      const docs = await ensureBookSearch(currentBook.id);
-      const normQ = normalizeVi(q);
-      const hits = docs.filter((d) => d.norm.includes(normQ)).slice(0, 40);
-      if (!hits.length) {
-        el.sidebarSearchResults.innerHTML = `<p style="font-size:13px;color:var(--text-soft);">Không tìm thấy "${escapeHtml(q)}".</p>`;
+
+    let outlineHtml = "";
+    headings.forEach((h, i) => {
+      const card = h.closest(".lesson-card");
+      let id = card ? card.id : null;
+      if (!id) {
+        id = `heading-ref-${i}`;
+        h.id = id;
+      }
+      const title = h.querySelector(".section-title")?.textContent || h.textContent;
+      outlineHtml += `
+        <li>
+          <a class="outline-link" href="#${id}">${escapeHtml(title.trim())}</a>
+        </li>
+      `;
+    });
+
+    outlineList.innerHTML = outlineHtml;
+
+    outlineList.querySelectorAll(".outline-link").forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute("href").slice(1);
+        const targetEl = document.getElementById(targetId);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+          outlineList.querySelectorAll(".outline-link").forEach((l) => l.classList.remove("active"));
+          link.classList.add("active");
+        }
+      });
+    });
+  }
+
+  // --- SEARCH ---
+  function setupSearch() {
+    sidebarSearchInput.addEventListener("input", () => {
+      const q = sidebarSearchInput.value.trim();
+      if (!q) {
+        sidebarSearchResults.innerHTML = "";
         return;
       }
-      el.sidebarSearchResults.innerHTML =
-        `<div style="font-size:12px;color:var(--text-soft);margin-bottom:8px;">Tìm thấy ${hits.length}${hits.length === 40 ? "+" : ""} trang khớp:</div>` +
-        hits
-          .map(
-            (d) => `
-          <button class="sidebar-search-item" data-sr-page="${d.p}">
-            <div style="font-size:12px;font-weight:700;color:var(--accent);margin-bottom:4px;">${escapeHtml(d.label)} (Ảnh ${d.p})</div>
-            <div style="font-size:12.5px;color:var(--text-muted);line-height:1.45;">${makeSnippet(d.t, q)}</div>
-          </button>
-        `
-          )
-          .join("");
-      el.sidebarSearchResults.querySelectorAll("[data-sr-page]").forEach((btn) => {
-        btn.addEventListener("click", () => goToPage(Number(btn.dataset.srPage), true));
+
+      const qNorm = normalizeVi(q);
+      const matches = [];
+
+      currentLessons.forEach((les, idx) => {
+        const titleNorm = normalizeVi(les.title);
+        const textNorm = normalizeVi(les.summary + " " + (les.html || ""));
+
+        let score = 0;
+        if (titleNorm.includes(qNorm)) score += 10;
+        if (textNorm.includes(qNorm)) score += 2;
+
+        if (score > 0) {
+          // Find matching excerpt
+          let snippet = les.summary;
+          const pos = textNorm.indexOf(qNorm);
+          if (pos >= 0) {
+            const rawText = les.summary;
+            const start = Math.max(0, pos - 40);
+            snippet = (start > 0 ? "..." : "") + rawText.slice(start, start + 120) + "...";
+          }
+          matches.push({ lesson: les, index: idx, snippet, score });
+        }
       });
-    }, 160);
-  });
 
-  // Panning when zoomed + double click zoom + wheel zoom
-  let dragging = false;
-  let dragStart = { x: 0, y: 0, sl: 0, st: 0 };
+      matches.sort((a, b) => b.score - a.score);
 
-  el.stage.addEventListener("mousedown", (e) => {
-    if (zoom <= 100 || viewMode === "scroll") return;
-    dragging = true;
-    el.stage.classList.add("dragging");
-    dragStart = { x: e.clientX, y: e.clientY, sl: el.stage.scrollLeft, st: el.stage.scrollTop };
-  });
-
-  window.addEventListener("mousemove", (e) => {
-    if (!dragging) return;
-    el.stage.scrollLeft = dragStart.sl - (e.clientX - dragStart.x);
-    el.stage.scrollTop = dragStart.st - (e.clientY - dragStart.y);
-  });
-
-  window.addEventListener("mouseup", () => {
-    dragging = false;
-    el.stage.classList.remove("dragging");
-  });
-
-  el.stage.addEventListener("dblclick", () => {
-    if (viewMode === "scroll") return;
-    zoom = zoom === 100 ? 160 : 100;
-    applyZoom();
-  });
-
-  el.stage.addEventListener(
-    "wheel",
-    (e) => {
-      if (e.ctrlKey && viewMode !== "scroll") {
-        e.preventDefault();
-        zoom = Math.min(250, Math.max(50, zoom + (e.deltaY < 0 ? 10 : -10)));
-        applyZoom();
+      if (!matches.length) {
+        sidebarSearchResults.innerHTML = `
+          <div style="padding: 16px; color: var(--text-soft); font-size: 13px; text-align: center;">
+            Không tìm thấy kết quả phù hợp cho "<strong>${escapeHtml(q)}</strong>"
+          </div>
+        `;
+        return;
       }
-    },
-    { passive: false }
-  );
 
-  // Touch swipe on mobile/tablet
-  let touchStartX = null;
-  let touchStartY = null;
-  el.stage.addEventListener(
-    "touchstart",
-    (e) => {
-      if (e.touches.length === 1) {
-        touchStartX = e.touches[0].clientX;
-        touchStartY = e.touches[0].clientY;
-      }
-    },
-    { passive: true }
-  );
-  el.stage.addEventListener(
-    "touchend",
-    (e) => {
-      if (touchStartX === null || zoom > 105 || viewMode === "scroll") return;
-      const dx = e.changedTouches[0].clientX - touchStartX;
-      const dy = e.changedTouches[0].clientY - touchStartY;
-      touchStartX = null;
-      touchStartY = null;
-      if (Math.abs(dx) > 55 && Math.abs(dx) > Math.abs(dy) * 1.4) {
-        stepPage(dx < 0 ? 1 : -1);
-      }
-    },
-    { passive: true }
-  );
+      sidebarSearchResults.innerHTML = matches
+        .map(
+          (m) => `
+          <div class="sidebar-search-item" data-index="${m.index}">
+            <div style="font-weight: 700; font-size: 13.5px; color: var(--accent); margin-bottom: 4px;">
+              ${escapeHtml(m.lesson.title)}
+            </div>
+            <div style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
+              ${escapeHtml(m.snippet)}
+            </div>
+            <div style="font-size: 11px; color: var(--text-soft); margin-top: 4px;">
+              ${escapeHtml(m.lesson.group)} · Trang ${m.lesson.startPage}
+            </div>
+          </div>
+        `
+        )
+        .join("");
 
-  // Keyboard shortcuts
-  document.addEventListener("keydown", (e) => {
-    const tag = document.activeElement?.tagName;
-    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
-      e.preventDefault();
-      el.sidebar.classList.remove("collapsed");
-      document.querySelector('[data-tab="search"]').click();
-      return;
-    }
-    if (tag === "INPUT" || tag === "TEXTAREA") {
-      if (e.key === "Escape") document.activeElement.blur();
-      return;
-    }
-    if (e.key === "ArrowLeft") stepPage(-1);
-    else if (e.key === "ArrowRight") stepPage(1);
-    else if (e.key === "Home") goToPage(1);
-    else if (e.key === "End") goToPage(currentBook.pages);
-    else if (e.key === "+" || e.key === "=") {
-      zoom = Math.min(250, zoom + 15);
-      applyZoom();
-    } else if (e.key === "-") {
-      zoom = Math.max(50, zoom - 15);
-      applyZoom();
-    } else if (e.key === "0") {
-      zoom = 100;
-      applyZoom();
-    } else if (e.key.toLowerCase() === "t") {
-      el.toggleSidebarBtn.click();
-    } else if (e.key.toLowerCase() === "b") {
-      el.bookmarkBtn.click();
-    } else if (e.key.toLowerCase() === "f") {
-      el.fullscreenBtn.click();
-    } else if (e.key === "/") {
-      e.preventDefault();
-      el.sidebar.classList.remove("collapsed");
-      document.querySelector('[data-tab="search"]').click();
-    } else if (e.key === "Escape") {
-      el.gridModal.classList.remove("open");
-    }
-  });
-
-  if (window.innerWidth < 960) {
-    el.sidebar.classList.add("collapsed");
-    el.toggleSidebarBtn.classList.remove("active");
+      sidebarSearchResults.querySelectorAll(".sidebar-search-item").forEach((el) => {
+        el.addEventListener("click", () => {
+          const idx = parseInt(el.getAttribute("data-index"), 10);
+          selectLesson(idx);
+          if (window.innerWidth <= 960) {
+            readerSidebar.classList.add("collapsed");
+            toggleSidebarBtn.classList.remove("active");
+          }
+        });
+      });
+    });
   }
 
-  // Init from URL query params
-  const params = new URLSearchParams(window.location.search);
-  const reqBook = params.get("book") || "lop-10";
-  const reqPage = params.has("page") ? Number(params.get("page")) : null;
+  // --- SCAN MODAL (BẢN IN GỐC) ---
+  window.openOriginalPages = function (startP, endP) {
+    scanStartPage = startP;
+    scanEndPage = endP;
+    scanCurrentPage = startP;
+    renderScanViewer();
+    scanModal.classList.add("open");
+  };
 
-  fetch("data/books.json")
-    .then((r) => r.json())
-    .then((data) => {
-      books = data.books || [];
-      switchBook(reqBook, Number.isFinite(reqPage) ? reqPage : null);
-    })
-    .catch((err) => {
-      el.spreadContainer.innerHTML = `<p style="padding:20px;">Lỗi tải dữ liệu sách: ${escapeHtml(err.message)}</p>`;
-    });
+  btnViewScan.addEventListener("click", () => {
+    window.openOriginalPages(scanStartPage, scanEndPage);
+  });
+
+  function renderScanViewer() {
+    const pad = String(scanCurrentPage).padStart(3, "0");
+    scanImage.src = `books/${currentBookId}/page-${pad}.webp`;
+    scanModalTitle.textContent = `Bản in gốc — Trang ${scanCurrentPage} (${currentBookMeta.title})`;
+    scanPageIndicator.textContent = `Trang ${scanCurrentPage} / ${scanEndPage}`;
+    scanPrevBtn.disabled = scanCurrentPage <= scanStartPage;
+    scanNextBtn.disabled = scanCurrentPage >= scanEndPage;
+  }
+
+  scanPrevBtn.addEventListener("click", () => {
+    if (scanCurrentPage > scanStartPage) {
+      scanCurrentPage--;
+      renderScanViewer();
+    }
+  });
+
+  scanNextBtn.addEventListener("click", () => {
+    if (scanCurrentPage < scanEndPage) {
+      scanCurrentPage++;
+      renderScanViewer();
+    }
+  });
+
+  closeScanModal.addEventListener("click", () => {
+    scanModal.classList.remove("open");
+  });
+
+  scanModal.addEventListener("click", (e) => {
+    if (e.target === scanModal) {
+      scanModal.classList.remove("open");
+    }
+  });
+
+  // Global Keyboard shortcuts
+  window.addEventListener("keydown", (e) => {
+    if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+
+    if (scanModal.classList.contains("open")) {
+      if (e.key === "Escape") scanModal.classList.remove("open");
+      if (e.key === "ArrowLeft") scanPrevBtn.click();
+      if (e.key === "ArrowRight") scanNextBtn.click();
+      return;
+    }
+
+    if (e.key === "t" || e.key === "T") {
+      toggleSidebarBtn.click();
+    }
+    if (e.key === "ArrowLeft") {
+      const prev = currentLessonIndex > 0 ? currentLessonIndex - 1 : null;
+      if (prev !== null) selectLesson(prev);
+    }
+    if (e.key === "ArrowRight") {
+      const next = currentLessonIndex + 1 < currentLessons.length ? currentLessonIndex + 1 : null;
+      if (next !== null) selectLesson(next);
+    }
+  });
+
+  init();
 })();

@@ -1,0 +1,309 @@
+
+    <header class="lesson-header">
+        <div class="lesson-topic-badge">Chủ đề 4. Nguyên lí Học máy</div>
+        <h1 class="lesson-main-title">Bài 11. Tối ưu hoá mô hình</h1>
+        <div class="lesson-meta-bar">
+            <span class="meta-pages">📄 Trang sách gốc: 81 – 89</span>
+            <button class="btn-toggle-scan" onclick="openOriginalPages(81, 89)">📖 Xem bản in gốc</button>
+        </div>
+    </header>
+    
+
+            <section class="lesson-card target-section" id="sec-mục-tiêu">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🎯</span>
+                    <h2 class="section-title">MỤC TIÊU</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Sau bài học này, em sẽ:</p>
+<ul class="lesson-bullet-list">
+<li>Giải thích được vai trò của hàm mất mát trong việc định lượng mức sai lệch giữa dự đoán và thực tế.</li>
+<li>Nhận biết được mục tiêu của quá trình huấn luyện là giảm thiểu giá trị trung bình của hàm mất mát trên toàn bộ dữ liệu.</li>
+</ul>
+</div></section>
+
+            <section class="lesson-card warmup-section" id="sec-khởi-động">
+                <div class="section-badge-header">
+                    <span class="sec-icon">💡</span>
+                    <h2 class="section-title">KHỞI ĐỘNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Hãy tưởng tượng trong giờ ra chơi, các em cùng nhau chơi một trò chơi là Đoán cân nặng. Mỗi bạn sẽ ghi lại cân nặng thực tế của mình mà không cho ai biết và nhiệm vụ của em là dự đoán cân nặng của các bạn khác.
+
+Giả sử em dự đoán bạn Nam nặng 55 kg, nhưng khi Nam đứng lên cân, cân nặng thực tế là 59 kg. Dự đoán của em đã bị lệch.
+
+1. Theo em, làm thế nào biết được dự đoán của mình sai lệch bao nhiêu?
+
+2. Để lần sau dự đoán cân nặng bạn Nam chính xác hơn, em cần điều chỉnh cách dự đoán của minh như thế nào? (Gợi ý: Nghĩ đến việc tính sự chênh lệch giữa dự đoán và thực tế hoặc cố gắng giảm sai số cho lần sau.)</p>
+</div></section>
+
+            <section class="lesson-card discovery-section" id="sec-khám-phá">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🔍</span>
+                    <h2 class="section-title">KHÁM PHÁ</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">Trong thực tế, khi chúng ta sử dụng AI để dự đoán một điều gì đó (như cân nặng, điểm số, giá cả,...), AI cũng giống như em, ban đầu sẽ có những dự đoán chưa thật sự chính xác. Để AI ngày càng thông minh và dự đoán chuẩn hơn, chúng ta cần:</p>
+<p class="lesson-p">Một thước đổ" để biết dự đoán của AI "lệch" so với thực tế bao nhiêu. Thước</p>
+<p class="lesson-p">áo này chinh là Hàm mất mát (Loss Function).</p>
+<ul class="lesson-bullet-list">
+<li>Một phương pháp để AI tự điều chỉnh, học hỏi từ những sai lệch đó để dự đoán</li>
+</ul>
+<p class="lesson-p">tốt hơn. Phương pháp đó là Kĩ thuật giảm dân độ dốc (Gradient Descent).</p>
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Hàm mất mát</h3>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Định nghĩa</h4>
+<p class="lesson-p">Hàm mất mát là một công cụ toán học giúp chúng ta đo sự khác biệt giữa điều mà</p>
+<p class="lesson-p">AI dự đoàn (gọi là y.a) và điều thực sự xảy ra (gọi là yre).
+
+- Đầu vào: Hàm mất mát nhận vào hai giá trị:</p>
+<p class="lesson-p">+ Ym.: Giá trị dự đoán (ví dụ: Em đoán bạn Nam nặng 55 kg).</p>
+<p class="lesson-p">+ Yre: Giá trị thực tế (vi dụ: Bạn Nam thực sự nặng 59 kg).</p>
+<ul class="lesson-bullet-list">
+<li>Đầu ra: Hàm mất mát trả về một giá trị không âm:</li>
+</ul>
+<p class="lesson-p">+ Kết quả là 0: Mô hình dự đoán hoàn toàn chính xác.</p>
+<p class="lesson-p">+ Kết quả lớn hơn 0: Dự đoán có sai lệch, giá trị càng lón thi sai lệch càng nhiều.</p>
+<ul class="lesson-bullet-list">
+<li>Hàm mất mát là công cụ để đánh giá độ chính xác của mô hình.</li>
+<li>Sai lệch càng lớn, giá trị hàm mât mát cảng cao.</li>
+</ul>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Một số hàm mất mát phổ biến</h4>
+<ul class="lesson-bullet-list">
+<li>Mean Squared Error (MSE): Thường dùng khi AI cần dự đoán một số liên tục.</li>
+</ul>
+<p class="lesson-p">Vi dụ: dự đoán cân nặng, điểm số, giá cả.
+
++ Y nghĩa: MSE tính bình phương của sự sai lệch. Nếu sai lệch lớn, nó sẽ bị</p>
+<p class="lesson-p">"phạt" mạnh hơn, giúp AI chú ý đến những lỗi lớn.
+
++ Vi dụ 1: Nêu AI dự đoán 55 kg nhưng thực tế là 59 kg thì MSE sẽ cho một</p>
+<p class="lesson-p">giá trị lớn, báo hiệu sự sai lệch đáng kể.</p>
+<p class="lesson-p">+ Vi dụ 2: Giả sử ta cần dự đoán điểm thi (y _pred và y lần lượt là kí hiệu điềm</p>
+<p class="lesson-p">dự đoán và điểm thực) dựa trên số giờ ôn tập (hay giờ học) X theo công thức Y _pred = w * X + b với w và b là hệ số phương trình đường thẳng. Khi</p>
+<p class="lesson-p">đó hàm mất mát được tính như sau:</p>
+<p class="lesson-p">y_pred = w*X +b # AI đưa ra dự đoàn điểm thi</p>
+<p class="lesson-p">error = Y_pred -y #Tinh sự sai lệch giữa dự đoán và thực tê loss = (error * 2). mean() # Tinh hàm mất màt (MSE)</p>
+<p class="lesson-p">S1</p>
+<ul class="lesson-bullet-list">
+<li>Zero-One Loss: Thường dùng khi AI cần phân loại. Vi dụ: dự đoán nam hay nữ,</li>
+</ul>
+<p class="lesson-p">đúng hay sai.</p>
+<p class="lesson-p">+ Y nghĩa: Chỉ đơn giản là đếm số lần AI dự đoán sai (trả về 0 nếu đúng, 1 nếu sai).
+
++ Vi dụ: AI dự đoán một bạn là nam nhưng thực tế là nữ, thì giá trị sẽ là 1 (sai).
+
+c) Mất mát trung bình</p>
+<p class="lesson-p">Khi chúng ta có rất nhiều dữ liệu (ví dụ: cân nặng của cả lớp), chúng ta không chỉ lính hàm mất mát cho một lần dự đoán. Thay vào đó, chúng ta tính mất mát trung binh (hay nguy cơ thực nghiệm - Empirical Risk) để đánh giá tổng thể AI của chúng ta hoạt động như thế nào trên tất cả dữ liệu.</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Kì thuật giảm dân độ dốc</h3>
+<p class="lesson-p">Sau khi đo được mức độ sai lệch của mô hình bằng hàm mất mát, ta phải tìm cách giảm mức độ sai lệch đó. Việc này được thực hiện bằng cách điều chỉnh các tham số bên trong mô hình, giống như chỉnh các nút điều khiển để mô hình dự đoán chính xác hơn. Trong vi dụ 2 (mục 1.b), các tham số cần điều chỉnh là w và b.</p>
+<p class="lesson-p">Công cụ hiệu quả giúp điều chỉnh tham số là sử dụng kĩ thuật giảm dần độ dốc.
+
+Đó là cách cho mô hình tự học từ sai lầm. Sau mỗi lần dự đoán sai, nó sẽ tự điều chỉnh một chút để lần sau bớt sai hơn. Kĩ thuật giảm dần độ dốc là thuật toán tự động điều chỉnh các tham số của mô hinh theo hướng giảm bớt sai lệch.</p>
+<p class="lesson-p">Hãy tưởng tượng một thung lũng (hàm MSE có hình parabol hướng lên trên) mà em đang đứng trên sườn thung lũng đó và muốn đi xuống vị trí thấp nhất (hàm</p>
+<p class="lesson-p">MSE đo sai lệch đạt giá trị nhỏ nhất). Khi đó kĩ thuật giảm dần độ dốc là cách tìm đường đi xuống nhanh nhất.</p>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Y nghĩa</h4>
+<ul class="lesson-bullet-list">
+<li>Gradient (Độ dốc) chỉ cho chúng ta hướng mà hàm mất mát tăng nhanh nhất</li>
+</ul>
+<p class="lesson-p">(hướng lên dốc nhanh nhất trên sườn thung lũng).</p>
+<ul class="lesson-bullet-list">
+<li>Để giảm hàm mất mát, chúng ta sẽ đi ngược lại hướng mà gradient chỉ bằng</li>
+</ul>
+<p class="lesson-p">cách thực hiện phép trừ.</p>
+<ul class="lesson-bullet-list">
+<li>Quá trình này được lặp đi lặp lại nhiều lần, từng bước nhỏ (biến Ir), cho đến khi</li>
+</ul>
+<p class="lesson-p">mô hình đạt được độ chính xác tốt nhất (sai lệch nhỏ nhất).</p>
+<p class="lesson-p">Như vậy, khi mô hình dự đoán sai, kĩ thuật giảm dần độ dốc sẽ tính toán, cho biết hướng điều chỉnh các tham số sao cho sai lệch giảm xuống. Gradient cho ta biết nên điều chỉnh theo hướng nào để giảm sai lệch. Tuy nhiên, nó không cho biết cần điều chỉnh bao nhiêu. Lúc này, người dùng phải quyết định độ dài bước điều chỉnh. Đó chính là vai trò của tham số Learning Rate (biến Ir trong công thức điều chỉnh tham số).</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Vai trò của Learning Rate (Tốc độ học)</h4>
+<ul class="lesson-bullet-list">
+<li>Learning rate giống như kích thước mỗi bước chúng ta đi xuống dốc (độ dài</li>
+</ul>
+<p class="lesson-p">bước nhảy).</p>
+<ul class="lesson-bullet-list">
+<li>Nếu Learning Rate quá lớn: Bước nhảy quá dải, có thể "nhảy qua" điểm thấp</li>
+</ul>
+<p class="lesson-p">nhất và làm cho kết quả bị dao động, không ốn định.</p>
+<ul class="lesson-bullet-list">
+<li>Nếu Learning Rate quá nhỏ: Bước nhảy quá ngắn, mất rất nhiều thời gian mới</li>
+</ul>
+<p class="lesson-p">đi đến được điểm thấp nhất.</p>
+<ul class="lesson-bullet-list">
+<li>Việc chọn Learning rate phù hợp là rất quan trọng để AI học hiệu quả.</li>
+</ul>
+<p class="lesson-p">Huấn luyện mô hình AI là giảm hàm mất mát trung bình trên toàn bộ dữ liệu tới mức thấp nhất có thể.</p>
+<h3 class="subheading-h3"><span class="h3-num">3.</span> Thực hành dự đoán điểm thi bằng kĩ thuật giảm dần độ dốc</h3>
+<p class="lesson-p">Nhiệm vụ:</p>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Khám phá dữ liệu: Tải và xem xét tập dữ liệu về số giờ học và điểm thị của</h4>
+<p class="lesson-p">học sinh.</p>
+<p class="lesson-p">D) Xay dựng AI dự đoán: Sử dụng thuật toán giảm dân độ dồc đề tìm ra "đường</p>
+<p class="lesson-p">thằng" dự đoán điểm thi tốt nhất.</p>
+<h4 class="subheading-h4"><span class="h4-letter">c)</span> Trực quan hoá: Vẽ biểu đồ để xem dữ liệu thực tế và đường dự đoán của AI</h4>
+<p class="lesson-p">trông như thế nào.</p>
+<h4 class="subheading-h4"><span class="h4-letter">d)</span> Thử nghiệm: Thay đổi tốc độ học để xem nó ảnh hưởng thế nào đến quá trình</h4>
+<p class="lesson-p">học của AI.
+
+Hướng dẫn:</p>
+<h4 class="subheading-h4"><span class="h4-letter">a)</span> Khám phá dữ liệu</h4>
+<p class="lesson-p">(Hướng dẫn sau đây sử dụng Google Colab.)</p>
+<p class="lesson-p">Bước 1. Trong Google Colab, chạy đoạn mã sau đề tạo dữ liệu về số giờ học và điểm thi.</p>
+
+                    <div class="code-block-wrapper">
+                        <div class="code-header"><span>Python / Code</span><button class="btn-copy-code" onclick="copyCode(this)">Sao chép</button></div>
+                        <pre><code class="language-python">import pandas as pd. # Nhập thư viện pandas để làm việc với dữ liệu dạng bảng</code></pre>
+                    </div>
+                    
+<p class="lesson-p">CSV_txt = "'"'hours, score 2,4 3,5 4,6 5,7 6,8 7,9 8,10" •.
+
+open("study_data. csv", "w") .write(csv_txt) # Tạo và ghi nội dung vào file study_data.csv</p>
+<p class="lesson-p">Bước 2. Khám phá dữ liệu và vẽ biểu đồ. Chạy đoạn mã sau để đọc dữ liệu và</p>
+<p class="lesson-p">vẽ biểu đồ.</p>
+
+                    <div class="code-block-wrapper">
+                        <div class="code-header"><span>Python / Code</span><button class="btn-copy-code" onclick="copyCode(this)">Sao chép</button></div>
+                        <pre><code class="language-python">import matplotlib. pyplot as plt # Nhập thư viện matplotlíb dé vẽ biểu đò</code></pre>
+                    </div>
+                    
+
+                    <div class="code-block-wrapper">
+                        <div class="code-header"><span>Python / Code</span><button class="btn-copy-code" onclick="copyCode(this)">Sao chép</button></div>
+                        <pre><code class="language-python">import pandas as pd " Nhập thư viện pandas để làm việc với dữ liệu dạng bảng</code></pre>
+                    </div>
+                    
+<p class="lesson-p">data • pd. read_csv("study_dato. (sv") # Dọc dừ liệu từ file CSV vào Dataframe X = data["hours"] values " lãy rột "lours" (số giở lọc) làm dừ liện đàu vào X (dạng mang</p>
+<p class="lesson-p">питру) y = datal"scoro") values 1 Lãy cột "score" (điếm thí) làm dữ liệu đầu ra y (dạng máng numpy)</p>
+<p class="lesson-p">plt.scatter(X, y, s-60) " Vi biéu do phán lin (sealler plot) với X (trục hoành) và y (trục</p>
+<p class="lesson-p">(ung), 3.60 là kich lhor diém plt-xlabel("Số giờ học") 4 Dặt tên cho trục hoành</p>
+<p class="lesson-p">plt, ylabel("Điềm thi") 4 Đật tên cho trục tung plt-title( "Phân bố dữ liệu" ) # Hiền thị biếu đò</p>
+<p class="lesson-p">plt.show()</p>
+<p class="lesson-p">Em sẽ thấy một biểu đồ với các điểm tròn (Hình 11.1). Mỗi điểm là một học sinh,</p>
+<p class="lesson-p">cho thấy số giờ học và điểm thi của học sinh đó, giúp em khám phá mối quan hệ</p>
+<p class="lesson-p">giữa số giờ học và điểm thi.</p>
+<p class="lesson-p">Phân bố dữ liệu</p>
+<p class="lesson-p">10 •</p>
+<ul class="lesson-bullet-list">
+<li></li>
+</ul>
+<p class="lesson-p">6-</p>
+<ul class="lesson-bullet-list">
+<li></li>
+</ul>
+<p class="lesson-p">4 .
+
+•</p>
+<p class="lesson-p">5 Số giờ học</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 11.1. Biều đồ phân tán (scatter plot),</figcaption>
+                        </div>
+                    </figure>
+                    
+<p class="lesson-p">cho thấy điểm thi tăng theo số giờ học</p>
+<h4 class="subheading-h4"><span class="h4-letter">b)</span> Xây dựng thuật toán giảm dần độ dốc đề tìm đường hồi quy tối ưu</h4>
+<p class="lesson-p">Bước 1. Chuẩn bị để AI học: Khởi tạo một mô hình đơn giản để dự đoán điểm thi:</p>
+<p class="lesson-p">điểm_dự_đoán = w* số_giờ_học + b.</p>
+<p class="lesson-p">Đậy là một đường thẳng, nơi w và b là các tham số má AI cần "học" để đường thẳng này khớp nhất với dữ liệu.</p>
+<p class="lesson-p">Bước 2. Huấn luyện mô hình (chạy thuật toán giảm dần độ dóc).</p>
+<p class="lesson-p">Chạy đoạn mã sau. Đây là nơi AI "học" bằng cách điều chinh w và b từng chút một để giảm hàm mất mát (ở đây là MSE - Mean Squared Error).</p>
+<p class="lesson-p">Python</p>
+
+                    <div class="code-block-wrapper">
+                        <div class="code-header"><span>Python / Code</span><button class="btn-copy-code" onclick="copyCode(this)">Sao chép</button></div>
+                        <pre><code class="language-python">import numpy as np</code></pre>
+                    </div>
+                    
+<p class="lesson-p">det gradient_descent(X, y, Ir=0.01, epochs=1_000, verbose=False):</p>
+<ul class="lesson-bullet-list">
+<li>'"Trá vè (w, D, history_loss). X, y dêu là 1-D numpy array."..
+
+v, b = 0.0, 0.0 = Khởi tạo ban Sau cho v và b n = len (X) loss _hist = [] = lu lại giá trị mát mát sau nôi làn học</li>
+</ul>
+<p class="lesson-p">for epoch in range (epochs):</p>
+<p class="lesson-p">y_pred= W * X + b $ AI dua ra dự doán diém thi</p>
+<p class="lesson-p">loss = (error ** 2). mean () loss_hist.append(loss)</p>
+<p class="lesson-p"># Tính hăn mất mát (PSE)</p>
+<p class="lesson-p"># Tính toán hướng cần điều chinh (Gradient) để giản mát mát » grad = (2 / n) * np.dot(X, error) b_ grad= (2 / n) * error-sum()</p>
+<p class="lesson-p"># Cập nhật tham số w và b để giám hàm mát mát w -= Ir * w grad</p>
+<p class="lesson-p">b -= Ir = b_grad</p>
+<p class="lesson-p">if verbose and epoch % 100 = 0: # In ra để xem tiến trình học của AI</p>
+<p class="lesson-p">print (f"epoch {epoch: >4}: loss = {loss: 4f}") return w, b, loss_hist</p>
+<p class="lesson-p">Bước 3. Tìm giá trị tối ưu của w và b:</p>
+<p class="lesson-p">Chạy đoạn mã này để bắt đầu quá trình huấn luyện và xem kết quả cuối cùng của w và b mà AI đã học được.</p>
+<p class="lesson-p">Python</p>
+<p class="lesson-p">w, b, loss_hist = gradient_descent(X, y, Ir=0.01, epochs=1_000, verbose=True) print (f"Đường hòi quy tối ưu: y = {w: .2f]-x + (b: .2f)")</p>
+<h4 class="subheading-h4"><span class="h4-letter">c)</span> Vẽ biểu đồ dữ liệu và đường dự đoán của AI</h4>
+<p class="lesson-p">Sau khi AI đã học được w và b tối ưu, em cần vẽ đường dự đoán này lên biểu đồ cùng với các điểm dữ liệu thực tế bằng đoạn mã sau:</p>
+<p class="lesson-p">Python | plt. scatter (X, y, 9-60, label- "Dữ liệu thực" )</p>
+<p class="lesson-p">plt.plot(X, w " X +b, color="red", label» "Dường hòi quy" ) " Vẽ đường dụ đoán của AI</p>
+<p class="lesson-p">plt. xlabel( "5ố giờ hoc" ) plt.ylabel( "Dlém thi" ) plt. title( "Dy đoán điền thi theo số giờ học" ) plt.legend() plt.show()</p>
+<p class="lesson-p">Các em sã thấy một biểu đề giống như Hinh 11.2 (tã du nó sẽ đi gần qua các điểm Đường hôi quy màu đó chính là đường dự doan cua AI dữ liệu, cho thấy AI đã học được mối quan hệ giữa số giờ học và điểm thi.</p>
+<p class="lesson-p">Dự đoán điểm thì theo số giờ học</p>
+<p class="lesson-p">10 Dữ liệu thực</p>
+<p class="lesson-p">Đường hồi quy</p>
+<p class="lesson-p">Điểm thi</p>
+<p class="lesson-p">2 3 4 5 , 6 7 8 Số giờ học</p>
+
+                    <figure class="lesson-figure-box">
+                        <div class="figure-placeholder">
+                            <span class="fig-badge">🖼️ Minh họa trong sách</span>
+                            <figcaption class="figure-caption">Hình 11.2. Đường hồi quy tối ưu đi qua các điểm dữ liệu</figcaption>
+                        </div>
+                    </figure>
+                    
+<h4 class="subheading-h4"><span class="h4-letter">d)</span> Thử nghiệm với các giá trị tốc độ học khác nhau</h4>
+<ul class="lesson-bullet-list">
+<li>Quay lại phần b và thử thay đổi giá trị tốc độ học Ir trong hàm gradient_descent.</li>
+</ul>
+<p class="lesson-p">+ Thử Ir = 0.1 (tốc độ học nhanh hơn).</p>
+<p class="lesson-p">+ Thử Ir = 0.001 (tốc độ học chậm hơn).</p>
+<ul class="lesson-bullet-list">
+<li>Quan sát và thảo luận: Các em thấy điều gì xảy ra với quá trình học của AI và</li>
+</ul>
+<p class="lesson-p">đường hồi quy?</p>
+<p class="lesson-p">+ Nếu Ir quá lớn (ví dụ: 0.1): AI có thể học nhanh hơn, nhưng nếu quá lớn có</p>
+<p class="lesson-p">thế "nhảy qua" điểm tốt nhất và không ổn định.</p>
+<p class="lesson-p">+ Nếu Ir quá nhỏ (vi dụ: 0.001): AI sẽ học rất chậm, cần rất</p>
+<p class="lesson-p">nhiều thời gian (số vòng lặp) mới có thể tìm được kết quả tốt.</p>
+<p class="lesson-p">, Việc chọn một Ir phù hợp là rất quan trọng để AI học hiệu quả.</p>
+</div></section>
+
+            <section class="lesson-card exercise-section" id="sec-luyện-tập">
+                <div class="section-badge-header">
+                    <span class="sec-icon">✏️</span>
+                    <h2 class="section-title">LUYỆN TẬP</h2>
+                </div>
+                <div class="section-body">
+            
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Mục địch chính của hàm mất mát trong Học máy là gi?</h3>
+<p class="lesson-p">A. Đo lường độ chính xác của mô hình.</p>
+<p class="lesson-p">B. Tối ưu hoá các tham số của mô hình.</p>
+<p class="lesson-p">C. Trực quan hoá dữ liệu.</p>
+<p class="lesson-p">D. Chia dữ liệu thành tập huấn luyện và kiểm tra.</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> Điều gì có thể xảy ra nếu tốc độ học quá lớn?</h3>
+<p class="lesson-p">A. Thuật toán hội tụ quá chậm.</p>
+<p class="lesson-p">B. Thuật toán không hội tụ, dao động quanh điểm tối ưu.</p>
+<p class="lesson-p">C. Thuật toán hội tụ nhanh hơn bình thường.</p>
+<p class="lesson-p">D. Thuật toán cho kết quả chính xác hơn.</p>
+</div></section>
+
+            <section class="lesson-card apply-section" id="sec-vận-dụng">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🚀</span>
+                    <h2 class="section-title">VẬN DỤNG</h2>
+                </div>
+                <div class="section-body">
+            
+<p class="lesson-p">1. Nếu muốn dự đoán giá nhà dựa trên diện tích và số phòng, các em sẽ áp dụng kĩ thuật giảm dần độ dốc thế nào? Mô tả các bước cơ bản.</p>
+<p class="lesson-p">2. Trường em tổ chức cuộc thi AI để tối ưu chatbot trả lời lịch học. Làm sao để dùng hàm mất mát và kĩ thuật giảm dần độ dốc cải thiện chatbot?</p>
+<p class="lesson-p">CHỦ ĐẾ 5. DỰ ÂN AI AGENT</p>
+<p class="lesson-p">Input</p>
+<p class="lesson-p">AI Model</p>
+<p class="lesson-p">AI Model</p>
+<p class="lesson-p">API Tool</p>
+<p class="lesson-p">Output</p>
+</div></section>
