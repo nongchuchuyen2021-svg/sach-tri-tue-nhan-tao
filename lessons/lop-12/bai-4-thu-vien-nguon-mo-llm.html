@@ -8,8 +8,6 @@
         </div>
     </header>
     
-<p class="lesson-p">BAI 4! THƯ VIÊN</p>
-<p class="lesson-p">NGUỒN MỞ LLM</p>
 
             <section class="lesson-card target-section" id="sec-mục-tiêu">
                 <div class="section-badge-header">
@@ -34,18 +32,18 @@
             
 <p class="lesson-p">An đã xây dựng được một trợ lí ảo có các chức năng cơ bản cho cửa hàng tạp hoá. Trợ lí ảo có thể trả lời các câu hỏi dựa trên dữ liệu sản phẩm có sẵn. Tuy nhiên, một số khách hàng lại hỏi những câu phức tạp hơn, đòi hỏi trợ lí ảo phải suy luận và thực hiện nhiều bước. Ví dụ:</p>
 <ul class="lesson-bullet-list">
-<li>Tính tống giá tiền của 2 kg gạo ST25 và 1 chai nước mắm Chinsu 500 ml (cần</li>
+<li>Tính tổng giá tiền của 2 kg gạo ST25 và 1 chai nước mắm Chinsu 500 ml (cần</li>
 </ul>
 <p class="lesson-p">tra giá từng món và thực hiện phép tính).</p>
 <ul class="lesson-bullet-list">
-<li>Gợi ý cho tôi một món ăn đơn giàn</li>
+<li>Gợi ý cho tôi một món ăn đơn giản</li>
 </ul>
 <p class="lesson-p">có thể làm tại nhà với các nguyên liệu có sẵn trong cửa hàng (cần</p>
-<p class="lesson-p">tra cứu công thức và kiếm tra</p>
-<p class="lesson-p">nguyen liệu có trong kho).</p>
-<p class="lesson-p">Đế giải quyết các yêu cầu phức tạp này, cần một công cụ giúp trợ lí ảo "quản lí" toàn bộ quá trình, từ việc</p>
-<p class="lesson-p">hiêu ý định, chọn công cụ phù hợp (tra cứu giá, tính toán, tìm công thức)</p>
-<p class="lesson-p">cho đên khi đưa ra câu trả lời cuối cùng. Theo em, những công cụ nào có thể giúp An thực hiện điêu này?</p>
+<p class="lesson-p">tra cứu công thức và kiểm tra</p>
+<p class="lesson-p">nguyên liệu có trong kho).</p>
+<p class="lesson-p">Để giải quyết các yêu cầu phức tạp này, cần một công cụ giúp trợ lí ảo "quản lí" toàn bộ quá trình, từ việc</p>
+<p class="lesson-p">hiểu ý định, chọn công cụ phù hợp (tra cứu giá, tính toán, tìm công thức)</p>
+<p class="lesson-p">cho đến khi đưa ra câu trả lời cuối cùng. Theo em, những công cụ nào có thể giúp An thực hiện điều này?</p>
 
                     <figure class="lesson-figure-box">
                         <div class="figure-placeholder">
@@ -65,9 +63,9 @@
                 <div class="section-body">
             
 <p class="lesson-p">Thư viện nguồn mở là bộ công cụ công khai, giúp nhà phát triển xây dựng ứng dụng nhanh chóng, không cần viết lại từ đầu. LangChain và LlamaIndex là hai thư viện nguồn mở tiêu biểu, chuyên biệt cho ứng dụng LLM.</p>
-<p class="lesson-p">LangChain đóng vai trò quản lí luồng chính, kết nối LLM với dữ liệu bên ngoài và cho phép thực hiện các chuỗi hành động phức tạp. LlamaIndex tập trung vào truy xuất và xử lí dữ liệu cho hệ thống RAG, giúp LLM truy cập và hiếu thông tin từ dữ liệu riêng của em một cách hiệu quả. Cả hai đều đơn giản hóa việc xây dựng ứng dụng LLM tiên tiến.</p>
+<p class="lesson-p">LangChain đóng vai trò quản lí luồng chính, kết nối LLM với dữ liệu bên ngoài và cho phép thực hiện các chuỗi hành động phức tạp. LlamaIndex tập trung vào truy xuất và xử lí dữ liệu cho hệ thống RAG, giúp LLM truy cập và hiểu thông tin từ dữ liệu riêng của em một cách hiệu quả. Cả hai đều đơn giản hóa việc xây dựng ứng dụng LLM tiên tiến.</p>
 <h3 class="subheading-h3"><span class="h3-num">1.</span> LangChain - Bộ khung kết dính các thành phần LLM</h3>
-<p class="lesson-p">LLM rất thông minh và có kiến thức tổng quát rộng lớn. Tuy nhiên, LLM thường gặp giới hạn: chúng không có thông tin cụ thể của riêng từng cá nhân (ví dự: giá sản phẩm ở cửa hàng tạp hoá nhà An) và không thể tự động thực hiện các hành động phức tạp (như gửi thư điện tử, tra cứu trên mạng).</p>
+<p class="lesson-p">LLM rất thông minh và có kiến thức tổng quát rộng lớn. Tuy nhiên, LLM thường gặp giới hạn: chúng không có thông tin cụ thể của riêng từng cá nhân (ví dụ: giá sản phẩm ở cửa hàng tạp hoá nhà An) và không thể tự động thực hiện các hành động phức tạp (như gửi thư điện tử, tra cứu trên mạng).</p>
 <p class="lesson-p">LangChain chính là giải pháp cho vấn đề này. LangChain là một bộ khung (framework) mã nguồn mở giúp:</p>
 <ul class="lesson-bullet-list">
 <li>Kết nối LLM với thế giới bên ngoài: Đưa thông tin cụ thể của em (từ tài liệu,</li>
@@ -80,12 +78,7 @@
 <ul class="lesson-bullet-list">
 <li>Xây dựng ứng dụng LLM hiệu quả: Biến LLM từ chỗ biết nhiều thành làm</li>
 </ul>
-<p class="lesson-p">được nhiêu trong thực tế</p>
-<p class="lesson-p">Agents</p>
-<p class="lesson-p">Prompt Templates</p>
-<p class="lesson-p">Retrieval Modules</p>
-<p class="lesson-p">+</p>
-<p class="lesson-p">Memory Callbacks</p>
+<p class="lesson-p">được nhiều trong thực tế.</p>
 
                     <figure class="lesson-figure-box">
                         <div class="figure-placeholder">
@@ -94,21 +87,21 @@
                         </div>
                     </figure>
                     
-<p class="lesson-p">LangChain làm được như vậy thông qua việc tổ chức các thành phần cốt lợi sau:</p>
+<p class="lesson-p">LangChain làm được như vậy thông qua việc tổ chức các thành phần cốt lõi sau:</p>
 <ul class="lesson-bullet-list">
-<li>Giao diện LLM (LLM Interface): Cho phép kết nối vá truy vấn các LLM khác</li>
+<li>Giao diện LLM (LLM Interface): Cho phép kết nối và truy vấn các LLM khác</li>
 </ul>
-<p class="lesson-p">nhau (ví dụ: GPT, Bard, PaLM) bằng lệnh đơn giản. Đây là cầu nói giúp ứng dụng của em "nói chuyện" được với bát ki LLM nào.</p>
+<p class="lesson-p">nhau (ví dụ: GPT, Bard, PaLM) bằng lệnh đơn giản. Đây là cầu nối giúp ứng dụng của em "nói chuyện" được với bất kì LLM nào.</p>
 <ul class="lesson-bullet-list">
-<li>Mẫu prompt (Prompt Template): Các cấu trúc sản có giúp định dạng truy vắn</li>
+<li>Mẫu prompt (Prompt Template): Các cấu trúc sẵn có giúp định dạng truy vấn</li>
 </ul>
-<p class="lesson-p">cho LLM một cách nhất quán và chính xác. Ví dụ: Một khuôn mẫu câu hỏi để em chỉ cần điền tên sản phẩm vào: Giá của sản phẩm (Tên sản phẩm] là bao nhiêu?.</p>
+<p class="lesson-p">cho LLM một cách nhất quán và chính xác. Ví dụ: Một khuôn mẫu câu hỏi để em chỉ cần điền tên sản phẩm vào: Giá của sản phẩm [Tên sản phẩm] là bao nhiêu?</p>
 <ul class="lesson-bullet-list">
 <li>Tác nhân (Agents): Cho phép LLM tự quyết định chuỗi hành động phù hợp</li>
 </ul>
-<p class="lesson-p">nhất để trả lời truy vấn, sử dụng các công cụ có sẵn. Ví dụ: Là bộ não điều khiến giúp LLM lự lên kế hoạch và thực hiện các bước như "tìm thông tin khuyến mãi" rồi "trả lời khách".</p>
+<p class="lesson-p">nhất để trả lời truy vấn, sử dụng các công cụ có sẵn. Ví dụ: Là bộ não điều khiển giúp LLM tự lên kế hoạch và thực hiện các bước như "tìm thông tin khuyến mãi" rồi "trả lời khách".</p>
 <ul class="lesson-bullet-list">
-<li>Mô-dun truy xuất (Retrieval Modules): Tạo điều kiện xây dựng hệ thống</li>
+<li>Mô-đun truy xuất (Retrieval Modules): Tạo điều kiện xây dựng hệ thống</li>
 </ul>
 <p class="lesson-p">RAG, cung cấp công cụ để chuyển đổi, lưu trữ, tìm kiếm và truy xuất thông tin từ dữ liệu riêng của em. Ví dụ: Kho dữ liệu nội bộ giúp LLM tìm kiếm thông tin</p>
 <p class="lesson-p">cụ thể (ví dụ: giá sản phẩm) từ các tài liệu riêng của cửa hàng gia đình An.</p>
@@ -118,17 +111,10 @@
 <p class="lesson-p">trước đó để tinh chỉnh phản hồi. Ví dụ: Giúp LLM ghi nhớ cuộc trò chuyện để</p>
 <p class="lesson-p">hiểu ngữ cảnh, ví dụ như: Sữa Vinamilk còn hạn sử dụng bao lâu? sau khi vừa hỏi về sữa Vinamilk.</p>
 <ul class="lesson-bullet-list">
-<li>Lệnh gọi lại (Callback Command): Các đoạn mã nhúng vào ứng dụng để ghĩ</li>
+<li>Lệnh gọi lại (Callback Command): Các đoạn mã nhúng vào ứng dụng để ghi</li>
 </ul>
-<p class="lesson-p">nhật ki, giám sát và phát sóng các sự kiện trong hoạt động của LangChain. Ví dụ: Camera giám sát theo dõi từng bước AI thực hiện, giúp em kiểm tra và sửa lỗi.</p>
-<p class="lesson-p">LangChain, ngôi nhà thông minh làm việc dựa vào quy trình làm việc hay còn</p>
-<p class="lesson-p">thành một nhiệm vụ. Mỗi hành động nhỏ trong một chuối được gọi là một liên kết (Link). Ví dụ dưới đây làm rõ hai khái niệm chuỗi và liên kết.</p>
-<p class="lesson-p">Chuỗi hành động (Chain)</p>
-<p class="lesson-p">Quy trinh hoàn chỉnh giái quyét bài toán</p>
-<p class="lesson-p">Phần tích đề bài Tìm kiếm kiến thức liên</p>
-<p class="lesson-p">Lập luận và giải Trình bày lời giải</p>
-<p class="lesson-p">quan</p>
-<p class="lesson-p">Liên kết (Link)</p>
+<p class="lesson-p">nhật kí, giám sát và phát sóng các sự kiện trong hoạt động của LangChain. Ví dụ: Camera giám sát theo dõi từng bước AI thực hiện, giúp em kiểm tra và sửa lỗi.</p>
+<p class="lesson-p">LangChain, ngôi nhà thông minh làm việc dựa vào quy trình làm việc hay còn gọi là chuỗi (Chain) các hành động tự động, được sắp xếp theo trình tự để hoàn thành một nhiệm vụ. Mỗi hành động nhỏ trong một chuỗi được gọi là một liên kết (Link). Ví dụ dưới đây làm rõ hai khái niệm chuỗi và liên kết.</p>
 
                     <figure class="lesson-figure-box">
                         <div class="figure-placeholder">
@@ -138,35 +124,22 @@
                     </figure>
                     
 <p class="lesson-p">LangChain giống như ứng dụng học tập thông minh, nơi các chuỗi và liên kết phối hợp nhịp nhàng để thực hiện các yêu cầu của em một cách tự động và thông minh.</p>
-<p class="lesson-p">LangChain là một framework mã nguồn mở giúp xây dựng cac ứng dụng dùng LLM hiệu quả hơn. Mục đich chính của nó là khắc phục giới hạn của LLM bằng cách:</p>
+<p class="lesson-p">LangChain là một framework mã nguồn mở giúp xây dựng các ứng dụng dùng LLM hiệu quả hơn. Mục đích chính của nó là khắc phục giới hạn của LLM bằng cách:</p>
 <ul class="lesson-bullet-list">
-<li>Kết nối LLM với dữ liệu riêng: Đưa thông tin cụ thể của em (ví dụ: dữ liệu cửa hàng, môn học) vào đề LLM xử lí.
-
-• Hồ trợ hành động phức tạp: Giúp LLM thực hiện nhiều bước logic, kết nối với các công cụ bên ngoài (như tìm kiếm web, gửi thư điện tử) để hoàn thành nhiệm vụ phức tạp.</li>
-<li>Tăng cường khả năng ứng dụng thực tế: Giúp LLM hoạt động hiệu quả hơn trong các tình huống đời thực, thông qua việc tố chức các quy trình làm việc (chuỗi) và tích hợp các công cụ (liên kết).</li>
+<li>Kết nối LLM với dữ liệu riêng: Đưa thông tin cụ thể của em (ví dụ: dữ liệu cửa hàng, môn học) vào để LLM xử lí.</li>
+<li>Hỗ trợ hành động phức tạp: Giúp LLM thực hiện nhiều bước logic, kết nối với các công cụ bên ngoài (như tìm kiếm web, gửi thư điện tử) để hoàn thành nhiệm vụ phức tạp.</li>
+<li>Tăng cường khả năng ứng dụng thực tế: Giúp LLM hoạt động hiệu quả hơn trong các tình huống đời thực, thông qua việc tổ chức các quy trình làm việc (chuỗi) và tích hợp các công cụ (liên kết).</li>
 </ul>
-<h3 class="subheading-h3"><span class="h3-num">2.</span> LlamaIndex - Thù kho chuyên nghiệp cho dữ liệu</h3>
-<p class="lesson-p">Để trợ lí ào của An trả lời được câu hỏi 2 kg gạo ST25 có giá bao nhiêu?, LLM cần có thông tin về giá gạo. Các LLM lớn thường chỉ được huần luyện trên dữ liệu công khai và không có kiên thức cụ thể về giá trong cừa hàng của gia đình An. Đây là lúc chúng ta cần đến LlamaIndex.</p>
+<h3 class="subheading-h3"><span class="h3-num">2.</span> LlamaIndex - Thủ kho chuyên nghiệp cho dữ liệu</h3>
+<p class="lesson-p">Để trợ lí ảo của An trả lời được câu hỏi 2 kg gạo ST25 có giá bao nhiêu?, LLM cần có thông tin về giá gạo. Các LLM lớn thường chỉ được huấn luyện trên dữ liệu công khai và không có kiến thức cụ thể về giá trong cửa hàng của gia đình An. Đây là lúc chúng ta cần đến LlamaIndex.</p>
 <p class="lesson-p">Tiếp nối LangChain, LlamaIndex cũng là một khung làm việc (framework) mã nguồn mở, nhưng được thiết kế chuyên biệt để giúp các ứng dụng LLM tương tác hiệu quả với dữ liệu riêng tư hoặc bên ngoài. Nó giống như một thủ kho</p>
 <p class="lesson-p">chuyên nghiệp, giúp LLM dễ dàng tìm kiếm và sử dụng thông tin từ kho hàng riêng của em.</p>
 <p class="lesson-p">LlamaIndex được tối ưu hóa cho các tác vụ RAG - quá trình AI truy xuất thông tin liên quan từ một kho dữ liệu rồi dùng chúng để tạo ra câu trả lời chính xác và</p>
 <p class="lesson-p">đáng tin cậy hơn.</p>
-<p class="lesson-p">LlamaIndex là một khung làm việc chuyên biệt đề kết nối LLM với dữ liệu bên ngoài/riêng tư với nhiệm vụ trọng tâm là tối ưu hóa cho tác vụ RAG, đặc biệt là phần truy xuất dữ liệu.</p>
-<p class="lesson-p">Vai trò của LlamaIndex trong truy xuất và xử lí dữ liệu cho RAG LlamaIndex tập trung sâu vào phần truy xuất trong RAG. Nó giúp giải quyết bài toán lớn khi LLM thiếu kiến thức về dữ liệu chuyên biệt của bạn. Dưới đây là cách</p>
+<p class="lesson-p">LlamaIndex là một khung làm việc chuyên biệt để kết nối LLM với dữ liệu bên ngoài/riêng tư với nhiệm vụ trọng tâm là tối ưu hóa cho tác vụ RAG, đặc biệt là phần truy xuất dữ liệu.</p>
+<h4 class="subheading-h4">Vai trò của LlamaIndex trong truy xuất và xử lí dữ liệu cho RAG</h4>
+<p class="lesson-p">LlamaIndex tập trung sâu vào phần truy xuất trong RAG. Nó giúp giải quyết bài toán lớn khi LLM thiếu kiến thức về dữ liệu chuyên biệt của bạn. Dưới đây là cách</p>
 <p class="lesson-p">LlamaIndex đơn giản hóa các bước phức tạp của RAG liên quan đến dữ liệu:</p>
-<p class="lesson-p">E Thành phán LlamaIndex gồm có:</p>
-<ul class="lesson-bullet-list">
-<li>Data Connectors</li>
-</ul>
-<p class="lesson-p">Data Indexes</p>
-<p class="lesson-p">Thu thập dữ liệu từ nhiêu nguồn khác nhau một cách Tinh hoạt và hiệu quả</p>
-<p class="lesson-p">Tổ chức dữ liệu để thy kiểm hibu quả vì dy Vedlor Stoce inded</p>
-<p class="lesson-p">Retrieval</p>
-<p class="lesson-p">Query Engines</p>
-<p class="lesson-p">Tìm kiếm thông tin liên quan từ trước một cách chính xác và nhanh chóng</p>
-<ul class="lesson-bullet-list">
-<li>Giao điện để truy vẫn dữ tiêu, kết háp tm kiếm và:</li>
-</ul>
 
                     <figure class="lesson-figure-box">
                         <div class="figure-placeholder">
@@ -175,27 +148,24 @@
                         </div>
                     </figure>
                     
-<p class="lesson-p">1) Thu thập dữ liệu (Data Connectors): An có thể có dữ liệu cửa hàng ở nhiều nơi: tệp Excel, tệp PDF chứa chính sách khuyên mãi, thông tin trên trang web hoặc thậm chí là các ghi chú viết tay mà An đã sô hoá. LlamaIndex cung cấp các</p>
+<p class="lesson-p">1) Thu thập dữ liệu (Data Connectors): An có thể có dữ liệu cửa hàng ở nhiều nơi: tệp Excel, tệp PDF chứa chính sách khuyến mãi, thông tin trên trang web hoặc thậm chí là các ghi chú viết tay mà An đã số hoá. LlamaIndex cung cấp các</p>
 <p class="lesson-p">Data Connectors giúp tải dữ liệu từ vô số nguồn khác nhau một cách dễ dàng.
 
-Ví dụ: LlamaIndex có thể đọc trực tiếp từ tệp .xlsx của bảng giá, tệp .pdf của hợp đồng thuê mặt bằng (để biết giờ đóng mở cửa), hoặc tự động thu thập thông tin tử một trang web đơn giản của cửa hàng.</p>
+Ví dụ: LlamaIndex có thể đọc trực tiếp từ tệp .xlsx của bảng giá, tệp .pdf của hợp đồng thuê mặt bằng (để biết giờ đóng mở cửa), hoặc tự động thu thập thông tin từ một trang web đơn giản của cửa hàng.</p>
 <p class="lesson-p">2) Tổ chức và lưu trữ dữ liệu (Data Indexes): Sau khi tải về, dữ liệu thô thường không được tổ chức một cách hiệu quả để tìm kiếm. LlamaIndex sẽ xử lí (chia nhỏ văn bản, biểu diễn vector) và tổ chức dữ liệu này thành các chỉ mục dữ liệu.</p>
-<p class="lesson-p">Ví dụ: Thay vì để LLM đọc cà một tệp PDF dài, LlamaIndex sẽ chia tệp đó thành các đoạn nhỏ hơn, biến mỗi đoạn thành một "mục lục" có thể tìm kiếm được. Khi khách hỏi về giá sữa Vinamilk, LlamaIndex không cần đọc lại cả cuốn số tay sản phẩm mà chỉ cần tìm đến "mục" có thông tin về sữa. Đặc biệt, Vector Store Index là loại chỉ mục phổ biến nhất, giúp tìm kiếm thông tin dựa trên ý nghĩa (semantic</p>
+<p class="lesson-p">Ví dụ: Thay vì để LLM đọc cả một tệp PDF dài, LlamaIndex sẽ chia tệp đó thành các đoạn nhỏ hơn, biến mỗi đoạn thành một "mục lục" có thể tìm kiếm được. Khi khách hỏi về giá sữa Vinamilk, LlamaIndex không cần đọc lại cả cuốn sổ tay sản phẩm mà chỉ cần tìm đến "mục" có thông tin về sữa. Đặc biệt, Vector Store Index là loại chỉ mục phổ biến nhất, giúp tìm kiếm thông tin dựa trên ý nghĩa (semantic</p>
 <p class="lesson-p">search) chứ không chỉ dựa trên từ khóa đơn thuần.</p>
 <p class="lesson-p">3) Truy xuất thông tin (Retrieval): Khi có một câu hỏi từ khách hàng, Retriever của LlamaIndex sẽ làm nhiệm vụ tìm kiếm thông tin liên quan nhất từ các Data Indexes đã được tổ chức. Đây là trái tim của quá trình truy xuất trong RAG.</p>
 <p class="lesson-p">Ví dụ: Khách hàng hỏi: Mì tôm Hảo Hảo còn không?, Retriever sẽ vào Vector</p>
-<p class="lesson-p">Store Index, tìm kiếm những đoạn văn bản trong cơ sở dữ liệu của An mà có ý nghĩa gân nhất với câu hỏi này (ví dụ: dòng Mì tôm Hảo Hảo gói: 5 000 VNĐ/gói.)</p>
-<p class="lesson-p">4) Bộ máy truy vấn (Query Engines): Sau khi Retriever tìm được thông tin liên quan, Query Engines của LlamaIndex sẽ kết hợp thông tin đó với câu hỏi gốc của người dùng và chuyến giao cho LLM. LLM sau đó sẽ sử dụng cà câu hỏi và thông tin được truy xuất để tạo ra một câu trả lời chính xác, tự nhiên và phù hợp.
+<p class="lesson-p">Store Index, tìm kiếm những đoạn văn bản trong cơ sở dữ liệu của An mà có ý nghĩa gần nhất với câu hỏi này (ví dụ: dòng Mì tôm Hảo Hảo gói: 5 000 VNĐ/gói.)</p>
+<p class="lesson-p">4) Bộ máy truy vấn (Query Engines): Sau khi Retriever tìm được thông tin liên quan, Query Engines của LlamaIndex sẽ kết hợp thông tin đó với câu hỏi gốc của người dùng và chuyển giao cho LLM. LLM sau đó sẽ sử dụng cả câu hỏi và thông tin được truy xuất để tạo ra một câu trả lời chính xác, tự nhiên và phù hợp.
 
 Ví dụ: Query Engine sẽ lấy câu hỏi Gạo ST25 giá bao nhiêu? và đoạn văn bản đã truy xuất Gạo ST25 5 kg: 120 000 VNĐ, sau đó đưa cho LLM. LLM sẽ trả lời: Dạ,</p>
-<p class="lesson-p">gạo ST25 loại 5 kg có giá 120 000 VNĐ ạ.
-
-36</p>
-<p class="lesson-p">Như vày. LlamaIndex chinh là cầu nổi vững chắc giữa LLM và kho kiến thức riêng của em, giúp LLM có thể trả lời các câu hỏi cụ thế, chính xác và cập nhật mà bân thân LLM chưa được huân luyện.</p>
+<p class="lesson-p">gạo ST25 loại 5 kg có giá 120 000 VNĐ ạ.</p>
+<p class="lesson-p">Như vậy, LlamaIndex chính là cầu nối vững chắc giữa LLM và kho kiến thức riêng của em, giúp LLM có thể trả lời các câu hỏi cụ thể, chính xác và cập nhật mà bản thân LLM chưa được huấn luyện.</p>
 <p class="lesson-p">Thành phần LlamaIndex gồm có:
 
-• Data Connectors: Tài dữ liệu từ nhiều nguồn.</p>
-<p class="lesson-p">CANNO</p>
+• Data Connectors: Tải dữ liệu từ nhiều nguồn.</p>
 <ul class="lesson-bullet-list">
 <li>Data Indexes: Cấu trúc dữ liệu để tìm kiếm hiệu quả (ví dụ:
 
@@ -213,30 +183,36 @@ Vector Store Index).</li>
                 </div>
                 <div class="section-body">
             
-<h3 class="subheading-h3"><span class="h3-num">1.</span> Mục địch chinh của LangChain là gì?</h3>
+<h3 class="subheading-h3"><span class="h3-num">1.</span> Mục đích chính của LangChain là gì?</h3>
 <p class="lesson-p">A. Là một LLM mạnh mẽ giúp trả lời mọi câu hỏi.
 
-B. Cung câp một khung làm việc để xây dựng các ứng dụng phức tạp dựa</p>
+B. Cung cấp một khung làm việc để xây dựng các ứng dụng phức tạp dựa</p>
 <p class="lesson-p">trên LLM.</p>
 <p class="lesson-p">C. Chuyên dùng để phân tích dữ liệu số lớn.</p>
 <p class="lesson-p">D. Là một công cụ chỉnh sửa video bằng AI.
 
-2. Để xây dựng một ứng dụng RAG, phần nào trong LlamaIndex sẽ chịu trách nhiệm chính trong việc "tài" dữ liệu từ các tệp PDF, trang web hay cơ số dữ liệu?</p>
+2. Để xây dựng một ứng dụng RAG, phần nào trong LlamaIndex sẽ chịu trách nhiệm chính trong việc "tải" dữ liệu từ các tệp PDF, trang web hay cơ sở dữ liệu?</p>
 <p class="lesson-p">A. Data Indexes.
 
 B. Data Connectors.</p>
 <p class="lesson-p">C. Retrieval.
 
 D. Query Engines.</p>
-<p class="lesson-p">COSSRT VẬN DỤNG</p>
-<p class="lesson-p">Theo em, An cần làm gì nếu bố mẹ An muốn trợ lí ào có thê:</p>
+</div></section>
+
+            <section class="lesson-card apply-section" id="sec-vận-dụng">
+                <div class="section-badge-header">
+                    <span class="sec-icon">🚀</span>
+                    <h2 class="section-title">VẬN DỤNG</h2>
+                </div>
+                <div class="section-body">
+<p class="lesson-p">Theo em, An cần làm gì nếu bố mẹ An muốn trợ lí ảo có thể:</p>
 <ul class="lesson-bullet-list">
-<li>Ghi nhớ lịch sử các câu hỏi của kháchh</li>
+<li>Ghi nhớ lịch sử các câu hỏi của khách</li>
 </ul>
 <p class="lesson-p">hàng để đưa ra gợi ý sản phẩm phù hợp.</p>
-<p class="lesson-p">H</p>
 <ul class="lesson-bullet-list">
 <li>Tìm kiếm thông tin trên Internet nếu câu</li>
 </ul>
-<p class="lesson-p">hỏi của kháchh hàng vượt ra ngoài dữ liệu của cửa hàng (ví dụ: Xu hướng tiêu dùng sữa năm nay là gì?).</p>
+<p class="lesson-p">hỏi của khách hàng vượt ra ngoài dữ liệu của cửa hàng (ví dụ: Xu hướng tiêu dùng sữa năm nay là gì?).</p>
 </div></section>

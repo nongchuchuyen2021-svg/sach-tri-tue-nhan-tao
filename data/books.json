@@ -458,7 +458,7 @@
               "printPage": null,
               "id": "bia-sach",
               "endPage": 1,
-              "summary": "HÀ ĐẶNG CAO TÙNG - HOÀNG THỊ MAI - LÊ ANH VINH (ĐỒNG CHỦ BIÊN) VŨ TRUNG CHÍNH- NGUYỄN QUANG ĐỨC- NGUYỄN CHÍ THANH NGUYỄN THỊ VẬN ANH - ĐỖ ĐỨC LÂN - LÊ QUANG QUÂN TRÍ TUỆ NHÂN TẠO LỚP 12 NHÀ XUẤT BẢN GIÁO DỤC VIỆT NAM"
+              "summary": "HÀ ĐẶNG CAO TÙNG - HOÀNG THỊ MAI - LÊ ANH VINH (ĐỒNG CHỦ BIÊN) VŨ TRUNG CHÍNH - NGUYỄN QUANG ĐỨC - NGUYỄN CHÍ THANH NGUYỄN THỊ VÂN ANH - ĐỖ ĐỨC LÂN - LÊ QUANG QUÂN TRÍ TUỆ NHÂN TẠO LỚP 12 NHÀ XUẤT BẢN GIÁO DỤC VIỆT NAM"
             },
             {
               "title": "Bìa lót",
@@ -466,7 +466,7 @@
               "printPage": null,
               "id": "bia-lot",
               "endPage": 2,
-              "summary": "HÀ ĐẶNG CAO TÙNG - HOÀNG THỊ MAI - LÊ ANH VINH. (ĐÓNG CHÚ BIÊN) VŨ TRUNG CHÍNH - NGUYỄN QUANG ĐỨC - NGUYỄN CHÍ THANH NGUYỄN THỊ VÁN ANH - ĐÕ ĐỨC LÀN - LÊ QUANG QUẢN TRÍ TUẾ NHÂN TAO LỚP 12  NHÀ XUẤT BẢN GIÁO DỤC VIỆT NAM"
+              "summary": "HÀ ĐẶNG CAO TÙNG - HOÀNG THỊ MAI - LÊ ANH VINH (ĐỒNG CHỦ BIÊN) VŨ TRUNG CHÍNH - NGUYỄN QUANG ĐỨC - NGUYỄN CHÍ THANH NGUYỄN THỊ VÂN ANH - ĐỖ ĐỨC LÂN - LÊ QUANG QUÂN TRÍ TUỆ NHÂN TẠO LỚP 12 NHÀ XUẤT BẢN GIÁO DỤC VIỆT NAM"
             },
             {
               "title": "Hướng dẫn sử dụng sách",
@@ -482,7 +482,7 @@
               "printPage": 3,
               "id": "loi-noi-dau",
               "endPage": 4,
-              "summary": "LỜI NÓI ĐẦU Các em học sinh thân mền! Từ những ứng dụng thông minh trên điện thoại đến phần mềm tạo nhạc và về tranh, Trí tuệ nhân tạo (Al) đang thay đổi cách con người học tập, làm việc và sáng tạo. Nhờ khả năng xử lí vượt trội và tiếp cận kho dữ liệu không lồ, AI đang tiến tới ..."
+              "summary": "LỜI NÓI ĐẦU Các em học sinh thân mến! Từ những ứng dụng thông minh trên điện thoại đến phần mềm tạo nhạc và vẽ tranh, Trí tuệ nhân tạo (AI) đang thay đổi cách con người học tập, làm việc và sáng tạo. Nhờ khả năng xử lí vượt trội và tiếp cận kho dữ liệu khổng lồ, AI đang tiến tới..."
             },
             {
               "title": "Mục lục",
@@ -490,7 +490,7 @@
               "printPage": 4,
               "id": "muc-luc",
               "endPage": 6,
-              "summary": "MỤC LỤC NỘI DUNG Trang CHỦ ĐẾ 1. AI AGENTS - HƯỚNG TỚI AI TỰ HOẠT ĐỘNG Bài 1 Giới thiệu về AI Agents Bài 2 Cấu trúc AI Agent đon giản CHỦ ĐỀ 2. RAG VÀ CÔNG CỤ LÀM VIỆC VỚI LM Bài 3 RAG nâng cao Bài 4 Thu viện nguồn mở LLM Bài 5 Khai thác thư viện nguồn mở LIM CHỦ ĐỀ 3. ĐẠO ĐỨC, T..."
+              "summary": "MỤC LỤC NỘI DUNG Trang CHỦ ĐỀ 1. AI AGENTS - HƯỚNG TỚI AI TỰ HOẠT ĐỘNG Bài 1 Giới thiệu về AI Agents Bài 2 Cấu trúc AI Agent đơn giản CHỦ ĐỀ 2. RAG VÀ CÔNG CỤ LÀM VIỆC VỚI LLM Bài 3 RAG nâng cao Bài 4 Thư viện nguồn mở LLM Bài 5 Khai thác thư viện nguồn mở LLM CHỦ ĐỀ 3. ĐẠO ĐỨC,..."
             }
           ]
         },
@@ -505,7 +505,7 @@
               "printPage": 6,
               "id": "bai-1-gioi-thieu-ve-ai-agents",
               "endPage": 13,
-              "summary": "BÀI 1. GIỚI THIỆU VỀ AI AGENTS MUC TIÊU Sau bài học này, em sẽ: • Nêu được khái niệm AI Agents (tác nhân thông minh) và phân biệt được AI Agent với LLM/chatbot thông thường. • Trình bày được vòng lặp hoạt động và các thành phần chính của một AI Agent. • Nêu được tiềm năng ứng dụn..."
+              "summary": "BÀI 1. GIỚI THIỆU VỀ AI AGENTS 🎯 MỤC TIÊU Sau bài học này, em sẽ: Nêu được khái niệm AI Agents (tác nhân thông minh) và phân biệt được AI Agent với LLM/chatbot thông thường. Trình bày được vòng lặp hoạt động và các thành phần chính của một AI Agent. Nêu được tiềm năng ứng dụng và..."
             },
             {
               "title": "Bài 2. Cấu trúc AI Agent đơn giản",
@@ -513,7 +513,7 @@
               "printPage": 13,
               "id": "bai-2-cau-truc-ai-agent-don-gian",
               "endPage": 25,
-              "summary": "MỤC TIÊU Sau bài học này, em sẽ: • Trình bày được vai trò của các công cụ no-code trong việc xây dựng AI Agent. • Giải thích được cách thức kết nối các khối chức năng như LLM, công cụ và logic xử lí để tạo nên một AI Agent đơn giản. • Tạo được một AI Agent đơn giản bằng nền tảng ..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Trình bày được vai trò của các công cụ no-code trong việc xây dựng AI Agent. Giải thích được cách thức kết nối các khối chức năng như LLM, công cụ và logic xử lí để tạo nên một AI Agent đơn giản. Tạo được một AI Agent đơn giản bằng nền tảng no-c..."
             }
           ]
         },
@@ -528,7 +528,7 @@
               "printPage": 25,
               "id": "bai-3-rag-nang-cao",
               "endPage": 32,
-              "summary": "Cam Scanner BAI 3. RAG NÂNG CAO MỤC TIÊU Sau bài học này, em sẽ: • Trình bày được vai trò của các kĩ thuật chia nhỏ nội dung (chunking), biểu diễn vector (embedding) và lưu trữ vector (vector store) trong quá trình truy xuất thông tin của RAG. • Giải thích được ảnh hưởng của chất..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Trình bày được vai trò của các kĩ thuật chia nhỏ nội dung (chunking), biểu diễn vector (embedding) và lưu trữ vector (vector store) trong quá trình truy xuất thông tin của RAG. Giải thích được ảnh hưởng của chất lượng truy xuất (retrieval) đến đ..."
             },
             {
               "title": "Bài 4. Thư viện nguồn mở LLM",
@@ -536,7 +536,7 @@
               "printPage": 32,
               "id": "bai-4-thu-vien-nguon-mo-llm",
               "endPage": 38,
-              "summary": "BAI 4! THƯ VIÊN NGUỒN MỞ LLM MỤC TIÊU Sau bài học này, em sẽ: • Trình bày được vai trò và mục đích của thư viện nguồn mở quản lí luồng trong xây dựng ứng dụng dùng LLM. • Trình bày được vai trò của thư viện nguồn mở trong truy xuất và xử lí dữ liệu cho RAG. KHỞI ĐỘNG An đã xây dự..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Trình bày được vai trò và mục đích của thư viện nguồn mở quản lí luồng trong xây dựng ứng dụng dùng LLM. Trình bày được vai trò của thư viện nguồn mở trong truy xuất và xử lí dữ liệu cho RAG. 💡 KHỞI ĐỘNG An đã xây dựng được một trợ lí ảo có các..."
             },
             {
               "title": "Bài 5. Khai thác thư viện nguồn mở LLM",
@@ -544,7 +544,7 @@
               "printPage": 38,
               "id": "bai-5-khai-thac-thu-vien-nguon-mo-llm",
               "endPage": 47,
-              "summary": "BÀI 5. KHAI THÁC THƯ VIỆN NGUỒN MỞ LLM MỤC TIÊU Sau bài học này, em sẽ: • Phân biệt được điểm khác nhau và khả năng bổ trợ giữa thư viện nguồn mở quản lí luồng và thư viện nguồn mở truy xuất, xử lí dữ liệu. KHỞI ĐỘNG An đã tạo được một trợ lí ảo cho cửa hàng tạp hoá. Trợ lí ảo c..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Phân biệt được điểm khác nhau và khả năng bổ trợ giữa thư viện nguồn mở quản lí luồng và thư viện nguồn mở truy xuất, xử lí dữ liệu. 💡 KHỞI ĐỘNG An đã tạo được một trợ lí ảo cho cửa hàng tạp hoá. Trợ lí ảo có thể trả lời các câu hỏi về sản phẩm..."
             }
           ]
         },
@@ -559,7 +559,7 @@
               "printPage": 47,
               "id": "bai-6-tac-dong-cua-ai-den-doi-song-con-nguoi",
               "endPage": 53,
-              "summary": "MỤC TIÊU Sau bài học này, em sẽ: • Trình bày được các vấn đề đạo đức quan trọng trong AI tạo sinh. • Nêu được sự liên kết và tính phức tạp giữa các vấn đề đạo đức trong AI tạo sinh. • Trình bày được vấn đề môi trường trong việc huần luyện và vận hành các mô hình lớn về AI tạo sin..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Trình bày được các vấn đề đạo đức quan trọng trong AI tạo sinh. Nêu được sự liên kết và tính phức tạp giữa các vấn đề đạo đức trong AI tạo sinh. Trình bày được vấn đề môi trường trong việc huấn luyện và vận hành các mô hình lớn về AI tạo sinh. N..."
             },
             {
               "title": "Bài 7. AI mở ra cơ hội và thách thức cho các ngành nghề",
@@ -567,7 +567,7 @@
               "printPage": 53,
               "id": "bai-7-ai-mo-ra-co-hoi-va-thach-thuc-cho-cac-nganh-nghe",
               "endPage": 59,
-              "summary": "BẢI 7: AI MƠ RA CƠ HỘI VÀ HÁCH THỰC CHO CÁC NGÀNH NGHỀ MUC TIEU Sau bài học này, em sẽ: • Chi ra được ảnh hưởng hai một của AI tạo sinh đến việc làm. • Trình bày được các kĩ năng cần có để thích ứng với thời đại A1. KHỞI ĐỘNG Ở vp 9. cứt em đã tìm hiểu vỏ các nhóm nghề trong finh..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Chỉ ra được ảnh hưởng hai mặt của AI tạo sinh đến việc làm. Trình bày được các kĩ năng cần có để thích ứng với thời đại AI. 💡 KHỞI ĐỘNG Ở lớp 9, các em đã tìm hiểu về các nhóm nghề trong lĩnh vực Tin học như Khoa học máy tính, Tin học ứng dụng,..."
             },
             {
               "title": "Bài 8. Quyền con người trong kỉ nguyên AI",
@@ -575,7 +575,7 @@
               "printPage": 59,
               "id": "bai-8-quyen-con-nguoi-trong-ki-nguyen-ai",
               "endPage": 65,
-              "summary": "BÃI 8: QUYỀN CON NGƯỜI TRONG KÌ NGUYÊN AI MỤC TIEU Sau bài học này, em sẽ: • Giải thích được vì sao sự phát triễn của AI có khả năng ảnh hưởng đến các quyền cơ bản của con người. • Trình bày được một số hành động và giải pháp cụ thể để bảo vệ quyền con người trong kỉ nguyên AI. K..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Giải thích được vì sao sự phát triển của AI có khả năng ảnh hưởng đến các quyền cơ bản của con người. Trình bày được một số hành động và giải pháp cụ thể để bảo vệ quyền con người trong kỉ nguyên AI. 💡 KHỞI ĐỘNG Một công ty công nghệ phát hành m..."
             },
             {
               "title": "Bài 9. Phát triển AI có trách nhiệm",
@@ -583,7 +583,7 @@
               "printPage": 65,
               "id": "bai-9-phat-trien-ai-co-trach-nhiem",
               "endPage": 73,
-              "summary": "BÃI 9. PHÁT TRIỂN AI CÓ TRÁCH NHIÊM MỤC TIÊU Sau bài học này, em sẽ: • Trình bày được các nguyên tắc để phát triển AI có trách nhiệm. • Giải thích được khó khăn khi đưa các nguyên tắc phát triển AI có trách nhiệm vào ứng dụng thực tế. • Nêu được tầm quan trọng của việc học tập li..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Trình bày được các nguyên tắc để phát triển AI có trách nhiệm. Giải thích được khó khăn khi đưa các nguyên tắc phát triển AI có trách nhiệm vào ứng dụng thực tế. Nêu được tầm quan trọng của việc học tập liên tục để thích nghi với công nghệ AI. 💡..."
             }
           ]
         },
@@ -598,7 +598,7 @@
               "printPage": 73,
               "id": "bai-10-nguyen-li-co-ban-cua-hoc-may",
               "endPage": 80,
-              "summary": "BÃI 105 NGUYÊN LÍ CƠ BẢN CỦA HỌC MÁY MỤC TIÊU Sau bài học này, em sẽ: • Giải thích được bản chất của Học máy là quá trình tìm quy luật từ dữ liệu. • Phân biệt được hai dạng bài toán Học máy cơ bản: Hồi quy và Phân loại. • Nhận biết được vai trò của dữ liệu trong việc mô hình học ..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Giải thích được bản chất của Học máy là quá trình tìm quy luật từ dữ liệu. Phân biệt được hai dạng bài toán Học máy cơ bản: Hồi quy và Phân loại. Nhận biết được vai trò của dữ liệu trong việc mô hình học và dự đoán. 💡 KHỞI ĐỘNG Minh An, học sinh..."
             },
             {
               "title": "Bài 11. Tối ưu hoá mô hình",
@@ -606,7 +606,7 @@
               "printPage": 80,
               "id": "bai-11-toi-uu-hoa-mo-hinh",
               "endPage": 89,
-              "summary": "BÀI 11: TÔI ƯU HOA MÔ HÌNH MỤC TIÊU Sau bài học này, em sẽ: • Giải thích được vai trò của hàm mất mát trong việc định lượng mức sai lệch giữa dự đoán và thực tế. • Nhận biết được mục tiêu của quá trình huấn luyện là giảm thiểu giá trị trung bình của hàm mất mát trên toàn bộ dữ li..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Giải thích được vai trò của hàm mất mát trong việc định lượng mức sai lệch giữa dự đoán và thực tế. Nhận biết được mục tiêu của quá trình huấn luyện là giảm thiểu giá trị trung bình của hàm mất mát trên toàn bộ dữ liệu. 💡 KHỞI ĐỘNG Hãy tưởng tượ..."
             }
           ]
         },
@@ -621,7 +621,7 @@
               "printPage": 89,
               "id": "bai-12-hinh-thanh-y-tuong-va-lap-ke-hoach",
               "endPage": 95,
-              "summary": "BÀI 12. HÌNH THÀNH Ý TƯỞNG VÀ LẬP KÊ HOẠCH MỤC TIÊU Sau bài học này, em sẽ: • Xác định được vấn đề và phạm vi. • Phân tích và thiết kế được giải pháp. • Lập được kế hoạch xây dựng sản phẩm. KHỞI ĐỘNG Em đã biết về quá trình xây dựng trợ lí ảo cho cửa hàng tạp hóá của gia đình An:..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Xác định được vấn đề và phạm vi. Phân tích và thiết kế được giải pháp. Lập được kế hoạch xây dựng sản phẩm. 💡 KHỞI ĐỘNG Em đã biết về quá trình xây dựng trợ lí ảo cho cửa hàng tạp hóa của gia đình An: Từ việc xác định nhu cầu trả lời khách hàng..."
             },
             {
               "title": "Bài 13. Xây dựng sản phẩm",
@@ -629,7 +629,7 @@
               "printPage": 95,
               "id": "bai-13-xay-dung-san-pham",
               "endPage": 104,
-              "summary": "BÀI 13. XÂY DỰNG SẢN PHẨM MỤC TIEU Sau bài học này, em sẽ: • Thực hiện được việc cài đặt môi trường và xây dựng sản phẩm. KHỞI ĐỘNG Ở' Bài 12, em đã hoàn thành việc xác định vấn đề, thiết kế giải pháp và lập kế hoạch chi tiết cho sản phẩm AI. Công việc tiếp theo là xây dựng một ứ..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Thực hiện được việc cài đặt môi trường và xây dựng sản phẩm. 💡 KHỞI ĐỘNG Ở Bài 12, em đã hoàn thành việc xác định vấn đề, thiết kế giải pháp và lập kế hoạch chi tiết cho sản phẩm AI. Công việc tiếp theo là xây dựng một ứng dụng AI có thể hoạt độ..."
             },
             {
               "title": "Bài 14. Hoàn chỉnh sản phẩm",
@@ -637,7 +637,7 @@
               "printPage": 104,
               "id": "bai-14-hoan-chinh-san-pham",
               "endPage": 112,
-              "summary": "BÀI 14: HOÀN CHINH SẢN PHẬM MUC TIEU Sau bài học này, em sẽ: • Thực hiện được việc kiểm thừ và gỡ lỗi cho sản phẩm. • Cải thiện hiệu suất và độ chính xác của sản phẩm (Tối ưu hoá). KHỞI ĐỘNG Ở Bài 13, em đã hoàn thành việc xây dựng sản phẩm AI, tạo ra phiên bản đầu tiên của trợ l..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Thực hiện được việc kiểm thử và gỡ lỗi cho sản phẩm. Cải thiện hiệu suất và độ chính xác của sản phẩm (Tối ưu hoá). 💡 KHỞI ĐỘNG Ở Bài 13, em đã hoàn thành việc xây dựng sản phẩm AI, tạo ra phiên bản đầu tiên của trợ lí môn học hoặc trợ lí cửa hà..."
             },
             {
               "title": "Bài 15. Trình bày kết quả dự án",
@@ -645,7 +645,7 @@
               "printPage": 112,
               "id": "bai-15-trinh-bay-ket-qua-du-an",
               "endPage": 118,
-              "summary": "BÃI 15. TRÌNH BÀY KÊT QUA DỰ AN MUC TIÊU Sau bài học này, em sẽ: • Trình bày được kết quả dự án. • Giải thích được ý nghĩa và tác động của sản phẩm. KHỞI ĐỘNG Qua những bài học vừa rồi, nhóm em đã cùng nhau trải qua một hành trình thú vị: từ việc xác định vấn đề, lên ý tưởng, thi..."
+              "summary": "🎯 MỤC TIÊU Sau bài học này, em sẽ: Trình bày được kết quả dự án. Giải thích được ý nghĩa và tác động của sản phẩm. 💡 KHỞI ĐỘNG Qua những bài học vừa rồi, nhóm em đã cùng nhau trải qua một hành trình thú vị: từ việc xác định vấn đề, lên ý tưởng, thiết kế giải pháp (Bài 12), cho đế..."
             }
           ]
         },
@@ -658,7 +658,7 @@
               "printPage": 118,
               "id": "bang-giai-thich-thuat-ngu",
               "endPage": 120,
-              "summary": "BẢNG GIẢI THÍCH THUẬT NGỮ Thuật ngữ Giải thích Trang Hệ thống trí tuệ nhân tạo có thể quan sát, xử lí thông tin, ra quyết định và hành động để đạt AI Agent (Tác nhân thông minh) mục tiêu. AI tạo sinh (Generative AI) Loại trí tuệ nhân tạo có khả năng tạo ra nội dung mới (văn bản, ..."
+              "summary": "BẢNG GIẢI THÍCH THUẬT NGỮ AI Agent (Tác nhân thông minh): Hệ thống trí tuệ nhân tạo có thể quan sát, xử lí thông tin, ra quyết định và hành động để đạt mục tiêu. AI tạo sinh (Generative AI): Loại trí tuệ nhân tạo có khả năng tạo ra nội dung mới (văn bản, hình ảnh, âm thanh, video..."
             },
             {
               "title": "Thông tin xuất bản & Bìa sau",
@@ -666,7 +666,7 @@
               "printPage": 120,
               "id": "thong-tin-xuat-ban-bia-sau",
               "endPage": 122,
-              "summary": "Trân trọng cảm ơn các tác giả có tác phẩm, ơ liệu được sử dụng, trích dẫn trong cuốn sách này. Chịu trách nhiệm xuất bản: Chủ tịch Hội đồng thành viên - Tổng Giảm đốc NGUYỄN TIỀN THANH Chịu trách nhiệm nội dung: Tổng biên tập PHẠM VĨNH THÁI Tổ chức và chịu trách nhiệm bản thảo: P..."
+              "summary": "Trân trọng cảm ơn các tác giả có tác phẩm, tư liệu được sử dụng, trích dẫn trong cuốn sách này. Chịu trách nhiệm xuất bản: Chủ tịch Hội đồng thành viên - Tổng Giám đốc NGUYỄN TIẾN THANH Chịu trách nhiệm nội dung: Tổng biên tập PHẠM VĨNH THÁI Tổ chức và chịu trách nhiệm bản thảo:..."
             }
           ]
         }
