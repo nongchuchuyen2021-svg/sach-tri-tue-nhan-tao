@@ -1,0 +1,436 @@
+{
+  "1": [
+    {
+      "id": "khoi-dong-ban-minh",
+      "bai": 1,
+      "caption": "Tình huống bạn Minh chủ động đổi mới phương pháp học tập",
+      "path": "assets/images/lop-10/bai-1/khoi-dong-ban-minh.webp",
+      "size": [
+        624,
+        393
+      ]
+    },
+    {
+      "id": "hinh-1-1-nhan-dang-sinh-trac",
+      "bai": 1,
+      "caption": "Hình 1.1. Chức năng nhận dạng sinh trắc của điện thoại thông minh",
+      "path": "assets/images/lop-10/bai-1/hinh-1-1-nhan-dang-sinh-trac.webp",
+      "size": [
+        841,
+        834
+      ]
+    },
+    {
+      "id": "tri-thong-minh-nguoi-va-ai",
+      "bai": 1,
+      "caption": "So sánh trí thông minh sinh học của con người với mạng nơ-ron nhân tạo của AI",
+      "path": "assets/images/lop-10/bai-1/tri-thong-minh-nguoi-va-ai.webp",
+      "size": [
+        646,
+        571
+      ]
+    },
+    {
+      "id": "ai-hep-va-ai-tong-quat",
+      "bai": 1,
+      "caption": "Minh họa sự phát triển từ AI hẹp (ANI) hướng tới AI tổng quát (AGI)",
+      "path": "assets/images/lop-10/bai-1/ai-hep-va-ai-tong-quat.webp",
+      "size": [
+        626,
+        604
+      ]
+    },
+    {
+      "id": "o-to-tu-lai-van-dung",
+      "bai": 1,
+      "caption": "Ô tô tự lái nhận diện làn đường và vật cản thông qua hệ thống cảm biến AI",
+      "path": "assets/images/lop-10/bai-1/o-to-tu-lai-van-dung.webp",
+      "size": [
+        1708,
+        1000
+      ]
+    }
+  ],
+  "2": [
+    {
+      "id": "hinh-2-1",
+      "bai": 2,
+      "caption": "Hình 2.1. Một số công cụ AI tạo sinh (Gemini, ChatGPT, Suno AI)",
+      "path": "assets/images/lop-10/bai-2/hinh-2-1.webp",
+      "size": [
+        1812,
+        966
+      ]
+    },
+    {
+      "id": "hinh-2-2",
+      "bai": 2,
+      "caption": "Hình 2.2. Sự khác nhau giữa AI tạo sinh và AI thế hệ trước",
+      "path": "assets/images/lop-10/bai-2/hinh-2-2.webp",
+      "size": [
+        1771,
+        979
+      ]
+    },
+    {
+      "id": "hinh-2-3-2-4",
+      "bai": 2,
+      "caption": "Hình 2.3 & 2.4. Đăng ký tài khoản mới và đăng nhập ChatGPT",
+      "path": "assets/images/lop-10/bai-2/hinh-2-3-2-4.webp",
+      "size": [
+        1625,
+        1083
+      ]
+    },
+    {
+      "id": "hinh-2-5",
+      "bai": 2,
+      "caption": "Hình 2.5. Giao diện nhập yêu cầu (prompt) cho ChatGPT",
+      "path": "assets/images/lop-10/bai-2/hinh-2-5.webp",
+      "size": [
+        1729,
+        688
+      ]
+    },
+    {
+      "id": "hinh-2-6",
+      "bai": 2,
+      "caption": "Hình 2.6. Giao diện kết quả tạo thiệp sinh nhật của ChatGPT",
+      "path": "assets/images/lop-10/bai-2/hinh-2-6.webp",
+      "size": [
+        1708,
+        1075
+      ]
+    },
+    {
+      "id": "hinh-2-7",
+      "bai": 2,
+      "caption": "Hình 2.7. Giao diện Suno AI cho phép nhập mô tả bài hát",
+      "path": "assets/images/lop-10/bai-2/hinh-2-7.webp",
+      "size": [
+        1688,
+        979
+      ]
+    },
+    {
+      "id": "hinh-2-8",
+      "bai": 2,
+      "caption": "Hình 2.8. Kết quả bài hát được tạo ra từ Suno AI",
+      "path": "assets/images/lop-10/bai-2/hinh-2-8.webp",
+      "size": [
+        1791,
+        1134
+      ]
+    },
+    {
+      "id": "hinh-2-9",
+      "bai": 2,
+      "caption": "Hình 2.9. Giao diện kết quả của ChatGPT khi tạo đoạn văn",
+      "path": "assets/images/lop-10/bai-2/hinh-2-9.webp",
+      "size": [
+        1666,
+        813
+      ]
+    }
+  ],
+  "3": [
+    {
+      "id": "hinh-3-1",
+      "bai": 3,
+      "caption": "Hình 3.1. Mô hình ngôn ngữ lớn (LLM) và cơ chế xử lí văn bản",
+      "path": "assets/images/lop-10/bai-3/hinh-3-1.webp",
+      "size": [
+        1875,
+        1146
+      ]
+    },
+    {
+      "id": "hinh-3-2",
+      "bai": 3,
+      "caption": "Hình 3.2. LLM có thể tạo ảnh từ văn bản mô tả",
+      "path": "assets/images/lop-10/bai-3/hinh-3-2.webp",
+      "size": [
+        1750,
+        887
+      ]
+    },
+    {
+      "id": "hinh-3-3",
+      "bai": 3,
+      "caption": "Hình 3.3. Giao diện đăng nhập tài khoản Google để sử dụng Gemini",
+      "path": "assets/images/lop-10/bai-3/hinh-3-3.webp",
+      "size": [
+        1705,
+        633
+      ]
+    },
+    {
+      "id": "hinh-3-4",
+      "bai": 3,
+      "caption": "Hình 3.4. Giao diện cho phép nhập yêu cầu (prompt) và kết quả của Gemini",
+      "path": "assets/images/lop-10/bai-3/hinh-3-4.webp",
+      "size": [
+        1771,
+        1075
+      ]
+    }
+  ],
+  "4": [
+    {
+      "id": "hinh-4-1",
+      "bai": 4,
+      "caption": "Hình 4.1. Các loại dữ liệu có thể sử dụng để huấn luyện AI",
+      "path": "assets/images/lop-10/bai-4/hinh-4-1.webp",
+      "size": [
+        1771,
+        1626
+      ]
+    },
+    {
+      "id": "hinh-4-2",
+      "bai": 4,
+      "caption": "Hình 4.2. Chất lượng và số lượng dữ liệu huấn luyện",
+      "path": "assets/images/lop-10/bai-4/hinh-4-2.webp",
+      "size": [
+        1833,
+        1604
+      ]
+    }
+  ],
+  "5": [
+    {
+      "id": "hinh-5-1",
+      "bai": 5,
+      "caption": "Hình 5.1. Prompt trong AI tạo sinh – Giao tiếp hiệu quả",
+      "path": "assets/images/lop-10/bai-5/hinh-5-1.webp",
+      "size": [
+        1791,
+        517
+      ]
+    },
+    {
+      "id": "hinh-5-2",
+      "bai": 5,
+      "caption": "Hình 5.2. Các thành phần của một prompt hoàn chỉnh",
+      "path": "assets/images/lop-10/bai-5/hinh-5-2.webp",
+      "size": [
+        1771,
+        1592
+      ]
+    }
+  ],
+  "6": [
+    {
+      "id": "hinh-6-1",
+      "bai": 6,
+      "caption": "Hình 6.1. AI tạo sinh có thể hỗ trợ học tập đa lĩnh vực",
+      "path": "assets/images/lop-10/bai-6/hinh-6-1.webp",
+      "size": [
+        1760,
+        1292
+      ]
+    },
+    {
+      "id": "hinh-6-2",
+      "bai": 6,
+      "caption": "Hình 6.2. Cách sử dụng AI tạo sinh hiệu quả trong học tập",
+      "path": "assets/images/lop-10/bai-6/hinh-6-2.webp",
+      "size": [
+        1745,
+        1146
+      ]
+    },
+    {
+      "id": "hinh-6-3",
+      "bai": 6,
+      "caption": "Hình 6.3. Trách nhiệm của học sinh khi sử dụng AI tạo sinh",
+      "path": "assets/images/lop-10/bai-6/hinh-6-3.webp",
+      "size": [
+        1833,
+        1626
+      ]
+    }
+  ],
+  "7": [
+    {
+      "id": "hinh-7-1",
+      "bai": 7,
+      "caption": "Hình 7.1. Những rủi ro khi dùng AI tạo sinh và thông tin sai lệch",
+      "path": "assets/images/lop-10/bai-7/hinh-7-1.webp",
+      "size": [
+        1712,
+        821
+      ]
+    }
+  ],
+  "8": [
+    {
+      "id": "hinh-8-1",
+      "bai": 8,
+      "caption": "Hình 8.1. AI tạo sinh có thể tạo ra nội dung thiên vị (Bias)",
+      "path": "assets/images/lop-10/bai-8/hinh-8-1.webp",
+      "size": [
+        1808,
+        917
+      ]
+    },
+    {
+      "id": "hinh-8-2",
+      "bai": 8,
+      "caption": "Hình 8.2. Vai trò của con người khi kiểm soát và sử dụng AI",
+      "path": "assets/images/lop-10/bai-8/hinh-8-2.webp",
+      "size": [
+        1721,
+        1479
+      ]
+    }
+  ],
+  "9": [
+    {
+      "id": "hinh-9-1",
+      "bai": 9,
+      "caption": "Hình 9.1. Sáu miền năng lực số cho người học",
+      "path": "assets/images/lop-10/bai-9/hinh-9-1.webp",
+      "size": [
+        1645,
+        1688
+      ]
+    }
+  ],
+  "10": [
+    {
+      "id": "hinh-10-1",
+      "bai": 10,
+      "caption": "Hình 10.1. Tác động của AI đến thị trường việc làm",
+      "path": "assets/images/lop-10/bai-10/hinh-10-1.webp",
+      "size": [
+        1763,
+        1229
+      ]
+    },
+    {
+      "id": "hinh-10-2",
+      "bai": 10,
+      "caption": "Hình 10.2. Học hỏi để đồng hành cùng AI trong tương lai",
+      "path": "assets/images/lop-10/bai-10/hinh-10-2.webp",
+      "size": [
+        1675,
+        800
+      ]
+    }
+  ],
+  "11": [
+    {
+      "id": "hinh-11-1",
+      "bai": 11,
+      "caption": "Hình 11.1. Giao diện môi trường Google Colab",
+      "path": "assets/images/lop-10/bai-11/hinh-11-1.webp",
+      "size": [
+        1726,
+        758
+      ]
+    },
+    {
+      "id": "hinh-11-2",
+      "bai": 11,
+      "caption": "Hình 11.2 & 11.3. Giao diện code, thực thi và kết quả",
+      "path": "assets/images/lop-10/bai-11/hinh-11-2.webp",
+      "size": [
+        1759,
+        1575
+      ]
+    },
+    {
+      "id": "hinh-11-4",
+      "bai": 11,
+      "caption": "Hình 11.4. Giao diện nền tảng Kaggle",
+      "path": "assets/images/lop-10/bai-11/hinh-11-4.webp",
+      "size": [
+        1645,
+        1292
+      ]
+    },
+    {
+      "id": "hinh-11-5",
+      "bai": 11,
+      "caption": "Hình 11.5. Giao diện một sổ tay mới trong Kaggle",
+      "path": "assets/images/lop-10/bai-11/hinh-11-5.webp",
+      "size": [
+        1645,
+        875
+      ]
+    },
+    {
+      "id": "hinh-11-6",
+      "bai": 11,
+      "caption": "Hình 11.6. Kết quả chuyển từ văn bản sang giọng nói (Text-to-Speech)",
+      "path": "assets/images/lop-10/bai-11/hinh-11-6.webp",
+      "size": [
+        1760,
+        1417
+      ]
+    },
+    {
+      "id": "hinh-11-3",
+      "bai": 11,
+      "caption": "Hình 11.3. Giao diện code, kết quả và ghi chú trong Google Colab",
+      "path": "assets/images/lop-10/bai-11/hinh-11-3.webp",
+      "size": [
+        1437,
+        458
+      ]
+    }
+  ],
+  "12": [
+    {
+      "id": "hinh-12-1",
+      "bai": 12,
+      "caption": "Hình 12.1. AI tạo sinh hỗ trợ gợi ý ý tưởng viết truyện và dự án",
+      "path": "assets/images/lop-10/bai-12/hinh-12-1.webp",
+      "size": [
+        1833,
+        950
+      ]
+    },
+    {
+      "id": "hinh-12-2",
+      "bai": 12,
+      "caption": "Hình 12.2. Hình ảnh minh họa trang 1 trong câu chuyện của bạn Linh",
+      "path": "assets/images/lop-10/bai-12/hinh-12-2.webp",
+      "size": [
+        1756,
+        1800
+      ]
+    },
+    {
+      "id": "hinh-12-3",
+      "bai": 12,
+      "caption": "Hình 12.3. Hình ảnh minh họa trang 2 trong câu chuyện của bạn Linh",
+      "path": "assets/images/lop-10/bai-12/hinh-12-3.webp",
+      "size": [
+        1807,
+        2146
+      ]
+    },
+    {
+      "id": "hinh-12-4",
+      "bai": 12,
+      "caption": "Hình 12.4. Hình ảnh minh họa trang 3 trong câu chuyện của bạn Linh",
+      "path": "assets/images/lop-10/bai-12/hinh-12-4.webp",
+      "size": [
+        1696,
+        1792
+      ]
+    },
+    {
+      "id": "hinh-12-6",
+      "bai": 12,
+      "caption": "Hình 12.6. Hình ảnh minh họa trang 5 trong câu chuyện của bạn Linh",
+      "path": "assets/images/lop-10/bai-12/hinh-12-6.webp",
+      "size": [
+        1771,
+        1166
+      ]
+    }
+  ]
+}
