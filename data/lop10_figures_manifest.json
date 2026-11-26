@@ -1,0 +1,387 @@
+{
+  "1": [
+    {
+      "id": "hinh-1-1",
+      "bai": 1,
+      "hinh": 1,
+      "caption": "Hình 1.1. Chức năng nhận dạng",
+      "path": "assets/images/lop-10/bai-1/hinh-1-1.webp",
+      "size": [
+        1930,
+        190
+      ]
+    }
+  ],
+  "2": [
+    {
+      "id": "hinh-2-1",
+      "bai": 2,
+      "hinh": 1,
+      "caption": "Hình 2.1. Môt số công cụ AI tạo sinh",
+      "path": "assets/images/lop-10/bai-2/hinh-2-1.webp",
+      "size": [
+        870,
+        714
+      ]
+    },
+    {
+      "id": "hinh-2-2",
+      "bai": 2,
+      "hinh": 2,
+      "caption": "Hình 2.2. Sự khác nhau giữa A/ lạo sinh và Ai thô hệ trước",
+      "path": "assets/images/lop-10/bai-2/hinh-2-2.webp",
+      "size": [
+        2029,
+        973
+      ]
+    },
+    {
+      "id": "hinh-2-3",
+      "bai": 2,
+      "hinh": 3,
+      "caption": "Hình 2.3. Tạo tài khoản mới",
+      "path": "assets/images/lop-10/bai-2/hinh-2-3.webp",
+      "size": [
+        1815,
+        835
+      ]
+    },
+    {
+      "id": "hinh-2-5",
+      "bai": 2,
+      "hinh": 5,
+      "caption": "Hình 2.5. Giao diện nhập yều cầu cho ChatGPT",
+      "path": "assets/images/lop-10/bai-2/hinh-2-5.webp",
+      "size": [
+        1002,
+        169
+      ]
+    },
+    {
+      "id": "hinh-2-6",
+      "bai": 2,
+      "hinh": 6,
+      "caption": "Hình 2.6. Giao diện kết quả của ChatGPT",
+      "path": "assets/images/lop-10/bai-2/hinh-2-6.webp",
+      "size": [
+        942,
+        1074
+      ]
+    },
+    {
+      "id": "hinh-2-7",
+      "bai": 2,
+      "hinh": 7,
+      "caption": "Hình 2.7. Suno A/ cho phép nhập mô tả bài hát",
+      "path": "assets/images/lop-10/bai-2/hinh-2-7.webp",
+      "size": [
+        1024,
+        912
+      ]
+    },
+    {
+      "id": "hinh-2-8",
+      "bai": 2,
+      "hinh": 8,
+      "caption": "Hình 2.8. Kết quả nhạc được tạo ra từ Sưno A/",
+      "path": "assets/images/lop-10/bai-2/hinh-2-8.webp",
+      "size": [
+        1044,
+        873
+      ]
+    }
+  ],
+  "3": [
+    {
+      "id": "hinh-3-1",
+      "bai": 3,
+      "hinh": 1,
+      "caption": "Hình 3.1. Mô hình ngôn ngữ lớn",
+      "path": "assets/images/lop-10/bai-3/hinh-3-1.webp",
+      "size": [
+        1918,
+        187
+      ]
+    },
+    {
+      "id": "hinh-3-2",
+      "bai": 3,
+      "hinh": 2,
+      "caption": "Hình 3.2. LLM có thể tạo ảnh từ ván bản",
+      "path": "assets/images/lop-10/bai-3/hinh-3-2.webp",
+      "size": [
+        910,
+        115
+      ]
+    },
+    {
+      "id": "hinh-3-3",
+      "bai": 3,
+      "hinh": 3,
+      "caption": "Hình 3.3. Giao diện đăng nhập tài khoản Google",
+      "path": "assets/images/lop-10/bai-3/hinh-3-3.webp",
+      "size": [
+        1023,
+        132
+      ]
+    },
+    {
+      "id": "hinh-3-4",
+      "bai": 3,
+      "hinh": 4,
+      "caption": "Hình 3.4. Giao diện cho phép nhập yêu cầu (prompt) và kết quả của Gemini",
+      "path": "assets/images/lop-10/bai-3/hinh-3-4.webp",
+      "size": [
+        1914,
+        96
+      ]
+    }
+  ],
+  "4": [
+    {
+      "id": "hinh-4-1",
+      "bai": 4,
+      "hinh": 1,
+      "caption": "Hình 4.1. Các loại dữ liệu có thể",
+      "path": "assets/images/lop-10/bai-4/hinh-4-1.webp",
+      "size": [
+        1879,
+        273
+      ]
+    },
+    {
+      "id": "hinh-4-2",
+      "bai": 4,
+      "hinh": 2,
+      "caption": "Hình 4.2. Chất lượng của dữ liệu và số lượng dữ liệu huấn luyện",
+      "path": "assets/images/lop-10/bai-4/hinh-4-2.webp",
+      "size": [
+        1882,
+        493
+      ]
+    }
+  ],
+  "5": [
+    {
+      "id": "hinh-5-1",
+      "bai": 5,
+      "hinh": 1,
+      "caption": "Hình 5.1. Prompt trong Al tạo sinh",
+      "path": "assets/images/lop-10/bai-5/hinh-5-1.webp",
+      "size": [
+        1927,
+        309
+      ]
+    },
+    {
+      "id": "hinh-5-2",
+      "bai": 5,
+      "hinh": 2,
+      "caption": "Hình 5.2. Các thành phần của một prompt",
+      "path": "assets/images/lop-10/bai-5/hinh-5-2.webp",
+      "size": [
+        954,
+        234
+      ]
+    }
+  ],
+  "6": [
+    {
+      "id": "hinh-6-1",
+      "bai": 6,
+      "hinh": 1,
+      "caption": "Hình 6.1. Al tạo sinh có thể hỗ trợ học tập",
+      "path": "assets/images/lop-10/bai-6/hinh-6-1.webp",
+      "size": [
+        891,
+        574
+      ]
+    },
+    {
+      "id": "hinh-6-2",
+      "bai": 6,
+      "hinh": 2,
+      "caption": "Hình 6.2. Cách sử dụng Al lạo sinh hiệu quả trong học tập",
+      "path": "assets/images/lop-10/bai-6/hinh-6-2.webp",
+      "size": [
+        1203,
+        1015
+      ]
+    },
+    {
+      "id": "hinh-6-3",
+      "bai": 6,
+      "hinh": 3,
+      "caption": "Hình 6.3. Trách nhiệm của học sinh khi sử dụng Al tạo sinh",
+      "path": "assets/images/lop-10/bai-6/hinh-6-3.webp",
+      "size": [
+        1228,
+        435
+      ]
+    }
+  ],
+  "7": [
+    {
+      "id": "hinh-7-1",
+      "bai": 7,
+      "hinh": 1,
+      "caption": "Hình 7.1. Những rủi ro khi dùng Al tạo sinh",
+      "path": "assets/images/lop-10/bai-7/hinh-7-1.webp",
+      "size": [
+        927,
+        789
+      ]
+    }
+  ],
+  "8": [
+    {
+      "id": "hinh-8-1",
+      "bai": 8,
+      "hinh": 1,
+      "caption": "Hình 8.1. Al tạo sinh có thể tạo ra nội dung thiên vị",
+      "path": "assets/images/lop-10/bai-8/hinh-8-1.webp",
+      "size": [
+        1063,
+        393
+      ]
+    },
+    {
+      "id": "hinh-8-2",
+      "bai": 8,
+      "hinh": 2,
+      "caption": "Hình 8.2. Vai trò của con người khi sử dụng AI",
+      "path": "assets/images/lop-10/bai-8/hinh-8-2.webp",
+      "size": [
+        964,
+        645
+      ]
+    }
+  ],
+  "10": [
+    {
+      "id": "hinh-10-1",
+      "bai": 10,
+      "hinh": 1,
+      "caption": "Hình 10.1. Tác động của AI đền việc làm",
+      "path": "assets/images/lop-10/bai-10/hinh-10-1.webp",
+      "size": [
+        1848,
+        156
+      ]
+    },
+    {
+      "id": "hinh-10-2",
+      "bai": 10,
+      "hinh": 2,
+      "caption": "Hình 10.2. Học hồi để đồng hành cùng AI:",
+      "path": "assets/images/lop-10/bai-10/hinh-10-2.webp",
+      "size": [
+        873,
+        757
+      ]
+    }
+  ],
+  "11": [
+    {
+      "id": "hinh-11-1",
+      "bai": 11,
+      "hinh": 1,
+      "caption": "Hình 11.1. Giao diện của Google Colab",
+      "path": "assets/images/lop-10/bai-11/hinh-11-1.webp",
+      "size": [
+        820,
+        414
+      ]
+    },
+    {
+      "id": "hinh-11-4",
+      "bai": 11,
+      "hinh": 4,
+      "caption": "Hình 11.4. Giao diện của Kaggle",
+      "path": "assets/images/lop-10/bai-11/hinh-11-4.webp",
+      "size": [
+        694,
+        477
+      ]
+    },
+    {
+      "id": "hinh-11-5",
+      "bai": 11,
+      "hinh": 5,
+      "caption": "Hình 11.5. Giao diện một sổ tay mới trong Kaggle",
+      "path": "assets/images/lop-10/bai-11/hinh-11-5.webp",
+      "size": [
+        987,
+        171
+      ]
+    },
+    {
+      "id": "hinh-11-6",
+      "bai": 11,
+      "hinh": 6,
+      "caption": "Hình 11.6",
+      "path": "assets/images/lop-10/bai-11/hinh-11-6.webp",
+      "size": [
+        1180,
+        169
+      ]
+    }
+  ],
+  "12": [
+    {
+      "id": "hinh-12-1",
+      "bai": 12,
+      "hinh": 1,
+      "caption": "Hình 12.1. AI lạo sinh hỗ trợ gợi ý ý tường cho viết truyện và thiết kế dự án",
+      "path": "assets/images/lop-10/bai-12/hinh-12-1.webp",
+      "size": [
+        1893,
+        952
+      ]
+    },
+    {
+      "id": "hinh-12-2",
+      "bai": 12,
+      "hinh": 2,
+      "caption": "Hình 12.2. Hình ảnh trang 1 trong câu chuyện của bạn Linh",
+      "path": "assets/images/lop-10/bai-12/hinh-12-2.webp",
+      "size": [
+        1219,
+        997
+      ]
+    },
+    {
+      "id": "hinh-12-3",
+      "bai": 12,
+      "hinh": 3,
+      "caption": "Hình 12.3. Hình ảnh trang 2 trong câu chuyện của bạn Linh",
+      "path": "assets/images/lop-10/bai-12/hinh-12-3.webp",
+      "size": [
+        1197,
+        418
+      ]
+    },
+    {
+      "id": "hinh-12-4",
+      "bai": 12,
+      "hinh": 4,
+      "caption": "Hình 12.4. Hình ảnh trang 3 trong câu chuyện của bạn Linh",
+      "path": "assets/images/lop-10/bai-12/hinh-12-4.webp",
+      "size": [
+        1162,
+        307
+      ]
+    },
+    {
+      "id": "hinh-12-6",
+      "bai": 12,
+      "hinh": 6,
+      "caption": "Hình 12.6. Hình ảnh trang 5 trong cầu chuyện của ban Linh",
+      "path": "assets/images/lop-10/bai-12/hinh-12-6.webp",
+      "size": [
+        1230,
+        1195
+      ]
+    }
+  ]
+}
